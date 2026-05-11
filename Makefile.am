@@ -17,6 +17,7 @@ DATABASE=\
 	Kinec_v3.dat\
 	Kinec.v2.dat\
 	llnl.dat\
+	minimum.dat\
 	minteq.dat\
 	minteq.v4.dat\
 	phreeqc_rates.dat\

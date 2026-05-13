@@ -1,18 +1,31 @@
 Version @PHREEQC_VER@: @PHREEQC_DATE@
 
 	-----------------
-	February 13, 2025
+	May 12, 2026
 	-----------------
-	PhreeqcRM: Callback for Python.
+	PhreeqcRM: The callback functionality that was available in C++ and Fortran has 
+	been implemented for Python. The implementation allows use of the function CALLBACK in
+	any of the Basic scripts defined for PHREEQC (mainly, USER_PUNCH and RATES). 
+	The CALLBACK function allows information from the user's model to be passed to 
+	output and rates calculations in PhreeqcRM.
+
+	To implement the CALLBACK Basic function, it is necessary to specify a Python function
+	with the new Python PhreeqcRM method set_basic_callback. The Python function returns a float
+	that is interpreted as the result of the Basic CALLBACK function. 
+
+	For MPI, another layer is necessary to use the CALLBACK Basic function. The Python PhreeqcRM
+	method set_mpi_worker_callback defines an intermediate Python callback function that allows
+	the workers of MPI to respond to user-defined task requests from root. An example of 
+	using CALLBACK with MPI is included in the script swig/python/TestAllMethods.py.
 	
 	-----------------
-	February 13, 2025
+	February 13, 2026
 	-----------------
 	PHREEQC: In SOLUTION input, if a blank value is given for pH, pe, an
 	element, temperature, density, or units, the input line is ignored.
 	
 	-----------------
-	February 13, 2025
+	February 13, 2026
 	-----------------
 	PhreeqcRM: Fixed a bug with GetDensityCalculated (equivalent to GetDensity, which is 
 	deprecated). The values returned from the method were not always current. This change
@@ -21,11 +34,11 @@ Version @PHREEQC_VER@: @PHREEQC_DATE@
 	have always been correct.
 	
 	-----------------
-	February 1, 2025
+	February 1, 2026
 	-----------------
 	PhreeqcRM: MPI has been implemented for the Python version. The package 
-	mpi4py is required. Python test cases for OpenMP and MPI are included
-	in the swig/python directory of the installation.
+	mpi4py is required. Python test cases included in the swig/python directory of the 
+	installation work for both OpenMP and MPI.
 	
 	-----------------
 	October 13, 2025

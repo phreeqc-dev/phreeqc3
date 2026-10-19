@@ -1647,6 +1647,15 @@ print_species(void)
 	if (SC)
 	{
 		output_msg(sformatf(" ¹: Contribution to the relative viscosity change ((viscos / viscos_0 - 1) x 100).\n"));
+		LDBLE tc_lim = 150, tc_fac = 2.25e-4;
+		class species* s_ptr;
+		s_ptr = s_search("H+");
+		if (s_ptr->Jones_Dole[7] && s_ptr->Jones_Dole[8])
+		{
+			tc_lim = s_ptr->Jones_Dole[7]; tc_fac = s_ptr->Jones_Dole[8];
+		}
+		if (tc_x > tc_lim)
+			output_msg(sformatf("%28s%i%49s\n%58s%8.2e%9s%i%3s\n","(Calculated at tc_lim = ",(int) tc_lim, "ºC for individual solutes. At higher temperatures,", "the model decreases the viscosity by exp(-", (double) tc_fac, " * (tc - ", (int) tc_lim, ").)"));
 		output_msg(sformatf(" ²: Contribution to the specific conductance (Transport Number x 100).\n\n"));
 	}
 #endif

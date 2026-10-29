@@ -51,22 +51,22 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.061      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 389
-                          Density (g/cm³)  =   0.99706
-                               Volume (L)  =   1.00298
-                        Viscosity (mPa s)  =   0.89015
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   9.997e-04
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =  -9.000e-04
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   6.706e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   5
-                                  Total H  = 1.110133e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  3.061        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  389       
+                           Density (g/cm³)  =  0.99706  
+                                Volume (L)  =  1.00298  
+                         Viscosity (mPa s)  =  0.89015  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  9.997e-04  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  -9.000e-04 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  6.706e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  5   
+                                   Total H  =  1.110133e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -297,23 +297,23 @@ X                1.101e-03 mol	[1 (mol Ca0.5X)/(mol Calcite)]
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   8.112      Charge balance
-                                       pe  =  -2.318      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 214
-                          Density (g/cm³)  =   0.99715
-                               Volume (L)  =   1.00299
-                        Viscosity (mPa s)  =   0.89103
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.787e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   8.987e-04
-                       Total CO2 (mol/kg)  =   8.993e-04
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   6.706e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  17
-                                  Total H  = 1.110133e+02
-                                  Total O  = 5.550891e+01
+                                        pH  =  8.112        Charge balance
+                                        pe  =  -2.318       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  214       
+                           Density (g/cm³)  =  0.99715  
+                                Volume (L)  =  1.00299  
+                         Viscosity (mPa s)  =  0.89123  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.787e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  8.987e-04  
+                        Total CO2 (mol/kg)  =  8.993e-04  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  6.706e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  17  
+                                   Total H  =  1.110133e+02
+                                   Total O  =  5.550891e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -326,11 +326,11 @@ X                1.101e-03 mol	[1 (mol Ca0.5X)/(mol Calcite)]
 C(-4)         1.575e-27
    CH4             1.575e-27   1.576e-27   -26.803   -26.803     0.000     35.46
 C(4)          8.993e-04
-   HCO3-           8.727e-04   8.247e-04    -3.059    -3.084    -0.025     24.60
+   HCO3-           8.727e-04   8.247e-04    -3.059    -3.084    -0.025     23.40
    CO2             1.432e-05   1.433e-05    -4.844    -4.844     0.000     34.79
-   CO3-2           6.278e-06   5.004e-06    -5.202    -5.301    -0.098     -4.58
+   CO3-2           6.278e-06   5.004e-06    -5.202    -5.301    -0.098     -6.10
    CaCO3           5.985e-06   5.989e-06    -5.223    -5.223     0.000    -14.60
-   NaHCO3          3.788e-08   3.792e-08    -7.422    -7.421     0.000     17.66
+   NaHCO3          3.788e-08   3.792e-08    -7.422    -7.421     0.000     24.51
    CaHCO3+         5.448e-11   5.151e-11   -10.264   -10.288    -0.024      9.69
    (CO2)2          3.337e-12   3.338e-12   -11.477   -11.476     0.000     68.75
 Ca            9.001e-04
@@ -345,7 +345,7 @@ H(0)          3.660e-15
    H2              1.830e-15   1.831e-15   -14.738   -14.737     0.000     14.99
 Na            9.856e-05
    Na+             9.852e-05   9.303e-05    -4.006    -4.031    -0.025     -1.45
-   NaHCO3          3.788e-08   3.792e-08    -7.422    -7.421     0.000     17.66
+   NaHCO3          3.788e-08   3.792e-08    -7.422    -7.421     0.000     24.51
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -62.888   -62.888     0.000     30.40
 
@@ -372,4 +372,8 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 12.
 -------------------------------------
+
+-------------------------------
+End of Run after 0.024 Seconds.
+-------------------------------
 

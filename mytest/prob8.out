@@ -65,22 +65,22 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.500    
-                                       pe  =   4.700    
-      Specific Conductance (µS/cm,  25°C)  = 4423
-                          Density (g/cm³)  =   1.00030
-                               Volume (L)  =   1.00340
-                        Viscosity (mPa s)  =   0.89766
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   6.714e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =  -8.124e-06
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -5.071e-02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -75.52
-                               Iterations  =   5
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.563996e+01
+                                        pH  =  5.500      
+                                        pe  =  4.700      
+       Specific Conductance (µS/cm,  25°C)  =  4423      
+                           Density (g/cm³)  =  1.00030  
+                                Volume (L)  =  1.00340  
+                         Viscosity (mPa s)  =  0.89766  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  6.714e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  -8.124e-06 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -5.071e-02 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -75.52
+                                Iterations  =  5   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.563996e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -191,23 +191,23 @@ Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.141e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.656      Charge balance
-                                       pe  =  -0.832      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3946
-                          Density (g/cm³)  =   0.99970
-                               Volume (L)  =   1.00386
-                        Viscosity (mPa s)  =   0.89766
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   5.756e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   2.117e-03
-                       Total CO2 (mol/kg)  =   9.998e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -5.071e-02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -86.48
-                               Iterations  =  10
-                                  Total H  = 1.110324e+02
-                                  Total O  = 5.564996e+01
+                                        pH  =  5.656        Charge balance
+                                        pe  =  -0.832       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3950      
+                           Density (g/cm³)  =  0.99970  
+                                Volume (L)  =  1.00386  
+                         Viscosity (mPa s)  =  0.89830  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  5.756e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  2.117e-03  
+                        Total CO2 (mol/kg)  =  9.998e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -5.071e-02 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -86.48
+                                Iterations  =  10  
+                                   Total H  =  1.110324e+02
+                                   Total O  =  5.564996e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -221,13 +221,13 @@ C(-4)         4.910e-17
    CH4             4.910e-17   4.976e-17   -16.309   -16.303     0.006     35.46
 C(4)          9.998e-03
    CO2             7.874e-03   7.944e-03    -2.104    -2.100     0.004     34.79
-   HCO3-           1.947e-03   1.599e-03    -2.711    -2.796    -0.085     25.11
+   HCO3-           1.947e-03   1.599e-03    -2.711    -2.796    -0.085     25.21
    FeHCO3+         1.696e-04   1.379e-04    -3.771    -3.861    -0.090     (0)  
    ZnHCO3+         4.479e-06   3.642e-06    -5.349    -5.439    -0.090     (0)  
    (CO2)2          1.017e-06   1.026e-06    -5.993    -5.989     0.004     68.75
    FeCO3           6.933e-07   7.026e-07    -6.159    -6.153     0.006     (0)  
    ZnCO3           1.210e-07   1.226e-07    -6.917    -6.911     0.006     (0)  
-   CO3-2           7.492e-08   3.398e-08    -7.125    -7.469    -0.343     -3.66
+   CO3-2           7.492e-08   3.398e-08    -7.125    -7.469    -0.343     -3.94
    Zn(CO3)2-2      2.039e-10   8.909e-11    -9.691   -10.050    -0.360     (0)  
 Fe(2)         3.790e-03
    Fe+2            1.853e-03   8.619e-04    -2.732    -3.065    -0.332    -21.60
@@ -354,23 +354,23 @@ Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.211e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.060      Charge balance
-                                       pe  =  -1.346      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3550
-                          Density (g/cm³)  =   0.99931
-                               Volume (L)  =   1.00421
-                        Viscosity (mPa s)  =   0.89755
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   4.890e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   7.750e-03
-                       Total CO2 (mol/kg)  =   1.999e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -5.071e-02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -96.06
-                               Iterations  =   9
-                                  Total H  = 1.110524e+02
-                                  Total O  = 5.565996e+01
+                                        pH  =  6.060        Charge balance
+                                        pe  =  -1.346       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3564      
+                           Density (g/cm³)  =  0.99931  
+                                Volume (L)  =  1.00421  
+                         Viscosity (mPa s)  =  0.90004  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  4.890e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  7.750e-03  
+                        Total CO2 (mol/kg)  =  1.999e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -5.071e-02 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -96.06
+                                Iterations  =  9   
+                                   Total H  =  1.110524e+02
+                                   Total O  =  5.565996e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -384,12 +384,12 @@ C(-4)         5.759e-16
    CH4             5.759e-16   5.825e-16   -15.240   -15.235     0.005     35.46
 C(4)          1.999e-02
    CO2             1.224e-02   1.233e-02    -1.912    -1.909     0.003     34.79
-   HCO3-           7.584e-03   6.299e-03    -2.120    -2.201    -0.081     25.05
+   HCO3-           7.584e-03   6.299e-03    -2.120    -2.201    -0.081     25.10
    FeHCO3+         1.606e-04   1.321e-04    -3.794    -3.879    -0.085     (0)  
    ZnHCO3+         2.634e-06   2.166e-06    -5.579    -5.664    -0.085     (0)  
    (CO2)2          2.454e-06   2.472e-06    -5.610    -5.607     0.003     68.75
    FeCO3           1.688e-06   1.707e-06    -5.773    -5.768     0.005     (0)  
-   CO3-2           7.159e-07   3.395e-07    -6.145    -6.469    -0.324     -3.75
+   CO3-2           7.159e-07   3.395e-07    -6.145    -6.469    -0.324     -4.11
    ZnCO3           1.830e-07   1.850e-07    -6.738    -6.733     0.005     (0)  
    Zn(CO3)2-2      2.935e-09   1.343e-09    -8.532    -8.872    -0.340     (0)  
 Fe(2)         9.727e-04
@@ -517,23 +517,23 @@ Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.224e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.304      Charge balance
-                                       pe  =  -2.742      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3341
-                          Density (g/cm³)  =   0.99913
-                               Volume (L)  =   1.00457
-                        Viscosity (mPa s)  =   0.89513
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   4.256e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.626e-02
-                       Total CO2 (mol/kg)  =   2.999e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -5.071e-02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -100.00
-                               Iterations  =  27
-                                  Total H  = 1.110724e+02
-                                  Total O  = 5.566996e+01
+                                        pH  =  6.304        Charge balance
+                                        pe  =  -2.742       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3355      
+                           Density (g/cm³)  =  0.99913  
+                                Volume (L)  =  1.00457  
+                         Viscosity (mPa s)  =  0.90014  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  4.256e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.626e-02  
+                        Total CO2 (mol/kg)  =  2.999e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -5.071e-02 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -100.00
+                                Iterations  =  27  
+                                   Total H  =  1.110724e+02
+                                   Total O  =  5.566996e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -549,7 +549,7 @@ C(4)          2.999e-02
    HCO3-           1.553e-02   1.302e-02    -1.809    -1.886    -0.077     25.00
    CO2             1.445e-02   1.454e-02    -1.840    -1.837     0.003     34.79
    (CO2)2          3.416e-06   3.438e-06    -5.466    -5.464     0.003     68.75
-   CO3-2           2.499e-06   1.229e-06    -5.602    -5.910    -0.308     -3.83
+   CO3-2           2.499e-06   1.229e-06    -5.602    -5.910    -0.308     -4.25
    ZnHCO3+         3.970e-15   3.297e-15   -14.401   -14.482    -0.081     (0)  
    ZnCO3           4.887e-16   4.935e-16   -15.311   -15.307     0.004     (0)  
    Zn(CO3)2-2      2.728e-17   1.297e-17   -16.564   -16.887    -0.323     (0)  
@@ -647,4 +647,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.018 Seconds.
+-------------------------------
 

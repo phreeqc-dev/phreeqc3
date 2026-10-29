@@ -1,0 +1,86 @@
+
+# DATABASE c:\phreeqc\database\pitzer.dat
+# DATABASE c:\phreeqc\database\phreeqc_rates.dat
+# DATABASE c:\temp\uz\PHREEQC.DAT
+DATABASE ../database/phreeqc.dat
+#PRINT; -reset false
+SELECTED_OUTPUT 101
+    -file                visc_anio_tc_101.sel
+USER_PUNCH 101
+    -headings Mu SC Viscosity
+    -start
+10 PUNCH STR_F$(MU, 20, 12)
+20 PUNCH STR_F$(SC, 20, 10)
+30 PUNCH STR_F$(VISCOS, 20, 10)
+    -end
+SOLUTION 1
+pH 7 charge
+END
+
+USE solution 1; Reaction 1; NaCl; 5
+REACTION_TEMPERATURE 1; 0 300 in 41
+USER_GRAPH
+-headings tc viscos_0 NaCl
+ 1 v = viscos
+10 graph_x tc : graph_y viscos_0, v
+END
+
+# USE solution 1; Reaction 1; NaF; 5
+# # USE reaction_temperature 1
+# USER_GRAPH
+# -headings tc NaF fan fan2
+ # 1 v = viscos
+# 10 graph_x tc : graph_y v #- get(step_no) : Cl = vm("Cl-")
+# END
+
+USE solution 1; Reaction 1; NaOH; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc NaOH
+ 1 v = viscos
+10 graph_x tc : graph_y v
+END
+
+USE solution 1; Reaction 1; NaBr; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc NaBr
+END
+
+USE solution 1; Reaction 1; NaHCO3; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc NaHCO3
+END
+
+USE solution 1; Reaction 1; KHCO3; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc KHCO3
+END
+
+USE solution 1; Reaction 1; Na2CO3; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc Na2CO3
+END
+
+USE solution 1; Reaction 1; K2CO3; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc K2CO3
+END
+
+USE solution 1; Reaction 1; Na2SO4; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc Na2SO4
+END
+
+
+USE solution 1; Reaction 1; MgSO4; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc MgSO4
+END
+

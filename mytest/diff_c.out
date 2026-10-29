@@ -105,23 +105,23 @@ CH4   1.8500e-09
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 83
-                          Density (g/cm³)  =   0.99710
-                               Volume (L)  =   1.00299
-                        Viscosity (mPa s)  =   0.89042
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   9.112e-04
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   8.220e-04
-                       Total CO2 (mol/kg)  =   1.000e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   1.780e-04
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   9.77
-                               Iterations  =   5
-                                  Total H  = 1.110133e+02
-                                  Total O  = 5.550904e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  83        
+                           Density (g/cm³)  =  0.99710  
+                                Volume (L)  =  1.00299  
+                         Viscosity (mPa s)  =  0.89066  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  9.112e-04  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  8.220e-04  
+                        Total CO2 (mol/kg)  =  1.000e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  1.780e-04  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  9.77  
+                                Iterations  =  5   
+                                   Total H  =  1.110133e+02
+                                   Total O  =  5.550904e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -134,16 +134,16 @@ CH4   1.8500e-09
 C(-4)         0.000e+00
    CH4             0.000e+00   0.000e+00   -67.358   -67.358     0.000     35.46
 C(4)          1.000e-03
-   HCO3-           8.208e-04   7.936e-04    -3.086    -3.100    -0.015     24.56
+   HCO3-           8.208e-04   7.936e-04    -3.086    -3.100    -0.015     22.84
    CO2             1.784e-04   1.784e-04    -3.749    -3.749     0.000     34.79
-   CO3-2           4.258e-07   3.722e-07    -6.371    -6.429    -0.058     -4.68
-   NaHCO3          3.789e-07   3.790e-07    -6.421    -6.421     0.000     17.66
+   CO3-2           4.258e-07   3.722e-07    -6.371    -6.429    -0.058     -6.53
+   NaHCO3          3.789e-07   3.790e-07    -6.421    -6.421     0.000     24.51
    (CO2)2          5.176e-10   5.177e-10    -9.286    -9.286     0.000     68.75
 H(0)          1.416e-25
    H2              7.078e-26   7.079e-26   -25.150   -25.150     0.000     14.99
 Na            1.000e-03
    Na+             9.996e-04   9.663e-04    -3.000    -3.015    -0.015     -1.48
-   NaHCO3          3.789e-07   3.790e-07    -6.421    -6.421     0.000     17.66
+   NaHCO3          3.789e-07   3.790e-07    -6.421    -6.421     0.000     24.51
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -42.063   -42.063     0.000     30.40
 
@@ -167,4 +167,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.016 Seconds.
+-------------------------------
 

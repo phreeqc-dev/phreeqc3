@@ -62,23 +62,23 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =  -0.717      Equilibrium with Goethite
-      Specific Conductance (µS/cm,  10°C)  = 383
-                          Density (g/cm³)  =   1.00013
-                               Volume (L)  =   1.00044
-                        Viscosity (mPa s)  =   1.31039
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   9.223e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   6.199e-03
-                       Total CO2 (mol/kg)  =   7.814e-03
-                         Temperature (°C)  =  10.00
-                  Electrical balance (eq)  =   1.839e-17
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   5
-                                  Total H  = 1.110186e+02
-                                  Total O  = 5.552803e+01
+                                        pH  =  7.000      
+                                        pe  =  -0.717       Equilibrium with Goethite
+       Specific Conductance (µS/cm,  10°C)  =  388       
+                           Density (g/cm³)  =  1.00014  
+                                Volume (L)  =  1.00044  
+                         Viscosity (mPa s)  =  1.31327  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  9.223e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  6.199e-03  
+                        Total CO2 (mol/kg)  =  7.814e-03  
+                          Temperature (°C)  =  10.00 
+                   Electrical balance (eq)  =  1.839e-17  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  5   
+                                   Total H  =  1.110186e+02
+                                   Total O  =  5.552803e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -90,11 +90,11 @@ Initial solution 1.
    H2O-0.01        1.016e-09   1.016e-09    -8.993    -8.993    -0.000     (0)  
    H2O             5.551e+01   9.998e-01     1.744    -0.000     0.000     18.02
 C(4)          7.814e-03
-   HCO3-           6.150e-03   5.598e-03    -2.211    -2.252    -0.041     23.09
+   HCO3-           6.150e-03   5.598e-03    -2.211    -2.252    -0.041     22.02
    CO2             1.625e-03   1.627e-03    -2.789    -2.789     0.001     34.06
    FeHCO3+         2.924e-05   2.653e-05    -4.534    -4.576    -0.042     (0)  
    CaCO3           5.098e-06   5.109e-06    -5.293    -5.292     0.001    -14.66
-   CO3-2           2.653e-06   1.820e-06    -5.576    -5.740    -0.164     -6.43
+   CO3-2           2.653e-06   1.820e-06    -5.576    -5.740    -0.164     -7.71
    FeCO3           2.065e-06   2.069e-06    -5.685    -5.684     0.001     (0)  
    (CO2)2          1.803e-08   1.805e-08    -7.744    -7.743     0.001     67.29
    CaHCO3+         3.330e-11   3.035e-11   -10.478   -10.518    -0.040      8.97
@@ -179,23 +179,23 @@ Goethite          3.00     2.56     -0.44    1.070e-02   1.070e-02   3.291e-14
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000      Charge balance
-                                       pe  =  -0.717      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  10°C)  = 383
-                          Density (g/cm³)  =   1.00013
-                               Volume (L)  =   1.00044
-                        Viscosity (mPa s)  =   1.31039
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   9.223e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   6.199e-03
-                       Total CO2 (mol/kg)  =   7.814e-03
-                         Temperature (°C)  =  10.00
-                  Electrical balance (eq)  =   2.517e-17
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   1
-                                  Total H  = 1.110186e+02
-                                  Total O  = 5.552803e+01
+                                        pH  =  7.000        Charge balance
+                                        pe  =  -0.717       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  10°C)  =  388       
+                           Density (g/cm³)  =  1.00014  
+                                Volume (L)  =  1.00044  
+                         Viscosity (mPa s)  =  1.31327  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  9.223e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  6.199e-03  
+                        Total CO2 (mol/kg)  =  7.814e-03  
+                          Temperature (°C)  =  10.00 
+                   Electrical balance (eq)  =  2.517e-17  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  1   
+                                   Total H  =  1.110186e+02
+                                   Total O  =  5.552803e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -209,11 +209,11 @@ Goethite          3.00     2.56     -0.44    1.070e-02   1.070e-02   3.291e-14
 C(-4)         2.750e-27
    CH4             2.750e-27   2.756e-27   -26.561   -26.560     0.001     33.98
 C(4)          7.814e-03
-   HCO3-           6.150e-03   5.598e-03    -2.211    -2.252    -0.041     23.09
+   HCO3-           6.150e-03   5.598e-03    -2.211    -2.252    -0.041     22.02
    CO2             1.625e-03   1.627e-03    -2.789    -2.789     0.001     34.06
    FeHCO3+         2.924e-05   2.653e-05    -4.534    -4.576    -0.042     (0)  
    CaCO3           5.098e-06   5.109e-06    -5.293    -5.292     0.001    -14.66
-   CO3-2           2.653e-06   1.820e-06    -5.576    -5.740    -0.164     -6.43
+   CO3-2           2.653e-06   1.820e-06    -5.576    -5.740    -0.164     -7.71
    FeCO3           2.065e-06   2.069e-06    -5.685    -5.684     0.001     (0)  
    (CO2)2          1.803e-08   1.805e-08    -7.744    -7.743     0.001     67.29
    CaHCO3+         3.330e-11   3.035e-11   -10.478   -10.518    -0.040      8.97
@@ -374,4 +374,8 @@ Calculating transport: 15 (mobile) cells, 10 shifts, 1 mixruns...
 
 
 Calculating transport: 15 (mobile) cells, 30 shifts, 1 mixruns...
+
+-------------------------------
+End of Run after 0.717 Seconds.
+-------------------------------
 

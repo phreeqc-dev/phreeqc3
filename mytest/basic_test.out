@@ -72,23 +72,23 @@ Initial solution 10.	Test solution
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 84419
-                          Density (g/cm³)  =   1.03634
-                               Volume (L)  =   1.02166
-                        Viscosity (mPa s)  =   0.97408
-                        Activity of water  =   0.966
-                 Ionic strength (mol/kgw)  =   1.007e+00
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.671e-03
-                       Total CO2 (mol/kg)  =   1.000e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   5.442e-16
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   9
-                                  Total H  = 1.110146e+02
-                                  Total O  = 5.551711e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  84421     
+                           Density (g/cm³)  =  1.03634  
+                                Volume (L)  =  1.02166  
+                         Viscosity (mPa s)  =  0.97411  
+                         Activity of water  =  0.966  
+                  Ionic strength (mol/kgw)  =  1.007e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.671e-03  
+                        Total CO2 (mol/kg)  =  1.000e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  5.442e-16  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  9   
+                                   Total H  =  1.110146e+02
+                                   Total O  =  5.551711e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -101,10 +101,10 @@ Initial solution 10.	Test solution
 C(-4)         0.000e+00
    CH4             0.000e+00   0.000e+00   -67.605   -67.504     0.101     35.46
 C(4)          1.000e-03
-   HCO3-           7.665e-04   5.108e-04    -3.116    -3.292    -0.176     29.26
-   NaHCO3          1.300e-04   1.846e-04    -3.886    -3.734     0.152     17.66
+   HCO3-           7.665e-04   5.108e-04    -3.116    -3.292    -0.176     27.63
+   NaHCO3          1.300e-04   1.846e-04    -3.886    -3.734     0.152     24.51
    CO2             1.020e-04   1.189e-04    -3.991    -3.925     0.066     34.79
-   CO3-2           1.306e-06   2.395e-07    -5.884    -6.621    -0.736      0.29
+   CO3-2           1.306e-06   2.395e-07    -5.884    -6.621    -0.736      0.93
    CaCO3           1.817e-07   2.291e-07    -6.741    -6.640     0.101    -14.60
    (CO2)2          1.972e-10   2.298e-10    -9.705    -9.639     0.066     68.75
    CaHCO3+         3.788e-11   2.550e-11   -10.422   -10.593    -0.172      9.98
@@ -127,7 +127,7 @@ Na            1.000e+00
    Na+             9.991e-01   7.310e-01    -0.000    -0.136    -0.136     -0.30
    NaSO4-          5.681e-04   4.215e-04    -3.246    -3.375    -0.130     22.99
    NaHPO4-         2.005e-04   1.312e-04    -3.698    -3.882    -0.184    104.98
-   NaHCO3          1.300e-04   1.846e-04    -3.886    -3.734     0.152     17.66
+   NaHCO3          1.300e-04   1.846e-04    -3.886    -3.734     0.152     24.51
    Na2SO4          1.224e-07   1.502e-07    -6.912    -6.823     0.089     47.96
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -42.193   -42.093     0.101     30.40
@@ -619,7 +619,7 @@ RHO_0:                                                  9.9704e-01
 RTRIM(a$):                                               abc   def 
 RXN:                                                    1.0000e-04 
 S_S(Siderite):                                          6.6865e-02 
-SC:                                                     8.4236e+04 
+SC:                                                     8.4263e+04 
 SI(Siderite):                                          -8.5430e-03 
 SIM_NO:                                                          9 
 SIM_TIME:                                                 86400000 
@@ -882,24 +882,24 @@ X                1.000e-03 mol
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.906      Charge balance
-                                       pe  =   8.684      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 84235
-                          Density (g/cm³)  =   1.04000
-                               Volume (L)  =   1.02141
-                        Viscosity (mPa s)  =   0.97667
-                        Activity of water  =   0.965
-                 Ionic strength (mol/kgw)  =   1.022e+00
-                       Mass of water (kg)  =   9.991e-01
-                 Total alkalinity (eq/kg)  =   3.651e-02
-                       Total CO2 (mol/kg)  =   2.834e-02
-                         Temperature (°C)  =  25.00
-                           Pressure (atm)  =  0.90
-                  Electrical balance (eq)  =   2.100e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  17 (68 overall)
-                                  Total H  = 1.110139e+02
-                                  Total O  = 5.561935e+01
+                                        pH  =  6.906        Charge balance
+                                        pe  =  8.684        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  84262     
+                           Density (g/cm³)  =  1.04001  
+                                Volume (L)  =  1.02140  
+                         Viscosity (mPa s)  =  0.97767  
+                         Activity of water  =  0.965  
+                  Ionic strength (mol/kgw)  =  1.022e+00  
+                        Mass of water (kg)  =  9.991e-01  
+                  Total alkalinity (eq/kg)  =  3.651e-02  
+                        Total CO2 (mol/kg)  =  2.834e-02  
+                          Temperature (°C)  =  25.00 
+                            Pressure (atm)  =  0.90 
+                   Electrical balance (eq)  =  2.100e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                               Iterations  =   17   (68 overall)
+                                   Total H  =  1.110139e+02
+                                   Total O  =  5.561935e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -912,11 +912,11 @@ X                1.000e-03 mol
 C(-4)         0.000e+00
    CH4             0.000e+00   0.000e+00  -102.787  -102.685     0.102     35.46
 C(4)          2.834e-02
-   HCO3-           2.119e-02   1.411e-02    -1.674    -1.850    -0.177     29.31
-   NaHCO3          3.548e-03   5.061e-03    -2.450    -2.296     0.154     17.66
+   HCO3-           2.119e-02   1.411e-02    -1.674    -1.850    -0.177     27.64
+   NaHCO3          3.548e-03   5.061e-03    -2.450    -2.296     0.154     24.51
    CO2             3.495e-03   4.082e-03    -2.457    -2.389     0.067     34.79
    ZnHCO3+         4.116e-05   3.269e-05    -4.386    -4.486    -0.100     (0)  
-   CO3-2           2.917e-05   5.329e-06    -4.535    -5.273    -0.738      0.33
+   CO3-2           2.917e-05   5.329e-06    -4.535    -5.273    -0.738      0.96
    ZnCO3           1.546e-05   1.956e-05    -4.811    -4.709     0.102     (0)  
    Zn(CO3)2-2      5.602e-06   2.229e-06    -5.252    -5.652    -0.400     (0)  
    CaCO3           4.734e-06   5.989e-06    -5.325    -5.223     0.102    -14.60
@@ -990,7 +990,7 @@ N(5)          7.660e-21
    NO3-            7.660e-21   4.226e-21   -20.116   -20.374    -0.258     30.50
 Na            9.948e-01
    Na+             9.906e-01   7.257e-01    -0.004    -0.139    -0.135     -0.30
-   NaHCO3          3.548e-03   5.061e-03    -2.450    -2.296     0.154     17.66
+   NaHCO3          3.548e-03   5.061e-03    -2.450    -2.296     0.154     24.51
    NaSO4-          5.611e-04   4.170e-04    -3.251    -3.380    -0.129     23.04
    NaHPO4-         4.101e-05   2.681e-05    -4.387    -4.572    -0.185    106.00
    Na2SO4          1.198e-07   1.475e-07    -6.921    -6.831     0.090     47.96
@@ -1096,4 +1096,8 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 10.
 -------------------------------------
+
+------------------------------
+End of Run after 0.03 Seconds.
+------------------------------
 

@@ -99,22 +99,22 @@ Barite                          0
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 0
-                          Density (g/cm³)  =   0.99704
-                               Volume (L)  =   1.00297
-                        Viscosity (mPa s)  =   0.89002
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.007e-07
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.217e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.217e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60
-                               Iterations  =   0
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  0         
+                           Density (g/cm³)  =  0.99704  
+                                Volume (L)  =  1.00297  
+                         Viscosity (mPa s)  =  0.89002  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.007e-07  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.217e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.217e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+                                Iterations  =  0   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -192,23 +192,23 @@ Calcite_s_s                                 3.09e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   9.576      Charge balance
-                                       pe  =  -3.851      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 24
-                          Density (g/cm³)  =   0.99706
-                               Volume (L)  =   1.00296
-                        Viscosity (mPa s)  =   0.89030
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.917e-04
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   2.519e-04
-                       Total CO2 (mol/kg)  =   1.259e-04
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.217e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  17
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550659e+01
+                                        pH  =  9.576        Charge balance
+                                        pe  =  -3.851       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  24        
+                           Density (g/cm³)  =  0.99706  
+                                Volume (L)  =  1.00296  
+                         Viscosity (mPa s)  =  0.89033  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.917e-04  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  2.519e-04  
+                        Total CO2 (mol/kg)  =  1.259e-04  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.217e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  17  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550659e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -221,8 +221,8 @@ Calcite_s_s                                 3.09e-02
 C(-4)         2.347e-29
    CH4             2.347e-29   2.347e-29   -28.630   -28.630     0.000     35.46
 C(4)          1.259e-04
-   HCO3-           1.032e-04   1.012e-04    -3.986    -3.995    -0.008     24.53
-   CO3-2           1.934e-05   1.789e-05    -4.714    -4.747    -0.034     -4.74
+   HCO3-           1.032e-04   1.012e-04    -3.986    -3.995    -0.008     22.31
+   CO3-2           1.934e-05   1.789e-05    -4.714    -4.747    -0.034     -6.86
    CaCO3           1.926e-06   1.926e-06    -5.715    -5.715     0.000    -14.60
    ZnCO3           6.246e-07   6.246e-07    -6.204    -6.204     0.000     (0)  
    Zn(CO3)2-2      2.584e-07   2.389e-07    -6.588    -6.622    -0.034     (0)  
@@ -281,4 +281,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.018 Seconds.
+-------------------------------
 

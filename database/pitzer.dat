@@ -92,9 +92,9 @@ Cl- = Cl-
 	-viscosity 0 0 0 0 0 0 1 # the reference solute
 	-dw 2.033e-9 216 3.16 0.2071 0.7432
 CO3-2 = CO3-2
-	-Vm 6.706 -9.119 -9 -1.888 3.461 2.221 3.977 11.4 -1.519e-2 0.666
-	-viscosity -3.5e-3 0.272 3.16e-2 2.9e-5 -1e-3 2.5 -1.887
-	-dw 0.955e-9 -83 1.99 0.15 0.4205
+	-Vm 4.476 -4.909 -7.621 -2.42 3.36 1.059 15 -287 -7.24e-2 0.267
+	-viscosity -7.52e-2 0.309 2.06e-2 6.83e-3 7.8e-4 1.305 -0.565
+	-dw 0.955e-9 -71.3 1.384 0.303 0.5726
 SO4-2 = SO4-2
 	-Vm -7.77 43.17 176 -51.45 3.794 0 4.97 20.5 -5.77e-2 0.45
 	-viscosity -0.119 0.297 1.16e-2 5.58e-4 -1e-3 2.497 0.239
@@ -132,27 +132,25 @@ H2O = OH- + H+
 	-viscosity -2.26e-2 0.106 2.184e-2 -3.2e-3 0 0.4082 -1.634 # < 5 M Li,Na,KOH
  	-dw 5.27e-9 491 1.851 0 0.3256
 CO3-2 + H+ = HCO3-
-	log_k 10.329;  delta_h -3.561 kcal
-	-analytic 107.8975 0.03252849 -5151.79 -38.92561 563713.9
-	-Vm 9.962 -4.891 -19.198 1.101 1.356 0 5 100 -2.608e-2 0.118
-	-viscosity -1.5 1.454 -5.45e-4 0.405 2.931e-2 0.4058 -9.24e-3
-	-dw 1.18e-9 -215 2.15 1e-9 0.2866
+	log_k 10.329; -delta_h -3.561 kcal
+	-analytic 107.8871 0.03252849 -5151.79 -38.92561 563713.9
+	-Vm 9.293 -6.2 -10.566 -2.52 0.41 0.575 17 -1.65e-2 -9.44e-2 4.07e-2
+	-viscosity -0.185 1e-2 -5e-3 0.273 -5e-3 0.142 0.5
+	-dw 1.18e-9 -279 2.84 0 0.524
 CO3-2 + 2 H+ = CO2 + H2O
-	log_k 16.6767
-	delta_h -5.738 kcal
+	log_k 16.6767; -delta_h -5.738 kcal
 	-analytic 464.1965 0.09344813 -26986.16 -165.75951 2248628.9
 	-Vm 7.235 1.245 0.433 -0.747 -1.575 # McBride 2015, Hnedkovsky 1996
 	-viscosity 1.15e-2 9.82e-2 3.59e-2 0 0 0 0.266
 	-dw 1.92e-9 -120 # TK dependence from Cadogan et al. 2014, , JCED 59, 519
 SO4-2 + H+ = HSO4-
-	-log_k 1.988;  -delta_h 3.85 kcal
+	-log_k 1.988; -delta_h 3.85 kcal
 	-analytic -56.889 0.006473 2307.9 19.8858
 	-Vm 8.2 9.259 2.1108 -3.1618 1.1748 0 -0.3 15 0 1
 	-viscosity 3.29e-2 -4.86e-2 0.409 1e-5 4.23e-2 1.069 0.7371
 	-dw 0.731e-9 1e3 7.082 3 0.86
 H2Sg = HSg- + H+
-	log_k -6.994
-	delta_h 5.3 kcal
+	log_k -6.994; -delta_h 5.3 kcal
 	-analytical 11.17 -0.02386 -3279
 	-Vm 5.0119 4.9799 3.4765 -2.9849 1.441 # supcrt
 	-dw 1.73e-9
@@ -294,7 +292,7 @@ Dolomite
 	CaMg(CO3)2 = Ca+2 + Mg+2 + 2 CO3-2
 	log_k -17.09
 	delta_h -9.436 kcal
-	-analytic -120.63 -0.1051 0 54.509 # 50–175°C, Bénézeth et al., 2018, GCA 224, 262-275
+	-analytic -120.63 -0.1051 0 54.509 # 50â€“175Â°C, BÃ©nÃ©zeth et al., 2018, GCA 224, 262-275
 	-Vm 64.5
 Enstatite
 	MgSiO3 + 2 H+ = - H2O + Mg+2 + H4SiO4 # llnl.dat
@@ -493,7 +491,7 @@ Oxg(g)
 	T_c 154.6; -P_c 49.8; -Omega 0.021
 Hdg(g)
 	Hdg = Hdg
-	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ºC
+	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ÂºC
 	-analytic -8.841 8.6515e-3 942.8 # Zhu, 2022; Chabab 2020; Gordon 1977; Crozier, 1974
 	-T_c 33.2; -P_c 12.8; -Omega -0.225
 Ntg(g)
@@ -502,11 +500,11 @@ Ntg(g)
 	T_c 126.2; -P_c 33.5; -Omega 0.039
 Mtg(g)
 	Mtg = Mtg
-	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100°C
+	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100Â°C
 	T_c 190.6; -P_c 45.4; -Omega 0.008
 H2Sg(g)
 	H2Sg = H+ + HSg-
-	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
+	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300Â°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
 	T_c 373.2; -P_c 88.2; -Omega 0.1
 PITZER
 -B0
@@ -698,7 +696,7 @@ PITZER
   Cl-       H2Sg     -0.005
   Cl-       (H2Sg)2  -0.005
   Cl-       Hdg       0.005
-  CO2       CO2      -1.34e-2   348   0.803 # new VM("CO2"), CO2 solubilities at high P, 0 - 150°C
+  CO2       CO2      -1.34e-2   348   0.803 # new VM("CO2"), CO2 solubilities at high P, 0 - 150Â°C
   CO2       HSO4-    -0.003
   CO2       K+        0.051
   CO2       Mg+2      0.183
@@ -1016,14 +1014,14 @@ END
 #   W * QBrn is the energy of solvation, QBrn is the pressure dependence of the Born equation,
 #     W is fitted on measured solution densities.
 #   z is charge of the solute species.
-#   Av is the Debye-Hückel limiting slope (DH_AV in PHREEQC basic).
-#   a0 is the ion-size parameter in the extended Debye-Hückel equation:
+#   Av is the Debye-HÃ¼ckel limiting slope (DH_AV in PHREEQC basic).
+#   a0 is the ion-size parameter in the extended Debye-HÃ¼ckel equation:
 #     f(I^0.5) = I^0.5 / (1 + a0 * DH_B * I^0.5),
 #     a0 = -gamma x for cations, = 0 for anions.
 # For details, consult ref. 1.
 # =============================================================================================
 # The viscosity is calculated with a (modified) Jones-Dole equation:
-#    viscos / viscos_0 = 1 + A * Sum(0.5 z_i m_i) + fan * Sum(B_i m_i + D_i m_i n_i)
+#    viscos / viscos_0 = 1 + A * Sum(0.5 z_i m_i)^0.5 + fan * Sum(B_i m_i + D_i m_i n_i)
 # Parameters are for calculating the B and D terms:
 #    -viscosity 9.35e-2 -8.31e-2 2.487e-2 4.49e-4 2.01e-2 1.570    0
 #    #	   b0	  b1	  b2	 d1	  d2	 d3	tan
@@ -1031,12 +1029,12 @@ END
 #    B_i = b0 + b1 exp(-b2 * tc)
 #    fan = (2 - tan V_i / V_Cl-), corrects for the volume of anions and neutral species
 #    D_i = d1 * exp(-d2 tc)
-#    n_i = (I^d3 * (1 + fI) + ((z_i^2 + z_i) / 2 · m_i)^d3) / (2 + fI), fI is an ionic strength term.
+#    n_i = (I^d3 * (1 + fI) + ((z_i^2 + z_i) / 2 Â· m_i)^d3) / (2 + fI), fI is an ionic strength term.
 # For details, consult ref. 5.
 #
-# ref. 1: Appelo, Parkhurst and Post, 2014. Geochim. Cosmochim. Acta 125, 49–67.
-# ref. 2: Procedures from ref. 1 using data compiled by Laliberté, 2009, J. Chem. Eng. Data 54, 1725.
-# ref. 3: Appelo, 2015, Appl. Geochem. 55, 62–71.
+# ref. 1: Appelo, Parkhurst and Post, 2014. Geochim. Cosmochim. Acta 125, 49â€“67.
+# ref. 2: Procedures from ref. 1 using data compiled by LalibertÃ©, 2009, J. Chem. Eng. Data 54, 1725.
+# ref. 3: Appelo, 2015, Appl. Geochem. 55, 62â€“71.
 #                 http://www.hydrochemistry.eu/pub/pitzer_db/appendix.zip contains example files
 #                 for the high P,T Pitzer model and improvements for Calcite.
 # ref. 4: Appelo, 2017, Cem. Concr. Res. 101, 102-113.

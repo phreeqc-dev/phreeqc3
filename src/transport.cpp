@@ -6070,8 +6070,6 @@ viscosity(cxxSurface *surf_ptr)
 	Jones_Dole[6] contains the anion factor, 1 for Cl-, variable for other anions
 	f_z = (z * z + |z|) / 2, the contribution of the ion to mu_x, if z = 0: f_z = mu_x / m_i
 	f_I = variable, depends on d3_i > 1, or d3_i < 1.
-	tc is limited to 200 C.
-
 
 	A from Falkenhagen-Dole for a salt:
 	A = 4.3787e-14 * TK**1.5 / (eps_r**0.5)* (z1 + z2)**-0.5 / (D1 * D2) * psi
@@ -6079,14 +6077,16 @@ viscosity(cxxSurface *surf_ptr)
 	D1, z1 for the cation, D2, |z2| for the anion of the salt.
 	We use the harmonic mean of the Dw's, and the arithmetic mean of the z's,
 	both weighted by the equivalent concentration.
+
+	tc is limited to 300 C.
 	*/
 	LDBLE D1, D2, z1, z2, m_plus, m_min, eq_plus, eq_min, eq_dw_plus, eq_dw_min, t1, t2, t3, fan = 1;
-	LDBLE A, psi, Bc = 0, Dc = 0, Dw = 0.0, l_z, f_z, lm, V_an, m_an, V_Cl, tc, l_moles, l_water, l_mu_x, dw_t_visc;
+	LDBLE A, psi, Bc = 0, Dc = 0, Dw = 0.0, l_z, f_z, lm, V_an, m_an, V_Cl, l_moles, l_water, l_mu_x, dw_t_visc;
 
 	m_plus = m_min = eq_plus = eq_min = eq_dw_plus = eq_dw_min = V_an = m_an = V_Cl = 0;
 
-	tc = (tc_x > 200) ? 200 : tc_x;
 	l_water = mass_water_aq_x;
+	//l_water = calc_solution_volume(); // not better
 	l_mu_x = mu_x;
 	
 	
@@ -6104,6 +6104,8 @@ viscosity(cxxSurface *surf_ptr)
 	LDBLE ratio_surf_aq = mass_water_surfaces_x / mass_water_aq_x;
 	for (i1 = 0; i1 < i1_last; i1++)
 	{
+		if (tc_x > 300)
+			goto highT;
 		Bc = Dc = Dw = m_plus = m_min = eq_plus = eq_min = eq_dw_plus = eq_dw_min = V_an = m_an = 0;
 		if (surf_ptr)
 		{
@@ -6181,7 +6183,7 @@ viscosity(cxxSurface *surf_ptr)
 				}
 				// find B * m and D * m * mu^d3
 				dw_t_visc = (s_x[i]->Jones_Dole[0] +
-					s_x[i]->Jones_Dole[1] * exp(-s_x[i]->Jones_Dole[2] * tc)) * t1;
+					s_x[i]->Jones_Dole[1] * exp(-s_x[i]->Jones_Dole[2] * tc_x)) * t1;
 				Bc += dw_t_visc;
 				// define f_I from the exponent of the D * m^d3 term...
 				if (s_x[i]->Jones_Dole[5] >= 1)
@@ -6190,7 +6192,7 @@ viscosity(cxxSurface *surf_ptr)
 					t2 = -0.8 / s_x[i]->Jones_Dole[5];
 				else
 					t2 = -1;
-				t3 = (s_x[i]->Jones_Dole[3] * exp(-s_x[i]->Jones_Dole[4] * tc)) *
+				t3 = (s_x[i]->Jones_Dole[3] * exp(-s_x[i]->Jones_Dole[4] * tc_x)) *
 					t1 * (pow(l_mu_x, s_x[i]->Jones_Dole[5])*(1 + t2) + pow(t1 * f_z, s_x[i]->Jones_Dole[5])) / (2 + t2);
 				if (t3 < -1e-5)
 					t3 = 0;
@@ -6250,7 +6252,10 @@ viscosity(cxxSurface *surf_ptr)
 			t1 = (D1 - D2) / (sqrt(D1 * z1 + D2 * z2) + sqrt((D1 + D2) * (z1 + z2)));
 			psi = (D1 * z2 + D2 * z1) / 4.0 - z1 * z2 * t1 * t1;
 			// Here A is A * viscos_0, avoids multiplication later on...
-			A = 4.3787e-14 * pow(tk_x, 1.5) / (sqrt(eps_r * (z1 + z2) / ((z1 > z2) ? z1 : z2)) * (D1 * D2)) * psi;
+			//A = 4.3787e-14 * pow(tk_x, 1.5) / (sqrt(eps_r * (z1 + z2) / ((z1 > z2) ? z1 : z2)) * (D1 * D2)) * psi;
+			//appt: not correct, 3/6/26, should be :
+			//A = 1.461 * R / F^2 * 1e-2 * tk_x^0.5 / .......... // it may affect viscos a few permil.
+			A = 1.304854e-11 * sqrt(tk_x / eps_r * ((z1 > z2) ? z1 : z2) / (z1 + z2)) / (D1 * D2) * psi;
 		}
 		else
 			A = 0;
@@ -6258,29 +6263,44 @@ viscosity(cxxSurface *surf_ptr)
 		if (m_an)
 			V_an /= m_an;
 		if (!V_Cl)
+		{
 			V_Cl = calc_vm_Cl();
-		if (V_an && V_Cl)
+			if (V_Cl < 1) V_Cl = 1;
+		}
+		if (V_an == V_Cl)
+			fan = 1;
+		else if (V_Cl >= 1)
 			fan = 2 - V_an / V_Cl;
 		else
-			fan = 1;
-		if (Dc < 0) 
-			Dc = 0; // provisional...
+			fan = 2 - V_an * mu_x;
+		//if (fan < -1) 
+		//	fan = -1; // provisional...
 		viscos += viscos_0 * fan * (Bc + Dc);
 		if (viscos < 0)
+			viscos = viscos_0; // may occur while optimizing
+		if (tc_x > 180 && viscos < viscos_0)
 		{
+			//snprintf(token, sizeof(token),
+			//	"viscosity (%.4f) < viscos_0 (%.4f) at %.1f C, reset to viscosity of pure water", (double) viscos, viscos_0, tc_x);
+			//warning_msg(token);
 			viscos = viscos_0;
-			warning_msg("viscosity < 0, reset to viscosity of pure water");
 		}
+
+	highT:
 		if (!surf_ptr)
 		{
+			t1 = fabs(Bc + Dc);
 			for (i = 0; i < (int)this->s_x.size(); i++)
 			{
+				//if (viscos == viscos_0) continue; // appt
 				if (s_x[i]->type != AQ && s_x[i]->type > HPLUS)
 					continue;
-				if ((lm = s_x[i]->lm) < -9)
+				if (s_x[i]->lm < -9)
 					continue;
-				if (s_x[i]->Jones_Dole[0] || s_x[i]->Jones_Dole[1] || s_x[i]->Jones_Dole[3])
-					s_x[i]->dw_t_visc /= (Bc + Dc);
+				if (tc_x > 300)
+					s_x[i]->dw_t_visc = 0;
+				else if (s_x[i]->Jones_Dole[0] || s_x[i]->Jones_Dole[1] || s_x[i]->Jones_Dole[3])
+					s_x[i]->dw_t_visc /= t1;
 			}
 		}
 		else //if (surf_ptr->Get_calc_viscosity())

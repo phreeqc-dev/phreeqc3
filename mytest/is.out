@@ -103,23 +103,23 @@ Initial solution 0.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.300    
-                                       pe  =   7.500    
-      Specific Conductance (µS/cm,  25°C)  = 11181
-                          Density (g/cm³)  =   1.01106
-                               Volume (L)  =   1.00399
-                        Viscosity (mPa s)  =   0.91421
-                        Activity of water  =   0.997
-                 Ionic strength (mol/kgw)  =   2.166e-01
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =  -1.684e-03
-                       Total CO2 (mol/kg)  =   4.142e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   5.273e-16
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  10
-                                  Total H  = 1.110217e+02
-                                  Total O  = 5.592781e+01
+                                        pH  =  3.300      
+                                        pe  =  7.500      
+       Specific Conductance (µS/cm,  25°C)  =  11181     
+                           Density (g/cm³)  =  1.01106  
+                                Volume (L)  =  1.00399  
+                         Viscosity (mPa s)  =  0.91421  
+                         Activity of water  =  0.997  
+                  Ionic strength (mol/kgw)  =  2.166e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  -1.684e-03 
+                        Total CO2 (mol/kg)  =  4.142e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  4.942e-16  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  10  
+                                   Total H  =  1.110217e+02
+                                   Total O  =  5.592781e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -144,23 +144,23 @@ Al            1.066e-02
    Al(OH)4-        4.444e-14   3.214e-14   -13.352   -13.493    -0.141     (0)  
 C(4)          4.142e-03
    CO2             4.130e-03   4.268e-03    -2.384    -2.370     0.014     34.79
-   HCO3-           5.075e-06   3.776e-06    -5.295    -5.423    -0.128     26.03
+   HCO3-           5.075e-06   3.776e-06    -5.295    -5.423    -0.128     26.21
    FeHCO3+         4.891e-06   3.635e-06    -5.311    -5.439    -0.129     (0)  
    CuHCO3+         1.055e-06   7.841e-07    -5.977    -6.106    -0.129     (0)  
    (CO2)2          2.865e-07   2.961e-07    -6.543    -6.529     0.014     68.75
    MnHCO3+         1.762e-07   1.292e-07    -6.754    -6.889    -0.135     (0)  
    MgHCO3+         1.470e-07   1.047e-07    -6.833    -6.980    -0.147      5.72
    ZnHCO3+         3.725e-08   2.769e-08    -7.429    -7.558    -0.129     (0)  
-   NaHCO3          1.093e-08   1.179e-08    -7.961    -7.929     0.033     17.66
+   NaHCO3          1.093e-08   1.179e-08    -7.961    -7.929     0.033     24.51
    CuCO3           7.480e-10   7.862e-10    -9.126    -9.104     0.022     (0)  
+   KHCO3           2.272e-10   2.475e-10    -9.644    -9.606     0.037     28.65
    SrHCO3+         2.058e-10   1.526e-10    -9.686    -9.816    -0.130     (0)  
-   KHCO3           1.941e-10   2.040e-10    -9.712    -9.690     0.022     21.42
    CdHCO3+         1.828e-10   1.359e-10    -9.738    -9.867    -0.129     (0)  
    FeCO3           7.763e-11   8.160e-11   -10.110   -10.088     0.022     (0)  
    MnCO3           1.025e-11   1.078e-11   -10.989   -10.967     0.022     (0)  
    ZnCO3           3.906e-12   4.106e-12   -11.408   -11.387     0.022     (0)  
    CaCO3           1.303e-12   1.369e-12   -11.885   -11.863     0.022    -14.60
-   CO3-2           1.170e-12   3.534e-13   -11.932   -12.452    -0.520     -2.51
+   CO3-2           1.170e-12   3.534e-13   -11.932   -12.452    -0.520     -2.18
    CaHCO3+         1.016e-12   7.638e-13   -11.993   -12.117    -0.124      9.88
    MgCO3           7.602e-13   7.991e-13   -12.119   -12.097     0.022    -17.09
    SrCO3           5.669e-16   5.959e-16   -15.247   -15.225     0.022    -14.13
@@ -295,7 +295,7 @@ H(0)          3.375e-25
 K             2.030e-04
    K+              1.714e-04   1.209e-04    -3.766    -3.917    -0.151      9.36
    KSO4-           3.166e-05   2.580e-05    -4.499    -4.588    -0.089     28.94
-   KHCO3           1.941e-10   2.040e-10    -9.712    -9.690     0.022     21.42
+   KHCO3           2.272e-10   2.475e-10    -9.644    -9.606     0.037     28.65
    KF              1.319e-11   1.315e-11   -10.880   -10.881    -0.001     -0.32
 Mg            1.604e-02
    MgSO4           7.876e-03   8.702e-03    -2.104    -2.060     0.043     -0.40
@@ -321,7 +321,7 @@ Mn(3)         2.975e-21
 Na            9.542e-03
    Na+             8.489e-03   6.316e-03    -2.071    -2.200    -0.128     -0.91
    NaSO4-          1.053e-03   7.781e-04    -2.978    -3.109    -0.131     19.30
-   NaHCO3          1.093e-08   1.179e-08    -7.961    -7.929     0.033     17.66
+   NaHCO3          1.093e-08   1.179e-08    -7.961    -7.929     0.033     24.51
    Na2SO4          2.293e-09   2.396e-09    -8.640    -8.620     0.019     47.96
    NaF             1.036e-11   1.144e-11   -10.985   -10.941     0.043      7.60
 O(0)          0.000e+00
@@ -488,23 +488,23 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.100    
-                                       pe  =   5.000    
-      Specific Conductance (µS/cm,  26°C)  = 125
-                          Density (g/cm³)  =   0.99684
-                               Volume (L)  =   0.99322
-                        Viscosity (mPa s)  =   0.87057
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.344e-03
-                       Mass of water (kg)  =   9.900e-01
-                 Total alkalinity (eq/kg)  =   3.045e-04
-                         Temperature (°C)  =  26.00
-                           Pressure (atm)  =  1.00
-                  Electrical balance (eq)  =  -2.185e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   9
-                                  Total H  = 1.099030e+02
-                                  Total O  = 5.495303e+01
+                                        pH  =  7.100      
+                                        pe  =  5.000      
+       Specific Conductance (µS/cm,  26°C)  =  125       
+                           Density (g/cm³)  =  0.99684  
+                                Volume (L)  =  0.99322  
+                         Viscosity (mPa s)  =  0.87057  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.344e-03  
+                        Mass of water (kg)  =  9.900e-01  
+                  Total alkalinity (eq/kg)  =  3.045e-04  
+                          Temperature (°C)  =  26.00 
+                            Pressure (atm)  =  1.00 
+                   Electrical balance (eq)  =  -2.185e-12 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  9   
+                                   Total H  =  1.099030e+02
+                                   Total O  =  5.495303e+01
 
 ---------------------------------Redox couples---------------------------------
 
@@ -643,24 +643,24 @@ Calcite           0.00    -8.46     -8.46    1.000e+01   1.000e+01  -3.459e-04
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   8.951      Charge balance
-                                       pe  =  -5.878      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  26°C)  = 206
-                          Density (g/cm³)  =   0.99688
-                               Volume (L)  =   0.99321
-                        Viscosity (mPa s)  =   0.87088
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.460e-03
-                       Mass of water (kg)  =   9.900e-01
-                 Total alkalinity (eq/kg)  =   7.516e-04
-                       Total CO2 (mol/kg)  =   3.490e-04
-                         Temperature (°C)  =  26.00
-                           Pressure (atm)  =  1.00
-                  Electrical balance (eq)  =  -2.185e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  26
-                                  Total H  = 1.099030e+02
-                                  Total O  = 5.495407e+01
+                                        pH  =  8.951        Charge balance
+                                        pe  =  -5.878       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  26°C)  =  207       
+                           Density (g/cm³)  =  0.99688  
+                                Volume (L)  =  0.99321  
+                         Viscosity (mPa s)  =  0.87097  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.460e-03  
+                        Mass of water (kg)  =  9.900e-01  
+                  Total alkalinity (eq/kg)  =  7.516e-04  
+                        Total CO2 (mol/kg)  =  3.490e-04  
+                          Temperature (°C)  =  26.00 
+                            Pressure (atm)  =  1.00 
+                   Electrical balance (eq)  =  -2.185e-12 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  26  
+                                   Total H  =  1.099030e+02
+                                   Total O  =  5.495407e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -673,11 +673,11 @@ Calcite           0.00    -8.46     -8.46    1.000e+01   1.000e+01  -3.459e-04
 C(-4)         3.655e-07
    CH4             3.655e-07   3.657e-07    -6.437    -6.437     0.000     35.54
 C(4)          3.490e-04
-   HCO3-           3.258e-04   3.088e-04    -3.487    -3.510    -0.023     24.66
-   CO3-2           1.634e-05   1.318e-05    -4.787    -4.880    -0.093     -4.51
+   HCO3-           3.258e-04   3.088e-04    -3.487    -3.510    -0.023     23.42
+   CO3-2           1.634e-05   1.318e-05    -4.787    -4.880    -0.093     -6.06
    CaCO3           6.000e-06   6.004e-06    -5.222    -5.222     0.000    -14.60
    CO2             7.683e-07   7.686e-07    -6.114    -6.114     0.000     34.84
-   NaHCO3          1.456e-07   1.457e-07    -6.837    -6.837     0.000     17.74
+   NaHCO3          1.456e-07   1.457e-07    -6.837    -6.837     0.000     24.43
    FeCO3           2.765e-09   2.766e-09    -8.558    -8.558     0.000     (0)  
    FeHCO3+         2.853e-10   2.701e-10    -9.545    -9.569    -0.024     (0)  
    CaHCO3+         9.380e-12   8.894e-12   -11.028   -11.051    -0.023      9.72
@@ -726,7 +726,7 @@ N(5)          0.000e+00
 Na            1.000e-03
    Na+             9.966e-04   9.440e-04    -3.001    -3.025    -0.024     -1.40
    NaSO4-          3.268e-06   3.094e-06    -5.486    -5.509    -0.024     16.72
-   NaHCO3          1.456e-07   1.457e-07    -6.837    -6.837     0.000     17.74
+   NaHCO3          1.456e-07   1.457e-07    -6.837    -6.837     0.000     24.43
    Na2SO4          1.572e-12   1.573e-12   -11.803   -11.803     0.000     47.47
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -73.435   -73.435     0.000     30.48
@@ -789,4 +789,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 5.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.023 Seconds.
+-------------------------------
 

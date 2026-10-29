@@ -75,23 +75,23 @@ calc1             2
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   4.996      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 194
-                          Density (g/cm³)  =   0.99757
-                               Volume (L)  =   1.00450
-                        Viscosity (mPa s)  =   0.89434
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   3.011e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   2.000e-03
-                       Total CO2 (mol/kg)  =   4.514e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   1.227e-17
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   8
-                                  Total H  = 1.110145e+02
-                                  Total O  = 5.559851e+01
+                                        pH  =  4.996        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  195       
+                           Density (g/cm³)  =  0.99758  
+                                Volume (L)  =  1.00450  
+                         Viscosity (mPa s)  =  0.89503  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  3.011e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  2.000e-03  
+                        Total CO2 (mol/kg)  =  4.514e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  1.227e-17  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  8   
+                                   Total H  =  1.110145e+02
+                                   Total O  =  5.559851e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -103,10 +103,10 @@ calc1             2
    H2O             5.551e+01   9.992e-01     1.744    -0.000     0.000     18.07
 C(4)          4.514e-02
    CO2             4.307e-02   4.309e-02    -1.366    -1.366     0.000     34.79
-   HCO3-           2.011e-03   1.896e-03    -2.697    -2.722    -0.025     24.60
+   HCO3-           2.011e-03   1.896e-03    -2.697    -2.722    -0.025     23.44
    (CO2)2          3.017e-05   3.018e-05    -4.520    -4.520     0.000     68.75
    CaCO3           1.168e-08   1.169e-08    -7.933    -7.932     0.000    -14.60
-   CO3-2           1.114e-08   8.804e-09    -7.953    -8.055    -0.102     -4.57
+   CO3-2           1.114e-08   8.804e-09    -7.953    -8.055    -0.102     -6.07
    CaHCO3+         1.392e-10   1.314e-10    -9.856    -9.881    -0.025      9.69
 Ca            1.000e-03
    Ca+2            1.000e-03   7.903e-04    -3.000    -3.102    -0.102    -18.06
@@ -139,4 +139,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.017 Seconds.
+-------------------------------
 

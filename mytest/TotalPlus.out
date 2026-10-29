@@ -67,23 +67,23 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 35
-                          Density (g/cm³)  =   0.99726
-                               Volume (L)  =   1.00299
-                        Viscosity (mPa s)  =   0.89015
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   8.323e-04
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.877e-03
-                       Total CO2 (mol/kg)  =   1.000e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   4.050e-14
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   7
-                                  Total H  = 1.110181e+02
-                                  Total O  = 5.551385e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  35        
+                           Density (g/cm³)  =  0.99726  
+                                Volume (L)  =  1.00299  
+                         Viscosity (mPa s)  =  0.89040  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  8.323e-04  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.877e-03  
+                        Total CO2 (mol/kg)  =  1.000e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  4.050e-14  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  7   
+                                   Total H  =  1.110181e+02
+                                   Total O  =  5.551385e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -94,9 +94,9 @@ Initial solution 1.
    H+              1.032e-07   1.000e-07    -6.986    -7.000    -0.014      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(4)          1.000e-03
-   HCO3-           8.209e-04   7.949e-04    -3.086    -3.100    -0.014     24.55
+   HCO3-           8.209e-04   7.949e-04    -3.086    -3.100    -0.014     22.80
    CO2             1.787e-04   1.787e-04    -3.748    -3.748     0.000     34.79
-   CO3-2           4.241e-07   3.728e-07    -6.373    -6.429    -0.056     -4.69
+   CO3-2           4.241e-07   3.728e-07    -6.373    -6.429    -0.056     -6.56
    (CO2)2          5.192e-10   5.193e-10    -9.285    -9.285     0.000     68.75
 Fe(3)         1.877e-03
    Fe(OH)3         1.036e-03   1.036e-03    -2.985    -2.984     0.000     (0)  
@@ -133,4 +133,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.014 Seconds.
+-------------------------------
 

@@ -97,23 +97,23 @@ Gas C(4), C(-4):             0            0
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.011      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm, 102°C)  = 0
-                          Density (g/cm³)  =   0.97927
-                               Volume (L)  =   0.00102
-                        Viscosity (mPa s)  =   0.28917
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   9.771e-07
-                       Mass of water (kg)  =   1.000e-03
-                 Total alkalinity (eq/kg)  =   2.792e-20
-                         Temperature (°C)  = 102.00
-                           Pressure (atm)  = 500.00
-                  Electrical balance (eq)  =  -2.792e-23
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   6
-                                  Total H  = 1.110124e-01
-                                  Total O  = 5.550622e-02
+                                        pH  =  6.011        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm, 102°C)  =  0         
+                           Density (g/cm³)  =  0.97927  
+                                Volume (L)  =  0.00102  
+                         Viscosity (mPa s)  =  0.28917  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  9.771e-07  
+                        Mass of water (kg)  =  1.000e-03  
+                  Total alkalinity (eq/kg)  =  2.792e-20  
+                          Temperature (°C)  =  102.00
+                            Pressure (atm)  =  500.00
+                   Electrical balance (eq)  =  -2.792e-23 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  6   
+                                   Total H  =  1.110124e-01
+                                   Total O  =  5.550622e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -188,44 +188,44 @@ CO2(g)             2.40   2.498e+02  0.488   8.170e+01   8.163e+01  -6.500e-02
 
 	Elements           Molality       Moles
 
-	C                 8.849e-01   2.878e-03
+	C                 8.850e-01   2.878e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.199      Charge balance
-                                       pe  =  -1.225      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 102°C)  = 443
-                          Density (g/cm³)  =   0.98174
-                               Volume (L)  =   0.00343
-                        Viscosity (mPa s)  =   0.29276
-                        Activity of water  =   0.986
-                 Ionic strength (mol/kgw)  =   6.534e-04
-                       Mass of water (kg)  =   3.252e-03
-                 Total alkalinity (eq/kg)  =  -2.283e-14
-                       Total CO2 (mol/kg)  =   7.674e-01
-                         Temperature (°C)  = 102.00
-                           Pressure (atm)  = 500.08
-                  Electrical balance (eq)  =   7.425e-17
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  = 126
-                                  Total H  = 3.625409e-01
-                                  Total O  = 1.854976e-01
+                                        pH  =  3.195        Charge balance
+                                        pe  =  -1.222       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 102°C)  =  447       
+                           Density (g/cm³)  =  0.98174  
+                                Volume (L)  =  0.00343  
+                         Viscosity (mPa s)  =  0.29284  
+                         Activity of water  =  0.986  
+                  Ionic strength (mol/kgw)  =  6.587e-04  
+                        Mass of water (kg)  =  3.252e-03  
+                  Total alkalinity (eq/kg)  =  -2.621e-14 
+                        Total CO2 (mol/kg)  =  7.674e-01  
+                          Temperature (°C)  =  102.00
+                            Pressure (atm)  =  500.08
+                   Electrical balance (eq)  =  8.524e-17  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  126 
+                                   Total H  =  3.625409e-01
+                                   Total O  =  1.854976e-01
 
 ----------------------------Distribution of species----------------------------
 
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.534e-04   6.329e-04    -3.185    -3.199    -0.014      0.00
-   OH-             1.532e-09   1.482e-09    -8.815    -8.829    -0.014     -7.94
+   H+              6.587e-04   6.380e-04    -3.181    -3.195    -0.014      0.00
+   OH-             1.520e-09   1.470e-09    -8.818    -8.833    -0.015     -7.94
    H2O             5.551e+01   9.857e-01     1.744    -0.006     0.000     18.40
 C(-4)         1.175e-01
    CH4             1.175e-01   1.175e-01    -0.930    -0.930     0.000     40.65
 C(4)          7.674e-01
    CO2             6.827e-01   6.827e-01    -0.166    -0.166     0.000     37.83
    (CO2)2          4.206e-02   4.206e-02    -1.376    -1.376     0.000     74.83
-   HCO3-           6.534e-04   6.323e-04    -3.185    -3.199    -0.014     26.19
-   CO3-2           1.260e-10   1.105e-10    -9.900    -9.956    -0.057     -2.85
+   HCO3-           6.587e-04   6.374e-04    -3.181    -3.196    -0.014     25.20
+   CO3-2           1.304e-10   1.143e-10    -9.885    -9.942    -0.057     -5.88
 H(0)          6.523e-08
    H2              3.261e-08   3.262e-08    -7.487    -7.487     0.000     17.74
 O(0)          0.000e+00
@@ -292,40 +292,40 @@ CO2(g)             2.40   2.497e+02  0.488   8.163e+01   8.157e+01  -6.423e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.199      Charge balance
-                                       pe  =  -1.225      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 102°C)  = 443
-                          Density (g/cm³)  =   0.98174
-                               Volume (L)  =   0.00581
-                        Viscosity (mPa s)  =   0.29276
-                        Activity of water  =   0.986
-                 Ionic strength (mol/kgw)  =   6.532e-04
-                       Mass of water (kg)  =   5.504e-03
-                 Total alkalinity (eq/kg)  =  -5.972e-14
-                       Total CO2 (mol/kg)  =   7.669e-01
-                         Temperature (°C)  = 102.00
-                           Pressure (atm)  = 500.17
-                  Electrical balance (eq)  =   3.287e-16
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  64
-                                  Total H  = 6.136014e-01
-                                  Total O  = 3.139479e-01
+                                        pH  =  3.195        Charge balance
+                                        pe  =  -1.222       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 102°C)  =  447       
+                           Density (g/cm³)  =  0.98174  
+                                Volume (L)  =  0.00581  
+                         Viscosity (mPa s)  =  0.29284  
+                         Activity of water  =  0.986  
+                  Ionic strength (mol/kgw)  =  6.585e-04  
+                        Mass of water (kg)  =  5.504e-03  
+                  Total alkalinity (eq/kg)  =  -6.601e-14 
+                        Total CO2 (mol/kg)  =  7.669e-01  
+                          Temperature (°C)  =  102.00
+                            Pressure (atm)  =  500.17
+                   Electrical balance (eq)  =  3.633e-16  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  66  
+                                   Total H  =  6.136014e-01
+                                   Total O  =  3.139480e-01
 
 ----------------------------Distribution of species----------------------------
 
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.532e-04   6.327e-04    -3.185    -3.199    -0.014      0.00
-   OH-             1.533e-09   1.483e-09    -8.815    -8.829    -0.014     -7.94
+   H+              6.585e-04   6.378e-04    -3.181    -3.195    -0.014      0.00
+   OH-             1.521e-09   1.471e-09    -8.818    -8.832    -0.015     -7.94
    H2O             5.551e+01   9.857e-01     1.744    -0.006     0.000     18.40
 C(-4)         1.176e-01
    CH4             1.176e-01   1.176e-01    -0.930    -0.930     0.000     40.65
 C(4)          7.669e-01
    CO2             6.822e-01   6.823e-01    -0.166    -0.166     0.000     37.83
    (CO2)2          4.200e-02   4.200e-02    -1.377    -1.377     0.000     74.83
-   HCO3-           6.532e-04   6.321e-04    -3.185    -3.199    -0.014     26.19
-   CO3-2           1.260e-10   1.105e-10    -9.900    -9.956    -0.057     -2.84
+   HCO3-           6.585e-04   6.372e-04    -3.181    -3.196    -0.014     25.20
+   CO3-2           1.304e-10   1.143e-10    -9.885    -9.942    -0.057     -5.88
 H(0)          6.525e-08
    H2              3.263e-08   3.263e-08    -7.486    -7.486     0.000     17.74
 O(0)          0.000e+00
@@ -351,4 +351,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.021 Seconds.
+-------------------------------
 

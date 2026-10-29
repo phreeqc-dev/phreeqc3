@@ -65,22 +65,22 @@ Initial solution 7.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 0
-                          Density (g/cm³)  =   0.99704
-                               Volume (L)  =   0.00000
-                        Viscosity (mPa s)  =   0.89002
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.007e-07
-                       Mass of water (kg)  =   1.000e-06
-                 Total alkalinity (eq/kg)  =   1.217e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.217e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60
-                               Iterations  =   0
-                                  Total H  = 1.110124e-04
-                                  Total O  = 5.550622e-05
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  0         
+                           Density (g/cm³)  =  0.99704  
+                                Volume (L)  =  0.00000  
+                         Viscosity (mPa s)  =  0.89002  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.007e-07  
+                        Mass of water (kg)  =  1.000e-06  
+                  Total alkalinity (eq/kg)  =  1.217e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.217e-15 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+                                Iterations  =  0   
+                                   Total H  =  1.110124e-04
+                                   Total O  =  5.550622e-05
 
 ----------------------------Distribution of species----------------------------
 
@@ -172,23 +172,23 @@ N2(g)             -0.01   9.859e-01  1.000   5.724e-02   5.724e-02  -6.575e-10
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   4.836      Charge balance
-                                       pe  =  12.471      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 5
-                          Density (g/cm³)  =   0.99705
-                               Volume (L)  =   0.00000
-                        Viscosity (mPa s)  =   0.89007
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.464e-05
-                       Mass of water (kg)  =   1.000e-06
-                 Total alkalinity (eq/kg)  =   1.217e-09
-                       Total CO2 (mol/kg)  =   4.921e-04
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.217e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  52
-                                  Total H  = 1.110124e-04
-                                  Total O  = 5.550720e-05
+                                        pH  =  4.836        Charge balance
+                                        pe  =  12.471       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  5         
+                           Density (g/cm³)  =  0.99705  
+                                Volume (L)  =  0.00000  
+                         Viscosity (mPa s)  =  0.89007  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.464e-05  
+                        Mass of water (kg)  =  1.000e-06  
+                  Total alkalinity (eq/kg)  =  1.217e-09  
+                        Total CO2 (mol/kg)  =  4.921e-04  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.217e-15 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  52  
+                                   Total H  =  1.110124e-04
+                                   Total O  =  5.550720e-05
 
 ----------------------------Distribution of species----------------------------
 
@@ -202,9 +202,9 @@ C(-4)         0.000e+00
    CH4             0.000e+00   0.000e+00  -117.392  -117.392     0.000     35.46
 C(4)          4.921e-04
    CO2             4.775e-04   4.775e-04    -3.321    -3.321     0.000     34.79
-   HCO3-           1.464e-05   1.457e-05    -4.835    -4.836    -0.002     24.52
+   HCO3-           1.464e-05   1.457e-05    -4.835    -4.836    -0.002     21.10
    (CO2)2          3.707e-09   3.707e-09    -8.431    -8.431     0.000     68.75
-   CO3-2           4.774e-11   4.690e-11   -10.321   -10.329    -0.008     -4.80
+   CO3-2           4.774e-11   4.690e-11   -10.321   -10.329    -0.008     -7.39
 H(0)          3.433e-38
    H2              1.717e-38   1.717e-38   -37.765   -37.765     0.000     14.99
 N(-3)         0.000e+00
@@ -241,4 +241,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 6.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.021 Seconds.
+-------------------------------
 

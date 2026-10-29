@@ -84,26 +84,26 @@ Osmotic coefficient:    1.6379e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  18°C)  = 197810
-                          Density (g/cm³)  =   1.23177
-                               Volume (L)  =   1.11148
-                        Viscosity (mPa s)  =   2.47207
-                        Activity of water  =   0.723
-                 Ionic strength (mol/kgw)  =   8.590e+00
-                       Mass of water (kg)  =   1.000e+00
-                    Total carbon (mol/kg)  =   5.335e-03
-                       Total CO2 (mol/kg)  =   5.335e-03
-                         Temperature (°C)  =  18.00
-                  Electrical balance (eq)  =  -3.031e-01
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -2.32
-                               Iterations  =  26
-                         Gamma iterations  =   7
-                      Osmotic coefficient  =   1.63787
-                         Density of water  =   0.99859
-                                  Total H  = 1.110128e+02
-                                  Total O  = 5.553068e+01
+                                        pH  =  5.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  18°C)  =  197771    
+                           Density (g/cm³)  =  1.23177  
+                                Volume (L)  =  1.11148  
+                         Viscosity (mPa s)  =  2.47266  
+                         Activity of water  =  0.723  
+                  Ionic strength (mol/kgw)  =  8.590e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                     Total carbon (mol/kg)  =  5.449e-03  
+                        Total CO2 (mol/kg)  =  5.449e-03  
+                          Temperature (°C)  =  18.00 
+                   Electrical balance (eq)  =  -3.031e-01 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -2.32 
+                                Iterations  =  27  
+                          Gamma iterations  =  7   
+                       Osmotic coefficient  =  1.63787  
+                          Density of water  =  0.99859  
+                                   Total H  =  1.110128e+02
+                                   Total O  =  5.553090e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -116,11 +116,11 @@ Osmotic coefficient:    1.6379e+00
    H2O             5.551e+01   7.234e-01     1.744    -0.141     0.000     18.04
 Br            2.504e-02
    Br-             2.504e-02   2.574e-02    -1.601    -1.589     0.012     26.05
-C(4)          5.335e-03
-   CO2             4.990e-03   1.447e-02    -2.302    -1.840     0.462     34.46
-   HCO3-           3.356e-04   4.310e-04    -3.474    -3.366     0.109     29.58
-   MgCO3           4.810e-06   4.810e-06    -5.318    -5.318     0.000    -17.08
-   CO3-2           4.656e-06   1.691e-09    -5.332    -8.772    -3.440     10.96
+C(4)          5.449e-03
+   CO2             5.104e-03   1.480e-02    -2.292    -1.830     0.462     34.46
+   HCO3-           3.351e-04   4.305e-04    -3.475    -3.366     0.109     28.22
+   MgCO3           4.921e-06   4.921e-06    -5.308    -5.308     0.000    -17.08
+   CO3-2           4.763e-06   1.730e-09    -5.322    -8.762    -3.440      7.09
 Ca            1.815e+00
    Ca+2            1.815e+00   1.534e+01     0.259     1.186     0.927    -13.90
 Cl            6.638e+00
@@ -129,7 +129,7 @@ K             5.787e-03
    K+              5.787e-03   4.897e-03    -2.238    -2.310    -0.072     13.37
 Mg            2.386e-01
    Mg+2            2.386e-01   3.707e+00    -0.622     0.569     1.191    -16.59
-   MgCO3           4.810e-06   4.810e-06    -5.318    -5.318     0.000    -17.08
+   MgCO3           4.921e-06   4.921e-06    -5.308    -5.308     0.000    -17.08
    MgOH+           3.591e-07   2.227e-07    -6.445    -6.652    -0.207     (0)  
 Na            2.225e+00
    Na+             2.225e+00   5.749e+00     0.347     0.760     0.412      1.69
@@ -137,27 +137,27 @@ S(6)          3.361e-03
    SO4-2           3.361e-03   8.262e-07    -2.474    -6.083    -3.609     28.04
    HSO4-           1.449e-09   6.926e-10    -8.839    -9.160    -0.321     41.77
 Sr            1.401e-02
-   Sr+2            1.401e-02   7.700e-02    -1.853    -1.114     0.740    -11.99
+   Sr+2            1.401e-02   7.699e-02    -1.853    -1.114     0.740    -11.99
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(291 K,   1 atm)
 
   Anhydrite        -0.74     -4.90   -4.16  CaSO4
-  Aragonite         0.59     -7.59   -8.18  CaCO3
+  Aragonite         0.60     -7.58   -8.18  CaCO3
   Arcanite         -8.73    -10.70   -1.98  K2SO4
   Artinite         -8.14     12.07   20.21  Mg2CO3(OH)2:3H2O
   Bischofite       -3.66      1.02    4.68  MgCl2:6H2O
   Bloedite         -8.29    -10.64   -2.35  Na2Mg(SO4)2:4H2O
   Brucite          -7.22    -18.18  -10.97  Mg(OH)2
-  Burkeite        -15.61    -16.38   -0.77  Na6CO3(SO4)2
-  Calcite           0.81     -7.59   -8.39  CaCO3
+  Burkeite        -15.60    -16.37   -0.77  Na6CO3(SO4)2
+  Calcite           0.82     -7.58   -8.39  CaCO3
   Carnallite       -5.03     -0.64    4.39  KMgCl3:6H2O
   Celestite        -0.58     -7.20   -6.62  SrSO4
-  CO2(g)           -0.46     -1.84   -1.38  CO2
-  Dolomite          1.12    -15.79  -16.91  CaMg(CO3)2
+  CO2(g)           -0.45     -1.83   -1.38  CO2
+  Dolomite          1.14    -15.77  -16.91  CaMg(CO3)2
   Epsomite         -4.60     -6.50   -1.90  MgSO4:7H2O
-  Gaylussite       -6.12    -15.54   -9.42  CaNa2(CO3)2:5H2O
+  Gaylussite       -6.10    -15.52   -9.42  CaNa2(CO3)2:5H2O
   Glaserite       -14.43    -18.34   -3.91  NaK3(SO4)2
   Glauberite       -4.16     -9.46   -5.30  Na2Ca(SO4)2
   Goergeyite       -5.54    -35.33  -29.79  K2Ca5(SO4)6H2O
@@ -165,30 +165,30 @@ Sr            1.401e-02
   H2O(g)           -1.83     -0.14    1.69  H2O
   Halite           -0.16      1.41    1.56  NaCl
   Hexahydrite      -4.81     -6.36   -1.55  MgSO4:6H2O
-  Huntite          -1.59      9.43   11.02  CaMg3(CO3)4
+  Huntite          -1.60      9.43   11.02  CaMg3(CO3)4
   Kainite          -7.40     -7.60   -0.19  KMgClSO4:3H2O
-  Kalicinite       -6.14    -16.08   -9.94  KHCO3
+  Kalicinite       -6.13    -16.07   -9.94  KHCO3
   Kieserite        -5.50     -5.65   -0.15  MgSO4:H2O
   Labile_S         -8.63    -14.31   -5.67  Na4Ca(SO4)3:2H2O
   Leonhardite      -5.19     -6.08   -0.89  MgSO4:4H2O
   Leonite         -12.80    -16.78   -3.98  K2Mg(SO4)2:4H2O
-  Magnesite        -0.39     -8.20   -7.81  MgCO3
+  Magnesite        -0.38     -8.19   -7.81  MgCO3
   MgCl2_2H2O      -13.57      1.58   15.15  MgCl2:2H2O
   MgCl2_4H2O       -5.82      1.30    7.12  MgCl2:4H2O
   Mirabilite       -4.41     -5.97   -1.56  Na2SO4:10H2O
   Misenite        -80.25    -91.06  -10.81  K8H6(SO4)7
-  Nahcolite        -2.27    -13.01  -10.74  NaHCO3
-  Natron           -7.83     -8.66   -0.82  Na2CO3:10H2O
-  Nesquehonite     -3.46     -8.62   -5.17  MgCO3:3H2O
+  Nahcolite        -2.26    -13.00  -10.74  NaHCO3
+  Natron           -7.82     -8.65   -0.82  Na2CO3:10H2O
+  Nesquehonite     -3.45     -8.61   -5.17  MgCO3:3H2O
   Pentahydrite     -4.93     -6.22   -1.28  MgSO4:5H2O
-  Pirssonite       -5.89    -15.12   -9.23  Na2Ca(CO3)2:2H2O
+  Pirssonite       -5.87    -15.10   -9.23  Na2Ca(CO3)2:2H2O
   Polyhalite      -12.55    -26.29  -13.74  K2MgCa2(SO4)4:2H2O
   Portlandite     -12.38    -17.57   -5.19  Ca(OH)2
   Schoenite       -12.73    -17.06   -4.33  K2Mg(SO4)2:6H2O
   Sylvite          -2.48     -1.66    0.82  KCl
   Syngenite        -9.45    -15.74   -6.29  K2Ca(SO4)2:H2O
   Thenardite       -4.30     -4.56   -0.27  Na2SO4
-  Trona            -9.16    -20.55  -11.38  Na3H(CO3)2:2H2O
+  Trona            -9.14    -20.53  -11.38  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -200,4 +200,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.017 Seconds.
+-------------------------------
 

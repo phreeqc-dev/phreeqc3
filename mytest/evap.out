@@ -71,26 +71,26 @@ Initial solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   8.220    
-                                       pe  =   8.451    
-      Specific Conductance (µS/cm,  25°C)  = 52907
-                          Density (g/cm³)  =   1.02327
-                               Volume (L)  =   1.01280
-                        Viscosity (mPa s)  =   0.96040
-                        Activity of water  =   0.981
-                 Ionic strength (mol/kgw)  =   7.223e-01
-                       Mass of water (kg)  =   1.000e+00
-                    Total carbon (mol/kg)  =   2.219e-03
-                       Total CO2 (mol/kg)  =   2.219e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -3.763e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  14
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   0.90361
-                         Density of water  =   0.99704
-                                  Total H  = 1.110144e+02
-                                  Total O  = 5.562989e+01
+                                        pH  =  8.220      
+                                        pe  =  8.451      
+       Specific Conductance (µS/cm,  25°C)  =  52919     
+                           Density (g/cm³)  =  1.02327  
+                                Volume (L)  =  1.01280  
+                         Viscosity (mPa s)  =  0.96021  
+                         Activity of water  =  0.981  
+                  Ionic strength (mol/kgw)  =  7.223e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                     Total carbon (mol/kg)  =  2.216e-03  
+                        Total CO2 (mol/kg)  =  2.216e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -3.819e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  14  
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  0.90360  
+                          Density of water  =  0.99704  
+                                   Total H  =  1.110144e+02
+                                   Total O  =  5.562988e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -101,11 +101,11 @@ Initial solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
    OH-             2.866e-06   1.648e-06    -5.543    -5.783    -0.240     -2.55
    H+              8.196e-09   6.026e-09    -8.086    -8.220    -0.134      0.00
    H2O             5.551e+01   9.813e-01     1.744    -0.008     0.000     18.07
-C(4)          2.219e-03
-   HCO3-           2.006e-03   1.333e-03    -2.698    -2.875    -0.178     26.69
-   CO3-2           1.006e-04   1.013e-05    -3.998    -4.995    -0.997     -0.59
-   MgCO3           9.642e-05   9.642e-05    -4.016    -4.016     0.000    -17.09
-   CO2             1.615e-05   1.796e-05    -4.792    -4.746     0.046     34.79
+C(4)          2.216e-03
+   HCO3-           1.998e-03   1.327e-03    -2.699    -2.877    -0.178     26.73
+   CO3-2           1.026e-04   1.033e-05    -3.989    -4.986    -0.997      0.08
+   MgCO3           9.837e-05   9.837e-05    -4.007    -4.007     0.000    -17.09
+   CO2             1.648e-05   1.833e-05    -4.783    -4.737     0.046     34.79
 Ca            1.066e-02
    Ca+2            1.066e-02   1.981e-03    -1.972    -2.703    -0.731    -16.66
 Cl            5.666e-01
@@ -114,32 +114,32 @@ K             1.058e-02
    K+              1.058e-02   6.229e-03    -1.976    -2.206    -0.230      9.69
 Mg            5.508e-02
    Mg+2            5.498e-02   1.124e-02    -1.260    -1.949    -0.690    -20.38
-   MgCO3           9.642e-05   9.642e-05    -4.016    -4.016     0.000    -17.09
+   MgCO3           9.837e-05   9.837e-05    -4.007    -4.007     0.000    -17.09
    MgOH+           3.230e-06   2.841e-06    -5.491    -5.547    -0.056     (0)  
 Na            4.854e-01
    Na+             4.854e-01   3.101e-01    -0.314    -0.509    -0.195     -0.47
 S(6)          2.926e-02
    SO4-2           2.926e-02   3.023e-03    -1.534    -2.520    -0.986     18.61
-   HSO4-           2.508e-09   1.771e-09    -8.601    -8.752    -0.151     40.99
+   HSO4-           2.509e-09   1.771e-09    -8.601    -8.752    -0.151     40.99
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Anhydrite        -0.97     -5.22   -4.25  CaSO4
-  Aragonite         0.52     -7.70   -8.22  CaCO3
+  Aragonite         0.53     -7.69   -8.22  CaCO3
   Arcanite         -5.05     -6.93   -1.88  K2SO4
   Artinite         -1.82     17.84   19.66  Mg2CO3(OH)2:3H2O
   Bischofite       -7.41     -2.81    4.59  MgCl2:6H2O
   Bloedite         -5.69     -8.04   -2.35  Na2Mg(SO4)2:4H2O
   Brucite          -2.64    -13.52  -10.88  Mg(OH)2
-  Burkeite        -12.31    -13.08   -0.77  Na6CO3(SO4)2
-  Calcite           0.74     -7.70   -8.44  CaCO3
+  Burkeite        -12.30    -13.08   -0.77  Na6CO3(SO4)2
+  Calcite           0.75     -7.69   -8.44  CaCO3
   Carnallite       -9.85     -5.43    4.42  KMgCl3:6H2O
-  CO2(g)           -3.28     -4.75   -1.47  CO2
-  Dolomite          2.45    -14.64  -17.09  CaMg(CO3)2
+  CO2(g)           -3.27     -4.74   -1.47  CO2
+  Dolomite          2.46    -14.62  -17.09  CaMg(CO3)2
   Epsomite         -2.68     -4.53   -1.85  MgSO4:7H2O
-  Gaylussite       -4.33    -13.75   -9.42  CaNa2(CO3)2:5H2O
+  Gaylussite       -4.31    -13.73   -9.42  CaNa2(CO3)2:5H2O
   Glaserite        -8.36    -12.16   -3.80  NaK3(SO4)2
   Glauberite       -3.41     -8.76   -5.35  Na2Ca(SO4)2
   Goergeyite       -3.68    -33.05  -29.37  K2Ca5(SO4)6H2O
@@ -147,30 +147,30 @@ S(6)          2.926e-02
   H2O(g)           -1.51     -0.01    1.50  H2O
   Halite           -2.50     -0.92    1.58  NaCl
   Hexahydrite      -2.95     -4.52   -1.57  MgSO4:6H2O
-  Huntite           2.59     12.83   10.24  CaMg3(CO3)4
+  Huntite           2.58     12.82   10.24  CaMg3(CO3)4
   Kainite          -6.91     -7.11   -0.19  KMgClSO4:3H2O
-  Kalicinite       -5.48    -15.42   -9.94  KHCO3
+  Kalicinite       -5.47    -15.41   -9.94  KHCO3
   Kieserite        -4.21     -4.48   -0.27  MgSO4:H2O
   Labile_S         -6.64    -12.31   -5.67  Na4Ca(SO4)3:2H2O
   Leonhardite      -3.61     -4.50   -0.89  MgSO4:4H2O
   Leonite          -7.45    -11.43   -3.98  K2Mg(SO4)2:4H2O
-  Magnesite         0.89     -6.94   -7.83  MgCO3
+  Magnesite         0.90     -6.94   -7.83  MgCO3
   MgCl2_2H2O      -17.34     -2.78   14.56  MgCl2:2H2O
   MgCl2_4H2O       -9.78     -2.80    6.98  MgCl2:4H2O
   Mirabilite       -2.38     -3.62   -1.24  Na2SO4:10H2O
   Misenite        -73.80    -84.60  -10.81  K8H6(SO4)7
-  Nahcolite        -2.98    -13.72  -10.74  NaHCO3
-  Natron           -5.27     -6.09   -0.82  Na2CO3:10H2O
-  Nesquehonite     -1.80     -6.97   -5.17  MgCO3:3H2O
+  Nahcolite        -2.97    -13.71  -10.74  NaHCO3
+  Natron           -5.26     -6.08   -0.82  Na2CO3:10H2O
+  Nesquehonite     -1.79     -6.96   -5.17  MgCO3:3H2O
   Pentahydrite     -3.22     -4.51   -1.28  MgSO4:5H2O
-  Pirssonite       -4.49    -13.73   -9.23  Na2Ca(CO3)2:2H2O
+  Pirssonite       -4.47    -13.71   -9.23  Na2Ca(CO3)2:2H2O
   Polyhalite       -8.12    -21.86  -13.74  K2MgCa2(SO4)4:2H2O
   Portlandite      -9.08    -14.27   -5.19  Ca(OH)2
   Schoenite        -7.12    -11.45   -4.33  K2Mg(SO4)2:6H2O
   Sylvite          -3.51     -2.61    0.90  KCl
   Syngenite        -5.73    -12.16   -6.43  K2Ca(SO4)2:H2O
   Thenardite       -3.24     -3.54   -0.30  Na2SO4
-  Trona            -8.37    -19.75  -11.38  Na3H(CO3)2:2H2O
+  Trona            -8.35    -19.73  -11.38  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -278,9 +278,9 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Anhydrite         0.00    -4.25     -4.25    0.000e+00   1.065e-02   1.065e-02
-Bischofite        0.00     4.59      4.59    0.000e+00   3.094e-03   3.094e-03
+Bischofite        0.00     4.59      4.59    0.000e+00   3.095e-03   3.095e-03
 Brucite          -3.80   -14.68    -10.88    0.000e+00           0   0.000e+00
-CO2(g)           -3.50    -4.97     -1.47    1.000e+01   1.000e+01   1.017e-03
+CO2(g)           -3.50    -4.97     -1.47    1.000e+01   1.000e+01   1.013e-03
 Calcite          -3.88   -12.32     -8.44    0.000e+00           0   0.000e+00
 Carnallite        0.00     4.42      4.42    0.000e+00   1.052e-02   1.052e-02
 Epsomite         -1.41    -3.26     -1.85    0.000e+00           0   0.000e+00
@@ -301,7 +301,7 @@ Sylvite          -1.07    -0.17      0.90    0.000e+00           0   0.000e+00
 
 	Elements           Molality       Moles
 
-	C                 3.750e-05   1.399e-07
+	C                 3.694e-05   1.378e-07
 	Ca                1.839e-03   6.860e-06
 	Cl                1.171e+01   4.368e-02
 	K                 1.621e-02   6.045e-05
@@ -311,26 +311,26 @@ Sylvite          -1.07    -0.17      0.90    0.000e+00           0   0.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.952      Charge balance
-                                       pe  =   8.451      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 81973
-                          Density (g/cm³)  =   1.32601
-                               Volume (L)  =   0.00439
-                        Viscosity (mPa s)  =  12.37532
-                        Activity of water  =   0.318
-                 Ionic strength (mol/kgw)  =   1.763e+01
-                       Mass of water (kg)  =   3.730e-03
-                 Total alkalinity (eq/kg)  =   4.240e-04
-                       Total CO2 (mol/kg)  =   3.750e-05
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -3.762e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  36 (1039 overall)
-                         Gamma iterations  =   1
-                      Osmotic coefficient  =   3.60311
-                         Density of water  =   0.99704
-                                  Total H  = 4.141052e-01
-                                  Total O  = 2.074745e-01
+                                        pH  =  5.952        Charge balance
+                                        pe  =  8.451        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  81973     
+                           Density (g/cm³)  =  1.32601  
+                                Volume (L)  =  0.00439  
+                         Viscosity (mPa s)  =  12.37528 
+                         Activity of water  =  0.318  
+                  Ionic strength (mol/kgw)  =  1.763e+01  
+                        Mass of water (kg)  =  3.730e-03  
+                  Total alkalinity (eq/kg)  =  4.234e-04  
+                        Total CO2 (mol/kg)  =  3.694e-05  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -3.819e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                               Iterations  =   36   (1039 overall)
+                          Gamma iterations  =  1   
+                       Osmotic coefficient  =  3.60311  
+                          Density of water  =  0.99704  
+                                   Total H  =  4.140838e-01
+                                   Total O  =  2.074638e-01
 
 ----------------------------Distribution of species----------------------------
 
@@ -341,11 +341,11 @@ Sylvite          -1.07    -0.17      0.90    0.000e+00           0   0.000e+00
    H+              5.482e-08   1.116e-06    -7.261    -5.952     1.309      0.00
    OH-             3.978e-08   2.881e-09    -7.400    -8.540    -1.140     19.04
    H2O             5.551e+01   3.177e-01     1.744    -0.498     0.000     18.07
-C(4)          3.750e-05
-   HCO3-           2.357e-05   1.405e-06    -4.628    -5.852    -1.225     31.88
+C(4)          3.694e-05
+   HCO3-           2.301e-05   1.371e-06    -4.638    -5.863    -1.225     29.67
    MgCO3           1.242e-05   1.242e-05    -4.906    -4.906     0.000    -17.09
    CO2             1.411e-06   1.083e-05    -5.850    -4.965     0.885     34.79
-   CO3-2           9.867e-08   5.763e-11    -7.006   -10.239    -3.234     19.64
+   CO3-2           9.867e-08   5.763e-11    -7.006   -10.239    -3.234     11.24
 Ca            1.839e-03
    Ca+2            1.839e-03   8.383e-03    -2.735    -2.077     0.659     -9.96
 Cl            1.171e+01
@@ -369,7 +369,7 @@ S(6)          2.820e-02
   Anhydrite         0.00     -4.25   -4.25  CaSO4
   Aragonite        -4.10    -12.32   -8.22  CaCO3
   Arcanite         -5.81     -7.69   -1.88  K2SO4
-  Artinite         -5.33     14.33   19.66  Mg2CO3(OH)2:3H2O
+  Artinite         -5.35     14.31   19.66  Mg2CO3(OH)2:3H2O
   Bischofite        0.00      4.59    4.59  MgCl2:6H2O
   Bloedite         -3.60     -5.95   -2.35  Na2Mg(SO4)2:4H2O
   Brucite          -3.80    -14.68  -10.88  Mg(OH)2
@@ -387,7 +387,7 @@ S(6)          2.820e-02
   H2O(g)           -2.00     -0.50    1.50  H2O
   Halite            0.00      1.58    1.58  NaCl
   Hexahydrite      -1.19     -2.76   -1.57  MgSO4:6H2O
-  Huntite          -4.70      5.54   10.24  CaMg3(CO3)4
+  Huntite          -4.74      5.50   10.24  CaMg3(CO3)4
   Kainite          -1.24     -1.43   -0.19  KMgClSO4:3H2O
   Kalicinite       -9.01    -18.95   -9.94  KHCO3
   Kieserite         0.00     -0.27   -0.27  MgSO4:H2O
@@ -422,4 +422,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.093 Seconds.
+-------------------------------
 

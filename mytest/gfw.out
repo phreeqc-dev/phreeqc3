@@ -71,23 +71,23 @@ Solution volume    5.1128e-01
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 88951
-                          Density (g/cm³)  =   1.05063
-                               Volume (L)  =   0.51128
-                        Viscosity (mPa s)  =   0.98599
-                        Activity of water  =   0.964
-                 Ionic strength (mol/kgw)  =   1.222e+00
-                       Mass of water (kg)  =   5.000e-01
-                    Total carbon (mol/kg)  =   6.687e-03
-                       Total CO2 (mol/kg)  =   6.687e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -8.106e-03
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.73
-                               Iterations  =   9
-                                  Total H  = 5.551723e+01
-                                  Total O  = 2.797041e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  88946     
+                           Density (g/cm³)  =  1.05063  
+                                Volume (L)  =  0.51128  
+                         Viscosity (mPa s)  =  0.98625  
+                         Activity of water  =  0.964  
+                  Ionic strength (mol/kgw)  =  1.222e+00  
+                        Mass of water (kg)  =  5.000e-01  
+                     Total carbon (mol/kg)  =  6.687e-03  
+                        Total CO2 (mol/kg)  =  6.687e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -8.106e-03 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.73 
+                                Iterations  =  9   
+                                   Total H  =  5.551723e+01
+                                   Total O  =  2.797041e+01
 
 ---------------------------------Redox couples---------------------------------
 
@@ -105,11 +105,11 @@ Solution volume    5.1128e-01
    H2O             5.551e+01   9.638e-01     1.744    -0.016     0.000     18.07
 C(4)          6.687e-03
    FeHCO3+         2.902e-03   2.409e-03    -2.537    -2.618    -0.081     (0)  
-   HCO3-           2.795e-03   1.843e-03    -2.554    -2.734    -0.181     30.02
-   NaHCO3          4.231e-04   6.470e-04    -3.374    -3.189     0.184     17.66
+   HCO3-           2.795e-03   1.843e-03    -2.554    -2.734    -0.181     27.83
+   NaHCO3          4.231e-04   6.470e-04    -3.374    -3.189     0.184     24.51
    CO2             3.571e-04   4.300e-04    -3.447    -3.367     0.081     34.79
    FeCO3           2.046e-04   2.710e-04    -3.689    -3.567     0.122     (0)  
-   CO3-2           4.993e-06   8.644e-07    -5.302    -6.063    -0.762      0.83
+   CO3-2           4.993e-06   8.644e-07    -5.302    -6.063    -0.762      1.42
    (CO2)2          2.496e-09   3.006e-09    -8.603    -8.522     0.081     68.75
 Cl            1.000e+00
    Cl-             9.871e-01   5.915e-01    -0.006    -0.228    -0.222     19.03
@@ -149,7 +149,7 @@ H(0)          1.054e-25
 Na            1.000e+00
    Na+             9.515e-01   7.102e-01    -0.022    -0.149    -0.127     -0.19
    NaSO4-          4.806e-02   3.669e-02    -1.318    -1.435    -0.117     23.72
-   NaHCO3          4.231e-04   6.470e-04    -3.374    -3.189     0.184     17.66
+   NaHCO3          4.231e-04   6.470e-04    -3.374    -3.189     0.184     24.51
    Na2SO4          9.905e-06   1.271e-05    -5.004    -4.896     0.108     47.96
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -42.217   -42.095     0.122     30.40
@@ -203,4 +203,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.015 Seconds.
+-------------------------------
 

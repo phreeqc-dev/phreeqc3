@@ -50,22 +50,22 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 0
-                          Density (g/cm³)  =   0.99704
-                               Volume (L)  =   1.00297
-                        Viscosity (mPa s)  =   0.89002
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.007e-07
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.217e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.217e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60
-                               Iterations  =   0
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  0         
+                           Density (g/cm³)  =  0.99704  
+                                Volume (L)  =  1.00297  
+                         Viscosity (mPa s)  =  0.89002  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.007e-07  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.217e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.217e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+                                Iterations  =  0   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -115,23 +115,23 @@ CO2(g)           -1.50    -2.97     -1.47    1.000e+01   9.999e+00  -1.098e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   4.660      Charge balance
-                                       pe  =   1.315      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 8
-                          Density (g/cm³)  =   0.99705
-                               Volume (L)  =   1.00300
-                        Viscosity (mPa s)  =   0.89011
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.199e-05
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.217e-09
-                       Total CO2 (mol/kg)  =   1.098e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.217e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  13
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550841e+01
+                                        pH  =  4.660        Charge balance
+                                        pe  =  1.315        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  8         
+                           Density (g/cm³)  =  0.99705  
+                                Volume (L)  =  1.00300  
+                         Viscosity (mPa s)  =  0.89012  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.199e-05  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.217e-09  
+                        Total CO2 (mol/kg)  =  1.098e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.217e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  13  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550841e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -145,9 +145,9 @@ C(-4)         4.161e-27
    CH4             4.161e-27   4.161e-27   -26.381   -26.381     0.000     35.46
 C(4)          1.098e-03
    CO2             1.076e-03   1.076e-03    -2.968    -2.968     0.000     34.79
-   HCO3-           2.199e-05   2.187e-05    -4.658    -4.660    -0.002     24.52
+   HCO3-           2.199e-05   2.187e-05    -4.658    -4.660    -0.002     21.26
    (CO2)2          1.882e-08   1.882e-08    -7.725    -7.725     0.000     68.75
-   CO3-2           4.793e-11   4.690e-11   -10.319   -10.329    -0.009     -4.79
+   CO3-2           4.793e-11   4.690e-11   -10.319   -10.329    -0.009     -7.34
 H(0)          1.586e-15
    H2              7.930e-16   7.930e-16   -15.101   -15.101     0.000     14.99
 O(0)          0.000e+00
@@ -276,24 +276,24 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.999e+00  -7.283e-04
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.454      Charge balance
-                                       pe  =  10.277      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 333
-                          Density (g/cm³)  =   0.99723
-                               Volume (L)  =   1.00304
-                        Viscosity (mPa s)  =   0.89230
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   5.411e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   3.649e-03
-                       Total CO2 (mol/kg)  =   3.898e-03
-                         Temperature (°C)  =  25.00
-                           Pressure (atm)  =  0.01
-                  Electrical balance (eq)  =  -1.216e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  24
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.551584e+01
+                                        pH  =  7.454        Charge balance
+                                        pe  =  10.277       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  337       
+                           Density (g/cm³)  =  0.99723  
+                                Volume (L)  =  1.00304  
+                         Viscosity (mPa s)  =  0.89326  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  5.411e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  3.649e-03  
+                        Total CO2 (mol/kg)  =  3.898e-03  
+                          Temperature (°C)  =  25.00 
+                            Pressure (atm)  =  0.01 
+                   Electrical balance (eq)  =  -1.216e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  24  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.551584e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -306,10 +306,10 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.999e+00  -7.283e-04
 C(-4)         0.000e+00
    CH4             0.000e+00   0.000e+00  -121.030  -121.029     0.001     35.45
 C(4)          3.898e-03
-   HCO3-           3.598e-03   3.334e-03    -2.444    -2.477    -0.033     24.64
+   HCO3-           3.598e-03   3.334e-03    -2.444    -2.477    -0.033     23.75
    CO2             2.636e-04   2.638e-04    -3.579    -3.579     0.000     34.79
    MgHCO3+         2.196e-05   2.030e-05    -4.658    -4.693    -0.034      5.51
-   CO3-2           6.031e-06   4.443e-06    -5.220    -5.352    -0.133     -4.49
+   CO3-2           6.031e-06   4.443e-06    -5.220    -5.352    -0.133     -5.78
    CaCO3           5.981e-06   5.989e-06    -5.223    -5.223     0.001    -14.61
    MgCO3           2.203e-06   2.206e-06    -5.657    -5.656     0.001    -17.10
    (CO2)2          1.130e-09   1.131e-09    -8.947    -8.946     0.000     68.75
@@ -403,24 +403,24 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   1.000e+01  -3.997e-04
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.932      Charge balance
-                                       pe  =  -1.814      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 188
-                          Density (g/cm³)  =   0.99713
-                               Volume (L)  =   1.00302
-                        Viscosity (mPa s)  =   0.89149
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.997e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   2.018e-03
-                       Total CO2 (mol/kg)  =   2.048e-03
-                         Temperature (°C)  =  25.00
-                           Pressure (atm)  =  0.00
-                  Electrical balance (eq)  =  -1.215e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  13
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.551132e+01
+                                        pH  =  7.932        Charge balance
+                                        pe  =  -1.814       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  190       
+                           Density (g/cm³)  =  0.99713  
+                                Volume (L)  =  1.00302  
+                         Viscosity (mPa s)  =  0.89201  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.997e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  2.018e-03  
+                        Total CO2 (mol/kg)  =  2.048e-03  
+                          Temperature (°C)  =  25.00 
+                            Pressure (atm)  =  0.00 
+                   Electrical balance (eq)  =  -1.215e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  13  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.551132e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -433,9 +433,9 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   1.000e+01  -3.997e-04
 C(-4)         1.365e-29
    CH4             1.365e-29   1.366e-29   -28.865   -28.865     0.000     35.45
 C(4)          2.048e-03
-   HCO3-           1.974e-03   1.862e-03    -2.705    -2.730    -0.025     24.60
+   HCO3-           1.974e-03   1.862e-03    -2.705    -2.730    -0.025     23.43
    CO2             4.889e-05   4.892e-05    -4.311    -4.311     0.000     34.79
-   CO3-2           9.449e-06   7.475e-06    -5.025    -5.126    -0.102     -4.58
+   CO3-2           9.449e-06   7.475e-06    -5.025    -5.126    -0.102     -6.07
    MgHCO3+         7.155e-06   6.738e-06    -5.145    -5.171    -0.026      5.49
    CaCO3           5.985e-06   5.989e-06    -5.223    -5.223     0.000    -14.61
    MgCO3           2.204e-06   2.206e-06    -5.657    -5.656     0.000    -17.10
@@ -479,4 +479,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 6.
 ------------------------------------
+
+------------------------------
+End of Run after 0.02 Seconds.
+------------------------------
 

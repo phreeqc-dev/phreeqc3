@@ -456,6 +456,8 @@ set(TESTS
   v_TP_MgSO4
   v_TP_Na2SO4
   variable_cell_diffusion
+  visc_anio_tc
+  visc_cat_tc
   visc_MgSO4
   visc_NaK2SO4
   visc_NaKCl

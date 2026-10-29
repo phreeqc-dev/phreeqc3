@@ -55,25 +55,25 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  -3.264      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 502072
-                          Density (g/cm³)  =   1.33671
-                               Volume (L)  =   1.33510
-                        Viscosity (mPa s)  =   1.30076
-                        Activity of water  =   0.482
-                 Ionic strength (mol/kgw)  =   8.932e+00
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =  -1.600e+01
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.852e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  23
-                         Gamma iterations  =   8
-                      Osmotic coefficient  =   2.46334
-                         Density of water  =   0.99704
-                                  Total H  = 1.270124e+02
-                                  Total O  = 8.750622e+01
+                                        pH  =  -3.264       Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  502073    
+                           Density (g/cm³)  =  1.33671  
+                                Volume (L)  =  1.33510  
+                         Viscosity (mPa s)  =  1.30076  
+                         Activity of water  =  0.482  
+                  Ionic strength (mol/kgw)  =  8.932e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  -1.600e+01 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.852e-08 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  23  
+                          Gamma iterations  =  8   
+                       Osmotic coefficient  =  2.46334  
+                          Density of water  =  0.99704  
+                                   Total H  =  1.270124e+02
+                                   Total O  =  8.750622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -110,8 +110,6 @@ ERROR:                    S has not converged. Total: 8.000000e+00	Calculated: 7
 
 ERROR:                   Mu Ionic strength has not converged. 	Residual: 1.319750e+03
 
-WARNING: viscosity < 0, reset to viscosity of pure water
-WARNING: viscosity < 0, reset to viscosity of pure water
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
@@ -120,27 +118,25 @@ WARNING: viscosity < 0, reset to viscosity of pure water
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  -3.263    
-                                       pe  =   4.000    
-WARNING: viscosity < 0, reset to viscosity of pure water
-      Specific Conductance (µS/cm,  25°C)  = -2147483648
-                          Density (g/cm³)  =   7.06242   (Program limit)
-                               Volume (L)  =   0.39364
-WARNING: viscosity < 0, reset to viscosity of pure water
-                        Viscosity (mPa s)  =   0.89002
-                        Activity of water  =   0.982
-                 Ionic strength (mol/kgw)  =   1.824e+03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =  -1.008e+03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   9.920e+02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  98.42
-                               Iterations  = 201 (425 overall)
-                         Gamma iterations  = 201
-                      Osmotic coefficient  =   3.10115
-                         Density of water  =   0.99704
-                                  Total H  = 1.118966e+03
-                                  Total O  = 8.732078e+01
+                                        pH  =  -3.263     
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  127444632 
+                           Density (g/cm³)  =  7.06242     (Program limit)
+                                Volume (L)  =  0.39364  
+                         Viscosity (mPa s)  =  1861920.53366
+                         Activity of water  =  0.982  
+                  Ionic strength (mol/kgw)  =  1.824e+03  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  -1.008e+03 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  9.920e+02  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  98.42 
+                               Iterations  =   201  (425 overall)
+                         Gamma iterations  =   201 
+                       Osmotic coefficient  =  3.10115  
+                          Density of water  =  0.99704  
+                                   Total H  =  1.118966e+03
+                                   Total O  =  8.732078e+01
 
 ----------------------------Distribution of species----------------------------
 

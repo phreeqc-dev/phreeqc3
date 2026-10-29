@@ -137,9 +137,9 @@ Cl- = Cl-
 	-dw 2.033e-9 216 3.16 0.2071 0.7432
 CO3-2 = CO3-2
 	-gamma 5.4 0
-	-Vm 6.685 -7.727 -9 -2.238 3.904 1.395 3.696 14 -0.02 0.701
-	-viscosity 3e-3 0.264 3.05e-2 1.1e-4 -1e-3 2.234 -1.434
-	-dw 0.955e-9 -91 1.992 0.1595 0.4515
+	-Vm 4.53 -3.683 -9.8 -2.42 3.79 0.733 12.95 -186 -6.42e-2 0.2155
+	-viscosity -5.15e-2 0.309 2.42e-2 2.55e-3 -5e-3 1.534 -0.399
+	-dw 0.955e-9 -74.7 1.516 0.251 0.4966
 SO4-2 = SO4-2
 	-gamma 5.0 -0.04
 	-Vm 5.36 10.69 33.566 -15.03 4.2582 25 0.341 153.8 1.089e-2 0.9224 # with Na2SO4 & sulfates' solubilities in NaCl
@@ -218,7 +218,7 @@ H2O = OH- + H+
 	-dw 5.13e-9
 H+ + Cl- = HCl
 	-log_k -0.46; -delta_h -4.6
-	-analytical_expression 0.334 -2.684e-3 1.015 # from Pitzer.dat, up to 15 M HCl, 0 - 50°C
+	-analytical_expression 0.334 -2.684e-3 1.015 # from Pitzer.dat, up to 15 M HCl, 0 - 50Â°C
 	-gamma 0 0.4256
 	-Vm 4.4 4 3.6 -3 -0.1
 	-viscosity 0.921 -0.907 9.59e-3 1.87e-2 9.01e-3 2.5
@@ -226,9 +226,9 @@ CO3-2 + H+ = HCO3-
 	log_k 10.329; -delta_h -3.561 kcal
 	-analytic 107.8871 0.03252849 -5151.79 -38.92561 563713.9
 	-gamma 5.4 7.8e-3
-	-Vm 9.308 -1.695 -8.209 -1.014 1.777 6.978 -1.02 150 4.731e-2 0.802
-	-viscosity -1.479 1.44 -1e-3 0.119 3.379e-2 0 0.2658
-	-dw 1.18e-9 -250 6 0.118 0.359
+	-Vm 8.348 -7.103 -6.324 -1 1.073 0.575 23 -450 -6.4e-2 5.76e-2
+	-viscosity -1.115 0.763 -5e-3 0.7 1.02e-2 4e-6 0.451
+	-dw 1.18e-9 -266 8.434 0.4 0.777
 CO3-2 + 2 H+ = CO2 + H2O
 	-log_k 16.681; -delta_h -5.738 kcal
 	-analytic 464.1965 0.09344813 -26986.16 -165.75951 2248628.9
@@ -312,6 +312,7 @@ NH4+ = NH3 + H+
 NH4+ + SO4-2 = NH4SO4-
 	-gamma 7 -7.36e-2
 	-log_k 1.353; -delta_h 3.91 kcal
+	-gamma 7 -7.36e-2
 	-Vm 6.27 8.5 8.77 -3.1 2 0 5.53 0 1.98e-2 0.475
 	-viscosity 1.251 -1.065 8.64e-4 6.186e-2 -1e-3 0.933 0.543
 	-dw 1.35e-9 500 12.5 0.5 0.256
@@ -445,8 +446,8 @@ Na+ + HCO3- = NaHCO3
 	-log_k -0.433; -delta_h 11.4 kJ
 	-analytic -3.589 7.94e-3 273 # with -gamma, from calcite solubilities in NaCl
 	-gamma 0 0.151
-	-Vm 9.09 -9.2 4.2e-2 -2.4 3.8e-2
-	-viscosity -0.5 0.482 -8.8e-4 0.821 5.9e-2 2.5 -0.205
+	-Vm 7.558 -9.2 20 -2.4 -0.5
+	-viscosity -0.946 -1 7.53e-3 1.5 4.02e-2 2.5 -3.469
 	-dw 6.73e-10
 Na+ + SO4-2 = NaSO4-
 	-log_k 0.94; -delta_h 8.23
@@ -480,10 +481,11 @@ K+ + F- = KF
 	-viscosity 0.9 -0.769 -1e-3 2 6.76e-2 -0.889 -2
 	-dw 8e-10
 K+ + HCO3- = KHCO3
-	-log_k -0.35; -delta_h 12 kJ
-	-gamma 0 0.1
-	-Vm 3.84 6.5 2.98 -3 2.1e-4
-	-viscosity 0.192 -0.546 0.121 0.251 0 0.314 2
+	-log_k -0.266; -delta_h 3.43 kJ
+	-gamma 0 0.172
+	-Vm 3.085 6.5 20 -3 -9.36e-2
+	-viscosity -0.92 0.5 -5e-3 4.16e-2 -6e-3 -1.937 2
+	-dw 9.73e-10
 K+ + SO4-2 = KSO4-
 	-log_k 1.18; -delta_h 3
 	-analytical_expression -3.0246 9.986e-3 0 0 1.093e5 # arcanite solubility, 0 - 200 oC
@@ -964,7 +966,7 @@ PHASES
 Calcite
 	CaCO3 = CO3-2 + Ca+2
 	-log_k -8.45; -delta_h -3.15 kcal
-	-analytic -67.87 -5.1813e-2 0 30.25746 # 0 - 300°C, Ellis, 1959, Plummer and Busenberg, 1982
+	-analytic -67.87 -5.1813e-2 0 30.25746 # 0 - 300Â°C, Ellis, 1959, Plummer and Busenberg, 1982
 	-Vm 36.9 cm3/mol # MW (100.09 g/mol) / rho (2.71 g/cm3)
 Aragonite
 	CaCO3 = CO3-2 + Ca+2
@@ -976,7 +978,7 @@ Dolomite
 	CaMg(CO3)2 = Ca+2 + Mg+2 + 2 CO3-2
 	-log_k -17.09
 	-delta_h -9.436 kcal
-	-analytic 31.283 -0.0898 -6438 # 25°C: Hemingway and Robie, 1994; 50–175°C: Bénézeth et al., 2018, GCA 224, 262-275
+	-analytic 31.283 -0.0898 -6438 # 25Â°C: Hemingway and Robie, 1994; 50â€“175Â°C: BÃ©nÃ©zeth et al., 2018, GCA 224, 262-275
 	-Vm 64.5
 Siderite
 	FeCO3 = Fe+2 + CO3-2
@@ -1060,7 +1062,7 @@ Hydroxyapatite
 Fluorite
 	CaF2 = Ca+2 + 2 F-
 	-log_k -10.61; -delta_h 10.6
-	-analytic 57.313 0 -3495 -22.714 # Strübel, 1965, NJbM,M 83-95; Henry, 2018, PhD, Colorado School of Mines.
+	-analytic 57.313 0 -3495 -22.714 # StrÃ¼bel, 1965, NJbM,M 83-95; Henry, 2018, PhD, Colorado School of Mines.
 	-Vm 15.7
 SiO2(a)
 	SiO2 + 2 H2O = H4SiO4
@@ -1225,7 +1227,7 @@ O2(g)
 	-T_c 154.6; -P_c 49.8; -Omega 0.021
 H2(g)
 	H2 = H2
-	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ºC
+	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ÂºC
 	-analytic	-8.841 8.6515e-3 942.8 # Zhu, 2022; Chabab 2020; Gordon 1977; Crozier, 1974
 	-T_c 33.2; -P_c 12.8; -Omega -0.225
 N2(g)
@@ -1237,12 +1239,12 @@ H2S(g)
 	H2S = H+ + HS-
 	log_k -7.93
 	-delta_h 9.1
-	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
+	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300Â°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
 	-T_c 373.2; -P_c 88.2; -Omega 0.1
 CH4(g)
 	CH4 = CH4
 	-log_k -2.8
-	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100°C
+	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100Â°C
 	-T_c 190.6; -P_c 45.4; -Omega 0.008
 NH3(g)
 	NH3 = NH3	
@@ -1256,7 +1258,7 @@ Oxg(g)
 	-T_c 154.6; -P_c 49.8; -Omega 0.021
 Hdg(g)
 	Hdg = Hdg
-	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ºC
+	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ÂºC
 	-analytic	-8.841 8.6515e-3 942.8 # Zhu, 2022; Chabab 2020; Gordon 1977; Crozier, 1974
 	-T_c 33.2; -P_c 12.8; -Omega -0.225
 Ntg(g)
@@ -1266,12 +1268,12 @@ Ntg(g)
 Mtg(g)
 	Mtg = Mtg
 	-log_k -2.8; -delta_h -15.6
-	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100°C
+	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100Â°C
 	-T_c 190.6; -P_c 45.4; -Omega 0.008
 H2Sg(g)
 	H2Sg = H+ + HSg-
 	log_k -7.93; -delta_h 9.1
-	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
+	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300Â°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
 	-T_c 373.2; -P_c 88.2; -Omega 0.1
 Melanterite
 	FeSO4:7H2O = 7 H2O + Fe+2 + SO4-2
@@ -1945,8 +1947,8 @@ END
 #   W * QBrn is the energy of solvation, calculated from W and the pressure dependence of the Born equation,
 #	W is fitted on measured solution densities.
 #   z is charge of the solute species.
-#   Av is the Debye-Hückel limiting slope (DH_AV in PHREEQC basic).
-#   a0 is the ion-size parameter in the extended Debye-Hückel equation:
+#   Av is the Debye-HÃ¼ckel limiting slope (DH_AV in PHREEQC basic).
+#   a0 is the ion-size parameter in the extended Debye-HÃ¼ckel equation:
 #	f(I^0.5) = I^0.5 / (1 + a0 * DH_B * I^0.5),
 #	a0 = -gamma	  x for cations, = 0 for anions (or fitted).
 # For details, consult ref. 1 and subroutine calc_vm(tc, pa) in prep.cpp.
@@ -1961,11 +1963,11 @@ END
 #    B_i = b0 + b1 exp(-b2 * tc)
 #    fan = (2 - tan V_i / V_Cl-), corrects for the volume of anions and neutral species
 #    D_i = d1 * exp(-d2 tc)
-#    n_i = (I^d3 * (1 + fI) + ((z_i^2 + z_i) / 2 · m_i)^d3) / (2 + fI), fI is an ionic strength term.
+#    n_i = (I^d3 * (1 + fI) + ((z_i^2 + z_i) / 2 Â· m_i)^d3) / (2 + fI), fI is an ionic strength term.
 # For details, consult ref. 4.
 #
-# ref. 1: Appelo, Parkhurst and Post, 2014. Geochim. Cosmochim. Acta 125, 49–67.
-# ref. 2: Procedures from ref. 1 using data compiled by Laliberté, 2009, J. Chem. Eng. Data 54, 1725.
+# ref. 1: Appelo, Parkhurst and Post, 2014. Geochim. Cosmochim. Acta 125, 49â€“67.
+# ref. 2: Procedures from ref. 1 using data compiled by LalibertÃ©, 2009, J. Chem. Eng. Data 54, 1725.
 # ref. 3: Appelo, 2017, Cem. Concr. Res. 101, 102-113.
 # ref. 4: Appelo and Parkhurst in prep., for details see subroutine viscosity in transport.cpp
 #

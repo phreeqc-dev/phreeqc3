@@ -78,19 +78,19 @@ Initial solution 0.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.180    
-                                       pe  =   4.000    
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   4.831e-03
-                       Mass of water (kg)  =   1.000e+00
-                    Total carbon (mol/kg)  =   2.691e-03
-                       Total CO2 (mol/kg)  =   2.691e-03
-                         Temperature (°C)  =  27.00
-                  Electrical balance (eq)  =   1.000e-05
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.16
-                               Iterations  =   6
-                                  Total H  = 1.110159e+02
-                                  Total O  = 5.551765e+01
+                                        pH  =  7.180      
+                                        pe  =  4.000      
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  4.831e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                     Total carbon (mol/kg)  =  2.691e-03  
+                        Total CO2 (mol/kg)  =  2.691e-03  
+                          Temperature (°C)  =  27.00 
+                   Electrical balance (eq)  =  1.000e-05  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.16  
+                                Iterations  =  6   
+                                   Total H  =  1.110159e+02
+                                   Total O  =  5.551765e+01
 
 ---------------------------------Redox couples---------------------------------
 
@@ -238,19 +238,19 @@ Calcite           0.20    -8.29     -8.49    1.000e+01   9.997e+00  -2.538e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.943      Charge balance
-                                       pe  =  13.532      Adjusted to redox equilibrium
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.196e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   7.457e-03
-                       Total CO2 (mol/kg)  =   9.055e-03
-                         Temperature (°C)  =  27.00
-                  Electrical balance (eq)  =   1.000e-05
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.06
-                               Iterations  =  22
-                                  Total H  = 1.110159e+02
-                                  Total O  = 5.553292e+01
+                                        pH  =  6.943        Charge balance
+                                        pe  =  13.532       Adjusted to redox equilibrium
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.196e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  7.457e-03  
+                        Total CO2 (mol/kg)  =  9.055e-03  
+                          Temperature (°C)  =  27.00 
+                   Electrical balance (eq)  =  1.000e-05  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.06  
+                                Iterations  =  22  
+                                   Total H  =  1.110159e+02
+                                   Total O  =  5.553292e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -635,4 +635,8 @@ WARNING: Trying smaller step size, pe step size 10, 5 ...
 WARNING: Maximum iterations exceeded, 200
 
 WARNING: Numerical method failed with this set of convergence parameters.
+
+------------------------------
+End of Run after 1.14 Seconds.
+------------------------------
 

@@ -68,25 +68,25 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.950      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  80°C)  = 454419
-                          Density (g/cm³)  =   1.10691
-                               Volume (L)  =   1.11460
-                        Viscosity (mPa s)  =   0.56132
-                        Activity of water  =   0.852
-                 Ionic strength (mol/kgw)  =   4.000e+00
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   4.532e-15
-                         Temperature (°C)  =  80.00
-                  Electrical balance (eq)  =   5.995e-13
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   8
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   1.11480
-                         Density of water  =   0.97179
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  5.950        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  80°C)  =  455050    
+                           Density (g/cm³)  =  1.10691  
+                                Volume (L)  =  1.11460  
+                         Viscosity (mPa s)  =  0.56025  
+                         Activity of water  =  0.852  
+                  Ionic strength (mol/kgw)  =  4.000e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  4.532e-15  
+                          Temperature (°C)  =  80.00 
+                   Electrical balance (eq)  =  5.995e-13  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  8   
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  1.11480  
+                          Density of water  =  0.97179  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -160,27 +160,27 @@ H2O(g)            -0.39   4.094e-01  0.966   0.000e+00   1.439e-02   1.439e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.360      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 452919
-                          Density (g/cm³)  =   1.10717
-                               Volume (L)  =   1.11535
-                        Viscosity (mPa s)  =   0.56254
-                        Activity of water  =   0.851
-                 Ionic strength (mol/kgw)  =   4.001e+00
-                       Mass of water (kg)  =   9.997e-01
-                 Total alkalinity (eq/kg)  =   6.669e-15
-                       Total CO2 (mol/kg)  =   3.131e-02
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  =  5.21
-                  Electrical balance (eq)  =   5.958e-13
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  32
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   1.11698
-                         Density of water  =   0.97198
-                                  Total H  = 1.109837e+02
-                                  Total O  = 5.555443e+01
+                                        pH  =  3.365        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  453554    
+                           Density (g/cm³)  =  1.10717  
+                                Volume (L)  =  1.11535  
+                         Viscosity (mPa s)  =  0.56146  
+                         Activity of water  =  0.851  
+                  Ionic strength (mol/kgw)  =  4.001e+00  
+                        Mass of water (kg)  =  9.997e-01  
+                  Total alkalinity (eq/kg)  =  6.984e-15  
+                        Total CO2 (mol/kg)  =  3.131e-02  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  5.21 
+                   Electrical balance (eq)  =  5.956e-13  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  32  
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  1.11698  
+                          Density of water  =  0.97198  
+                                   Total H  =  1.109837e+02
+                                   Total O  =  5.555442e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -188,13 +188,13 @@ H2O(g)            -0.39   4.094e-01  0.966   0.000e+00   1.439e-02   1.439e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              1.909e-04   4.368e-04    -3.719    -3.360     0.359      0.00
-   OH-             1.263e-09   5.032e-10    -8.898    -9.298    -0.400      2.86
+   H+              1.887e-04   4.316e-04    -3.724    -3.365     0.359      0.00
+   OH-             1.278e-09   5.093e-10    -8.893    -9.293    -0.400      2.86
    H2O             5.551e+01   8.507e-01     1.744    -0.070     0.000     18.54
 C(4)          3.131e-02
    CO2             3.112e-02   5.881e-02    -1.507    -1.231     0.276     37.66
-   HCO3-           1.909e-04   5.405e-05    -3.719    -4.267    -0.548     29.70
-   CO3-2           4.202e-10   9.081e-12    -9.377   -11.042    -1.665      4.97
+   HCO3-           1.887e-04   5.341e-05    -3.724    -4.272    -0.548     28.36
+   CO3-2           4.303e-10   9.300e-12    -9.366   -11.032    -1.665      4.76
 Cl            4.001e+00
    Cl-             4.001e+00   2.343e+00     0.602     0.370    -0.232     19.85
 Na            4.001e+00
@@ -208,8 +208,8 @@ Na            4.001e+00
   H2O(g)           -0.40     -0.07    0.33  H2O	 Pressure   0.4 atm, phi 0.966
   Halite           -0.63      0.98    1.61  NaCl
   Nahcolite        -3.05    -13.79  -10.74  NaHCO3
-  Natron           -9.69    -10.53   -0.84  Na2CO3:10H2O
-  Trona           -12.38    -23.76  -11.38  Na3H(CO3)2:2H2O
+  Natron           -9.68    -10.52   -0.84  Na2CO3:10H2O
+  Trona           -12.37    -23.75  -11.38  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -245,40 +245,40 @@ Total pressure:  9.92      atmospheres          (Peng-Robinson calculation)
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-CO2(g)             0.98   9.500e+00  0.968   1.687e-01   3.393e-01   1.706e-01
+CO2(g)             0.98   9.501e+00  0.968   1.687e-01   3.393e-01   1.706e-01
 H2O(g)            -0.37   4.224e-01  0.938   1.439e-02   1.508e-02   6.925e-04
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	C                 6.076e-02   6.074e-02
+	C                 6.075e-02   6.074e-02
 	Cl                4.001e+00   4.000e+00
 	Na                4.001e+00   4.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.216      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 451441
-                          Density (g/cm³)  =   1.10741
-                               Volume (L)  =   1.11627
-                        Viscosity (mPa s)  =   0.56365
-                        Activity of water  =   0.850
-                 Ionic strength (mol/kgw)  =   4.001e+00
-                       Mass of water (kg)  =   9.997e-01
-                 Total alkalinity (eq/kg)  =   2.482e-12
-                       Total CO2 (mol/kg)  =   6.076e-02
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  =  9.92
-                  Electrical balance (eq)  =  -1.334e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  23
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.11896
-                         Density of water  =   0.97220
-                                  Total H  = 1.109823e+02
-                                  Total O  = 5.561262e+01
+                                        pH  =  3.221        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  452076    
+                           Density (g/cm³)  =  1.10742  
+                                Volume (L)  =  1.11627  
+                         Viscosity (mPa s)  =  0.56257  
+                         Activity of water  =  0.850  
+                  Ionic strength (mol/kgw)  =  4.001e+00  
+                        Mass of water (kg)  =  9.997e-01  
+                  Total alkalinity (eq/kg)  =  2.349e-12  
+                        Total CO2 (mol/kg)  =  6.075e-02  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  9.92 
+                   Electrical balance (eq)  =  -1.333e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  27  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.11896  
+                          Density of water  =  0.97220  
+                                   Total H  =  1.109823e+02
+                                   Total O  =  5.561261e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -286,13 +286,13 @@ H2O(g)            -0.37   4.224e-01  0.938   1.439e-02   1.508e-02   6.925e-04
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              2.662e-04   6.088e-04    -3.575    -3.216     0.359      0.00
-   OH-             9.075e-10   3.616e-10    -9.042    -9.442    -0.400      2.84
+   H+              2.630e-04   6.017e-04    -3.580    -3.221     0.359      0.00
+   OH-             9.182e-10   3.659e-10    -9.037    -9.437    -0.400      2.84
    H2O             5.551e+01   8.500e-01     1.744    -0.071     0.000     18.53
-C(4)          6.076e-02
+C(4)          6.075e-02
    CO2             6.049e-02   1.139e-01    -1.218    -0.943     0.275     37.65
-   HCO3-           2.662e-04   7.538e-05    -3.575    -4.123    -0.548     29.71
-   CO3-2           4.215e-10   9.122e-12    -9.375   -11.040    -1.665      5.02
+   HCO3-           2.630e-04   7.450e-05    -3.580    -4.128    -0.548     28.38
+   CO3-2           4.316e-10   9.340e-12    -9.365   -11.030    -1.665      4.79
 Cl            4.001e+00
    Cl-             4.001e+00   2.343e+00     0.602     0.370    -0.232     19.85
 Na            4.001e+00
@@ -305,9 +305,9 @@ Na            4.001e+00
   CO2(g)            0.96     -0.94   -1.91  CO2	 Pressure   9.5 atm, phi 0.968
   H2O(g)           -0.40     -0.07    0.33  H2O	 Pressure   0.4 atm, phi 0.938
   Halite           -0.63      0.98    1.61  NaCl
-  Nahcolite        -2.91    -13.65  -10.74  NaHCO3
-  Natron           -9.68    -10.53   -0.85  Na2CO3:10H2O
-  Trona           -12.23    -23.61  -11.38  Na3H(CO3)2:2H2O
+  Nahcolite        -2.90    -13.64  -10.74  NaHCO3
+  Natron           -9.67    -10.52   -0.85  Na2CO3:10H2O
+  Trona           -12.22    -23.59  -11.38  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -356,27 +356,27 @@ H2O(g)            -0.36   4.356e-01  0.912   1.508e-02   1.580e-02   7.226e-04
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.134      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 450055
-                          Density (g/cm³)  =   1.10765
-                               Volume (L)  =   1.11712
-                        Viscosity (mPa s)  =   0.56470
-                        Activity of water  =   0.849
-                 Ionic strength (mol/kgw)  =   4.001e+00
-                       Mass of water (kg)  =   9.997e-01
-                 Total alkalinity (eq/kg)  =   2.608e-12
-                       Total CO2 (mol/kg)  =   8.850e-02
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 14.53
-                  Electrical balance (eq)  =  -1.336e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  14
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.12079
-                         Density of water  =   0.97241
-                                  Total H  = 1.109808e+02
-                                  Total O  = 5.566737e+01
+                                        pH  =  3.139        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  450688    
+                           Density (g/cm³)  =  1.10765  
+                                Volume (L)  =  1.11712  
+                         Viscosity (mPa s)  =  0.56361  
+                         Activity of water  =  0.849  
+                  Ionic strength (mol/kgw)  =  4.001e+00  
+                        Mass of water (kg)  =  9.997e-01  
+                  Total alkalinity (eq/kg)  =  2.469e-12  
+                        Total CO2 (mol/kg)  =  8.850e-02  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  14.53
+                   Electrical balance (eq)  =  -1.334e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  14  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.12079  
+                          Density of water  =  0.97241  
+                                   Total H  =  1.109808e+02
+                                   Total O  =  5.566736e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -384,13 +384,13 @@ H2O(g)            -0.36   4.356e-01  0.912   1.508e-02   1.580e-02   7.226e-04
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              3.213e-04   7.349e-04    -3.493    -3.134     0.359      0.00
-   OH-             7.527e-10   3.001e-10    -9.123    -9.523    -0.399      2.82
+   H+              3.176e-04   7.264e-04    -3.498    -3.139     0.359      0.00
+   OH-             7.616e-10   3.036e-10    -9.118    -9.518    -0.399      2.82
    H2O             5.551e+01   8.493e-01     1.744    -0.071     0.000     18.53
 C(4)          8.850e-02
    CO2             8.818e-02   1.655e-01    -1.055    -0.781     0.273     37.63
-   HCO3-           3.213e-04   9.104e-05    -3.493    -4.041    -0.548     29.73
-   CO3-2           4.228e-10   9.163e-12    -9.374   -11.038    -1.664      5.06
+   HCO3-           3.176e-04   8.998e-05    -3.498    -4.046    -0.548     28.40
+   CO3-2           4.328e-10   9.380e-12    -9.364   -11.028    -1.664      4.82
 Cl            4.001e+00
    Cl-             4.001e+00   2.343e+00     0.602     0.370    -0.232     19.85
 Na            4.001e+00
@@ -403,9 +403,9 @@ Na            4.001e+00
   CO2(g)            1.13     -0.78   -1.91  CO2	 Pressure  14.1 atm, phi 0.954
   H2O(g)           -0.40     -0.07    0.33  H2O	 Pressure   0.4 atm, phi 0.912
   Halite           -0.63      0.98    1.61  NaCl
-  Nahcolite        -2.83    -13.56  -10.74  NaHCO3
-  Natron           -9.66    -10.53   -0.86  Na2CO3:10H2O
-  Trona           -12.15    -23.52  -11.37  Na3H(CO3)2:2H2O
+  Nahcolite        -2.82    -13.56  -10.74  NaHCO3
+  Natron           -9.65    -10.52   -0.86  Na2CO3:10H2O
+  Trona           -12.13    -23.50  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -442,7 +442,7 @@ Total pressure: 19.04      atmospheres          (Peng-Robinson calculation)
 Component         log P           P    phi     Initial       Final       Delta
 
 CO2(g)             1.27   1.859e+01  0.940   5.115e-01   6.854e-01   1.739e-01
-H2O(g)            -0.35   4.492e-01  0.886   1.580e-02   1.656e-02   7.533e-04
+H2O(g)            -0.35   4.492e-01  0.886   1.580e-02   1.656e-02   7.534e-04
 
 -----------------------------Solution composition------------------------------
 
@@ -454,27 +454,27 @@ H2O(g)            -0.35   4.492e-01  0.886   1.580e-02   1.656e-02   7.533e-04
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.078      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 448755
-                          Density (g/cm³)  =   1.10788
-                               Volume (L)  =   1.11792
-                        Viscosity (mPa s)  =   0.56568
-                        Activity of water  =   0.849
-                 Ionic strength (mol/kgw)  =   4.002e+00
-                       Mass of water (kg)  =   9.997e-01
-                 Total alkalinity (eq/kg)  =   2.811e-12
-                       Total CO2 (mol/kg)  =   1.146e-01
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 19.04
-                  Electrical balance (eq)  =  -1.338e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  14
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.12250
-                         Density of water  =   0.97261
-                                  Total H  = 1.109793e+02
-                                  Total O  = 5.571887e+01
+                                        pH  =  3.083        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  449387    
+                           Density (g/cm³)  =  1.10788  
+                                Volume (L)  =  1.11792  
+                         Viscosity (mPa s)  =  0.56459  
+                         Activity of water  =  0.849  
+                  Ionic strength (mol/kgw)  =  4.002e+00  
+                        Mass of water (kg)  =  9.997e-01  
+                  Total alkalinity (eq/kg)  =  2.662e-12  
+                        Total CO2 (mol/kg)  =  1.146e-01  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  19.04
+                   Electrical balance (eq)  =  -1.337e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  14  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.12250  
+                          Density of water  =  0.97261  
+                                   Total H  =  1.109793e+02
+                                   Total O  =  5.571886e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -482,13 +482,13 @@ H2O(g)            -0.35   4.492e-01  0.886   1.580e-02   1.656e-02   7.533e-04
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              3.658e-04   8.365e-04    -3.437    -3.078     0.359      0.00
-   OH-             6.622e-10   2.641e-10    -9.179    -9.578    -0.399      2.79
+   H+              3.616e-04   8.269e-04    -3.442    -3.083     0.359      0.00
+   OH-             6.699e-10   2.672e-10    -9.174    -9.573    -0.399      2.79
    H2O             5.551e+01   8.486e-01     1.744    -0.071     0.000     18.52
 C(4)          1.146e-01
    CO2             1.143e-01   2.138e-01    -0.942    -0.670     0.272     37.62
-   HCO3-           3.658e-04   1.037e-04    -3.437    -3.984    -0.548     29.74
-   CO3-2           4.239e-10   9.202e-12    -9.373   -11.036    -1.663      5.10
+   HCO3-           3.616e-04   1.025e-04    -3.442    -3.989    -0.548     28.42
+   CO3-2           4.339e-10   9.419e-12    -9.363   -11.026    -1.663      4.85
 Cl            4.001e+00
    Cl-             4.001e+00   2.344e+00     0.602     0.370    -0.232     19.85
 Na            4.001e+00
@@ -501,9 +501,9 @@ Na            4.001e+00
   CO2(g)            1.24     -0.67   -1.91  CO2	 Pressure  18.6 atm, phi 0.940
   H2O(g)           -0.40     -0.07    0.33  H2O	 Pressure   0.4 atm, phi 0.886
   Halite           -0.63      0.98    1.61  NaCl
-  Nahcolite        -2.77    -13.50  -10.73  NaHCO3
-  Natron           -9.65    -10.52   -0.88  Na2CO3:10H2O
-  Trona           -12.08    -23.45  -11.37  Na3H(CO3)2:2H2O
+  Nahcolite        -2.76    -13.50  -10.73  NaHCO3
+  Natron           -9.64    -10.51   -0.88  Na2CO3:10H2O
+  Trona           -12.07    -23.44  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -552,27 +552,27 @@ H2O(g)            -0.33   4.631e-01  0.861   1.656e-02   1.734e-02   7.847e-04
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.035      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 447536
-                          Density (g/cm³)  =   1.10809
-                               Volume (L)  =   1.11866
-                        Viscosity (mPa s)  =   0.56661
-                        Activity of water  =   0.848
-                 Ionic strength (mol/kgw)  =   4.002e+00
-                       Mass of water (kg)  =   9.997e-01
-                 Total alkalinity (eq/kg)  =   3.115e-12
-                       Total CO2 (mol/kg)  =   1.392e-01
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 23.45
-                  Electrical balance (eq)  =  -1.341e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  14
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.12410
-                         Density of water  =   0.97281
-                                  Total H  = 1.109777e+02
-                                  Total O  = 5.576726e+01
+                                        pH  =  3.040        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  448167    
+                           Density (g/cm³)  =  1.10809  
+                                Volume (L)  =  1.11866  
+                         Viscosity (mPa s)  =  0.56551  
+                         Activity of water  =  0.848  
+                  Ionic strength (mol/kgw)  =  4.002e+00  
+                        Mass of water (kg)  =  9.997e-01  
+                  Total alkalinity (eq/kg)  =  2.950e-12  
+                        Total CO2 (mol/kg)  =  1.392e-01  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  23.45
+                   Electrical balance (eq)  =  -1.340e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  14  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.12410  
+                          Density of water  =  0.97281  
+                                   Total H  =  1.109777e+02
+                                   Total O  =  5.576726e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -580,13 +580,13 @@ H2O(g)            -0.33   4.631e-01  0.861   1.656e-02   1.734e-02   7.847e-04
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              4.032e-04   9.220e-04    -3.394    -3.035     0.359      0.00
-   OH-             6.016e-10   2.400e-10    -9.221    -9.620    -0.399      2.77
+   H+              3.986e-04   9.115e-04    -3.399    -3.040     0.359      0.00
+   OH-             6.085e-10   2.428e-10    -9.216    -9.615    -0.399      2.77
    H2O             5.551e+01   8.480e-01     1.744    -0.072     0.000     18.52
 C(4)          1.392e-01
    CO2             1.388e-01   2.591e-01    -0.857    -0.587     0.271     37.61
-   HCO3-           4.032e-04   1.143e-04    -3.394    -3.942    -0.547     29.76
-   CO3-2           4.251e-10   9.240e-12    -9.372   -11.034    -1.663      5.15
+   HCO3-           3.986e-04   1.130e-04    -3.399    -3.947    -0.547     28.45
+   CO3-2           4.350e-10   9.457e-12    -9.361   -11.024    -1.663      4.88
 Cl            4.001e+00
    Cl-             4.001e+00   2.344e+00     0.602     0.370    -0.232     19.85
 Na            4.001e+00
@@ -600,8 +600,8 @@ Na            4.001e+00
   H2O(g)           -0.40     -0.07    0.33  H2O	 Pressure   0.5 atm, phi 0.861
   Halite           -0.63      0.98    1.61  NaCl
   Nahcolite        -2.72    -13.45  -10.73  NaHCO3
-  Natron           -9.63    -10.52   -0.89  Na2CO3:10H2O
-  Trona           -12.04    -23.40  -11.37  Na3H(CO3)2:2H2O
+  Natron           -9.62    -10.51   -0.89  Na2CO3:10H2O
+  Trona           -12.02    -23.39  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -644,33 +644,33 @@ H2O(g)            -0.27   5.370e-01  0.750   1.734e-02   2.176e-02   4.417e-03
 
 	Elements           Molality       Moles
 
-	C                 2.419e-01   2.419e-01
+	C                 2.419e-01   2.418e-01
 	Cl                4.002e+00   4.000e+00
 	Na                4.002e+00   4.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.915      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 442500
-                          Density (g/cm³)  =   1.10909
-                               Volume (L)  =   1.12166
-                        Viscosity (mPa s)  =   0.57051
-                        Activity of water  =   0.845
-                 Ionic strength (mol/kgw)  =   4.002e+00
-                       Mass of water (kg)  =   9.996e-01
-                 Total alkalinity (eq/kg)  =   4.051e-12
-                       Total CO2 (mol/kg)  =   2.419e-01
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 43.93
-                  Electrical balance (eq)  =  -4.757e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  17
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.13059
-                         Density of water  =   0.97374
-                                  Total H  = 1.109689e+02
-                                  Total O  = 5.596816e+01
+                                        pH  =  2.920        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  443125    
+                           Density (g/cm³)  =  1.10909  
+                                Volume (L)  =  1.12166  
+                         Viscosity (mPa s)  =  0.56942  
+                         Activity of water  =  0.845  
+                  Ionic strength (mol/kgw)  =  4.002e+00  
+                        Mass of water (kg)  =  9.996e-01  
+                  Total alkalinity (eq/kg)  =  3.846e-12  
+                        Total CO2 (mol/kg)  =  2.419e-01  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  43.93
+                   Electrical balance (eq)  =  -4.756e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  17  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.13059  
+                          Density of water  =  0.97374  
+                                   Total H  =  1.109689e+02
+                                   Total O  =  5.596815e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -678,13 +678,13 @@ H2O(g)            -0.27   5.370e-01  0.750   1.734e-02   2.176e-02   4.417e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              5.322e-04   1.217e-03    -3.274    -2.915     0.359      0.00
-   OH-             4.589e-10   1.834e-10    -9.338    -9.737    -0.398      2.68
+   H+              5.264e-04   1.203e-03    -3.279    -2.920     0.359      0.00
+   OH-             4.640e-10   1.854e-10    -9.333    -9.732    -0.398      2.68
    H2O             5.551e+01   8.454e-01     1.744    -0.073     0.000     18.50
 C(4)          2.419e-01
    CO2             2.414e-01   4.450e-01    -0.617    -0.352     0.266     37.56
-   HCO3-           5.322e-04   1.511e-04    -3.274    -3.821    -0.547     29.82
-   CO3-2           4.302e-10   9.418e-12    -9.366   -11.026    -1.660      5.34
+   HCO3-           5.264e-04   1.495e-04    -3.279    -3.825    -0.547     28.55
+   CO3-2           4.400e-10   9.632e-12    -9.357   -11.016    -1.660      5.01
 Cl            4.002e+00
    Cl-             4.002e+00   2.346e+00     0.602     0.370    -0.232     19.84
 Na            4.002e+00
@@ -697,9 +697,9 @@ Na            4.002e+00
   CO2(g)            1.57     -0.35   -1.93  CO2	 Pressure  43.4 atm, phi 0.866
   H2O(g)           -0.39     -0.07    0.32  H2O	 Pressure   0.5 atm, phi 0.750
   Halite           -0.62      0.99    1.61  NaCl
-  Nahcolite        -2.60    -13.32  -10.72  NaHCO3
-  Natron           -9.56    -10.51   -0.95  Na2CO3:10H2O
-  Trona           -11.90    -23.25  -11.35  Na3H(CO3)2:2H2O
+  Nahcolite        -2.59    -13.31  -10.72  NaHCO3
+  Natron           -9.55    -10.50   -0.95  Na2CO3:10H2O
+  Trona           -11.88    -23.23  -11.35  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -748,27 +748,27 @@ H2O(g)            -0.21   6.184e-01  0.657   2.176e-02   2.705e-02   5.290e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.855      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 438849
-                          Density (g/cm³)  =   1.10994
-                               Volume (L)  =   1.12370
-                        Viscosity (mPa s)  =   0.57347
-                        Activity of water  =   0.844
-                 Ionic strength (mol/kgw)  =   4.003e+00
-                       Mass of water (kg)  =   9.995e-01
-                 Total alkalinity (eq/kg)  =   5.202e-12
-                       Total CO2 (mol/kg)  =   3.173e-01
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 61.95
-                  Electrical balance (eq)  =  -9.217e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  18
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.13522
-                         Density of water  =   0.97455
-                                  Total H  = 1.109583e+02
-                                  Total O  = 5.611341e+01
+                                        pH  =  2.860        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  439468    
+                           Density (g/cm³)  =  1.10994  
+                                Volume (L)  =  1.12370  
+                         Viscosity (mPa s)  =  0.57237  
+                         Activity of water  =  0.844  
+                  Ionic strength (mol/kgw)  =  4.003e+00  
+                        Mass of water (kg)  =  9.995e-01  
+                  Total alkalinity (eq/kg)  =  4.959e-12  
+                        Total CO2 (mol/kg)  =  3.173e-01  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  61.95
+                   Electrical balance (eq)  =  -9.217e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  18  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.13521  
+                          Density of water  =  0.97455  
+                                   Total H  =  1.109583e+02
+                                   Total O  =  5.611340e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -776,13 +776,13 @@ H2O(g)            -0.21   6.184e-01  0.657   2.176e-02   2.705e-02   5.290e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.107e-04   1.396e-03    -3.214    -2.855     0.359      0.00
-   OH-             4.026e-10   1.610e-10    -9.395    -9.793    -0.398      2.59
+   H+              6.042e-04   1.381e-03    -3.219    -2.860     0.359      0.00
+   OH-             4.069e-10   1.628e-10    -9.391    -9.788    -0.398      2.59
    H2O             5.551e+01   8.435e-01     1.744    -0.074     0.000     18.49
 C(4)          3.173e-01
    CO2             3.167e-01   5.786e-01    -0.499    -0.238     0.262     37.52
-   HCO3-           6.107e-04   1.736e-04    -3.214    -3.760    -0.546     29.88
-   CO3-2           4.346e-10   9.572e-12    -9.362   -11.019    -1.657      5.51
+   HCO3-           6.042e-04   1.718e-04    -3.219    -3.765    -0.546     28.63
+   CO3-2           4.443e-10   9.786e-12    -9.352   -11.009    -1.657      5.12
 Cl            4.002e+00
    Cl-             4.002e+00   2.347e+00     0.602     0.371    -0.232     19.84
 Na            4.002e+00
@@ -795,9 +795,9 @@ Na            4.002e+00
   CO2(g)            1.70     -0.24   -1.94  CO2	 Pressure  61.3 atm, phi 0.815
   H2O(g)           -0.39     -0.07    0.32  H2O	 Pressure   0.6 atm, phi 0.657
   Halite           -0.62      1.00    1.62  NaCl
-  Nahcolite        -2.53    -13.25  -10.71  NaHCO3
-  Natron           -9.50    -10.50   -1.00  Na2CO3:10H2O
-  Trona           -11.82    -23.16  -11.34  Na3H(CO3)2:2H2O
+  Nahcolite        -2.53    -13.24  -10.71  NaHCO3
+  Natron           -9.49    -10.49   -1.00  Na2CO3:10H2O
+  Trona           -11.81    -23.14  -11.34  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -846,27 +846,27 @@ H2O(g)            -0.15   7.071e-01  0.580   2.705e-02   3.327e-02   6.224e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.819      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 436175
-                          Density (g/cm³)  =   1.11066
-                               Volume (L)  =   1.12506
-                        Viscosity (mPa s)  =   0.57574
-                        Activity of water  =   0.842
-                 Ionic strength (mol/kgw)  =   4.003e+00
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   6.182e-12
-                       Total CO2 (mol/kg)  =   3.727e-01
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 77.79
-                  Electrical balance (eq)  =  -1.289e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  17
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.13856
-                         Density of water  =   0.97526
-                                  Total H  = 1.109459e+02
-                                  Total O  = 5.621789e+01
+                                        pH  =  2.824        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  436789    
+                           Density (g/cm³)  =  1.11066  
+                                Volume (L)  =  1.12506  
+                         Viscosity (mPa s)  =  0.57463  
+                         Activity of water  =  0.842  
+                  Ionic strength (mol/kgw)  =  4.003e+00  
+                        Mass of water (kg)  =  9.994e-01  
+                  Total alkalinity (eq/kg)  =  5.910e-12  
+                        Total CO2 (mol/kg)  =  3.727e-01  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  77.79
+                   Electrical balance (eq)  =  -1.289e-08 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  17  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.13856  
+                          Density of water  =  0.97526  
+                                   Total H  =  1.109459e+02
+                                   Total O  =  5.621788e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -874,13 +874,13 @@ H2O(g)            -0.15   7.071e-01  0.580   2.705e-02   3.327e-02   6.224e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.635e-04   1.517e-03    -3.178    -2.819     0.359      0.00
-   OH-             3.728e-10   1.493e-10    -9.429    -9.826    -0.397      2.52
+   H+              6.567e-04   1.501e-03    -3.183    -2.824     0.359      0.00
+   OH-             3.767e-10   1.508e-10    -9.424    -9.822    -0.397      2.52
    H2O             5.551e+01   8.421e-01     1.744    -0.075     0.000     18.47
 C(4)          3.727e-01
    CO2             3.720e-01   6.754e-01    -0.429    -0.170     0.259     37.48
-   HCO3-           6.635e-04   1.888e-04    -3.178    -3.724    -0.546     29.93
-   CO3-2           4.384e-10   9.706e-12    -9.358   -11.013    -1.655      5.66
+   HCO3-           6.567e-04   1.869e-04    -3.183    -3.728    -0.546     28.71
+   CO3-2           4.481e-10   9.921e-12    -9.349   -11.003    -1.655      5.22
 Cl            4.002e+00
    Cl-             4.002e+00   2.349e+00     0.602     0.371    -0.232     19.83
 Na            4.002e+00
@@ -894,8 +894,8 @@ Na            4.002e+00
   H2O(g)           -0.39     -0.07    0.31  H2O	 Pressure   0.7 atm, phi 0.580
   Halite           -0.61      1.00    1.62  NaCl
   Nahcolite        -2.49    -13.20  -10.71  NaHCO3
-  Natron           -9.45    -10.50   -1.05  Na2CO3:10H2O
-  Trona           -11.78    -23.10  -11.32  Na3H(CO3)2:2H2O
+  Natron           -9.44    -10.49   -1.05  Na2CO3:10H2O
+  Trona           -11.76    -23.08  -11.32  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -944,27 +944,27 @@ H2O(g)            -0.10   8.031e-01  0.514   3.327e-02   4.048e-02   7.207e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.795      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 434181
-                          Density (g/cm³)  =   1.11129
-                               Volume (L)  =   1.12594
-                        Viscosity (mPa s)  =   0.57753
-                        Activity of water  =   0.841
-                 Ionic strength (mol/kgw)  =   4.004e+00
-                       Mass of water (kg)  =   9.993e-01
-                 Total alkalinity (eq/kg)  =   6.893e-12
-                       Total CO2 (mol/kg)  =   4.140e-01
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 91.79
-                  Electrical balance (eq)  =  -1.572e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  17
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.14104
-                         Density of water  =   0.97588
-                                  Total H  = 1.109315e+02
-                                  Total O  = 5.629315e+01
+                                        pH  =  2.799        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  434792    
+                           Density (g/cm³)  =  1.11129  
+                                Volume (L)  =  1.12594  
+                         Viscosity (mPa s)  =  0.57642  
+                         Activity of water  =  0.841  
+                  Ionic strength (mol/kgw)  =  4.004e+00  
+                        Mass of water (kg)  =  9.993e-01  
+                  Total alkalinity (eq/kg)  =  6.607e-12  
+                        Total CO2 (mol/kg)  =  4.140e-01  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  91.79
+                   Electrical balance (eq)  =  -1.572e-08 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  17  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.14104  
+                          Density of water  =  0.97588  
+                                   Total H  =  1.109315e+02
+                                   Total O  =  5.629313e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -972,13 +972,13 @@ H2O(g)            -0.10   8.031e-01  0.514   3.327e-02   4.048e-02   7.207e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              7.012e-04   1.603e-03    -3.154    -2.795     0.359      0.00
-   OH-             3.547e-10   1.422e-10    -9.450    -9.847    -0.397      2.46
+   H+              6.942e-04   1.587e-03    -3.159    -2.799     0.359      0.00
+   OH-             3.583e-10   1.436e-10    -9.446    -9.843    -0.397      2.46
    H2O             5.551e+01   8.411e-01     1.744    -0.075     0.000     18.46
 C(4)          4.140e-01
    CO2             4.133e-01   7.467e-01    -0.384    -0.127     0.257     37.45
-   HCO3-           7.012e-04   1.997e-04    -3.154    -3.700    -0.545     29.97
-   CO3-2           4.417e-10   9.824e-12    -9.355   -11.008    -1.653      5.78
+   HCO3-           6.942e-04   1.977e-04    -3.159    -3.704    -0.545     28.77
+   CO3-2           4.514e-10   1.004e-11    -9.345   -10.998    -1.653      5.30
 Cl            4.003e+00
    Cl-             4.003e+00   2.350e+00     0.602     0.371    -0.231     19.83
 Na            4.003e+00
@@ -991,9 +991,9 @@ Na            4.003e+00
   CO2(g)            1.83     -0.13   -1.95  CO2	 Pressure  91.0 atm, phi 0.737
   H2O(g)           -0.38     -0.08    0.31  H2O	 Pressure   0.8 atm, phi 0.514
   Halite           -0.61      1.01    1.62  NaCl
-  Nahcolite        -2.47    -13.17  -10.70  NaHCO3
-  Natron           -9.40    -10.49   -1.09  Na2CO3:10H2O
-  Trona           -11.74    -23.06  -11.31  Na3H(CO3)2:2H2O
+  Nahcolite        -2.46    -13.16  -10.70  NaHCO3
+  Natron           -9.39    -10.48   -1.09  Na2CO3:10H2O
+  Trona           -11.73    -23.04  -11.31  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1042,27 +1042,27 @@ H2O(g)            -0.04   9.071e-01  0.459   4.048e-02   4.871e-02   8.227e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.778      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  80°C)  = 432655
-                          Density (g/cm³)  =   1.11184
-                               Volume (L)  =   1.12649
-                        Viscosity (mPa s)  =   0.57898
-                        Activity of water  =   0.840
-                 Ionic strength (mol/kgw)  =   4.004e+00
-                       Mass of water (kg)  =   9.991e-01
-                 Total alkalinity (eq/kg)  =   7.392e-12
-                       Total CO2 (mol/kg)  =   4.455e-01
-                         Temperature (°C)  =  80.00
-                           Pressure (atm)  = 104.36
-                  Electrical balance (eq)  =  -1.788e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  17
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.14294
-                         Density of water  =   0.97644
-                                  Total H  = 1.109150e+02
-                                  Total O  = 5.634773e+01
+                                        pH  =  2.782        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  80°C)  =  433263    
+                           Density (g/cm³)  =  1.11184  
+                                Volume (L)  =  1.12649  
+                         Viscosity (mPa s)  =  0.57787  
+                         Activity of water  =  0.840  
+                  Ionic strength (mol/kgw)  =  4.004e+00  
+                        Mass of water (kg)  =  9.991e-01  
+                  Total alkalinity (eq/kg)  =  7.098e-12  
+                        Total CO2 (mol/kg)  =  4.455e-01  
+                          Temperature (°C)  =  80.00 
+                            Pressure (atm)  =  104.36
+                   Electrical balance (eq)  =  -1.788e-08 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  17  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.14294  
+                          Density of water  =  0.97644  
+                                   Total H  =  1.109150e+02
+                                   Total O  =  5.634771e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1070,13 +1070,13 @@ H2O(g)            -0.04   9.071e-01  0.459   4.048e-02   4.871e-02   8.227e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              7.294e-04   1.668e-03    -3.137    -2.778     0.359      0.00
-   OH-             3.428e-10   1.375e-10    -9.465    -9.862    -0.397      2.40
+   H+              7.223e-04   1.652e-03    -3.141    -2.782     0.359      0.00
+   OH-             3.462e-10   1.388e-10    -9.461    -9.858    -0.397      2.40
    H2O             5.551e+01   8.402e-01     1.744    -0.076     0.000     18.45
 C(4)          4.455e-01
    CO2             4.448e-01   8.007e-01    -0.352    -0.097     0.255     37.42
-   HCO3-           7.294e-04   2.079e-04    -3.137    -3.682    -0.545     30.01
-   CO3-2           4.447e-10   9.928e-12    -9.352   -11.003    -1.651      5.90
+   HCO3-           7.223e-04   2.058e-04    -3.141    -3.687    -0.545     28.83
+   CO3-2           4.544e-10   1.014e-11    -9.343   -10.994    -1.651      5.38
 Cl            4.004e+00
    Cl-             4.004e+00   2.351e+00     0.602     0.371    -0.231     19.83
 Na            4.004e+00
@@ -1089,9 +1089,9 @@ Na            4.004e+00
   CO2(g)            1.86     -0.10   -1.96  CO2	 Pressure 103.5 atm, phi 0.706
   H2O(g)           -0.38     -0.08    0.31  H2O	 Pressure   0.9 atm, phi 0.459
   Halite           -0.61      1.01    1.62  NaCl
-  Nahcolite        -2.45    -13.14  -10.70  NaHCO3
-  Natron           -9.36    -10.48   -1.13  Na2CO3:10H2O
-  Trona           -11.72    -23.02  -11.30  Na3H(CO3)2:2H2O
+  Nahcolite        -2.44    -13.14  -10.69  NaHCO3
+  Natron           -9.35    -10.48   -1.12  Na2CO3:10H2O
+  Trona           -11.71    -23.01  -11.30  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1127,25 +1127,25 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.680      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm, 120°C)  = 618904
-                          Density (g/cm³)  =   1.08014
-                               Volume (L)  =   1.14223
-                        Viscosity (mPa s)  =   0.37271
-                        Activity of water  =   0.856
-                 Ionic strength (mol/kgw)  =   4.000e+00
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   8.875e-15
-                         Temperature (°C)  = 120.00
-                  Electrical balance (eq)  =   1.299e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   9
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   1.08125
-                         Density of water  =   0.94311
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  5.680        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm, 120°C)  =  620675    
+                           Density (g/cm³)  =  1.08014  
+                                Volume (L)  =  1.14223  
+                         Viscosity (mPa s)  =  0.37125  
+                         Activity of water  =  0.856  
+                  Ionic strength (mol/kgw)  =  4.000e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  8.875e-15  
+                          Temperature (°C)  =  120.00
+                   Electrical balance (eq)  =  1.299e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  9   
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  1.08125  
+                          Density of water  =  0.94311  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1219,27 +1219,27 @@ H2O(g)             0.24   1.724e+00  0.959   0.000e+00   5.459e-02   5.459e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.515      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 617368
-                          Density (g/cm³)  =   1.08022
-                               Volume (L)  =   1.14231
-                        Viscosity (mPa s)  =   0.37332
-                        Activity of water  =   0.855
-                 Ionic strength (mol/kgw)  =   4.004e+00
-                       Mass of water (kg)  =   9.990e-01
-                 Total alkalinity (eq/kg)  =   1.122e-14
-                       Total CO2 (mol/kg)  =   2.623e-02
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  =  7.21
-                  Electrical balance (eq)  =   1.294e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  33
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   1.08347
-                         Density of water  =   0.94311
-                                  Total H  = 1.109032e+02
-                                  Total O  = 5.550403e+01
+                                        pH  =  3.521        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  619143    
+                           Density (g/cm³)  =  1.08022  
+                                Volume (L)  =  1.14231  
+                         Viscosity (mPa s)  =  0.37186  
+                         Activity of water  =  0.855  
+                  Ionic strength (mol/kgw)  =  4.004e+00  
+                        Mass of water (kg)  =  9.990e-01  
+                  Total alkalinity (eq/kg)  =  1.087e-14  
+                        Total CO2 (mol/kg)  =  2.623e-02  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  7.21 
+                   Electrical balance (eq)  =  1.297e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  33  
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  1.08347  
+                          Density of water  =  0.94311  
+                                   Total H  =  1.109032e+02
+                                   Total O  =  5.550402e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1247,13 +1247,13 @@ H2O(g)             0.24   1.724e+00  0.959   0.000e+00   5.459e-02   5.459e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              1.683e-04   3.052e-04    -3.774    -3.515     0.259      0.00
-   OH-             7.914e-09   3.135e-09    -8.102    -8.504    -0.402      1.61
+   H+              1.663e-04   3.016e-04    -3.779    -3.521     0.259      0.00
+   OH-             8.008e-09   3.172e-09    -8.096    -8.499    -0.402      1.61
    H2O             5.551e+01   8.549e-01     1.744    -0.068     0.000     19.10
 C(4)          2.623e-02
-   CO2             2.606e-02   4.926e-02    -1.584    -1.307     0.277     40.96
-   HCO3-           1.683e-04   4.046e-05    -3.774    -4.393    -0.619     28.64
-   CO3-2           3.331e-10   7.767e-12    -9.477   -11.110    -1.632      0.73
+   CO2             2.606e-02   4.927e-02    -1.584    -1.307     0.277     40.96
+   HCO3-           1.663e-04   3.998e-05    -3.779    -4.398    -0.619     26.51
+   CO3-2           3.410e-10   7.953e-12    -9.467   -11.099    -1.632      0.32
 Cl            4.004e+00
    Cl-             4.004e+00   2.164e+00     0.602     0.335    -0.267     18.63
 Na            4.004e+00
@@ -1267,19 +1267,13 @@ Na            4.004e+00
   H2O(g)            0.22     -0.07   -0.29  H2O	 Pressure   1.7 atm, phi 0.959
   Halite           -0.66      0.88    1.54  NaCl
   Nahcolite        -3.34    -14.08  -10.74  NaHCO3
-  Natron           -9.86    -10.70   -0.84  Na2CO3:10H2O
-  Trona           -12.86    -24.24  -11.38  Na3H(CO3)2:2H2O
+  Natron           -9.85    -10.69   -0.84  Na2CO3:10H2O
+  Trona           -12.85    -24.23  -11.38  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
 
 Reaction step 2.
-
-WARNING: Maximum iterations exceeded, 200
-
-WARNING: Numerical method failed with this set of convergence parameters.
-
-WARNING: Trying smaller step size, pe step size 10, 5 ... 
 
 Using solution 1.	
 Using gas phase 1.	
@@ -1317,33 +1311,33 @@ H2O(g)             0.25   1.773e+00  0.935   5.459e-02   5.683e-02   2.231e-03
 
 	Elements           Molality       Moles
 
-	C                 5.111e-02   5.106e-02
+	C                 5.111e-02   5.105e-02
 	Cl                4.004e+00   4.000e+00
 	Na                4.004e+00   4.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.370      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 615512
-                          Density (g/cm³)  =   1.08073
-                               Volume (L)  =   1.14274
-                        Viscosity (mPa s)  =   0.37423
-                        Activity of water  =   0.854
-                 Ionic strength (mol/kgw)  =   4.004e+00
-                       Mass of water (kg)  =   9.990e-01
-                 Total alkalinity (eq/kg)  =   2.900e-14
-                       Total CO2 (mol/kg)  =   5.111e-02
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 12.66
-                  Electrical balance (eq)  =   1.274e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  28 (229 overall)
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   1.08527
-                         Density of water  =   0.94367
-                                  Total H  = 1.108988e+02
-                                  Total O  = 5.555150e+01
+                                        pH  =  3.375        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  617282    
+                           Density (g/cm³)  =  1.08073  
+                                Volume (L)  =  1.14274  
+                         Viscosity (mPa s)  =  0.37276  
+                         Activity of water  =  0.854  
+                  Ionic strength (mol/kgw)  =  4.004e+00  
+                        Mass of water (kg)  =  9.990e-01  
+                  Total alkalinity (eq/kg)  =  3.238e-12  
+                        Total CO2 (mol/kg)  =  5.111e-02  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  12.66
+                   Electrical balance (eq)  =  -1.436e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  22  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.08527  
+                          Density of water  =  0.94368  
+                                   Total H  =  1.108988e+02
+                                   Total O  =  5.555150e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1351,13 +1345,13 @@ H2O(g)             0.25   1.773e+00  0.935   5.459e-02   5.683e-02   2.231e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              2.352e-04   4.265e-04    -3.629    -3.370     0.258      0.00
-   OH-             5.674e-09   2.248e-09    -8.246    -8.648    -0.402      1.58
+   H+              2.325e-04   4.216e-04    -3.634    -3.375     0.258      0.00
+   OH-             5.740e-09   2.274e-09    -8.241    -8.643    -0.402      1.58
    H2O             5.551e+01   8.542e-01     1.744    -0.068     0.000     19.09
 C(4)          5.111e-02
    CO2             5.087e-02   9.583e-02    -1.294    -1.019     0.275     40.94
-   HCO3-           2.352e-04   5.656e-05    -3.629    -4.247    -0.619     28.66
-   CO3-2           3.348e-10   7.807e-12    -9.475   -11.108    -1.632      0.81
+   HCO3-           2.325e-04   5.591e-05    -3.634    -4.253    -0.619     26.54
+   CO3-2           3.427e-10   7.991e-12    -9.465   -11.097    -1.632      0.38
 Cl            4.004e+00
    Cl-             4.004e+00   2.164e+00     0.603     0.335    -0.267     18.64
 Na            4.004e+00
@@ -1370,9 +1364,9 @@ Na            4.004e+00
   CO2(g)            1.02     -1.02   -2.04  CO2	 Pressure  10.9 atm, phi 0.973
   H2O(g)            0.22     -0.07   -0.29  H2O	 Pressure   1.8 atm, phi 0.935
   Halite           -0.66      0.88    1.54  NaCl
-  Nahcolite        -3.20    -13.93  -10.74  NaHCO3
-  Natron           -9.85    -10.70   -0.86  Na2CO3:10H2O
-  Trona           -12.71    -24.09  -11.37  Na3H(CO3)2:2H2O
+  Nahcolite        -3.19    -13.93  -10.74  NaHCO3
+  Natron           -9.84    -10.69   -0.86  Na2CO3:10H2O
+  Trona           -12.70    -24.07  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1421,27 +1415,27 @@ H2O(g)             0.26   1.822e+00  0.912   5.683e-02   5.913e-02   2.303e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.287      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 613815
-                          Density (g/cm³)  =   1.08096
-                               Volume (L)  =   1.14342
-                        Viscosity (mPa s)  =   0.37487
-                        Activity of water  =   0.854
-                 Ionic strength (mol/kgw)  =   4.005e+00
-                       Mass of water (kg)  =   9.989e-01
-                 Total alkalinity (eq/kg)  =   2.655e-13
-                       Total CO2 (mol/kg)  =   7.477e-02
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 18.01
-                  Electrical balance (eq)  =   1.015e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  14
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.08700
-                         Density of water  =   0.94395
-                                  Total H  = 1.108942e+02
-                                  Total O  = 5.559647e+01
+                                        pH  =  3.292        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  615581    
+                           Density (g/cm³)  =  1.08096  
+                                Volume (L)  =  1.14342  
+                         Viscosity (mPa s)  =  0.37340  
+                         Activity of water  =  0.854  
+                  Ionic strength (mol/kgw)  =  4.005e+00  
+                        Mass of water (kg)  =  9.989e-01  
+                  Total alkalinity (eq/kg)  =  3.460e-12  
+                        Total CO2 (mol/kg)  =  7.477e-02  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  18.01
+                   Electrical balance (eq)  =  -1.438e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  14  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.08700  
+                          Density of water  =  0.94395  
+                                   Total H  =  1.108942e+02
+                                   Total O  =  5.559647e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1449,13 +1443,13 @@ H2O(g)             0.26   1.822e+00  0.912   5.683e-02   5.913e-02   2.303e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              2.847e-04   5.163e-04    -3.546    -3.287     0.259      0.00
-   OH-             4.696e-09   1.861e-09    -8.328    -8.730    -0.402      1.55
+   H+              2.814e-04   5.104e-04    -3.551    -3.292     0.259      0.00
+   OH-             4.750e-09   1.883e-09    -8.323    -8.725    -0.402      1.55
    H2O             5.551e+01   8.536e-01     1.744    -0.069     0.000     19.09
 C(4)          7.477e-02
    CO2             7.449e-02   1.398e-01    -1.128    -0.854     0.274     40.91
-   HCO3-           2.847e-04   6.849e-05    -3.546    -4.164    -0.619     28.69
-   CO3-2           3.361e-10   7.846e-12    -9.474   -11.105    -1.632      0.87
+   HCO3-           2.814e-04   6.771e-05    -3.551    -4.169    -0.619     26.56
+   CO3-2           3.439e-10   8.029e-12    -9.464   -11.095    -1.632      0.42
 Cl            4.004e+00
    Cl-             4.004e+00   2.165e+00     0.603     0.335    -0.267     18.64
 Na            4.004e+00
@@ -1468,9 +1462,9 @@ Na            4.004e+00
   CO2(g)            1.19     -0.85   -2.05  CO2	 Pressure  16.2 atm, phi 0.961
   H2O(g)            0.22     -0.07   -0.29  H2O	 Pressure   1.8 atm, phi 0.912
   Halite           -0.66      0.88    1.54  NaCl
-  Nahcolite        -3.11    -13.85  -10.73  NaHCO3
-  Natron           -9.83    -10.70   -0.87  Na2CO3:10H2O
-  Trona           -12.62    -23.99  -11.37  Na3H(CO3)2:2H2O
+  Nahcolite        -3.11    -13.84  -10.73  NaHCO3
+  Natron           -9.82    -10.69   -0.87  Na2CO3:10H2O
+  Trona           -12.61    -23.98  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1513,33 +1507,33 @@ H2O(g)             0.27   1.872e+00  0.890   5.913e-02   6.151e-02   2.376e-03
 
 	Elements           Molality       Moles
 
-	C                 9.728e-02   9.718e-02
+	C                 9.728e-02   9.717e-02
 	Cl                4.004e+00   4.000e+00
 	Na                4.004e+00   4.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.230      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 612203
-                          Density (g/cm³)  =   1.08119
-                               Volume (L)  =   1.14406
-                        Viscosity (mPa s)  =   0.37548
-                        Activity of water  =   0.853
-                 Ionic strength (mol/kgw)  =   4.005e+00
-                       Mass of water (kg)  =   9.989e-01
-                 Total alkalinity (eq/kg)  =   5.972e-13
-                       Total CO2 (mol/kg)  =   9.728e-02
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 23.26
-                  Electrical balance (eq)  =   6.536e-13
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  14
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.08863
-                         Density of water  =   0.94422
-                                  Total H  = 1.108894e+02
-                                  Total O  = 5.563907e+01
+                                        pH  =  3.235        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  613964    
+                           Density (g/cm³)  =  1.08119  
+                                Volume (L)  =  1.14406  
+                         Viscosity (mPa s)  =  0.37401  
+                         Activity of water  =  0.853  
+                  Ionic strength (mol/kgw)  =  4.005e+00  
+                        Mass of water (kg)  =  9.989e-01  
+                  Total alkalinity (eq/kg)  =  3.769e-12  
+                        Total CO2 (mol/kg)  =  9.728e-02  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  23.26
+                   Electrical balance (eq)  =  -1.442e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  14  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.08863  
+                          Density of water  =  0.94422  
+                                   Total H  =  1.108894e+02
+                                   Total O  =  5.563906e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1547,13 +1541,13 @@ H2O(g)             0.27   1.872e+00  0.890   5.913e-02   6.151e-02   2.376e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              3.249e-04   5.893e-04    -3.488    -3.230     0.259      0.00
-   OH-             4.121e-09   1.634e-09    -8.385    -8.787    -0.402      1.52
+   H+              3.213e-04   5.827e-04    -3.493    -3.235     0.259      0.00
+   OH-             4.168e-09   1.653e-09    -8.380    -8.782    -0.402      1.52
    H2O             5.551e+01   8.530e-01     1.744    -0.069     0.000     19.08
 C(4)          9.728e-02
    CO2             9.696e-02   1.814e-01    -1.013    -0.741     0.272     40.89
-   HCO3-           3.249e-04   7.820e-05    -3.488    -4.107    -0.619     28.71
-   CO3-2           3.372e-10   7.884e-12    -9.472   -11.103    -1.631      0.93
+   HCO3-           3.213e-04   7.733e-05    -3.493    -4.112    -0.619     26.58
+   CO3-2           3.450e-10   8.066e-12    -9.462   -11.093    -1.631      0.46
 Cl            4.004e+00
    Cl-             4.004e+00   2.165e+00     0.603     0.336    -0.267     18.64
 Na            4.004e+00
@@ -1567,8 +1561,8 @@ Na            4.004e+00
   H2O(g)            0.22     -0.07   -0.29  H2O	 Pressure   1.9 atm, phi 0.890
   Halite           -0.66      0.88    1.54  NaCl
   Nahcolite        -3.05    -13.78  -10.73  NaHCO3
-  Natron           -9.81    -10.70   -0.88  Na2CO3:10H2O
-  Trona           -12.56    -23.93  -11.37  Na3H(CO3)2:2H2O
+  Natron           -9.80    -10.69   -0.88  Na2CO3:10H2O
+  Trona           -12.55    -23.91  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1605,7 +1599,7 @@ Total pressure: 28.42      atmospheres          (Peng-Robinson calculation)
 Component         log P           P    phi     Initial       Final       Delta
 
 CO2(g)             1.42   2.650e+01  0.939   7.028e-01   8.814e-01   1.786e-01
-H2O(g)             0.28   1.923e+00  0.868   6.151e-02   6.395e-02   2.450e-03
+H2O(g)             0.28   1.923e+00  0.868   6.151e-02   6.396e-02   2.450e-03
 
 -----------------------------Solution composition------------------------------
 
@@ -1617,27 +1611,27 @@ H2O(g)             0.28   1.923e+00  0.868   6.151e-02   6.395e-02   2.450e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.186      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 610672
-                          Density (g/cm³)  =   1.08141
-                               Volume (L)  =   1.14465
-                        Viscosity (mPa s)  =   0.37607
-                        Activity of water  =   0.852
-                 Ionic strength (mol/kgw)  =   4.005e+00
-                       Mass of water (kg)  =   9.988e-01
-                 Total alkalinity (eq/kg)  =   1.051e-12
-                       Total CO2 (mol/kg)  =   1.187e-01
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 28.42
-                  Electrical balance (eq)  =   1.610e-13
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  14
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.09017
-                         Density of water  =   0.94448
-                                  Total H  = 1.108845e+02
-                                  Total O  = 5.567940e+01
+                                        pH  =  3.191        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  612429    
+                           Density (g/cm³)  =  1.08141  
+                                Volume (L)  =  1.14465  
+                         Viscosity (mPa s)  =  0.37460  
+                         Activity of water  =  0.852  
+                  Ionic strength (mol/kgw)  =  4.005e+00  
+                        Mass of water (kg)  =  9.988e-01  
+                  Total alkalinity (eq/kg)  =  4.192e-12  
+                        Total CO2 (mol/kg)  =  1.187e-01  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  28.42
+                   Electrical balance (eq)  =  -1.446e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  14  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.09017  
+                          Density of water  =  0.94448  
+                                   Total H  =  1.108845e+02
+                                   Total O  =  5.567939e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1645,13 +1639,13 @@ H2O(g)             0.28   1.923e+00  0.868   6.151e-02   6.395e-02   2.450e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              3.591e-04   6.513e-04    -3.445    -3.186     0.259      0.00
-   OH-             3.735e-09   1.482e-09    -8.428    -8.829    -0.402      1.48
+   H+              3.551e-04   6.441e-04    -3.450    -3.191     0.259      0.00
+   OH-             3.777e-09   1.498e-09    -8.423    -8.824    -0.402      1.48
    H2O             5.551e+01   8.525e-01     1.744    -0.069     0.000     19.07
 C(4)          1.187e-01
    CO2             1.183e-01   2.207e-01    -0.927    -0.656     0.271     40.87
-   HCO3-           3.591e-04   8.646e-05    -3.445    -4.063    -0.618     28.73
-   CO3-2           3.384e-10   7.921e-12    -9.471   -11.101    -1.631      1.00
+   HCO3-           3.551e-04   8.551e-05    -3.450    -4.068    -0.618     26.61
+   CO3-2           3.461e-10   8.102e-12    -9.461   -11.091    -1.631      0.50
 Cl            4.005e+00
    Cl-             4.005e+00   2.166e+00     0.603     0.336    -0.267     18.65
 Na            4.005e+00
@@ -1664,9 +1658,9 @@ Na            4.005e+00
   CO2(g)            1.40     -0.66   -2.05  CO2	 Pressure  26.5 atm, phi 0.939
   H2O(g)            0.22     -0.07   -0.29  H2O	 Pressure   1.9 atm, phi 0.868
   Halite           -0.66      0.89    1.54  NaCl
-  Nahcolite        -3.01    -13.74  -10.73  NaHCO3
-  Natron           -9.80    -10.69   -0.90  Na2CO3:10H2O
-  Trona           -12.52    -23.88  -11.36  Na3H(CO3)2:2H2O
+  Nahcolite        -3.00    -13.73  -10.73  NaHCO3
+  Natron           -9.79    -10.68   -0.90  Na2CO3:10H2O
+  Trona           -12.50    -23.86  -11.36  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1703,7 +1697,7 @@ Total pressure: 52.90      atmospheres          (Peng-Robinson calculation)
 Component         log P           P    phi     Initial       Final       Delta
 
 CO2(g)             1.71   5.070e+01  0.890   8.814e-01   1.789e+00   9.075e-01
-H2O(g)             0.34   2.192e+00  0.771   6.395e-02   7.733e-02   1.337e-02
+H2O(g)             0.34   2.192e+00  0.771   6.396e-02   7.733e-02   1.337e-02
 
 -----------------------------Solution composition------------------------------
 
@@ -1715,27 +1709,27 @@ H2O(g)             0.34   2.192e+00  0.771   6.395e-02   7.733e-02   1.337e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.060      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 604075
-                          Density (g/cm³)  =   1.08247
-                               Volume (L)  =   1.14706
-                        Viscosity (mPa s)  =   0.37869
-                        Activity of water  =   0.850
-                 Ionic strength (mol/kgw)  =   4.006e+00
-                       Mass of water (kg)  =   9.986e-01
-                 Total alkalinity (eq/kg)  =   2.475e-12
-                       Total CO2 (mol/kg)  =   2.113e-01
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 52.90
-                  Electrical balance (eq)  =  -5.043e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  17
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.09670
-                         Density of water  =   0.94573
-                                  Total H  = 1.108578e+02
-                                  Total O  = 5.585097e+01
+                                        pH  =  3.064        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  605809    
+                           Density (g/cm³)  =  1.08248  
+                                Volume (L)  =  1.14706  
+                         Viscosity (mPa s)  =  0.37721  
+                         Activity of water  =  0.850  
+                  Ionic strength (mol/kgw)  =  4.006e+00  
+                        Mass of water (kg)  =  9.986e-01  
+                  Total alkalinity (eq/kg)  =  5.540e-12  
+                        Total CO2 (mol/kg)  =  2.113e-01  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  52.90
+                   Electrical balance (eq)  =  -5.188e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  17  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.09670  
+                          Density of water  =  0.94573  
+                                   Total H  =  1.108578e+02
+                                   Total O  =  5.585096e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1743,13 +1737,13 @@ H2O(g)             0.34   2.192e+00  0.771   6.395e-02   7.733e-02   1.337e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              4.804e-04   8.718e-04    -3.318    -3.060     0.259      0.00
-   OH-             2.815e-09   1.119e-09    -8.550    -8.951    -0.401      1.34
+   H+              4.755e-04   8.629e-04    -3.323    -3.064     0.259      0.00
+   OH-             2.844e-09   1.131e-09    -8.546    -8.947    -0.401      1.34
    H2O             5.551e+01   8.500e-01     1.744    -0.071     0.000     19.05
 C(4)          2.113e-01
-   CO2             2.109e-01   3.880e-01    -0.676    -0.411     0.265     40.76
-   HCO3-           4.804e-04   1.159e-04    -3.318    -3.936    -0.618     28.83
-   CO3-2           3.433e-10   8.098e-12    -9.464   -11.092    -1.627      1.29
+   CO2             2.109e-01   3.881e-01    -0.676    -0.411     0.265     40.76
+   HCO3-           4.755e-04   1.147e-04    -3.323    -3.940    -0.618     26.71
+   CO3-2           3.508e-10   8.274e-12    -9.455   -11.082    -1.627      0.69
 Cl            4.006e+00
    Cl-             4.006e+00   2.169e+00     0.603     0.336    -0.266     18.66
 Na            4.006e+00
@@ -1762,9 +1756,9 @@ Na            4.006e+00
   CO2(g)            1.65     -0.41   -2.07  CO2	 Pressure  50.7 atm, phi 0.890
   H2O(g)            0.23     -0.07   -0.30  H2O	 Pressure   2.2 atm, phi 0.771
   Halite           -0.65      0.89    1.54  NaCl
-  Nahcolite        -2.88    -13.59  -10.72  NaHCO3
-  Natron           -9.72    -10.68   -0.96  Na2CO3:10H2O
-  Trona           -12.37    -23.71  -11.34  Na3H(CO3)2:2H2O
+  Nahcolite        -2.87    -13.59  -10.72  NaHCO3
+  Natron           -9.71    -10.67   -0.96  Na2CO3:10H2O
+  Trona           -12.36    -23.70  -11.34  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1801,39 +1795,39 @@ Total pressure: 75.36      atmospheres          (Peng-Robinson calculation)
 Component         log P           P    phi     Initial       Final       Delta
 
 CO2(g)             1.86   7.288e+01  0.848   1.789e+00   2.716e+00   9.273e-01
-H2O(g)             0.40   2.485e+00  0.687   7.733e-02   9.260e-02   1.528e-02
+H2O(g)             0.40   2.485e+00  0.687   7.733e-02   9.261e-02   1.528e-02
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	C                 2.842e-01   2.838e-01
+	C                 2.842e-01   2.837e-01
 	Cl                4.007e+00   4.000e+00
 	Na                4.007e+00   4.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.994      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 598889
-                          Density (g/cm³)  =   1.08346
-                               Volume (L)  =   1.14872
-                        Viscosity (mPa s)  =   0.38089
-                        Activity of water  =   0.848
-                 Ionic strength (mol/kgw)  =   4.007e+00
-                       Mass of water (kg)  =   9.983e-01
-                 Total alkalinity (eq/kg)  =   2.499e-12
-                       Total CO2 (mol/kg)  =   2.842e-01
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 75.36
-                  Electrical balance (eq)  =  -5.043e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  21
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.10172
-                         Density of water  =   0.94687
-                                  Total H  = 1.108272e+02
-                                  Total O  = 5.598112e+01
+                                        pH  =  2.998        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  600605    
+                           Density (g/cm³)  =  1.08346  
+                                Volume (L)  =  1.14872  
+                         Viscosity (mPa s)  =  0.37940  
+                         Activity of water  =  0.848  
+                  Ionic strength (mol/kgw)  =  4.007e+00  
+                        Mass of water (kg)  =  9.983e-01  
+                  Total alkalinity (eq/kg)  =  5.564e-12  
+                        Total CO2 (mol/kg)  =  2.842e-01  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  75.36
+                   Electrical balance (eq)  =  -5.188e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  21  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.10172  
+                          Density of water  =  0.94687  
+                                   Total H  =  1.108272e+02
+                                   Total O  =  5.598111e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1841,13 +1835,13 @@ H2O(g)             0.40   2.485e+00  0.687   7.733e-02   9.260e-02   1.528e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              5.589e-04   1.015e-03    -3.253    -2.994     0.259      0.00
-   OH-             2.439e-09   9.711e-10    -8.613    -9.013    -0.400      1.20
+   H+              5.536e-04   1.005e-03    -3.257    -2.998     0.259      0.00
+   OH-             2.463e-09   9.804e-10    -8.609    -9.009    -0.400      1.20
    H2O             5.551e+01   8.481e-01     1.744    -0.072     0.000     19.03
 C(4)          2.842e-01
    CO2             2.837e-01   5.166e-01    -0.547    -0.287     0.260     40.66
-   HCO3-           5.589e-04   1.350e-04    -3.253    -3.870    -0.617     28.91
-   CO3-2           3.475e-10   8.259e-12    -9.459   -11.083    -1.624      1.55
+   HCO3-           5.536e-04   1.338e-04    -3.257    -3.874    -0.617     26.81
+   CO3-2           3.548e-10   8.431e-12    -9.450   -11.074    -1.624      0.86
 Cl            4.007e+00
    Cl-             4.007e+00   2.172e+00     0.603     0.337    -0.266     18.67
 Na            4.007e+00
@@ -1860,9 +1854,9 @@ Na            4.007e+00
   CO2(g)            1.79     -0.29   -2.08  CO2	 Pressure  72.9 atm, phi 0.848
   H2O(g)            0.23     -0.07   -0.30  H2O	 Pressure   2.5 atm, phi 0.687
   Halite           -0.65      0.90    1.54  NaCl
-  Nahcolite        -2.81    -13.51  -10.71  NaHCO3
-  Natron           -9.65    -10.67   -1.02  Na2CO3:10H2O
-  Trona           -12.29    -23.61  -11.33  Na3H(CO3)2:2H2O
+  Nahcolite        -2.80    -13.51  -10.71  NaHCO3
+  Natron           -9.64    -10.66   -1.02  Na2CO3:10H2O
+  Trona           -12.28    -23.60  -11.32  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1899,7 +1893,7 @@ Total pressure: 96.18      atmospheres          (Peng-Robinson calculation)
 Component         log P           P    phi     Initial       Final       Delta
 
 CO2(g)             1.97   9.338e+01  0.811   2.716e+00   3.658e+00   9.420e-01
-H2O(g)             0.45   2.803e+00  0.616   9.260e-02   1.098e-01   1.722e-02
+H2O(g)             0.45   2.803e+00  0.616   9.261e-02   1.098e-01   1.722e-02
 
 -----------------------------Solution composition------------------------------
 
@@ -1911,27 +1905,27 @@ H2O(g)             0.45   2.803e+00  0.616   9.260e-02   1.098e-01   1.722e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.951      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 594732
-                          Density (g/cm³)  =   1.08439
-                               Volume (L)  =   1.14981
-                        Viscosity (mPa s)  =   0.38276
-                        Activity of water  =   0.847
-                 Ionic strength (mol/kgw)  =   4.009e+00
-                       Mass of water (kg)  =   9.980e-01
-                 Total alkalinity (eq/kg)  =   2.530e-12
-                       Total CO2 (mol/kg)  =   3.424e-01
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 96.18
-                  Electrical balance (eq)  =  -5.043e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  19
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.10567
-                         Density of water  =   0.94790
-                                  Total H  = 1.107928e+02
-                                  Total O  = 5.607985e+01
+                                        pH  =  2.955        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  596434    
+                           Density (g/cm³)  =  1.08439  
+                                Volume (L)  =  1.14980  
+                         Viscosity (mPa s)  =  0.38127  
+                         Activity of water  =  0.847  
+                  Ionic strength (mol/kgw)  =  4.009e+00  
+                        Mass of water (kg)  =  9.980e-01  
+                  Total alkalinity (eq/kg)  =  5.594e-12  
+                        Total CO2 (mol/kg)  =  3.424e-01  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  96.18
+                   Electrical balance (eq)  =  -5.188e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  21  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.10567  
+                          Density of water  =  0.94790  
+                                   Total H  =  1.107928e+02
+                                   Total O  =  5.607984e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1939,13 +1933,13 @@ H2O(g)             0.45   2.803e+00  0.616   9.260e-02   1.098e-01   1.722e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.157e-04   1.119e-03    -3.211    -2.951     0.259      0.00
-   OH-             2.232e-09   8.898e-10    -8.651    -9.051    -0.399      1.08
+   H+              6.102e-04   1.109e-03    -3.215    -2.955     0.259      0.00
+   OH-             2.252e-09   8.977e-10    -8.647    -9.047    -0.399      1.08
    H2O             5.551e+01   8.466e-01     1.744    -0.072     0.000     19.01
 C(4)          3.424e-01
    CO2             3.418e-01   6.173e-01    -0.466    -0.210     0.257     40.57
-   HCO3-           6.157e-04   1.490e-04    -3.211    -3.827    -0.616     28.99
-   CO3-2           3.513e-10   8.407e-12    -9.454   -11.075    -1.621      1.78
+   HCO3-           6.102e-04   1.476e-04    -3.215    -3.831    -0.616     26.90
+   CO3-2           3.584e-10   8.577e-12    -9.446   -11.067    -1.621      1.02
 Cl            4.008e+00
    Cl-             4.008e+00   2.175e+00     0.603     0.337    -0.266     18.68
 Na            4.008e+00
@@ -1958,9 +1952,9 @@ Na            4.008e+00
   CO2(g)            1.88     -0.21   -2.09  CO2	 Pressure  93.4 atm, phi 0.811
   H2O(g)            0.24     -0.07   -0.31  H2O	 Pressure   2.8 atm, phi 0.616
   Halite           -0.64      0.90    1.55  NaCl
-  Nahcolite        -2.76    -13.46  -10.70  NaHCO3
-  Natron           -9.59    -10.66   -1.08  Na2CO3:10H2O
-  Trona           -12.23    -23.54  -11.31  Na3H(CO3)2:2H2O
+  Nahcolite        -2.76    -13.45  -10.70  NaHCO3
+  Natron           -9.58    -10.65   -1.08  Na2CO3:10H2O
+  Trona           -12.22    -23.53  -11.31  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2009,27 +2003,27 @@ H2O(g)             0.50   3.150e+00  0.553   1.098e-01   1.290e-01   1.916e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.921      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 591320
-                          Density (g/cm³)  =   1.08526
-                               Volume (L)  =   1.15047
-                        Viscosity (mPa s)  =   0.38442
-                        Activity of water  =   0.845
-                 Ionic strength (mol/kgw)  =   4.010e+00
-                       Mass of water (kg)  =   9.977e-01
-                 Total alkalinity (eq/kg)  =   2.562e-12
-                       Total CO2 (mol/kg)  =   3.898e-01
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 115.75
-                  Electrical balance (eq)  =  -5.043e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  19
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.10887
-                         Density of water  =   0.94887
-                                  Total H  = 1.107545e+02
-                                  Total O  = 5.615495e+01
+                                        pH  =  2.925        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  593010    
+                           Density (g/cm³)  =  1.08526  
+                                Volume (L)  =  1.15047  
+                         Viscosity (mPa s)  =  0.38292  
+                         Activity of water  =  0.845  
+                  Ionic strength (mol/kgw)  =  4.010e+00  
+                        Mass of water (kg)  =  9.977e-01  
+                  Total alkalinity (eq/kg)  =  5.626e-12  
+                        Total CO2 (mol/kg)  =  3.898e-01  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  115.75
+                   Electrical balance (eq)  =  -5.188e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  19  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.10887  
+                          Density of water  =  0.94887  
+                                   Total H  =  1.107545e+02
+                                   Total O  =  5.615494e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2037,13 +2031,13 @@ H2O(g)             0.50   3.150e+00  0.553   1.098e-01   1.290e-01   1.916e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.594e-04   1.200e-03    -3.181    -2.921     0.260      0.00
-   OH-             2.100e-09   8.381e-10    -8.678    -9.077    -0.399      0.96
+   H+              6.540e-04   1.190e-03    -3.184    -2.925     0.260      0.00
+   OH-             2.117e-09   8.450e-10    -8.674    -9.073    -0.399      0.96
    H2O             5.551e+01   8.454e-01     1.744    -0.073     0.000     18.99
 C(4)          3.898e-01
    CO2             3.891e-01   6.980e-01    -0.410    -0.156     0.254     40.49
-   HCO3-           6.594e-04   1.597e-04    -3.181    -3.797    -0.616     29.07
-   CO3-2           3.547e-10   8.545e-12    -9.450   -11.068    -1.618      2.00
+   HCO3-           6.540e-04   1.584e-04    -3.184    -3.800    -0.616     26.98
+   CO3-2           3.617e-10   8.713e-12    -9.442   -11.060    -1.618      1.16
 Cl            4.009e+00
    Cl-             4.009e+00   2.177e+00     0.603     0.338    -0.265     18.69
 Na            4.009e+00
@@ -2056,9 +2050,9 @@ Na            4.009e+00
   CO2(g)            1.94     -0.16   -2.10  CO2	 Pressure 112.6 atm, phi 0.780
   H2O(g)            0.24     -0.07   -0.31  H2O	 Pressure   3.1 atm, phi 0.553
   Halite           -0.64      0.91    1.55  NaCl
-  Nahcolite        -2.73    -13.42  -10.69  NaHCO3
-  Natron           -9.53    -10.65   -1.13  Na2CO3:10H2O
-  Trona           -12.19    -23.49  -11.30  Na3H(CO3)2:2H2O
+  Nahcolite        -2.72    -13.41  -10.69  NaHCO3
+  Natron           -9.52    -10.65   -1.13  Na2CO3:10H2O
+  Trona           -12.18    -23.48  -11.29  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2107,27 +2101,27 @@ H2O(g)             0.55   3.527e+00  0.499   1.290e-01   1.501e-01   2.107e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   2.898      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 120°C)  = 588441
-                          Density (g/cm³)  =   1.08610
-                               Volume (L)  =   1.15082
-                        Viscosity (mPa s)  =   0.38591
-                        Activity of water  =   0.844
-                 Ionic strength (mol/kgw)  =   4.012e+00
-                       Mass of water (kg)  =   9.973e-01
-                 Total alkalinity (eq/kg)  =   2.595e-12
-                       Total CO2 (mol/kg)  =   4.293e-01
-                         Temperature (°C)  = 120.00
-                           Pressure (atm)  = 134.50
-                  Electrical balance (eq)  =  -5.043e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  19
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.11156
-                         Density of water  =   0.94979
-                                  Total H  = 1.107123e+02
-                                  Total O  = 5.621236e+01
+                                        pH  =  2.901        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 120°C)  =  590120    
+                           Density (g/cm³)  =  1.08610  
+                                Volume (L)  =  1.15082  
+                         Viscosity (mPa s)  =  0.38441  
+                         Activity of water  =  0.844  
+                  Ionic strength (mol/kgw)  =  4.012e+00  
+                        Mass of water (kg)  =  9.973e-01  
+                  Total alkalinity (eq/kg)  =  5.659e-12  
+                        Total CO2 (mol/kg)  =  4.293e-01  
+                          Temperature (°C)  =  120.00
+                            Pressure (atm)  =  134.50
+                   Electrical balance (eq)  =  -5.188e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  19  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.11156  
+                          Density of water  =  0.94979  
+                                   Total H  =  1.107123e+02
+                                   Total O  =  5.621235e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2135,13 +2129,13 @@ H2O(g)             0.55   3.527e+00  0.499   1.290e-01   1.501e-01   2.107e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.949e-04   1.265e-03    -3.158    -2.898     0.260      0.00
-   OH-             2.008e-09   8.022e-10    -8.697    -9.096    -0.398      0.86
+   H+              6.896e-04   1.256e-03    -3.161    -2.901     0.260      0.00
+   OH-             2.023e-09   8.084e-10    -8.694    -9.092    -0.398      0.86
    H2O             5.551e+01   8.443e-01     1.744    -0.074     0.000     18.97
 C(4)          4.293e-01
    CO2             4.286e-01   7.646e-01    -0.368    -0.117     0.251     40.41
-   HCO3-           6.949e-04   1.685e-04    -3.158    -3.773    -0.615     29.14
-   CO3-2           3.578e-10   8.676e-12    -9.446   -11.062    -1.615      2.21
+   HCO3-           6.896e-04   1.672e-04    -3.161    -3.777    -0.615     27.05
+   CO3-2           3.647e-10   8.843e-12    -9.438   -11.053    -1.615      1.30
 Cl            4.011e+00
    Cl-             4.011e+00   2.180e+00     0.603     0.338    -0.265     18.70
 Na            4.011e+00
@@ -2155,8 +2149,8 @@ Na            4.011e+00
   H2O(g)            0.25     -0.07   -0.32  H2O	 Pressure   3.5 atm, phi 0.499
   Halite           -0.64      0.91    1.55  NaCl
   Nahcolite        -2.70    -13.38  -10.68  NaHCO3
-  Natron           -9.47    -10.65   -1.18  Na2CO3:10H2O
-  Trona           -12.16    -23.44  -11.28  Na3H(CO3)2:2H2O
+  Natron           -9.46    -10.64   -1.18  Na2CO3:10H2O
+  Trona           -12.15    -23.43  -11.28  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2192,25 +2186,25 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.526      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm, 160°C)  = 759936
-                          Density (g/cm³)  =   1.04923
-                               Volume (L)  =   1.17589
-                        Viscosity (mPa s)  =   0.27580
-                        Activity of water  =   0.862
-                 Ionic strength (mol/kgw)  =   4.000e+00
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.383e-14
-                         Temperature (°C)  = 160.00
-                  Electrical balance (eq)  =   2.264e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   9
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   1.02956
-                         Density of water  =   0.90745
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  5.526        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm, 160°C)  =  763607    
+                           Density (g/cm³)  =  1.04923  
+                                Volume (L)  =  1.17589  
+                         Viscosity (mPa s)  =  0.27398  
+                         Activity of water  =  0.862  
+                  Ionic strength (mol/kgw)  =  4.000e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.383e-14  
+                          Temperature (°C)  =  160.00
+                   Electrical balance (eq)  =  2.264e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  9   
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  1.02956  
+                          Density of water  =  0.90745  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2278,33 +2272,33 @@ H2O(g)             0.73   5.399e+00  0.943   0.000e+00   1.572e-01   1.572e-01
 
 	Elements           Molality       Moles
 
-	C                 2.604e-02   2.597e-02
+	C                 2.604e-02   2.596e-02
 	Cl                4.011e+00   4.000e+00
 	Na                4.011e+00   4.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.685      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 758717
-                          Density (g/cm³)  =   1.04937
-                               Volume (L)  =   1.17411
-                        Viscosity (mPa s)  =   0.27634
-                        Activity of water  =   0.861
-                 Ionic strength (mol/kgw)  =   4.012e+00
-                       Mass of water (kg)  =   9.972e-01
-                 Total alkalinity (eq/kg)  =   1.767e-14
-                       Total CO2 (mol/kg)  =   2.604e-02
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 11.37
-                  Electrical balance (eq)  =   2.259e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  32
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   1.03250
-                         Density of water  =   0.90745
-                                  Total H  = 1.106980e+02
-                                  Total O  = 5.540091e+01
+                                        pH  =  3.690        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  762389    
+                           Density (g/cm³)  =  1.04937  
+                                Volume (L)  =  1.17411  
+                         Viscosity (mPa s)  =  0.27452  
+                         Activity of water  =  0.861  
+                  Ionic strength (mol/kgw)  =  4.012e+00  
+                        Mass of water (kg)  =  9.972e-01  
+                  Total alkalinity (eq/kg)  =  1.670e-14  
+                        Total CO2 (mol/kg)  =  2.604e-02  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  11.37
+                   Electrical balance (eq)  =  2.257e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  33  
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  1.03250  
+                          Density of water  =  0.90745  
+                                   Total H  =  1.106979e+02
+                                   Total O  =  5.540090e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2312,13 +2306,13 @@ H2O(g)             0.73   5.399e+00  0.943   0.000e+00   1.572e-01   1.572e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              1.488e-04   2.065e-04    -3.827    -3.685     0.142      0.00
-   OH-             3.120e-08   1.199e-08    -7.506    -7.921    -0.416     -1.19
+   H+              1.471e-04   2.042e-04    -3.832    -3.690     0.142      0.00
+   OH-             3.157e-08   1.213e-08    -7.501    -7.916    -0.416     -1.19
    H2O             5.551e+01   8.610e-01     1.744    -0.065     0.000     19.85
 C(4)          2.604e-02
    CO2             2.589e-02   4.900e-02    -1.587    -1.310     0.277     46.57
-   HCO3-           1.488e-04   2.963e-05    -3.827    -4.528    -0.701     26.73
-   CO3-2           2.281e-10   4.963e-12    -9.642   -11.304    -1.662     -6.87
+   HCO3-           1.471e-04   2.929e-05    -3.833    -4.533    -0.701     24.52
+   CO3-2           2.334e-10   5.079e-12    -9.632   -11.294    -1.662     -6.53
 Cl            4.011e+00
    Cl-             4.011e+00   1.898e+00     0.603     0.278    -0.325     16.20
 Na            4.011e+00
@@ -2331,9 +2325,9 @@ Na            4.011e+00
   CO2(g)            0.77     -1.31   -2.08  CO2	 Pressure   6.0 atm, phi 0.989
   H2O(g)            0.71     -0.07   -0.77  H2O	 Pressure   5.4 atm, phi 0.943
   Halite           -0.67      0.73    1.40  NaCl
-  Nahcolite        -3.80    -14.54  -10.74  NaHCO3
-  Natron          -10.20    -11.05   -0.85  Na2CO3:10H2O
-  Trona           -13.69    -25.07  -11.37  Na3H(CO3)2:2H2O
+  Nahcolite        -3.80    -14.53  -10.74  NaHCO3
+  Natron          -10.19    -11.04   -0.85  Na2CO3:10H2O
+  Trona           -13.68    -25.05  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2382,27 +2376,27 @@ H2O(g)             0.74   5.541e+00  0.921   1.572e-01   1.627e-01   5.425e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.538      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 756344
-                          Density (g/cm³)  =   1.04994
-                               Volume (L)  =   1.17442
-                        Viscosity (mPa s)  =   0.27706
-                        Activity of water  =   0.860
-                 Ionic strength (mol/kgw)  =   4.012e+00
-                       Mass of water (kg)  =   9.971e-01
-                 Total alkalinity (eq/kg)  =   4.735e-13
-                       Total CO2 (mol/kg)  =   5.096e-02
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 17.44
-                  Electrical balance (eq)  =   1.781e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  18
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.03453
-                         Density of water  =   0.90819
-                                  Total H  = 1.106871e+02
-                                  Total O  = 5.544517e+01
+                                        pH  =  3.543        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  760005    
+                           Density (g/cm³)  =  1.04994  
+                                Volume (L)  =  1.17442  
+                         Viscosity (mPa s)  =  0.27523  
+                         Activity of water  =  0.860  
+                  Ionic strength (mol/kgw)  =  4.012e+00  
+                        Mass of water (kg)  =  9.971e-01  
+                  Total alkalinity (eq/kg)  =  4.346e-13  
+                        Total CO2 (mol/kg)  =  5.096e-02  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  17.44
+                   Electrical balance (eq)  =  1.819e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  25  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.03453  
+                          Density of water  =  0.90819  
+                                   Total H  =  1.106871e+02
+                                   Total O  =  5.544517e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2410,13 +2404,13 @@ H2O(g)             0.74   5.541e+00  0.921   1.572e-01   1.627e-01   5.425e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              2.085e-04   2.894e-04    -3.681    -3.538     0.142      0.00
-   OH-             2.232e-08   8.578e-09    -7.651    -8.067    -0.415     -1.21
+   H+              2.061e-04   2.861e-04    -3.686    -3.543     0.142      0.00
+   OH-             2.258e-08   8.677e-09    -7.646    -8.062    -0.415     -1.21
    H2O             5.551e+01   8.603e-01     1.744    -0.065     0.000     19.84
 C(4)          5.096e-02
    CO2             5.075e-02   9.568e-02    -1.295    -1.019     0.275     46.52
-   HCO3-           2.085e-04   4.154e-05    -3.681    -4.382    -0.701     26.77
-   CO3-2           2.298e-10   4.993e-12    -9.639   -11.302    -1.663     -6.75
+   HCO3-           2.061e-04   4.106e-05    -3.686    -4.387    -0.701     24.54
+   CO3-2           2.351e-10   5.108e-12    -9.629   -11.292    -1.663     -6.44
 Cl            4.012e+00
    Cl-             4.012e+00   1.898e+00     0.603     0.278    -0.325     16.22
 Na            4.012e+00
@@ -2429,9 +2423,9 @@ Na            4.012e+00
   CO2(g)            1.07     -1.02   -2.08  CO2	 Pressure  11.9 atm, phi 0.978
   H2O(g)            0.71     -0.07   -0.77  H2O	 Pressure   5.5 atm, phi 0.921
   Halite           -0.67      0.73    1.40  NaCl
-  Nahcolite        -3.65    -14.39  -10.73  NaHCO3
-  Natron          -10.18    -11.05   -0.86  Na2CO3:10H2O
-  Trona           -13.54    -24.91  -11.37  Na3H(CO3)2:2H2O
+  Nahcolite        -3.65    -14.38  -10.73  NaHCO3
+  Natron          -10.17    -11.04   -0.86  Na2CO3:10H2O
+  Trona           -13.53    -24.89  -11.37  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2474,33 +2468,33 @@ H2O(g)             0.75   5.681e+00  0.901   1.627e-01   1.682e-01   5.559e-03
 
 	Elements           Molality       Moles
 
-	C                 7.487e-02   7.465e-02
+	C                 7.487e-02   7.464e-02
 	Cl                4.012e+00   4.000e+00
 	Na                4.012e+00   4.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.454      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 754224
-                          Density (g/cm³)  =   1.05015
-                               Volume (L)  =   1.17509
-                        Viscosity (mPa s)  =   0.27751
-                        Activity of water  =   0.860
-                 Ionic strength (mol/kgw)  =   4.012e+00
-                       Mass of water (kg)  =   9.970e-01
-                 Total alkalinity (eq/kg)  =   1.090e-12
-                       Total CO2 (mol/kg)  =   7.487e-02
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 23.42
-                  Electrical balance (eq)  =   1.135e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  15
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.03652
-                         Density of water  =   0.90855
-                                  Total H  = 1.106760e+02
-                                  Total O  = 5.548729e+01
+                                        pH  =  3.459        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  757875    
+                           Density (g/cm³)  =  1.05016  
+                                Volume (L)  =  1.17509  
+                         Viscosity (mPa s)  =  0.27567  
+                         Activity of water  =  0.860  
+                  Ionic strength (mol/kgw)  =  4.012e+00  
+                        Mass of water (kg)  =  9.970e-01  
+                  Total alkalinity (eq/kg)  =  1.002e-12  
+                        Total CO2 (mol/kg)  =  7.487e-02  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  23.42
+                   Electrical balance (eq)  =  1.223e-12  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  15  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.03652  
+                          Density of water  =  0.90855  
+                                   Total H  =  1.106760e+02
+                                   Total O  =  5.548728e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2508,13 +2502,13 @@ H2O(g)             0.75   5.681e+00  0.901   1.627e-01   1.682e-01   5.559e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              2.530e-04   3.513e-04    -3.597    -3.454     0.143      0.00
-   OH-             1.843e-08   7.087e-09    -7.734    -8.150    -0.415     -1.24
+   H+              2.502e-04   3.474e-04    -3.602    -3.459     0.143      0.00
+   OH-             1.864e-08   7.167e-09    -7.730    -8.145    -0.415     -1.24
    H2O             5.551e+01   8.596e-01     1.744    -0.066     0.000     19.83
 C(4)          7.487e-02
    CO2             7.462e-02   1.402e-01    -1.127    -0.853     0.274     46.46
-   HCO3-           2.530e-04   5.043e-05    -3.597    -4.297    -0.700     26.80
-   CO3-2           2.310e-10   5.023e-12    -9.636   -11.299    -1.663     -6.64
+   HCO3-           2.501e-04   4.987e-05    -3.602    -4.302    -0.700     24.56
+   CO3-2           2.362e-10   5.136e-12    -9.627   -11.289    -1.663     -6.38
 Cl            4.012e+00
    Cl-             4.012e+00   1.899e+00     0.603     0.279    -0.325     16.24
 Na            4.012e+00
@@ -2527,9 +2521,9 @@ Na            4.012e+00
   CO2(g)            1.23     -0.85   -2.09  CO2	 Pressure  17.7 atm, phi 0.968
   H2O(g)            0.71     -0.07   -0.77  H2O	 Pressure   5.7 atm, phi 0.901
   Halite           -0.67      0.73    1.40  NaCl
-  Nahcolite        -3.57    -14.30  -10.73  NaHCO3
-  Natron          -10.16    -11.04   -0.88  Na2CO3:10H2O
-  Trona           -13.45    -24.82  -11.36  Na3H(CO3)2:2H2O
+  Nahcolite        -3.56    -14.29  -10.73  NaHCO3
+  Natron          -10.16    -11.03   -0.88  Na2CO3:10H2O
+  Trona           -13.44    -24.80  -11.36  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2578,27 +2572,27 @@ H2O(g)             0.76   5.820e+00  0.881   1.682e-01   1.739e-01   5.694e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.396      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 752189
-                          Density (g/cm³)  =   1.05037
-                               Volume (L)  =   1.17571
-                        Viscosity (mPa s)  =   0.27795
-                        Activity of water  =   0.859
-                 Ionic strength (mol/kgw)  =   4.013e+00
-                       Mass of water (kg)  =   9.969e-01
-                 Total alkalinity (eq/kg)  =   1.893e-12
-                       Total CO2 (mol/kg)  =   9.783e-02
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 29.33
-                  Electrical balance (eq)  =   2.934e-13
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  14
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.03842
-                         Density of water  =   0.90890
-                                  Total H  = 1.106646e+02
-                                  Total O  = 5.552735e+01
+                                        pH  =  3.401        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  755829    
+                           Density (g/cm³)  =  1.05037  
+                                Volume (L)  =  1.17571  
+                         Viscosity (mPa s)  =  0.27611  
+                         Activity of water  =  0.859  
+                  Ionic strength (mol/kgw)  =  4.013e+00  
+                        Mass of water (kg)  =  9.969e-01  
+                  Total alkalinity (eq/kg)  =  1.739e-12  
+                        Total CO2 (mol/kg)  =  9.783e-02  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  29.33
+                   Electrical balance (eq)  =  4.452e-13  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  14  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.03842  
+                          Density of water  =  0.90890  
+                                   Total H  =  1.106646e+02
+                                   Total O  =  5.552734e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2606,13 +2600,13 @@ H2O(g)             0.76   5.820e+00  0.881   1.682e-01   1.739e-01   5.694e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              2.894e-04   4.020e-04    -3.538    -3.396     0.143      0.00
-   OH-             1.614e-08   6.210e-09    -7.792    -8.207    -0.415     -1.27
+   H+              2.862e-04   3.976e-04    -3.543    -3.401     0.143      0.00
+   OH-             1.632e-08   6.279e-09    -7.787    -8.202    -0.415     -1.27
    H2O             5.551e+01   8.590e-01     1.744    -0.066     0.000     19.82
 C(4)          9.783e-02
    CO2             9.754e-02   1.826e-01    -1.011    -0.739     0.272     46.41
-   HCO3-           2.894e-04   5.773e-05    -3.538    -4.239    -0.700     26.83
-   CO3-2           2.321e-10   5.052e-12    -9.634   -11.297    -1.662     -6.54
+   HCO3-           2.862e-04   5.710e-05    -3.543    -4.243    -0.700     24.58
+   CO3-2           2.373e-10   5.164e-12    -9.625   -11.287    -1.662     -6.32
 Cl            4.013e+00
    Cl-             4.013e+00   1.901e+00     0.603     0.279    -0.325     16.25
 Na            4.013e+00
@@ -2625,9 +2619,9 @@ Na            4.013e+00
   CO2(g)            1.35     -0.74   -2.09  CO2	 Pressure  23.5 atm, phi 0.959
   H2O(g)            0.71     -0.07   -0.78  H2O	 Pressure   5.8 atm, phi 0.881
   Halite           -0.67      0.74    1.40  NaCl
-  Nahcolite        -3.51    -14.23  -10.73  NaHCO3
-  Natron          -10.15    -11.04   -0.89  Na2CO3:10H2O
-  Trona           -13.39    -24.75  -11.36  Na3H(CO3)2:2H2O
+  Nahcolite        -3.50    -14.23  -10.73  NaHCO3
+  Natron          -10.14    -11.03   -0.89  Na2CO3:10H2O
+  Trona           -13.37    -24.73  -11.36  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2676,27 +2670,27 @@ H2O(g)             0.78   5.961e+00  0.863   1.739e-01   1.797e-01   5.828e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.351      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 750236
-                          Density (g/cm³)  =   1.05058
-                               Volume (L)  =   1.17629
-                        Viscosity (mPa s)  =   0.27837
-                        Activity of water  =   0.858
-                 Ionic strength (mol/kgw)  =   4.013e+00
-                       Mass of water (kg)  =   9.968e-01
-                 Total alkalinity (eq/kg)  =   2.153e-12
-                       Total CO2 (mol/kg)  =   1.199e-01
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 35.16
-                  Electrical balance (eq)  =  -4.594e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  15
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.04023
-                         Density of water  =   0.90925
-                                  Total H  = 1.106529e+02
-                                  Total O  = 5.556545e+01
+                                        pH  =  3.356        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  753865    
+                           Density (g/cm³)  =  1.05059  
+                                Volume (L)  =  1.17629  
+                         Viscosity (mPa s)  =  0.27654  
+                         Activity of water  =  0.858  
+                  Ionic strength (mol/kgw)  =  4.013e+00  
+                        Mass of water (kg)  =  9.968e-01  
+                  Total alkalinity (eq/kg)  =  1.979e-12  
+                        Total CO2 (mol/kg)  =  1.199e-01  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  35.16
+                   Electrical balance (eq)  =  -4.592e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  15  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.04023  
+                          Density of water  =  0.90925  
+                                   Total H  =  1.106529e+02
+                                   Total O  =  5.556544e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2704,13 +2698,13 @@ H2O(g)             0.78   5.961e+00  0.863   1.739e-01   1.797e-01   5.828e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              3.207e-04   4.456e-04    -3.494    -3.351     0.143      0.00
-   OH-             1.459e-08   5.619e-09    -7.836    -8.250    -0.415     -1.31
+   H+              3.172e-04   4.408e-04    -3.499    -3.356     0.143      0.00
+   OH-             1.475e-08   5.680e-09    -7.831    -8.246    -0.415     -1.31
    H2O             5.551e+01   8.584e-01     1.744    -0.066     0.000     19.81
 C(4)          1.199e-01
    CO2             1.196e-01   2.231e-01    -0.922    -0.652     0.271     46.36
-   HCO3-           3.206e-04   6.400e-05    -3.494    -4.194    -0.700     26.86
-   CO3-2           2.332e-10   5.081e-12    -9.632   -11.294    -1.662     -6.44
+   HCO3-           3.172e-04   6.331e-05    -3.499    -4.199    -0.700     24.60
+   CO3-2           2.383e-10   5.191e-12    -9.623   -11.285    -1.662     -6.26
 Cl            4.013e+00
    Cl-             4.013e+00   1.902e+00     0.603     0.279    -0.324     16.26
 Na            4.013e+00
@@ -2723,9 +2717,9 @@ Na            4.013e+00
   CO2(g)            1.44     -0.65   -2.09  CO2	 Pressure  29.2 atm, phi 0.950
   H2O(g)            0.71     -0.07   -0.78  H2O	 Pressure   6.0 atm, phi 0.863
   Halite           -0.66      0.74    1.40  NaCl
-  Nahcolite        -3.46    -14.19  -10.72  NaHCO3
-  Natron          -10.13    -11.04   -0.91  Na2CO3:10H2O
-  Trona           -13.34    -24.69  -11.35  Na3H(CO3)2:2H2O
+  Nahcolite        -3.46    -14.18  -10.72  NaHCO3
+  Natron          -10.12    -11.03   -0.91  Na2CO3:10H2O
+  Trona           -13.32    -24.68  -11.35  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2774,27 +2768,27 @@ H2O(g)             0.83   6.697e+00  0.778   1.797e-01   2.109e-01   3.116e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.219      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 741548
-                          Density (g/cm³)  =   1.05168
-                               Volume (L)  =   1.17862
-                        Viscosity (mPa s)  =   0.28039
-                        Activity of water  =   0.856
-                 Ionic strength (mol/kgw)  =   4.016e+00
-                       Mass of water (kg)  =   9.962e-01
-                 Total alkalinity (eq/kg)  =   2.207e-12
-                       Total CO2 (mol/kg)  =   2.180e-01
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 63.31
-                  Electrical balance (eq)  =  -4.595e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  19
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.04812
-                         Density of water  =   0.91092
-                                  Total H  = 1.105906e+02
-                                  Total O  = 5.572958e+01
+                                        pH  =  3.223        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  745127    
+                           Density (g/cm³)  =  1.05168  
+                                Volume (L)  =  1.17862  
+                         Viscosity (mPa s)  =  0.27855  
+                         Activity of water  =  0.856  
+                  Ionic strength (mol/kgw)  =  4.016e+00  
+                        Mass of water (kg)  =  9.962e-01  
+                  Total alkalinity (eq/kg)  =  2.029e-12  
+                        Total CO2 (mol/kg)  =  2.180e-01  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  63.31
+                   Electrical balance (eq)  =  -4.593e-10 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  19  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.04812  
+                          Density of water  =  0.91092  
+                                   Total H  =  1.105906e+02
+                                   Total O  =  5.572958e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2802,13 +2796,13 @@ H2O(g)             0.83   6.697e+00  0.778   1.797e-01   2.109e-01   3.116e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              4.342e-04   6.045e-04    -3.362    -3.219     0.144      0.00
-   OH-             1.088e-08   4.199e-09    -7.964    -8.377    -0.413     -1.45
+   H+              4.299e-04   5.985e-04    -3.367    -3.223     0.144      0.00
+   OH-             1.099e-08   4.241e-09    -7.959    -8.373    -0.413     -1.45
    H2O             5.551e+01   8.558e-01     1.744    -0.068     0.000     19.78
 C(4)          2.180e-01
    CO2             2.175e-01   3.999e-01    -0.662    -0.398     0.264     46.11
-   HCO3-           4.342e-04   8.691e-05    -3.362    -4.061    -0.699     27.00
-   CO3-2           2.377e-10   5.218e-12    -9.624   -11.282    -1.658     -5.97
+   HCO3-           4.299e-04   8.605e-05    -3.367    -4.065    -0.699     24.70
+   CO3-2           2.425e-10   5.323e-12    -9.615   -11.274    -1.658     -5.96
 Cl            4.015e+00
    Cl-             4.015e+00   1.907e+00     0.604     0.280    -0.323     16.33
 Na            4.015e+00
@@ -2822,8 +2816,8 @@ Na            4.015e+00
   H2O(g)            0.72     -0.07   -0.78  H2O	 Pressure   6.7 atm, phi 0.778
   Halite           -0.66      0.75    1.41  NaCl
   Nahcolite        -3.32    -14.03  -10.71  NaHCO3
-  Natron          -10.05    -11.02   -0.97  Na2CO3:10H2O
-  Trona           -13.19    -24.52  -11.33  Na3H(CO3)2:2H2O
+  Natron          -10.04    -11.01   -0.97  Na2CO3:10H2O
+  Trona           -13.17    -24.50  -11.33  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2872,27 +2866,27 @@ H2O(g)             0.87   7.492e+00  0.704   2.109e-01   2.454e-01   3.448e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.147      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 734330
-                          Density (g/cm³)  =   1.05278
-                               Volume (L)  =   1.18017
-                        Viscosity (mPa s)  =   0.28223
-                        Activity of water  =   0.854
-                 Ionic strength (mol/kgw)  =   4.018e+00
-                       Mass of water (kg)  =   9.956e-01
-                 Total alkalinity (eq/kg)  =   2.179e-12
-                       Total CO2 (mol/kg)  =   2.992e-01
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 89.99
-                  Electrical balance (eq)  =  -9.259e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  22
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.05451
-                         Density of water  =   0.91248
-                                  Total H  = 1.105217e+02
-                                  Total O  = 5.585667e+01
+                                        pH  =  3.151        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  737866    
+                           Density (g/cm³)  =  1.05278  
+                                Volume (L)  =  1.18017  
+                         Viscosity (mPa s)  =  0.28038  
+                         Activity of water  =  0.854  
+                  Ionic strength (mol/kgw)  =  4.018e+00  
+                        Mass of water (kg)  =  9.956e-01  
+                  Total alkalinity (eq/kg)  =  2.044e-12  
+                        Total CO2 (mol/kg)  =  2.992e-01  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  89.99
+                   Electrical balance (eq)  =  -9.258e-09 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  21  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.05451  
+                          Density of water  =  0.91248  
+                                   Total H  =  1.105217e+02
+                                   Total O  =  5.585666e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2900,13 +2894,13 @@ H2O(g)             0.87   7.492e+00  0.704   2.109e-01   2.454e-01   3.448e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              5.111e-04   7.130e-04    -3.291    -3.147     0.145      0.00
-   OH-             9.325e-09   3.609e-09    -8.030    -8.443    -0.412     -1.59
+   H+              5.065e-04   7.066e-04    -3.295    -3.151     0.145      0.00
+   OH-             9.409e-09   3.642e-09    -8.026    -8.439    -0.412     -1.59
    H2O             5.551e+01   8.536e-01     1.744    -0.069     0.000     19.74
 C(4)          2.992e-01
    CO2             2.987e-01   5.425e-01    -0.525    -0.266     0.259     45.89
-   HCO3-           5.111e-04   1.026e-04    -3.291    -3.989    -0.698     27.13
-   CO3-2           2.414e-10   5.348e-12    -9.617   -11.272    -1.655     -5.53
+   HCO3-           5.065e-04   1.016e-04    -3.295    -3.993    -0.698     24.78
+   CO3-2           2.459e-10   5.447e-12    -9.609   -11.264    -1.655     -5.69
 Cl            4.018e+00
    Cl-             4.018e+00   1.912e+00     0.604     0.281    -0.323     16.39
 Na            4.018e+00
@@ -2919,9 +2913,9 @@ Na            4.018e+00
   CO2(g)            1.86     -0.27   -2.13  CO2	 Pressure  82.5 atm, phi 0.878
   H2O(g)            0.72     -0.07   -0.79  H2O	 Pressure   7.5 atm, phi 0.704
   Halite           -0.65      0.76    1.41  NaCl
-  Nahcolite        -3.25    -13.94  -10.70  NaHCO3
-  Natron           -9.97    -11.01   -1.04  Na2CO3:10H2O
-  Trona           -13.10    -24.40  -11.31  Na3H(CO3)2:2H2O
+  Nahcolite        -3.24    -13.94  -10.70  NaHCO3
+  Natron           -9.96    -11.00   -1.04  Na2CO3:10H2O
+  Trona           -13.08    -24.39  -11.31  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2970,27 +2964,27 @@ H2O(g)             0.92   8.354e+00  0.639   2.454e-01   2.831e-01   3.771e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.099      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 728216
-                          Density (g/cm³)  =   1.05389
-                               Volume (L)  =   1.18112
-                        Viscosity (mPa s)  =   0.28393
-                        Activity of water  =   0.852
-                 Ionic strength (mol/kgw)  =   4.021e+00
-                       Mass of water (kg)  =   9.949e-01
-                 Total alkalinity (eq/kg)  =   2.155e-12
-                       Total CO2 (mol/kg)  =   3.677e-01
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 115.60
-                  Electrical balance (eq)  =  -1.897e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  20
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.05982
-                         Density of water  =   0.91397
-                                  Total H  = 1.104462e+02
-                                  Total O  = 5.595469e+01
+                                        pH  =  3.103        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  731714    
+                           Density (g/cm³)  =  1.05389  
+                                Volume (L)  =  1.18111  
+                         Viscosity (mPa s)  =  0.28207  
+                         Activity of water  =  0.852  
+                  Ionic strength (mol/kgw)  =  4.021e+00  
+                        Mass of water (kg)  =  9.949e-01  
+                  Total alkalinity (eq/kg)  =  2.068e-12  
+                        Total CO2 (mol/kg)  =  3.677e-01  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  115.60
+                   Electrical balance (eq)  =  -1.897e-08 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  20  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.05982  
+                          Density of water  =  0.91397  
+                                   Total H  =  1.104462e+02
+                                   Total O  =  5.595468e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2998,13 +2992,13 @@ H2O(g)             0.92   8.354e+00  0.639   2.454e-01   2.831e-01   3.771e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              5.695e-04   7.960e-04    -3.245    -3.099     0.145      0.00
-   OH-             8.448e-09   3.277e-09    -8.073    -8.485    -0.411     -1.72
+   H+              5.649e-04   7.895e-04    -3.248    -3.103     0.145      0.00
+   OH-             8.516e-09   3.303e-09    -8.070    -8.481    -0.411     -1.72
    H2O             5.551e+01   8.517e-01     1.744    -0.070     0.000     19.71
 C(4)          3.677e-01
    CO2             3.671e-01   6.600e-01    -0.435    -0.180     0.255     45.67
-   HCO3-           5.694e-04   1.145e-04    -3.245    -3.941    -0.697     27.26
-   CO3-2           2.447e-10   5.471e-12    -9.611   -11.262    -1.651     -5.12
+   HCO3-           5.648e-04   1.136e-04    -3.248    -3.945    -0.697     24.86
+   CO3-2           2.489e-10   5.566e-12    -9.604   -11.254    -1.651     -5.44
 Cl            4.021e+00
    Cl-             4.021e+00   1.917e+00     0.604     0.283    -0.322     16.44
 Na            4.021e+00
@@ -3017,9 +3011,9 @@ Na            4.021e+00
   CO2(g)            1.96     -0.18   -2.14  CO2	 Pressure 107.2 atm, phi 0.848
   H2O(g)            0.73     -0.07   -0.80  H2O	 Pressure   8.4 atm, phi 0.639
   Halite           -0.65      0.76    1.41  NaCl
-  Nahcolite        -3.20    -13.88  -10.69  NaHCO3
-  Natron           -9.90    -11.00   -1.10  Na2CO3:10H2O
-  Trona           -13.03    -24.32  -11.29  Na3H(CO3)2:2H2O
+  Nahcolite        -3.19    -13.88  -10.68  NaHCO3
+  Natron           -9.89    -10.99   -1.10  Na2CO3:10H2O
+  Trona           -13.02    -24.31  -11.29  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -3068,27 +3062,27 @@ H2O(g)             0.97   9.289e+00  0.581   2.831e-01   3.239e-01   4.080e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.064      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 722920
-                          Density (g/cm³)  =   1.05502
-                               Volume (L)  =   1.18158
-                        Viscosity (mPa s)  =   0.28554
-                        Activity of water  =   0.850
-                 Ionic strength (mol/kgw)  =   4.024e+00
-                       Mass of water (kg)  =   9.942e-01
-                 Total alkalinity (eq/kg)  =   2.143e-12
-                       Total CO2 (mol/kg)  =   4.264e-01
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 140.54
-                  Electrical balance (eq)  =  -2.915e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  20
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.06435
-                         Density of water  =   0.91540
-                                  Total H  = 1.103647e+02
-                                  Total O  = 5.603005e+01
+                                        pH  =  3.067        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  726385    
+                           Density (g/cm³)  =  1.05502  
+                                Volume (L)  =  1.18158  
+                         Viscosity (mPa s)  =  0.28368  
+                         Activity of water  =  0.850  
+                  Ionic strength (mol/kgw)  =  4.024e+00  
+                        Mass of water (kg)  =  9.942e-01  
+                  Total alkalinity (eq/kg)  =  2.108e-12  
+                        Total CO2 (mol/kg)  =  4.264e-01  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  140.54
+                   Electrical balance (eq)  =  -2.914e-08 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  20  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.06435  
+                          Density of water  =  0.91540  
+                                   Total H  =  1.103647e+02
+                                   Total O  =  5.603004e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3096,13 +3090,13 @@ H2O(g)             0.97   9.289e+00  0.581   2.831e-01   3.239e-01   4.080e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.166e-04   8.637e-04    -3.210    -3.064     0.146      0.00
-   OH-             7.876e-09   3.061e-09    -8.104    -8.514    -0.410     -1.84
+   H+              6.122e-04   8.575e-04    -3.213    -3.067     0.146      0.00
+   OH-             7.933e-09   3.083e-09    -8.101    -8.511    -0.410     -1.84
    H2O             5.551e+01   8.500e-01     1.744    -0.071     0.000     19.68
 C(4)          4.264e-01
    CO2             4.257e-01   7.588e-01    -0.371    -0.120     0.251     45.47
-   HCO3-           6.166e-04   1.242e-04    -3.210    -3.906    -0.696     27.37
-   CO3-2           2.477e-10   5.590e-12    -9.606   -11.253    -1.646     -4.73
+   HCO3-           6.121e-04   1.233e-04    -3.213    -3.909    -0.696     24.94
+   CO3-2           2.517e-10   5.681e-12    -9.599   -11.246    -1.646     -5.20
 Cl            4.024e+00
    Cl-             4.024e+00   1.922e+00     0.605     0.284    -0.321     16.50
 Na            4.024e+00
@@ -3115,9 +3109,9 @@ Na            4.024e+00
   CO2(g)            2.03     -0.12   -2.15  CO2	 Pressure 131.2 atm, phi 0.822
   H2O(g)            0.73     -0.07   -0.80  H2O	 Pressure   9.3 atm, phi 0.581
   Halite           -0.64      0.77    1.41  NaCl
-  Nahcolite        -3.16    -13.83  -10.67  NaHCO3
-  Natron           -9.83    -10.99   -1.16  Na2CO3:10H2O
-  Trona           -12.98    -24.25  -11.27  Na3H(CO3)2:2H2O
+  Nahcolite        -3.15    -13.83  -10.67  NaHCO3
+  Natron           -9.82    -10.98   -1.16  Na2CO3:10H2O
+  Trona           -12.98    -24.24  -11.27  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -3166,27 +3160,27 @@ H2O(g)             1.01   1.031e+01  0.530   3.239e-01   3.676e-01   4.369e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.035      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm, 160°C)  = 718219
-                          Density (g/cm³)  =   1.05617
-                               Volume (L)  =   1.18166
-                        Viscosity (mPa s)  =   0.28709
-                        Activity of water  =   0.849
-                 Ionic strength (mol/kgw)  =   4.027e+00
-                       Mass of water (kg)  =   9.934e-01
-                 Total alkalinity (eq/kg)  =   2.166e-12
-                       Total CO2 (mol/kg)  =   4.778e-01
-                         Temperature (°C)  = 160.00
-                           Pressure (atm)  = 165.24
-                  Electrical balance (eq)  =  -2.915e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  23
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   1.06832
-                         Density of water  =   0.91681
-                                  Total H  = 1.102773e+02
-                                  Total O  = 5.608786e+01
+                                        pH  =  3.038        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 160°C)  =  721655    
+                           Density (g/cm³)  =  1.05617  
+                                Volume (L)  =  1.18166  
+                         Viscosity (mPa s)  =  0.28522  
+                         Activity of water  =  0.849  
+                  Ionic strength (mol/kgw)  =  4.027e+00  
+                        Mass of water (kg)  =  9.934e-01  
+                  Total alkalinity (eq/kg)  =  2.131e-12  
+                        Total CO2 (mol/kg)  =  4.778e-01  
+                          Temperature (°C)  =  160.00
+                            Pressure (atm)  =  165.24
+                   Electrical balance (eq)  =  -2.914e-08 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  22  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  1.06832  
+                          Density of water  =  0.91681  
+                                   Total H  =  1.102773e+02
+                                   Total O  =  5.608785e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3194,13 +3188,13 @@ H2O(g)             1.01   1.031e+01  0.530   3.239e-01   3.676e-01   4.369e-02
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              6.565e-04   9.216e-04    -3.183    -3.035     0.147      0.00
-   OH-             7.469e-09   2.908e-09    -8.127    -8.536    -0.410     -1.97
+   H+              6.524e-04   9.158e-04    -3.185    -3.038     0.147      0.00
+   OH-             7.516e-09   2.926e-09    -8.124    -8.534    -0.410     -1.97
    H2O             5.551e+01   8.486e-01     1.744    -0.071     0.000     19.65
 C(4)          4.778e-01
    CO2             4.771e-01   8.441e-01    -0.321    -0.074     0.248     45.28
-   HCO3-           6.565e-04   1.325e-04    -3.183    -3.878    -0.695     27.48
-   CO3-2           2.504e-10   5.707e-12    -9.601   -11.244    -1.642     -4.35
+   HCO3-           6.524e-04   1.317e-04    -3.185    -3.880    -0.695     25.02
+   CO3-2           2.543e-10   5.795e-12    -9.595   -11.237    -1.642     -4.96
 Cl            4.027e+00
    Cl-             4.027e+00   1.926e+00     0.605     0.285    -0.320     16.55
 Na            4.027e+00
@@ -3213,9 +3207,9 @@ Na            4.027e+00
   CO2(g)            2.09     -0.07   -2.17  CO2	 Pressure 154.9 atm, phi 0.799
   H2O(g)            0.74     -0.07   -0.81  H2O	 Pressure  10.3 atm, phi 0.530
   Halite           -0.64      0.78    1.42  NaCl
-  Nahcolite        -3.13    -13.79  -10.66  NaHCO3
-  Natron           -9.75    -10.98   -1.22  Na2CO3:10H2O
-  Trona           -12.94    -24.19  -11.25  Na3H(CO3)2:2H2O
+  Nahcolite        -3.12    -13.78  -10.66  NaHCO3
+  Natron           -9.75    -10.97   -1.22  Na2CO3:10H2O
+  Trona           -12.94    -24.18  -11.25  Na3H(CO3)2:2H2O
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -3227,4 +3221,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 4.
 ------------------------------------
+
+------------------------------
+End of Run after 0.07 Seconds.
+------------------------------
 

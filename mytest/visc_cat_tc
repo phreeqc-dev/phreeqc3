@@ -1,0 +1,64 @@
+
+# DATABASE c:\phreeqc\database\pitzer.dat
+# DATABASE c:\phreeqc\database\phreeqc_rates.dat
+# DATABASE c:\temp\uz\PHREEQC.DAT
+DATABASE ../database/phreeqc.dat
+#PRINT; -reset false
+SELECTED_OUTPUT 101
+    -file                visc_cat_tc_101.sel
+USER_PUNCH 101
+    -headings Mu SC Viscosity
+    -start
+10 PUNCH STR_F$(MU, 20, 12)
+20 PUNCH STR_F$(SC, 20, 10)
+30 PUNCH STR_F$(VISCOS, 20, 10)
+    -end
+SOLUTION 1
+pH 7 charge
+END
+
+USE solution 1; Reaction 1; NaCl; 5
+REACTION_TEMPERATURE 1; 0 300 in 41
+USER_GRAPH
+-headings tc viscos_0 NaCl
+ 1 v = viscos
+10 graph_x tc : graph_y viscos_0, v
+END
+
+USE solution 1; Reaction 1; KCl; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc KCl
+ 1 v = viscos
+10 graph_x tc : graph_y v
+END
+
+USE solution 1; Reaction 1; LiCl; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc LiCl
+END
+
+USE solution 1; Reaction 1; MgCl2; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc MgCl2
+END
+
+USE solution 1; Reaction 1; CaCl2; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc CaCl2
+END
+
+USE solution 1; Reaction 1; SrCl2; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc SrCl2
+END
+
+USE solution 1; Reaction 1; BaCl2; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc BaCl2
+END

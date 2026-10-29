@@ -69,20 +69,20 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   9.000    
-                                       pe  =   4.000    
-                        Activity of water  =   0.967
-                 Ionic strength (mol/kgw)  =   1.000e+00
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   0.000e+00
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -3.835e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  10
-                         Gamma iterations  =   4
-                      Osmotic coefficient  =   0.93623
-                                  Total H  = 1.110169e+02
-                                  Total O  = 5.550845e+01
+                                        pH  =  9.000      
+                                        pe  =  4.000      
+                         Activity of water  =  0.967  
+                  Ionic strength (mol/kgw)  =  1.000e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  0.000e+00  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -3.835e-15 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  10  
+                          Gamma iterations  =  4   
+                       Osmotic coefficient  =  0.93623  
+                                   Total H  =  1.110169e+02
+                                   Total O  =  5.550845e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -140,20 +140,20 @@ pH_Fix           -9.00    -9.00      0.00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   9.000      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.967
-                 Ionic strength (mol/kgw)  =   1.000e+00
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   0.000e+00
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   5.176e-13
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  13
-                         Gamma iterations  =   5
-                      Osmotic coefficient  =   0.93626
-                                  Total H  = 1.110174e+02
-                                  Total O  = 5.550928e+01
+                                        pH  =  9.000        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.967  
+                  Ionic strength (mol/kgw)  =  1.000e+00  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  0.000e+00  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  5.176e-13  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  13  
+                          Gamma iterations  =  5   
+                       Osmotic coefficient  =  0.93626  
+                                   Total H  =  1.110174e+02
+                                   Total O  =  5.550928e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -197,4 +197,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.009 Seconds.
+-------------------------------
 

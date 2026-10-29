@@ -49,25 +49,25 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.997      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 0
-                          Density (g/cm³)  =   0.99704
-                               Volume (L)  =   1.00297
-                        Viscosity (mPa s)  =   0.89002
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.006e-07
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   0.000e+00
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   0.000e+00
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   6
-                         Gamma iterations  =   2
-                      Osmotic coefficient  =   0.99988
-                         Density of water  =   0.99704
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  6.997        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  0         
+                           Density (g/cm³)  =  0.99704  
+                                Volume (L)  =  1.00297  
+                         Viscosity (mPa s)  =  0.89002  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.006e-07  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  0.000e+00  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  0.000e+00  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                                Iterations  =  6   
+                          Gamma iterations  =  2   
+                       Osmotic coefficient  =  0.99988  
+                          Density of water  =  0.99704  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -140,7 +140,7 @@ Total pressure:  1.00      atmospheres          (Peng-Robinson calculation)
 Component         log P           P    phi     Initial       Final       Delta
 
 CO2(g)            -0.01   9.683e-01  0.994   0.000e+00   6.686e-02   6.686e-02
-H2O(g)            -1.50   3.171e-02  0.990   0.000e+00   2.189e-03   2.189e-03
+H2O(g)            -1.50   3.171e-02  0.990   0.000e+00   2.190e-03   2.190e-03
 
 -----------------------------Solution composition------------------------------
 
@@ -150,26 +150,26 @@ H2O(g)            -1.50   3.171e-02  0.990   0.000e+00   2.189e-03   2.189e-03
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   3.912      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 48
-                          Density (g/cm³)  =   0.99735
-                               Volume (L)  =   1.00408
-                        Viscosity (mPa s)  =   0.89231
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   1.241e-04
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   2.791e-16
-                       Total CO2 (mol/kg)  =   3.314e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -2.791e-16
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  22
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   0.99953
-                         Density of water  =   0.99704
-                                  Total H  = 1.110081e+02
-                                  Total O  = 5.557031e+01
+                                        pH  =  3.917        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  47        
+                           Density (g/cm³)  =  0.99735  
+                                Volume (L)  =  1.00408  
+                         Viscosity (mPa s)  =  0.89230  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  1.227e-04  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  2.687e-16  
+                        Total CO2 (mol/kg)  =  3.314e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -2.687e-16 
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                                Iterations  =  22  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  0.99953  
+                          Density of water  =  0.99704  
+                                   Total H  =  1.110081e+02
+                                   Total O  =  5.557030e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -177,13 +177,13 @@ H2O(g)            -1.50   3.171e-02  0.990   0.000e+00   2.189e-03   2.189e-03
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              1.241e-04   1.225e-04    -3.906    -3.912    -0.006      0.00
-   OH-             8.362e-11   8.256e-11   -10.078   -10.083    -0.006     -4.13
+   H+              1.227e-04   1.211e-04    -3.911    -3.917    -0.006      0.00
+   OH-             8.462e-11   8.356e-11   -10.073   -10.078    -0.005     -4.13
    H2O             5.551e+01   9.994e-01     1.744    -0.000     0.000     18.07
 C(4)          3.314e-02
    CO2             3.302e-02   3.299e-02    -1.481    -1.482    -0.000     34.79
-   HCO3-           1.241e-04   1.226e-04    -3.906    -3.912    -0.006     23.07
-   CO3-2           4.827e-11   4.581e-11   -10.316   -10.339    -0.023     -4.99
+   HCO3-           1.227e-04   1.211e-04    -3.911    -3.917    -0.005     23.00
+   CO3-2           4.942e-11   4.692e-11   -10.306   -10.329    -0.023     -7.17
 
 ------------------------------Saturation indices-------------------------------
 
@@ -202,4 +202,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
+
+-------------------------------
+End of Run after 0.019 Seconds.
+-------------------------------
 

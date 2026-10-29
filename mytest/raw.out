@@ -203,7 +203,7 @@ Using pure phase assemblage 20.	Pp_Assemblage defined in simulation 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Calcite           0.00    -8.45     -8.45    1.178e-01   1.097e-01  -8.074e-03
-Dolomite          0.00   -17.08    -17.08    1.568e+00   1.567e+00  -9.864e-04
+Dolomite         -0.00   -17.08    -17.08    1.568e+00   1.567e+00  -9.864e-04
 
 ------------------------------Surface composition------------------------------
 
@@ -256,24 +256,24 @@ X                5.000e-01 mol
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.714      Charge balance
-                                       pe  =  12.887      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 2529
-                          Density (g/cm³)  =   0.99866
-                               Volume (L)  =   1.00347
-                        Viscosity (mPa s)  =   0.89625
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   2.908e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.904e-02
-                       Total CO2 (mol/kg)  =   1.965e-02
-                         Temperature (°C)  =  25.00
-                           Pressure (atm)  =  1.10
-                  Electrical balance (eq)  =   1.208e-02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  21.17
-                               Iterations  =  17
-                                  Total H  = 1.110305e+02
-                                  Total O  = 5.556545e+01
+                                        pH  =  7.714        Charge balance
+                                        pe  =  12.887       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  2554      
+                           Density (g/cm³)  =  0.99866  
+                                Volume (L)  =  1.00347  
+                         Viscosity (mPa s)  =  0.90088  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  2.908e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                  Total alkalinity (eq/kg)  =  1.904e-02  
+                        Total CO2 (mol/kg)  =  1.965e-02  
+                          Temperature (°C)  =  25.00 
+                            Pressure (atm)  =  1.10 
+                   Electrical balance (eq)  =  1.208e-02  
+  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  21.17 
+                                Iterations  =  17  
+                                   Total H  =  1.110305e+02
+                                   Total O  =  5.556545e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -291,10 +291,10 @@ As            1.927e-08
 C(-4)         0.000e+00
    CH4             0.000e+00   0.000e+00  -143.582  -143.579     0.003     35.46
 C(4)          1.965e-02
-   HCO3-           1.864e-02   1.599e-02    -1.730    -1.796    -0.067     24.89
+   HCO3-           1.864e-02   1.599e-02    -1.730    -1.796    -0.067     24.75
    CO2             6.913e-04   6.944e-04    -3.160    -3.158     0.002     34.79
-   NaHCO3          2.272e-04   2.295e-04    -3.644    -3.639     0.004     17.66
-   CO3-2           7.187e-05   3.886e-05    -4.143    -4.411    -0.267     -4.00
+   NaHCO3          2.272e-04   2.295e-04    -3.644    -3.639     0.004     24.51
+   CO3-2           7.187e-05   3.886e-05    -4.143    -4.411    -0.267     -4.61
    MgHCO3+         1.311e-05   1.113e-05    -4.882    -4.953    -0.071      5.58
    CaCO3           5.950e-06   5.990e-06    -5.225    -5.223     0.003    -14.60
    MgCO3           2.191e-06   2.206e-06    -5.659    -5.656     0.003    -17.09
@@ -321,7 +321,7 @@ Mg            1.253e-04
    Mg(SO4)2-2      1.055e-09   5.951e-10    -8.977    -9.225    -0.249     40.19
 Na            3.425e-02
    Na+             3.400e-02   2.904e-02    -1.469    -1.537    -0.068     -1.28
-   NaHCO3          2.272e-04   2.295e-04    -3.644    -3.639     0.004     17.66
+   NaHCO3          2.272e-04   2.295e-04    -3.644    -3.639     0.004     24.51
    NaSO4-          3.225e-05   2.748e-05    -4.491    -4.561    -0.070     17.42
    Na2SO4          3.867e-10   3.890e-10    -9.413    -9.410     0.003     47.96
 O(0)          4.373e-04
@@ -350,7 +350,7 @@ S(6)          2.372e-04
   Calcite           0.00     -8.45   -8.45  CaCO3
   CH4(g)         -140.78   -143.58   -2.80  CH4
   CO2(g)           -1.69     -3.16   -1.47  CO2
-  Dolomite          0.00    -17.08  -17.08  CaMg(CO3)2
+  Dolomite         -0.00    -17.08  -17.08  CaMg(CO3)2
   Epsomite         -6.46     -8.20   -1.74  MgSO4:7H2O
   Gypsum           -3.46     -8.01   -4.55  CaSO4:2H2O
   H2(g)           -41.25    -44.35   -3.10  H2

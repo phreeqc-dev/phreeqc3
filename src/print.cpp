@@ -2274,7 +2274,7 @@ print_totals(void)
 /*
  *   pH
  */
-	output_msg(sformatf("%45s%7.3f    ", "pH  = ",
+	output_msg(sformatf("%47s%-7.3f    ", "pH  =  ",
 			   (double) (-(s_hplus->la))));
 	if (ph_unknown == NULL)
 	{
@@ -2296,7 +2296,7 @@ print_totals(void)
 /*
  *    pe
  */
-	output_msg(sformatf("%45s%7.3f    ", "pe  = ",
+	output_msg(sformatf("%47s%-7.3f    ", "pe  =  ",
 			   (double) (-(s_eminus->la))));
 	if (pe_unknown == NULL)
 	{
@@ -2321,13 +2321,17 @@ print_totals(void)
 	calc_SC();
 	if (SC > 0)
 	{
-		//output_msg(sformatf("%36s%i%7s%i\n",
 #ifdef NO_UTF8_ENCODING
-		output_msg(sformatf("%35s%3.0f%7s%i\n",
-				   "Specific Conductance (uS/cm, ", tc_x, "oC)  = ", (int) SC));
+		output_msg(sformatf("%36s%3.0f%8s%-10d\n",
+				   "Specific Conductance (uS/cm, ", tc_x, "oC)  =  ", (int) SC));
 #else
-		output_msg(sformatf("%36s%3.0f%7s%i\n",
-				   "Specific Conductance (µS/cm, ", tc_x, "°C)  = ", (int) SC));
+#ifdef NPP
+		output_msg(sformatf("%36s%3.0f%8s%-10d\n",
+			"Specific Conductance (µS/cm, ", tc_x, "°C)  =  ", (int)SC));
+#else
+		output_msg(sformatf("%37s%3.0f%9s%-10d\n",
+			"Specific Conductance (µS/cm, ", tc_x, "°C)  =  ", (int)SC));
+#endif
 #endif
 	}
 /* VP: Density Start */
@@ -2335,9 +2339,13 @@ print_totals(void)
 	{
 		dens = calc_dens();
 #ifdef NO_UTF8_ENCODING
-		output_msg(sformatf("%45s%9.5f", "Density (g/cm3)  = ",
+		output_msg(sformatf("%47s%-9.5f", "Density (g/cm3)  =  ",
 #else
-		output_msg(sformatf("%46s%9.5f", "Density (g/cm³)  = ",
+#ifdef NPP
+		output_msg(sformatf("%47s%-9.5f", "Density (g/cm³)  =  ",
+#else
+		output_msg(sformatf("%48s%-9.5f", "Density (g/cm³)  =  ",
+#endif
 #endif
 			   (double) dens));
 		if (state == INITIAL_SOLUTION && use.Get_solution_ptr()->Get_initial_data()->Get_calc_density())
@@ -2346,7 +2354,7 @@ print_totals(void)
 		}		
 		if (dens > 1.999) output_msg(sformatf("%18s", " (Program limit)"));
 		output_msg(sformatf("\n"));
-		output_msg(sformatf("%45s%9.5f\n", "     Volume (L)  = ",
+		output_msg(sformatf("%47s%-9.5f\n", "     Volume (L)  =  ",
 			   (double) calc_solution_volume()));
 	}
 /* VP: Density End */
@@ -2354,89 +2362,93 @@ print_totals(void)
 	if (print_viscosity)
 	{
 		viscosity(nullptr);
-		output_msg(sformatf("%45s%9.5f", "Viscosity (mPa s)  = ", (double) viscos));
-		if (tc_x > 200 && !pure_water) 
-		{
-#ifdef NO_UTF8_ENCODING
-			output_msg(sformatf("%18s\n",
-				   " (solute contributions limited to 200 oC)"));
-#else
-			output_msg(sformatf("%18s\n",
-				   " (solute contributions limited to 200 °C)"));
-#endif
-		}
-		else output_msg(sformatf("\n"));
+		output_msg(sformatf("%47s%-9.5f\n", "Viscosity (mPa s)  =  ", (double) viscos));
+//		if (tc_x > 200 && !pure_water) 
+//		{
+//#ifdef NO_UTF8_ENCODING
+//			output_msg(sformatf("%18s\n",
+//				   " (solute contributions limited to 200 oC)"));
+//#else
+//			output_msg(sformatf("%18s\n",
+//				   " (solute contributions limited to 200 °C)"));
+//#endif
+//		}
+//		else output_msg(sformatf("\n"));
 	}
 //#endif
-	output_msg(sformatf("%45s%7.3f\n", "Activity of water  = ",
+	output_msg(sformatf("%47s%-7.3f\n", "Activity of water  =  ",
 			   exp(s_h2o->la * LOG_10)));
-	output_msg(sformatf("%45s%11.3e\n", "Ionic strength (mol/kgw)  = ",
+	output_msg(sformatf("%47s%-11.3e\n", "Ionic strength (mol/kgw)  =  ",
 			   (double) mu_x));
-	output_msg(sformatf("%45s%11.3e\n", "Mass of water (kg)  = ",
+	output_msg(sformatf("%47s%-11.3e\n", "Mass of water (kg)  =  ",
 			   (double) mass_water_aq_x));
 	if (alkalinity_unknown == NULL)
 	{
-		output_msg(sformatf("%45s%11.3e\n",
-				   "Total alkalinity (eq/kg)  = ",
+		output_msg(sformatf("%47s%-11.3e\n",
+				   "Total alkalinity (eq/kg)  =  ",
 				   (double) (total_alkalinity / mass_water_aq_x)));
 	}
 	if (carbon_unknown == NULL && total_carbon)
 	{
-		output_msg(sformatf("%45s%11.3e\n",
-				   "Total carbon (mol/kg)  = ",
+		output_msg(sformatf("%47s%-11.3e\n",
+				   "Total carbon (mol/kg)  =  ",
 				   (double) (total_carbon / mass_water_aq_x)));
 	}
 	if (total_co2)
-		output_msg(sformatf("%45s%11.3e\n", "Total CO2 (mol/kg)  = ",
+		output_msg(sformatf("%47s%-11.3e\n", "Total CO2 (mol/kg)  =  ",
 			   (double) (total_co2 / mass_water_aq_x)));
 #ifdef NO_UTF8_ENCODING
-	output_msg(sformatf("%45s%6.2f\n", "Temperature (oC)  = ",
+	output_msg(sformatf("%47s%-6.2f\n", "Temperature (oC)  =  ",
 #else
-	output_msg(sformatf("%46s%6.2f\n", "Temperature (°C)  = ",
+#ifdef NPP
+	output_msg(sformatf("%47s%-6.2f\n", "Temperature (°C)  =  ",
+#else
+	output_msg(sformatf("%48s%-6.2f\n", "Temperature (°C)  =  ",
+#endif
 #endif
 			   (double) tc_x));
 
 	if (patm_x != 1.0)
 	{
 		/* only print if different than default */
-		output_msg(sformatf("%45s%5.2f\n", "Pressure (atm)  = ",
+		output_msg(sformatf("%47s%-5.2f\n", "Pressure (atm)  =  ",
 			(double) patm_x));
 	}
 
 	if (potV_x)
 	{
-		output_msg(sformatf("%45s%5.2f\n", "Electrical Potential (Volt)  = ",
+		output_msg(sformatf("%47s%-5.2f\n", "Electrical Potential (Volt)  =  ",
 			(double)potV_x));
 	}
 
-	output_msg(sformatf("%45s%11.3e\n", "Electrical balance (eq)  = ",
+	output_msg(sformatf("%47s%-11.3e\n", "Electrical balance (eq)  =  ",
 			   (double) cb_x));
-	output_msg(sformatf("%45s%6.2f\n",
-			   "Percent error, 100*(Cat-|An|)/(Cat+|An|)  = ",
+	output_msg(sformatf("%47s%-6.2f\n",
+			   "Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  ",
 			   (double) (100 * cb_x / total_ions_x)));
 	if (iterations == overall_iterations)
-		output_msg(sformatf("%45s%3d\n", "Iterations  = ", iterations));
+		output_msg(sformatf("%47s%-4d\n", "Iterations  =  ", iterations));
 	else
-		output_msg(sformatf("%45s%3d (%d overall)\n", "Iterations  = ", iterations, overall_iterations));
+		output_msg(sformatf("%47s%-4d (%d overall)\n", "Iterations  =   ", iterations, overall_iterations));
 	if (pitzer_model == TRUE || sit_model == TRUE)
 	{
 		if (always_full_pitzer == FALSE)
 		{
-			output_msg(sformatf("%45s%3d\n", "Gamma iterations  = ",
+			output_msg(sformatf("%47s%-4d\n", "Gamma iterations  =  ",
 				   gamma_iterations));
 		}
 		else
 		{
-			output_msg(sformatf("%45s%3d\n", "Gamma iterations  = ",
+			output_msg(sformatf("%47s%-4d\n", "Gamma iterations  =   ",
 				  iterations));
 		}
-		output_msg(sformatf("%45s%9.5f\n", "Osmotic coefficient  = ",
+		output_msg(sformatf("%47s%-9.5f\n", "Osmotic coefficient  =  ",
 				    (double) COSMOT));
-		if (print_density) output_msg(sformatf("%45s%9.5f\n", "Density of water  = ",
+		if (print_density) output_msg(sformatf("%47s%-9.5f\n", "Density of water  =  ",
 				   (double) DW0));
 	}
-	output_msg(sformatf("%45s%e\n", "Total H  = ", (double) total_h_x));
-	output_msg(sformatf("%45s%e\n", "Total O  = ", (double) total_o_x));
+	output_msg(sformatf("%47s%-e\n", "Total H  =  ", (double) total_h_x));
+	output_msg(sformatf("%47s%-e\n", "Total O  =  ", (double) total_o_x));
 	output_msg(sformatf("\n"));
 
 	return (OK);

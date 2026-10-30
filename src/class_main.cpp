@@ -1,3 +1,4 @@
+#include "PrRootRuntime.h"
 #ifndef NPP
 #ifdef DOS
 #include <windows.h>
@@ -35,6 +36,12 @@ main(int argc, char *argv[])
  */
 {
 
+  // Validate the process-wide opt-in interface before opening any inputs.
+  try {
+      if (phrq_pr::runtime().stable)
+          std::cerr << "PHREEQC PR root policy: stable_homogeneous; fixed-pressure GAS_PHASE only; mixture phase stability unverified.\n";
+  }
+  catch (const std::exception& e) { std::cerr << e.what() << "\n"; return 1; }
   // check for floating point exceptions on Linux
   // feenableexcept(FE_DIVBYZERO|FE_INVALID|FE_OVERFLOW|FE_UNDERFLOW);
 //#define WIN32_MEMORY_DEBUG

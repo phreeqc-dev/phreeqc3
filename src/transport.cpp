@@ -6001,7 +6001,9 @@ viscosity_0(LDBLE l_tc_x, LDBLE l_patm_x)
 /* ---------------------------------------------------------------------- */
 {
 
-	/* Huber et al., 2009, J. Phys. Chem. Ref. Data, Vol. 38, 101-125 */
+	/* Huber et al., 2009, J. Phys. Chem. Ref. Data, Vol. 38, 101-125: 
+	The equation for the viscosity of water for ?uid states up to 1173 K and 1000 MPa with
+      uncertainties from less than 1 to 7 percent depending on the state point.*/
 	if (l_tc_x != tc_x)
 	{
 		rho_0 = calc_rho_0(l_tc_x, l_patm_x);
@@ -6141,8 +6143,8 @@ viscosity(cxxSurface* surf_ptr)
 	LDBLE ratio_surf_aq = mass_water_surfaces_x / mass_water_aq_x;
 	for (i1 = 0; i1 < i1_last; i1++)
 	{
-		if (tc_x > 300)
-			goto highT;
+		//if (tc_x > 300)
+		//	goto highT;
 		Bc = Dc = Dw = l_Dw = m_plus = m_min = eq_plus = eq_min = eq_dw_plus = eq_dw_min = l_eq_dw_plus = l_eq_dw_min = V_an = m_an = 0;
 		if (surf_ptr)
 		{
@@ -6366,7 +6368,7 @@ viscosity(cxxSurface* surf_ptr)
 				viscos = t2;
 		}
 
-	highT:
+	//highT:
 		if (!surf_ptr)
 		{
 			// for calculating the fractional contribution of the species to the viscosity...
@@ -6377,9 +6379,10 @@ viscosity(cxxSurface* surf_ptr)
 				if (s_x[i]->type != AQ && s_x[i]->type > HPLUS)
 					continue;
 				if (s_x[i]->lm < -9)
-					continue;
-				if (tc_x > 300)
 					s_x[i]->dw_t_visc = 0;
+				//	continue;
+				//if (tc_x > 300)
+				//	s_x[i]->dw_t_visc = 0;
 				else if (s_x[i]->Jones_Dole[0] || s_x[i]->Jones_Dole[1] || s_x[i]->Jones_Dole[3])
 					s_x[i]->dw_t_visc /= t1;
 			}

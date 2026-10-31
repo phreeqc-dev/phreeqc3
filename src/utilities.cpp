@@ -174,7 +174,9 @@ calc_rho_0(LDBLE tc, LDBLE pa)
 			w_msg << "Fitting range for dielectric constant of pure water is 0-350 C.\n";
 			w_msg << "Fitting range for density along the saturation pressure line is 0-374 C,\n";
 			w_msg << "                         for higher pressures up to 1000 atm    0-300 C.\n";
-			w_msg << "Using temperature of 350 C for dielectric and density calculation.";
+			w_msg << "Using temperature of 350 C for dielectric and density calculation.\n";
+			w_msg << "This affects the calculated viscosity and specific conductance of the solution,\n";
+			w_msg << "  the molar volumes of the solutes, and the pressure dependence of the reactions.\n";
 			warning_msg(w_msg.str().c_str());
 			need_temp_msg++;
 		}

@@ -69,10 +69,10 @@ Initial solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.013e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.216e-09  
+                   Total alkalinity (eq/kg)  = 1.216e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  0.000e+00  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -116,17 +116,17 @@ Initial solution 1.
 
                                         pH  =  7.000      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  84318     
+       Specific Conductance (µS/cm,  25°C)  =  84280     
                            Density (g/cm³)  =  1.03606  
                                 Volume (L)  =  1.02160  
-                         Viscosity (mPa s)  =  0.97321  
+                         Viscosity (mPa s)  =  0.97316  
                          Activity of water  =  0.966  
                   Ionic strength (mol/kgw)  =  1.000e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.641e-08  
+                   Total alkalinity (eq/kg)  = 2.641e-08  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.643e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.246e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   10   (19 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -184,7 +184,7 @@ Surface 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	 -1.110e-16  Surface + diffuse layer charge, eq
+	 -4.441e-16  Surface + diffuse layer charge, eq
 	 -1.000e+00  Surface charge, eq
 	 -9.649e+00  sigma, C/m²
 	 -2.622e-01  psi, V
@@ -212,7 +212,7 @@ Su
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Su-               1.000e+00       1.000   1.000e+00       0.000
+	Su-               1.000e+00       1.000   1.000e+00      -0.000
 
 -----------------------------------------
 Beginning of batch-reaction calculations.
@@ -228,7 +228,7 @@ Using surface 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	  2.220e-15  Surface + diffuse layer charge, eq
+	  2.109e-15  Surface + diffuse layer charge, eq
 	 -1.000e+00  Surface charge, eq
 	 -9.649e+00  sigma, C/m²
 	 -2.622e-01  psi, V
@@ -269,17 +269,17 @@ Su
 
                                         pH  =  7.000        Charge balance
                                         pe  =  3.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  83837     
+       Specific Conductance (µS/cm,  25°C)  =  83798     
                            Density (g/cm³)  =  1.03606  
                                 Volume (L)  =  1.02454  
-                         Viscosity (mPa s)  =  0.97321  
+                         Viscosity (mPa s)  =  0.97316  
                          Activity of water  =  0.966  
                   Ionic strength (mol/kgw)  =  1.000e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.641e-08  
+                   Total alkalinity (eq/kg)  = 2.641e-08  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  7.459e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  9.740e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   0    (1 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -355,10 +355,10 @@ Using solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.013e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.216e-09  
+                   Total alkalinity (eq/kg)  = 1.216e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  0.000e+00  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -397,7 +397,7 @@ Using surface 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	 -1.110e-16  Surface + diffuse layer charge, eq
+	 -2.220e-16  Surface + diffuse layer charge, eq
 	 -1.000e+00  Surface charge, eq
 	 -9.649e+00  sigma, C/m²
 	 -2.622e-01  psi, V
@@ -438,17 +438,17 @@ Su
 
                                         pH  =  7.000        Charge balance
                                         pe  =  5.300        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  83837     
+       Specific Conductance (µS/cm,  25°C)  =  83798     
                            Density (g/cm³)  =  1.03606  
                                 Volume (L)  =  1.02454  
-                         Viscosity (mPa s)  =  0.97321  
+                         Viscosity (mPa s)  =  0.97316  
                          Activity of water  =  0.966  
                   Ionic strength (mol/kgw)  =  1.000e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.641e-08  
+                   Total alkalinity (eq/kg)  = 2.641e-08  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.643e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.246e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   0    (1 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -496,17 +496,17 @@ Using solution 2.
 
                                         pH  =  7.000        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  84318     
+       Specific Conductance (µS/cm,  25°C)  =  84280     
                            Density (g/cm³)  =  1.03606  
                                 Volume (L)  =  1.02160  
-                         Viscosity (mPa s)  =  0.97321  
+                         Viscosity (mPa s)  =  0.97316  
                          Activity of water  =  0.966  
                   Ionic strength (mol/kgw)  =  1.000e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.641e-08  
+                   Total alkalinity (eq/kg)  = 2.641e-08  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.643e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.246e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   0    (1 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -554,7 +554,7 @@ Using surface 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	 -7.072e-14  Surface + diffuse layer charge, eq
+	 -6.681e-13  Surface + diffuse layer charge, eq
 	 -1.000e+00  Surface charge, eq
 	 -9.649e+00  sigma, C/m²
 	 -5.238e-01  psi, V
@@ -594,7 +594,7 @@ Su
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.328        Charge balance
-                                        pe  =  8.173        Adjusted to redox equilibrium
+                                        pe  =  -2.818       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  2         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00601  
@@ -602,11 +602,11 @@ Su
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.788e-05  
                         Mass of water (kg)  =  5.699e-01  
-                  Total alkalinity (eq/kg)  =  2.169e-05  
+                   Total alkalinity (eq/kg)  = 2.169e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.111e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                               Iterations  =   0    (30 overall)
+                   Electrical balance (eq)  =  -2.221e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   0    (37 overall)
                                    Total H  =  6.327141e+01
                                    Total O  =  3.163571e+01
 
@@ -621,21 +621,21 @@ Su
 Cl            1.619e-05
    Cl-             1.619e-05   1.607e-05    -4.791    -4.794    -0.003     18.05
    HCl             2.602e-15   2.602e-15   -14.585   -14.585     0.000     20.36
-H(0)          1.408e-38
-   H2              7.040e-39   7.040e-39   -38.152   -38.152     0.000     14.99
+H(0)          1.354e-16
+   H2              6.769e-17   6.769e-17   -16.170   -16.170     0.000     14.99
 Na            3.788e-05
    Na+             3.788e-05   3.761e-05    -4.422    -4.425    -0.003     -1.51
-O(0)          1.751e-16
-   O2              8.755e-17   8.755e-17   -16.058   -16.058     0.000     30.40
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -60.024   -60.024     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  H2(g)           -35.05    -38.15   -3.10  H2
+  H2(g)           -13.07    -16.17   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Halite          -10.79     -9.22    1.57  NaCl
-  O2(g)           -13.17    -16.06   -2.89  O2
+  O2(g)           -57.13    -60.02   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -647,8 +647,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 4.
 ------------------------------------
-
--------------------------------
-End of Run after 0.019 Seconds.
--------------------------------
 

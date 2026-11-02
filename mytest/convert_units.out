@@ -69,20 +69,20 @@ Initial solution 1.
 ----------------------------------User print-----------------------------------
 
 N(5), mol/L:         1.0000e+01 
-N(5), mol/kgs:       9.7122e+00 
-N(5), mol/kgw:       1.0345e+00 
+N(5), mol/kgs:       9.7125e+00 
+N(5), mol/kgw:       1.0346e+00 
 Mass H2O per kgs:    9.3880e-01 
 Mass H2O:            1.0000e-01 
 Rho:                 1.0296e+00 
-Volume, L:           1.0345e-01 
+Volume, L:           1.0346e-01 
 Kgs:                 1.0652e-01 
 Kgs, summed:         1.0652e-01 
 kgw/kgs:             9.3880e-01 
 mol/kgs:             9.3880e+00 
-L/kgs:               9.6662e+00 
-correct mol/kgs:     9.7122e-01 
-correct mol/kgw:     1.0345e+00 
-correct kgw/L:       9.6662e-01 
+L/kgs:               9.6658e+00 
+correct mol/kgs:     9.7125e-01 
+correct mol/kgw:     1.0346e+00 
+correct kgw/L:       9.6658e-01 
 
 -----------------------------Solution composition------------------------------
 
@@ -94,20 +94,20 @@ correct kgw/L:       9.6662e-01
 
                                         pH  =  0.115        Charge balance
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  322204    
-                           Density (g/cm³)  =  1.02964   (Iterated) 
-                                Volume (L)  =  0.10345  
-                         Viscosity (mPa s)  =  0.92116  
+       Specific Conductance (µS/cm,  25°C)  =  323514    
+                           Density (g/cm³)  =  1.02960   (Iterated) 
+                                Volume (L)  =  0.10346  
+                         Viscosity (mPa s)  =  0.92046  
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  1.035e+00  
                         Mass of water (kg)  =  1.000e-01  
-                  Total alkalinity (eq/kg)  =  -1.035e+00 
+                   Total alkalinity (eq/kg)  = -1.035e+00 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.194e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   9    (54 overall)
                                    Total H  =  1.120470e+01
-                                   Total O  =  5.860981e+00
+                                   Total O  =  5.860994e+00
 
 ----------------------------Distribution of species----------------------------
 
@@ -118,9 +118,9 @@ correct kgw/L:       9.6662e-01
    OH-             2.206e-14   1.272e-14   -13.656   -13.896    -0.239     -2.05
    H2O             5.551e+01   9.648e-01     1.744    -0.016     0.000     18.07
 H(0)          6.501e-12
-   H2              3.250e-12   4.174e-12   -11.488   -11.379     0.109     14.99
+   H2              3.251e-12   4.174e-12   -11.488   -11.379     0.109     14.99
 N(5)          1.035e+00
-   NO3-            1.035e+00   5.697e-01     0.015    -0.244    -0.259     30.51
+   NO3-            1.035e+00   5.697e-01     0.015    -0.244    -0.259     30.55
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -69.738   -69.635     0.103     30.40
 
@@ -142,8 +142,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.015 Seconds.
--------------------------------
 

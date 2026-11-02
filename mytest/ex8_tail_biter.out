@@ -103,17 +103,17 @@ WARNING: USER_PUNCH: Headings count does not match number of calls to PUNCH.
 
                                         pH  =  8.000      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  9916      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9914      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.000e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.326e-06  
+                   Total alkalinity (eq/kg)  = 1.326e-06  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  6.944e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.703e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580622e+01
@@ -129,7 +129,7 @@ WARNING: USER_PUNCH: Headings count does not match number of calls to PUNCH.
 H(0)          1.382e-27
    H2              6.910e-28   7.079e-28   -27.161   -27.150     0.011     14.99
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            1.000e-01
    Na+             1.000e-01   7.851e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          1.681e-38
@@ -196,17 +196,17 @@ Initial solution 2.
 
                                         pH  =  8.000      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  9913      
-                           Density (g/cm³)  =  1.00266  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9912      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00584  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.001e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.447e-05  
+                   Total alkalinity (eq/kg)  = 1.447e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  7.200e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.945e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580623e+01
@@ -222,7 +222,7 @@ Initial solution 2.
 H(0)          1.382e-27
    H2              6.910e-28   7.079e-28   -27.161   -27.150     0.011     14.99
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.533e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.533e-02    -1.000    -1.123    -0.123     29.90
 Na            9.981e-02
    Na+             9.981e-02   7.836e-02    -1.001    -1.106    -0.105     -1.09
 O(0)          1.681e-38
@@ -355,18 +355,18 @@ Hfo_w
 
                                         pH  =  5.000        Charge balance
                                         pe  =  15.093       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9915      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9913      
+                           Density (g/cm³)  =  1.00263  
+                                Volume (L)  =  1.00584  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.994e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.211e-05 
+                   Total alkalinity (eq/kg)  = -1.211e-05 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.123e-04 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.06 
-                                Iterations  =  17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.06 
+                                Iterations  =  16  
                                    Total H  =  1.110122e+02
                                    Total O  =  5.580609e+01
 
@@ -381,14 +381,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -43.347   -43.337     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -52.660   -52.788    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -57.042   -57.032     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -52.660   -52.788    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -57.042   -57.032     0.010     30.46
 N(0)          1.588e-06
    N2              7.940e-07   8.125e-07    -6.100    -6.090     0.010     29.29
 N(3)          2.426e-13
    NO2-            2.426e-13   1.828e-13   -12.615   -12.738    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.535e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.535e-02    -1.000    -1.123    -0.123     29.90
 Na            9.987e-02
    Na+             9.987e-02   7.841e-02    -1.001    -1.106    -0.105     -1.09
 O(0)          3.970e-06
@@ -492,17 +492,17 @@ Hfo_w
 
                                         pH  =  5.250        Charge balance
                                         pe  =  14.808       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9914      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9912      
+                           Density (g/cm³)  =  1.00263  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.995e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -6.811e-06 
+                   Total alkalinity (eq/kg)  = -6.811e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -9.667e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  15  
                                    Total H  =  1.110122e+02
                                    Total O  =  5.580611e+01
@@ -518,14 +518,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -43.276   -43.265     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -52.874   -53.002    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -57.007   -56.997     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -52.874   -53.002    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -57.007   -56.997     0.010     30.46
 N(0)          1.143e-06
    N2              5.714e-07   5.847e-07    -6.243    -6.233     0.010     29.29
 N(3)          2.859e-13
    NO2-            2.859e-13   2.154e-13   -12.544   -12.667    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.535e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.535e-02    -1.000    -1.123    -0.123     29.90
 Na            9.990e-02
    Na+             9.990e-02   7.843e-02    -1.000    -1.106    -0.105     -1.09
 O(0)          2.857e-06
@@ -629,17 +629,17 @@ Hfo_w
 
                                         pH  =  5.500        Charge balance
                                         pe  =  14.522       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9913      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9912      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.996e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.827e-06 
+                   Total alkalinity (eq/kg)  = -3.827e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -8.214e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.04 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.04 
                                 Iterations  =  15  
                                    Total H  =  1.110123e+02
                                    Total O  =  5.580613e+01
@@ -655,14 +655,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -43.204   -43.194     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -53.089   -53.217    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.971   -56.961     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -53.089   -53.217    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.971   -56.961     0.010     30.46
 N(0)          8.225e-07
    N2              4.112e-07   4.208e-07    -6.386    -6.376     0.010     29.29
 N(3)          3.371e-13
    NO2-            3.371e-13   2.540e-13   -12.472   -12.595    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.991e-02
    Na+             9.991e-02   7.844e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          2.056e-06
@@ -766,18 +766,18 @@ Hfo_w
 
                                         pH  =  5.750        Charge balance
                                         pe  =  14.236       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9914      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9912      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.997e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.147e-06 
+                   Total alkalinity (eq/kg)  = -2.147e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -6.888e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
-                                Iterations  =  16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
+                                Iterations  =  15  
                                    Total H  =  1.110123e+02
                                    Total O  =  5.580615e+01
 
@@ -792,14 +792,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -43.133   -43.122     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -53.303   -53.431    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.935   -56.925     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -53.303   -53.431    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.935   -56.925     0.010     30.46
 N(0)          5.919e-07
    N2              2.960e-07   3.029e-07    -6.529    -6.519     0.010     29.29
 N(3)          3.973e-13
    NO2-            3.973e-13   2.994e-13   -12.401   -12.524    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.993e-02
    Na+             9.993e-02   7.846e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          1.480e-06
@@ -903,17 +903,17 @@ Hfo_w
 
                                         pH  =  6.000        Charge balance
                                         pe  =  13.950       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9914      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9912      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.997e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.198e-06 
+                   Total alkalinity (eq/kg)  = -1.198e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -5.700e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  14  
                                    Total H  =  1.110123e+02
                                    Total O  =  5.580616e+01
@@ -929,14 +929,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -43.061   -43.051     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -53.517   -53.645    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.899   -56.889     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -53.517   -53.645    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.899   -56.889     0.010     30.46
 N(0)          4.260e-07
    N2              2.130e-07   2.180e-07    -6.672    -6.662     0.010     29.29
 N(3)          4.683e-13
    NO2-            4.683e-13   3.529e-13   -12.329   -12.452    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.994e-02
    Na+             9.994e-02   7.847e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          1.065e-06
@@ -1040,17 +1040,17 @@ Hfo_w
 
                                         pH  =  6.250        Charge balance
                                         pe  =  13.665       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9914      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9912      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.998e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -6.577e-07 
+                   Total alkalinity (eq/kg)  = -6.577e-07 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -4.647e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.02 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.02 
                                 Iterations  =  14  
                                    Total H  =  1.110123e+02
                                    Total O  =  5.580617e+01
@@ -1066,14 +1066,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.990   -42.979     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -53.731   -53.859    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.864   -56.854     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -53.731   -53.859    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.864   -56.854     0.010     30.46
 N(0)          3.066e-07
    N2              1.533e-07   1.569e-07    -6.814    -6.804     0.010     29.29
 N(3)          5.521e-13
    NO2-            5.521e-13   4.159e-13   -12.258   -12.381    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.995e-02
    Na+             9.995e-02   7.847e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          7.665e-07
@@ -1177,17 +1177,17 @@ Hfo_w
 
                                         pH  =  6.500        Charge balance
                                         pe  =  13.379       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9914      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9913      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.998e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.412e-07 
+                   Total alkalinity (eq/kg)  = -3.412e-07 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.722e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.02 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.02 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580618e+01
@@ -1203,14 +1203,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.919   -42.908     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -53.946   -54.074    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.828   -56.818     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -53.946   -54.074    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.828   -56.818     0.010     30.46
 N(0)          2.206e-07
    N2              1.103e-07   1.129e-07    -6.957    -6.947     0.010     29.29
 N(3)          6.508e-13
    NO2-            6.508e-13   4.903e-13   -12.187   -12.310    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.996e-02
    Na+             9.996e-02   7.848e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          5.516e-07
@@ -1314,18 +1314,18 @@ Hfo_w
 
                                         pH  =  6.750        Charge balance
                                         pe  =  13.093       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9914      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9913      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.999e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.409e-07 
+                   Total alkalinity (eq/kg)  = -1.409e-07 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.911e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.01 
-                                Iterations  =  15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.01 
+                                Iterations  =  16  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580619e+01
 
@@ -1340,14 +1340,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.847   -42.837     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -54.160   -54.288    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.792   -56.782     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -54.160   -54.288    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.792   -56.782     0.010     30.46
 N(0)          1.588e-07
    N2              7.940e-08   8.125e-08    -7.100    -7.090     0.010     29.29
 N(3)          7.671e-13
    NO2-            7.671e-13   5.779e-13   -12.115   -12.238    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.997e-02
    Na+             9.997e-02   7.849e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          3.970e-07
@@ -1451,17 +1451,17 @@ Hfo_w
 
                                         pH  =  7.000        Charge balance
                                         pe  =  12.808       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9915      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9913      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.999e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.134e-08  
+                   Total alkalinity (eq/kg)  = 1.134e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.201e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.01 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.01 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580619e+01
@@ -1477,14 +1477,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.776   -42.765     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -54.374   -54.502    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.757   -56.747     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -54.374   -54.502    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.757   -56.747     0.010     30.46
 N(0)          1.143e-07
    N2              5.714e-08   5.847e-08    -7.243    -7.233     0.010     29.29
 N(3)          9.042e-13
    NO2-            9.042e-13   6.813e-13   -12.044   -12.167    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.998e-02
    Na+             9.998e-02   7.849e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          2.857e-07
@@ -1588,17 +1588,17 @@ Hfo_w
 
                                         pH  =  7.250        Charge balance
                                         pe  =  12.522       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9915      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9913      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  9.999e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.674e-07  
+                   Total alkalinity (eq/kg)  = 1.674e-07  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.575e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.01 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.01 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580620e+01
@@ -1614,14 +1614,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.704   -42.694     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -54.589   -54.717    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.721   -56.711     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -54.589   -54.717    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.721   -56.711     0.010     30.46
 N(0)          8.225e-08
    N2              4.112e-08   4.208e-08    -7.386    -7.376     0.010     29.29
 N(3)          1.066e-12
    NO2-            1.066e-12   8.031e-13   -11.972   -12.095    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.998e-02
    Na+             9.998e-02   7.850e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          2.056e-07
@@ -1725,17 +1725,17 @@ Hfo_w
 
                                         pH  =  7.500        Charge balance
                                         pe  =  12.236       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9915      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9914      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.000e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.806e-07  
+                   Total alkalinity (eq/kg)  = 3.806e-07  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.013e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.01 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.01 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580621e+01
@@ -1751,14 +1751,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.633   -42.622     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -54.803   -54.931    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.685   -56.675     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -54.803   -54.931    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.685   -56.675     0.010     30.46
 N(0)          5.919e-08
    N2              2.960e-08   3.028e-08    -7.529    -7.519     0.010     29.29
 N(3)          1.256e-12
    NO2-            1.256e-12   9.466e-13   -11.901   -12.024    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            9.999e-02
    Na+             9.999e-02   7.850e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          1.480e-07
@@ -1862,17 +1862,17 @@ Hfo_w
 
                                         pH  =  7.750        Charge balance
                                         pe  =  11.950       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9915      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9914      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.000e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.233e-07  
+                   Total alkalinity (eq/kg)  = 7.233e-07  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -4.962e-06 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580621e+01
@@ -1888,14 +1888,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.561   -42.551     0.010     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -55.017   -55.145    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.649   -56.639     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -55.017   -55.145    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.649   -56.639     0.010     30.46
 N(0)          4.260e-08
    N2              2.130e-08   2.180e-08    -7.672    -7.662     0.010     29.29
 N(3)          1.481e-12
    NO2-            1.481e-12   1.116e-12   -11.829   -11.952    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            1.000e-01
    Na+             1.000e-01   7.851e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          1.065e-07
@@ -1999,17 +1999,17 @@ Hfo_w
 
                                         pH  =  8.000        Charge balance
                                         pe  =  11.665       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9916      
-                           Density (g/cm³)  =  1.00265  
-                                Volume (L)  =  1.00583  
-                         Viscosity (mPa s)  =  0.89480  
+       Specific Conductance (µS/cm,  25°C)  =  9914      
+                           Density (g/cm³)  =  1.00264  
+                                Volume (L)  =  1.00585  
+                         Viscosity (mPa s)  =  0.89548  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.000e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.312e-06  
+                   Total alkalinity (eq/kg)  = 1.312e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.787e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.580622e+01
@@ -2025,14 +2025,14 @@ Hfo_w
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.490   -42.479     0.011     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -55.231   -55.359    -0.128     18.15
-   NH3             0.000e+00   0.000e+00   -56.614   -56.604     0.010     24.42
+   NH4+            0.000e+00   0.000e+00   -55.231   -55.359    -0.128     18.16
+   NH3             0.000e+00   0.000e+00   -56.614   -56.604     0.010     30.46
 N(0)          3.066e-08
    N2              1.533e-08   1.569e-08    -7.814    -7.804     0.010     29.29
 N(3)          1.746e-12
    NO2-            1.746e-12   1.315e-12   -11.758   -11.881    -0.123     25.24
 N(5)          1.000e-01
-   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.77
+   NO3-            1.000e-01   7.534e-02    -1.000    -1.123    -0.123     29.90
 Na            1.000e-01
    Na+             1.000e-01   7.851e-02    -1.000    -1.105    -0.105     -1.09
 O(0)          7.665e-08
@@ -2075,8 +2075,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 19.
 -------------------------------------
-
--------------------------------
-End of Run after 0.045 Seconds.
--------------------------------
 

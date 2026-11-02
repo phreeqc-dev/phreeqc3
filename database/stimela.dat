@@ -4,7 +4,7 @@
 #  Stimela is focussed on modelling for water and waste water treatment
 #  Further info on using PHREEQC for water treatment, and PHREEQC in Excel can be found on https://ac4e.omnisys.nl/
 
-#  list of modifications: 
+#  list of modifications:
 #  - added Amm (with master species AmmH+) as used in amm.dat for redox-uncoupled NH3 (for using Tony Appelo's input files)
 #  - added [N-3] (with master species [N-3]H4+) as alternative for redox-uncoupled Amm (for readable chemical formula)
 #  - added [Fe+2], [Mn+2] and [N+3] (with master species [Fe+2]+2 , [Mn+2]+2 and [N+3]O2-) for redox-uncoupled Fe+2, Mn+2 and NO2-
@@ -12,7 +12,7 @@
 #  - added solid Vaterite (CaCO3) (included in Standard Methods 2330 (2010))
 #  - unchanged analytic for solid Calcite (phreeqc 3.7.0. introduced modified version, deviated from Standard Methods 2330 - 2016)
 #  - modified values for element_gfw according to Abridged Standard Atomic Weights from TSAW 2013 (CIAAW/IUPAC) (https://www.ciaaw.org/abridged-atomic-weights.htm)
-#  end of list of modifications 
+#  end of list of modifications
 
 # File 1 = C:\GitPrograms\phreeqc3-1\database\phreeqc.dat, 22/05/2024  19:38, 1948 lines, 55817 bytes, md5=78b3659799b73ddca128328b6ee7533b
 # Created 22 May 2024 19:55:37
@@ -29,7 +29,7 @@ SOLUTION_MASTER_SPECIES
 H		H+		-1	H		1.0080		1.008			1,008
 H(0)		H2		0	H
 H(1)		H+		-1	0
-E		e-		0	0.0		0
+E		e-		1	0.0		0
 O		H2O		0	O		15.999		# 16			15,999
 O(0)		O2		0	O
 O(-2)		H2O		0	0
@@ -60,8 +60,8 @@ N(+5)		NO3-		0	N
 N(+3)		NO2-		0	N
 N(0)		N2		0	N
 N(-3)		NH4+		0	N				# 14.0067
-# begin modification stimela.dat 
-# uncommented Amm definitions 
+# begin modification stimela.dat
+# uncommented Amm definitions
 Amm		AmmH+		0	AmmH		17.031		#			17,031
 # end modification stimela.dat
 B		H3BO3		0	B		10.81
@@ -81,17 +81,17 @@ Oxg		Oxg		0	Oxg		31.998		# 32			O2  gas	31,998
 Mtg		Mtg		0	Mtg		16.043		# 16.032		CH4 gas	16,043
 Sg		H2Sg		0	H2Sg		34.076		# 34.064		H2S gas	34,076
 Ntg		Ntg		0	Ntg		28.014		# 28.0134		N2  gas	28,014
-# begin modification stimela.dat 
+# begin modification stimela.dat
 # added redox-uncoupled (inert) elements: [Fe+2], [Mn+2] and [N+3]
 [Fe+2]		[Fe+2]+2	0	Fe		55.845
 [Mn+2]		[Mn+2]+2	0	Mn		54.938
 [N+3]		[N+3]O2-	0	N		14.007
 # redox_uncoupled elements Amm (NH3), Mtg (CH4) and Sg (H2S) are not readable chemical formula
 # replaced with uniform notation for redox-uncoupled (inert) elements: [N-3], [C-4] and [S-2]
-[N-3]		[N-3]H4+	0	NH4		14.007		# Amm = [N-3]H3 
+[N-3]		[N-3]H4+	0	NH4		14.007		# Amm = [N-3]H3
 [C-4]		[C-4]H4		0	CH4		12.011		# Mtg = [C-4]H4
 [S-2]		H2[S-2]		0	H2S		32.06		# Sg  = [S-2]
-# uniform notation omitted for Oxg (O2), Hdg (H2) and Ntg (N2), to limit modifications from phreeqc.dat   
+# uniform notation omitted for Oxg (O2), Hdg (H2) and Ntg (N2), to limit modifications from phreeqc.dat
 # end modification stimela.dat
 SOLUTION_SPECIES
 H+ = H+
@@ -186,8 +186,8 @@ NO3- = NO3-
 	-Vm 6.32 6.78 0 -3.06 0.346 0 0.93 0 -0.012 1
 	-viscosity 8.37e-2 -0.458 1.54e-2 0.34 1.79e-2 5.02e-2 0.7381
 	-dw 1.9e-9 104 1.11
-# begin modification stimela.dat 
-# uncommented Amm definitions 
+# begin modification stimela.dat
+# uncommented Amm definitions
 AmmH+ = AmmH+
 	-gamma 2.5 0
 	-Vm 5.35 2.345 3.72 -2.88 1.55 2.5 -4.54 217 2.344e-2 0.569
@@ -259,7 +259,7 @@ Ntg = Ntg # N2
 H2Sg = H2Sg # H2S
 	-Vm 1.39 28.3 0 -7.22 -0.59 # Hnedkovsky et al., 1996, JCT 28, 125
 	-dw 2.1e-9
-# begin modification stimela.dat 
+# begin modification stimela.dat
 [C-4]H4 = [C-4]H4 # CH4
 	-Vm 9.01 -1.11 0 -1.85 -1.5 # Hnedkovsky et al., 1996, JCT 28, 125
 	-dw 1.85e-9
@@ -351,7 +351,7 @@ H2Sg = HSg- + H+
 	-analytical_expression 10.227 -0.01384 -2200
 	-Vm 36.41 -71.95 0 0 2.58
 	-dw 2.1e-9
-# begin modification stimela.dat 
+# begin modification stimela.dat
 H2[S-2] = H[S-2]- + H+
 	-log_k -6.994; -delta_h 5.3 kcal
 	-analytical_expression 11.17 -0.02386 -3279
@@ -381,8 +381,8 @@ NO3- + 10 H+ + 8 e- = NH4+ + 3 H2O
 	-Vm 5.35 2.345 3.72 -2.88 1.55 2.5 -4.54 217 2.344e-2 0.569
 	-viscosity 9.9e-2 -0.159 1.36e-2 6.51e-3 3.21e-2 0.972
 	-dw 1.98e-9 203 1.47 2.644 6.81e-2
-# begin modification stimela.dat 
-# uncommented Amm definitions 
+# begin modification stimela.dat
+# uncommented Amm definitions
 AmmH+ = Amm + H+
 	-log_k -9.252
 	-delta_h 12.48 kcal
@@ -390,7 +390,7 @@ AmmH+ = Amm + H+
 	-Vm 6.69 2.8 3.58 -2.88 1.43
 	-viscosity 0.08 0 0 7.82e-3 -0.134 -0.986
 	-dw 2.28e-9
-# definition [N-3]H3 
+# definition [N-3]H3
 [N-3]H4+ = [N-3]H3 + H+
 	-log_k -9.252
 	-delta_h 12.48 kcal
@@ -406,15 +406,15 @@ NH4+ = NH3 + H+
 	-Vm 6.69 2.8 3.58 -2.88 1.43
 	-viscosity 0.08 0 0 7.82e-3 -0.134 -0.986
 	-dw 2.28e-9
-# begin modification stimela.dat 
-# uncommented Amm definitions 
+# begin modification stimela.dat
+# uncommented Amm definitions
 AmmH+ + SO4-2 = AmmHSO4-
 	-gamma 2.08 -0.0416
 	-log_k	1.211; -delta_h 8.56 kJ
 	-Vm -8.78 0 -36.09 0 -8.60 0 87.62 0 -0.3123 0.1172
 	-viscosity 0 0.116 -8.6e-3 0.159 -9.3e-3 0.522 0.627
 	-dw 0.9e-9 100 2.1 2 0
-# definition [N-3]H4SO4- 
+# definition [N-3]H4SO4-
 [N-3]H4+ + SO4-2 = [N-3]H4SO4-
 	-gamma 2.08 -0.0416
 	-log_k	1.211; -delta_h 8.56 kJ
@@ -1060,7 +1060,7 @@ Calcite
 	CaCO3 = CO3-2 + Ca+2
 	-log_k -8.48
 	-delta_h -2.297 kcal
-# begin modification stimela.dat 
+# begin modification stimela.dat
 # analytic not modified, kept as in version 3.6.2, which is in accordance to Standard Methods 2330 (2016)
 #	-analytic 17.118 -0.046528 -3496 # 0 - 250°C, Ellis, 1959, Plummer and Busenberg, 1982
 	-analytic  -171.9065  -0.077993  2839.319  71.595  # changed in version 3.7.0, March 10 2021
@@ -1072,8 +1072,8 @@ Aragonite
 	-delta_h -2.589 kcal
 	-analytic -171.9773 -0.077993 2903.293 71.595
 	-Vm 34.04
-# begin modification stimela.dat 
-# adding Vaterite from Aragonite according Standard Methods 2330 (2010) 
+# begin modification stimela.dat
+# adding Vaterite from Aragonite according Standard Methods 2330 (2010)
 Vaterite
 	CaCO3 = CO3-2 + Ca+2
 	-log_k  -8.336  # overruled by -analytic
@@ -1357,14 +1357,14 @@ CH4(g)
 	-log_k -2.8
 	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100°C
 	-T_c 190.6; -P_c 45.4; -Omega 0.008
-# begin modification stimela.dat 
-# uncommented Amm definitions 
+# begin modification stimela.dat
+# uncommented Amm definitions
 Amm(g)
 	Amm = Amm
 	-log_k 1.7966
 	-analytic -18.758 3.367e-4 2.5113e3 4.8619 39.192
 	-T_c 405.6; -P_c 111.3; -Omega 0.25
-# end modification stimela.dat 
+# end modification stimela.dat
 NH3(g)
 	NH3 = NH3
 	-log_k 1.7966
@@ -1394,7 +1394,7 @@ H2Sg(g)
 	-delta_h 9.1
 	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
 	-T_c 373.2; -P_c 88.2; -Omega 0.1
-# begin modification stimela.dat 
+# begin modification stimela.dat
 # uniform notation of elements in redox-uncoupled gases
 [N-3]H3(g)
 	[N-3]H3 = [N-3]H3
@@ -1479,8 +1479,8 @@ H2O(g)  N2(g)            0.49
 H2O(g)  Ntg(g)           0.49
 H2O(g)  Ethane(g)        0.49
 H2O(g)  Propane(g)       0.55
-# begin modification stimela.dat 
-# define for added redox-uncoupled gases 
+# begin modification stimela.dat
+# define for added redox-uncoupled gases
 H2O(g)  H2[S-2](g)       0.19
 H2O(g)  [C-4]H4(g)       0.49
 # end modification stimela.dat
@@ -1510,13 +1510,13 @@ EXCHANGE_SPECIES
 #	  -log_k  1.0
 #	  -gamma  9.0	0
 
-# begin modification stimela.dat 
-# uncommented Amm definitions 
+# begin modification stimela.dat
+# uncommented Amm definitions
 	AmmH+ + X- = AmmHX
 	-log_k 0.6
 	-gamma 2.5 0
 	-delta_h -2.4 # Laudelout et al., 1968
-# definition [N-3]H4X 
+# definition [N-3]H4X
 	-log_k 0.6
 	-gamma 2.5 0
 	-delta_h -2.4 # Laudelout et al., 1968

@@ -203,7 +203,7 @@ Using pure phase assemblage 20.	Pp_Assemblage defined in simulation 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Calcite           0.00    -8.45     -8.45    1.178e-01   1.097e-01  -8.074e-03
-Dolomite         -0.00   -17.08    -17.08    1.568e+00   1.567e+00  -9.864e-04
+Dolomite          0.00   -17.08    -17.08    1.568e+00   1.567e+00  -9.864e-04
 
 ------------------------------Surface composition------------------------------
 
@@ -258,19 +258,19 @@ X                5.000e-01 mol
 
                                         pH  =  7.714        Charge balance
                                         pe  =  12.887       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  2554      
+       Specific Conductance (µS/cm,  25°C)  =  2552      
                            Density (g/cm³)  =  0.99866  
                                 Volume (L)  =  1.00347  
-                         Viscosity (mPa s)  =  0.90088  
+                         Viscosity (mPa s)  =  0.90247  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.908e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.904e-02  
+                   Total alkalinity (eq/kg)  = 1.904e-02  
                         Total CO2 (mol/kg)  =  1.965e-02  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  1.10 
                    Electrical balance (eq)  =  1.208e-02  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  21.17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 21.17 
                                 Iterations  =  17  
                                    Total H  =  1.110305e+02
                                    Total O  =  5.556545e+01
@@ -350,7 +350,7 @@ S(6)          2.372e-04
   Calcite           0.00     -8.45   -8.45  CaCO3
   CH4(g)         -140.78   -143.58   -2.80  CH4
   CO2(g)           -1.69     -3.16   -1.47  CO2
-  Dolomite         -0.00    -17.08  -17.08  CaMg(CO3)2
+  Dolomite          0.00    -17.08  -17.08  CaMg(CO3)2
   Epsomite         -6.46     -8.20   -1.74  MgSO4:7H2O
   Gypsum           -3.46     -8.01   -4.55  CaSO4:2H2O
   H2(g)           -41.25    -44.35   -3.10  H2

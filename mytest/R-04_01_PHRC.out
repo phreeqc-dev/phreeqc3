@@ -74,10 +74,10 @@ Initial solution 1.
                          Activity of water  =  0.967  
                   Ionic strength (mol/kgw)  =  1.000e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  0.000e+00  
+                   Total alkalinity (eq/kg)  = 0.000e+00  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.835e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.767e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  10  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.93623  
@@ -97,7 +97,7 @@ Initial solution 1.
 Cl(-1)        1.000e+00
    Cl-             1.000e+00   6.571e-01    -0.000    -0.182    -0.182     (0)  
 Na(1)         1.000e+00
-   Na+             1.000e+00   6.571e-01     0.000    -0.182    -0.182     (0)  
+   Na+             1.000e+00   6.571e-01    -0.000    -0.182    -0.182     (0)  
 O(0)          1.520e-31
    O2              7.598e-32   7.598e-32   -31.119   -31.119     0.000     (0)  
 
@@ -126,7 +126,7 @@ Using pure phase assemblage 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-NpO2(OH)_fresh(am)   -0.00     5.30      5.30    1.000e+01   1.000e+01  -2.763e-04
+NpO2(OH)_fresh(am)    0.00     5.30      5.30    1.000e+01   1.000e+01  -2.763e-04
 pH_Fix           -9.00    -9.00      0.00
 	 HCl                is reactant       1.000e+01   1.000e+01  -2.748e-04
 
@@ -145,10 +145,10 @@ pH_Fix           -9.00    -9.00      0.00
                          Activity of water  =  0.967  
                   Ionic strength (mol/kgw)  =  1.000e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  0.000e+00  
+                   Total alkalinity (eq/kg)  = 0.000e+00  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  5.176e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  13  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.93626  
@@ -184,7 +184,7 @@ O(0)          1.520e-31
 
   H2O(g)           40.03     -0.01  -40.05  H2O
   Halite           -1.95     -0.36    1.59  NaCl
-  NpO2(OH)_fresh(am)  -0.00      5.30    5.30  NpO2(OH)
+  NpO2(OH)_fresh(am)   0.00      5.30    5.30  NpO2(OH)
   pH_Fix           -9.00     -9.00    0.00  H+
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -197,8 +197,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.009 Seconds.
--------------------------------
 

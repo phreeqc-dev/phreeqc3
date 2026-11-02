@@ -73,15 +73,15 @@ Initial solution 1.	Solution with calcite and FeS2
        Specific Conductance (µS/cm,  20°C)  =  1232      
                            Density (g/cm³)  =  0.99870  
                                 Volume (L)  =  1.00189  
-                         Viscosity (mPa s)  =  1.00609  
+                         Viscosity (mPa s)  =  1.00612  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.819e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.986e-04  
+                   Total alkalinity (eq/kg)  = 1.986e-04  
                         Total CO2 (mol/kg)  =  2.373e-04  
                           Temperature (°C)  =  20.00 
-                   Electrical balance (eq)  =  -5.132e-18 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  6.788e-18  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.110126e+02
                                    Total O  =  5.550689e+01
@@ -222,7 +222,7 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Calcite          -0.70    -9.11     -8.41    1.500e-02   1.494e-02  -6.382e-05
 Goethite          3.00     2.18     -0.82    2.000e-02   2.000e-02  -1.188e-06
-Pyrite            0.00   -18.62    -18.62    5.000e-02   5.000e-02   8.525e-07
+Pyrite           -0.00   -18.62    -18.62    5.000e-02   5.000e-02   8.525e-07
 
 -----------------------------Solution composition------------------------------
 
@@ -242,16 +242,16 @@ Pyrite            0.00   -18.62    -18.62    5.000e-02   5.000e-02   8.525e-07
        Specific Conductance (µS/cm,  20°C)  =  1240      
                            Density (g/cm³)  =  0.99871  
                                 Volume (L)  =  1.00189  
-                         Viscosity (mPa s)  =  1.00614  
+                         Viscosity (mPa s)  =  1.00618  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.833e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.269e-04  
+                   Total alkalinity (eq/kg)  = 3.269e-04  
                         Total CO2 (mol/kg)  =  3.011e-04  
                           Temperature (°C)  =  20.00 
-                   Electrical balance (eq)  =  8.238e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  13  
+                   Electrical balance (eq)  =  1.648e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  12  
                                    Total H  =  1.110126e+02
                                    Total O  =  5.550708e+01
 
@@ -371,7 +371,7 @@ S(6)          9.213e-10
   Mackinawite      -1.95     -6.60   -4.65  FeS
   Melanterite     -12.32    -14.59   -2.27  FeSO4:7H2O
   O2(g)           -71.73    -74.59   -2.85  O2
-  Pyrite            0.00    -18.62  -18.62  FeS2
+  Pyrite           -0.00    -18.62  -18.62  FeS2
   Siderite          0.29    -10.57  -10.86  FeCO3
   Sulfur          -10.01     -5.01    5.00  S
 
@@ -507,18 +507,18 @@ Z                1.827e-03 mol	[0.1 (mol Z)/(mol Goethite)]
 
                                         pH  =  6.826        Charge balance
                                         pe  =  -2.133       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  20°C)  =  2819      
+       Specific Conductance (µS/cm,  20°C)  =  2836      
                            Density (g/cm³)  =  1.00047  
                                 Volume (L)  =  1.00195  
-                         Viscosity (mPa s)  =  1.01511  
+                         Viscosity (mPa s)  =  1.01654  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  5.096e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.034e-03  
+                   Total alkalinity (eq/kg)  = 5.034e-03  
                         Total CO2 (mol/kg)  =  6.273e-03  
                           Temperature (°C)  =  20.00 
-                   Electrical balance (eq)  =  -6.939e-18 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  1.908e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  11  
                                    Total H  =  1.110142e+02
                                    Total O  =  5.556587e+01
@@ -709,19 +709,19 @@ Z                1.209e-03 mol	[0.1 (mol Z)/(mol Goethite)]
 
                                         pH  =  6.512        Charge balance
                                         pe  =  -1.694       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  20°C)  =  4720      
+       Specific Conductance (µS/cm,  20°C)  =  4764      
                            Density (g/cm³)  =  1.00311  
                                 Volume (L)  =  1.00211  
-                         Viscosity (mPa s)  =  1.02294  
+                         Viscosity (mPa s)  =  1.02513  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  9.261e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.487e-03  
+                   Total alkalinity (eq/kg)  = 7.487e-03  
                         Total CO2 (mol/kg)  =  1.057e-02  
                           Temperature (°C)  =  20.00 
-                   Electrical balance (eq)  =  5.551e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  34  
+                   Electrical balance (eq)  =  1.388e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  12  
                                    Total H  =  1.110208e+02
                                    Total O  =  5.565049e+01
 
@@ -887,7 +887,7 @@ X                1.000e-01 mol
 	MgX2              2.088e-02   4.176e-02   4.176e-01    -0.437
 	FeX2              1.756e-02   3.512e-02   3.512e-01    -0.451
 	CaX2              1.156e-02   2.312e-02   2.312e-01    -0.461
-Z                6.830e-18 mol	[0.1 (mol Z)/(mol Goethite)]
+Z                3.307e-18 mol	[0.1 (mol Z)/(mol Goethite)]
 
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
@@ -908,19 +908,19 @@ Z                6.830e-18 mol	[0.1 (mol Z)/(mol Goethite)]
 
                                         pH  =  6.124        Charge balance
                                         pe  =  -1.194       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  20°C)  =  7534      
+       Specific Conductance (µS/cm,  20°C)  =  7629      
                            Density (g/cm³)  =  1.00752  
                                 Volume (L)  =  1.00253  
-                         Viscosity (mPa s)  =  1.03220  
+                         Viscosity (mPa s)  =  1.03480  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.578e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.601e-03  
+                   Total alkalinity (eq/kg)  = 8.601e-03  
                         Total CO2 (mol/kg)  =  1.524e-02  
                           Temperature (°C)  =  20.00 
-                   Electrical balance (eq)  =  -3.202e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  37  
+                   Electrical balance (eq)  =  3.437e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
                                    Total H  =  1.110350e+02
                                    Total O  =  5.579229e+01
 
@@ -1054,8 +1054,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 4.
 ------------------------------------
-
-------------------------------
-End of Run after 0.03 Seconds.
-------------------------------
 

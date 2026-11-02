@@ -116,10 +116,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.176e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.453e-09  
+                   Total alkalinity (eq/kg)  = 1.453e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.607e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.70 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.70 
                                Iterations  =   4    (12 overall)
                                    Total H  =  1.110127e+02
                                    Total O  =  5.550657e+01
@@ -138,7 +138,7 @@ Cl            1.004e-03
 H(0)          1.415e-25
    H2              7.077e-26   7.079e-26   -25.150   -25.150     0.000     14.99
 N(5)          7.161e-05
-   NO3-            7.161e-05   6.887e-05    -4.145    -4.162    -0.017     29.49
+   NO3-            7.161e-05   6.887e-05    -4.145    -4.162    -0.017     29.64
 Na            1.003e-03
    Na+             1.003e-03   9.657e-04    -2.999    -3.015    -0.017     -1.47
 O(0)          0.000e+00
@@ -196,10 +196,10 @@ Using pure phase assemblage 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.176e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.583e-09  
+                   Total alkalinity (eq/kg)  = 3.583e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.607e-05 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.70 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.70 
                                 Iterations  =  20  
                                    Total H  =  1.110127e+02
                                    Total O  =  5.550657e+01
@@ -218,14 +218,14 @@ Cl            1.004e-03
 H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -41.894   -41.894     0.000     14.99
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -54.053   -54.070    -0.017     17.90
-   NH3             0.000e+00   0.000e+00   -56.310   -56.309     0.000     24.42
+   NH4+            0.000e+00   0.000e+00   -54.053   -54.070    -0.017     17.93
+   NH3             0.000e+00   0.000e+00   -56.310   -56.309     0.000     30.46
 N(0)          2.130e-09
    N2              1.065e-09   1.065e-09    -8.973    -8.973     0.000     29.29
 N(3)          4.797e-15
    NO2-            4.797e-15   4.614e-15   -14.319   -14.336    -0.017     24.97
 N(5)          7.161e-05
-   NO3-            7.161e-05   6.887e-05    -4.145    -4.162    -0.017     29.49
+   NO3-            7.161e-05   6.887e-05    -4.145    -4.162    -0.017     29.64
 Na            1.003e-03
    Na+             1.003e-03   9.657e-04    -2.999    -3.015    -0.017     -1.47
 O(0)          5.324e-09
@@ -260,8 +260,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.017 Seconds.
--------------------------------
 

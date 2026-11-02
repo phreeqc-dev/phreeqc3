@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -118,10 +117,10 @@ WARNING: USER_PUNCH: Headings count does not match number of calls to PUNCH.
                          Activity of water  =  0.876  
                   Ionic strength (mol/kgw)  =  8.304e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -9.176e-19 
+                   Total alkalinity (eq/kg)  = 1.651e-18  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  9.176e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.651e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  15  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
@@ -167,7 +166,3 @@ Reading input data for simulation 3.
 	 reset false
 
 	Reading data from Jiang_pz.pqi ...
--------------------------------
-End of Run after 1.208 Seconds.
--------------------------------
-

@@ -124,18 +124,18 @@ Initial solution 0.
 
                                         pH  =  3.300      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  11032     
+       Specific Conductance (µS/cm,  25°C)  =  11167     
                            Density (g/cm³)  =  1.01096  
                                 Volume (L)  =  1.00371  
-                         Viscosity (mPa s)  =  0.91378  
+                         Viscosity (mPa s)  =  0.92027  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.126e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.663e-03 
+                   Total alkalinity (eq/kg)  = -1.663e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.081e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.089e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110141e+02
                                    Total O  =  5.591339e+01
@@ -388,18 +388,18 @@ Initial solution 1.
 
                                         pH  =  7.190      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  445       
+       Specific Conductance (µS/cm,  25°C)  =  443       
                            Density (g/cm³)  =  0.99731  
                                 Volume (L)  =  1.00302  
-                         Viscosity (mPa s)  =  0.89257  
+                         Viscosity (mPa s)  =  0.89944  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  6.118e-03  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  2.593e-03  
+                      Total carbon (mol/kg)  = 2.593e-03  
                         Total CO2 (mol/kg)  =  2.593e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.603e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.448e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   11   (20 overall)
                                    Total H  =  1.110147e+02
                                    Total O  =  5.551672e+01
@@ -682,18 +682,18 @@ MnO2            -16.07    25.31     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  5.562        Charge balance
                                         pe  =  3.232        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10116     
+       Specific Conductance (µS/cm,  25°C)  =  10225     
                            Density (g/cm³)  =  1.00887  
                                 Volume (L)  =  1.00361  
-                         Viscosity (mPa s)  =  0.91227  
+                         Viscosity (mPa s)  =  0.91938  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.925e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.681e-05  
+                   Total alkalinity (eq/kg)  = 5.681e-05  
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.078e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.088e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  12  
                                    Total H  =  1.110107e+02
                                    Total O  =  5.583669e+01
@@ -957,10 +957,10 @@ Using pure phase assemblage 2.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    3.168e-05   1.720e-04   1.403e-04
+Al(OH)3(a)       -0.00    10.80     10.80    3.168e-05   1.720e-04   1.403e-04
 AlOHSO4          -2.22    -4.42     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    9.506e-02   7.421e-02  -2.086e-02
-Fe(OH)3           0.00     4.89      4.89    7.971e-01   8.179e-01   2.074e-02
+Fe(OH)3          -0.00     4.89      4.89    7.971e-01   8.179e-01   2.074e-02
 Gypsum            0.00    -4.55     -4.55    4.201e-02   6.216e-02   2.015e-02
 MnO2            -16.89    24.49     41.38    9.703e-03           0  -9.703e-03
 
@@ -985,19 +985,19 @@ MnO2            -16.89    24.49     41.38    9.703e-03           0  -9.703e-03
 
                                         pH  =  6.644        Charge balance
                                         pe  =  0.248        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9057      
+       Specific Conductance (µS/cm,  25°C)  =  9132      
                            Density (g/cm³)  =  1.00753  
                                 Volume (L)  =  1.00219  
-                         Viscosity (mPa s)  =  0.91480  
+                         Viscosity (mPa s)  =  0.92256  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.704e-01  
                         Mass of water (kg)  =  9.985e-01  
-                  Total alkalinity (eq/kg)  =  1.796e-02  
+                   Total alkalinity (eq/kg)  = 1.796e-02  
                         Total CO2 (mol/kg)  =  2.090e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  3.406e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  13  
+                   Electrical balance (eq)  =  3.407e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
                                    Total H  =  1.108675e+02
                                    Total O  =  5.573511e+01
 
@@ -1202,7 +1202,7 @@ Zn            3.353e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -2.22     -4.42   -2.20  AlOHSO4
   Alunite           6.10      4.70   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -1213,8 +1213,8 @@ Zn            3.353e-04
   CO2(g)           -0.98     -2.45   -1.47  CO2
   Dolomite          0.22    -16.86  -17.08  CaMg(CO3)2
   Epsomite         -2.78     -4.52   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -21.77    -25.69   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -1262,10 +1262,10 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Al(OH)3(a)       -0.00    10.80     10.80    0.000e+00           0   0.000e+00
 AlOHSO4          -1.36    -3.56     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    1.398e-01   1.398e-01  -2.412e-14
+Calcite           0.00    -8.45     -8.45    1.398e-01   1.398e-01  -2.018e-14
 Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01   0.000e+00
-Gypsum            0.00    -4.55     -4.55    1.200e-14   3.112e-14   1.912e-14
-MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02   2.680e-14
+Gypsum            0.00    -4.55     -4.55    1.461e-14   3.032e-14   1.571e-14
+MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02   2.261e-14
 
 -----------------------------Solution composition------------------------------
 
@@ -1288,18 +1288,18 @@ MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02   2.680e-14
 
                                         pH  =  6.156        Charge balance
                                         pe  =  9.508        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  8316      
+       Specific Conductance (µS/cm,  25°C)  =  8367      
                            Density (g/cm³)  =  1.00601  
                                 Volume (L)  =  1.00028  
-                         Viscosity (mPa s)  =  0.91961  
+                         Viscosity (mPa s)  =  0.92589  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.498e-01  
                         Mass of water (kg)  =  9.958e-01  
-                  Total alkalinity (eq/kg)  =  3.730e-02  
+                   Total alkalinity (eq/kg)  = 3.730e-02  
                         Total CO2 (mol/kg)  =  6.186e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.326e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.105810e+02
                                    Total O  =  5.559772e+01
@@ -1565,10 +1565,10 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Al(OH)3(a)       -0.03    10.77     10.80    0.000e+00           0   0.000e+00
 AlOHSO4          -1.39    -3.59     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    1.398e-01   1.398e-01   5.052e-15
+Calcite          -0.00    -8.45     -8.45    1.398e-01   1.398e-01   8.687e-15
 Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01   0.000e+00
-Gypsum            0.00    -4.55     -4.55    2.113e-14   1.675e-14  -4.382e-15
-MnO2             -0.00    41.38     41.38    4.500e-02   4.500e-02  -5.329e-15
+Gypsum           -0.00    -4.55     -4.55    0.000e+00           0   0.000e+00
+MnO2             -0.00    41.38     41.38    4.500e-02   4.500e-02  -1.248e-14
 
 -----------------------------Solution composition------------------------------
 
@@ -1591,18 +1591,18 @@ MnO2             -0.00    41.38     41.38    4.500e-02   4.500e-02  -5.329e-15
 
                                         pH  =  6.156        Charge balance
                                         pe  =  9.508        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  8316      
+       Specific Conductance (µS/cm,  25°C)  =  8367      
                            Density (g/cm³)  =  1.00601  
                                 Volume (L)  =  1.00028  
-                         Viscosity (mPa s)  =  0.91961  
+                         Viscosity (mPa s)  =  0.92589  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.498e-01  
                         Mass of water (kg)  =  9.958e-01  
-                  Total alkalinity (eq/kg)  =  3.730e-02  
+                   Total alkalinity (eq/kg)  = 3.730e-02  
                         Total CO2 (mol/kg)  =  6.186e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.518e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.502e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.105810e+02
                                    Total O  =  5.559772e+01
@@ -1814,7 +1814,7 @@ Zn            3.363e-04
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
   Aragonite        -0.11     -8.45   -8.34  CaCO3
   Arcanite         -7.92     -9.80   -1.88  K2SO4
-  Calcite           0.00     -8.45   -8.45  CaCO3
+  Calcite          -0.00     -8.45   -8.45  CaCO3
   CH4(g)          -99.70   -102.50   -2.80  CH4
   CO2(g)           -0.11     -1.58   -1.47  CO2
   Dolomite          0.17    -16.92  -17.08  CaMg(CO3)2
@@ -1824,7 +1824,7 @@ Zn            3.363e-04
   FeS(ppt)        -99.86   -103.77   -3.92  FeS
   Gibbsite          2.66     10.77    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
-  Gypsum            0.00     -4.55   -4.55  CaSO4:2H2O
+  Gypsum           -0.00     -4.55   -4.55  CaSO4:2H2O
   H2(g)           -31.38    -34.48   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   H2S(g)          -98.09   -106.02   -7.94  H2S
@@ -1868,10 +1868,10 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Al(OH)3(a)       -0.00    10.80     10.80    0.000e+00           0   0.000e+00
 AlOHSO4          -1.36    -3.56     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    1.398e-01   1.398e-01  -3.261e-14
-Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01   0.000e+00
-Gypsum            0.00    -4.55     -4.55    0.000e+00   2.822e-14   2.822e-14
-MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02   3.466e-14
+Calcite           0.00    -8.45     -8.45    1.398e-01   1.398e-01  -2.898e-14
+Fe(OH)3          -0.00     4.89      4.89    7.300e-01   7.300e-01   0.000e+00
+Gypsum            0.00    -4.55     -4.55    0.000e+00   3.334e-14   3.334e-14
+MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02   2.727e-14
 
 -----------------------------Solution composition------------------------------
 
@@ -1894,18 +1894,18 @@ MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02   3.466e-14
 
                                         pH  =  6.156        Charge balance
                                         pe  =  9.508        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  8316      
+       Specific Conductance (µS/cm,  25°C)  =  8367      
                            Density (g/cm³)  =  1.00601  
                                 Volume (L)  =  1.00028  
-                         Viscosity (mPa s)  =  0.91961  
+                         Viscosity (mPa s)  =  0.92589  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.498e-01  
                         Mass of water (kg)  =  9.958e-01  
-                  Total alkalinity (eq/kg)  =  3.730e-02  
+                   Total alkalinity (eq/kg)  = 3.730e-02  
                         Total CO2 (mol/kg)  =  6.186e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  5.850e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  8.491e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.105810e+02
                                    Total O  =  5.559772e+01
@@ -2122,8 +2122,8 @@ Zn            3.363e-04
   CO2(g)           -0.11     -1.58   -1.47  CO2
   Dolomite          0.17    -16.92  -17.08  CaMg(CO3)2
   Epsomite         -2.84     -4.58   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -99.86   -103.77   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -2202,18 +2202,18 @@ MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.654        Charge balance
                                         pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
+       Specific Conductance (µS/cm,  25°C)  =  11002     
                            Density (g/cm³)  =  1.01070  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.099e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
+                   Total alkalinity (eq/kg)  = -1.277e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.023e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.025e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                                    Total H  =  1.110098e+02
                                    Total O  =  5.590204e+01
@@ -2477,7 +2477,7 @@ Using pure phase assemblage 2.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    4.991e-03   1.456e-02   9.573e-03
+Al(OH)3(a)       -0.00    10.80     10.80    4.991e-03   1.456e-02   9.573e-03
 AlOHSO4          -1.94    -4.14     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    4.058e-02   9.258e-03  -3.133e-02
 Fe(OH)3           0.00     4.89      4.89    8.244e-01   8.272e-01   2.777e-03
@@ -2505,18 +2505,18 @@ MnO2            -17.91    23.47     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  6.507        Charge balance
                                         pe  =  0.483        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9530      
+       Specific Conductance (µS/cm,  25°C)  =  9615      
                            Density (g/cm³)  =  1.00892  
                                 Volume (L)  =  1.00231  
-                         Viscosity (mPa s)  =  0.91667  
+                         Viscosity (mPa s)  =  0.92421  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.796e-01  
                         Mass of water (kg)  =  9.983e-01  
-                  Total alkalinity (eq/kg)  =  2.512e-02  
+                   Total alkalinity (eq/kg)  = 2.512e-02  
                         Total CO2 (mol/kg)  =  3.139e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.022e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.023e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  13  
                                    Total H  =  1.108506e+02
                                    Total O  =  5.577573e+01
@@ -2722,7 +2722,7 @@ Zn            3.354e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -1.94     -4.14   -2.20  AlOHSO4
   Alunite           6.52      5.12   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -2780,11 +2780,11 @@ Using pure phase assemblage 3.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    4.737e-05   4.737e-05   4.121e-17
+Al(OH)3(a)        0.00    10.80     10.80    4.737e-05   4.737e-05  -6.722e-18
 AlOHSO4          -2.35    -4.55     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    8.382e-02   8.382e-02  -8.185e-14
-Fe(OH)3           0.00     4.89      4.89    8.151e-01   8.151e-01   5.351e-14
-Gypsum            0.00    -4.55     -4.55    5.322e-02   5.322e-02   7.806e-14
+Calcite           0.00    -8.45     -8.45    8.382e-02   8.382e-02   1.714e-14
+Fe(OH)3          -0.00     4.89      4.89    8.151e-01   8.151e-01  -1.088e-14
+Gypsum            0.00    -4.55     -4.55    5.322e-02   5.322e-02  -1.829e-14
 MnO2            -18.35    23.03     41.38    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -2808,18 +2808,18 @@ MnO2            -18.35    23.03     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  6.718        Charge balance
                                         pe  =  -0.175       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9591      
+       Specific Conductance (µS/cm,  25°C)  =  9680      
                            Density (g/cm³)  =  1.00879  
                                 Volume (L)  =  1.00276  
-                         Viscosity (mPa s)  =  0.91493  
+                         Viscosity (mPa s)  =  0.92265  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.816e-01  
                         Mass of water (kg)  =  9.990e-01  
-                  Total alkalinity (eq/kg)  =  1.688e-02  
+                   Total alkalinity (eq/kg)  = 1.688e-02  
                         Total CO2 (mol/kg)  =  1.907e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  5.338e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -3.235e-13 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  1   
                                    Total H  =  1.109151e+02
                                    Total O  =  5.579455e+01
@@ -3036,8 +3036,8 @@ Zn            3.352e-04
   CO2(g)           -1.10     -2.57   -1.47  CO2
   Dolomite          0.23    -16.85  -17.08  CaMg(CO3)2
   Epsomite         -2.77     -4.51   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -18.75    -22.67   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -3083,7 +3083,7 @@ Using pure phase assemblage 4.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    1.957e-05   5.200e-05   3.243e-05
+Al(OH)3(a)       -0.00    10.80     10.80    1.957e-05   5.200e-05   3.243e-05
 AlOHSO4          -1.79    -3.99     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    1.070e-01   7.804e-02  -2.897e-02
 Fe(OH)3           0.00     4.89      4.89    7.788e-01   8.174e-01   3.860e-02
@@ -3111,18 +3111,18 @@ MnO2            -15.33    26.05     41.38    1.941e-02           0  -1.941e-02
 
                                         pH  =  6.404        Charge balance
                                         pe  =  1.388        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  8443      
+       Specific Conductance (µS/cm,  25°C)  =  8501      
                            Density (g/cm³)  =  1.00639  
                                 Volume (L)  =  1.00131  
-                         Viscosity (mPa s)  =  0.91631  
+                         Viscosity (mPa s)  =  0.92385  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.566e-01  
                         Mass of water (kg)  =  9.975e-01  
-                  Total alkalinity (eq/kg)  =  2.512e-02  
+                   Total alkalinity (eq/kg)  = 2.512e-02  
                         Total CO2 (mol/kg)  =  3.392e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  3.180e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.181e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                                    Total H  =  1.107607e+02
                                    Total O  =  5.566201e+01
@@ -3328,7 +3328,7 @@ Zn            3.357e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -1.79     -3.99   -2.20  AlOHSO4
   Alunite           6.73      5.33   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -3386,12 +3386,12 @@ Using pure phase assemblage 5.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    0.000e+00           0   0.000e+00
+Al(OH)3(a)       -0.00    10.80     10.80    0.000e+00   3.309e-14   3.309e-14
 AlOHSO4          -1.68    -3.88     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    1.398e-01   1.398e-01   1.041e-14
-Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01   0.000e+00
-Gypsum            0.00    -4.55     -4.55    5.113e-14   4.189e-14  -9.243e-15
-MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -9.520e-15
+Calcite           0.00    -8.45     -8.45    1.398e-01   1.398e-01  -1.898e-11
+Fe(OH)3          -0.00     4.89      4.89    7.300e-01   7.300e-01   6.661e-16
+Gypsum           -0.00    -4.55     -4.55    1.681e-14           0  -1.681e-14
+MnO2             -0.00    41.38     41.38    4.500e-02   4.500e-02  -1.832e-14
 
 -----------------------------Solution composition------------------------------
 
@@ -3414,18 +3414,18 @@ MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -9.520e-15
 
                                         pH  =  6.333        Charge balance
                                         pe  =  9.132        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  8412      
+       Specific Conductance (µS/cm,  25°C)  =  8465      
                            Density (g/cm³)  =  1.00580  
                                 Volume (L)  =  1.00085  
-                         Viscosity (mPa s)  =  0.91649  
+                         Viscosity (mPa s)  =  0.92360  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.525e-01  
                         Mass of water (kg)  =  9.970e-01  
-                  Total alkalinity (eq/kg)  =  2.906e-02  
+                   Total alkalinity (eq/kg)  = 2.906e-02  
                         Total CO2 (mol/kg)  =  3.995e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.103e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.125e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  1   
                                    Total H  =  1.107009e+02
                                    Total O  =  5.562373e+01
@@ -3631,7 +3631,7 @@ Zn            3.359e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -1.68     -3.88   -2.20  AlOHSO4
   Alunite           6.90      5.50   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -3642,12 +3642,12 @@ Zn            3.359e-04
   CO2(g)           -0.43     -1.90   -1.47  CO2
   Dolomite          0.19    -16.90  -17.08  CaMg(CO3)2
   Epsomite         -2.82     -4.55   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -98.38   -102.30   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
-  Gypsum            0.00     -4.55   -4.55  CaSO4:2H2O
+  Gypsum           -0.00     -4.55   -4.55  CaSO4:2H2O
   H2(g)           -30.98    -34.08   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   H2S(g)          -96.81   -104.75   -7.94  H2S
@@ -3661,7 +3661,7 @@ Zn            3.359e-04
   Manganite         0.57     25.91   25.34  MnOOH
   Melanterite     -10.03    -12.24   -2.21  FeSO4:7H2O
   Mirabilite       -5.67     -6.37   -0.71  Na2SO4:10H2O
-  MnO2              0.00     41.38   41.38  MnO2
+  MnO2             -0.00     41.38   41.38  MnO2
   O2(g)           -21.31    -24.20   -2.89  O2
   Pyrite         -157.64   -176.11  -18.48  FeS2
   Pyrochroite      -4.75     10.45   15.20  Mn(OH)2
@@ -3722,18 +3722,18 @@ MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.654        Charge balance
                                         pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
+       Specific Conductance (µS/cm,  25°C)  =  11002     
                            Density (g/cm³)  =  1.01070  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.099e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
+                   Total alkalinity (eq/kg)  = -1.277e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.023e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.025e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                                    Total H  =  1.110098e+02
                                    Total O  =  5.590204e+01
@@ -3998,10 +3998,10 @@ Using pure phase assemblage 2.	Pure-phase assemblage after simulation 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Al(OH)3(a)       -3.83     6.97     10.80    0.000e+00           0   0.000e+00
-AlOHSO4          -0.00    -2.20     -2.20    4.414e-02   4.414e-02   2.151e-14
+AlOHSO4           0.00    -2.20     -2.20    4.414e-02   4.414e-02  -4.236e-14
 Calcite          -8.58   -17.03     -8.45    0.000e+00           0   0.000e+00
-Fe(OH)3           0.00     4.89      4.89    8.316e-01   8.316e-01  -1.232e-14
-Gypsum            0.00    -4.55     -4.55    1.344e-01   1.344e-01   5.551e-17
+Fe(OH)3           0.00     4.89      4.89    8.316e-01   8.316e-01   2.420e-14
+Gypsum            0.00    -4.55     -4.55    1.344e-01   1.344e-01  -3.886e-16
 MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -4025,18 +4025,18 @@ MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.654        Charge balance
                                         pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
+       Specific Conductance (µS/cm,  25°C)  =  11002     
                            Density (g/cm³)  =  1.01070  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.099e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
+                   Total alkalinity (eq/kg)  = -1.277e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.901e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.903e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.110098e+02
                                    Total O  =  5.590204e+01
@@ -4243,7 +4243,7 @@ Zn            3.349e-04
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Al(OH)3(a)       -3.83      6.97   10.80  Al(OH)3
-  AlOHSO4          -0.00     -2.20   -2.20  AlOHSO4
+  AlOHSO4           0.00     -2.20   -2.20  AlOHSO4
   Alunite           3.71      2.31   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
   Aragonite        -8.69    -17.03   -8.34  CaCO3
@@ -4300,7 +4300,7 @@ Using pure phase assemblage 3.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)       -0.00    10.80     10.80    4.063e-04   8.692e-03   8.285e-03
+Al(OH)3(a)        0.00    10.80     10.80    4.063e-04   8.692e-03   8.285e-03
 AlOHSO4          -2.02    -4.22     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    6.518e-02   3.694e-02  -2.824e-02
 Fe(OH)3           0.00     4.89      4.89    8.193e-01   8.220e-01   2.673e-03
@@ -4328,18 +4328,18 @@ MnO2            -18.00    23.38     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  6.550        Charge balance
                                         pe  =  0.348        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9543      
+       Specific Conductance (µS/cm,  25°C)  =  9629      
                            Density (g/cm³)  =  1.00889  
                                 Volume (L)  =  1.00242  
-                         Viscosity (mPa s)  =  0.91624  
+                         Viscosity (mPa s)  =  0.92384  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.800e-01  
                         Mass of water (kg)  =  9.985e-01  
-                  Total alkalinity (eq/kg)  =  2.318e-02  
+                   Total alkalinity (eq/kg)  = 2.318e-02  
                         Total CO2 (mol/kg)  =  2.830e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.636e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.629e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                                    Total H  =  1.108669e+02
                                    Total O  =  5.578031e+01
@@ -4545,7 +4545,7 @@ Zn            3.354e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -2.02     -4.22   -2.20  AlOHSO4
   Alunite           6.40      5.00   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -4603,11 +4603,11 @@ Using pure phase assemblage 4.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    5.200e-05   5.200e-05  -1.059e-16
+Al(OH)3(a)       -0.00    10.80     10.80    5.200e-05   5.200e-05   2.628e-16
 AlOHSO4          -3.55    -5.75     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    7.804e-02   7.804e-02   1.145e-14
-Fe(OH)3           0.00     4.89      4.89    8.174e-01   8.174e-01  -6.328e-15
-Gypsum            0.00    -4.55     -4.55    5.896e-02   5.896e-02  -1.101e-14
+Calcite           0.00    -8.45     -8.45    7.804e-02   7.804e-02  -2.839e-14
+Fe(OH)3           0.00     4.89      4.89    8.174e-01   8.174e-01   1.588e-14
+Gypsum            0.00    -4.55     -4.55    5.896e-02   5.896e-02   2.730e-14
 MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -4631,18 +4631,321 @@ MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  7.332        Charge balance
                                         pe  =  -2.056       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9692      
+       Specific Conductance (µS/cm,  25°C)  =  9790      
                            Density (g/cm³)  =  1.00865  
                                 Volume (L)  =  1.00334  
-                         Viscosity (mPa s)  =  0.91288  
+                         Viscosity (mPa s)  =  0.92042  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.850e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  5.390e-03  
+                   Total alkalinity (eq/kg)  = 5.390e-03  
                         Total CO2 (mol/kg)  =  4.873e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.145e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.149e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  1   
+                                   Total H  =  1.109874e+02
+                                   Total O  =  5.581849e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             3.043e-07   2.171e-07    -6.517    -6.663    -0.147     -3.53
+   H+              5.810e-08   4.652e-08    -7.236    -7.332    -0.097      0.00
+   H2O             5.551e+01   9.976e-01     1.744    -0.001     0.000     18.07
+Al            4.084e-05
+   Al(OH)4-        3.984e-05   2.925e-05    -4.400    -4.534    -0.134     (0)  
+   Al(OH)3         6.936e-07   7.238e-07    -6.159    -6.140     0.019     (0)  
+   Al(OH)2+        3.050e-07   2.291e-07    -6.516    -6.640    -0.124     (0)  
+   AlOH+2          4.287e-09   1.363e-09    -8.368    -8.866    -0.498    -26.95
+   AlSO4+          3.538e-10   2.598e-10    -9.451    -9.585    -0.134     (0)  
+   Al(SO4)2-       1.437e-10   1.055e-10    -9.843    -9.977    -0.134     (0)  
+   Al+3            4.733e-11   6.397e-12   -10.325   -11.194    -0.869    -40.85
+   AlHSO4+2        3.391e-18   1.072e-18   -17.470   -17.970    -0.500     (0)  
+C(-4)         2.435e-22
+   CH4             2.435e-22   2.541e-22   -21.613   -21.595     0.019     35.46
+C(4)          4.873e-03
+   HCO3-           2.122e-03   1.599e-03    -2.673    -2.796    -0.123     26.08
+   FeHCO3+         2.003e-03   1.502e-03    -2.698    -2.823    -0.125     (0)  
+   FeCO3           3.481e-04   3.633e-04    -3.458    -3.440     0.019     (0)  
+   CO2             1.630e-04   1.676e-04    -3.788    -3.776     0.012     34.79
+   MnHCO3+         7.111e-05   5.289e-05    -4.148    -4.277    -0.129     (0)  
+   MgHCO3+         6.510e-05   4.715e-05    -4.186    -4.327    -0.140      5.71
+   MnCO3           4.554e-05   4.752e-05    -4.342    -4.323     0.019     (0)  
+   ZnCO3           1.668e-05   1.741e-05    -4.778    -4.759     0.019     (0)  
+   ZnHCO3+         1.453e-05   1.089e-05    -4.838    -4.963    -0.125     (0)  
+   CaCO3           5.739e-06   5.989e-06    -5.241    -5.223     0.019    -14.60
+   CO3-2           5.070e-06   1.612e-06    -5.295    -5.793    -0.498     -2.43
+   NaHCO3          4.769e-06   5.086e-06    -5.322    -5.294     0.028     24.51
+   MgCO3           3.715e-06   3.876e-06    -5.430    -5.412     0.019    -17.09
+   Zn(CO3)2-2      1.899e-06   5.999e-07    -5.722    -6.222    -0.500     (0)  
+   KHCO3           1.000e-07   1.076e-07    -7.000    -6.968     0.032     28.65
+   CuCO3           4.013e-08   4.188e-08    -7.397    -7.378     0.019     (0)  
+   CuHCO3+         5.171e-09   3.877e-09    -8.286    -8.412    -0.125     (0)  
+   (CO2)2          4.441e-10   4.567e-10    -9.353    -9.340     0.012     68.75
+   CaHCO3+         4.075e-10   3.100e-10    -9.390    -9.509    -0.119      9.87
+   Cu(CO3)2-2      2.689e-10   8.498e-11    -9.570   -10.071    -0.500     (0)  
+Ca            1.063e-02
+   Ca+2            6.737e-03   2.212e-03    -2.172    -2.655    -0.484    -17.24
+   CaSO4           3.888e-03   3.962e-03    -2.410    -2.402     0.008      7.22
+   CaCO3           5.739e-06   5.989e-06    -5.241    -5.223     0.019    -14.60
+   CaOH+           1.050e-08   7.872e-09    -7.979    -8.104    -0.125     (0)  
+   CaHSO4+         2.060e-09   1.544e-09    -8.686    -8.811    -0.125     (0)  
+   CaHCO3+         4.075e-10   3.100e-10    -9.390    -9.509    -0.119      9.87
+Cl            9.642e-03
+   Cl-             5.502e-03   3.969e-03    -2.259    -2.401    -0.142     18.44
+   CuCl2-          1.987e-03   1.439e-03    -2.702    -2.842    -0.140     (0)  
+   FeCl+           6.866e-05   5.148e-05    -4.163    -4.288    -0.125     (0)  
+   CuCl3-2         2.957e-05   9.050e-06    -4.529    -5.043    -0.514     (0)  
+   MnCl+           8.069e-06   6.002e-06    -5.093    -5.222    -0.129     -2.88
+   ZnCl+           7.985e-07   5.783e-07    -6.098    -6.238    -0.140    -14.33
+   ZnOHCl          1.462e-07   1.526e-07    -6.835    -6.817     0.019     (0)  
+   MnCl2           9.965e-09   1.040e-08    -8.002    -7.983     0.019     85.89
+   ZnCl2           2.303e-09   2.403e-09    -8.638    -8.619     0.019    102.03
+   CuCl+           7.137e-11   5.169e-11   -10.146   -10.287    -0.140      1.11
+   HCl             5.306e-11   6.360e-11   -10.275   -10.197     0.079     20.36
+   MnCl3-          1.528e-11   1.137e-11   -10.816   -10.944    -0.129     44.19
+   ZnCl3-          1.478e-11   1.070e-11   -10.830   -10.970    -0.140     15.93
+   CuCl2           1.056e-13   1.102e-13   -12.976   -12.958     0.019     31.02
+   ZnCl4-2         6.957e-14   2.129e-14   -13.158   -13.672    -0.514    147.26
+   FeCl+2          3.090e-18   9.455e-19   -17.510   -18.024    -0.514     (0)  
+   CuCl3-          2.142e-18   1.551e-18   -17.669   -17.809    -0.140     (0)  
+   FeCl2+          2.254e-20   1.676e-20   -19.647   -19.776    -0.129     (0)  
+   CuCl4-2         1.008e-22   3.086e-23   -21.996   -22.511    -0.514     (0)  
+   FeCl3           6.376e-24   6.653e-24   -23.195   -23.177     0.019     (0)  
+Cu(1)         2.436e-03
+   CuCl2-          1.987e-03   1.439e-03    -2.702    -2.842    -0.140     (0)  
+   Cu+             4.195e-04   2.888e-04    -3.377    -3.539    -0.162     (0)  
+   CuCl3-2         2.957e-05   9.050e-06    -4.529    -5.043    -0.514     (0)  
+Cu(2)         1.182e-07
+   Cu(OH)2         4.455e-08   4.649e-08    -7.351    -7.333     0.019     (0)  
+   CuCO3           4.013e-08   4.188e-08    -7.397    -7.378     0.019     (0)  
+   Cu+2            1.444e-08   4.838e-09    -7.840    -8.315    -0.475    -25.78
+   CuSO4           1.216e-08   1.269e-08    -7.915    -7.897     0.019     13.09
+   CuHCO3+         5.171e-09   3.877e-09    -8.286    -8.412    -0.125     (0)  
+   CuOH+           1.433e-09   1.038e-09    -8.844    -8.984    -0.140     (0)  
+   Cu(CO3)2-2      2.689e-10   8.498e-11    -9.570   -10.071    -0.500     (0)  
+   CuCl+           7.137e-11   5.169e-11   -10.146   -10.287    -0.140      1.11
+   Cu2(OH)2+2      1.491e-12   4.711e-13   -11.827   -12.327    -0.500     (0)  
+   CuCl2           1.056e-13   1.102e-13   -12.976   -12.958     0.019     31.02
+   Cu(OH)3-        8.013e-14   6.007e-14   -13.096   -13.221    -0.125     (0)  
+   CuCl3-          2.142e-18   1.551e-18   -17.669   -17.809    -0.140     (0)  
+   Cu(OH)4-2       8.135e-19   2.571e-19   -18.090   -18.590    -0.500     (0)  
+   CuCl4-2         1.008e-22   3.086e-23   -21.996   -22.511    -0.514     (0)  
+   Cu(HS)3-        2.323e-36   1.742e-36   -35.634   -35.759    -0.125     (0)  
+Fe(2)         5.111e-02
+   Fe+2            2.804e-02   9.396e-03    -1.552    -2.027    -0.475    -21.27
+   FeSO4           2.056e-02   2.146e-02    -1.687    -1.668     0.019     30.28
+   FeHCO3+         2.003e-03   1.502e-03    -2.698    -2.823    -0.125     (0)  
+   FeCO3           3.481e-04   3.633e-04    -3.458    -3.440     0.019     (0)  
+   FeOH+           8.567e-05   6.372e-05    -4.067    -4.196    -0.129     (0)  
+   FeCl+           6.866e-05   5.148e-05    -4.163    -4.288    -0.125     (0)  
+   Fe(OH)2         1.115e-08   1.163e-08    -7.953    -7.934     0.019     (0)  
+   FeHSO4+         8.750e-09   6.561e-09    -8.058    -8.183    -0.125     (0)  
+   Fe(OH)3-        1.246e-11   9.267e-12   -10.905   -11.033    -0.129     (0)  
+   Fe(HS)2         2.198e-29   2.293e-29   -28.658   -28.640     0.019     (0)  
+   Fe(HS)3-        0.000e+00   0.000e+00   -44.259   -44.384    -0.125     (0)  
+Fe(3)         3.143e-08
+   Fe(OH)3         2.054e-08   2.143e-08    -7.688    -7.669     0.019     (0)  
+   Fe(OH)2+        1.033e-08   7.756e-09    -7.986    -8.110    -0.124     (0)  
+   Fe(OH)4-        5.582e-10   4.191e-10    -9.253    -9.378    -0.124     (0)  
+   FeOH+2          3.569e-12   1.092e-12   -11.447   -11.962    -0.514     (0)  
+   FeSO4+          1.493e-15   1.111e-15   -14.826   -14.954    -0.129     (0)  
+   Fe(SO4)2-       4.162e-16   3.121e-16   -15.381   -15.506    -0.125     (0)  
+   Fe+3            5.836e-17   7.888e-18   -16.234   -17.103    -0.869     (0)  
+   FeCl+2          3.090e-18   9.455e-19   -17.510   -18.024    -0.514     (0)  
+   FeCl2+          2.254e-20   1.676e-20   -19.647   -19.776    -0.129     (0)  
+   Fe2(OH)2+4      3.221e-21   3.211e-23   -20.492   -22.493    -2.001     (0)  
+   FeHSO4+2        4.379e-22   1.384e-22   -21.359   -21.859    -0.500     (0)  
+   FeCl3           6.376e-24   6.653e-24   -23.195   -23.177     0.019     (0)  
+   Fe3(OH)4+5      6.974e-26   5.204e-29   -25.156   -28.284    -3.127     (0)  
+H(0)          3.790e-14
+   H2              1.895e-14   1.982e-14   -13.722   -13.703     0.019     14.99
+K             2.030e-04
+   K+              1.731e-04   1.242e-04    -3.762    -3.906    -0.144      9.33
+   KSO4-           2.981e-05   2.427e-05    -4.526    -4.615    -0.089     28.26
+   KHCO3           1.000e-07   1.076e-07    -7.000    -6.968     0.032     28.65
+Mg            1.604e-02
+   MgSO4           7.782e-03   8.474e-03    -2.109    -2.072     0.037     -0.40
+   Mg+2            7.215e-03   2.520e-03    -2.142    -2.599    -0.457    -20.95
+   Mg(SO4)2-2      9.703e-04   3.585e-04    -3.013    -3.446    -0.432     44.86
+   MgHCO3+         6.510e-05   4.715e-05    -4.186    -4.327    -0.140      5.71
+   MgCO3           3.715e-06   3.876e-06    -5.430    -5.412     0.019    -17.09
+   MgOH+           2.554e-07   1.962e-07    -6.593    -6.707    -0.114     (0)  
+Mn(2)         1.360e-03
+   Mn+2            1.108e-03   3.712e-04    -2.956    -3.430    -0.475    -17.61
+   MnSO4           1.272e-04   1.220e-04    -3.896    -3.914    -0.018     17.15
+   MnHCO3+         7.111e-05   5.289e-05    -4.148    -4.277    -0.129     (0)  
+   MnCO3           4.554e-05   4.752e-05    -4.342    -4.323     0.019     (0)  
+   MnCl+           8.069e-06   6.002e-06    -5.093    -5.222    -0.129     -2.88
+   MnOH+           2.751e-07   2.046e-07    -6.561    -6.689    -0.129     (0)  
+   MnCl2           9.965e-09   1.040e-08    -8.002    -7.983     0.019     85.89
+   MnCl3-          1.528e-11   1.137e-11   -10.816   -10.944    -0.129     44.19
+   Mn(OH)3-        7.801e-17   5.802e-17   -16.108   -16.236    -0.129     (0)  
+Mn(3)         7.461e-31
+   Mn+3            7.461e-31   1.008e-31   -30.127   -30.996    -0.869     (0)  
+Na            9.541e-03
+   Na+             8.563e-03   6.437e-03    -2.067    -2.191    -0.124     -0.95
+   NaSO4-          9.727e-04   7.261e-04    -3.012    -3.139    -0.127     19.07
+   NaHCO3          4.769e-06   5.086e-06    -5.322    -5.294     0.028     24.51
+   Na2SO4          2.195e-09   2.279e-09    -8.659    -8.642     0.016     47.96
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -64.977   -64.959     0.019     30.40
+S(-2)         2.965e-18
+   HS-             2.320e-18   1.655e-18   -17.634   -17.781    -0.147     20.98
+   H2S             6.450e-19   6.731e-19   -18.190   -18.172     0.019     36.27
+   S-2             1.404e-23   4.297e-24   -22.853   -23.367    -0.514     (0)  
+   Zn(HS)2         1.237e-25   1.291e-25   -24.908   -24.889     0.019     (0)  
+   Fe(HS)2         2.198e-29   2.293e-29   -28.658   -28.640     0.019     (0)  
+   Cu(HS)3-        2.323e-36   1.742e-36   -35.634   -35.759    -0.125     (0)  
+   (H2S)2          2.288e-38   2.387e-38   -37.641   -37.622     0.019     30.09
+   Zn(HS)3-        0.000e+00   0.000e+00   -41.385   -41.510    -0.125     (0)  
+   Fe(HS)3-        0.000e+00   0.000e+00   -44.259   -44.384    -0.125     (0)  
+S(6)          7.811e-02
+   SO4-2           4.268e-02   1.284e-02    -1.370    -1.891    -0.522     15.49
+   FeSO4           2.056e-02   2.146e-02    -1.687    -1.668     0.019     30.28
+   MgSO4           7.782e-03   8.474e-03    -2.109    -2.072     0.037     -0.40
+   CaSO4           3.888e-03   3.962e-03    -2.410    -2.402     0.008      7.22
+   NaSO4-          9.727e-04   7.261e-04    -3.012    -3.139    -0.127     19.07
+   Mg(SO4)2-2      9.703e-04   3.585e-04    -3.013    -3.446    -0.432     44.86
+   MnSO4           1.272e-04   1.220e-04    -3.896    -3.914    -0.018     17.15
+   ZnSO4           1.212e-04   1.265e-04    -3.916    -3.898     0.019      6.48
+   KSO4-           2.981e-05   2.427e-05    -4.526    -4.615    -0.089     28.26
+   Zn(SO4)2-2      7.802e-07   1.261e-07    -6.108    -6.899    -0.791     45.27
+   HSO4-           7.747e-08   5.808e-08    -7.111    -7.236    -0.125     40.64
+   CuSO4           1.216e-08   1.269e-08    -7.915    -7.897     0.019     13.09
+   FeHSO4+         8.750e-09   6.561e-09    -8.058    -8.183    -0.125     (0)  
+   Na2SO4          2.195e-09   2.279e-09    -8.659    -8.642     0.016     47.96
+   CaHSO4+         2.060e-09   1.544e-09    -8.686    -8.811    -0.125     (0)  
+   AlSO4+          3.538e-10   2.598e-10    -9.451    -9.585    -0.134     (0)  
+   Al(SO4)2-       1.437e-10   1.055e-10    -9.843    -9.977    -0.134     (0)  
+   FeSO4+          1.493e-15   1.111e-15   -14.826   -14.954    -0.129     (0)  
+   Fe(SO4)2-       4.162e-16   3.121e-16   -15.381   -15.506    -0.125     (0)  
+   AlHSO4+2        3.391e-18   1.072e-18   -17.470   -17.970    -0.500     (0)  
+   FeHSO4+2        4.379e-22   1.384e-22   -21.359   -21.859    -0.500     (0)  
+Zn            3.349e-04
+   Zn+2            1.769e-04   5.413e-05    -3.752    -4.267    -0.514    -24.51
+   ZnSO4           1.212e-04   1.265e-04    -3.916    -3.898     0.019      6.48
+   ZnCO3           1.668e-05   1.741e-05    -4.778    -4.759     0.019     (0)  
+   ZnHCO3+         1.453e-05   1.089e-05    -4.838    -4.963    -0.125     (0)  
+   Zn(CO3)2-2      1.899e-06   5.999e-07    -5.722    -6.222    -0.500     (0)  
+   ZnOH+           1.698e-06   1.273e-06    -5.770    -5.895    -0.125     (0)  
+   ZnCl+           7.985e-07   5.783e-07    -6.098    -6.238    -0.140    -14.33
+   Zn(SO4)2-2      7.802e-07   1.261e-07    -6.108    -6.899    -0.791     45.27
+   Zn(OH)2         3.003e-07   3.134e-07    -6.522    -6.504     0.019     (0)  
+   ZnOHCl          1.462e-07   1.526e-07    -6.835    -6.817     0.019     (0)  
+   ZnCl2           2.303e-09   2.403e-09    -8.638    -8.619     0.019    102.03
+   Zn(OH)3-        2.835e-11   2.125e-11   -10.547   -10.673    -0.125     (0)  
+   ZnCl3-          1.478e-11   1.070e-11   -10.830   -10.970    -0.140     15.93
+   ZnCl4-2         6.957e-14   2.129e-14   -13.158   -13.672    -0.514    147.26
+   Zn(OH)4-2       2.286e-16   7.224e-17   -15.641   -16.141    -0.500     (0)  
+   Zn(HS)2         1.237e-25   1.291e-25   -24.908   -24.889     0.019     (0)  
+   Zn(HS)3-        0.000e+00   0.000e+00   -41.385   -41.510    -0.125     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  AlOHSO4          -3.55     -5.75   -2.20  AlOHSO4
+  Alunite           4.12      2.72   -1.40  KAl3(SO4)2(OH)6
+  Anhydrite        -0.23     -4.55   -4.31  CaSO4
+  Aragonite        -0.11     -8.45   -8.34  CaCO3
+  Arcanite         -7.82     -9.70   -1.88  K2SO4
+  Calcite           0.00     -8.45   -8.45  CaCO3
+  CH4(g)          -18.79    -21.59   -2.80  CH4
+  CO2(g)           -2.31     -3.78   -1.47  CO2
+  Dolomite          0.24    -16.84  -17.08  CaMg(CO3)2
+  Epsomite         -2.76     -4.50   -1.74  MgSO4:7H2O
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  FeS(ppt)         -8.56    -12.48   -3.92  FeS
+  Gibbsite          2.69     10.80    8.11  Al(OH)3
+  Goethite          5.89      4.89   -1.00  FeOOH
+  Gypsum            0.00     -4.55   -4.55  CaSO4:2H2O
+  H2(g)           -10.60    -13.70   -3.10  H2
+  H2O(g)           -1.50     -0.00    1.50  H2O
+  H2S(g)          -17.18    -25.11   -7.94  H2S
+  Halite           -6.16     -4.59    1.57  NaCl
+  Hausmannite     -16.78     44.25   61.03  Mn3O4
+  Hematite         13.79      9.79   -4.01  Fe2O3
+  Hexahydrite      -2.93     -4.50   -1.57  MgSO4:6H2O
+  Jarosite-K       -5.80    -15.01   -9.21  KFe3(SO4)2(OH)6
+  Kieserite        -3.33     -4.49   -1.16  MgSO4:H2O
+  Mackinawite      -7.83    -12.48   -4.65  FeS
+  Manganite        -8.83     16.51   25.34  MnOOH
+  Melanterite      -1.72     -3.93   -2.21  FeSO4:7H2O
+  Mirabilite       -5.58     -6.28   -0.71  Na2SO4:10H2O
+  MnO2            -19.59     21.79   41.38  MnO2
+  O2(g)           -62.07    -64.96   -2.89  O2
+  Pyrite           -8.56    -27.04  -18.48  FeS2
+  Pyrochroite      -3.97     11.23   15.20  Mn(OH)2
+  Pyrolusite      -19.60     21.78   41.38  MnO2:H2O
+  Rhodochrosite     1.91     -9.22  -11.13  MnCO3
+  Siderite          3.07     -7.82  -10.89  FeCO3
+  Smithsonite      -0.06    -10.06  -10.00  ZnCO3
+  Sphalerite       -3.10    -14.72  -11.62  ZnS
+  Sulfur          -12.50     -7.62    4.88  S
+  Sylvite          -7.21     -6.31    0.90  KCl
+  Thenardite       -6.92     -6.27    0.65  Na2SO4
+  Zn(OH)2(e)       -1.10     10.40   11.50  Zn(OH)2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+
+Cell 5.
+
+Using solution 5.	Solution after simulation 1.
+Using pure phase assemblage 5.	Pure-phase assemblage after simulation 1.
+
+-------------------------------Phase assemblage--------------------------------
+
+                                                      Moles in assemblage
+Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
+
+Al(OH)3(a)        0.00    10.80     10.80    3.314e-06   3.314e-06  -4.967e-17
+AlOHSO4          -3.55    -5.75     -2.20    0.000e+00           0   0.000e+00
+Calcite           0.00    -8.45     -8.45    8.866e-02   8.866e-02   5.357e-15
+Fe(OH)3           0.00     4.89      4.89    8.152e-01   8.152e-01  -2.998e-15
+Gypsum            0.00    -4.55     -4.55    4.844e-02   4.844e-02  -5.156e-15
+MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Al                4.084e-05   4.083e-05
+	C                 4.873e-03   4.872e-03
+	Ca                1.063e-02   1.063e-02
+	Cl                9.642e-03   9.640e-03
+	Cu                2.436e-03   2.435e-03
+	Fe                5.111e-02   5.110e-02
+	K                 2.030e-04   2.029e-04
+	Mg                1.604e-02   1.603e-02
+	Mn                1.360e-03   1.360e-03
+	Na                9.541e-03   9.538e-03
+	S                 7.811e-02   7.809e-02
+	Zn                3.349e-04   3.348e-04
+
+----------------------------Description of solution----------------------------
+
+                                        pH  =  7.332        Charge balance
+                                        pe  =  -2.056       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  9790      
+                           Density (g/cm³)  =  1.00865  
+                                Volume (L)  =  1.00334  
+                         Viscosity (mPa s)  =  0.92042  
+                         Activity of water  =  0.998  
+                  Ionic strength (mol/kgw)  =  1.850e-01  
+                        Mass of water (kg)  =  9.997e-01  
+                   Total alkalinity (eq/kg)  = 5.390e-03  
+                        Total CO2 (mol/kg)  =  4.873e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  5.063e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.109874e+02
                                    Total O  =  5.581849e+01
@@ -4895,309 +5198,6 @@ Zn            3.349e-04
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
 
-
-Cell 5.
-
-Using solution 5.	Solution after simulation 1.
-Using pure phase assemblage 5.	Pure-phase assemblage after simulation 1.
-
--------------------------------Phase assemblage--------------------------------
-
-                                                      Moles in assemblage
-Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
-
-Al(OH)3(a)       -0.00    10.80     10.80    3.314e-06   3.314e-06   2.630e-16
-AlOHSO4          -3.55    -5.75     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    8.866e-02   8.866e-02  -2.839e-14
-Fe(OH)3           0.00     4.89      4.89    8.152e-01   8.152e-01   1.588e-14
-Gypsum            0.00    -4.55     -4.55    4.844e-02   4.844e-02   2.732e-14
-MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
-
------------------------------Solution composition------------------------------
-
-	Elements           Molality       Moles
-
-	Al                4.084e-05   4.083e-05
-	C                 4.873e-03   4.872e-03
-	Ca                1.063e-02   1.063e-02
-	Cl                9.642e-03   9.640e-03
-	Cu                2.436e-03   2.435e-03
-	Fe                5.111e-02   5.110e-02
-	K                 2.030e-04   2.029e-04
-	Mg                1.604e-02   1.603e-02
-	Mn                1.360e-03   1.360e-03
-	Na                9.541e-03   9.538e-03
-	S                 7.811e-02   7.809e-02
-	Zn                3.349e-04   3.348e-04
-
-----------------------------Description of solution----------------------------
-
-                                        pH  =  7.332        Charge balance
-                                        pe  =  -2.056       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9692      
-                           Density (g/cm³)  =  1.00865  
-                                Volume (L)  =  1.00334  
-                         Viscosity (mPa s)  =  0.91288  
-                         Activity of water  =  0.998  
-                  Ionic strength (mol/kgw)  =  1.850e-01  
-                        Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  5.390e-03  
-                        Total CO2 (mol/kg)  =  4.873e-03  
-                          Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  5.059e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  1   
-                                   Total H  =  1.109874e+02
-                                   Total O  =  5.581849e+01
-
-----------------------------Distribution of species----------------------------
-
-                                               Log       Log       Log    mole V
-   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
-
-   OH-             3.043e-07   2.171e-07    -6.517    -6.663    -0.147     -3.53
-   H+              5.810e-08   4.652e-08    -7.236    -7.332    -0.097      0.00
-   H2O             5.551e+01   9.976e-01     1.744    -0.001     0.000     18.07
-Al            4.084e-05
-   Al(OH)4-        3.984e-05   2.925e-05    -4.400    -4.534    -0.134     (0)  
-   Al(OH)3         6.936e-07   7.238e-07    -6.159    -6.140     0.019     (0)  
-   Al(OH)2+        3.050e-07   2.291e-07    -6.516    -6.640    -0.124     (0)  
-   AlOH+2          4.287e-09   1.363e-09    -8.368    -8.866    -0.498    -26.95
-   AlSO4+          3.538e-10   2.598e-10    -9.451    -9.585    -0.134     (0)  
-   Al(SO4)2-       1.437e-10   1.055e-10    -9.843    -9.977    -0.134     (0)  
-   Al+3            4.733e-11   6.397e-12   -10.325   -11.194    -0.869    -40.85
-   AlHSO4+2        3.391e-18   1.072e-18   -17.470   -17.970    -0.500     (0)  
-C(-4)         2.435e-22
-   CH4             2.435e-22   2.541e-22   -21.613   -21.595     0.019     35.46
-C(4)          4.873e-03
-   HCO3-           2.122e-03   1.599e-03    -2.673    -2.796    -0.123     26.08
-   FeHCO3+         2.003e-03   1.502e-03    -2.698    -2.823    -0.125     (0)  
-   FeCO3           3.481e-04   3.633e-04    -3.458    -3.440     0.019     (0)  
-   CO2             1.630e-04   1.676e-04    -3.788    -3.776     0.012     34.79
-   MnHCO3+         7.111e-05   5.289e-05    -4.148    -4.277    -0.129     (0)  
-   MgHCO3+         6.510e-05   4.715e-05    -4.186    -4.327    -0.140      5.71
-   MnCO3           4.554e-05   4.752e-05    -4.342    -4.323     0.019     (0)  
-   ZnCO3           1.668e-05   1.741e-05    -4.778    -4.759     0.019     (0)  
-   ZnHCO3+         1.453e-05   1.089e-05    -4.838    -4.963    -0.125     (0)  
-   CaCO3           5.739e-06   5.989e-06    -5.241    -5.223     0.019    -14.60
-   CO3-2           5.070e-06   1.612e-06    -5.295    -5.793    -0.498     -2.43
-   NaHCO3          4.769e-06   5.086e-06    -5.322    -5.294     0.028     24.51
-   MgCO3           3.715e-06   3.876e-06    -5.430    -5.412     0.019    -17.09
-   Zn(CO3)2-2      1.899e-06   5.999e-07    -5.722    -6.222    -0.500     (0)  
-   KHCO3           1.000e-07   1.076e-07    -7.000    -6.968     0.032     28.65
-   CuCO3           4.013e-08   4.188e-08    -7.397    -7.378     0.019     (0)  
-   CuHCO3+         5.171e-09   3.877e-09    -8.286    -8.412    -0.125     (0)  
-   (CO2)2          4.441e-10   4.567e-10    -9.353    -9.340     0.012     68.75
-   CaHCO3+         4.075e-10   3.100e-10    -9.390    -9.509    -0.119      9.87
-   Cu(CO3)2-2      2.689e-10   8.498e-11    -9.570   -10.071    -0.500     (0)  
-Ca            1.063e-02
-   Ca+2            6.737e-03   2.212e-03    -2.172    -2.655    -0.484    -17.24
-   CaSO4           3.888e-03   3.962e-03    -2.410    -2.402     0.008      7.22
-   CaCO3           5.739e-06   5.989e-06    -5.241    -5.223     0.019    -14.60
-   CaOH+           1.050e-08   7.872e-09    -7.979    -8.104    -0.125     (0)  
-   CaHSO4+         2.060e-09   1.544e-09    -8.686    -8.811    -0.125     (0)  
-   CaHCO3+         4.075e-10   3.100e-10    -9.390    -9.509    -0.119      9.87
-Cl            9.642e-03
-   Cl-             5.502e-03   3.969e-03    -2.259    -2.401    -0.142     18.44
-   CuCl2-          1.987e-03   1.439e-03    -2.702    -2.842    -0.140     (0)  
-   FeCl+           6.866e-05   5.148e-05    -4.163    -4.288    -0.125     (0)  
-   CuCl3-2         2.957e-05   9.050e-06    -4.529    -5.043    -0.514     (0)  
-   MnCl+           8.069e-06   6.002e-06    -5.093    -5.222    -0.129     -2.88
-   ZnCl+           7.985e-07   5.783e-07    -6.098    -6.238    -0.140    -14.33
-   ZnOHCl          1.462e-07   1.526e-07    -6.835    -6.817     0.019     (0)  
-   MnCl2           9.965e-09   1.040e-08    -8.002    -7.983     0.019     85.89
-   ZnCl2           2.303e-09   2.403e-09    -8.638    -8.619     0.019    102.03
-   CuCl+           7.137e-11   5.169e-11   -10.146   -10.287    -0.140      1.11
-   HCl             5.306e-11   6.360e-11   -10.275   -10.197     0.079     20.36
-   MnCl3-          1.528e-11   1.137e-11   -10.816   -10.944    -0.129     44.19
-   ZnCl3-          1.478e-11   1.070e-11   -10.830   -10.970    -0.140     15.93
-   CuCl2           1.056e-13   1.102e-13   -12.976   -12.958     0.019     31.02
-   ZnCl4-2         6.957e-14   2.129e-14   -13.158   -13.672    -0.514    147.26
-   FeCl+2          3.090e-18   9.455e-19   -17.510   -18.024    -0.514     (0)  
-   CuCl3-          2.142e-18   1.551e-18   -17.669   -17.809    -0.140     (0)  
-   FeCl2+          2.254e-20   1.676e-20   -19.647   -19.776    -0.129     (0)  
-   CuCl4-2         1.008e-22   3.086e-23   -21.996   -22.511    -0.514     (0)  
-   FeCl3           6.376e-24   6.653e-24   -23.195   -23.177     0.019     (0)  
-Cu(1)         2.436e-03
-   CuCl2-          1.987e-03   1.439e-03    -2.702    -2.842    -0.140     (0)  
-   Cu+             4.195e-04   2.888e-04    -3.377    -3.539    -0.162     (0)  
-   CuCl3-2         2.957e-05   9.050e-06    -4.529    -5.043    -0.514     (0)  
-Cu(2)         1.182e-07
-   Cu(OH)2         4.455e-08   4.649e-08    -7.351    -7.333     0.019     (0)  
-   CuCO3           4.013e-08   4.188e-08    -7.397    -7.378     0.019     (0)  
-   Cu+2            1.444e-08   4.838e-09    -7.840    -8.315    -0.475    -25.78
-   CuSO4           1.216e-08   1.269e-08    -7.915    -7.897     0.019     13.09
-   CuHCO3+         5.171e-09   3.877e-09    -8.286    -8.412    -0.125     (0)  
-   CuOH+           1.433e-09   1.038e-09    -8.844    -8.984    -0.140     (0)  
-   Cu(CO3)2-2      2.689e-10   8.498e-11    -9.570   -10.071    -0.500     (0)  
-   CuCl+           7.137e-11   5.169e-11   -10.146   -10.287    -0.140      1.11
-   Cu2(OH)2+2      1.491e-12   4.711e-13   -11.827   -12.327    -0.500     (0)  
-   CuCl2           1.056e-13   1.102e-13   -12.976   -12.958     0.019     31.02
-   Cu(OH)3-        8.013e-14   6.007e-14   -13.096   -13.221    -0.125     (0)  
-   CuCl3-          2.142e-18   1.551e-18   -17.669   -17.809    -0.140     (0)  
-   Cu(OH)4-2       8.135e-19   2.571e-19   -18.090   -18.590    -0.500     (0)  
-   CuCl4-2         1.008e-22   3.086e-23   -21.996   -22.511    -0.514     (0)  
-   Cu(HS)3-        2.323e-36   1.742e-36   -35.634   -35.759    -0.125     (0)  
-Fe(2)         5.111e-02
-   Fe+2            2.804e-02   9.396e-03    -1.552    -2.027    -0.475    -21.27
-   FeSO4           2.056e-02   2.146e-02    -1.687    -1.668     0.019     30.28
-   FeHCO3+         2.003e-03   1.502e-03    -2.698    -2.823    -0.125     (0)  
-   FeCO3           3.481e-04   3.633e-04    -3.458    -3.440     0.019     (0)  
-   FeOH+           8.567e-05   6.372e-05    -4.067    -4.196    -0.129     (0)  
-   FeCl+           6.866e-05   5.148e-05    -4.163    -4.288    -0.125     (0)  
-   Fe(OH)2         1.115e-08   1.163e-08    -7.953    -7.934     0.019     (0)  
-   FeHSO4+         8.750e-09   6.561e-09    -8.058    -8.183    -0.125     (0)  
-   Fe(OH)3-        1.246e-11   9.267e-12   -10.905   -11.033    -0.129     (0)  
-   Fe(HS)2         2.198e-29   2.293e-29   -28.658   -28.640     0.019     (0)  
-   Fe(HS)3-        0.000e+00   0.000e+00   -44.259   -44.384    -0.125     (0)  
-Fe(3)         3.143e-08
-   Fe(OH)3         2.054e-08   2.143e-08    -7.688    -7.669     0.019     (0)  
-   Fe(OH)2+        1.033e-08   7.756e-09    -7.986    -8.110    -0.124     (0)  
-   Fe(OH)4-        5.582e-10   4.191e-10    -9.253    -9.378    -0.124     (0)  
-   FeOH+2          3.569e-12   1.092e-12   -11.447   -11.962    -0.514     (0)  
-   FeSO4+          1.493e-15   1.111e-15   -14.826   -14.954    -0.129     (0)  
-   Fe(SO4)2-       4.162e-16   3.121e-16   -15.381   -15.506    -0.125     (0)  
-   Fe+3            5.836e-17   7.888e-18   -16.234   -17.103    -0.869     (0)  
-   FeCl+2          3.090e-18   9.455e-19   -17.510   -18.024    -0.514     (0)  
-   FeCl2+          2.254e-20   1.676e-20   -19.647   -19.776    -0.129     (0)  
-   Fe2(OH)2+4      3.221e-21   3.211e-23   -20.492   -22.493    -2.001     (0)  
-   FeHSO4+2        4.379e-22   1.384e-22   -21.359   -21.859    -0.500     (0)  
-   FeCl3           6.376e-24   6.653e-24   -23.195   -23.177     0.019     (0)  
-   Fe3(OH)4+5      6.974e-26   5.204e-29   -25.156   -28.284    -3.127     (0)  
-H(0)          3.790e-14
-   H2              1.895e-14   1.982e-14   -13.722   -13.703     0.019     14.99
-K             2.030e-04
-   K+              1.731e-04   1.242e-04    -3.762    -3.906    -0.144      9.33
-   KSO4-           2.981e-05   2.427e-05    -4.526    -4.615    -0.089     28.26
-   KHCO3           1.000e-07   1.076e-07    -7.000    -6.968     0.032     28.65
-Mg            1.604e-02
-   MgSO4           7.782e-03   8.474e-03    -2.109    -2.072     0.037     -0.40
-   Mg+2            7.215e-03   2.520e-03    -2.142    -2.599    -0.457    -20.95
-   Mg(SO4)2-2      9.703e-04   3.585e-04    -3.013    -3.446    -0.432     44.86
-   MgHCO3+         6.510e-05   4.715e-05    -4.186    -4.327    -0.140      5.71
-   MgCO3           3.715e-06   3.876e-06    -5.430    -5.412     0.019    -17.09
-   MgOH+           2.554e-07   1.962e-07    -6.593    -6.707    -0.114     (0)  
-Mn(2)         1.360e-03
-   Mn+2            1.108e-03   3.712e-04    -2.956    -3.430    -0.475    -17.61
-   MnSO4           1.272e-04   1.220e-04    -3.896    -3.914    -0.018     17.15
-   MnHCO3+         7.111e-05   5.289e-05    -4.148    -4.277    -0.129     (0)  
-   MnCO3           4.554e-05   4.752e-05    -4.342    -4.323     0.019     (0)  
-   MnCl+           8.069e-06   6.002e-06    -5.093    -5.222    -0.129     -2.88
-   MnOH+           2.751e-07   2.046e-07    -6.561    -6.689    -0.129     (0)  
-   MnCl2           9.965e-09   1.040e-08    -8.002    -7.983     0.019     85.89
-   MnCl3-          1.528e-11   1.137e-11   -10.816   -10.944    -0.129     44.19
-   Mn(OH)3-        7.801e-17   5.802e-17   -16.108   -16.236    -0.129     (0)  
-Mn(3)         7.461e-31
-   Mn+3            7.461e-31   1.008e-31   -30.127   -30.996    -0.869     (0)  
-Na            9.541e-03
-   Na+             8.563e-03   6.437e-03    -2.067    -2.191    -0.124     -0.95
-   NaSO4-          9.727e-04   7.261e-04    -3.012    -3.139    -0.127     19.07
-   NaHCO3          4.769e-06   5.086e-06    -5.322    -5.294     0.028     24.51
-   Na2SO4          2.195e-09   2.279e-09    -8.659    -8.642     0.016     47.96
-O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.977   -64.959     0.019     30.40
-S(-2)         2.965e-18
-   HS-             2.320e-18   1.655e-18   -17.634   -17.781    -0.147     20.98
-   H2S             6.450e-19   6.731e-19   -18.190   -18.172     0.019     36.27
-   S-2             1.404e-23   4.297e-24   -22.853   -23.367    -0.514     (0)  
-   Zn(HS)2         1.237e-25   1.291e-25   -24.908   -24.889     0.019     (0)  
-   Fe(HS)2         2.198e-29   2.293e-29   -28.658   -28.640     0.019     (0)  
-   Cu(HS)3-        2.323e-36   1.742e-36   -35.634   -35.759    -0.125     (0)  
-   (H2S)2          2.288e-38   2.387e-38   -37.641   -37.622     0.019     30.09
-   Zn(HS)3-        0.000e+00   0.000e+00   -41.385   -41.510    -0.125     (0)  
-   Fe(HS)3-        0.000e+00   0.000e+00   -44.259   -44.384    -0.125     (0)  
-S(6)          7.811e-02
-   SO4-2           4.268e-02   1.284e-02    -1.370    -1.891    -0.522     15.49
-   FeSO4           2.056e-02   2.146e-02    -1.687    -1.668     0.019     30.28
-   MgSO4           7.782e-03   8.474e-03    -2.109    -2.072     0.037     -0.40
-   CaSO4           3.888e-03   3.962e-03    -2.410    -2.402     0.008      7.22
-   NaSO4-          9.727e-04   7.261e-04    -3.012    -3.139    -0.127     19.07
-   Mg(SO4)2-2      9.703e-04   3.585e-04    -3.013    -3.446    -0.432     44.86
-   MnSO4           1.272e-04   1.220e-04    -3.896    -3.914    -0.018     17.15
-   ZnSO4           1.212e-04   1.265e-04    -3.916    -3.898     0.019      6.48
-   KSO4-           2.981e-05   2.427e-05    -4.526    -4.615    -0.089     28.26
-   Zn(SO4)2-2      7.802e-07   1.261e-07    -6.108    -6.899    -0.791     45.27
-   HSO4-           7.747e-08   5.808e-08    -7.111    -7.236    -0.125     40.64
-   CuSO4           1.216e-08   1.269e-08    -7.915    -7.897     0.019     13.09
-   FeHSO4+         8.750e-09   6.561e-09    -8.058    -8.183    -0.125     (0)  
-   Na2SO4          2.195e-09   2.279e-09    -8.659    -8.642     0.016     47.96
-   CaHSO4+         2.060e-09   1.544e-09    -8.686    -8.811    -0.125     (0)  
-   AlSO4+          3.538e-10   2.598e-10    -9.451    -9.585    -0.134     (0)  
-   Al(SO4)2-       1.437e-10   1.055e-10    -9.843    -9.977    -0.134     (0)  
-   FeSO4+          1.493e-15   1.111e-15   -14.826   -14.954    -0.129     (0)  
-   Fe(SO4)2-       4.162e-16   3.121e-16   -15.381   -15.506    -0.125     (0)  
-   AlHSO4+2        3.391e-18   1.072e-18   -17.470   -17.970    -0.500     (0)  
-   FeHSO4+2        4.379e-22   1.384e-22   -21.359   -21.859    -0.500     (0)  
-Zn            3.349e-04
-   Zn+2            1.769e-04   5.413e-05    -3.752    -4.267    -0.514    -24.51
-   ZnSO4           1.212e-04   1.265e-04    -3.916    -3.898     0.019      6.48
-   ZnCO3           1.668e-05   1.741e-05    -4.778    -4.759     0.019     (0)  
-   ZnHCO3+         1.453e-05   1.089e-05    -4.838    -4.963    -0.125     (0)  
-   Zn(CO3)2-2      1.899e-06   5.999e-07    -5.722    -6.222    -0.500     (0)  
-   ZnOH+           1.698e-06   1.273e-06    -5.770    -5.895    -0.125     (0)  
-   ZnCl+           7.985e-07   5.783e-07    -6.098    -6.238    -0.140    -14.33
-   Zn(SO4)2-2      7.802e-07   1.261e-07    -6.108    -6.899    -0.791     45.27
-   Zn(OH)2         3.003e-07   3.134e-07    -6.522    -6.504     0.019     (0)  
-   ZnOHCl          1.462e-07   1.526e-07    -6.835    -6.817     0.019     (0)  
-   ZnCl2           2.303e-09   2.403e-09    -8.638    -8.619     0.019    102.03
-   Zn(OH)3-        2.835e-11   2.125e-11   -10.547   -10.673    -0.125     (0)  
-   ZnCl3-          1.478e-11   1.070e-11   -10.830   -10.970    -0.140     15.93
-   ZnCl4-2         6.957e-14   2.129e-14   -13.158   -13.672    -0.514    147.26
-   Zn(OH)4-2       2.286e-16   7.224e-17   -15.641   -16.141    -0.500     (0)  
-   Zn(HS)2         1.237e-25   1.291e-25   -24.908   -24.889     0.019     (0)  
-   Zn(HS)3-        0.000e+00   0.000e+00   -41.385   -41.510    -0.125     (0)  
-
-------------------------------Saturation indices-------------------------------
-
-  Phase               SI** log IAP   log K(298 K,   1 atm)
-
-  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
-  AlOHSO4          -3.55     -5.75   -2.20  AlOHSO4
-  Alunite           4.12      2.72   -1.40  KAl3(SO4)2(OH)6
-  Anhydrite        -0.23     -4.55   -4.31  CaSO4
-  Aragonite        -0.11     -8.45   -8.34  CaCO3
-  Arcanite         -7.82     -9.70   -1.88  K2SO4
-  Calcite           0.00     -8.45   -8.45  CaCO3
-  CH4(g)          -18.79    -21.59   -2.80  CH4
-  CO2(g)           -2.31     -3.78   -1.47  CO2
-  Dolomite          0.24    -16.84  -17.08  CaMg(CO3)2
-  Epsomite         -2.76     -4.50   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
-  FeS(ppt)         -8.56    -12.48   -3.92  FeS
-  Gibbsite          2.69     10.80    8.11  Al(OH)3
-  Goethite          5.89      4.89   -1.00  FeOOH
-  Gypsum            0.00     -4.55   -4.55  CaSO4:2H2O
-  H2(g)           -10.60    -13.70   -3.10  H2
-  H2O(g)           -1.50     -0.00    1.50  H2O
-  H2S(g)          -17.18    -25.11   -7.94  H2S
-  Halite           -6.16     -4.59    1.57  NaCl
-  Hausmannite     -16.78     44.25   61.03  Mn3O4
-  Hematite         13.79      9.79   -4.01  Fe2O3
-  Hexahydrite      -2.93     -4.50   -1.57  MgSO4:6H2O
-  Jarosite-K       -5.80    -15.01   -9.21  KFe3(SO4)2(OH)6
-  Kieserite        -3.33     -4.49   -1.16  MgSO4:H2O
-  Mackinawite      -7.83    -12.48   -4.65  FeS
-  Manganite        -8.83     16.51   25.34  MnOOH
-  Melanterite      -1.72     -3.93   -2.21  FeSO4:7H2O
-  Mirabilite       -5.58     -6.28   -0.71  Na2SO4:10H2O
-  MnO2            -19.59     21.79   41.38  MnO2
-  O2(g)           -62.07    -64.96   -2.89  O2
-  Pyrite           -8.56    -27.04  -18.48  FeS2
-  Pyrochroite      -3.97     11.23   15.20  Mn(OH)2
-  Pyrolusite      -19.60     21.78   41.38  MnO2:H2O
-  Rhodochrosite     1.91     -9.22  -11.13  MnCO3
-  Siderite          3.07     -7.82  -10.89  FeCO3
-  Smithsonite      -0.06    -10.06  -10.00  ZnCO3
-  Sphalerite       -3.10    -14.72  -11.62  ZnS
-  Sulfur          -12.50     -7.62    4.88  S
-  Sylvite          -7.21     -6.31    0.90  KCl
-  Thenardite       -6.92     -6.27    0.65  Na2SO4
-  Zn(OH)2(e)       -1.10     10.40   11.50  Zn(OH)2
-
-**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
-  For ideal gases, phi = 1.
-
 Beginning of advection time step 16, cumulative pore volumes 3.200000.
 Beginning of advection time step 17, cumulative pore volumes 3.400000.
 Beginning of advection time step 18, cumulative pore volumes 3.600000.
@@ -5242,18 +5242,18 @@ MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.654        Charge balance
                                         pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
+       Specific Conductance (µS/cm,  25°C)  =  11002     
                            Density (g/cm³)  =  1.01070  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.099e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
+                   Total alkalinity (eq/kg)  = -1.277e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.023e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.025e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                                    Total H  =  1.110098e+02
                                    Total O  =  5.590204e+01
@@ -5518,10 +5518,10 @@ Using pure phase assemblage 2.	Pure-phase assemblage after simulation 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Al(OH)3(a)       -3.83     6.97     10.80    0.000e+00           0   0.000e+00
-AlOHSO4          -0.00    -2.20     -2.20    4.414e-02   4.414e-02   2.161e-14
+AlOHSO4           0.00    -2.20     -2.20    4.414e-02   4.414e-02  -4.226e-14
 Calcite          -8.58   -17.03     -8.45    0.000e+00           0   0.000e+00
-Fe(OH)3           0.00     4.89      4.89    8.316e-01   8.316e-01  -1.232e-14
-Gypsum            0.00    -4.55     -4.55    1.344e-01   1.344e-01   5.551e-17
+Fe(OH)3           0.00     4.89      4.89    8.316e-01   8.316e-01   2.420e-14
+Gypsum            0.00    -4.55     -4.55    1.344e-01   1.344e-01  -3.886e-16
 MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -5545,18 +5545,18 @@ MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.654        Charge balance
                                         pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
+       Specific Conductance (µS/cm,  25°C)  =  11002     
                            Density (g/cm³)  =  1.01070  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.099e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
+                   Total alkalinity (eq/kg)  = -1.277e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.902e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.903e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.110098e+02
                                    Total O  =  5.590204e+01
@@ -5763,7 +5763,7 @@ Zn            3.349e-04
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Al(OH)3(a)       -3.83      6.97   10.80  Al(OH)3
-  AlOHSO4          -0.00     -2.20   -2.20  AlOHSO4
+  AlOHSO4           0.00     -2.20   -2.20  AlOHSO4
   Alunite           3.71      2.31   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
   Aragonite        -8.69    -17.03   -8.34  CaCO3
@@ -5848,18 +5848,18 @@ MnO2            -12.49    28.89     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.769        Charge balance
                                         pe  =  8.613        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10757     
+       Specific Conductance (µS/cm,  25°C)  =  10883     
                            Density (g/cm³)  =  1.01029  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91280  
+                         Viscosity (mPa s)  =  0.91959  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.066e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -8.068e-04 
+                   Total alkalinity (eq/kg)  = -8.068e-04 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.944e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.946e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  4   
                                    Total H  =  1.110100e+02
                                    Total O  =  5.588750e+01
@@ -6123,7 +6123,7 @@ Using pure phase assemblage 4.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)       -0.00    10.80     10.80    2.973e-04   4.072e-04   1.099e-04
+Al(OH)3(a)        0.00    10.80     10.80    2.973e-04   4.072e-04   1.099e-04
 AlOHSO4          -3.55    -5.75     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    6.565e-02   6.079e-02  -4.861e-03
 Fe(OH)3          -0.00     4.89      4.89    8.201e-01   8.215e-01   1.354e-03
@@ -6151,18 +6151,18 @@ MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  7.332        Charge balance
                                         pe  =  -2.056       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9692      
+       Specific Conductance (µS/cm,  25°C)  =  9790      
                            Density (g/cm³)  =  1.00865  
                                 Volume (L)  =  1.00334  
-                         Viscosity (mPa s)  =  0.91288  
+                         Viscosity (mPa s)  =  0.92042  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.850e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  5.390e-03  
+                   Total alkalinity (eq/kg)  = 5.390e-03  
                         Total CO2 (mol/kg)  =  4.873e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.965e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.903e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.109874e+02
                                    Total O  =  5.581849e+01
@@ -6368,7 +6368,7 @@ Zn            3.349e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -3.55     -5.75   -2.20  AlOHSO4
   Alunite           4.12      2.72   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -6426,11 +6426,11 @@ Using pure phase assemblage 5.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)       -0.00    10.80     10.80    3.314e-06   3.314e-06  -2.062e-16
+Al(OH)3(a)       -0.00    10.80     10.80    3.314e-06   3.314e-06   3.070e-17
 AlOHSO4          -3.55    -5.75     -2.20    0.000e+00           0   0.000e+00
-Calcite           0.00    -8.45     -8.45    8.866e-02   8.866e-02   2.230e-14
-Fe(OH)3           0.00     4.89      4.89    8.152e-01   8.152e-01  -1.243e-14
-Gypsum            0.00    -4.55     -4.55    4.844e-02   4.844e-02  -2.146e-14
+Calcite           0.00    -8.45     -8.45    8.866e-02   8.866e-02  -3.289e-15
+Fe(OH)3           0.00     4.89      4.89    8.152e-01   8.152e-01   1.776e-15
+Gypsum            0.00    -4.55     -4.55    4.844e-02   4.844e-02   3.164e-15
 MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -6454,18 +6454,18 @@ MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  7.332        Charge balance
                                         pe  =  -2.056       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9692      
+       Specific Conductance (µS/cm,  25°C)  =  9790      
                            Density (g/cm³)  =  1.00865  
                                 Volume (L)  =  1.00334  
-                         Viscosity (mPa s)  =  0.91288  
+                         Viscosity (mPa s)  =  0.92042  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.850e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  5.390e-03  
+                   Total alkalinity (eq/kg)  = 5.390e-03  
                         Total CO2 (mol/kg)  =  4.873e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.988e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.109874e+02
                                    Total O  =  5.581849e+01
@@ -6762,18 +6762,18 @@ MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.654        Charge balance
                                         pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
+       Specific Conductance (µS/cm,  25°C)  =  11002     
                            Density (g/cm³)  =  1.01070  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.099e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
+                   Total alkalinity (eq/kg)  = -1.277e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.023e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.025e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                                    Total H  =  1.110098e+02
                                    Total O  =  5.590204e+01
@@ -7038,10 +7038,10 @@ Using pure phase assemblage 2.	Pure-phase assemblage after simulation 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Al(OH)3(a)       -3.83     6.97     10.80    0.000e+00           0   0.000e+00
-AlOHSO4          -0.00    -2.20     -2.20    4.414e-02   4.414e-02   2.161e-14
+AlOHSO4           0.00    -2.20     -2.20    4.414e-02   4.414e-02  -4.226e-14
 Calcite          -8.58   -17.03     -8.45    0.000e+00           0   0.000e+00
-Fe(OH)3           0.00     4.89      4.89    8.316e-01   8.316e-01  -1.232e-14
-Gypsum            0.00    -4.55     -4.55    1.344e-01   1.344e-01   5.551e-17
+Fe(OH)3           0.00     4.89      4.89    8.316e-01   8.316e-01   2.420e-14
+Gypsum            0.00    -4.55     -4.55    1.344e-01   1.344e-01  -3.886e-16
 MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -7065,321 +7065,18 @@ MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  3.654        Charge balance
                                         pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
+       Specific Conductance (µS/cm,  25°C)  =  11002     
                            Density (g/cm³)  =  1.01070  
                                 Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.099e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
+                   Total alkalinity (eq/kg)  = -1.277e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.902e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  1   
-                                   Total H  =  1.110098e+02
-                                   Total O  =  5.590204e+01
-
-----------------------------Distribution of species----------------------------
-
-                                               Log       Log       Log    mole V
-   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
-
-   H+              2.785e-04   2.216e-04    -3.555    -3.654    -0.099      0.00
-   OH-             6.478e-11   4.554e-11   -10.189   -10.342    -0.153     -3.48
-   H2O             5.551e+01   9.972e-01     1.744    -0.001     0.000     18.07
-Al            9.582e-03
-   AlSO4+          6.111e-03   4.434e-03    -2.214    -2.353    -0.139     (0)  
-   Al(SO4)2-       2.658e-03   1.929e-03    -2.575    -2.715    -0.139     (0)  
-   Al+3            7.971e-04   1.019e-04    -3.098    -3.992    -0.893    -40.80
-   AlOH+2          1.494e-05   4.556e-06    -4.826    -5.341    -0.516    -26.92
-   AlHSO4+2        2.836e-07   8.715e-08    -6.547    -7.060    -0.513     (0)  
-   Al(OH)2+        2.162e-07   1.607e-07    -6.665    -6.794    -0.129     (0)  
-   Al(OH)3         1.015e-10   1.065e-10    -9.994    -9.973     0.021     (0)  
-   Al(OH)4-        1.245e-12   9.034e-13   -11.905   -12.044    -0.139     (0)  
-C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00   -81.505   -81.484     0.021     35.46
-C(4)          1.045e-05
-   CO2             1.038e-05   1.072e-05    -4.984    -4.970     0.014     34.79
-   HCO3-           2.875e-08   2.145e-08    -7.541    -7.669    -0.127     26.18
-   FeHCO3+         2.832e-08   2.108e-08    -7.548    -7.676    -0.128     (0)  
-   CuHCO3+         6.063e-09   4.514e-09    -8.217    -8.345    -0.128     (0)  
-   MnHCO3+         1.008e-09   7.417e-10    -8.996    -9.130    -0.133     (0)  
-   MgHCO3+         8.439e-10   6.031e-10    -9.074    -9.220    -0.146      5.72
-   ZnHCO3+         2.079e-10   1.548e-10    -9.682    -9.810    -0.128     (0)  
-   NaHCO3          6.248e-11   6.721e-11   -10.204   -10.173     0.032     24.51
-   CuCO3           9.752e-12   1.023e-11   -11.011   -10.990     0.021     (0)  
-   (CO2)2          1.809e-12   1.868e-12   -11.743   -11.729     0.014     68.75
-   KHCO3           1.301e-12   1.414e-12   -11.886   -11.850     0.036     28.65
-   FeCO3           1.020e-12   1.070e-12   -11.992   -11.971     0.021     (0)  
-   MnCO3           1.333e-13   1.399e-13   -12.875   -12.854     0.021     (0)  
-   ZnCO3           4.945e-14   5.190e-14   -13.306   -13.285     0.021     (0)  
-   CaCO3           1.501e-14   1.576e-14   -13.824   -13.803     0.021    -14.60
-   CO3-2           1.488e-14   4.539e-15   -13.827   -14.343    -0.516     -2.23
-   MgCO3           9.917e-15   1.041e-14   -14.004   -13.983     0.021    -17.09
-   CaHCO3+         5.156e-15   3.886e-15   -14.288   -14.410    -0.123      9.88
-   Cu(CO3)2-2      1.903e-22   5.848e-23   -21.720   -22.233    -0.513     (0)  
-   Zn(CO3)2-2      1.639e-23   5.036e-24   -22.785   -23.298    -0.513     (0)  
-Ca            1.041e-02
-   Ca+2            6.515e-03   2.066e-03    -2.186    -2.685    -0.499    -17.19
-   CaSO4           3.880e-03   3.965e-03    -2.411    -2.402     0.009      7.22
-   CaHSO4+         9.891e-06   7.364e-06    -5.005    -5.133    -0.128     (0)  
-   CaOH+           2.073e-12   1.543e-12   -11.683   -11.812    -0.128     (0)  
-   CaCO3           1.501e-14   1.576e-14   -13.824   -13.803     0.021    -14.60
-   CaHCO3+         5.156e-15   3.886e-15   -14.288   -14.410    -0.123      9.88
-Cl            9.640e-03
-   Cl-             9.489e-03   6.756e-03    -2.023    -2.170    -0.148     18.47
-   FeCl+           1.231e-04   9.166e-05    -3.910    -4.038    -0.128     (0)  
-   MnCl+           1.451e-05   1.068e-05    -4.838    -4.972    -0.133     -2.87
-   CuCl+           1.068e-05   7.635e-06    -4.971    -5.117    -0.146      1.16
-   ZnCl+           1.458e-06   1.042e-06    -5.836    -5.982    -0.146    -14.40
-   FeCl+2          5.950e-07   1.743e-07    -6.226    -6.759    -0.533     (0)  
-   HCl             4.199e-07   5.158e-07    -6.377    -6.288     0.089     20.36
-   MnCl2           3.000e-08   3.149e-08    -7.523    -7.502     0.021     85.89
-   CuCl2           2.639e-08   2.770e-08    -7.578    -7.558     0.021     31.02
-   FeCl2+          7.148e-09   5.258e-09    -8.146    -8.279    -0.133     (0)  
-   ZnCl2           7.024e-09   7.372e-09    -8.153    -8.132     0.021    102.03
-   CuCl2-          4.891e-09   3.495e-09    -8.311    -8.457    -0.146     (0)  
-   CuCl3-2         1.278e-10   3.743e-11    -9.894   -10.427    -0.533     (0)  
-   MnCl3-          7.964e-11   5.859e-11   -10.099   -10.232    -0.133     44.28
-   ZnCl3-          7.818e-11   5.588e-11   -10.107   -10.253    -0.146     15.76
-   ZnOHCl          5.496e-11   5.768e-11   -10.260   -10.239     0.021     (0)  
-   FeCl3           3.385e-12   3.553e-12   -11.470   -11.449     0.021     (0)  
-   CuCl3-          9.290e-13   6.640e-13   -12.032   -12.178    -0.146     (0)  
-   ZnCl4-2         6.460e-13   1.892e-13   -12.190   -12.723    -0.533    147.45
-   CuCl4-2         7.677e-17   2.248e-17   -16.115   -16.648    -0.533     (0)  
-Cu(1)         5.376e-09
-   CuCl2-          4.891e-09   3.495e-09    -8.311    -8.457    -0.146     (0)  
-   Cu+             3.580e-10   2.422e-10    -9.446    -9.616    -0.170     (0)  
-   CuCl3-2         1.278e-10   3.743e-11    -9.894   -10.427    -0.533     (0)  
-Cu(2)         2.435e-03
-   Cu+2            1.301e-03   4.199e-04    -2.886    -3.377    -0.491    -25.74
-   CuSO4           1.124e-03   1.179e-03    -2.949    -2.928     0.021     13.09
-   CuCl+           1.068e-05   7.635e-06    -4.971    -5.117    -0.146      1.16
-   CuOH+           2.643e-08   1.889e-08    -7.578    -7.724    -0.146     (0)  
-   CuCl2           2.639e-08   2.770e-08    -7.578    -7.558     0.021     31.02
-   CuHCO3+         6.063e-09   4.514e-09    -8.217    -8.345    -0.128     (0)  
-   Cu2(OH)2+2      5.084e-10   1.562e-10    -9.294    -9.806    -0.513     (0)  
-   Cu(OH)2         1.692e-10   1.776e-10    -9.772    -9.751     0.021     (0)  
-   CuCO3           9.752e-12   1.023e-11   -11.011   -10.990     0.021     (0)  
-   CuCl3-          9.290e-13   6.640e-13   -12.032   -12.178    -0.146     (0)  
-   CuCl4-2         7.677e-17   2.248e-17   -16.115   -16.648    -0.533     (0)  
-   Cu(OH)3-        6.468e-20   4.815e-20   -19.189   -19.317    -0.128     (0)  
-   Cu(CO3)2-2      1.903e-22   5.848e-23   -21.720   -22.233    -0.513     (0)  
-   Cu(OH)4-2       1.407e-28   4.323e-29   -27.852   -28.364    -0.513     (0)  
-   Cu(HS)3-        0.000e+00   0.000e+00  -195.653  -195.781    -0.128     (0)  
-Fe(2)         5.353e-02
-   Fe+2            3.045e-02   9.829e-03    -1.516    -2.007    -0.491    -21.23
-   FeSO4           2.291e-02   2.404e-02    -1.640    -1.619     0.021     30.28
-   FeCl+           1.231e-04   9.166e-05    -3.910    -4.038    -0.128     (0)  
-   FeHSO4+         4.705e-05   3.503e-05    -4.327    -4.456    -0.128     (0)  
-   FeHCO3+         2.832e-08   2.108e-08    -7.548    -7.676    -0.128     (0)  
-   FeOH+           1.901e-08   1.399e-08    -7.721    -7.854    -0.133     (0)  
-   FeCO3           1.020e-12   1.070e-12   -11.992   -11.971     0.021     (0)  
-   Fe(OH)2         5.103e-16   5.356e-16   -15.292   -15.271     0.021     (0)  
-   Fe(OH)3-        1.217e-22   8.954e-23   -21.915   -22.048    -0.133     (0)  
-   Fe(HS)2         0.000e+00   0.000e+00  -138.614  -138.593     0.021     (0)  
-   Fe(HS)3-        0.000e+00   0.000e+00  -209.196  -209.324    -0.128     (0)  
-Fe(3)         3.735e-04
-   FeSO4+          1.751e-04   1.288e-04    -3.757    -3.890    -0.133     (0)  
-   FeOH+2          8.472e-05   2.481e-05    -4.072    -4.605    -0.533     (0)  
-   Fe(SO4)2-       5.207e-05   3.877e-05    -4.283    -4.412    -0.128     (0)  
-   Fe(OH)2+        4.974e-05   3.697e-05    -4.303    -4.432    -0.129     (0)  
-   Fe+3            6.678e-06   8.541e-07    -5.175    -6.068    -0.893     (0)  
-   Fe2(OH)2+4      1.860e-06   1.657e-08    -5.731    -7.781    -2.050     (0)  
-   FeCl+2          5.950e-07   1.743e-07    -6.226    -6.759    -0.533     (0)  
-   FeHSO4+2        2.488e-07   7.645e-08    -6.604    -7.117    -0.513     (0)  
-   Fe3(OH)4+5      2.044e-07   1.280e-10    -6.690    -9.893    -3.203     (0)  
-   Fe(OH)3         2.042e-08   2.143e-08    -7.690    -7.669     0.021     (0)  
-   FeCl2+          7.148e-09   5.258e-09    -8.146    -8.279    -0.133     (0)  
-   FeCl3           3.385e-12   3.553e-12   -11.470   -11.449     0.021     (0)  
-   Fe(OH)4-        1.183e-13   8.794e-14   -12.927   -13.056    -0.129     (0)  
-H(0)          7.985e-29
-   H2              3.993e-29   4.200e-29   -28.399   -28.377     0.022     14.99
-K             2.029e-04
-   K+              1.717e-04   1.216e-04    -3.765    -3.915    -0.150      9.35
-   KSO4-           3.124e-05   2.545e-05    -4.505    -4.594    -0.089     28.80
-   KHCO3           1.301e-12   1.414e-12   -11.886   -11.850     0.036     28.65
-Mg            1.603e-02
-   MgSO4           7.857e-03   8.655e-03    -2.105    -2.063     0.042     -0.40
-   Mg+2            7.082e-03   2.403e-03    -2.150    -2.619    -0.469    -20.90
-   Mg(SO4)2-2      1.093e-03   3.921e-04    -2.961    -3.407    -0.445     45.22
-   MgHCO3+         8.439e-10   6.031e-10    -9.074    -9.220    -0.146      5.72
-   MgOH+           5.153e-11   3.926e-11   -10.288   -10.406    -0.118     (0)  
-   MgCO3           9.917e-15   1.041e-14   -14.004   -13.983     0.021    -17.09
-Mn(2)         1.360e-03
-   Mn+2            1.202e-03   3.879e-04    -2.920    -3.411    -0.491    -17.50
-   MnSO4           1.432e-04   1.365e-04    -3.844    -3.865    -0.021     17.15
-   MnCl+           1.451e-05   1.068e-05    -4.838    -4.972    -0.133     -2.87
-   MnCl2           3.000e-08   3.149e-08    -7.523    -7.502     0.021     85.89
-   MnHCO3+         1.008e-09   7.417e-10    -8.996    -9.130    -0.133     (0)  
-   MnCl3-          7.964e-11   5.859e-11   -10.099   -10.232    -0.133     44.28
-   MnOH+           6.099e-11   4.487e-11   -10.215   -10.348    -0.133     (0)  
-   MnCO3           1.333e-13   1.399e-13   -12.875   -12.854     0.021     (0)  
-   Mn(OH)3-        7.614e-28   5.601e-28   -27.118   -27.252    -0.133     (0)  
-Mn(3)         8.530e-20
-   Mn+3            8.530e-20   1.091e-20   -19.069   -19.962    -0.893     (0)  
-Na            9.538e-03
-   Na+             8.504e-03   6.339e-03    -2.070    -2.198    -0.128     -0.92
-   NaSO4-          1.035e-03   7.660e-04    -2.985    -3.116    -0.131     19.25
-   Na2SO4          2.269e-09   2.368e-09    -8.644    -8.626     0.019     47.96
-   NaHCO3          6.248e-11   6.721e-11   -10.204   -10.173     0.032     24.51
-O(0)          4.661e-36
-   O2              2.331e-36   2.446e-36   -35.633   -35.612     0.021     30.40
-S(-2)         0.000e+00
-   H2S             0.000e+00   0.000e+00   -69.502   -69.481     0.021     36.27
-   HS-             0.000e+00   0.000e+00   -72.615   -72.768    -0.153     21.01
-   S-2             0.000e+00   0.000e+00   -81.498   -82.032    -0.533     (0)  
-   Zn(HS)2         0.000e+00   0.000e+00  -134.859  -134.838     0.021     (0)  
-   Fe(HS)2         0.000e+00   0.000e+00  -138.614  -138.593     0.021     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -140.260  -140.239     0.021     30.09
-   Cu(HS)3-        0.000e+00   0.000e+00  -195.653  -195.781    -0.128     (0)  
-   Zn(HS)3-        0.000e+00   0.000e+00  -206.317  -206.446    -0.128     (0)  
-   Fe(HS)3-        0.000e+00   0.000e+00  -209.196  -209.324    -0.128     (0)  
-S(6)          9.935e-02
-   SO4-2           4.788e-02   1.376e-02    -1.320    -1.862    -0.542     15.58
-   FeSO4           2.291e-02   2.404e-02    -1.640    -1.619     0.021     30.28
-   MgSO4           7.857e-03   8.655e-03    -2.105    -2.063     0.042     -0.40
-   AlSO4+          6.111e-03   4.434e-03    -2.214    -2.353    -0.139     (0)  
-   CaSO4           3.880e-03   3.965e-03    -2.411    -2.402     0.009      7.22
-   Al(SO4)2-       2.658e-03   1.929e-03    -2.575    -2.715    -0.139     (0)  
-   CuSO4           1.124e-03   1.179e-03    -2.949    -2.928     0.021     13.09
-   Mg(SO4)2-2      1.093e-03   3.921e-04    -2.961    -3.407    -0.445     45.22
-   NaSO4-          1.035e-03   7.660e-04    -2.985    -3.116    -0.131     19.25
-   HSO4-           3.981e-04   2.964e-04    -3.400    -3.528    -0.128     40.66
-   FeSO4+          1.751e-04   1.288e-04    -3.757    -3.890    -0.133     (0)  
-   MnSO4           1.432e-04   1.365e-04    -3.844    -3.865    -0.021     17.15
-   ZnSO4           1.367e-04   1.434e-04    -3.864    -3.843     0.021      6.48
-   Fe(SO4)2-       5.207e-05   3.877e-05    -4.283    -4.412    -0.128     (0)  
-   FeHSO4+         4.705e-05   3.503e-05    -4.327    -4.456    -0.128     (0)  
-   KSO4-           3.124e-05   2.545e-05    -4.505    -4.594    -0.089     28.80
-   CaHSO4+         9.891e-06   7.364e-06    -5.005    -5.133    -0.128     (0)  
-   Zn(SO4)2-2      1.053e-06   1.532e-07    -5.977    -6.815    -0.837     45.30
-   AlHSO4+2        2.836e-07   8.715e-08    -6.547    -7.060    -0.513     (0)  
-   FeHSO4+2        2.488e-07   7.645e-08    -6.604    -7.117    -0.513     (0)  
-   Na2SO4          2.269e-09   2.368e-09    -8.644    -8.626     0.019     47.96
-Zn            3.349e-04
-   Zn+2            1.957e-04   5.731e-05    -3.708    -4.242    -0.533    -24.47
-   ZnSO4           1.367e-04   1.434e-04    -3.864    -3.843     0.021      6.48
-   ZnCl+           1.458e-06   1.042e-06    -5.836    -5.982    -0.146    -14.40
-   Zn(SO4)2-2      1.053e-06   1.532e-07    -5.977    -6.815    -0.837     45.30
-   ZnCl2           7.024e-09   7.372e-09    -8.153    -8.132     0.021    102.03
-   ZnOH+           3.797e-10   2.827e-10    -9.421    -9.549    -0.128     (0)  
-   ZnHCO3+         2.079e-10   1.548e-10    -9.682    -9.810    -0.128     (0)  
-   ZnCl3-          7.818e-11   5.588e-11   -10.107   -10.253    -0.146     15.76
-   ZnOHCl          5.496e-11   5.768e-11   -10.260   -10.239     0.021     (0)  
-   ZnCl4-2         6.460e-13   1.892e-13   -12.190   -12.723    -0.533    147.45
-   ZnCO3           4.945e-14   5.190e-14   -13.306   -13.285     0.021     (0)  
-   Zn(OH)2         1.392e-14   1.461e-14   -13.856   -13.835     0.021     (0)  
-   Zn(OH)3-        2.791e-22   2.078e-22   -21.554   -21.682    -0.128     (0)  
-   Zn(CO3)2-2      1.639e-23   5.036e-24   -22.785   -23.298    -0.513     (0)  
-   Zn(OH)4-2       4.824e-31   1.482e-31   -30.317   -30.829    -0.513     (0)  
-   Zn(HS)2         0.000e+00   0.000e+00  -134.859  -134.838     0.021     (0)  
-   Zn(HS)3-        0.000e+00   0.000e+00  -206.317  -206.446    -0.128     (0)  
-
-------------------------------Saturation indices-------------------------------
-
-  Phase               SI** log IAP   log K(298 K,   1 atm)
-
-  Al(OH)3(a)       -3.83      6.97   10.80  Al(OH)3
-  AlOHSO4          -0.00     -2.20   -2.20  AlOHSO4
-  Alunite           3.71      2.31   -1.40  KAl3(SO4)2(OH)6
-  Anhydrite        -0.23     -4.55   -4.31  CaSO4
-  Aragonite        -8.69    -17.03   -8.34  CaCO3
-  Arcanite         -7.81     -9.69   -1.88  K2SO4
-  Calcite          -8.58    -17.03   -8.45  CaCO3
-  CH4(g)          -78.68    -81.48   -2.80  CH4
-  CO2(g)           -3.50     -4.97   -1.47  CO2
-  Dolomite        -16.91    -33.99  -17.08  CaMg(CO3)2
-  Epsomite         -2.75     -4.49   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
-  FeS(ppt)        -67.21    -71.12   -3.92  FeS
-  Gibbsite         -1.14      6.97    8.11  Al(OH)3
-  Goethite          5.89      4.89   -1.00  FeOOH
-  Gypsum            0.00     -4.55   -4.55  CaSO4:2H2O
-  H2(g)           -25.28    -28.38   -3.10  H2
-  H2O(g)           -1.50     -0.00    1.50  H2O
-  H2S(g)          -68.49    -76.42   -7.94  H2S
-  Halite           -5.94     -4.37    1.57  NaCl
-  Hausmannite     -24.12     36.91   61.03  Mn3O4
-  Hematite         13.79      9.79   -4.01  Fe2O3
-  Hexahydrite      -2.92     -4.49   -1.57  MgSO4:6H2O
-  Jarosite-K        5.29     -3.92   -9.21  KFe3(SO4)2(OH)6
-  Kieserite        -3.32     -4.48   -1.16  MgSO4:H2O
-  Mackinawite     -66.47    -71.12   -4.65  FeS
-  Manganite        -8.83     16.51   25.34  MnOOH
-  Melanterite      -1.67     -3.88   -2.21  FeSO4:7H2O
-  Mirabilite       -5.56     -6.27   -0.71  Na2SO4:10H2O
-  MnO2            -12.26     29.12   41.38  MnO2
-  O2(g)           -32.72    -35.61   -2.89  O2
-  Pyrite         -103.84   -122.32  -18.48  FeS2
-  Pyrochroite     -11.30      3.90   15.20  Mn(OH)2
-  Pyrolusite      -12.26     29.12   41.38  MnO2:H2O
-  Rhodochrosite    -6.62    -17.75  -11.13  MnCO3
-  Siderite         -5.46    -16.35  -10.89  FeCO3
-  Smithsonite      -8.58    -18.58  -10.00  ZnCO3
-  Sphalerite      -61.74    -73.36  -11.62  ZnS
-  Sulfur          -49.14    -44.25    4.88  S
-  Sylvite          -6.99     -6.09    0.90  KCl
-  Thenardite       -6.91     -6.26    0.65  Na2SO4
-  Zn(OH)2(e)       -8.44      3.06   11.50  Zn(OH)2
-
-**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
-  For ideal gases, phi = 1.
-
-
-Cell 3.
-
-Using solution 3.	Solution after simulation 1.
-Using pure phase assemblage 3.	Pure-phase assemblage after simulation 1.
-
--------------------------------Phase assemblage--------------------------------
-
-                                                      Moles in assemblage
-Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
-
-Al(OH)3(a)       -3.83     6.97     10.80    0.000e+00           0   0.000e+00
-AlOHSO4           0.00    -2.20     -2.20    4.880e-02   4.880e-02   4.857e-16
-Calcite          -8.58   -17.03     -8.45    0.000e+00           0   0.000e+00
-Fe(OH)3           0.00     4.89      4.89    8.292e-01   8.292e-01  -3.331e-16
-Gypsum            0.00    -4.55     -4.55    1.346e-01   1.346e-01  -2.776e-17
-MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
-
------------------------------Solution composition------------------------------
-
-	Elements           Molality       Moles
-
-	Al                9.582e-03   9.582e-03
-	C                 1.045e-05   1.045e-05
-	Ca                1.041e-02   1.040e-02
-	Cl                9.640e-03   9.640e-03
-	Cu                2.435e-03   2.435e-03
-	Fe                5.391e-02   5.390e-02
-	K                 2.029e-04   2.029e-04
-	Mg                1.603e-02   1.603e-02
-	Mn                1.360e-03   1.360e-03
-	Na                9.538e-03   9.538e-03
-	S                 9.935e-02   9.935e-02
-	Zn                3.349e-04   3.348e-04
-
-----------------------------Description of solution----------------------------
-
-                                        pH  =  3.654        Charge balance
-                                        pe  =  8.959        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10872     
-                           Density (g/cm³)  =  1.01070  
-                                Volume (L)  =  1.00367  
-                         Viscosity (mPa s)  =  0.91298  
-                         Activity of water  =  0.997  
-                  Ionic strength (mol/kgw)  =  2.099e-01  
-                        Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.277e-03 
-                        Total CO2 (mol/kg)  =  1.045e-05  
-                          Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.863e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.903e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.110098e+02
                                    Total O  =  5.590204e+01
@@ -7633,6 +7330,309 @@ Zn            3.349e-04
   For ideal gases, phi = 1.
 
 
+Cell 3.
+
+Using solution 3.	Solution after simulation 1.
+Using pure phase assemblage 3.	Pure-phase assemblage after simulation 1.
+
+-------------------------------Phase assemblage--------------------------------
+
+                                                      Moles in assemblage
+Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
+
+Al(OH)3(a)       -3.83     6.97     10.80    0.000e+00           0   0.000e+00
+AlOHSO4          -0.00    -2.20     -2.20    4.880e-02   4.880e-02  -2.107e-14
+Calcite          -8.58   -17.03     -8.45    0.000e+00           0   0.000e+00
+Fe(OH)3           0.00     4.89      4.89    8.292e-01   8.292e-01   1.210e-14
+Gypsum            0.00    -4.55     -4.55    1.346e-01   1.346e-01  -1.665e-16
+MnO2            -12.26    29.12     41.38    0.000e+00           0   0.000e+00
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Al                9.582e-03   9.582e-03
+	C                 1.045e-05   1.045e-05
+	Ca                1.041e-02   1.040e-02
+	Cl                9.640e-03   9.640e-03
+	Cu                2.435e-03   2.435e-03
+	Fe                5.391e-02   5.390e-02
+	K                 2.029e-04   2.029e-04
+	Mg                1.603e-02   1.603e-02
+	Mn                1.360e-03   1.360e-03
+	Na                9.538e-03   9.538e-03
+	S                 9.935e-02   9.935e-02
+	Zn                3.349e-04   3.348e-04
+
+----------------------------Description of solution----------------------------
+
+                                        pH  =  3.654        Charge balance
+                                        pe  =  8.959        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  11002     
+                           Density (g/cm³)  =  1.01070  
+                                Volume (L)  =  1.00367  
+                         Viscosity (mPa s)  =  0.91971  
+                         Activity of water  =  0.997  
+                  Ionic strength (mol/kgw)  =  2.099e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = -1.277e-03 
+                        Total CO2 (mol/kg)  =  1.045e-05  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  1.864e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  1   
+                                   Total H  =  1.110098e+02
+                                   Total O  =  5.590204e+01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   H+              2.785e-04   2.216e-04    -3.555    -3.654    -0.099      0.00
+   OH-             6.478e-11   4.554e-11   -10.189   -10.342    -0.153     -3.48
+   H2O             5.551e+01   9.972e-01     1.744    -0.001     0.000     18.07
+Al            9.582e-03
+   AlSO4+          6.111e-03   4.434e-03    -2.214    -2.353    -0.139     (0)  
+   Al(SO4)2-       2.658e-03   1.929e-03    -2.575    -2.715    -0.139     (0)  
+   Al+3            7.971e-04   1.019e-04    -3.098    -3.992    -0.893    -40.80
+   AlOH+2          1.494e-05   4.556e-06    -4.826    -5.341    -0.516    -26.92
+   AlHSO4+2        2.836e-07   8.715e-08    -6.547    -7.060    -0.513     (0)  
+   Al(OH)2+        2.162e-07   1.607e-07    -6.665    -6.794    -0.129     (0)  
+   Al(OH)3         1.015e-10   1.065e-10    -9.994    -9.973     0.021     (0)  
+   Al(OH)4-        1.245e-12   9.034e-13   -11.905   -12.044    -0.139     (0)  
+C(-4)         0.000e+00
+   CH4             0.000e+00   0.000e+00   -81.505   -81.484     0.021     35.46
+C(4)          1.045e-05
+   CO2             1.038e-05   1.072e-05    -4.984    -4.970     0.014     34.79
+   HCO3-           2.875e-08   2.145e-08    -7.541    -7.669    -0.127     26.18
+   FeHCO3+         2.832e-08   2.108e-08    -7.548    -7.676    -0.128     (0)  
+   CuHCO3+         6.063e-09   4.514e-09    -8.217    -8.345    -0.128     (0)  
+   MnHCO3+         1.008e-09   7.417e-10    -8.996    -9.130    -0.133     (0)  
+   MgHCO3+         8.439e-10   6.031e-10    -9.074    -9.220    -0.146      5.72
+   ZnHCO3+         2.079e-10   1.548e-10    -9.682    -9.810    -0.128     (0)  
+   NaHCO3          6.248e-11   6.721e-11   -10.204   -10.173     0.032     24.51
+   CuCO3           9.752e-12   1.023e-11   -11.011   -10.990     0.021     (0)  
+   (CO2)2          1.809e-12   1.868e-12   -11.743   -11.729     0.014     68.75
+   KHCO3           1.301e-12   1.414e-12   -11.886   -11.850     0.036     28.65
+   FeCO3           1.020e-12   1.070e-12   -11.992   -11.971     0.021     (0)  
+   MnCO3           1.333e-13   1.399e-13   -12.875   -12.854     0.021     (0)  
+   ZnCO3           4.945e-14   5.190e-14   -13.306   -13.285     0.021     (0)  
+   CaCO3           1.501e-14   1.576e-14   -13.824   -13.803     0.021    -14.60
+   CO3-2           1.488e-14   4.539e-15   -13.827   -14.343    -0.516     -2.23
+   MgCO3           9.917e-15   1.041e-14   -14.004   -13.983     0.021    -17.09
+   CaHCO3+         5.156e-15   3.886e-15   -14.288   -14.410    -0.123      9.88
+   Cu(CO3)2-2      1.903e-22   5.848e-23   -21.720   -22.233    -0.513     (0)  
+   Zn(CO3)2-2      1.639e-23   5.036e-24   -22.785   -23.298    -0.513     (0)  
+Ca            1.041e-02
+   Ca+2            6.515e-03   2.066e-03    -2.186    -2.685    -0.499    -17.19
+   CaSO4           3.880e-03   3.965e-03    -2.411    -2.402     0.009      7.22
+   CaHSO4+         9.891e-06   7.364e-06    -5.005    -5.133    -0.128     (0)  
+   CaOH+           2.073e-12   1.543e-12   -11.683   -11.812    -0.128     (0)  
+   CaCO3           1.501e-14   1.576e-14   -13.824   -13.803     0.021    -14.60
+   CaHCO3+         5.156e-15   3.886e-15   -14.288   -14.410    -0.123      9.88
+Cl            9.640e-03
+   Cl-             9.489e-03   6.756e-03    -2.023    -2.170    -0.148     18.47
+   FeCl+           1.231e-04   9.166e-05    -3.910    -4.038    -0.128     (0)  
+   MnCl+           1.451e-05   1.068e-05    -4.838    -4.972    -0.133     -2.87
+   CuCl+           1.068e-05   7.635e-06    -4.971    -5.117    -0.146      1.16
+   ZnCl+           1.458e-06   1.042e-06    -5.836    -5.982    -0.146    -14.40
+   FeCl+2          5.950e-07   1.743e-07    -6.226    -6.759    -0.533     (0)  
+   HCl             4.199e-07   5.158e-07    -6.377    -6.288     0.089     20.36
+   MnCl2           3.000e-08   3.149e-08    -7.523    -7.502     0.021     85.89
+   CuCl2           2.639e-08   2.770e-08    -7.578    -7.558     0.021     31.02
+   FeCl2+          7.148e-09   5.258e-09    -8.146    -8.279    -0.133     (0)  
+   ZnCl2           7.024e-09   7.372e-09    -8.153    -8.132     0.021    102.03
+   CuCl2-          4.891e-09   3.495e-09    -8.311    -8.457    -0.146     (0)  
+   CuCl3-2         1.278e-10   3.743e-11    -9.894   -10.427    -0.533     (0)  
+   MnCl3-          7.964e-11   5.859e-11   -10.099   -10.232    -0.133     44.28
+   ZnCl3-          7.818e-11   5.588e-11   -10.107   -10.253    -0.146     15.76
+   ZnOHCl          5.496e-11   5.768e-11   -10.260   -10.239     0.021     (0)  
+   FeCl3           3.385e-12   3.553e-12   -11.470   -11.449     0.021     (0)  
+   CuCl3-          9.290e-13   6.640e-13   -12.032   -12.178    -0.146     (0)  
+   ZnCl4-2         6.460e-13   1.892e-13   -12.190   -12.723    -0.533    147.45
+   CuCl4-2         7.677e-17   2.248e-17   -16.115   -16.648    -0.533     (0)  
+Cu(1)         5.376e-09
+   CuCl2-          4.891e-09   3.495e-09    -8.311    -8.457    -0.146     (0)  
+   Cu+             3.580e-10   2.422e-10    -9.446    -9.616    -0.170     (0)  
+   CuCl3-2         1.278e-10   3.743e-11    -9.894   -10.427    -0.533     (0)  
+Cu(2)         2.435e-03
+   Cu+2            1.301e-03   4.199e-04    -2.886    -3.377    -0.491    -25.74
+   CuSO4           1.124e-03   1.179e-03    -2.949    -2.928     0.021     13.09
+   CuCl+           1.068e-05   7.635e-06    -4.971    -5.117    -0.146      1.16
+   CuOH+           2.643e-08   1.889e-08    -7.578    -7.724    -0.146     (0)  
+   CuCl2           2.639e-08   2.770e-08    -7.578    -7.558     0.021     31.02
+   CuHCO3+         6.063e-09   4.514e-09    -8.217    -8.345    -0.128     (0)  
+   Cu2(OH)2+2      5.084e-10   1.562e-10    -9.294    -9.806    -0.513     (0)  
+   Cu(OH)2         1.692e-10   1.776e-10    -9.772    -9.751     0.021     (0)  
+   CuCO3           9.752e-12   1.023e-11   -11.011   -10.990     0.021     (0)  
+   CuCl3-          9.290e-13   6.640e-13   -12.032   -12.178    -0.146     (0)  
+   CuCl4-2         7.677e-17   2.248e-17   -16.115   -16.648    -0.533     (0)  
+   Cu(OH)3-        6.468e-20   4.815e-20   -19.189   -19.317    -0.128     (0)  
+   Cu(CO3)2-2      1.903e-22   5.848e-23   -21.720   -22.233    -0.513     (0)  
+   Cu(OH)4-2       1.407e-28   4.323e-29   -27.852   -28.364    -0.513     (0)  
+   Cu(HS)3-        0.000e+00   0.000e+00  -195.653  -195.781    -0.128     (0)  
+Fe(2)         5.353e-02
+   Fe+2            3.045e-02   9.829e-03    -1.516    -2.007    -0.491    -21.23
+   FeSO4           2.291e-02   2.404e-02    -1.640    -1.619     0.021     30.28
+   FeCl+           1.231e-04   9.166e-05    -3.910    -4.038    -0.128     (0)  
+   FeHSO4+         4.705e-05   3.503e-05    -4.327    -4.456    -0.128     (0)  
+   FeHCO3+         2.832e-08   2.108e-08    -7.548    -7.676    -0.128     (0)  
+   FeOH+           1.901e-08   1.399e-08    -7.721    -7.854    -0.133     (0)  
+   FeCO3           1.020e-12   1.070e-12   -11.992   -11.971     0.021     (0)  
+   Fe(OH)2         5.103e-16   5.356e-16   -15.292   -15.271     0.021     (0)  
+   Fe(OH)3-        1.217e-22   8.954e-23   -21.915   -22.048    -0.133     (0)  
+   Fe(HS)2         0.000e+00   0.000e+00  -138.614  -138.593     0.021     (0)  
+   Fe(HS)3-        0.000e+00   0.000e+00  -209.196  -209.324    -0.128     (0)  
+Fe(3)         3.735e-04
+   FeSO4+          1.751e-04   1.288e-04    -3.757    -3.890    -0.133     (0)  
+   FeOH+2          8.472e-05   2.481e-05    -4.072    -4.605    -0.533     (0)  
+   Fe(SO4)2-       5.207e-05   3.877e-05    -4.283    -4.412    -0.128     (0)  
+   Fe(OH)2+        4.974e-05   3.697e-05    -4.303    -4.432    -0.129     (0)  
+   Fe+3            6.678e-06   8.541e-07    -5.175    -6.068    -0.893     (0)  
+   Fe2(OH)2+4      1.860e-06   1.657e-08    -5.731    -7.781    -2.050     (0)  
+   FeCl+2          5.950e-07   1.743e-07    -6.226    -6.759    -0.533     (0)  
+   FeHSO4+2        2.488e-07   7.645e-08    -6.604    -7.117    -0.513     (0)  
+   Fe3(OH)4+5      2.044e-07   1.280e-10    -6.690    -9.893    -3.203     (0)  
+   Fe(OH)3         2.042e-08   2.143e-08    -7.690    -7.669     0.021     (0)  
+   FeCl2+          7.148e-09   5.258e-09    -8.146    -8.279    -0.133     (0)  
+   FeCl3           3.385e-12   3.553e-12   -11.470   -11.449     0.021     (0)  
+   Fe(OH)4-        1.183e-13   8.794e-14   -12.927   -13.056    -0.129     (0)  
+H(0)          7.985e-29
+   H2              3.993e-29   4.200e-29   -28.399   -28.377     0.022     14.99
+K             2.029e-04
+   K+              1.717e-04   1.216e-04    -3.765    -3.915    -0.150      9.35
+   KSO4-           3.124e-05   2.545e-05    -4.505    -4.594    -0.089     28.80
+   KHCO3           1.301e-12   1.414e-12   -11.886   -11.850     0.036     28.65
+Mg            1.603e-02
+   MgSO4           7.857e-03   8.655e-03    -2.105    -2.063     0.042     -0.40
+   Mg+2            7.082e-03   2.403e-03    -2.150    -2.619    -0.469    -20.90
+   Mg(SO4)2-2      1.093e-03   3.921e-04    -2.961    -3.407    -0.445     45.22
+   MgHCO3+         8.439e-10   6.031e-10    -9.074    -9.220    -0.146      5.72
+   MgOH+           5.153e-11   3.926e-11   -10.288   -10.406    -0.118     (0)  
+   MgCO3           9.917e-15   1.041e-14   -14.004   -13.983     0.021    -17.09
+Mn(2)         1.360e-03
+   Mn+2            1.202e-03   3.879e-04    -2.920    -3.411    -0.491    -17.50
+   MnSO4           1.432e-04   1.365e-04    -3.844    -3.865    -0.021     17.15
+   MnCl+           1.451e-05   1.068e-05    -4.838    -4.972    -0.133     -2.87
+   MnCl2           3.000e-08   3.149e-08    -7.523    -7.502     0.021     85.89
+   MnHCO3+         1.008e-09   7.417e-10    -8.996    -9.130    -0.133     (0)  
+   MnCl3-          7.964e-11   5.859e-11   -10.099   -10.232    -0.133     44.28
+   MnOH+           6.099e-11   4.487e-11   -10.215   -10.348    -0.133     (0)  
+   MnCO3           1.333e-13   1.399e-13   -12.875   -12.854     0.021     (0)  
+   Mn(OH)3-        7.614e-28   5.601e-28   -27.118   -27.252    -0.133     (0)  
+Mn(3)         8.530e-20
+   Mn+3            8.530e-20   1.091e-20   -19.069   -19.962    -0.893     (0)  
+Na            9.538e-03
+   Na+             8.504e-03   6.339e-03    -2.070    -2.198    -0.128     -0.92
+   NaSO4-          1.035e-03   7.660e-04    -2.985    -3.116    -0.131     19.25
+   Na2SO4          2.269e-09   2.368e-09    -8.644    -8.626     0.019     47.96
+   NaHCO3          6.248e-11   6.721e-11   -10.204   -10.173     0.032     24.51
+O(0)          4.661e-36
+   O2              2.331e-36   2.446e-36   -35.633   -35.612     0.021     30.40
+S(-2)         0.000e+00
+   H2S             0.000e+00   0.000e+00   -69.502   -69.481     0.021     36.27
+   HS-             0.000e+00   0.000e+00   -72.615   -72.768    -0.153     21.01
+   S-2             0.000e+00   0.000e+00   -81.498   -82.032    -0.533     (0)  
+   Zn(HS)2         0.000e+00   0.000e+00  -134.859  -134.838     0.021     (0)  
+   Fe(HS)2         0.000e+00   0.000e+00  -138.614  -138.593     0.021     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -140.260  -140.239     0.021     30.09
+   Cu(HS)3-        0.000e+00   0.000e+00  -195.653  -195.781    -0.128     (0)  
+   Zn(HS)3-        0.000e+00   0.000e+00  -206.317  -206.446    -0.128     (0)  
+   Fe(HS)3-        0.000e+00   0.000e+00  -209.196  -209.324    -0.128     (0)  
+S(6)          9.935e-02
+   SO4-2           4.788e-02   1.376e-02    -1.320    -1.862    -0.542     15.58
+   FeSO4           2.291e-02   2.404e-02    -1.640    -1.619     0.021     30.28
+   MgSO4           7.857e-03   8.655e-03    -2.105    -2.063     0.042     -0.40
+   AlSO4+          6.111e-03   4.434e-03    -2.214    -2.353    -0.139     (0)  
+   CaSO4           3.880e-03   3.965e-03    -2.411    -2.402     0.009      7.22
+   Al(SO4)2-       2.658e-03   1.929e-03    -2.575    -2.715    -0.139     (0)  
+   CuSO4           1.124e-03   1.179e-03    -2.949    -2.928     0.021     13.09
+   Mg(SO4)2-2      1.093e-03   3.921e-04    -2.961    -3.407    -0.445     45.22
+   NaSO4-          1.035e-03   7.660e-04    -2.985    -3.116    -0.131     19.25
+   HSO4-           3.981e-04   2.964e-04    -3.400    -3.528    -0.128     40.66
+   FeSO4+          1.751e-04   1.288e-04    -3.757    -3.890    -0.133     (0)  
+   MnSO4           1.432e-04   1.365e-04    -3.844    -3.865    -0.021     17.15
+   ZnSO4           1.367e-04   1.434e-04    -3.864    -3.843     0.021      6.48
+   Fe(SO4)2-       5.207e-05   3.877e-05    -4.283    -4.412    -0.128     (0)  
+   FeHSO4+         4.705e-05   3.503e-05    -4.327    -4.456    -0.128     (0)  
+   KSO4-           3.124e-05   2.545e-05    -4.505    -4.594    -0.089     28.80
+   CaHSO4+         9.891e-06   7.364e-06    -5.005    -5.133    -0.128     (0)  
+   Zn(SO4)2-2      1.053e-06   1.532e-07    -5.977    -6.815    -0.837     45.30
+   AlHSO4+2        2.836e-07   8.715e-08    -6.547    -7.060    -0.513     (0)  
+   FeHSO4+2        2.488e-07   7.645e-08    -6.604    -7.117    -0.513     (0)  
+   Na2SO4          2.269e-09   2.368e-09    -8.644    -8.626     0.019     47.96
+Zn            3.349e-04
+   Zn+2            1.957e-04   5.731e-05    -3.708    -4.242    -0.533    -24.47
+   ZnSO4           1.367e-04   1.434e-04    -3.864    -3.843     0.021      6.48
+   ZnCl+           1.458e-06   1.042e-06    -5.836    -5.982    -0.146    -14.40
+   Zn(SO4)2-2      1.053e-06   1.532e-07    -5.977    -6.815    -0.837     45.30
+   ZnCl2           7.024e-09   7.372e-09    -8.153    -8.132     0.021    102.03
+   ZnOH+           3.797e-10   2.827e-10    -9.421    -9.549    -0.128     (0)  
+   ZnHCO3+         2.079e-10   1.548e-10    -9.682    -9.810    -0.128     (0)  
+   ZnCl3-          7.818e-11   5.588e-11   -10.107   -10.253    -0.146     15.76
+   ZnOHCl          5.496e-11   5.768e-11   -10.260   -10.239     0.021     (0)  
+   ZnCl4-2         6.460e-13   1.892e-13   -12.190   -12.723    -0.533    147.45
+   ZnCO3           4.945e-14   5.190e-14   -13.306   -13.285     0.021     (0)  
+   Zn(OH)2         1.392e-14   1.461e-14   -13.856   -13.835     0.021     (0)  
+   Zn(OH)3-        2.791e-22   2.078e-22   -21.554   -21.682    -0.128     (0)  
+   Zn(CO3)2-2      1.639e-23   5.036e-24   -22.785   -23.298    -0.513     (0)  
+   Zn(OH)4-2       4.824e-31   1.482e-31   -30.317   -30.829    -0.513     (0)  
+   Zn(HS)2         0.000e+00   0.000e+00  -134.859  -134.838     0.021     (0)  
+   Zn(HS)3-        0.000e+00   0.000e+00  -206.317  -206.446    -0.128     (0)  
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(298 K,   1 atm)
+
+  Al(OH)3(a)       -3.83      6.97   10.80  Al(OH)3
+  AlOHSO4          -0.00     -2.20   -2.20  AlOHSO4
+  Alunite           3.71      2.31   -1.40  KAl3(SO4)2(OH)6
+  Anhydrite        -0.23     -4.55   -4.31  CaSO4
+  Aragonite        -8.69    -17.03   -8.34  CaCO3
+  Arcanite         -7.81     -9.69   -1.88  K2SO4
+  Calcite          -8.58    -17.03   -8.45  CaCO3
+  CH4(g)          -78.68    -81.48   -2.80  CH4
+  CO2(g)           -3.50     -4.97   -1.47  CO2
+  Dolomite        -16.91    -33.99  -17.08  CaMg(CO3)2
+  Epsomite         -2.75     -4.49   -1.74  MgSO4:7H2O
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  FeS(ppt)        -67.21    -71.12   -3.92  FeS
+  Gibbsite         -1.14      6.97    8.11  Al(OH)3
+  Goethite          5.89      4.89   -1.00  FeOOH
+  Gypsum            0.00     -4.55   -4.55  CaSO4:2H2O
+  H2(g)           -25.28    -28.38   -3.10  H2
+  H2O(g)           -1.50     -0.00    1.50  H2O
+  H2S(g)          -68.49    -76.42   -7.94  H2S
+  Halite           -5.94     -4.37    1.57  NaCl
+  Hausmannite     -24.12     36.91   61.03  Mn3O4
+  Hematite         13.79      9.79   -4.01  Fe2O3
+  Hexahydrite      -2.92     -4.49   -1.57  MgSO4:6H2O
+  Jarosite-K        5.29     -3.92   -9.21  KFe3(SO4)2(OH)6
+  Kieserite        -3.32     -4.48   -1.16  MgSO4:H2O
+  Mackinawite     -66.47    -71.12   -4.65  FeS
+  Manganite        -8.83     16.51   25.34  MnOOH
+  Melanterite      -1.67     -3.88   -2.21  FeSO4:7H2O
+  Mirabilite       -5.56     -6.27   -0.71  Na2SO4:10H2O
+  MnO2            -12.26     29.12   41.38  MnO2
+  O2(g)           -32.72    -35.61   -2.89  O2
+  Pyrite         -103.84   -122.32  -18.48  FeS2
+  Pyrochroite     -11.30      3.90   15.20  Mn(OH)2
+  Pyrolusite      -12.26     29.12   41.38  MnO2:H2O
+  Rhodochrosite    -6.62    -17.75  -11.13  MnCO3
+  Siderite         -5.46    -16.35  -10.89  FeCO3
+  Smithsonite      -8.58    -18.58  -10.00  ZnCO3
+  Sphalerite      -61.74    -73.36  -11.62  ZnS
+  Sulfur          -49.14    -44.25    4.88  S
+  Sylvite          -6.99     -6.09    0.90  KCl
+  Thenardite       -6.91     -6.26    0.65  Na2SO4
+  Zn(OH)2(e)       -8.44      3.06   11.50  Zn(OH)2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+
 Cell 4.
 
 Using solution 4.	Solution after simulation 1.
@@ -7644,7 +7644,7 @@ Using pure phase assemblage 4.	Pure-phase assemblage after simulation 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Al(OH)3(a)       -0.63    10.17     10.80    5.905e-03           0  -5.905e-03
-AlOHSO4          -0.00    -2.20     -2.20    3.027e-02   4.549e-02   1.522e-02
+AlOHSO4           0.00    -2.20     -2.20    3.027e-02   4.549e-02   1.522e-02
 Calcite          -5.47   -13.92     -8.45    0.000e+00           0   0.000e+00
 Fe(OH)3           0.00     4.89      4.89    8.297e-01   8.304e-01   6.459e-04
 Gypsum            0.00    -4.55     -4.55    1.348e-01   1.347e-01  -8.603e-05
@@ -7671,18 +7671,18 @@ MnO2            -15.45    25.93     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  5.248        Charge balance
                                         pe  =  4.168        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10333     
+       Specific Conductance (µS/cm,  25°C)  =  10445     
                            Density (g/cm³)  =  1.00902  
                                 Volume (L)  =  1.00364  
-                         Viscosity (mPa s)  =  0.91226  
+                         Viscosity (mPa s)  =  0.91927  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.957e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.057e-05  
+                   Total alkalinity (eq/kg)  = 2.057e-05  
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.335e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.337e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110107e+02
                                    Total O  =  5.584222e+01
@@ -7889,7 +7889,7 @@ Zn            3.349e-04
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Al(OH)3(a)       -0.63     10.17   10.80  Al(OH)3
-  AlOHSO4          -0.00     -2.20   -2.20  AlOHSO4
+  AlOHSO4           0.00     -2.20   -2.20  AlOHSO4
   Alunite           8.51      7.11   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
   Aragonite        -5.58    -13.92   -8.34  CaCO3
@@ -7946,7 +7946,7 @@ Using pure phase assemblage 5.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    1.345e-04   2.445e-04   1.099e-04
+Al(OH)3(a)       -0.00    10.80     10.80    1.345e-04   2.445e-04   1.099e-04
 AlOHSO4          -3.55    -5.75     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    8.204e-02   7.718e-02  -4.861e-03
 Fe(OH)3           0.00     4.89      4.89    8.166e-01   8.179e-01   1.354e-03
@@ -7974,18 +7974,18 @@ MnO2            -19.59    21.79     41.38    0.000e+00           0   0.000e+00
 
                                         pH  =  7.332        Charge balance
                                         pe  =  -2.056       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9692      
+       Specific Conductance (µS/cm,  25°C)  =  9790      
                            Density (g/cm³)  =  1.00865  
                                 Volume (L)  =  1.00334  
-                         Viscosity (mPa s)  =  0.91288  
+                         Viscosity (mPa s)  =  0.92042  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.850e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  5.390e-03  
+                   Total alkalinity (eq/kg)  = 5.390e-03  
                         Total CO2 (mol/kg)  =  4.873e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.862e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.894e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.109874e+02
                                    Total O  =  5.581849e+01
@@ -8191,7 +8191,7 @@ Zn            3.349e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -3.55     -5.75   -2.20  AlOHSO4
   Alunite           4.12      2.72   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -8245,8 +8245,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.099 Seconds.
--------------------------------
 

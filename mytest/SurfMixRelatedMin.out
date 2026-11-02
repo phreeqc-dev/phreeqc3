@@ -60,10 +60,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.997e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -9.000e-04 
+                   Total alkalinity (eq/kg)  = -9.000e-04 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  6.706e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  5   
                                    Total H  =  1.110133e+02
                                    Total O  =  5.550622e+01
@@ -306,11 +306,11 @@ Gypsum           -1.28    -5.83     -4.55    2.000e-03           0  -2.000e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	  7.325e-24  Surface charge, eq
+	  6.082e-24  Surface charge, eq
 	undefined  sigma, C/m²
-	  7.031e-02  psi, V
-	 -2.737e+00  -F*psi/RT
-	  6.477e-02  exp(-F*psi/RT)
+	  7.307e-02  psi, V
+	 -2.844e+00  -F*psi/RT
+	  5.818e-02  exp(-F*psi/RT)
 	  1.000e+01  specific area, m²/mol Gypsum
 	  0.000e+00  m² for   0.000e+00 moles of Gypsum
 
@@ -320,22 +320,22 @@ Hfo_s
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Hfo_sOH2+         6.786e-24       0.000   6.786e-24     -23.168
-	Hfo_sOH           7.252e-27       0.000   7.251e-27     -26.140
-	Hfo_sOHCa+2       3.542e-27       0.000   3.542e-27     -26.451
-	Hfo_sO-           1.775e-31       0.000   1.775e-31     -30.751
+	Hfo_sOH2+         6.320e-24       0.000   6.320e-24     -23.199
+	Hfo_sOH           7.519e-27       0.000   7.518e-27     -26.124
+	Hfo_sOHCa+2       2.963e-27       0.000   2.963e-27     -26.528
+	Hfo_sO-           2.049e-31       0.000   2.049e-31     -30.688
 
 Hfo_w         
 	  0.000e+00  moles	[1 mol/(mol Gypsum)]
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Hfo_wOH2+         4.128e-24       0.000   4.128e-24     -23.384
-	Hfo_wSO4-         3.581e-24       0.000   3.581e-24     -23.446
-	Hfo_wOHSO4-2      7.635e-27       0.000   7.634e-27     -26.117
-	Hfo_wOH           4.411e-27       0.000   4.411e-27     -26.355
-	Hfo_wO-           1.080e-31       0.000   1.080e-31     -30.967
-	Hfo_wOCa+         6.795e-34       0.000   6.794e-34     -33.168
+	Hfo_wSO4-         3.276e-24       0.000   3.275e-24     -23.485
+	Hfo_wOH2+         3.047e-24       0.000   3.046e-24     -23.516
+	Hfo_wOHSO4-2      7.774e-27       0.000   7.774e-27     -26.109
+	Hfo_wOH           3.624e-27       0.000   3.624e-27     -26.441
+	Hfo_wO-           9.876e-32       0.000   9.876e-32     -31.005
+	Hfo_wOCa+         5.015e-34       0.000   5.014e-34     -33.300
 
 -----------------------------Solution composition------------------------------
 
@@ -353,15 +353,15 @@ Hfo_w
        Specific Conductance (µS/cm,  25°C)  =  688       
                            Density (g/cm³)  =  0.99734  
                                 Volume (L)  =  1.00305  
-                         Viscosity (mPa s)  =  0.89191  
+                         Viscosity (mPa s)  =  0.89197  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.986e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -8.999e-04 
+                   Total alkalinity (eq/kg)  = -8.999e-04 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  6.721e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  39  
+                   Electrical balance (eq)  =  8.714e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  31  
                                    Total H  =  1.110213e+02
                                    Total O  =  5.551822e+01
 
@@ -427,8 +427,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 12.
 -------------------------------------
-
--------------------------------
-End of Run after 0.024 Seconds.
--------------------------------
 

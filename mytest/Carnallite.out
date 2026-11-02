@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -58,19 +57,19 @@ WARNING: Maximum iterations exceeded, 200
 
                                         pH  =  4.361        Charge balance
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  59705     
-                           Density (g/cm³)  =  1.36259  
+       Specific Conductance (µS/cm,  25°C)  =  59706     
+                           Density (g/cm³)  =  1.36258  
                                 Volume (L)  =  1.22312  
-                         Viscosity (mPa s)  =  21.15250 
+                         Viscosity (mPa s)  =  21.15204 
                          Activity of water  =  0.195  
                   Ionic strength (mol/kgw)  =  2.100e+01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.304e-03  
+                   Total alkalinity (eq/kg)  = 2.304e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -9.165e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                               Iterations  =   19   (220 overall)
-                         Gamma iterations  =   19  
+                   Electrical balance (eq)  =  1.978e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   20   (221 overall)
+                         Gamma iterations  =   20  
                        Osmotic coefficient  =  4.32537  
                           Density of water  =  0.99704  
                                    Total H  =  1.110147e+02
@@ -88,7 +87,7 @@ WARNING: Maximum iterations exceeded, 200
 Cl            1.400e+01
    Cl-             1.400e+01   1.562e+01     1.146     1.194     0.048     21.45
 K             2.304e-03
-   K+              2.304e-03   1.172e-02    -2.637    -1.931     0.706     18.56
+   K+              2.304e-03   1.172e-02    -2.638    -1.931     0.706     18.56
 Mg            7.000e+00
    Mg+2            6.998e+00   1.000e+03     0.845     7.038     6.193    -11.47
    MgOH+           2.304e-03   7.575e-02    -2.638    -1.121     1.517     (0)  
@@ -99,7 +98,7 @@ Mg            7.000e+00
 
   Bischofite        0.57      5.16    4.59  MgCl2:6H2O
   Brucite          -2.77    -13.65  -10.88  Mg(OH)2
-  Carnallite        0.00      4.42    4.42  KMgCl3:6H2O
+  Carnallite       -0.00      4.42    4.42  KMgCl3:6H2O
   H2O(g)           -2.21     -0.71    1.50  H2O
   MgCl2_2H2O       -6.55      8.00   14.56  MgCl2:2H2O
   MgCl2_4H2O       -0.40      6.58    6.98  MgCl2:4H2O
@@ -182,14 +181,14 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.020e+01   2.019e-01
        Specific Conductance (µS/cm,   0°C)  =  30582     
                            Density (g/cm³)  =  1.36455  
                                 Volume (L)  =  1.19117  
-                         Viscosity (mPa s)  =  46.84457 
+                         Viscosity (mPa s)  =  46.84375 
                          Activity of water  =  0.171  
                   Ionic strength (mol/kgw)  =  2.085e+01  
                         Mass of water (kg)  =  9.782e-01  
-                  Total alkalinity (eq/kg)  =  2.356e-03  
+                   Total alkalinity (eq/kg)  = 2.356e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -7.914e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -7.947e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.70638  
@@ -255,7 +254,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.25      4.25    1.000e+01   1.040e+01   4.019e-01
+Carnallite        0.00     4.25      4.25    1.000e+01   1.040e+01   4.019e-01
 
 -----------------------------Solution composition------------------------------
 
@@ -272,14 +271,14 @@ Carnallite       -0.00     4.25      4.25    1.000e+01   1.040e+01   4.019e-01
        Specific Conductance (µS/cm,   0°C)  =  31067     
                            Density (g/cm³)  =  1.36315  
                                 Volume (L)  =  1.16257  
-                         Viscosity (mPa s)  =  45.68013 
+                         Viscosity (mPa s)  =  45.67932 
                          Activity of water  =  0.175  
                   Ionic strength (mol/kgw)  =  2.069e+01  
                         Mass of water (kg)  =  9.566e-01  
-                  Total alkalinity (eq/kg)  =  2.409e-03  
+                   Total alkalinity (eq/kg)  = 2.409e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -1.461e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.677e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.66869  
@@ -310,7 +309,7 @@ Mg            6.898e+00
 
   Bischofite        0.78      5.69    4.91  MgCl2:6H2O
   Brucite          -2.54    -13.74  -11.21  Mg(OH)2
-  Carnallite       -0.00      4.25    4.25  KMgCl3:6H2O
+  Carnallite        0.00      4.25    4.25  KMgCl3:6H2O
   H2O(g)           -2.97     -0.76    2.21  H2O
   MgCl2_2H2O       -8.12      8.71   16.83  MgCl2:2H2O
   MgCl2_4H2O       -0.28      7.20    7.48  MgCl2:4H2O
@@ -359,17 +358,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.060e+01   6.019e-01
 
                                         pH  =  5.189        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  31584     
+       Specific Conductance (µS/cm,   0°C)  =  31585     
                            Density (g/cm³)  =  1.36166  
                                 Volume (L)  =  1.13399  
-                         Viscosity (mPa s)  =  44.48623 
+                         Viscosity (mPa s)  =  44.48542 
                          Activity of water  =  0.180  
                   Ionic strength (mol/kgw)  =  2.053e+01  
                         Mass of water (kg)  =  9.349e-01  
-                  Total alkalinity (eq/kg)  =  2.464e-03  
+                   Total alkalinity (eq/kg)  = 2.464e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  4.237e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.225e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.62936  
@@ -449,17 +448,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.080e+01   8.018e-01
 
                                         pH  =  5.241        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  32137     
+       Specific Conductance (µS/cm,   0°C)  =  32138     
                            Density (g/cm³)  =  1.36008  
                                 Volume (L)  =  1.10541  
-                         Viscosity (mPa s)  =  43.26221 
+                         Viscosity (mPa s)  =  43.26140 
                          Activity of water  =  0.186  
                   Ionic strength (mol/kgw)  =  2.035e+01  
                         Mass of water (kg)  =  9.133e-01  
-                  Total alkalinity (eq/kg)  =  2.523e-03  
+                   Total alkalinity (eq/kg)  = 2.523e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  6.034e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.028e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.58829  
@@ -539,17 +538,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.100e+01   1.002e+00
 
                                         pH  =  5.295        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  32729     
+       Specific Conductance (µS/cm,   0°C)  =  32730     
                            Density (g/cm³)  =  1.35841  
                                 Volume (L)  =  1.07685  
-                         Viscosity (mPa s)  =  42.00744 
+                         Viscosity (mPa s)  =  42.00664 
                          Activity of water  =  0.192  
                   Ionic strength (mol/kgw)  =  2.018e+01  
                         Mass of water (kg)  =  8.917e-01  
-                  Total alkalinity (eq/kg)  =  2.584e-03  
+                   Total alkalinity (eq/kg)  = 2.584e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  6.322e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.320e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  13  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.54535  
@@ -632,14 +631,14 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.120e+01   1.202e+00
        Specific Conductance (µS/cm,   0°C)  =  33365     
                            Density (g/cm³)  =  1.35662  
                                 Volume (L)  =  1.04831  
-                         Viscosity (mPa s)  =  40.72137 
+                         Viscosity (mPa s)  =  40.72057 
                          Activity of water  =  0.198  
                   Ionic strength (mol/kgw)  =  1.999e+01  
                         Mass of water (kg)  =  8.701e-01  
-                  Total alkalinity (eq/kg)  =  2.648e-03  
+                   Total alkalinity (eq/kg)  = 2.648e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  6.050e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.048e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  12  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.50042  
@@ -722,15 +721,15 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.140e+01   1.402e+00
        Specific Conductance (µS/cm,   0°C)  =  34048     
                            Density (g/cm³)  =  1.35472  
                                 Volume (L)  =  1.01978  
-                         Viscosity (mPa s)  =  39.40351 
+                         Viscosity (mPa s)  =  39.40271 
                          Activity of water  =  0.204  
                   Ionic strength (mol/kgw)  =  1.979e+01  
                         Mass of water (kg)  =  8.485e-01  
-                  Total alkalinity (eq/kg)  =  2.716e-03  
+                   Total alkalinity (eq/kg)  = 2.716e-03  
                           Temperature (°C)  =  0.00  
                    Electrical balance (eq)  =  1.485e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.45336  
                           Density of water  =  0.99984  
@@ -752,7 +751,7 @@ K             7.265e-04
    K+              7.265e-04   2.256e-03    -3.139    -2.647     0.492     21.29
 Mg            6.598e+00
    Mg+2            6.595e+00   1.000e+03     0.819     6.956     6.137    -13.51
-   MgOH+           2.716e-03   6.837e-02    -2.566    -1.165     1.401     (0)  
+   MgOH+           2.715e-03   6.837e-02    -2.566    -1.165     1.401     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -795,7 +794,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.25      4.25    1.000e+01   1.160e+01   1.602e+00
+Carnallite        0.00     4.25      4.25    1.000e+01   1.160e+01   1.602e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -809,17 +808,17 @@ Carnallite       -0.00     4.25      4.25    1.000e+01   1.160e+01   1.602e+00
 
                                         pH  =  5.475        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  34785     
+       Specific Conductance (µS/cm,   0°C)  =  34786     
                            Density (g/cm³)  =  1.35268  
                                 Volume (L)  =  0.99126  
-                         Viscosity (mPa s)  =  38.05347 
+                         Viscosity (mPa s)  =  38.05268 
                          Activity of water  =  0.211  
                   Ionic strength (mol/kgw)  =  1.958e+01  
                         Mass of water (kg)  =  8.269e-01  
-                  Total alkalinity (eq/kg)  =  2.787e-03  
+                   Total alkalinity (eq/kg)  = 2.787e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -1.650e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.648e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  16  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.40401  
@@ -850,7 +849,7 @@ Mg            6.529e+00
 
   Bischofite        0.60      5.50    4.91  MgCl2:6H2O
   Brucite          -2.21    -13.42  -11.21  Mg(OH)2
-  Carnallite       -0.00      4.25    4.25  KMgCl3:6H2O
+  Carnallite        0.00      4.25    4.25  KMgCl3:6H2O
   H2O(g)           -2.88     -0.67    2.21  H2O
   MgCl2_2H2O       -8.63      8.20   16.83  MgCl2:2H2O
   MgCl2_4H2O       -0.63      6.85    7.48  MgCl2:4H2O
@@ -902,14 +901,14 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.180e+01   1.802e+00
        Specific Conductance (µS/cm,   0°C)  =  35582     
                            Density (g/cm³)  =  1.35050  
                                 Volume (L)  =  0.96277  
-                         Viscosity (mPa s)  =  36.67102 
+                         Viscosity (mPa s)  =  36.67023 
                          Activity of water  =  0.219  
                   Ionic strength (mol/kgw)  =  1.936e+01  
                         Mass of water (kg)  =  8.053e-01  
-                  Total alkalinity (eq/kg)  =  2.861e-03  
+                   Total alkalinity (eq/kg)  = 2.861e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -4.334e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.310e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  16  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  4.35221  
@@ -992,14 +991,14 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.200e+01   2.001e+00
        Specific Conductance (µS/cm,   0°C)  =  36446     
                            Density (g/cm³)  =  1.34817  
                                 Volume (L)  =  0.93430  
-                         Viscosity (mPa s)  =  35.25607 
+                         Viscosity (mPa s)  =  35.25528 
                          Activity of water  =  0.227  
                   Ionic strength (mol/kgw)  =  1.913e+01  
                         Mass of water (kg)  =  7.837e-01  
-                  Total alkalinity (eq/kg)  =  2.940e-03  
+                   Total alkalinity (eq/kg)  = 2.940e-03  
                           Temperature (°C)  =  0.00  
                    Electrical balance (eq)  =  -1.107e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  18  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  4.29776  
@@ -1079,17 +1078,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.220e+01   2.201e+00
 
                                         pH  =  5.685        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  37385     
+       Specific Conductance (µS/cm,   0°C)  =  37386     
                            Density (g/cm³)  =  1.34566  
                                 Volume (L)  =  0.90585  
-                         Viscosity (mPa s)  =  33.80875 
+                         Viscosity (mPa s)  =  33.80796 
                          Activity of water  =  0.236  
                   Ionic strength (mol/kgw)  =  1.889e+01  
                         Mass of water (kg)  =  7.620e-01  
-                  Total alkalinity (eq/kg)  =  3.024e-03  
+                   Total alkalinity (eq/kg)  = 3.024e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -5.877e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -6.135e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  21  
                           Gamma iterations  =  7   
                        Osmotic coefficient  =  4.24047  
@@ -1112,7 +1111,7 @@ K             1.273e-03
    K+              1.273e-03   3.831e-03    -2.895    -2.417     0.479     20.70
 Mg            6.297e+00
    Mg+2            6.294e+00   1.000e+03     0.799     6.546     5.747    -13.78
-   MgOH+           3.024e-03   5.761e-02    -2.519    -1.239     1.280     (0)  
+   MgOH+           3.023e-03   5.761e-02    -2.519    -1.239     1.280     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1169,17 +1168,17 @@ Carnallite       -0.00     4.25      4.25    1.000e+01   1.240e+01   2.401e+00
 
                                         pH  =  5.763        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  38410     
+       Specific Conductance (µS/cm,   0°C)  =  38411     
                            Density (g/cm³)  =  1.34295  
                                 Volume (L)  =  0.87743  
-                         Viscosity (mPa s)  =  32.32944 
+                         Viscosity (mPa s)  =  32.32866 
                          Activity of water  =  0.246  
                   Ionic strength (mol/kgw)  =  1.863e+01  
                         Mass of water (kg)  =  7.404e-01  
-                  Total alkalinity (eq/kg)  =  3.112e-03  
+                   Total alkalinity (eq/kg)  = 3.112e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -1.039e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.037e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  21  
                           Gamma iterations  =  7   
                        Osmotic coefficient  =  4.18010  
@@ -1245,7 +1244,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.25      4.25    1.000e+01   1.260e+01   2.601e+00
+Carnallite        0.00     4.25      4.25    1.000e+01   1.260e+01   2.601e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -1259,17 +1258,17 @@ Carnallite       -0.00     4.25      4.25    1.000e+01   1.260e+01   2.601e+00
 
                                         pH  =  5.846        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  39532     
+       Specific Conductance (µS/cm,   0°C)  =  39533     
                            Density (g/cm³)  =  1.34003  
                                 Volume (L)  =  0.84903  
-                         Viscosity (mPa s)  =  30.81887 
+                         Viscosity (mPa s)  =  30.81809 
                          Activity of water  =  0.256  
                   Ionic strength (mol/kgw)  =  1.835e+01  
                         Mass of water (kg)  =  7.188e-01  
-                  Total alkalinity (eq/kg)  =  3.205e-03  
+                   Total alkalinity (eq/kg)  = 3.205e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -8.011e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -7.978e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  22  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  4.11642  
@@ -1284,7 +1283,7 @@ Carnallite       -0.00     4.25      4.25    1.000e+01   1.260e+01   2.601e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             1.150e-07   2.072e-10    -6.939    -9.684    -2.744     17.03
-   H+              1.235e-09   1.425e-06    -8.908    -5.846     3.062      0.00
+   H+              1.236e-09   1.425e-06    -8.908    -5.846     3.062      0.00
    H2O             5.551e+01   2.563e-01     1.744    -0.591     0.000     18.02
 Cl            1.224e+01
    Cl-             1.224e+01   1.804e+01     1.088     1.256     0.168     21.75
@@ -1300,7 +1299,7 @@ Mg            6.120e+00
 
   Bischofite        0.36      5.27    4.91  MgCl2:6H2O
   Brucite          -1.86    -13.06  -11.21  Mg(OH)2
-  Carnallite       -0.00      4.25    4.25  KMgCl3:6H2O
+  Carnallite        0.00      4.25    4.25  KMgCl3:6H2O
   H2O(g)           -2.80     -0.59    2.21  H2O
   MgCl2_2H2O       -9.19      7.64   16.83  MgCl2:2H2O
   MgCl2_4H2O       -1.03      6.45    7.48  MgCl2:4H2O
@@ -1349,17 +1348,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.280e+01   2.801e+00
 
                                         pH  =  5.934        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  40764     
+       Specific Conductance (µS/cm,   0°C)  =  40765     
                            Density (g/cm³)  =  1.33687  
                                 Volume (L)  =  0.82068  
-                         Viscosity (mPa s)  =  29.27816 
+                         Viscosity (mPa s)  =  29.27739 
                          Activity of water  =  0.268  
                   Ionic strength (mol/kgw)  =  1.806e+01  
                         Mass of water (kg)  =  6.972e-01  
-                  Total alkalinity (eq/kg)  =  3.305e-03  
+                   Total alkalinity (eq/kg)  = 3.305e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -6.134e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -6.091e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  25  
                           Gamma iterations  =  9   
                        Osmotic coefficient  =  4.04913  
@@ -1439,17 +1438,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.300e+01   3.000e+00
 
                                         pH  =  6.028        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  42123     
+       Specific Conductance (µS/cm,   0°C)  =  42124     
                            Density (g/cm³)  =  1.33343  
                                 Volume (L)  =  0.79236  
-                         Viscosity (mPa s)  =  27.70896 
+                         Viscosity (mPa s)  =  27.70819 
                          Activity of water  =  0.280  
                   Ionic strength (mol/kgw)  =  1.775e+01  
                         Mass of water (kg)  =  6.757e-01  
-                  Total alkalinity (eq/kg)  =  3.410e-03  
+                   Total alkalinity (eq/kg)  = 3.410e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -4.739e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.715e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  28  
                           Gamma iterations  =  10  
                        Osmotic coefficient  =  3.97795  
@@ -1529,17 +1528,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.320e+01   3.200e+00
 
                                         pH  =  6.129        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  43627     
+       Specific Conductance (µS/cm,   0°C)  =  43628     
                            Density (g/cm³)  =  1.32969  
                                 Volume (L)  =  0.76409  
-                         Viscosity (mPa s)  =  26.11356 
+                         Viscosity (mPa s)  =  26.11280 
                          Activity of water  =  0.294  
                   Ionic strength (mol/kgw)  =  1.743e+01  
                         Mass of water (kg)  =  6.541e-01  
-                  Total alkalinity (eq/kg)  =  3.523e-03  
+                   Total alkalinity (eq/kg)  = 3.523e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -3.418e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.417e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  30  
                           Gamma iterations  =  11  
                        Osmotic coefficient  =  3.90252  
@@ -1554,7 +1553,7 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.320e+01   3.200e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             1.994e-07   4.551e-10    -6.700    -9.342    -2.641     15.93
-   H+              9.437e-10   7.432e-07    -9.025    -6.129     2.896      0.00
+   H+              9.437e-10   7.433e-07    -9.025    -6.129     2.896      0.00
    H2O             5.551e+01   2.936e-01     1.744    -0.532     0.000     18.02
 Cl            1.162e+01
    Cl-             1.162e+01   1.547e+01     1.065     1.189     0.124     21.56
@@ -1619,17 +1618,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.340e+01   3.399e+00
 
                                         pH  =  6.236        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  45299     
+       Specific Conductance (µS/cm,   0°C)  =  45300     
                            Density (g/cm³)  =  1.32562  
                                 Volume (L)  =  0.73589  
-                         Viscosity (mPa s)  =  24.49511 
+                         Viscosity (mPa s)  =  24.49436 
                          Activity of water  =  0.308  
                   Ionic strength (mol/kgw)  =  1.707e+01  
                         Mass of water (kg)  =  6.325e-01  
-                  Total alkalinity (eq/kg)  =  3.643e-03  
+                   Total alkalinity (eq/kg)  = 3.643e-03  
                           Temperature (°C)  =  0.00  
                    Electrical balance (eq)  =  -3.376e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  33  
                           Gamma iterations  =  12  
                        Osmotic coefficient  =  3.82247  
@@ -1709,17 +1708,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.360e+01   3.599e+00
 
                                         pH  =  6.351        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  47166     
+       Specific Conductance (µS/cm,   0°C)  =  47167     
                            Density (g/cm³)  =  1.32116  
                                 Volume (L)  =  0.70776  
-                         Viscosity (mPa s)  =  22.85781 
+                         Viscosity (mPa s)  =  22.85707 
                          Activity of water  =  0.325  
                   Ionic strength (mol/kgw)  =  1.670e+01  
                         Mass of water (kg)  =  6.110e-01  
-                  Total alkalinity (eq/kg)  =  3.771e-03  
+                   Total alkalinity (eq/kg)  = 3.771e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -4.293e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.292e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  35  
                           Gamma iterations  =  13  
                        Osmotic coefficient  =  3.73739  
@@ -1799,17 +1798,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.380e+01   3.798e+00
 
                                         pH  =  6.475        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  49258     
+       Specific Conductance (µS/cm,   0°C)  =  49260     
                            Density (g/cm³)  =  1.31626  
                                 Volume (L)  =  0.67974  
-                         Viscosity (mPa s)  =  21.20731 
+                         Viscosity (mPa s)  =  21.20658 
                          Activity of water  =  0.342  
                   Ionic strength (mol/kgw)  =  1.630e+01  
                         Mass of water (kg)  =  5.895e-01  
-                  Total alkalinity (eq/kg)  =  3.909e-03  
+                   Total alkalinity (eq/kg)  = 3.909e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -8.273e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -8.243e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  40  
                           Gamma iterations  =  14  
                        Osmotic coefficient  =  3.64684  
@@ -1875,7 +1874,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.25      4.25    1.000e+01   1.400e+01   3.996e+00
+Carnallite        0.00     4.25      4.25    1.000e+01   1.400e+01   3.996e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -1889,18 +1888,18 @@ Carnallite       -0.00     4.25      4.25    1.000e+01   1.400e+01   3.996e+00
 
                                         pH  =  6.608        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  51614     
+       Specific Conductance (µS/cm,   0°C)  =  51615     
                            Density (g/cm³)  =  1.31089  
                                 Volume (L)  =  0.65186  
-                         Viscosity (mPa s)  =  19.55119 
+                         Viscosity (mPa s)  =  19.55047 
                          Activity of water  =  0.362  
                   Ionic strength (mol/kgw)  =  1.587e+01  
                         Mass of water (kg)  =  5.681e-01  
-                  Total alkalinity (eq/kg)  =  4.056e-03  
+                   Total alkalinity (eq/kg)  = 4.056e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -1.743e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  45  
+                   Electrical balance (eq)  =  -1.739e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  44  
                           Gamma iterations  =  15  
                        Osmotic coefficient  =  3.55035  
                           Density of water  =  0.99984  
@@ -1930,7 +1929,7 @@ Mg            5.288e+00
 
   Bischofite       -0.20      4.71    4.91  MgCl2:6H2O
   Brucite          -1.14    -12.34  -11.21  Mg(OH)2
-  Carnallite       -0.00      4.25    4.25  KMgCl3:6H2O
+  Carnallite        0.00      4.25    4.25  KMgCl3:6H2O
   H2O(g)           -2.65     -0.44    2.21  H2O
   MgCl2_2H2O      -10.36      6.47   16.83  MgCl2:2H2O
   MgCl2_4H2O       -1.89      5.59    7.48  MgCl2:4H2O
@@ -1965,7 +1964,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.25      4.25    1.000e+01   1.419e+01   4.193e+00
+Carnallite       -0.00     4.25      4.25    1.000e+01   1.419e+01   4.193e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -1979,18 +1978,18 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.419e+01   4.193e+00
 
                                         pH  =  6.752        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  54275     
+       Specific Conductance (µS/cm,   0°C)  =  54277     
                            Density (g/cm³)  =  1.30499  
                                 Volume (L)  =  0.62419  
-                         Viscosity (mPa s)  =  17.89978 
+                         Viscosity (mPa s)  =  17.89906 
                          Activity of water  =  0.384  
                   Ionic strength (mol/kgw)  =  1.541e+01  
                         Mass of water (kg)  =  5.467e-01  
-                  Total alkalinity (eq/kg)  =  4.214e-03  
+                   Total alkalinity (eq/kg)  = 4.214e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -4.224e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  47  
+                   Electrical balance (eq)  =  -4.213e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  46  
                           Gamma iterations  =  16  
                        Osmotic coefficient  =  3.44743  
                           Density of water  =  0.99984  
@@ -2020,7 +2019,7 @@ Mg            5.134e+00
 
   Bischofite       -0.31      4.59    4.91  MgCl2:6H2O
   Brucite          -1.00    -12.21  -11.21  Mg(OH)2
-  Carnallite        0.00      4.25    4.25  KMgCl3:6H2O
+  Carnallite       -0.00      4.25    4.25  KMgCl3:6H2O
   H2O(g)           -2.63     -0.42    2.21  H2O
   MgCl2_2H2O      -10.57      6.26   16.83  MgCl2:2H2O
   MgCl2_4H2O       -2.06      5.42    7.48  MgCl2:4H2O
@@ -2069,17 +2068,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.439e+01   4.389e+00
 
                                         pH  =  6.906        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  57290     
+       Specific Conductance (µS/cm,   0°C)  =  57291     
                            Density (g/cm³)  =  1.29852  
                                 Volume (L)  =  0.59684  
-                         Viscosity (mPa s)  =  16.26741 
+                         Viscosity (mPa s)  =  16.26670 
                          Activity of water  =  0.407  
                   Ionic strength (mol/kgw)  =  1.492e+01  
                         Mass of water (kg)  =  5.255e-01  
-                  Total alkalinity (eq/kg)  =  4.384e-03  
+                   Total alkalinity (eq/kg)  = 4.384e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -1.446e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.447e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  53  
                           Gamma iterations  =  18  
                        Osmotic coefficient  =  3.33767  
@@ -2102,7 +2101,7 @@ K             2.460e-02
    K+              2.460e-02   5.991e-02    -1.609    -1.223     0.387     18.07
 Mg            4.968e+00
    Mg+2            4.963e+00   1.000e+03     0.696     4.781     4.085    -14.98
-   MgOH+           4.384e-03   2.835e-02    -2.358    -1.547     0.811     (0)  
+   MgOH+           4.383e-03   2.835e-02    -2.358    -1.547     0.811     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2145,7 +2144,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.25      4.25    1.000e+01   1.458e+01   4.583e+00
+Carnallite       -0.00     4.25      4.25    1.000e+01   1.458e+01   4.583e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -2159,18 +2158,18 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.458e+01   4.583e+00
 
                                         pH  =  7.070        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  60704     
+       Specific Conductance (µS/cm,   0°C)  =  60706     
                            Density (g/cm³)  =  1.29148  
                                 Volume (L)  =  0.57002  
-                         Viscosity (mPa s)  =  14.67439 
+                         Viscosity (mPa s)  =  14.67370 
                          Activity of water  =  0.433  
                   Ionic strength (mol/kgw)  =  1.440e+01  
                         Mass of water (kg)  =  5.046e-01  
-                  Total alkalinity (eq/kg)  =  4.566e-03  
+                   Total alkalinity (eq/kg)  = 4.566e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -9.481e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  56  
+                   Electrical balance (eq)  =  -9.440e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  58  
                           Gamma iterations  =  19  
                        Osmotic coefficient  =  3.22083  
                           Density of water  =  0.99984  
@@ -2200,7 +2199,7 @@ Mg            4.790e+00
 
   Bischofite       -0.59      4.32    4.91  MgCl2:6H2O
   Brucite          -0.71    -11.91  -11.21  Mg(OH)2
-  Carnallite        0.00      4.25    4.25  KMgCl3:6H2O
+  Carnallite       -0.00      4.25    4.25  KMgCl3:6H2O
   H2O(g)           -2.57     -0.36    2.21  H2O
   MgCl2_2H2O      -11.05      5.78   16.83  MgCl2:2H2O
   MgCl2_4H2O       -2.43      5.05    7.48  MgCl2:4H2O
@@ -2249,18 +2248,18 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.477e+01   4.772e+00
 
                                         pH  =  7.245        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  64556     
+       Specific Conductance (µS/cm,   0°C)  =  64559     
                            Density (g/cm³)  =  1.28398  
                                 Volume (L)  =  0.54407  
-                         Viscosity (mPa s)  =  13.14984 
+                         Viscosity (mPa s)  =  13.14916 
                          Activity of water  =  0.460  
                   Ionic strength (mol/kgw)  =  1.386e+01  
                         Mass of water (kg)  =  4.842e-01  
-                  Total alkalinity (eq/kg)  =  4.759e-03  
+                   Total alkalinity (eq/kg)  = 4.759e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -4.522e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  62  
+                   Electrical balance (eq)  =  -4.443e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  60  
                           Gamma iterations  =  20  
                        Osmotic coefficient  =  3.09713  
                           Density of water  =  0.99984  
@@ -2339,20 +2338,20 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.495e+01   4.953e+00
 
                                         pH  =  7.425        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  68857     
+       Specific Conductance (µS/cm,   0°C)  =  68860     
                            Density (g/cm³)  =  1.27628  
                                 Volume (L)  =  0.51956  
-                         Viscosity (mPa s)  =  11.73393 
+                         Viscosity (mPa s)  =  11.73326 
                          Activity of water  =  0.488  
                   Ionic strength (mol/kgw)  =  1.331e+01  
                         Mass of water (kg)  =  4.646e-01  
-                  Total alkalinity (eq/kg)  =  4.959e-03  
+                   Total alkalinity (eq/kg)  = 4.959e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -8.777e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  64  
+                   Electrical balance (eq)  =  -9.456e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  66  
                           Gamma iterations  =  22  
-                       Osmotic coefficient  =  2.96774  
+                       Osmotic coefficient  =  2.96775  
                           Density of water  =  0.99984  
                                    Total H  =  5.157763e+01
                                    Total O  =  2.578997e+01
@@ -2429,18 +2428,18 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.512e+01   5.122e+00
 
                                         pH  =  7.603        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  73573     
+       Specific Conductance (µS/cm,   0°C)  =  73576     
                            Density (g/cm³)  =  1.26893  
                                 Volume (L)  =  0.49732  
-                         Viscosity (mPa s)  =  10.47489 
+                         Viscosity (mPa s)  =  10.47425 
                          Activity of water  =  0.515  
                   Ionic strength (mol/kgw)  =  1.279e+01  
                         Mass of water (kg)  =  4.463e-01  
-                  Total alkalinity (eq/kg)  =  5.162e-03  
+                   Total alkalinity (eq/kg)  = 5.162e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -8.334e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  70  
+                   Electrical balance (eq)  =  -1.487e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  72  
                           Gamma iterations  =  23  
                        Osmotic coefficient  =  2.83528  
                           Density of water  =  0.99984  
@@ -2454,7 +2453,7 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.512e+01   5.122e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             2.842e-06   2.378e-08    -5.546    -7.624    -2.077     10.43
-   H+              2.286e-10   2.497e-08    -9.641    -7.603     2.038      0.00
+   H+              2.287e-10   2.497e-08    -9.641    -7.603     2.038      0.00
    H2O             5.551e+01   5.154e-01     1.744    -0.288     0.000     18.02
 Cl            8.590e+00
    Cl-             8.590e+00   7.329e+00     0.934     0.865    -0.069     20.58
@@ -2519,18 +2518,18 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.527e+01   5.274e+00
 
                                         pH  =  7.768        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  78624     
+       Specific Conductance (µS/cm,   0°C)  =  78628     
                            Density (g/cm³)  =  1.26268  
                                 Volume (L)  =  0.47817  
-                         Viscosity (mPa s)  =  9.41335  
+                         Viscosity (mPa s)  =  9.41273  
                          Activity of water  =  0.540  
                   Ionic strength (mol/kgw)  =  1.233e+01  
                         Mass of water (kg)  =  4.299e-01  
-                  Total alkalinity (eq/kg)  =  5.360e-03  
+                   Total alkalinity (eq/kg)  = 5.360e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -2.443e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  74  
+                   Electrical balance (eq)  =  -2.261e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  72  
                           Gamma iterations  =  24  
                        Osmotic coefficient  =  2.70376  
                           Density of water  =  0.99984  
@@ -2609,18 +2608,18 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.541e+01   5.406e+00
 
                                         pH  =  7.913        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  83928     
+       Specific Conductance (µS/cm,   0°C)  =  83932     
                            Density (g/cm³)  =  1.25816  
                                 Volume (L)  =  0.46254  
-                         Viscosity (mPa s)  =  8.55979  
+                         Viscosity (mPa s)  =  8.55919  
                          Activity of water  =  0.561  
                   Ionic strength (mol/kgw)  =  1.197e+01  
                         Mass of water (kg)  =  4.156e-01  
-                  Total alkalinity (eq/kg)  =  5.544e-03  
+                   Total alkalinity (eq/kg)  = 5.544e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -5.266e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  79  
+                   Electrical balance (eq)  =  -5.397e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  80  
                           Gamma iterations  =  25  
                        Osmotic coefficient  =  2.57729  
                           Density of water  =  0.99984  
@@ -2699,17 +2698,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.552e+01   5.520e+00
 
                                         pH  =  8.033        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  89434     
+       Specific Conductance (µS/cm,   0°C)  =  89439     
                            Density (g/cm³)  =  1.25558  
                                 Volume (L)  =  0.45020  
-                         Viscosity (mPa s)  =  7.89018  
+                         Viscosity (mPa s)  =  7.88961  
                          Activity of water  =  0.577  
                   Ionic strength (mol/kgw)  =  1.170e+01  
                         Mass of water (kg)  =  4.033e-01  
-                  Total alkalinity (eq/kg)  =  5.713e-03  
+                   Total alkalinity (eq/kg)  = 5.713e-03  
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  -4.930e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.901e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  81  
                           Gamma iterations  =  25  
                        Osmotic coefficient  =  2.45849  
@@ -2789,17 +2788,17 @@ Carnallite        0.00     4.25      4.25    1.000e+01   1.562e+01   5.618e+00
 
                                         pH  =  8.132        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,   0°C)  =  95122     
+       Specific Conductance (µS/cm,   0°C)  =  95127     
                            Density (g/cm³)  =  1.25479  
                                 Volume (L)  =  0.44055  
-                         Viscosity (mPa s)  =  7.36472  
+                         Viscosity (mPa s)  =  7.36418  
                          Activity of water  =  0.589  
                   Ionic strength (mol/kgw)  =  1.152e+01  
                         Mass of water (kg)  =  3.927e-01  
-                  Total alkalinity (eq/kg)  =  5.868e-03  
+                   Total alkalinity (eq/kg)  = 5.868e-03  
                           Temperature (°C)  =  0.00  
                    Electrical balance (eq)  =  -4.220e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  83  
                           Gamma iterations  =  26  
                        Osmotic coefficient  =  2.34821  
@@ -2899,17 +2898,17 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.020e+01   1.976e-01
 
                                         pH  =  4.198        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  76456     
-                           Density (g/cm³)  =  1.36167  
+       Specific Conductance (µS/cm,  35°C)  =  76458     
+                           Density (g/cm³)  =  1.36166  
                                 Volume (L)  =  1.19457  
-                         Viscosity (mPa s)  =  15.65098 
+                         Viscosity (mPa s)  =  15.65057 
                          Activity of water  =  0.211  
                   Ionic strength (mol/kgw)  =  2.085e+01  
                         Mass of water (kg)  =  9.786e-01  
-                  Total alkalinity (eq/kg)  =  2.354e-03  
+                   Total alkalinity (eq/kg)  = 2.354e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -8.283e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -8.277e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  12  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  4.13684  
@@ -2975,7 +2974,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.45      4.45    1.000e+01   1.040e+01   3.974e-01
+Carnallite        0.00     4.45      4.45    1.000e+01   1.040e+01   3.974e-01
 
 -----------------------------Solution composition------------------------------
 
@@ -2989,17 +2988,17 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.040e+01   3.974e-01
 
                                         pH  =  4.245        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  77559     
-                           Density (g/cm³)  =  1.35999  
-                                Volume (L)  =  1.16619  
-                         Viscosity (mPa s)  =  15.29038 
+       Specific Conductance (µS/cm,  35°C)  =  77560     
+                           Density (g/cm³)  =  1.35998  
+                                Volume (L)  =  1.16620  
+                         Viscosity (mPa s)  =  15.28997 
                          Activity of water  =  0.216  
                   Ionic strength (mol/kgw)  =  2.070e+01  
                         Mass of water (kg)  =  9.570e-01  
-                  Total alkalinity (eq/kg)  =  2.408e-03  
+                   Total alkalinity (eq/kg)  = 2.408e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -5.897e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -5.853e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  15  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  4.10581  
@@ -3030,7 +3029,7 @@ Mg            6.899e+00
 
   Bischofite        0.43      4.90    4.47  MgCl2:6H2O
   Brucite          -2.77    -13.54  -10.76  Mg(OH)2
-  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.92     -0.67    1.26  H2O
   MgCl2_2H2O       -6.19      7.56   13.75  MgCl2:2H2O
   MgCl2_4H2O       -0.55      6.23    6.78  MgCl2:4H2O
@@ -3065,7 +3064,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.45      4.45    1.000e+01   1.060e+01   5.971e-01
+Carnallite       -0.00     4.45      4.45    1.000e+01   1.060e+01   5.971e-01
 
 -----------------------------Solution composition------------------------------
 
@@ -3079,18 +3078,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.060e+01   5.971e-01
 
                                         pH  =  4.294        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  78731     
+       Specific Conductance (µS/cm,  35°C)  =  78733     
                            Density (g/cm³)  =  1.35821  
                                 Volume (L)  =  1.13783  
-                         Viscosity (mPa s)  =  14.92054 
+                         Viscosity (mPa s)  =  14.92014 
                          Activity of water  =  0.221  
                   Ionic strength (mol/kgw)  =  2.053e+01  
                         Mass of water (kg)  =  9.355e-01  
-                  Total alkalinity (eq/kg)  =  2.463e-03  
+                   Total alkalinity (eq/kg)  = 2.463e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -5.549e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  17  
+                   Electrical balance (eq)  =  -5.496e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  16  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  4.07341  
                           Density of water  =  0.99403  
@@ -3120,7 +3119,7 @@ Mg            6.845e+00
 
   Bischofite        0.41      4.88    4.47  MgCl2:6H2O
   Brucite          -2.73    -13.49  -10.76  Mg(OH)2
-  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.91     -0.65    1.26  H2O
   MgCl2_2H2O       -6.26      7.49   13.75  MgCl2:2H2O
   MgCl2_4H2O       -0.59      6.18    6.78  MgCl2:4H2O
@@ -3169,17 +3168,17 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.080e+01   7.968e-01
 
                                         pH  =  4.345        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  79980     
-                           Density (g/cm³)  =  1.35635  
+       Specific Conductance (µS/cm,  35°C)  =  79982     
+                           Density (g/cm³)  =  1.35634  
                                 Volume (L)  =  1.10949  
-                         Viscosity (mPa s)  =  14.54127 
+                         Viscosity (mPa s)  =  14.54087 
                          Activity of water  =  0.227  
                   Ionic strength (mol/kgw)  =  2.036e+01  
                         Mass of water (kg)  =  9.139e-01  
-                  Total alkalinity (eq/kg)  =  2.521e-03  
+                   Total alkalinity (eq/kg)  = 2.521e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -3.838e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.824e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  19  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  4.03956  
@@ -3259,19 +3258,19 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.100e+01   9.964e-01
 
                                         pH  =  4.399        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  81313     
+       Specific Conductance (µS/cm,  35°C)  =  81315     
                            Density (g/cm³)  =  1.35437  
                                 Volume (L)  =  1.08116  
-                         Viscosity (mPa s)  =  14.15236 
+                         Viscosity (mPa s)  =  14.15196 
                          Activity of water  =  0.233  
                   Ionic strength (mol/kgw)  =  2.019e+01  
                         Mass of water (kg)  =  8.923e-01  
-                  Total alkalinity (eq/kg)  =  2.582e-03  
+                   Total alkalinity (eq/kg)  = 2.582e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  4.703e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  24  
-                          Gamma iterations  =  7   
+                   Electrical balance (eq)  =  -5.225e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  19  
+                          Gamma iterations  =  6   
                        Osmotic coefficient  =  4.00414  
                           Density of water  =  0.99403  
                                    Total H  =  9.905740e+01
@@ -3335,7 +3334,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.45      4.45    1.000e+01   1.120e+01   1.196e+00
+Carnallite        0.00     4.45      4.45    1.000e+01   1.120e+01   1.196e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -3349,22 +3348,22 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.120e+01   1.196e+00
 
                                         pH  =  4.455        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  82738     
+       Specific Conductance (µS/cm,  35°C)  =  82739     
                            Density (g/cm³)  =  1.35228  
                                 Volume (L)  =  1.05285  
-                         Viscosity (mPa s)  =  13.75363 
+                         Viscosity (mPa s)  =  13.75323 
                          Activity of water  =  0.239  
                   Ionic strength (mol/kgw)  =  2.000e+01  
                         Mass of water (kg)  =  8.707e-01  
-                  Total alkalinity (eq/kg)  =  2.646e-03  
+                   Total alkalinity (eq/kg)  = 2.646e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -6.401e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  21  
+                   Electrical balance (eq)  =  -6.369e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  22  
                           Gamma iterations  =  7   
                        Osmotic coefficient  =  3.96706  
                           Density of water  =  0.99403  
-                                   Total H  =  9.666245e+01
+                                   Total H  =  9.666244e+01
                                    Total O  =  4.833237e+01
 
 ----------------------------Distribution of species----------------------------
@@ -3379,7 +3378,7 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.120e+01   1.196e+00
 Cl            1.334e+01
    Cl-             1.334e+01   1.241e+01     1.125     1.094    -0.031     21.27
 K             7.212e-03
-   K+              7.212e-03   3.588e-02    -2.142    -1.445     0.697     17.41
+   K+              7.212e-03   3.587e-02    -2.142    -1.445     0.697     17.41
 Mg            6.666e+00
    Mg+2            6.663e+00   1.000e+03     0.824     6.339     5.515    -12.09
    MgOH+           2.646e-03   5.373e-02    -2.577    -1.270     1.308     (0)  
@@ -3390,7 +3389,7 @@ Mg            6.666e+00
 
   Bischofite        0.33      4.80    4.47  MgCl2:6H2O
   Brucite          -2.59    -13.35  -10.76  Mg(OH)2
-  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.88     -0.62    1.26  H2O
   MgCl2_2H2O       -6.47      7.28   13.75  MgCl2:2H2O
   MgCl2_4H2O       -0.73      6.04    6.78  MgCl2:4H2O
@@ -3439,18 +3438,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.140e+01   1.396e+00
 
                                         pH  =  4.514        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  84264     
+       Specific Conductance (µS/cm,  35°C)  =  84266     
                            Density (g/cm³)  =  1.35006  
                                 Volume (L)  =  1.02456  
-                         Viscosity (mPa s)  =  13.34495 
+                         Viscosity (mPa s)  =  13.34455 
                          Activity of water  =  0.246  
                   Ionic strength (mol/kgw)  =  1.980e+01  
                         Mass of water (kg)  =  8.491e-01  
-                  Total alkalinity (eq/kg)  =  2.713e-03  
+                   Total alkalinity (eq/kg)  = 2.713e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -6.648e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  27  
+                   Electrical balance (eq)  =  -6.628e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  26  
                           Gamma iterations  =  7   
                        Osmotic coefficient  =  3.92818  
                           Density of water  =  0.99403  
@@ -3529,18 +3528,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.159e+01   1.595e+00
 
                                         pH  =  4.575        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  85902     
-                           Density (g/cm³)  =  1.34771  
+       Specific Conductance (µS/cm,  35°C)  =  85904     
+                           Density (g/cm³)  =  1.34770  
                                 Volume (L)  =  0.99630  
-                         Viscosity (mPa s)  =  12.92620 
+                         Viscosity (mPa s)  =  12.92581 
                          Activity of water  =  0.253  
                   Ionic strength (mol/kgw)  =  1.960e+01  
                         Mass of water (kg)  =  8.276e-01  
-                  Total alkalinity (eq/kg)  =  2.784e-03  
+                   Total alkalinity (eq/kg)  = 2.784e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -1.709e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  27  
+                   Electrical balance (eq)  =  -1.703e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  26  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  3.88740  
                           Density of water  =  0.99403  
@@ -3605,31 +3604,31 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.45      4.45    1.000e+01   1.179e+01   1.794e+00
+Carnallite        0.00     4.45      4.45    1.000e+01   1.179e+01   1.794e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                1.292e+01   1.042e+01
-	K                 9.964e-03   8.032e-03
+	K                 9.964e-03   8.031e-03
 	Mg                6.458e+00   5.206e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  4.640        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  87665     
+       Specific Conductance (µS/cm,  35°C)  =  87667     
                            Density (g/cm³)  =  1.34520  
                                 Volume (L)  =  0.96807  
-                         Viscosity (mPa s)  =  12.49733 
+                         Viscosity (mPa s)  =  12.49694 
                          Activity of water  =  0.261  
                   Ionic strength (mol/kgw)  =  1.938e+01  
                         Mass of water (kg)  =  8.060e-01  
-                  Total alkalinity (eq/kg)  =  2.859e-03  
+                   Total alkalinity (eq/kg)  = 2.859e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -2.357e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.385e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  27  
                           Gamma iterations  =  9   
                        Osmotic coefficient  =  3.84455  
@@ -3660,7 +3659,7 @@ Mg            6.458e+00
 
   Bischofite        0.24      4.71    4.47  MgCl2:6H2O
   Brucite          -2.43    -13.19  -10.76  Mg(OH)2
-  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.84     -0.58    1.26  H2O
   MgCl2_2H2O       -6.71      7.04   13.75  MgCl2:2H2O
   MgCl2_4H2O       -0.90      5.87    6.78  MgCl2:4H2O
@@ -3709,17 +3708,17 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.199e+01   1.993e+00
 
                                         pH  =  4.708        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  89565     
+       Specific Conductance (µS/cm,  35°C)  =  89567     
                            Density (g/cm³)  =  1.34254  
                                 Volume (L)  =  0.93987  
-                         Viscosity (mPa s)  =  12.05835 
+                         Viscosity (mPa s)  =  12.05796 
                          Activity of water  =  0.269  
                   Ionic strength (mol/kgw)  =  1.915e+01  
                         Mass of water (kg)  =  7.845e-01  
-                  Total alkalinity (eq/kg)  =  2.937e-03  
+                   Total alkalinity (eq/kg)  = 2.937e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -4.967e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.965e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  31  
                           Gamma iterations  =  9   
                        Osmotic coefficient  =  3.79948  
@@ -3733,7 +3732,7 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.199e+01   1.993e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             2.205e-07   2.878e-10    -6.657    -9.541    -2.884     21.53
+   OH-             2.204e-07   2.878e-10    -6.657    -9.541    -2.884     21.53
    H+              1.551e-08   1.957e-05    -7.809    -4.708     3.101      0.00
    H2O             5.551e+01   2.693e-01     1.744    -0.570     0.000     18.12
 Cl            1.277e+01
@@ -3792,24 +3791,24 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.219e+01   2.192e+00
 	Elements           Molality       Moles
 
 	Cl                1.261e+01   9.623e+00
-	K                 1.289e-02   9.839e-03
+	K                 1.289e-02   9.838e-03
 	Mg                6.301e+00   4.808e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  4.780        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  91619     
+       Specific Conductance (µS/cm,  35°C)  =  91621     
                            Density (g/cm³)  =  1.33970  
                                 Volume (L)  =  0.91172  
-                         Viscosity (mPa s)  =  11.60934 
+                         Viscosity (mPa s)  =  11.60896 
                          Activity of water  =  0.278  
                   Ionic strength (mol/kgw)  =  1.891e+01  
                         Mass of water (kg)  =  7.630e-01  
-                  Total alkalinity (eq/kg)  =  3.020e-03  
+                   Total alkalinity (eq/kg)  = 3.020e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -7.741e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -7.738e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  33  
                           Gamma iterations  =  10  
                        Osmotic coefficient  =  3.75203  
@@ -3875,7 +3874,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.45      4.45    1.000e+01   1.239e+01   2.391e+00
+Carnallite        0.00     4.45      4.45    1.000e+01   1.239e+01   2.391e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -3889,18 +3888,18 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.239e+01   2.391e+00
 
                                         pH  =  4.856        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  93844     
+       Specific Conductance (µS/cm,  35°C)  =  93847     
                            Density (g/cm³)  =  1.33666  
                                 Volume (L)  =  0.88362  
-                         Viscosity (mPa s)  =  11.15053 
+                         Viscosity (mPa s)  =  11.15014 
                          Activity of water  =  0.288  
                   Ionic strength (mol/kgw)  =  1.865e+01  
                         Mass of water (kg)  =  7.415e-01  
-                  Total alkalinity (eq/kg)  =  3.107e-03  
+                   Total alkalinity (eq/kg)  = 3.107e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  3.339e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  38  
+                   Electrical balance (eq)  =  3.217e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  35  
                           Gamma iterations  =  11  
                        Osmotic coefficient  =  3.70201  
                           Density of water  =  0.99403  
@@ -3930,7 +3929,7 @@ Mg            6.215e+00
 
   Bischofite        0.12      4.59    4.47  MgCl2:6H2O
   Brucite          -2.24    -13.01  -10.76  Mg(OH)2
-  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.80     -0.54    1.26  H2O
   MgCl2_2H2O       -7.00      6.75   13.75  MgCl2:2H2O
   MgCl2_4H2O       -1.11      5.67    6.78  MgCl2:4H2O
@@ -3965,7 +3964,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.45      4.45    1.000e+01   1.259e+01   2.590e+00
+Carnallite       -0.00     4.45      4.45    1.000e+01   1.259e+01   2.590e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -3979,18 +3978,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.259e+01   2.590e+00
 
                                         pH  =  4.936        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  96262     
+       Specific Conductance (µS/cm,  35°C)  =  96264     
                            Density (g/cm³)  =  1.33342  
                                 Volume (L)  =  0.85558  
-                         Viscosity (mPa s)  =  10.68225 
+                         Viscosity (mPa s)  =  10.68187 
                          Activity of water  =  0.298  
                   Ionic strength (mol/kgw)  =  1.839e+01  
                         Mass of water (kg)  =  7.201e-01  
-                  Total alkalinity (eq/kg)  =  3.200e-03  
+                   Total alkalinity (eq/kg)  = 3.200e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -8.090e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  39  
+                   Electrical balance (eq)  =  -8.257e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  37  
                           Gamma iterations  =  11  
                        Osmotic coefficient  =  3.64921  
                           Density of water  =  0.99403  
@@ -4020,7 +4019,7 @@ Mg            6.125e+00
 
   Bischofite        0.07      4.54    4.47  MgCl2:6H2O
   Brucite          -2.17    -12.94  -10.76  Mg(OH)2
-  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.78     -0.53    1.26  H2O
   MgCl2_2H2O       -7.11      6.65   13.75  MgCl2:2H2O
   MgCl2_4H2O       -1.18      5.59    6.78  MgCl2:4H2O
@@ -4069,18 +4068,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.279e+01   2.788e+00
 
                                         pH  =  5.021        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  98894     
-                           Density (g/cm³)  =  1.32995  
-                                Volume (L)  =  0.82763  
-                         Viscosity (mPa s)  =  10.20505 
+       Specific Conductance (µS/cm,  35°C)  =  98896     
+                           Density (g/cm³)  =  1.32994  
+                                Volume (L)  =  0.82764  
+                         Viscosity (mPa s)  =  10.20467 
                          Activity of water  =  0.309  
                   Ionic strength (mol/kgw)  =  1.810e+01  
                         Mass of water (kg)  =  6.986e-01  
-                  Total alkalinity (eq/kg)  =  3.298e-03  
+                   Total alkalinity (eq/kg)  = 3.298e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -3.381e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  42  
+                   Electrical balance (eq)  =  -3.140e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  43  
                           Gamma iterations  =  12  
                        Osmotic coefficient  =  3.59342  
                           Density of water  =  0.99403  
@@ -4159,18 +4158,18 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.299e+01   2.986e+00
 
                                         pH  =  5.111        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  101767    
+       Specific Conductance (µS/cm,  35°C)  =  101770    
                            Density (g/cm³)  =  1.32622  
                                 Volume (L)  =  0.79979  
-                         Viscosity (mPa s)  =  9.71972  
+                         Viscosity (mPa s)  =  9.71935  
                          Activity of water  =  0.321  
                   Ionic strength (mol/kgw)  =  1.780e+01  
                         Mass of water (kg)  =  6.773e-01  
-                  Total alkalinity (eq/kg)  =  3.402e-03  
+                   Total alkalinity (eq/kg)  = 3.402e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -2.011e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  41  
+                   Electrical balance (eq)  =  -2.013e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  42  
                           Gamma iterations  =  13  
                        Osmotic coefficient  =  3.53439  
                           Density of water  =  0.99403  
@@ -4249,18 +4248,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.318e+01   3.182e+00
 
                                         pH  =  5.206        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  104911    
-                           Density (g/cm³)  =  1.32224  
+       Specific Conductance (µS/cm,  35°C)  =  104914    
+                           Density (g/cm³)  =  1.32223  
                                 Volume (L)  =  0.77210  
-                         Viscosity (mPa s)  =  9.22741  
+                         Viscosity (mPa s)  =  9.22704  
                          Activity of water  =  0.334  
                   Ionic strength (mol/kgw)  =  1.748e+01  
                         Mass of water (kg)  =  6.560e-01  
-                  Total alkalinity (eq/kg)  =  3.512e-03  
+                   Total alkalinity (eq/kg)  = 3.512e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -6.051e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  45  
+                   Electrical balance (eq)  =  -6.043e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  43  
                           Gamma iterations  =  14  
                        Osmotic coefficient  =  3.47188  
                           Density of water  =  0.99403  
@@ -4325,7 +4324,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.45      4.45    1.000e+01   1.338e+01   3.378e+00
+Carnallite       -0.00     4.45      4.45    1.000e+01   1.338e+01   3.378e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -4339,18 +4338,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.338e+01   3.378e+00
 
                                         pH  =  5.307        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  108360    
+       Specific Conductance (µS/cm,  35°C)  =  108363    
                            Density (g/cm³)  =  1.31796  
                                 Volume (L)  =  0.74459  
-                         Viscosity (mPa s)  =  8.72971  
+                         Viscosity (mPa s)  =  8.72934  
                          Activity of water  =  0.348  
                   Ionic strength (mol/kgw)  =  1.715e+01  
                         Mass of water (kg)  =  6.348e-01  
-                  Total alkalinity (eq/kg)  =  3.630e-03  
+                   Total alkalinity (eq/kg)  = 3.630e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -2.097e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  47  
+                   Electrical balance (eq)  =  -2.114e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  49  
                           Gamma iterations  =  15  
                        Osmotic coefficient  =  3.40562  
                           Density of water  =  0.99403  
@@ -4380,7 +4379,7 @@ Mg            5.705e+00
 
   Bischofite       -0.16      4.31    4.47  MgCl2:6H2O
   Brucite          -1.85    -12.62  -10.76  Mg(OH)2
-  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.71     -0.46    1.26  H2O
   MgCl2_2H2O       -7.61      6.15   13.75  MgCl2:2H2O
   MgCl2_4H2O       -1.55      5.23    6.78  MgCl2:4H2O
@@ -4429,17 +4428,17 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.357e+01   3.573e+00
 
                                         pH  =  5.413        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  112148    
+       Specific Conductance (µS/cm,  35°C)  =  112152    
                            Density (g/cm³)  =  1.31340  
                                 Volume (L)  =  0.71735  
-                         Viscosity (mPa s)  =  8.22885  
+                         Viscosity (mPa s)  =  8.22849  
                          Activity of water  =  0.364  
                   Ionic strength (mol/kgw)  =  1.679e+01  
                         Mass of water (kg)  =  6.138e-01  
-                  Total alkalinity (eq/kg)  =  3.754e-03  
+                   Total alkalinity (eq/kg)  = 3.754e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -6.545e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -6.263e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  50  
                           Gamma iterations  =  16  
                        Osmotic coefficient  =  3.33537  
@@ -4453,8 +4452,8 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.357e+01   3.573e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             7.106e-07   1.969e-09    -6.148    -8.706    -2.557     18.67
-   H+              9.231e-09   3.861e-06    -8.035    -5.413     2.621      0.00
+   OH-             7.105e-07   1.969e-09    -6.148    -8.706    -2.557     18.67
+   H+              9.232e-09   3.861e-06    -8.035    -5.413     2.621      0.00
    H2O             5.551e+01   3.635e-01     1.744    -0.439     0.000     18.12
 Cl            1.121e+01
    Cl-             1.121e+01   9.926e+00     1.050     0.997    -0.053     21.13
@@ -4505,7 +4504,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.45      4.45    1.000e+01   1.377e+01   3.766e+00
+Carnallite        0.00     4.45      4.45    1.000e+01   1.377e+01   3.766e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -4519,22 +4518,22 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.377e+01   3.766e+00
 
                                         pH  =  5.526        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  116316    
+       Specific Conductance (µS/cm,  35°C)  =  116320    
                            Density (g/cm³)  =  1.30854  
                                 Volume (L)  =  0.69047  
-                         Viscosity (mPa s)  =  7.72791  
+                         Viscosity (mPa s)  =  7.72755  
                          Activity of water  =  0.380  
                   Ionic strength (mol/kgw)  =  1.642e+01  
                         Mass of water (kg)  =  5.929e-01  
-                  Total alkalinity (eq/kg)  =  3.886e-03  
+                   Total alkalinity (eq/kg)  = 3.886e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -3.378e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  54  
+                   Electrical balance (eq)  =  -3.433e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  53  
                           Gamma iterations  =  17  
                        Osmotic coefficient  =  3.26091  
                           Density of water  =  0.99403  
-                                   Total H  =  6.582361e+01
+                                   Total H  =  6.582360e+01
                                    Total O  =  3.291295e+01
 
 ----------------------------Distribution of species----------------------------
@@ -4560,7 +4559,7 @@ Mg            5.454e+00
 
   Bischofite       -0.30      4.16    4.47  MgCl2:6H2O
   Brucite          -1.66    -12.43  -10.76  Mg(OH)2
-  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.68     -0.42    1.26  H2O
   MgCl2_2H2O       -7.90      5.85   13.75  MgCl2:2H2O
   MgCl2_4H2O       -1.77      5.01    6.78  MgCl2:4H2O
@@ -4609,23 +4608,23 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.396e+01   3.956e+00
 
                                         pH  =  5.644        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  120900    
+       Specific Conductance (µS/cm,  35°C)  =  120904    
                            Density (g/cm³)  =  1.30341  
-                                Volume (L)  =  0.66410  
-                         Viscosity (mPa s)  =  7.23112  
+                                Volume (L)  =  0.66411  
+                         Viscosity (mPa s)  =  7.23077  
                          Activity of water  =  0.397  
                   Ionic strength (mol/kgw)  =  1.603e+01  
                         Mass of water (kg)  =  5.724e-01  
-                  Total alkalinity (eq/kg)  =  4.026e-03  
+                   Total alkalinity (eq/kg)  = 4.026e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -1.458e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  59  
+                   Electrical balance (eq)  =  -1.362e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  53  
                           Gamma iterations  =  17  
                        Osmotic coefficient  =  3.18210  
                           Density of water  =  0.99403  
                                    Total H  =  6.354267e+01
-                                   Total O  =  3.177249e+01
+                                   Total O  =  3.177248e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4642,7 +4641,7 @@ K             8.089e-02
    K+              8.089e-02   2.508e-01    -1.092    -0.601     0.491     15.93
 Mg            5.318e+00
    Mg+2            5.314e+00   1.000e+03     0.725     4.547     3.822    -13.75
-   MgOH+           4.025e-03   2.227e-02    -2.395    -1.652     0.743     (0)  
+   MgOH+           4.024e-03   2.227e-02    -2.395    -1.652     0.743     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4685,7 +4684,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.45      4.45    1.000e+01   1.414e+01   4.142e+00
+Carnallite        0.00     4.45      4.45    1.000e+01   1.414e+01   4.142e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -4699,22 +4698,22 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.414e+01   4.142e+00
 
                                         pH  =  5.768        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  125935    
+       Specific Conductance (µS/cm,  35°C)  =  125940    
                            Density (g/cm³)  =  1.29808  
                                 Volume (L)  =  0.63847  
-                         Viscosity (mPa s)  =  6.74418  
+                         Viscosity (mPa s)  =  6.74383  
                          Activity of water  =  0.415  
                   Ionic strength (mol/kgw)  =  1.563e+01  
                         Mass of water (kg)  =  5.522e-01  
-                  Total alkalinity (eq/kg)  =  4.172e-03  
+                   Total alkalinity (eq/kg)  = 4.172e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -9.513e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  61  
+                   Electrical balance (eq)  =  -1.522e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  60  
                           Gamma iterations  =  18  
                        Osmotic coefficient  =  3.09894  
                           Density of water  =  0.99403  
-                                   Total H  =  6.130840e+01
+                                   Total H  =  6.130839e+01
                                    Total O  =  3.065535e+01
 
 ----------------------------Distribution of species----------------------------
@@ -4724,7 +4723,7 @@ Carnallite       -0.00     4.45      4.45    1.000e+01   1.414e+01   4.142e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             1.251e-06   5.085e-09    -5.903    -8.294    -2.391     17.25
-   H+              7.044e-09   1.708e-06    -8.152    -5.768     2.385      0.00
+   H+              7.045e-09   1.708e-06    -8.152    -5.768     2.385      0.00
    H2O             5.551e+01   4.153e-01     1.744    -0.382     0.000     18.12
 Cl            1.045e+01
    Cl-             1.045e+01   9.019e+00     1.019     0.955    -0.064     21.08
@@ -4740,7 +4739,7 @@ Mg            5.175e+00
 
   Bischofite       -0.48      3.99    4.47  MgCl2:6H2O
   Brucite          -1.46    -12.22  -10.76  Mg(OH)2
-  Carnallite       -0.00      4.45    4.45  KMgCl3:6H2O
+  Carnallite        0.00      4.45    4.45  KMgCl3:6H2O
   H2O(g)           -1.64     -0.38    1.26  H2O
   MgCl2_2H2O       -8.24      5.51   13.75  MgCl2:2H2O
   MgCl2_4H2O       -2.03      4.75    6.78  MgCl2:4H2O
@@ -4789,23 +4788,23 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.432e+01   4.323e+00
 
                                         pH  =  5.894        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  131445    
+       Specific Conductance (µS/cm,  35°C)  =  131451    
                            Density (g/cm³)  =  1.29265  
-                                Volume (L)  =  0.61384  
-                         Viscosity (mPa s)  =  6.27441  
+                                Volume (L)  =  0.61385  
+                         Viscosity (mPa s)  =  6.27407  
                          Activity of water  =  0.434  
                   Ionic strength (mol/kgw)  =  1.522e+01  
                         Mass of water (kg)  =  5.327e-01  
-                  Total alkalinity (eq/kg)  =  4.325e-03  
+                   Total alkalinity (eq/kg)  = 4.325e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -4.037e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  61  
+                   Electrical balance (eq)  =  -4.155e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  60  
                           Gamma iterations  =  19  
                        Osmotic coefficient  =  3.01171  
                           Density of water  =  0.99403  
-                                   Total H  =  5.914041e+01
-                                   Total O  =  2.957136e+01
+                                   Total H  =  5.914040e+01
+                                   Total O  =  2.957135e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4879,18 +4878,18 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.450e+01   4.496e+00
 
                                         pH  =  6.022        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  137440    
+       Specific Conductance (µS/cm,  35°C)  =  137445    
                            Density (g/cm³)  =  1.28733  
-                                Volume (L)  =  0.59061  
-                         Viscosity (mPa s)  =  5.83064  
+                                Volume (L)  =  0.59062  
+                         Viscosity (mPa s)  =  5.83031  
                          Activity of water  =  0.454  
                   Ionic strength (mol/kgw)  =  1.481e+01  
                         Mass of water (kg)  =  5.140e-01  
-                  Total alkalinity (eq/kg)  =  4.483e-03  
+                   Total alkalinity (eq/kg)  = 4.483e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -2.098e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  61  
+                   Electrical balance (eq)  =  -2.067e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  60  
                           Gamma iterations  =  20  
                        Osmotic coefficient  =  2.92105  
                           Density of water  =  0.99403  
@@ -4969,22 +4968,22 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.466e+01   4.659e+00
 
                                         pH  =  6.148        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  143905    
+       Specific Conductance (µS/cm,  35°C)  =  143912    
                            Density (g/cm³)  =  1.28237  
                                 Volume (L)  =  0.56919  
-                         Viscosity (mPa s)  =  5.42207  
+                         Viscosity (mPa s)  =  5.42174  
                          Activity of water  =  0.472  
                   Ionic strength (mol/kgw)  =  1.443e+01  
                         Mass of water (kg)  =  4.964e-01  
-                  Total alkalinity (eq/kg)  =  4.642e-03  
+                   Total alkalinity (eq/kg)  = 4.642e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -2.668e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.641e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  63  
                           Gamma iterations  =  21  
                        Osmotic coefficient  =  2.82805  
                           Density of water  =  0.99403  
-                                   Total H  =  5.510666e+01
+                                   Total H  =  5.510665e+01
                                    Total O  =  2.755448e+01
 
 ----------------------------Distribution of species----------------------------
@@ -5059,17 +5058,17 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.481e+01   4.810e+00
 
                                         pH  =  6.268        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  150812    
-                           Density (g/cm³)  =  1.27807  
+       Specific Conductance (µS/cm,  35°C)  =  150819    
+                           Density (g/cm³)  =  1.27806  
                                 Volume (L)  =  0.54993  
-                         Viscosity (mPa s)  =  5.05632  
+                         Viscosity (mPa s)  =  5.05600  
                          Activity of water  =  0.490  
                   Ionic strength (mol/kgw)  =  1.408e+01  
-                        Mass of water (kg)  =  4.801e-01  
-                  Total alkalinity (eq/kg)  =  4.800e-03  
+                        Mass of water (kg)  =  4.800e-01  
+                   Total alkalinity (eq/kg)  = 4.800e-03  
                           Temperature (°C)  =  35.00 
                    Electrical balance (eq)  =  -1.636e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  65  
                           Gamma iterations  =  22  
                        Osmotic coefficient  =  2.73417  
@@ -5084,7 +5083,7 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.481e+01   4.810e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             2.558e-06   1.898e-08    -5.592    -7.722    -2.130     15.35
-   H+              4.770e-09   5.399e-07    -8.322    -6.268     2.054      0.00
+   H+              4.770e-09   5.399e-07    -8.321    -6.268     2.054      0.00
    H2O             5.551e+01   4.900e-01     1.744    -0.310     0.000     18.12
 Cl            9.519e+00
    Cl-             9.519e+00   7.885e+00     0.979     0.897    -0.082     20.99
@@ -5149,22 +5148,22 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.495e+01   4.948e+00
 
                                         pH  =  6.378        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  158123    
+       Specific Conductance (µS/cm,  35°C)  =  158130    
                            Density (g/cm³)  =  1.27468  
                                 Volume (L)  =  0.53304  
-                         Viscosity (mPa s)  =  4.73730  
+                         Viscosity (mPa s)  =  4.73699  
                          Activity of water  =  0.506  
                   Ionic strength (mol/kgw)  =  1.377e+01  
                         Mass of water (kg)  =  4.651e-01  
-                  Total alkalinity (eq/kg)  =  4.953e-03  
+                   Total alkalinity (eq/kg)  = 4.953e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -1.954e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.388e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  71  
                           Gamma iterations  =  23  
                        Osmotic coefficient  =  2.64101  
                           Density of water  =  0.99403  
-                                   Total H  =  5.163968e+01
+                                   Total H  =  5.163967e+01
                                    Total O  =  2.582099e+01
 
 ----------------------------Distribution of species----------------------------
@@ -5239,23 +5238,23 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.507e+01   5.073e+00
 
                                         pH  =  6.476        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  165801    
-                           Density (g/cm³)  =  1.27237  
+       Specific Conductance (µS/cm,  35°C)  =  165809    
+                           Density (g/cm³)  =  1.27236  
                                 Volume (L)  =  0.51851  
-                         Viscosity (mPa s)  =  4.46430  
+                         Viscosity (mPa s)  =  4.46400  
                          Activity of water  =  0.519  
                   Ionic strength (mol/kgw)  =  1.352e+01  
                         Mass of water (kg)  =  4.517e-01  
-                  Total alkalinity (eq/kg)  =  5.101e-03  
+                   Total alkalinity (eq/kg)  = 5.101e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -1.767e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  79  
+                   Electrical balance (eq)  =  -1.657e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  76  
                           Gamma iterations  =  23  
                        Osmotic coefficient  =  2.54994  
                           Density of water  =  0.99403  
-                                   Total H  =  5.014407e+01
-                                   Total O  =  2.507319e+01
+                                   Total H  =  5.014406e+01
+                                   Total O  =  2.507318e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5329,22 +5328,22 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.519e+01   5.185e+00
 
                                         pH  =  6.563        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  173822    
+       Specific Conductance (µS/cm,  35°C)  =  173831    
                            Density (g/cm³)  =  1.27116  
                                 Volume (L)  =  0.50615  
-                         Viscosity (mPa s)  =  4.23305  
+                         Viscosity (mPa s)  =  4.23276  
                          Activity of water  =  0.531  
                   Ionic strength (mol/kgw)  =  1.333e+01  
                         Mass of water (kg)  =  4.395e-01  
-                  Total alkalinity (eq/kg)  =  5.242e-03  
+                   Total alkalinity (eq/kg)  = 5.242e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -2.777e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  76  
+                   Electrical balance (eq)  =  -4.160e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  79  
                           Gamma iterations  =  24  
                        Osmotic coefficient  =  2.46192  
                           Density of water  =  0.99403  
-                                   Total H  =  4.879442e+01
+                                   Total H  =  4.879441e+01
                                    Total O  =  2.439836e+01
 
 ----------------------------Distribution of species----------------------------
@@ -5419,23 +5418,23 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.529e+01   5.287e+00
 
                                         pH  =  6.637        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  182163    
+       Specific Conductance (µS/cm,  35°C)  =  182172    
                            Density (g/cm³)  =  1.27099  
-                                Volume (L)  =  0.49566  
-                         Viscosity (mPa s)  =  4.03758  
+                                Volume (L)  =  0.49567  
+                         Viscosity (mPa s)  =  4.03730  
                          Activity of water  =  0.540  
                   Ionic strength (mol/kgw)  =  1.319e+01  
                         Mass of water (kg)  =  4.285e-01  
-                  Total alkalinity (eq/kg)  =  5.377e-03  
+                   Total alkalinity (eq/kg)  = 5.377e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -8.121e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -7.042e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  81  
                           Gamma iterations  =  24  
                        Osmotic coefficient  =  2.37750  
                           Density of water  =  0.99403  
-                                   Total H  =  4.757159e+01
-                                   Total O  =  2.378695e+01
+                                   Total H  =  4.757158e+01
+                                   Total O  =  2.378694e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5509,23 +5508,23 @@ Carnallite        0.00     4.45      4.45    1.000e+01   1.538e+01   5.380e+00
 
                                         pH  =  6.702        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  35°C)  =  190805    
+       Specific Conductance (µS/cm,  35°C)  =  190814    
                            Density (g/cm³)  =  1.27177  
                                 Volume (L)  =  0.48676  
-                         Viscosity (mPa s)  =  3.87186  
+                         Viscosity (mPa s)  =  3.87159  
                          Activity of water  =  0.547  
                   Ionic strength (mol/kgw)  =  1.309e+01  
                         Mass of water (kg)  =  4.184e-01  
-                  Total alkalinity (eq/kg)  =  5.506e-03  
+                   Total alkalinity (eq/kg)  = 5.506e-03  
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  -2.026e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.019e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  86  
                           Gamma iterations  =  25  
                        Osmotic coefficient  =  2.29691  
                           Density of water  =  0.99403  
-                                   Total H  =  4.645533e+01
-                                   Total O  =  2.322882e+01
+                                   Total H  =  4.645532e+01
+                                   Total O  =  2.322881e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5619,23 +5618,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.016e+01   1.580e-01
 
                                         pH  =  3.607        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  165331    
-                           Density (g/cm³)  =  1.36565  
+       Specific Conductance (µS/cm,  75°C)  =  165336    
+                           Density (g/cm³)  =  1.36564  
                                 Volume (L)  =  1.19915  
-                         Viscosity (mPa s)  =  6.41901  
+                         Viscosity (mPa s)  =  6.41862  
                          Activity of water  =  0.261  
                   Ionic strength (mol/kgw)  =  2.092e+01  
                         Mass of water (kg)  =  9.829e-01  
-                  Total alkalinity (eq/kg)  =  2.344e-03  
+                   Total alkalinity (eq/kg)  = 2.344e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -4.657e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  30  
+                   Electrical balance (eq)  =  -4.673e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  29  
                           Gamma iterations  =  9   
-                       Osmotic coefficient  =  3.55337  
-                          Density of water  =  0.97485  
-                                   Total H  =  1.091189e+02
-                                   Total O  =  5.456058e+01
+                       Osmotic coefficient  =  3.55338  
+                          Density of water  =  0.97484  
+                                   Total H  =  1.091188e+02
+                                   Total O  =  5.456056e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5702,30 +5701,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.036e+01   3.563e-01
 	Elements           Molality       Moles
 
 	Cl                1.387e+01   1.333e+01
-	K                 4.784e-02   4.599e-02
+	K                 4.783e-02   4.599e-02
 	Mg                6.910e+00   6.644e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.649        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  167488    
-                           Density (g/cm³)  =  1.36368  
-                                Volume (L)  =  1.17140  
-                         Viscosity (mPa s)  =  6.28233  
+       Specific Conductance (µS/cm,  75°C)  =  167493    
+                           Density (g/cm³)  =  1.36367  
+                                Volume (L)  =  1.17141  
+                         Viscosity (mPa s)  =  6.28195  
                          Activity of water  =  0.266  
                   Ionic strength (mol/kgw)  =  2.077e+01  
                         Mass of water (kg)  =  9.615e-01  
-                  Total alkalinity (eq/kg)  =  2.396e-03  
+                   Total alkalinity (eq/kg)  = 2.396e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.179e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  31  
+                   Electrical balance (eq)  =  -2.895e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  34  
                           Gamma iterations  =  10  
-                       Osmotic coefficient  =  3.52893  
-                          Density of water  =  0.97485  
+                       Osmotic coefficient  =  3.52894  
+                          Density of water  =  0.97484  
                                    Total H  =  1.067390e+02
-                                   Total O  =  5.337066e+01
+                                   Total O  =  5.337064e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5733,13 +5732,13 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.036e+01   3.563e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             3.099e-07   2.434e-10    -6.509    -9.614    -3.105     25.15
+   OH-             3.099e-07   2.434e-10    -6.509    -9.614    -3.105     25.14
    H+              1.325e-07   2.244e-04    -6.878    -3.649     3.229      0.00
    H2O             5.551e+01   2.661e-01     1.744    -0.575     0.000     18.48
 Cl            1.387e+01
    Cl-             1.387e+01   8.127e+00     1.142     0.910    -0.232     21.12
-K             4.784e-02
-   K+              4.784e-02   2.640e-01    -1.320    -0.578     0.742     16.06
+K             4.783e-02
+   K+              4.783e-02   2.640e-01    -1.320    -0.578     0.742     16.06
 Mg            6.910e+00
    Mg+2            6.907e+00   1.000e+03     0.839     5.655     4.816    -14.63
    MgOH+           2.396e-03   3.495e-02    -2.620    -1.457     1.164     (0)  
@@ -5785,37 +5784,37 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.36      4.36    1.000e+01   1.055e+01   5.544e-01
+Carnallite        0.00     4.36      4.36    1.000e+01   1.055e+01   5.544e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                1.376e+01   1.294e+01
-	K                 5.095e-02   4.789e-02
+	K                 5.094e-02   4.789e-02
 	Mg                6.856e+00   6.446e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.693        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  169774    
-                           Density (g/cm³)  =  1.36162  
-                                Volume (L)  =  1.14370  
-                         Viscosity (mPa s)  =  6.14233  
+       Specific Conductance (µS/cm,  75°C)  =  169779    
+                           Density (g/cm³)  =  1.36161  
+                                Volume (L)  =  1.14371  
+                         Viscosity (mPa s)  =  6.14195  
                          Activity of water  =  0.271  
                   Ionic strength (mol/kgw)  =  2.062e+01  
                         Mass of water (kg)  =  9.401e-01  
-                  Total alkalinity (eq/kg)  =  2.451e-03  
+                   Total alkalinity (eq/kg)  = 2.451e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -1.919e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  34  
+                   Electrical balance (eq)  =  -2.036e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  32  
                           Gamma iterations  =  10  
                        Osmotic coefficient  =  3.50341  
-                          Density of water  =  0.97485  
+                          Density of water  =  0.97484  
                                    Total H  =  1.043618e+02
-                                   Total O  =  5.218205e+01
+                                   Total O  =  5.218203e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5823,13 +5822,13 @@ Carnallite       -0.00     4.36      4.36    1.000e+01   1.055e+01   5.544e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             3.306e-07   2.746e-10    -6.481    -9.561    -3.081     24.95
+   OH-             3.305e-07   2.746e-10    -6.481    -9.561    -3.081     24.95
    H+              1.297e-07   2.028e-04    -6.887    -3.693     3.194      0.00
    H2O             5.551e+01   2.713e-01     1.744    -0.567     0.000     18.48
 Cl            1.376e+01
    Cl-             1.376e+01   8.134e+00     1.139     0.910    -0.228     21.12
-K             5.095e-02
-   K+              5.095e-02   2.746e-01    -1.293    -0.561     0.732     16.02
+K             5.094e-02
+   K+              5.094e-02   2.746e-01    -1.293    -0.561     0.732     16.02
 Mg            6.856e+00
    Mg+2            6.854e+00   1.000e+03     0.836     5.587     4.751    -14.68
    MgOH+           2.451e-03   3.368e-02    -2.611    -1.473     1.138     (0)  
@@ -5840,7 +5839,7 @@ Mg            6.856e+00
 
   Bischofite        0.03      4.01    3.98  MgCl2:6H2O
   Brucite          -3.17    -13.54  -10.37  Mg(OH)2
-  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.99     -0.57    0.42  H2O
   MgCl2_2H2O       -4.72      6.27   10.99  MgCl2:2H2O
   MgCl2_4H2O       -0.83      5.14    5.97  MgCl2:4H2O
@@ -5882,30 +5881,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.075e+01   7.523e-01
 	Elements           Molality       Moles
 
 	Cl                1.365e+01   1.254e+01
-	K                 5.448e-02   5.005e-02
+	K                 5.447e-02   5.004e-02
 	Mg                6.801e+00   6.248e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.739        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  172199    
-                           Density (g/cm³)  =  1.35946  
-                                Volume (L)  =  1.11605  
-                         Viscosity (mPa s)  =  5.99897  
+       Specific Conductance (µS/cm,  75°C)  =  172205    
+                           Density (g/cm³)  =  1.35945  
+                                Volume (L)  =  1.11606  
+                         Viscosity (mPa s)  =  5.99860  
                          Activity of water  =  0.277  
                   Ionic strength (mol/kgw)  =  2.045e+01  
                         Mass of water (kg)  =  9.187e-01  
-                  Total alkalinity (eq/kg)  =  2.508e-03  
+                   Total alkalinity (eq/kg)  = 2.508e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.876e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  35  
+                   Electrical balance (eq)  =  -4.172e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  38  
                           Gamma iterations  =  10  
                        Osmotic coefficient  =  3.47672  
-                          Density of water  =  0.97485  
+                          Density of water  =  0.97484  
                                    Total H  =  1.019876e+02
-                                   Total O  =  5.099497e+01
+                                   Total O  =  5.099495e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5913,13 +5912,13 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.075e+01   7.523e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             3.535e-07   3.112e-10    -6.452    -9.507    -3.055     24.74
+   OH-             3.534e-07   3.112e-10    -6.452    -9.507    -3.055     24.74
    H+              1.268e-07   1.825e-04    -6.897    -3.739     3.158      0.00
    H2O             5.551e+01   2.768e-01     1.744    -0.558     0.000     18.48
 Cl            1.365e+01
    Cl-             1.365e+01   8.138e+00     1.135     0.911    -0.225     21.12
-K             5.448e-02
-   K+              5.448e-02   2.865e-01    -1.264    -0.543     0.721     15.98
+K             5.447e-02
+   K+              5.447e-02   2.864e-01    -1.264    -0.543     0.721     15.98
 Mg            6.801e+00
    Mg+2            6.798e+00   1.000e+03     0.832     5.516     4.683    -14.73
    MgOH+           2.508e-03   3.240e-02    -2.601    -1.489     1.111     (0)  
@@ -5972,30 +5971,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.095e+01   9.498e-01
 	Elements           Molality       Moles
 
 	Cl                1.354e+01   1.215e+01
-	K                 5.850e-02   5.250e-02
+	K                 5.850e-02   5.249e-02
 	Mg                6.742e+00   6.050e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.786        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  174776    
-                           Density (g/cm³)  =  1.35719  
+       Specific Conductance (µS/cm,  75°C)  =  174782    
+                           Density (g/cm³)  =  1.35718  
                                 Volume (L)  =  1.08846  
-                         Viscosity (mPa s)  =  5.85222  
+                         Viscosity (mPa s)  =  5.85186  
                          Activity of water  =  0.283  
                   Ionic strength (mol/kgw)  =  2.028e+01  
                         Mass of water (kg)  =  8.973e-01  
-                  Total alkalinity (eq/kg)  =  2.568e-03  
+                   Total alkalinity (eq/kg)  = 2.568e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -9.485e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  39  
+                   Electrical balance (eq)  =  -9.572e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  37  
                           Gamma iterations  =  11  
                        Osmotic coefficient  =  3.44880  
-                          Density of water  =  0.97485  
-                                   Total H  =  9.961704e+01
-                                   Total O  =  4.980967e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  9.961700e+01
+                                   Total O  =  4.980965e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6055,37 +6054,37 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.36      4.36    1.000e+01   1.115e+01   1.147e+00
+Carnallite        0.00     4.36      4.36    1.000e+01   1.115e+01   1.147e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                1.342e+01   1.176e+01
-	K                 6.312e-02   5.530e-02
+	K                 6.312e-02   5.529e-02
 	Mg                6.681e+00   5.853e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.836        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  177519    
+       Specific Conductance (µS/cm,  75°C)  =  177525    
                            Density (g/cm³)  =  1.35481  
-                                Volume (L)  =  1.06093  
-                         Viscosity (mPa s)  =  5.70208  
+                                Volume (L)  =  1.06094  
+                         Viscosity (mPa s)  =  5.70172  
                          Activity of water  =  0.289  
                   Ionic strength (mol/kgw)  =  2.010e+01  
                         Mass of water (kg)  =  8.760e-01  
-                  Total alkalinity (eq/kg)  =  2.630e-03  
+                   Total alkalinity (eq/kg)  = 2.630e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.694e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  41  
+                   Electrical balance (eq)  =  -3.670e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  39  
                           Gamma iterations  =  11  
                        Osmotic coefficient  =  3.41956  
-                          Density of water  =  0.97485  
-                                   Total H  =  9.725066e+01
-                                   Total O  =  4.862648e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  9.725061e+01
+                                   Total O  =  4.862646e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6110,7 +6109,7 @@ Mg            6.681e+00
 
   Bischofite       -0.03      3.95    3.98  MgCl2:6H2O
   Brucite          -3.05    -13.42  -10.37  Mg(OH)2
-  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.96     -0.54    0.42  H2O
   MgCl2_2H2O       -4.88      6.11   10.99  MgCl2:2H2O
   MgCl2_4H2O       -0.94      5.03    5.97  MgCl2:4H2O
@@ -6152,30 +6151,30 @@ Carnallite       -0.00     4.36      4.36    1.000e+01   1.134e+01   1.344e+00
 	Elements           Molality       Moles
 
 	Cl                1.330e+01   1.137e+01
-	K                 6.846e-02   5.852e-02
+	K                 6.846e-02   5.851e-02
 	Mg                6.617e+00   5.656e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.888        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  180442    
-                           Density (g/cm³)  =  1.35232  
-                                Volume (L)  =  1.03348  
-                         Viscosity (mPa s)  =  5.54857  
+       Specific Conductance (µS/cm,  75°C)  =  180448    
+                           Density (g/cm³)  =  1.35231  
+                                Volume (L)  =  1.03349  
+                         Viscosity (mPa s)  =  5.54821  
                          Activity of water  =  0.295  
                   Ionic strength (mol/kgw)  =  1.992e+01  
                         Mass of water (kg)  =  8.547e-01  
-                  Total alkalinity (eq/kg)  =  2.696e-03  
+                   Total alkalinity (eq/kg)  = 2.696e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -5.942e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -6.158e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  40  
                           Gamma iterations  =  12  
                        Osmotic coefficient  =  3.38891  
-                          Density of water  =  0.97485  
-                                   Total H  =  9.488928e+01
-                                   Total O  =  4.744579e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  9.488923e+01
+                                   Total O  =  4.744577e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6183,7 +6182,7 @@ Carnallite       -0.00     4.36      4.36    1.000e+01   1.134e+01   1.344e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             4.394e-07   4.680e-10    -6.357    -9.330    -2.973     24.07
+   OH-             4.393e-07   4.680e-10    -6.357    -9.330    -2.973     24.06
    H+              1.178e-07   1.294e-04    -6.929    -3.888     3.041      0.00
    H2O             5.551e+01   2.952e-01     1.744    -0.530     0.000     18.48
 Cl            1.330e+01
@@ -6235,7 +6234,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.36      4.36    1.000e+01   1.154e+01   1.540e+00
+Carnallite       -0.00     4.36      4.36    1.000e+01   1.154e+01   1.540e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -6249,23 +6248,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.154e+01   1.540e+00
 
                                         pH  =  3.942        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  183561    
-                           Density (g/cm³)  =  1.34970  
+       Specific Conductance (µS/cm,  75°C)  =  183568    
+                           Density (g/cm³)  =  1.34969  
                                 Volume (L)  =  1.00613  
-                         Viscosity (mPa s)  =  5.39173  
+                         Viscosity (mPa s)  =  5.39138  
                          Activity of water  =  0.302  
                   Ionic strength (mol/kgw)  =  1.972e+01  
                         Mass of water (kg)  =  8.335e-01  
-                  Total alkalinity (eq/kg)  =  2.764e-03  
+                   Total alkalinity (eq/kg)  = 2.764e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -6.472e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  43  
+                   Electrical balance (eq)  =  -4.215e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  42  
                           Gamma iterations  =  12  
                        Osmotic coefficient  =  3.35675  
-                          Density of water  =  0.97485  
-                                   Total H  =  9.253386e+01
-                                   Total O  =  4.626808e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  9.253381e+01
+                                   Total O  =  4.626806e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6279,7 +6278,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.154e+01   1.540e+00
 Cl            1.317e+01
    Cl-             1.317e+01   8.134e+00     1.120     0.910    -0.209     21.11
 K             7.466e-02
-   K+              7.466e-02   3.516e-01    -1.127    -0.454     0.673     15.80
+   K+              7.466e-02   3.515e-01    -1.127    -0.454     0.673     15.80
 Mg            6.550e+00
    Mg+2            6.548e+00   1.000e+03     0.816     5.200     4.384    -14.97
    MgOH+           2.764e-03   2.729e-02    -2.558    -1.564     0.995     (0)  
@@ -6290,7 +6289,7 @@ Mg            6.550e+00
 
   Bischofite       -0.08      3.90    3.98  MgCl2:6H2O
   Brucite          -2.96    -13.33  -10.37  Mg(OH)2
-  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.94     -0.52    0.42  H2O
   MgCl2_2H2O       -5.01      5.98   10.99  MgCl2:2H2O
   MgCl2_4H2O       -1.03      4.94    5.97  MgCl2:4H2O
@@ -6339,23 +6338,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.174e+01   1.736e+00
 
                                         pH  =  3.999        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  186896    
-                           Density (g/cm³)  =  1.34694  
+       Specific Conductance (µS/cm,  75°C)  =  186903    
+                           Density (g/cm³)  =  1.34693  
                                 Volume (L)  =  0.97889  
-                         Viscosity (mPa s)  =  5.23165  
+                         Viscosity (mPa s)  =  5.23131  
                          Activity of water  =  0.309  
                   Ionic strength (mol/kgw)  =  1.952e+01  
                         Mass of water (kg)  =  8.124e-01  
-                  Total alkalinity (eq/kg)  =  2.836e-03  
+                   Total alkalinity (eq/kg)  = 2.836e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -5.634e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  42  
+                   Electrical balance (eq)  =  -5.791e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  45  
                           Gamma iterations  =  13  
                        Osmotic coefficient  =  3.32299  
-                          Density of water  =  0.97485  
-                                   Total H  =  9.018561e+01
-                                   Total O  =  4.509396e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  9.018556e+01
+                                   Total O  =  4.509393e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6369,7 +6368,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.174e+01   1.736e+00
 Cl            1.304e+01
    Cl-             1.304e+01   8.126e+00     1.115     0.910    -0.205     21.11
 K             8.191e-02
-   K+              8.191e-02   3.740e-01    -1.087    -0.427     0.659     15.75
+   K+              8.191e-02   3.740e-01    -1.087    -0.427     0.660     15.75
 Mg            6.480e+00
    Mg+2            6.477e+00   1.000e+03     0.811     5.112     4.301    -15.03
    MgOH+           2.836e-03   2.603e-02    -2.547    -1.585     0.963     (0)  
@@ -6415,37 +6414,37 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.36      4.36    1.000e+01   1.193e+01   1.931e+00
+Carnallite       -0.00     4.36      4.36    1.000e+01   1.193e+01   1.931e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                1.290e+01   1.021e+01
-	K                 9.046e-02   7.158e-02
+	K                 9.045e-02   7.157e-02
 	Mg                6.406e+00   5.069e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  4.058        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  190465    
-                           Density (g/cm³)  =  1.34405  
-                                Volume (L)  =  0.95178  
-                         Viscosity (mPa s)  =  5.06849  
+       Specific Conductance (µS/cm,  75°C)  =  190472    
+                           Density (g/cm³)  =  1.34404  
+                                Volume (L)  =  0.95179  
+                         Viscosity (mPa s)  =  5.06815  
                          Activity of water  =  0.317  
                   Ionic strength (mol/kgw)  =  1.930e+01  
                         Mass of water (kg)  =  7.913e-01  
-                  Total alkalinity (eq/kg)  =  2.912e-03  
+                   Total alkalinity (eq/kg)  = 2.912e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -7.227e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  42  
+                   Electrical balance (eq)  =  -7.118e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  46  
                           Gamma iterations  =  13  
-                       Osmotic coefficient  =  3.28751  
-                          Density of water  =  0.97485  
-                                   Total H  =  8.784603e+01
-                                   Total O  =  4.392417e+01
+                       Osmotic coefficient  =  3.28752  
+                          Density of water  =  0.97484  
+                                   Total H  =  8.784597e+01
+                                   Total O  =  4.392414e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6454,12 +6453,12 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.193e+01   1.931e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             5.614e-07   7.431e-10    -6.251    -9.129    -2.878     23.29
-   H+              1.083e-07   8.756e-05    -6.965    -4.058     2.908      0.00
+   H+              1.083e-07   8.757e-05    -6.965    -4.058     2.908      0.00
    H2O             5.551e+01   3.170e-01     1.744    -0.499     0.000     18.48
 Cl            1.290e+01
    Cl-             1.290e+01   8.114e+00     1.111     0.909    -0.201     21.11
-K             9.046e-02
-   K+              9.046e-02   3.998e-01    -1.044    -0.398     0.645     15.69
+K             9.045e-02
+   K+              9.045e-02   3.998e-01    -1.044    -0.398     0.645     15.69
 Mg            6.406e+00
    Mg+2            6.403e+00   1.000e+03     0.806     5.021     4.215    -15.10
    MgOH+           2.911e-03   2.477e-02    -2.536    -1.606     0.930     (0)  
@@ -6470,7 +6469,7 @@ Mg            6.406e+00
 
   Bischofite       -0.13      3.85    3.98  MgCl2:6H2O
   Brucite          -2.87    -13.24  -10.37  Mg(OH)2
-  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.92     -0.50    0.42  H2O
   MgCl2_2H2O       -5.15      5.84   10.99  MgCl2:2H2O
   MgCl2_4H2O       -1.13      4.84    5.97  MgCl2:4H2O
@@ -6519,23 +6518,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.212e+01   2.125e+00
 
                                         pH  =  4.119        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  194290    
-                           Density (g/cm³)  =  1.34102  
+       Specific Conductance (µS/cm,  75°C)  =  194298    
+                           Density (g/cm³)  =  1.34101  
                                 Volume (L)  =  0.92484  
-                         Viscosity (mPa s)  =  4.90244  
+                         Viscosity (mPa s)  =  4.90210  
                          Activity of water  =  0.325  
                   Ionic strength (mol/kgw)  =  1.908e+01  
                         Mass of water (kg)  =  7.703e-01  
-                  Total alkalinity (eq/kg)  =  2.991e-03  
+                   Total alkalinity (eq/kg)  = 2.991e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -8.324e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.274e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  48  
                           Gamma iterations  =  14  
                        Osmotic coefficient  =  3.25021  
-                          Density of water  =  0.97485  
-                                   Total H  =  8.551698e+01
-                                   Total O  =  4.275964e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  8.551692e+01
+                                   Total O  =  4.275961e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6544,7 +6543,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.212e+01   2.125e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             6.133e-07   8.786e-10    -6.212    -9.056    -2.844     23.01
-   H+              1.050e-07   7.597e-05    -6.979    -4.119     2.859      0.00
+   H+              1.050e-07   7.597e-05    -6.979    -4.119     2.860      0.00
    H2O             5.551e+01   3.252e-01     1.744    -0.488     0.000     18.48
 Cl            1.276e+01
    Cl-             1.276e+01   8.097e+00     1.106     0.908    -0.197     21.10
@@ -6602,30 +6601,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.232e+01   2.318e+00
 	Elements           Molality       Moles
 
 	Cl                1.260e+01   9.447e+00
-	K                 1.127e-01   8.448e-02
+	K                 1.127e-01   8.447e-02
 	Mg                6.247e+00   4.682e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  4.184        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  198395    
-                           Density (g/cm³)  =  1.33784  
-                                Volume (L)  =  0.89809  
-                         Viscosity (mPa s)  =  4.73380  
+       Specific Conductance (µS/cm,  75°C)  =  198403    
+                           Density (g/cm³)  =  1.33783  
+                                Volume (L)  =  0.89810  
+                         Viscosity (mPa s)  =  4.73347  
                          Activity of water  =  0.334  
                   Ionic strength (mol/kgw)  =  1.885e+01  
                         Mass of water (kg)  =  7.495e-01  
-                  Total alkalinity (eq/kg)  =  3.074e-03  
+                   Total alkalinity (eq/kg)  = 3.074e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -1.010e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  50  
+                   Electrical balance (eq)  =  -1.217e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  51  
                           Gamma iterations  =  14  
-                       Osmotic coefficient  =  3.21095  
-                          Density of water  =  0.97485  
-                                   Total H  =  8.320084e+01
-                                   Total O  =  4.160157e+01
+                       Osmotic coefficient  =  3.21096  
+                          Density of water  =  0.97484  
+                                   Total H  =  8.320077e+01
+                                   Total O  =  4.160154e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6692,30 +6691,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.251e+01   2.510e+00
 	Elements           Molality       Moles
 
 	Cl                1.245e+01   9.071e+00
-	K                 1.273e-01   9.279e-02
+	K                 1.273e-01   9.278e-02
 	Mg                6.162e+00   4.490e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  4.251        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  202805    
-                           Density (g/cm³)  =  1.33452  
+       Specific Conductance (µS/cm,  75°C)  =  202813    
+                           Density (g/cm³)  =  1.33451  
                                 Volume (L)  =  0.87159  
-                         Viscosity (mPa s)  =  4.56296  
+                         Viscosity (mPa s)  =  4.56264  
                          Activity of water  =  0.343  
                   Ionic strength (mol/kgw)  =  1.861e+01  
                         Mass of water (kg)  =  7.287e-01  
-                  Total alkalinity (eq/kg)  =  3.162e-03  
+                   Total alkalinity (eq/kg)  = 3.162e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.009e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.038e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  53  
                           Gamma iterations  =  15  
-                       Osmotic coefficient  =  3.16963  
-                          Density of water  =  0.97485  
-                                   Total H  =  8.090057e+01
-                                   Total O  =  4.045144e+01
+                       Osmotic coefficient  =  3.16964  
+                          Density of water  =  0.97484  
+                                   Total H  =  8.090049e+01
+                                   Total O  =  4.045140e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6724,7 +6723,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.251e+01   2.510e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             7.394e-07   1.255e-09    -6.131    -8.901    -2.770     22.41
-   H+              9.816e-08   5.610e-05    -7.008    -4.251     2.757      0.00
+   H+              9.817e-08   5.610e-05    -7.008    -4.251     2.757      0.00
    H2O             5.551e+01   3.430e-01     1.744    -0.465     0.000     18.48
 Cl            1.245e+01
    Cl-             1.245e+01   8.051e+00     1.095     0.906    -0.189     21.10
@@ -6775,7 +6774,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite       -0.00     4.36      4.36    1.000e+01   1.270e+01   2.700e+00
+Carnallite        0.00     4.36      4.36    1.000e+01   1.270e+01   2.700e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -6789,23 +6788,23 @@ Carnallite       -0.00     4.36      4.36    1.000e+01   1.270e+01   2.700e+00
 
                                         pH  =  4.321        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  207546    
-                           Density (g/cm³)  =  1.33105  
+       Specific Conductance (µS/cm,  75°C)  =  207555    
+                           Density (g/cm³)  =  1.33104  
                                 Volume (L)  =  0.84539  
-                         Viscosity (mPa s)  =  4.39046  
+                         Viscosity (mPa s)  =  4.39014  
                          Activity of water  =  0.353  
                   Ionic strength (mol/kgw)  =  1.836e+01  
                         Mass of water (kg)  =  7.082e-01  
-                  Total alkalinity (eq/kg)  =  3.254e-03  
+                   Total alkalinity (eq/kg)  = 3.254e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.968e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  51  
+                   Electrical balance (eq)  =  -9.454e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  56  
                           Gamma iterations  =  15  
                        Osmotic coefficient  =  3.12614  
-                          Density of water  =  0.97485  
-                                   Total H  =  7.861993e+01
-                                   Total O  =  3.931112e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  7.861985e+01
+                                   Total O  =  3.931108e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6830,7 +6829,7 @@ Mg            6.072e+00
 
   Bischofite       -0.27      3.71    3.98  MgCl2:6H2O
   Brucite          -2.65    -13.02  -10.37  Mg(OH)2
-  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.88     -0.45    0.42  H2O
   MgCl2_2H2O       -5.47      5.52   10.99  MgCl2:2H2O
   MgCl2_4H2O       -1.36      4.61    5.97  MgCl2:4H2O
@@ -6879,23 +6878,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.289e+01   2.888e+00
 
                                         pH  =  4.394        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  212646    
-                           Density (g/cm³)  =  1.32746  
-                                Volume (L)  =  0.81955  
-                         Viscosity (mPa s)  =  4.21696  
+       Specific Conductance (µS/cm,  75°C)  =  212655    
+                           Density (g/cm³)  =  1.32745  
+                                Volume (L)  =  0.81956  
+                         Viscosity (mPa s)  =  4.21665  
                          Activity of water  =  0.363  
                   Ionic strength (mol/kgw)  =  1.810e+01  
                         Mass of water (kg)  =  6.879e-01  
-                  Total alkalinity (eq/kg)  =  3.350e-03  
+                   Total alkalinity (eq/kg)  = 3.350e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -6.916e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  55  
+                   Electrical balance (eq)  =  -6.770e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  52  
                           Gamma iterations  =  16  
-                       Osmotic coefficient  =  3.08035  
-                          Density of water  =  0.97485  
-                                   Total H  =  7.636363e+01
-                                   Total O  =  3.818297e+01
+                       Osmotic coefficient  =  3.08036  
+                          Density of water  =  0.97484  
+                                   Total H  =  7.636355e+01
+                                   Total O  =  3.818293e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6903,8 +6902,8 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.289e+01   2.888e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             9.029e-07   1.845e-09    -6.044    -8.734    -2.690     21.76
-   H+              9.113e-08   4.036e-05    -7.040    -4.394     2.646      0.00
+   OH-             9.028e-07   1.845e-09    -6.044    -8.734    -2.690     21.76
+   H+              9.113e-08   4.037e-05    -7.040    -4.394     2.646      0.00
    H2O             5.551e+01   3.629e-01     1.744    -0.440     0.000     18.48
 Cl            1.212e+01
    Cl-             1.212e+01   7.983e+00     1.084     0.902    -0.181     21.09
@@ -6955,7 +6954,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.36      4.36    1.000e+01   1.307e+01   3.073e+00
+Carnallite       -0.00     4.36      4.36    1.000e+01   1.307e+01   3.073e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -6969,23 +6968,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.307e+01   3.073e+00
 
                                         pH  =  4.470        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  218130    
-                           Density (g/cm³)  =  1.32375  
-                                Volume (L)  =  0.79417  
-                         Viscosity (mPa s)  =  4.04335  
+       Specific Conductance (µS/cm,  75°C)  =  218139    
+                           Density (g/cm³)  =  1.32374  
+                                Volume (L)  =  0.79418  
+                         Viscosity (mPa s)  =  4.04304  
                          Activity of water  =  0.374  
                   Ionic strength (mol/kgw)  =  1.783e+01  
                         Mass of water (kg)  =  6.678e-01  
-                  Total alkalinity (eq/kg)  =  3.450e-03  
+                   Total alkalinity (eq/kg)  = 3.450e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.302e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  58  
-                          Gamma iterations  =  16  
+                   Electrical balance (eq)  =  -6.367e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  60  
+                          Gamma iterations  =  17  
                        Osmotic coefficient  =  3.03220  
-                          Density of water  =  0.97485  
-                                   Total H  =  7.413755e+01
-                                   Total O  =  3.706993e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  7.413746e+01
+                                   Total O  =  3.706988e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -6999,7 +6998,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.307e+01   3.073e+00
 Cl            1.195e+01
    Cl-             1.195e+01   7.941e+00     1.077     0.900    -0.178     21.09
 K             1.935e-01
-   K+              1.935e-01   6.803e-01    -0.713    -0.167     0.546     15.32
+   K+              1.935e-01   6.802e-01    -0.713    -0.167     0.546     15.32
 Mg            5.880e+00
    Mg+2            5.877e+00   1.000e+03     0.769     4.390     3.621    -15.57
    MgOH+           3.449e-03   1.764e-02    -2.462    -1.754     0.709     (0)  
@@ -7010,7 +7009,7 @@ Mg            5.880e+00
 
   Bischofite       -0.36      3.62    3.98  MgCl2:6H2O
   Brucite          -2.53    -12.90  -10.37  Mg(OH)2
-  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.85     -0.43    0.42  H2O
   MgCl2_2H2O       -5.66      5.33   10.99  MgCl2:2H2O
   MgCl2_4H2O       -1.49      4.48    5.97  MgCl2:4H2O
@@ -7059,23 +7058,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.326e+01   3.255e+00
 
                                         pH  =  4.547        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  224024    
-                           Density (g/cm³)  =  1.31995  
+       Specific Conductance (µS/cm,  75°C)  =  224034    
+                           Density (g/cm³)  =  1.31994  
                                 Volume (L)  =  0.76936  
-                         Viscosity (mPa s)  =  3.87070  
+                         Viscosity (mPa s)  =  3.87040  
                          Activity of water  =  0.385  
                   Ionic strength (mol/kgw)  =  1.755e+01  
                         Mass of water (kg)  =  6.481e-01  
-                  Total alkalinity (eq/kg)  =  3.555e-03  
+                   Total alkalinity (eq/kg)  = 3.555e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.354e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  56  
+                   Electrical balance (eq)  =  -3.372e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  58  
                           Gamma iterations  =  17  
                        Osmotic coefficient  =  2.98163  
-                          Density of water  =  0.97485  
-                                   Total H  =  7.194891e+01
-                                   Total O  =  3.597561e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  7.194881e+01
+                                   Total O  =  3.597555e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7089,7 +7088,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.326e+01   3.255e+00
 Cl            1.178e+01
    Cl-             1.178e+01   7.893e+00     1.071     0.897    -0.174     21.08
 K             2.265e-01
-   K+              2.265e-01   7.621e-01    -0.645    -0.118     0.527     15.25
+   K+              2.265e-01   7.620e-01    -0.645    -0.118     0.527     15.25
 Mg            5.778e+00
    Mg+2            5.774e+00   1.000e+03     0.761     4.272     3.511    -15.66
    MgOH+           3.554e-03   1.656e-02    -2.449    -1.781     0.668     (0)  
@@ -7149,23 +7148,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.343e+01   3.434e+00
 
                                         pH  =  4.627        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  230348    
-                           Density (g/cm³)  =  1.31611  
+       Specific Conductance (µS/cm,  75°C)  =  230359    
+                           Density (g/cm³)  =  1.31610  
                                 Volume (L)  =  0.74524  
-                         Viscosity (mPa s)  =  3.70032  
+                         Viscosity (mPa s)  =  3.70003  
                          Activity of water  =  0.396  
                   Ionic strength (mol/kgw)  =  1.727e+01  
                         Mass of water (kg)  =  6.288e-01  
-                  Total alkalinity (eq/kg)  =  3.664e-03  
+                   Total alkalinity (eq/kg)  = 3.664e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.328e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  69  
+                   Electrical balance (eq)  =  -6.578e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  65  
                           Gamma iterations  =  18  
                        Osmotic coefficient  =  2.92864  
-                          Density of water  =  0.97485  
-                                   Total H  =  6.980634e+01
-                                   Total O  =  3.490432e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  6.980623e+01
+                                   Total O  =  3.490426e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7174,12 +7173,12 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.343e+01   3.434e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             1.236e-06   3.448e-09    -5.908    -8.462    -2.555     20.72
-   H+              8.041e-08   2.359e-05    -7.095    -4.627     2.467      0.00
+   H+              8.042e-08   2.359e-05    -7.095    -4.627     2.467      0.00
    H2O             5.551e+01   3.963e-01     1.744    -0.402     0.000     18.48
 Cl            1.161e+01
    Cl-             1.161e+01   7.841e+00     1.065     0.894    -0.170     21.07
 K             2.676e-01
-   K+              2.676e-01   8.600e-01    -0.573    -0.066     0.507     15.18
+   K+              2.676e-01   8.599e-01    -0.573    -0.066     0.507     15.18
 Mg            5.671e+00
    Mg+2            5.667e+00   1.000e+03     0.753     4.152     3.398    -15.75
    MgOH+           3.663e-03   1.552e-02    -2.436    -1.809     0.627     (0)  
@@ -7237,25 +7236,25 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.361e+01   3.608e+00
 
 ----------------------------Description of solution----------------------------
 
-                                        pH  =  4.709        Charge balance
+                                        pH  =  4.708        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  237120    
-                           Density (g/cm³)  =  1.31230  
+       Specific Conductance (µS/cm,  75°C)  =  237132    
+                           Density (g/cm³)  =  1.31229  
                                 Volume (L)  =  0.72195  
-                         Viscosity (mPa s)  =  3.53374  
+                         Viscosity (mPa s)  =  3.53345  
                          Activity of water  =  0.408  
                   Ionic strength (mol/kgw)  =  1.699e+01  
                         Mass of water (kg)  =  6.100e-01  
-                  Total alkalinity (eq/kg)  =  3.777e-03  
+                   Total alkalinity (eq/kg)  = 3.777e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.295e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  63  
+                   Electrical balance (eq)  =  -2.199e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  68  
                           Gamma iterations  =  18  
-                       Osmotic coefficient  =  2.87329  
-                          Density of water  =  0.97485  
-                                   Total H  =  6.771985e+01
-                                   Total O  =  3.386108e+01
+                       Osmotic coefficient  =  2.87330  
+                          Density of water  =  0.97484  
+                                   Total H  =  6.771973e+01
+                                   Total O  =  3.386102e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7263,8 +7262,8 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.361e+01   3.608e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             1.372e-06   4.281e-09    -5.863    -8.368    -2.506     20.36
-   H+              7.690e-08   1.957e-05    -7.114    -4.709     2.406      0.00
+   OH-             1.372e-06   4.281e-09    -5.863    -8.369    -2.506     20.36
+   H+              7.690e-08   1.957e-05    -7.114    -4.708     2.406      0.00
    H2O             5.551e+01   4.081e-01     1.744    -0.389     0.000     18.48
 Cl            1.144e+01
    Cl-             1.144e+01   7.785e+00     1.058     0.891    -0.167     21.07
@@ -7329,23 +7328,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.378e+01   3.776e+00
 
                                         pH  =  4.790        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  244346    
-                           Density (g/cm³)  =  1.30857  
+       Specific Conductance (µS/cm,  75°C)  =  244359    
+                           Density (g/cm³)  =  1.30856  
                                 Volume (L)  =  0.69967  
-                         Viscosity (mPa s)  =  3.37263  
+                         Viscosity (mPa s)  =  3.37234  
                          Activity of water  =  0.420  
                   Ionic strength (mol/kgw)  =  1.672e+01  
                         Mass of water (kg)  =  5.918e-01  
-                  Total alkalinity (eq/kg)  =  3.893e-03  
+                   Total alkalinity (eq/kg)  = 3.893e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -6.139e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  63  
+                   Electrical balance (eq)  =  -7.144e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  69  
                           Gamma iterations  =  19  
                        Osmotic coefficient  =  2.81576  
-                          Density of water  =  0.97485  
-                                   Total H  =  6.570046e+01
-                                   Total O  =  3.285138e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  6.570033e+01
+                                   Total O  =  3.285132e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7354,7 +7353,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.378e+01   3.776e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             1.518e-06   5.318e-09    -5.819    -8.274    -2.456     20.00
-   H+              7.347e-08   1.621e-05    -7.134    -4.790     2.344      0.00
+   H+              7.348e-08   1.621e-05    -7.134    -4.790     2.344      0.00
    H2O             5.551e+01   4.200e-01     1.744    -0.377     0.000     18.48
 Cl            1.127e+01
    Cl-             1.127e+01   7.727e+00     1.052     0.888    -0.164     21.06
@@ -7412,30 +7411,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.394e+01   3.938e+00
 	Elements           Molality       Moles
 
 	Cl                1.112e+01   6.386e+00
-	K                 4.603e-01   2.644e-01
+	K                 4.603e-01   2.643e-01
 	Mg                5.332e+00   3.062e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  4.872        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  252026    
-                           Density (g/cm³)  =  1.30504  
+       Specific Conductance (µS/cm,  75°C)  =  252039    
+                           Density (g/cm³)  =  1.30503  
                                 Volume (L)  =  0.67855  
-                         Viscosity (mPa s)  =  3.21872  
+                         Viscosity (mPa s)  =  3.21844  
                          Activity of water  =  0.432  
                   Ionic strength (mol/kgw)  =  1.645e+01  
                         Mass of water (kg)  =  5.743e-01  
-                  Total alkalinity (eq/kg)  =  4.012e-03  
+                   Total alkalinity (eq/kg)  = 4.012e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.044e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  70  
+                   Electrical balance (eq)  =  -4.563e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  71  
                           Gamma iterations  =  20  
-                       Osmotic coefficient  =  2.75628  
-                          Density of water  =  0.97485  
-                                   Total H  =  6.375941e+01
-                                   Total O  =  3.188086e+01
+                       Osmotic coefficient  =  2.75629  
+                          Density of water  =  0.97484  
+                                   Total H  =  6.375927e+01
+                                   Total O  =  3.188079e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7447,7 +7446,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.394e+01   3.938e+00
    H+              7.018e-08   1.344e-05    -7.154    -4.872     2.282      0.00
    H2O             5.551e+01   4.318e-01     1.744    -0.365     0.000     18.48
 Cl            1.112e+01
-   Cl-             1.112e+01   7.669e+00     1.046     0.885    -0.161     21.05
+   Cl-             1.112e+01   7.670e+00     1.046     0.885    -0.161     21.05
 K             4.603e-01
    K+              4.603e-01   1.280e+00    -0.337     0.107     0.444     14.97
 Mg            5.332e+00
@@ -7509,23 +7508,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.409e+01   4.092e+00
 
                                         pH  =  4.951        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  260147    
-                           Density (g/cm³)  =  1.30179  
+       Specific Conductance (µS/cm,  75°C)  =  260161    
+                           Density (g/cm³)  =  1.30178  
                                 Volume (L)  =  0.65875  
-                         Viscosity (mPa s)  =  3.07363  
+                         Viscosity (mPa s)  =  3.07336  
                          Activity of water  =  0.443  
                   Ionic strength (mol/kgw)  =  1.619e+01  
                         Mass of water (kg)  =  5.576e-01  
-                  Total alkalinity (eq/kg)  =  4.132e-03  
+                   Total alkalinity (eq/kg)  = 4.132e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -4.597e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  69  
+                   Electrical balance (eq)  =  -4.352e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  71  
                           Gamma iterations  =  20  
                        Osmotic coefficient  =  2.69524  
-                          Density of water  =  0.97485  
-                                   Total H  =  6.190704e+01
-                                   Total O  =  3.095467e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  6.190689e+01
+                                   Total O  =  3.095460e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7592,30 +7591,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.424e+01   4.239e+00
 	Elements           Molality       Moles
 
 	Cl                1.086e+01   5.884e+00
-	K                 6.713e-01   3.637e-01
+	K                 6.712e-01   3.637e-01
 	Mg                5.096e+00   2.761e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  5.028        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  268691    
-                           Density (g/cm³)  =  1.29894  
+       Specific Conductance (µS/cm,  75°C)  =  268706    
+                           Density (g/cm³)  =  1.29893  
                                 Volume (L)  =  0.64038  
-                         Viscosity (mPa s)  =  2.93871  
+                         Viscosity (mPa s)  =  2.93844  
                          Activity of water  =  0.454  
                   Ionic strength (mol/kgw)  =  1.595e+01  
                         Mass of water (kg)  =  5.418e-01  
-                  Total alkalinity (eq/kg)  =  4.252e-03  
+                   Total alkalinity (eq/kg)  = 4.252e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -4.982e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  74  
+                   Electrical balance (eq)  =  -2.992e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  71  
                           Gamma iterations  =  21  
                        Osmotic coefficient  =  2.63306  
-                          Density of water  =  0.97485  
-                                   Total H  =  6.015155e+01
-                                   Total O  =  3.007693e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  6.015139e+01
+                                   Total O  =  3.007685e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7628,8 +7627,8 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.424e+01   4.239e+00
    H2O             5.551e+01   4.544e-01     1.744    -0.343     0.000     18.48
 Cl            1.086e+01
    Cl-             1.086e+01   7.567e+00     1.036     0.879    -0.157     21.04
-K             6.713e-01
-   K+              6.713e-01   1.693e+00    -0.173     0.229     0.402     14.85
+K             6.712e-01
+   K+              6.712e-01   1.693e+00    -0.173     0.229     0.402     14.85
 Mg            5.096e+00
    Mg+2            5.092e+00   1.000e+03     0.707     3.547     2.840    -16.18
    MgOH+           4.251e-03   1.114e-02    -2.372    -1.953     0.418     (0)  
@@ -7675,37 +7674,37 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.36      4.36    1.000e+01   1.438e+01   4.376e+00
+Carnallite       -0.00     4.36      4.36    1.000e+01   1.438e+01   4.376e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                1.076e+01   5.671e+00
-	K                 8.083e-01   4.259e-01
+	K                 8.082e-01   4.259e-01
 	Mg                4.979e+00   2.624e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  5.101        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  277633    
-                           Density (g/cm³)  =  1.29656  
+       Specific Conductance (µS/cm,  75°C)  =  277648    
+                           Density (g/cm³)  =  1.29655  
                                 Volume (L)  =  0.62352  
-                         Viscosity (mPa s)  =  2.81483  
+                         Viscosity (mPa s)  =  2.81457  
                          Activity of water  =  0.465  
                   Ionic strength (mol/kgw)  =  1.574e+01  
                         Mass of water (kg)  =  5.269e-01  
-                  Total alkalinity (eq/kg)  =  4.373e-03  
+                   Total alkalinity (eq/kg)  = 4.373e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -9.846e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  72  
+                   Electrical balance (eq)  =  -1.056e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  74  
                           Gamma iterations  =  21  
                        Osmotic coefficient  =  2.57023  
-                          Density of water  =  0.97485  
-                                   Total H  =  5.849785e+01
-                                   Total O  =  2.925008e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  5.849769e+01
+                                   Total O  =  2.924999e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7713,13 +7712,13 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.438e+01   4.376e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             2.102e-06   1.204e-08    -5.677    -7.919    -2.242     18.75
+   OH-             2.101e-06   1.204e-08    -5.677    -7.919    -2.242     18.75
    H+              6.151e-08   7.921e-06    -7.211    -5.101     2.110      0.00
    H2O             5.551e+01   4.647e-01     1.744    -0.333     0.000     18.48
 Cl            1.076e+01
-   Cl-             1.076e+01   7.527e+00     1.032     0.877    -0.155     21.04
-K             8.083e-01
-   K+              8.083e-01   1.942e+00    -0.092     0.288     0.381     14.79
+   Cl-             1.076e+01   7.528e+00     1.032     0.877    -0.155     21.03
+K             8.082e-01
+   K+              8.082e-01   1.942e+00    -0.092     0.288     0.381     14.79
 Mg            4.979e+00
    Mg+2            4.975e+00   1.000e+03     0.697     3.436     2.739    -16.25
    MgOH+           4.371e-03   1.043e-02    -2.359    -1.982     0.378     (0)  
@@ -7730,7 +7729,7 @@ Mg            4.979e+00
 
   Bischofite       -0.79      3.19    3.98  MgCl2:6H2O
   Brucite          -2.03    -12.40  -10.37  Mg(OH)2
-  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.76     -0.33    0.42  H2O
   MgCl2_2H2O       -6.47      4.52   10.99  MgCl2:2H2O
   MgCl2_4H2O       -2.11      3.86    5.97  MgCl2:4H2O
@@ -7779,23 +7778,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.451e+01   4.506e+00
 
                                         pH  =  5.170        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  286945    
-                           Density (g/cm³)  =  1.29474  
+       Specific Conductance (µS/cm,  75°C)  =  286961    
+                           Density (g/cm³)  =  1.29473  
                                 Volume (L)  =  0.60818  
-                         Viscosity (mPa s)  =  2.70240  
+                         Viscosity (mPa s)  =  2.70214  
                          Activity of water  =  0.474  
                   Ionic strength (mol/kgw)  =  1.555e+01  
                         Mass of water (kg)  =  5.130e-01  
-                  Total alkalinity (eq/kg)  =  4.492e-03  
+                   Total alkalinity (eq/kg)  = 4.492e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -8.982e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  75  
+                   Electrical balance (eq)  =  -6.325e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  77  
                           Gamma iterations  =  22  
                        Osmotic coefficient  =  2.50724  
-                          Density of water  =  0.97485  
-                                   Total H  =  5.694706e+01
-                                   Total O  =  2.847468e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  5.694689e+01
+                                   Total O  =  2.847460e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7869,23 +7868,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.463e+01   4.627e+00
 
                                         pH  =  5.233        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  296600    
-                           Density (g/cm³)  =  1.29351  
+       Specific Conductance (µS/cm,  75°C)  =  296617    
+                           Density (g/cm³)  =  1.29350  
                                 Volume (L)  =  0.59432  
-                         Viscosity (mPa s)  =  2.60132  
+                         Viscosity (mPa s)  =  2.60107  
                          Activity of water  =  0.483  
                   Ionic strength (mol/kgw)  =  1.539e+01  
                         Mass of water (kg)  =  4.999e-01  
-                  Total alkalinity (eq/kg)  =  4.609e-03  
+                   Total alkalinity (eq/kg)  = 4.609e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.120e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  79  
+                   Electrical balance (eq)  =  -8.206e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  77  
                           Gamma iterations  =  23  
                        Osmotic coefficient  =  2.44455  
-                          Density of water  =  0.97485  
-                                   Total H  =  5.549672e+01
-                                   Total O  =  2.774951e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  5.549654e+01
+                                   Total O  =  2.774942e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -7945,7 +7944,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Carnallite        0.00     4.36      4.36    1.000e+01   1.474e+01   4.739e+00
+Carnallite       -0.00     4.36      4.36    1.000e+01   1.474e+01   4.739e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -7959,23 +7958,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.474e+01   4.739e+00
 
                                         pH  =  5.291        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  306570    
+       Specific Conductance (µS/cm,  75°C)  =  306588    
                            Density (g/cm³)  =  1.29288  
                                 Volume (L)  =  0.58187  
-                         Viscosity (mPa s)  =  2.51113  
+                         Viscosity (mPa s)  =  2.51089  
                          Activity of water  =  0.490  
                   Ionic strength (mol/kgw)  =  1.526e+01  
                         Mass of water (kg)  =  4.877e-01  
-                  Total alkalinity (eq/kg)  =  4.725e-03  
+                   Total alkalinity (eq/kg)  = 4.725e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.196e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.179e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  74  
                           Gamma iterations  =  23  
-                       Osmotic coefficient  =  2.38254  
-                          Density of water  =  0.97485  
-                                   Total H  =  5.414157e+01
-                                   Total O  =  2.707194e+01
+                       Osmotic coefficient  =  2.38253  
+                          Density of water  =  0.97484  
+                                   Total H  =  5.414139e+01
+                                   Total O  =  2.707185e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -8000,7 +7999,7 @@ Mg            4.635e+00
 
   Bischofite       -0.95      3.03    3.98  MgCl2:6H2O
   Brucite          -1.90    -12.27  -10.37  Mg(OH)2
-  Carnallite        0.00      4.36    4.36  KMgCl3:6H2O
+  Carnallite       -0.00      4.36    4.36  KMgCl3:6H2O
   H2O(g)           -0.73     -0.31    0.42  H2O
   MgCl2_2H2O       -6.72      4.27   10.99  MgCl2:2H2O
   MgCl2_4H2O       -2.32      3.65    5.97  MgCl2:4H2O
@@ -8049,23 +8048,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.485e+01   4.845e+00
 
                                         pH  =  5.344        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  316829    
-                           Density (g/cm³)  =  1.29287  
+       Specific Conductance (µS/cm,  75°C)  =  316847    
+                           Density (g/cm³)  =  1.29286  
                                 Volume (L)  =  0.57072  
-                         Viscosity (mPa s)  =  2.43112  
+                         Viscosity (mPa s)  =  2.43088  
                          Activity of water  =  0.496  
                   Ionic strength (mol/kgw)  =  1.515e+01  
                         Mass of water (kg)  =  4.763e-01  
-                  Total alkalinity (eq/kg)  =  4.838e-03  
+                   Total alkalinity (eq/kg)  = 4.838e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -1.820e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  79  
+                   Electrical balance (eq)  =  -1.733e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  77  
                           Gamma iterations  =  23  
-                       Osmotic coefficient  =  2.32152  
-                          Density of water  =  0.97485  
-                                   Total H  =  5.287465e+01
-                                   Total O  =  2.643848e+01
+                       Osmotic coefficient  =  2.32151  
+                          Density of water  =  0.97484  
+                                   Total H  =  5.287447e+01
+                                   Total O  =  2.643839e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -8139,23 +8138,23 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.494e+01   4.944e+00
 
                                         pH  =  5.391        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  327347    
-                           Density (g/cm³)  =  1.29344  
+       Specific Conductance (µS/cm,  75°C)  =  327365    
+                           Density (g/cm³)  =  1.29343  
                                 Volume (L)  =  0.56076  
-                         Viscosity (mPa s)  =  2.36048  
+                         Viscosity (mPa s)  =  2.36025  
                          Activity of water  =  0.502  
                   Ionic strength (mol/kgw)  =  1.508e+01  
                         Mass of water (kg)  =  4.656e-01  
-                  Total alkalinity (eq/kg)  =  4.949e-03  
+                   Total alkalinity (eq/kg)  = 4.949e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -4.562e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  83  
+                   Electrical balance (eq)  =  -6.139e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  85  
                           Gamma iterations  =  24  
-                       Osmotic coefficient  =  2.26173  
-                          Density of water  =  0.97485  
-                                   Total H  =  5.168832e+01
-                                   Total O  =  2.584531e+01
+                       Osmotic coefficient  =  2.26172  
+                          Density of water  =  0.97484  
+                                   Total H  =  5.168813e+01
+                                   Total O  =  2.584522e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -8222,30 +8221,30 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.504e+01   5.037e+00
 	Elements           Molality       Moles
 
 	Cl                1.073e+01   4.890e+00
-	K                 2.120e+00   9.657e-01
+	K                 2.120e+00   9.656e-01
 	Mg                4.310e+00   1.963e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  5.433        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  338093    
-                           Density (g/cm³)  =  1.29457  
+       Specific Conductance (µS/cm,  75°C)  =  338111    
+                           Density (g/cm³)  =  1.29456  
                                 Volume (L)  =  0.55188  
-                         Viscosity (mPa s)  =  2.29841  
+                         Viscosity (mPa s)  =  2.29819  
                          Activity of water  =  0.506  
                   Ionic strength (mol/kgw)  =  1.504e+01  
                         Mass of water (kg)  =  4.556e-01  
-                  Total alkalinity (eq/kg)  =  5.058e-03  
+                   Total alkalinity (eq/kg)  = 5.058e-03  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -1.507e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  84  
+                   Electrical balance (eq)  =  -1.063e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  81  
                           Gamma iterations  =  24  
                        Osmotic coefficient  =  2.20334  
-                          Density of water  =  0.97485  
-                                   Total H  =  5.057499e+01
-                                   Total O  =  2.528864e+01
+                          Density of water  =  0.97484  
+                                   Total H  =  5.057480e+01
+                                   Total O  =  2.528855e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -8253,7 +8252,7 @@ Carnallite        0.00     4.36      4.36    1.000e+01   1.504e+01   5.037e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             2.264e-06   2.814e-08    -5.645    -7.551    -1.906     17.85
+   OH-             2.264e-06   2.814e-08    -5.645    -7.551    -1.905     17.85
    H+              5.104e-08   3.690e-06    -7.292    -5.433     1.859      0.00
    H2O             5.551e+01   5.060e-01     1.744    -0.296     0.000     18.48
 Cl            1.073e+01
@@ -8286,8 +8285,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 5.
 ------------------------------------
-
--------------------------------
-End of Run after 0.163 Seconds.
--------------------------------
 

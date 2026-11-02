@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -73,18 +72,18 @@ Initial solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
 
                                         pH  =  8.220      
                                         pe  =  8.451      
-       Specific Conductance (µS/cm,  25°C)  =  52919     
+       Specific Conductance (µS/cm,  25°C)  =  52539     
                            Density (g/cm³)  =  1.02327  
                                 Volume (L)  =  1.01280  
-                         Viscosity (mPa s)  =  0.96021  
+                         Viscosity (mPa s)  =  0.96837  
                          Activity of water  =  0.981  
                   Ionic strength (mol/kgw)  =  7.223e-01  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  2.216e-03  
+                      Total carbon (mol/kg)  = 2.216e-03  
                         Total CO2 (mol/kg)  =  2.216e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.819e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.90360  
@@ -103,7 +102,7 @@ Initial solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
    H2O             5.551e+01   9.813e-01     1.744    -0.008     0.000     18.07
 C(4)          2.216e-03
    HCO3-           1.998e-03   1.327e-03    -2.699    -2.877    -0.178     26.73
-   CO3-2           1.026e-04   1.033e-05    -3.989    -4.986    -0.997      0.08
+   CO3-2           1.026e-04   1.033e-05    -3.989    -4.986    -0.997      0.18
    MgCO3           9.837e-05   9.837e-05    -4.007    -4.007     0.000    -17.09
    CO2             1.648e-05   1.833e-05    -4.783    -4.737     0.046     34.79
 Ca            1.066e-02
@@ -289,7 +288,7 @@ Gypsum           -0.65    -5.25     -4.60    0.000e+00           0   0.000e+00
 Halite            0.00     1.58      1.58    0.000e+00   4.851e-01   4.851e-01
 Hexahydrite      -1.19    -2.76     -1.57    0.000e+00           0   0.000e+00
 Kainite          -1.24    -1.43     -0.19    0.000e+00           0   0.000e+00
-Kieserite         0.00    -0.27     -0.27    0.000e+00   1.850e-02   1.850e-02
+Kieserite        -0.00    -0.27     -0.27    0.000e+00   1.850e-02   1.850e-02
 Leonhardite      -0.87    -1.76     -0.89    0.000e+00           0   0.000e+00
 Magnesite         0.00    -7.83     -7.83    0.000e+00   1.202e-03   1.202e-03
 Mirabilite       -7.93    -9.17     -1.24    0.000e+00           0   0.000e+00
@@ -313,24 +312,24 @@ Sylvite          -1.07    -0.17      0.90    0.000e+00           0   0.000e+00
 
                                         pH  =  5.952        Charge balance
                                         pe  =  8.451        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  81973     
+       Specific Conductance (µS/cm,  25°C)  =  81939     
                            Density (g/cm³)  =  1.32601  
                                 Volume (L)  =  0.00439  
-                         Viscosity (mPa s)  =  12.37528 
+                         Viscosity (mPa s)  =  12.38204 
                          Activity of water  =  0.318  
                   Ionic strength (mol/kgw)  =  1.763e+01  
                         Mass of water (kg)  =  3.730e-03  
-                  Total alkalinity (eq/kg)  =  4.234e-04  
+                   Total alkalinity (eq/kg)  = 4.234e-04  
                         Total CO2 (mol/kg)  =  3.694e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.819e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                               Iterations  =   36   (1039 overall)
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   37   (1040 overall)
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  3.60311  
                           Density of water  =  0.99704  
-                                   Total H  =  4.140838e-01
-                                   Total O  =  2.074638e-01
+                                   Total H  =  4.140835e-01
+                                   Total O  =  2.074636e-01
 
 ----------------------------Distribution of species----------------------------
 
@@ -342,10 +341,10 @@ Sylvite          -1.07    -0.17      0.90    0.000e+00           0   0.000e+00
    OH-             3.978e-08   2.881e-09    -7.400    -8.540    -1.140     19.04
    H2O             5.551e+01   3.177e-01     1.744    -0.498     0.000     18.07
 C(4)          3.694e-05
-   HCO3-           2.301e-05   1.371e-06    -4.638    -5.863    -1.225     29.67
+   HCO3-           2.301e-05   1.371e-06    -4.638    -5.863    -1.225     29.47
    MgCO3           1.242e-05   1.242e-05    -4.906    -4.906     0.000    -17.09
    CO2             1.411e-06   1.083e-05    -5.850    -4.965     0.885     34.79
-   CO3-2           9.867e-08   5.763e-11    -7.006   -10.239    -3.234     11.24
+   CO3-2           9.867e-08   5.763e-11    -7.006   -10.239    -3.234     10.44
 Ca            1.839e-03
    Ca+2            1.839e-03   8.383e-03    -2.735    -2.077     0.659     -9.96
 Cl            1.171e+01
@@ -390,7 +389,7 @@ S(6)          2.820e-02
   Huntite          -4.74      5.50   10.24  CaMg3(CO3)4
   Kainite          -1.24     -1.43   -0.19  KMgClSO4:3H2O
   Kalicinite       -9.01    -18.95   -9.94  KHCO3
-  Kieserite         0.00     -0.27   -0.27  MgSO4:H2O
+  Kieserite        -0.00     -0.27   -0.27  MgSO4:H2O
   Labile_S         -7.95    -13.62   -5.67  Na4Ca(SO4)3:2H2O
   Leonhardite      -0.87     -1.76   -0.89  MgSO4:4H2O
   Leonite          -5.47     -9.45   -3.98  K2Mg(SO4)2:4H2O
@@ -422,8 +421,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.093 Seconds.
--------------------------------
 

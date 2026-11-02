@@ -120,10 +120,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.550e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.000e-08  
+                   Total alkalinity (eq/kg)  = 6.000e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  6.341e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  3   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -203,10 +203,10 @@ Initial solution 99.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.040e-17  
+                   Total alkalinity (eq/kg)  = 3.040e-17  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.040e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  2   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -273,14 +273,14 @@ Montmorillonite(MgNa)   -0.60     2.81      3.41    1.000e-02   9.928e-03  -7.21
        Specific Conductance (µS/cm,  25°C)  =  11        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89011  
+                         Viscosity (mPa s)  =  0.89010  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.343e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.039e-04  
+                   Total alkalinity (eq/kg)  = 1.039e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -4.878e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550666e+01
@@ -408,10 +408,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
-	Mg0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
-	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
-	Na0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
+	Mg0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
+	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
+	Na0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
 
 -----------------------------------------
 Beginning of batch-reaction calculations.
@@ -483,10 +483,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.368e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.758e-08  
+                   Total alkalinity (eq/kg)  = 6.758e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  8.816e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   11   (37 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -517,8 +517,8 @@ Mg            1.993e-13
    MgOH+           9.605e-18   9.601e-18   -17.018   -17.018    -0.000     (0)  
 Na            5.970e-08
    Na+             5.970e-08   5.967e-08    -7.224    -7.224    -0.000     -1.52
-O(0)          4.335e-15
-   O2              2.168e-15   2.168e-15   -14.664   -14.664     0.000     30.40
+O(0)          4.334e-15
+   O2              2.167e-15   2.167e-15   -14.664   -14.664     0.000     30.40
 Si            5.054e-09
    H4SiO4          5.044e-09   5.044e-09    -8.297    -8.297     0.000     52.08
    H3SiO4-         9.891e-12   9.887e-12   -11.005   -11.005    -0.000     27.94
@@ -585,10 +585,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Mg0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	Na0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
+	Mg0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	Na0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -612,10 +612,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.421e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.282e-08  
+                   Total alkalinity (eq/kg)  = 9.282e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  8.816e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   20   (61 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -637,8 +637,8 @@ Al            9.081e-09
 Ca            2.406e-10
    Ca+2            2.406e-10   2.402e-10    -9.619    -9.619    -0.001    -18.25
    CaOH+           5.246e-16   5.244e-16   -15.280   -15.280    -0.000     (0)  
-H(0)          4.525e-15
-   H2              2.263e-15   2.263e-15   -14.645   -14.645     0.000     14.99
+H(0)          4.523e-15
+   H2              2.262e-15   2.262e-15   -14.646   -14.646     0.000     14.99
 K             1.248e-09
    K+              1.248e-09   1.248e-09    -8.904    -8.904    -0.000      8.98
 Mg            2.279e-13
@@ -647,7 +647,7 @@ Mg            2.279e-13
 Na            6.385e-08
    Na+             6.385e-08   6.382e-08    -7.195    -7.195    -0.000     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -63.072   -63.072     0.000     30.40
+   O2              0.000e+00   0.000e+00   -63.071   -63.071     0.000     30.40
 Si            2.188e-08
    H4SiO4          2.184e-08   2.184e-08    -7.661    -7.661     0.000     52.08
    H3SiO4-         4.238e-11   4.236e-11   -10.373   -10.373    -0.000     27.94
@@ -733,7 +733,7 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.076        Charge balance
-                                        pe  =  -1.442       Adjusted to redox equilibrium
+                                        pe  =  -1.270       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  0         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -741,10 +741,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.948e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.431e-07  
+                   Total alkalinity (eq/kg)  = 3.431e-07  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.888e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   22   (54 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -766,8 +766,8 @@ Al            7.834e-08
 Ca            6.483e-10
    Ca+2            6.483e-10   6.469e-10    -9.188    -9.189    -0.001    -18.25
    CaOH+           1.279e-15   1.278e-15   -14.893   -14.893    -0.000     (0)  
-H(0)          7.636e-15
-   H2              3.818e-15   3.818e-15   -14.418   -14.418     0.000     14.99
+H(0)          3.472e-15
+   H2              1.736e-15   1.736e-15   -14.761   -14.761     0.000     14.99
 K             2.049e-09
    K+              2.049e-09   2.048e-09    -8.688    -8.689    -0.000      8.98
 Mg            6.141e-13
@@ -776,7 +776,7 @@ Mg            6.141e-13
 Na            1.048e-07
    Na+             1.048e-07   1.047e-07    -6.980    -6.980    -0.000     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -63.526   -63.526     0.000     30.40
+   O2              0.000e+00   0.000e+00   -62.842   -62.842     0.000     30.40
 Si            1.888e-07
    H4SiO4          1.884e-07   1.884e-07    -6.725    -6.725     0.000     52.08
    H3SiO4-         3.309e-10   3.308e-10    -9.480    -9.480    -0.000     27.94
@@ -794,7 +794,7 @@ Si            1.888e-07
   Chlorite(14A)   -61.95      6.43   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -39.83     -7.63   32.20  Mg3Si2O5(OH)4
   Gibbsite          0.34      8.45    8.11  Al(OH)3
-  H2(g)           -11.32    -14.42   -3.10  H2
+  H2(g)           -11.66    -14.76   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite          -16.44    -56.71  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar      -15.43    -36.00  -20.57  KAlSi3O8
@@ -804,7 +804,7 @@ Si            1.888e-07
   Montmorillonite(MgK) -15.59    -12.76    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg) -15.59    -11.88    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa) -15.59    -12.17    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -60.63    -63.53   -2.89  O2
+  O2(g)           -59.95    -62.84   -2.89  O2
   Quartz           -2.74     -6.72   -3.98  SiO2
   Sepiolite       -32.06    -16.30   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -34.96    -16.30   18.66  Mg2Si3O7.5OH:3H2O
@@ -834,7 +834,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Kaolinite         0.00     7.44      7.43    0.000e+00   6.091e-08   6.091e-08
+Kaolinite        -0.00     7.43      7.43    0.000e+00   6.091e-08   6.091e-08
 
 -----------------------------Exchange composition------------------------------
 
@@ -843,10 +843,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Mg0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	Na0.34X_montm_mg   9.999e-03   3.400e-03   2.500e-01     0.000
+	Mg0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	Na0.34X_montm_mg   9.999e-03   3.400e-03   2.500e-01    -0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -862,7 +862,7 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.944        Charge balance
-                                        pe  =  -1.560       Adjusted to redox equilibrium
+                                        pe  =  -0.961       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  0         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -870,10 +870,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  6.852e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.453e-06  
+                   Total alkalinity (eq/kg)  = 2.453e-06  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  7.887e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.888e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   30   (69 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -895,8 +895,8 @@ Al            6.414e-07
 Ca            1.425e-08
    Ca+2            1.425e-08   1.419e-08    -7.846    -7.848    -0.002    -18.25
    CaOH+           2.074e-14   2.072e-14   -13.683   -13.684    -0.000     (0)  
-H(0)          2.413e-14
-   H2              1.207e-14   1.207e-14   -13.918   -13.918     0.000     14.99
+H(0)          1.530e-15
+   H2              7.649e-16   7.649e-16   -15.116   -15.116     0.000     14.99
 K             9.601e-09
    K+              9.601e-09   9.592e-09    -8.018    -8.018    -0.000      8.98
 Mg            1.350e-11
@@ -905,7 +905,7 @@ Mg            1.350e-11
 Na            4.909e-07
    Na+             4.909e-07   4.904e-07    -6.309    -6.309    -0.000     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.526   -64.526     0.000     30.40
+   O2              0.000e+00   0.000e+00   -62.130   -62.130     0.000     30.40
 Si            1.717e-06
    H4SiO4          1.715e-06   1.715e-06    -5.766    -5.766     0.000     52.08
    H3SiO4-         2.227e-09   2.225e-09    -8.652    -8.653    -0.000     27.94
@@ -923,17 +923,17 @@ Si            1.717e-06
   Chlorite(14A)   -51.62     16.76   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -34.68     -2.48   32.20  Mg3Si2O5(OH)4
   Gibbsite          1.37      9.48    8.11  Al(OH)3
-  H2(g)           -10.82    -13.92   -3.10  H2
+  H2(g)           -12.02    -15.12   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite          -10.12    -50.39  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar      -10.98    -31.55  -20.57  KAlSi3O8
   K-mica           -2.62     10.08   12.70  KAl3Si3O10(OH)2
-  Kaolinite         0.00      7.44    7.43  Al2Si2O5(OH)4
+  Kaolinite        -0.00      7.43    7.43  Al2Si2O5(OH)4
   Montmorillonite(MgCa)  -9.49     -5.27    4.22  Ca0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgK)  -9.49     -6.66    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -9.49     -5.78    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -9.49     -6.08    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -61.63    -64.53   -2.89  O2
+  O2(g)           -59.24    -62.13   -2.89  O2
   Quartz           -1.79     -5.77   -3.98  SiO2
   Sepiolite       -27.02    -11.26   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -29.92    -11.26   18.66  Mg2Si3O7.5OH:3H2O
@@ -963,7 +963,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Kaolinite        -0.00     7.43      7.43    6.091e-08   5.953e-07   5.343e-07
+Kaolinite         0.00     7.44      7.43    6.091e-08   5.953e-07   5.343e-07
 
 -----------------------------Exchange composition------------------------------
 
@@ -972,10 +972,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Mg0.17X_montm_mg   1.000e-02   3.401e-03   2.501e-01     0.000
-	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01     0.000
-	Na0.34X_montm_mg   9.996e-03   3.399e-03   2.499e-01     0.000
+	Mg0.17X_montm_mg   1.000e-02   3.401e-03   2.501e-01    -0.000
+	K0.34X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	Ca0.17X_montm_mg   1.000e-02   3.400e-03   2.500e-01    -0.000
+	Na0.34X_montm_mg   9.996e-03   3.399e-03   2.499e-01    -0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -991,7 +991,7 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.595        Charge balance
-                                        pe  =  -2.158       Adjusted to redox equilibrium
+                                        pe  =  -2.654       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  0         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -999,10 +999,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.568e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.655e-06  
+                   Total alkalinity (eq/kg)  = 4.655e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  8.537e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   32   (80 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550623e+01
@@ -1024,8 +1024,8 @@ Al            1.069e-06
 Ca            9.128e-08
    Ca+2            9.128e-08   9.075e-08    -7.040    -7.042    -0.003    -18.25
    CaOH+           5.941e-13   5.933e-13   -12.226   -12.227    -0.001     (0)  
-H(0)          1.893e-14
-   H2              9.464e-15   9.464e-15   -14.024   -14.024     0.000     14.99
+H(0)          1.850e-13
+   H2              9.252e-14   9.252e-14   -13.034   -13.034     0.000     14.99
 K             2.429e-08
    K+              2.429e-08   2.426e-08    -7.615    -7.615    -0.001      8.98
 Mg            8.665e-11
@@ -1034,7 +1034,7 @@ Mg            8.665e-11
 Na            1.241e-06
    Na+             1.241e-06   1.239e-06    -5.906    -5.907    -0.001     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.315   -64.315     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.295   -66.295     0.000     30.40
 Si            4.254e-06
    H4SiO4          4.229e-06   4.229e-06    -5.374    -5.374     0.000     52.08
    H3SiO4-         2.460e-08   2.456e-08    -7.609    -7.610    -0.001     27.94
@@ -1052,17 +1052,17 @@ Si            4.254e-06
   Chlorite(14A)   -40.69     27.69   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -27.57      4.63   32.20  Mg3Si2O5(OH)4
   Gibbsite          0.98      9.09    8.11  Al(OH)3
-  H2(g)           -10.92    -14.02   -3.10  H2
+  H2(g)            -9.93    -13.03   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -8.49    -48.76  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -9.14    -29.71  -20.57  KAlSi3O8
   K-mica           -1.57     11.13   12.70  KAl3Si3O10(OH)2
-  Kaolinite        -0.00      7.43    7.43  Al2Si2O5(OH)4
+  Kaolinite         0.00      7.44    7.43  Al2Si2O5(OH)4
   Montmorillonite(MgCa)  -7.50     -3.28    4.22  Ca0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgK)  -7.50     -4.67    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -7.50     -3.79    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -7.50     -4.09    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -61.42    -64.31   -2.89  O2
+  O2(g)           -63.40    -66.30   -2.89  O2
   Quartz           -1.39     -5.37   -3.98  SiO2
   Sepiolite       -21.63     -5.87   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -24.53     -5.87   18.66  Mg2Si3O7.5OH:3H2O
@@ -1120,7 +1120,7 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.986        Charge balance
-                                        pe  =  -2.500       Adjusted to redox equilibrium
+                                        pe  =  -3.037       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  0         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -1128,10 +1128,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.852e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.165e-06  
+                   Total alkalinity (eq/kg)  = 7.165e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  8.536e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   39   (93 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550623e+01
@@ -1153,8 +1153,8 @@ Al            1.525e-06
 Ca            2.497e-07
    Ca+2            2.497e-07   2.478e-07    -6.603    -6.606    -0.003    -18.25
    CaOH+           3.993e-12   3.985e-12   -11.399   -11.400    -0.001     (0)  
-H(0)          1.509e-14
-   H2              7.544e-15   7.544e-15   -14.122   -14.122     0.000     14.99
+H(0)          1.788e-13
+   H2              8.938e-14   8.938e-14   -13.049   -13.049     0.000     14.99
 K             4.017e-08
    K+              4.017e-08   4.009e-08    -7.396    -7.397    -0.001      8.98
 Mg            2.375e-10
@@ -1163,7 +1163,7 @@ Mg            2.375e-10
 Na            2.051e-06
    Na+             2.051e-06   2.047e-06    -5.688    -5.689    -0.001     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.118   -64.118     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.265   -66.265     0.000     30.40
 Si            7.331e-06
    H4SiO4          7.228e-06   7.228e-06    -5.141    -5.141     0.000     52.08
    H3SiO4-         1.035e-07   1.033e-07    -6.985    -6.986    -0.001     27.95
@@ -1181,7 +1181,7 @@ Si            7.331e-06
   Chlorite(14A)   -34.36     34.02   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -23.45      8.75   32.20  Mg3Si2O5(OH)4
   Gibbsite          0.75      8.86    8.11  Al(OH)3
-  H2(g)           -11.02    -14.12   -3.10  H2
+  H2(g)            -9.95    -13.05   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -7.54    -47.81  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -8.07    -28.64  -20.57  KAlSi3O8
@@ -1191,7 +1191,7 @@ Si            7.331e-06
   Montmorillonite(MgK)  -6.33     -3.50    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -6.33     -2.62    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -6.33     -2.92    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -61.23    -64.12   -2.89  O2
+  O2(g)           -63.37    -66.27   -2.89  O2
   Quartz           -1.16     -5.14   -3.98  SiO2
   Sepiolite       -18.49     -2.73   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -21.39     -2.73   18.66  Mg2Si3O7.5OH:3H2O
@@ -1249,7 +1249,7 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  8.349        Charge balance
-                                        pe  =  -3.133       Adjusted to redox equilibrium
+                                        pe  =  -3.409       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  0         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -1257,10 +1257,10 @@ X_montm_mg       4.000e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.387e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.088e-05  
+                   Total alkalinity (eq/kg)  = 1.088e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  8.507e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  8.506e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   38   (90 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550625e+01
@@ -1282,8 +1282,8 @@ Al            2.054e-06
 Ca            6.607e-07
    Ca+2            6.607e-07   6.536e-07    -6.180    -6.185    -0.005    -18.25
    CaOH+           2.431e-11   2.424e-11   -10.614   -10.615    -0.001     (0)  
-H(0)          5.228e-14
-   H2              2.614e-14   2.614e-14   -13.583   -13.583     0.000     14.99
+H(0)          1.866e-13
+   H2              9.330e-14   9.330e-14   -13.030   -13.030     0.000     14.99
 K             6.534e-08
    K+              6.534e-08   6.516e-08    -7.185    -7.186    -0.001      8.98
 Mg            6.312e-10
@@ -1292,7 +1292,7 @@ Mg            6.312e-10
 Na            3.333e-06
    Na+             3.333e-06   3.324e-06    -5.477    -5.478    -0.001     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -65.197   -65.197     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.302   -66.302     0.000     30.40
 Si            1.275e-05
    H4SiO4          1.234e-05   1.234e-05    -4.909    -4.909     0.000     52.08
    H3SiO4-         4.077e-07   4.066e-07    -6.390    -6.391    -0.001     27.95
@@ -1310,7 +1310,7 @@ Si            1.275e-05
   Chlorite(14A)   -28.39     39.99   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -19.54     12.66   32.20  Mg3Si2O5(OH)4
   Gibbsite          0.52      8.63    8.11  Al(OH)3
-  H2(g)           -10.48    -13.58   -3.10  H2
+  H2(g)            -9.93    -13.03   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -6.63    -46.90  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -7.03    -27.60  -20.57  KAlSi3O8
@@ -1320,7 +1320,7 @@ Si            1.275e-05
   Montmorillonite(MgK)  -5.20     -2.37    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -5.20     -1.49    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -5.20     -1.79    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -62.30    -65.20   -2.89  O2
+  O2(g)           -63.41    -66.30   -2.89  O2
   Quartz           -0.93     -4.91   -3.98  SiO2
   Sepiolite       -15.50      0.26   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -18.40      0.26   18.66  Mg2Si3O7.5OH:3H2O
@@ -1378,7 +1378,7 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  8.581        Charge balance
-                                        pe  =  -3.578       Adjusted to redox equilibrium
+                                        pe  =  -3.685       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  1         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -1386,10 +1386,10 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  8.561e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.449e-05  
+                   Total alkalinity (eq/kg)  = 1.449e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.746e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   25   (59 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550626e+01
@@ -1411,8 +1411,8 @@ Al            2.405e-06
 Ca            1.278e-06
    Ca+2            1.278e-06   1.260e-06    -5.894    -5.900    -0.006    -18.24
    CaOH+           7.993e-11   7.966e-11   -10.097   -10.099    -0.001     (0)  
-H(0)          1.400e-13
-   H2              7.002e-14   7.002e-14   -13.155   -13.155     0.000     14.99
+H(0)          2.286e-13
+   H2              1.143e-13   1.143e-13   -12.942   -12.942     0.000     14.99
 K             9.089e-08
    K+              9.089e-08   9.058e-08    -7.041    -7.043    -0.001      8.98
 Mg            1.227e-09
@@ -1421,7 +1421,7 @@ Mg            1.227e-09
 Na            4.631e-06
    Na+             4.631e-06   4.615e-06    -5.334    -5.336    -0.001     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.053   -66.053     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.479   -66.479     0.000     30.40
 Si            1.897e-05
    H4SiO4          1.795e-05   1.795e-05    -4.746    -4.746     0.000     52.08
    H3SiO4-         1.012e-06   1.008e-06    -5.995    -5.996    -0.001     27.95
@@ -1439,7 +1439,7 @@ Si            1.897e-05
   Chlorite(14A)   -24.47     43.91   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -16.96     15.24   32.20  Mg3Si2O5(OH)4
   Gibbsite          0.35      8.46    8.11  Al(OH)3
-  H2(g)           -10.06    -13.15   -3.10  H2
+  H2(g)            -9.84    -12.94   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -6.02    -46.29  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -6.33    -26.90  -20.57  KAlSi3O8
@@ -1449,7 +1449,7 @@ Si            1.897e-05
   Montmorillonite(MgK)  -4.44     -1.61    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -4.44     -0.73    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -4.44     -1.03    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.16    -66.05   -2.89  O2
+  O2(g)           -63.59    -66.48   -2.89  O2
   Quartz           -0.77     -4.75   -3.98  SiO2
   Sepiolite       -13.51      2.25   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -16.41      2.25   18.66  Mg2Si3O7.5OH:3H2O
@@ -1488,10 +1488,10 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Mg0.17X_montm_mg   1.002e-02   3.407e-03   2.506e-01     0.000
-	K0.34X_montm_mg   1.000e-02   3.400e-03   2.501e-01     0.000
-	Ca0.17X_montm_mg   9.988e-03   3.396e-03   2.498e-01     0.000
-	Na0.34X_montm_mg   9.983e-03   3.394e-03   2.496e-01     0.000
+	Mg0.17X_montm_mg   1.002e-02   3.407e-03   2.506e-01    -0.000
+	K0.34X_montm_mg   1.000e-02   3.400e-03   2.501e-01    -0.000
+	Ca0.17X_montm_mg   9.988e-03   3.396e-03   2.498e-01    -0.000
+	Na0.34X_montm_mg   9.983e-03   3.394e-03   2.496e-01    -0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -1507,7 +1507,7 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  8.742        Charge balance
-                                        pe  =  -3.773       Adjusted to redox equilibrium
+                                        pe  =  -3.861       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  1         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -1515,10 +1515,10 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.226e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.804e-05  
+                   Total alkalinity (eq/kg)  = 1.804e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.793e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   32   (71 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550627e+01
@@ -1540,8 +1540,8 @@ Al            2.621e-06
 Ca            2.077e-06
    Ca+2            2.077e-06   2.043e-06    -5.683    -5.690    -0.007    -18.24
    CaOH+           1.879e-10   1.871e-10    -9.726    -9.728    -0.002     (0)  
-H(0)          1.635e-13
-   H2              8.174e-14   8.174e-14   -13.088   -13.088     0.000     14.99
+H(0)          2.455e-13
+   H2              1.227e-13   1.227e-13   -12.911   -12.911     0.000     14.99
 K             1.160e-07
    K+              1.160e-07   1.155e-07    -6.936    -6.937    -0.002      8.98
 Mg            2.009e-09
@@ -1550,7 +1550,7 @@ Mg            2.009e-09
 Na            5.902e-06
    Na+             5.902e-06   5.877e-06    -5.229    -5.231    -0.002     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.187   -66.187     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.540   -66.540     0.000     30.40
 Si            2.583e-05
    H4SiO4          2.388e-05   2.388e-05    -4.622    -4.622     0.000     52.08
    H3SiO4-         1.951e-06   1.943e-06    -5.710    -5.712    -0.002     27.95
@@ -1568,7 +1568,7 @@ Si            2.583e-05
   Chlorite(14A)   -21.67     46.71   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -15.11     17.09   32.20  Mg3Si2O5(OH)4
   Gibbsite          0.23      8.34    8.11  Al(OH)3
-  H2(g)            -9.99    -13.09   -3.10  H2
+  H2(g)            -9.81    -12.91   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -5.58    -45.85  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -5.81    -26.39  -20.57  KAlSi3O8
@@ -1578,7 +1578,7 @@ Si            2.583e-05
   Montmorillonite(MgK)  -3.88     -1.05    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -3.88     -0.17    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -3.88     -0.47    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.30    -66.19   -2.89  O2
+  O2(g)           -63.65    -66.54   -2.89  O2
   Quartz           -0.64     -4.62   -3.98  SiO2
   Sepiolite       -12.07      3.69   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -14.97      3.69   18.66  Mg2Si3O7.5OH:3H2O
@@ -1617,10 +1617,10 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Mg0.17X_montm_mg   1.003e-02   3.409e-03   2.507e-01    -0.000
-	K0.34X_montm_mg   1.000e-02   3.400e-03   2.501e-01    -0.000
-	Ca0.17X_montm_mg   9.982e-03   3.394e-03   2.496e-01    -0.000
-	Na0.34X_montm_mg   9.979e-03   3.393e-03   2.496e-01    -0.000
+	Mg0.17X_montm_mg   1.003e-02   3.409e-03   2.507e-01     0.000
+	K0.34X_montm_mg   1.000e-02   3.400e-03   2.501e-01     0.000
+	Ca0.17X_montm_mg   9.982e-03   3.394e-03   2.496e-01     0.000
+	Na0.34X_montm_mg   9.979e-03   3.393e-03   2.496e-01     0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -1636,7 +1636,7 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  8.861        Charge balance
-                                        pe  =  -3.925       Adjusted to redox equilibrium
+                                        pe  =  -3.988       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  2         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
@@ -1644,10 +1644,10 @@ X_montm_mg       3.999e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.638e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.158e-05  
+                   Total alkalinity (eq/kg)  = 2.158e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.795e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   30   (68 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550629e+01
@@ -1669,8 +1669,8 @@ Al            2.744e-06
 Ca            3.034e-06
    Ca+2            3.033e-06   2.977e-06    -5.518    -5.526    -0.008    -18.24
    CaOH+           3.602e-10   3.585e-10    -9.443    -9.446    -0.002     (0)  
-H(0)          1.899e-13
-   H2              9.497e-14   9.497e-14   -13.022   -13.022     0.000     14.99
+H(0)          2.542e-13
+   H2              1.271e-13   1.271e-13   -12.896   -12.896     0.000     14.99
 K             1.403e-07
    K+              1.403e-07   1.396e-07    -6.853    -6.855    -0.002      8.98
 Mg            2.956e-09
@@ -1679,7 +1679,7 @@ Mg            2.956e-09
 Na            7.132e-06
    Na+             7.132e-06   7.099e-06    -5.147    -5.149    -0.002     -1.52
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.318   -66.318     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.571   -66.571     0.000     30.40
 Si            3.322e-05
    H4SiO4          3.000e-05   3.000e-05    -4.523    -4.523     0.000     52.08
    H3SiO4-         3.225e-06   3.210e-06    -5.491    -5.494    -0.002     27.95
@@ -1697,7 +1697,7 @@ Si            3.322e-05
   Chlorite(14A)   -19.55     48.83   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -13.70     18.50   32.20  Mg3Si2O5(OH)4
   Gibbsite          0.13      8.24    8.11  Al(OH)3
-  H2(g)            -9.92    -13.02   -3.10  H2
+  H2(g)            -9.80    -12.90   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -5.24    -45.51  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -5.41    -25.99  -20.57  KAlSi3O8
@@ -1707,7 +1707,7 @@ Si            3.322e-05
   Montmorillonite(MgK)  -3.44     -0.61    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -3.44      0.27    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -3.44     -0.03    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.43    -66.32   -2.89  O2
+  O2(g)           -63.68    -66.57   -2.89  O2
   Quartz           -0.54     -4.52   -3.98  SiO2
   Sepiolite       -10.96      4.80   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -13.86      4.80   18.66  Mg2Si3O7.5OH:3H2O
@@ -1746,10 +1746,10 @@ X_montm_mg       3.998e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Mg0.17X_montm_mg   1.005e-02   3.417e-03   2.514e-01     0.000
-	K0.34X_montm_mg   9.999e-03   3.400e-03   2.501e-01     0.000
-	Na0.34X_montm_mg   9.968e-03   3.389e-03   2.494e-01     0.000
-	Ca0.17X_montm_mg   9.958e-03   3.386e-03   2.491e-01     0.000
+	Mg0.17X_montm_mg   1.005e-02   3.417e-03   2.514e-01    -0.000
+	K0.34X_montm_mg   9.999e-03   3.400e-03   2.501e-01    -0.000
+	Na0.34X_montm_mg   9.968e-03   3.389e-03   2.494e-01    -0.000
+	Ca0.17X_montm_mg   9.958e-03   3.386e-03   2.491e-01    -0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -1765,7 +1765,7 @@ X_montm_mg       3.998e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.102        Charge balance
-                                        pe  =  -4.199       Adjusted to redox equilibrium
+                                        pe  =  -4.203       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  4         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
@@ -1773,10 +1773,10 @@ X_montm_mg       3.998e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.237e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.373e-05  
+                   Total alkalinity (eq/kg)  = 3.373e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.810e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   45   (103 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550634e+01
@@ -1798,8 +1798,8 @@ Al            2.812e-06
 Ca            7.075e-06
    Ca+2            7.074e-06   6.889e-06    -5.150    -5.162    -0.011    -18.23
    CaOH+           1.455e-09   1.446e-09    -8.837    -8.840    -0.003     (0)  
-H(0)          2.212e-13
-   H2              1.106e-13   1.106e-13   -12.956   -12.956     0.000     14.99
+H(0)          2.256e-13
+   H2              1.128e-13   1.128e-13   -12.948   -12.948     0.000     14.99
 K             2.153e-07
    K+              2.153e-07   2.139e-07    -6.667    -6.670    -0.003      8.98
 Mg            7.101e-09
@@ -1808,7 +1808,7 @@ Mg            7.101e-09
 Na            1.091e-05
    Na+             1.091e-05   1.084e-05    -4.962    -4.965    -0.003     -1.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.450   -66.450     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.467   -66.467     0.000     30.40
 Si            6.069e-05
    H4SiO4          5.110e-05   5.110e-05    -4.292    -4.292     0.000     52.08
    H3SiO4-         9.593e-06   9.529e-06    -5.018    -5.021    -0.003     27.95
@@ -1826,7 +1826,7 @@ Si            6.069e-05
   Chlorite(14A)   -15.03     53.35   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile      -10.66     21.54   32.20  Mg3Si2O5(OH)4
   Gibbsite         -0.10      8.01    8.11  Al(OH)3
-  H2(g)            -9.86    -12.96   -3.10  H2
+  H2(g)            -9.85    -12.95   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -4.49    -44.76  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -4.53    -25.10  -20.57  KAlSi3O8
@@ -1836,7 +1836,7 @@ Si            6.069e-05
   Montmorillonite(MgK)  -2.46      0.37    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -2.46      1.25    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -2.46      0.95    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.56    -66.45   -2.89  O2
+  O2(g)           -63.57    -66.47   -2.89  O2
   Quartz           -0.31     -4.29   -3.98  SiO2
   Sepiolite        -8.55      7.21   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -11.45      7.21   18.66  Mg2Si3O7.5OH:3H2O
@@ -1875,10 +1875,10 @@ X_montm_mg       3.996e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	Mg0.17X_montm_mg   1.008e-02   3.426e-03   2.521e-01    -0.000
-	K0.34X_montm_mg   9.999e-03   3.400e-03   2.502e-01    -0.000
-	Na0.34X_montm_mg   9.958e-03   3.386e-03   2.492e-01    -0.000
-	Ca0.17X_montm_mg   9.930e-03   3.376e-03   2.485e-01    -0.000
+	Mg0.17X_montm_mg   1.008e-02   3.426e-03   2.521e-01     0.000
+	K0.34X_montm_mg   9.999e-03   3.400e-03   2.502e-01     0.000
+	Na0.34X_montm_mg   9.958e-03   3.386e-03   2.492e-01     0.000
+	Ca0.17X_montm_mg   9.930e-03   3.376e-03   2.485e-01     0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -1894,7 +1894,7 @@ X_montm_mg       3.996e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.231        Charge balance
-                                        pe  =  -4.346       Adjusted to redox equilibrium
+                                        pe  =  -4.334       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  5         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
@@ -1902,10 +1902,10 @@ X_montm_mg       3.996e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.034e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.644e-05  
+                   Total alkalinity (eq/kg)  = 4.644e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.980e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   42   (95 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550640e+01
@@ -1927,8 +1927,8 @@ Al            2.681e-06
 Ca            1.193e-05
    Ca+2            1.193e-05   1.154e-05    -4.923    -4.938    -0.014    -18.23
    CaOH+           3.291e-09   3.264e-09    -8.483    -8.486    -0.004     (0)  
-H(0)          2.402e-13
-   H2              1.201e-13   1.201e-13   -12.921   -12.921     0.000     14.99
+H(0)          2.271e-13
+   H2              1.136e-13   1.136e-13   -12.945   -12.945     0.000     14.99
 K             2.815e-07
    K+              2.815e-07   2.792e-07    -6.550    -6.554    -0.004      8.99
 Mg            1.238e-08
@@ -1937,7 +1937,7 @@ Mg            1.238e-08
 Na            1.423e-05
    Na+             1.423e-05   1.411e-05    -4.847    -4.850    -0.004     -1.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.522   -66.522     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.473   -66.473     0.000     30.40
 Si            9.063e-05
    H4SiO4          7.231e-05   7.231e-05    -4.141    -4.141     0.000     52.08
    H3SiO4-         1.832e-05   1.817e-05    -4.737    -4.741    -0.004     27.95
@@ -1955,7 +1955,7 @@ Si            9.063e-05
   Chlorite(14A)   -12.39     55.99   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile       -8.87     23.33   32.20  Mg3Si2O5(OH)4
   Gibbsite         -0.25      7.86    8.11  Al(OH)3
-  H2(g)            -9.82    -12.92   -3.10  H2
+  H2(g)            -9.85    -12.94   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -4.04    -44.31  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -3.98    -24.55  -20.57  KAlSi3O8
@@ -1965,7 +1965,7 @@ Si            9.063e-05
   Montmorillonite(MgK)  -1.85      0.98    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -1.85      1.86    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -1.86      1.55    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.63    -66.52   -2.89  O2
+  O2(g)           -63.58    -66.47   -2.89  O2
   Quartz           -0.16     -4.14   -3.98  SiO2
   Sepiolite        -7.10      8.66   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)    -10.00      8.66   18.66  Mg2Si3O7.5OH:3H2O
@@ -1995,7 +1995,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Kaolinite         0.00     7.44      7.43    2.986e-05   4.060e-05   1.074e-05
+Kaolinite        -0.00     7.43      7.43    2.986e-05   4.060e-05   1.074e-05
 
 -----------------------------Exchange composition------------------------------
 
@@ -2023,7 +2023,7 @@ X_montm_mg       3.995e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.310        Charge balance
-                                        pe  =  -4.408       Adjusted to redox equilibrium
+                                        pe  =  -4.362       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  7         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
@@ -2031,10 +2031,10 @@ X_montm_mg       3.995e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  6.853e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.905e-05  
+                   Total alkalinity (eq/kg)  = 5.905e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.973e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   54   (126 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550646e+01
@@ -2056,8 +2056,8 @@ Al            2.517e-06
 Ca            1.702e-05
    Ca+2            1.702e-05   1.638e-05    -4.769    -4.786    -0.017    -18.22
    CaOH+           5.604e-09   5.551e-09    -8.251    -8.256    -0.004     (0)  
-H(0)          2.227e-13
-   H2              1.114e-13   1.114e-13   -12.953   -12.953     0.000     14.99
+H(0)          1.797e-13
+   H2              8.983e-14   8.984e-14   -13.047   -13.047     0.000     14.99
 K             3.388e-07
    K+              3.388e-07   3.355e-07    -6.470    -6.474    -0.004      8.99
 Mg            1.827e-08
@@ -2066,7 +2066,7 @@ Mg            1.827e-08
 Na            1.708e-05
    Na+             1.708e-05   1.691e-05    -4.768    -4.772    -0.004     -1.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.456   -66.456     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.269   -66.269     0.000     30.40
 Si            1.205e-04
    H4SiO4          9.242e-05   9.242e-05    -4.034    -4.034     0.000     52.08
    H3SiO4-         2.810e-05   2.783e-05    -4.551    -4.555    -0.004     27.95
@@ -2084,17 +2084,17 @@ Si            1.205e-04
   Chlorite(14A)   -10.67     57.71   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile       -7.68     24.52   32.20  Mg3Si2O5(OH)4
   Gibbsite         -0.36      7.75    8.11  Al(OH)3
-  H2(g)            -9.85    -12.95   -3.10  H2
+  H2(g)            -9.95    -13.05   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -3.74    -44.00  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -3.61    -24.18  -20.57  KAlSi3O8
   K-mica            1.29     13.99   12.70  KAl3Si3O10(OH)2
-  Kaolinite         0.00      7.44    7.43  Al2Si2O5(OH)4
+  Kaolinite        -0.00      7.43    7.43  Al2Si2O5(OH)4
   Montmorillonite(MgCa)  -1.45      2.78    4.22  Ca0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgK)  -1.44      1.39    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -1.44      2.27    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -1.44      1.97    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.56    -66.46   -2.89  O2
+  O2(g)           -63.38    -66.27   -2.89  O2
   Quartz           -0.05     -4.03   -3.98  SiO2
   Sepiolite        -6.14      9.62   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)     -9.04      9.62   18.66  Mg2Si3O7.5OH:3H2O
@@ -2124,7 +2124,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Kaolinite         0.00     7.44      7.43    4.060e-05   6.470e-05   2.410e-05
+Kaolinite         0.00     7.43      7.43    4.060e-05   6.470e-05   2.410e-05
 
 -----------------------------Exchange composition------------------------------
 
@@ -2152,7 +2152,7 @@ X_montm_mg       3.992e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.412        Charge balance
-                                        pe  =  -4.521       Adjusted to redox equilibrium
+                                        pe  =  -4.510       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  9         
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
@@ -2160,10 +2160,10 @@ X_montm_mg       3.992e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.098e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.745e-05  
+                   Total alkalinity (eq/kg)  = 8.745e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.241e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   65   (167 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550659e+01
@@ -2185,8 +2185,8 @@ Al            2.179e-06
 Ca            2.892e-05
    Ca+2            2.890e-05   2.754e-05    -4.539    -4.560    -0.021    -18.22
    CaOH+           1.195e-08   1.181e-08    -7.922    -7.928    -0.005     (0)  
-H(0)          2.340e-13
-   H2              1.170e-13   1.170e-13   -12.932   -12.932     0.000     14.99
+H(0)          2.219e-13
+   H2              1.109e-13   1.109e-13   -12.955   -12.955     0.000     14.99
 K             4.497e-07
    K+              4.497e-07   4.442e-07    -6.347    -6.352    -0.005      8.99
 Mg            3.352e-08
@@ -2195,7 +2195,7 @@ Mg            3.352e-08
 Na            2.256e-05
    Na+             2.256e-05   2.229e-05    -4.647    -4.652    -0.005     -1.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.499   -66.499     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.453   -66.453     0.000     30.40
 Si            1.877e-04
    H4SiO4          1.354e-04   1.354e-04    -3.868    -3.868     0.000     52.08
    H3SiO4-         5.223e-05   5.160e-05    -4.282    -4.287    -0.005     27.95
@@ -2213,17 +2213,17 @@ Si            1.877e-04
   Chlorite(14A)    -8.19     60.19   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile       -5.96     26.24   32.20  Mg3Si2O5(OH)4
   Gibbsite         -0.52      7.59    8.11  Al(OH)3
-  H2(g)            -9.83    -12.93   -3.10  H2
+  H2(g)            -9.86    -12.95   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -3.29    -43.55  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -3.05    -23.62  -20.57  KAlSi3O8
   K-mica            1.51     14.21   12.70  KAl3Si3O10(OH)2
-  Kaolinite         0.00      7.44    7.43  Al2Si2O5(OH)4
+  Kaolinite         0.00      7.43    7.43  Al2Si2O5(OH)4
   Montmorillonite(MgCa)  -0.83      3.39    4.22  Ca0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgK)  -0.82      2.01    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -0.81      2.89    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -0.82      2.59    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.61    -66.50   -2.89  O2
+  O2(g)           -63.56    -66.45   -2.89  O2
   Quartz            0.11     -3.87   -3.98  SiO2
   Sepiolite        -4.71     11.05   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)     -7.61     11.05   18.66  Mg2Si3O7.5OH:3H2O
@@ -2253,7 +2253,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Kaolinite        -0.00     7.43      7.43    6.470e-05   7.571e-05   1.101e-05
+Kaolinite         0.00     7.44      7.43    6.470e-05   7.571e-05   1.101e-05
 
 -----------------------------Exchange composition------------------------------
 
@@ -2281,7 +2281,7 @@ X_montm_mg       3.991e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.442        Charge balance
-                                        pe  =  -4.593       Adjusted to redox equilibrium
+                                        pe  =  -4.559       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  11        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
@@ -2289,10 +2289,10 @@ X_montm_mg       3.991e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.289e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.005e-04  
+                   Total alkalinity (eq/kg)  = 1.005e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.798e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   93   (219 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550664e+01
@@ -2314,8 +2314,8 @@ Al            2.048e-06
 Ca            3.449e-05
    Ca+2            3.447e-05   3.272e-05    -4.463    -4.485    -0.023    -18.21
    CaOH+           1.523e-08   1.503e-08    -7.817    -7.823    -0.006     (0)  
-H(0)          2.841e-13
-   H2              1.421e-13   1.421e-13   -12.848   -12.848     0.000     14.99
+H(0)          2.425e-13
+   H2              1.213e-13   1.213e-13   -12.916   -12.916     0.000     14.99
 K             4.954e-07
    K+              4.954e-07   4.889e-07    -6.305    -6.311    -0.006      8.99
 Mg            4.142e-08
@@ -2324,7 +2324,7 @@ Mg            4.142e-08
 Na            2.481e-05
    Na+             2.481e-05   2.449e-05    -4.605    -4.611    -0.006     -1.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.668   -66.668     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.530   -66.530     0.000     30.40
 Si            2.184e-04
    H4SiO4          1.545e-04   1.545e-04    -3.811    -3.811     0.000     52.08
    H3SiO4-         6.389e-05   6.305e-05    -4.195    -4.200    -0.006     27.95
@@ -2342,17 +2342,17 @@ Si            2.184e-04
   Chlorite(14A)    -7.38     61.00   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile       -5.40     26.80   32.20  Mg3Si2O5(OH)4
   Gibbsite         -0.58      7.53    8.11  Al(OH)3
-  H2(g)            -9.75    -12.85   -3.10  H2
+  H2(g)            -9.82    -12.92   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -3.14    -43.41  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -2.87    -23.44  -20.57  KAlSi3O8
   K-mica            1.58     14.28   12.70  KAl3Si3O10(OH)2
-  Kaolinite        -0.00      7.43    7.43  Al2Si2O5(OH)4
+  Kaolinite         0.00      7.44    7.43  Al2Si2O5(OH)4
   Montmorillonite(MgCa)  -0.62      3.60    4.22  Ca0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgK)  -0.61      2.22    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -0.60      3.11    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -0.61      2.80    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.78    -66.67   -2.89  O2
+  O2(g)           -63.64    -66.53   -2.89  O2
   Quartz            0.17     -3.81   -3.98  SiO2
   Sepiolite        -4.24     11.52   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)     -7.14     11.52   18.66  Mg2Si3O7.5OH:3H2O
@@ -2410,7 +2410,7 @@ X_montm_mg       3.991e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.443        Charge balance
-                                        pe  =  -4.575       Adjusted to redox equilibrium
+                                        pe  =  -4.543       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  11        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
@@ -2418,10 +2418,10 @@ X_montm_mg       3.991e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.298e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.012e-04  
+                   Total alkalinity (eq/kg)  = 1.012e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.802e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   44   (104 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550665e+01
@@ -2443,8 +2443,8 @@ Al            2.042e-06
 Ca            3.477e-05
    Ca+2            3.475e-05   3.298e-05    -4.459    -4.482    -0.023    -18.21
    CaOH+           1.540e-08   1.519e-08    -7.813    -7.818    -0.006     (0)  
-H(0)          2.600e-13
-   H2              1.300e-13   1.300e-13   -12.886   -12.886     0.000     14.99
+H(0)          2.238e-13
+   H2              1.119e-13   1.119e-13   -12.951   -12.951     0.000     14.99
 K             4.976e-07
    K+              4.976e-07   4.911e-07    -6.303    -6.309    -0.006      8.99
 Mg            4.183e-08
@@ -2453,7 +2453,7 @@ Mg            4.183e-08
 Na            2.492e-05
    Na+             2.492e-05   2.459e-05    -4.603    -4.609    -0.006     -1.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.591   -66.591     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.460   -66.460     0.000     30.40
 Si            2.199e-04
    H4SiO4          1.554e-04   1.554e-04    -3.808    -3.808     0.000     52.08
    H3SiO4-         6.448e-05   6.363e-05    -4.191    -4.196    -0.006     27.95
@@ -2471,7 +2471,7 @@ Si            2.199e-04
   Chlorite(14A)    -7.35     61.03   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile       -5.37     26.83   32.20  Mg3Si2O5(OH)4
   Gibbsite         -0.58      7.53    8.11  Al(OH)3
-  H2(g)            -9.79    -12.89   -3.10  H2
+  H2(g)            -9.85    -12.95   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -3.13    -43.40  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -2.86    -23.43  -20.57  KAlSi3O8
@@ -2481,7 +2481,7 @@ Si            2.199e-04
   Montmorillonite(MgK)  -0.60      2.23    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -0.59      3.11    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -0.60      2.81    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.70    -66.59   -2.89  O2
+  O2(g)           -63.57    -66.46   -2.89  O2
   Quartz            0.17     -3.81   -3.98  SiO2
   Sepiolite        -4.22     11.54   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)     -7.12     11.54   18.66  Mg2Si3O7.5OH:3H2O
@@ -2511,7 +2511,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Kaolinite         0.00     7.44      7.43    7.626e-05   7.627e-05   3.786e-09
+Kaolinite         0.00     7.44      7.43    7.626e-05   7.627e-05   3.785e-09
 
 -----------------------------Exchange composition------------------------------
 
@@ -2539,7 +2539,7 @@ X_montm_mg       3.991e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
 ----------------------------Description of solution----------------------------
 
                                         pH  =  9.443        Charge balance
-                                        pe  =  -4.582       Adjusted to redox equilibrium
+                                        pe  =  -4.569       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  11        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
@@ -2547,10 +2547,10 @@ X_montm_mg       3.991e-02 mol	[1 (mol X_montm_mg)/(mol kinetic reactant Montmor
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.298e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.012e-04  
+                   Total alkalinity (eq/kg)  = 1.012e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.968e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   14   (32 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550665e+01
@@ -2572,8 +2572,8 @@ Al            2.042e-06
 Ca            3.477e-05
    Ca+2            3.476e-05   3.298e-05    -4.459    -4.482    -0.023    -18.21
    CaOH+           1.540e-08   1.520e-08    -7.813    -7.818    -0.006     (0)  
-H(0)          2.677e-13
-   H2              1.339e-13   1.339e-13   -12.873   -12.873     0.000     14.99
+H(0)          2.520e-13
+   H2              1.260e-13   1.260e-13   -12.900   -12.900     0.000     14.99
 K             4.977e-07
    K+              4.977e-07   4.911e-07    -6.303    -6.309    -0.006      8.99
 Mg            4.183e-08
@@ -2582,7 +2582,7 @@ Mg            4.183e-08
 Na            2.492e-05
    Na+             2.492e-05   2.459e-05    -4.603    -4.609    -0.006     -1.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.616   -66.616     0.000     30.40
+   O2              0.000e+00   0.000e+00   -66.563   -66.563     0.000     30.40
 Si            2.199e-04
    H4SiO4          1.554e-04   1.554e-04    -3.808    -3.808     0.000     52.08
    H3SiO4-         6.448e-05   6.364e-05    -4.191    -4.196    -0.006     27.95
@@ -2600,7 +2600,7 @@ Si            2.199e-04
   Chlorite(14A)    -7.35     61.03   68.38  Mg5Al2Si3O10(OH)8
   Chrysotile       -5.37     26.83   32.20  Mg3Si2O5(OH)4
   Gibbsite         -0.58      7.53    8.11  Al(OH)3
-  H2(g)            -9.77    -12.87   -3.10  H2
+  H2(g)            -9.80    -12.90   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Illite           -3.13    -43.40  -40.27  K0.6Mg0.25Al2.3Si3.5O10(OH)2
   K-feldspar       -2.86    -23.43  -20.57  KAlSi3O8
@@ -2610,7 +2610,7 @@ Si            2.199e-04
   Montmorillonite(MgK)  -0.60      2.23    2.83  K0.34Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgMg)  -0.59      3.11    3.71  Mg0.17Mg0.34Al1.66Si4O10(OH)2
   Montmorillonite(MgNa)  -0.60      2.81    3.41  Na0.34Mg0.34Al1.66Si4O10(OH)2
-  O2(g)           -63.72    -66.62   -2.89  O2
+  O2(g)           -63.67    -66.56   -2.89  O2
   Quartz            0.17     -3.81   -3.98  SiO2
   Sepiolite        -4.22     11.54   15.76  Mg2Si3O7.5OH:3H2O
   Sepiolite(d)     -7.12     11.54   18.66  Mg2Si3O7.5OH:3H2O
@@ -2675,14 +2675,14 @@ Reaction 1.
        Specific Conductance (µS/cm,  25°C)  =  11        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89011  
+                         Viscosity (mPa s)  =  0.89010  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.343e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.039e-04  
+                   Total alkalinity (eq/kg)  = 1.039e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -4.878e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  0   
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550666e+01
@@ -2759,8 +2759,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 8.
 ------------------------------------
-
--------------------------------
-End of Run after 0.074 Seconds.
--------------------------------
 

@@ -90,11 +90,11 @@ Initial solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
                          Activity of water  =  0.984  
                   Ionic strength (mol/kgw)  =  3.628e-01  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  8.531e-03  
+                      Total carbon (mol/kg)  = 8.531e-03  
                         Total CO2 (mol/kg)  =  8.531e-03  
                           Temperature (°C)  =  300.00
                    Electrical balance (eq)  =  -1.823e-04 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  12  
                                    Total H  =  1.110538e+02
                                    Total O  =  5.566435e+01
@@ -606,11 +606,11 @@ Initial solution 1.	Seawater
                          Activity of water  =  0.981  
                   Ionic strength (mol/kgw)  =  6.425e-01  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  1.651e-03  
+                      Total carbon (mol/kg)  = 1.651e-03  
                         Total CO2 (mol/kg)  =  1.651e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.986e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.01  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.01  
                                 Iterations  =  8   
                                    Total H  =  1.110589e+02
                                    Total O  =  5.565514e+01
@@ -1451,13 +1451,13 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Anhydrite        -0.15    -4.50     -4.35    1.000e+00           0  -1.000e+00
 Aragonite        -0.15     1.82      1.97    2.500e+00           0  -2.500e+00
-Calcite           0.00     1.82      1.82    1.000e+00   3.234e+00   2.234e+00
+Calcite          -0.00     1.82      1.82    1.000e+00   3.234e+00   2.234e+00
 Chalcedony        0.00    -3.76     -3.76    2.100e+00   9.991e-02  -2.000e+00
-Dolomite          0.00     2.47      2.47    1.000e+00   1.010e+00   9.512e-03
+Dolomite         -0.00     2.47      2.47    1.000e+00   1.010e+00   9.512e-03
 Gibbsite         -0.63     7.11      7.74    2.000e+00           0  -2.000e+00
 Goethite         -0.00     0.53      0.53    1.000e+00   1.034e+00   3.360e-02
 Gypsum            0.00    -4.53     -4.53    1.000e+00   2.018e+00   1.018e+00
-Kaolinite        -0.00     6.72      6.72    5.000e+00   6.000e+00   1.000e+00
+Kaolinite         0.00     6.72      6.72    5.000e+00   6.000e+00   1.000e+00
 Siderite          0.00    -0.22     -0.22    1.000e+00   9.584e-01  -4.159e-02
 
 ------------------------------Surface composition------------------------------
@@ -1537,12 +1537,12 @@ X                3.000e+00 mol
                          Activity of water  =  0.968  
                   Ionic strength (mol/kgw)  =  1.307e+00  
                         Mass of water (kg)  =  9.854e-01  
-                  Total alkalinity (eq/kg)  =  1.353e-02  
+                   Total alkalinity (eq/kg)  = 1.353e-02  
                         Total CO2 (mol/kg)  =  3.633e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -8.703e-04 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.04 
-                                Iterations  =  42  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.04 
+                                Iterations  =  72  
                                    Total H  =  1.094528e+02
                                    Total O  =  5.485409e+01
 
@@ -2035,7 +2035,7 @@ Sr            1.735e-05
   CaAl2O4         -22.94     23.96   46.91  CaAl2O4
   CaAl2O4:10H2O   -14.17     23.82   37.99  CaAl2O4:10H2O
   CaAl4O7         -30.37     38.22   68.59  CaAl4O7
-  Calcite           0.00      1.82    1.82  CaCO3
+  Calcite          -0.00      1.82    1.82  CaCO3
   Carnallite      -10.66     -6.39    4.27  KMgCl3:6H2O
   CaSO4:0.5H2O(beta)  -0.97     -4.51   -3.54  CaSO4:0.5H2O
   Celadonite       -4.43      2.88    7.31  KMgAlSi4O10(OH)2
@@ -2081,7 +2081,7 @@ Sr            1.735e-05
   Diaspore         -0.02      7.12    7.15  AlHO2
   Dicalcium_silicate -21.47     15.65   37.13  Ca2SiO4
   Diopside        -10.16     10.72   20.89  CaMgSi2O6
-  Dolomite          0.00      2.47    2.47  CaMg(CO3)2
+  Dolomite         -0.00      2.47    2.47  CaMg(CO3)2
   Dolomite-dis     -1.54      2.47    4.01  CaMg(CO3)2
   Dolomite-ord      0.01      2.47    2.46  CaMg(CO3)2
   Enstatite        -6.52      4.77   11.29  MgSiO3
@@ -2154,7 +2154,7 @@ Sr            1.735e-05
   KAl(SO4)2       -22.30    -19.03    3.27  KAl(SO4)2
   Kalicinite       -5.91     -5.63    0.28  KHCO3
   Kalsilite        -5.22      5.63   10.85  KAlSiO4
-  Kaolinite        -0.00      6.72    6.72  Al2Si2O5(OH)4
+  Kaolinite         0.00      6.72    6.72  Al2Si2O5(OH)4
   Katoite         -35.65     43.29   78.94  Ca3Al2H12O12
   KBr              -7.56     -6.50    1.05  KBr
   Kieserite        -5.43     -5.69   -0.27  MgSO4:H2O
@@ -2391,7 +2391,7 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Anhydrite        -0.05    -4.51     -4.47    1.000e+00           0  -1.000e+00
 Aragonite        -0.15     1.67      1.82    2.500e+00           0  -2.500e+00
-Calcite          -0.00     1.67      1.67    1.000e+00   2.997e+00   1.997e+00
+Calcite           0.00     1.67      1.67    1.000e+00   2.997e+00   1.997e+00
 Chalcedony        0.00    -3.58     -3.58    2.100e+00   9.982e-02  -2.000e+00
 Dolomite          0.00     2.12      2.12    1.000e+00   1.004e+00   4.371e-03
 Gibbsite         -0.66     6.50      7.15    2.000e+00           0  -2.000e+00
@@ -2477,11 +2477,11 @@ X                3.000e+00 mol
                          Activity of water  =  0.956  
                   Ionic strength (mol/kgw)  =  1.903e+00  
                         Mass of water (kg)  =  9.899e-01  
-                  Total alkalinity (eq/kg)  =  1.053e-02  
+                   Total alkalinity (eq/kg)  = 1.053e-02  
                         Total CO2 (mol/kg)  =  2.731e-02  
                           Temperature (°C)  =  35.00 
                    Electrical balance (eq)  =  -9.806e-04 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  31  
                                    Total H  =  1.099476e+02
                                    Total O  =  5.507750e+01
@@ -2975,7 +2975,7 @@ Sr            2.552e-05
   CaAl2O4         -21.77     22.65   44.42  CaAl2O4
   CaAl2O4:10H2O   -15.54     22.45   37.99  CaAl2O4:10H2O
   CaAl4O7         -28.81     35.70   64.51  CaAl4O7
-  Calcite          -0.00      1.67    1.67  CaCO3
+  Calcite           0.00      1.67    1.67  CaCO3
   Carnallite       -9.98     -5.71    4.27  KMgCl3:6H2O
   CaSO4:0.5H2O(beta)  -0.86     -4.52   -3.66  CaSO4:0.5H2O
   Celadonite       -4.09      2.78    6.88  KMgAlSi4O10(OH)2
@@ -3292,8 +3292,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.137 Seconds.
--------------------------------
 

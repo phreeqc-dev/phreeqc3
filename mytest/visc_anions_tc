@@ -1,0 +1,98 @@
+DATABASE ../database/phreeqc.dat
+#PRINT; -reset false
+SELECTED_OUTPUT 101
+    -file                visc_anions_tc_101.sel
+USER_PUNCH 101
+    -headings Mu SC Viscosity
+    -start
+10 PUNCH STR_F$(MU, 20, 12)
+20 PUNCH STR_F$(SC, 20, 10)
+30 PUNCH STR_F$(VISCOS, 20, 10)
+    -end
+#PRINT; -reset false
+
+SOLUTION 1
+pH 7 charge
+END
+
+USE solution 1; Reaction 1; KF; 5
+REACTION_TEMPERATURE 1; 0 300 in 31
+USER_GRAPH
+-headings tc viscos_0 ==NEW== KF
+-axis_scale	x_axis 140 300
+-axis_scale	y_axis 0 0.6
+-axis_titles "temperature / ÂºC" "viscosity / mPaâ€¢s"
+-chart_title "Viscosity of anions f(T)"
+10 graph_x tc : graph_y viscos_0 #- get(step_no) : Cl = vm("Cl-")
+20 plot_xy tc, viscos_0, line_width	= 0 symbol	= None
+30 plot_xy tc, viscos, line_width	= 2
+END
+
+USE solution 1; Reaction 1; NaOH; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings NaOH
+30 plot_xy tc, viscos, line_width	= 2
+END
+
+USE solution 1; Reaction 1; KHCO3; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings KHCO3
+30 plot_xy tc, viscos, line_width	= 2
+END
+
+USE solution 1; Reaction 1; Na2CO3; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings Na2CO3
+30 plot_xy tc, viscos, line_width	= 2
+END
+
+USE solution 1; Reaction 1; Na2SO4; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings Na2SO4
+30 plot_xy tc, viscos, line_width	= 2
+END
+
+SOLUTION_SPECIES
+H+ = H+
+	-gamma 9 0
+	# set the transition at 400ÂºC for viscosity calculations from Jones-Dole to exponential,
+	#   thus, Jones-Dole is used from 0 - 300ÂºC       Jones_Dole[7]
+	-viscosity 9.35e-2 -8.31e-2 2.487e-2 4.49e-4 2.01e-2 1.57 0 400 1 # for viscosity parameters see ref. 4
+	-dw 9.31e-9 838 6.96 -2.285 0.206 24.01 0
+
+USE solution 1; Reaction 1; KF; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings ==OLD== KF
+20 plot_xy tc, viscos_0, line_width	= 0 symbol	= None
+30 plot_xy tc, viscos
+END
+
+USE solution 1; Reaction 1; NaOH; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc NaOH
+10 graph_x tc : graph_y viscos
+END
+
+USE solution 1; Reaction 1; KHCO3; 5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc KHCO3
+END
+
+USE solution 1; Reaction 1; Na2CO3; 2.5
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc Na2CO3
+END
+
+USE solution 1; Reaction 1; Na2SO4; 2.5 # thenardite ~ 3
+USE reaction_temperature 1
+USER_GRAPH
+-headings tc Na2SO4
+END

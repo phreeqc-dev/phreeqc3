@@ -59,14 +59,14 @@ Initial solution 1.
        Specific Conductance (µS/cm,  25°C)  =  661       
                            Density (g/cm³)  =  0.99751  
                                 Volume (L)  =  1.00303  
-                         Viscosity (mPa s)  =  0.89120  
+                         Viscosity (mPa s)  =  0.89121  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.921e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.775e-03  
+                   Total alkalinity (eq/kg)  = 7.775e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.775e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -78.72
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -78.72
                                 Iterations  =  8   
                                    Total H  =  1.110202e+02
                                    Total O  =  5.552599e+01
@@ -294,7 +294,7 @@ Na2SO4          aq           1.22e-14     aq
       O         4 
       S         1 
       charge     0 
-H2              aq           9.13e-16     aq 
+H2              aq           6.74e-16     aq 
       H         2 
       charge     0 
 AlHSO4+2        aq           2.57e-20     aq 
@@ -303,15 +303,15 @@ AlHSO4+2        aq           2.57e-20     aq
       O         4 
       S         1 
       charge     2 
-HS-             aq           3.43e-25     aq 
+HS-             aq           1.02e-25     aq 
       H         1 
       S         1 
       charge    -1 
-H2S             aq           3.60e-26     aq 
+H2S             aq           1.07e-26     aq 
       H         2 
       S         1 
       charge     0 
-S-2             aq           4.10e-30     aq 
+S-2             aq           1.22e-30     aq 
       S         1 
       charge    -2 
 (H2S)2          aq           0.00e+00     aq 
@@ -434,19 +434,19 @@ X                1.000e+00 mol
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.880        Charge balance
-                                        pe  =  -1.936       Adjusted to redox equilibrium
+                                        pe  =  -1.870       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  611       
                            Density (g/cm³)  =  0.99750  
                                 Volume (L)  =  1.00302  
-                         Viscosity (mPa s)  =  0.89162  
+                         Viscosity (mPa s)  =  0.89163  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.596e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.972e-03  
+                   Total alkalinity (eq/kg)  = 7.972e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.787e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -85.48
-                                Iterations  =  25  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -85.48
+                                Iterations  =  21  
                                    Total H  =  1.110200e+02
                                    Total O  =  5.552517e+01
 
@@ -475,19 +475,19 @@ Ca            3.664e-04
 Cl            1.000e-03
    Cl-             1.000e-03   9.117e-04    -3.000    -3.040    -0.040     18.13
    HCl             4.109e-12   4.140e-12   -11.386   -11.383     0.003     20.36
-H(0)          1.825e-15
-   H2              9.126e-16   9.143e-16   -15.040   -15.039     0.001     14.99
+H(0)          1.348e-15
+   H2              6.740e-16   6.752e-16   -15.171   -15.171     0.001     14.99
 Na            4.297e-05
    Na+             4.227e-05   3.862e-05    -4.374    -4.413    -0.039     -1.40
    NaSO4-          7.092e-07   6.475e-07    -6.149    -6.189    -0.040     16.91
    Na2SO4          1.217e-14   1.219e-14   -13.915   -13.914     0.001     47.96
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -62.286   -62.285     0.001     30.40
-S(-2)         3.792e-25
-   HS-             3.432e-25   3.127e-25   -24.464   -24.505    -0.040     20.66
-   H2S             3.598e-26   3.604e-26   -25.444   -25.443     0.001     36.27
-   S-2             4.099e-30   2.865e-30   -29.387   -29.543    -0.156     (0)  
-   (H2S)2          0.000e+00   0.000e+00   -52.165   -52.165     0.001     30.09
+   O2              0.000e+00   0.000e+00   -62.022   -62.022     0.001     30.40
+S(-2)         1.128e-25
+   HS-             1.021e-25   9.302e-26   -24.991   -25.031    -0.040     20.66
+   H2S             1.070e-26   1.072e-26   -25.971   -25.970     0.001     36.27
+   S-2             1.219e-30   8.524e-31   -29.914   -30.069    -0.156     (0)  
+   (H2S)2          0.000e+00   0.000e+00   -53.219   -53.218     0.001     30.09
 S(6)          2.791e-03
    SO4-2           2.732e-03   1.908e-03    -2.563    -2.719    -0.156     14.66
    CaSO4           5.758e-05   5.763e-05    -4.240    -4.239     0.000      7.22
@@ -507,13 +507,13 @@ S(6)          2.791e-03
   Anhydrite        -2.07     -6.38   -4.31  CaSO4
   Gibbsite          3.93     12.04    8.11  Al(OH)3
   Gypsum           -1.84     -6.38   -4.55  CaSO4:2H2O
-  H2(g)           -11.94    -15.04   -3.10  H2
+  H2(g)           -12.07    -15.17   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
-  H2S(g)          -24.45    -32.38   -7.94  H2S
+  H2S(g)          -24.98    -32.91   -7.94  H2S
   Halite           -9.02     -7.45    1.57  NaCl
   Mirabilite      -10.84    -11.55   -0.71  Na2SO4:10H2O
-  O2(g)           -59.39    -62.28   -2.89  O2
-  Sulfur          -18.44    -13.55    4.88  S
+  O2(g)           -59.13    -62.02   -2.89  O2
+  Sulfur          -18.83    -13.95    4.88  S
   Thenardite      -12.20    -11.55    0.65  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -526,8 +526,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 5.
 ------------------------------------
-
--------------------------------
-End of Run after 0.018 Seconds.
--------------------------------
 

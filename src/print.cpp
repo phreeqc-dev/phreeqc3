@@ -1647,6 +1647,15 @@ print_species(void)
 	if (SC)
 	{
 		output_msg(sformatf(" ¹: Contribution to the relative viscosity change ((viscos / viscos_0 - 1) x 100).\n"));
+		LDBLE tc_lim = 150, tc_fac = 2.25e-4;
+		class species* s_ptr;
+		s_ptr = s_search("H+");
+		if (s_ptr->Jones_Dole[7] && s_ptr->Jones_Dole[8])
+		{
+			tc_lim = s_ptr->Jones_Dole[7]; tc_fac = s_ptr->Jones_Dole[8];
+		}
+		if (tc_x > tc_lim)
+			output_msg(sformatf("%28s%i%49s\n%58s%8.2e%9s%i%3s\n","(Calculated at tc_lim = ",(int) tc_lim, "ºC for individual solutes. At higher temperatures,", "the model decreases the viscosity by exp(-", (double) tc_fac, " * (tc - ", (int) tc_lim, ").)"));
 		output_msg(sformatf(" ²: Contribution to the specific conductance (Transport Number x 100).\n\n"));
 	}
 #endif
@@ -2323,11 +2332,11 @@ print_totals(void)
 	{
 #ifdef NO_UTF8_ENCODING
 		output_msg(sformatf("%36s%3.0f%8s%-10d\n",
-				   "Specific Conductance (uS/cm, ", tc_x, "oC)  =  ", (int) SC));
+				   "Specific Conductance (uS/cm, ", tc_x, "oC)  = ", (int) SC));
 #else
 #ifdef NPP
 		output_msg(sformatf("%36s%3.0f%8s%-10d\n",
-			"Specific Conductance (µS/cm, ", tc_x, "°C)  =  ", (int)SC));
+				   "Specific Conductance (µS/cm, ", tc_x, "°C)  =  ", (int) SC));
 #else
 		output_msg(sformatf("%37s%3.0f%9s%-10d\n",
 			"Specific Conductance (µS/cm, ", tc_x, "°C)  =  ", (int)SC));
@@ -2385,13 +2394,13 @@ print_totals(void)
 	if (alkalinity_unknown == NULL)
 	{
 		output_msg(sformatf("%47s%-11.3e\n",
-				   "Total alkalinity (eq/kg)  =  ",
+				   "Total alkalinity (eq/kg)  = ",
 				   (double) (total_alkalinity / mass_water_aq_x)));
 	}
 	if (carbon_unknown == NULL && total_carbon)
 	{
 		output_msg(sformatf("%47s%-11.3e\n",
-				   "Total carbon (mol/kg)  =  ",
+				   "Total carbon (mol/kg)  = ",
 				   (double) (total_carbon / mass_water_aq_x)));
 	}
 	if (total_co2)
@@ -2424,7 +2433,7 @@ print_totals(void)
 	output_msg(sformatf("%47s%-11.3e\n", "Electrical balance (eq)  =  ",
 			   (double) cb_x));
 	output_msg(sformatf("%47s%-6.2f\n",
-			   "Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  ",
+			   "Percent error, 100*(Cat-|An|)/(Cat+|An|)  = ",
 			   (double) (100 * cb_x / total_ions_x)));
 	if (iterations == overall_iterations)
 		output_msg(sformatf("%47s%-4d\n", "Iterations  =  ", iterations));

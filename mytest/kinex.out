@@ -197,10 +197,10 @@ Initial solution 1.
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  8.000e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.091e-07  
+                   Total alkalinity (eq/kg)  = 2.091e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.098e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.433e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -294,14 +294,14 @@ X                1.000e-03 mol
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.007        Charge balance
-                                        pe  =  -1.235       Adjusted to redox equilibrium
+                                        pe  =  -1.241       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.960e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.134e-07  
+                   Total alkalinity (eq/kg)  = 2.134e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.239e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.068e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  23  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -319,8 +319,8 @@ Ca            9.760e-03
    CaOH+           8.475e-09   6.849e-09    -8.072    -8.164    -0.092     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.685e-02    -1.222    -1.329    -0.107     (0)  
-H(0)          3.974e-15
-   H2              1.987e-15   2.024e-15   -14.702   -14.694     0.008     (0)  
+H(0)          4.076e-15
+   H2              2.038e-15   2.076e-15   -14.691   -14.683     0.008     (0)  
 K             9.834e-03
    K+              9.834e-03   7.678e-03    -2.007    -2.115    -0.107     (0)  
 Mg            9.842e-03
@@ -329,17 +329,17 @@ Mg            9.842e-03
 Na            1.096e-02
    Na+             1.096e-02   8.728e-03    -1.960    -2.059    -0.099     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -63.002   -62.994     0.008     (0)  
+   O2              0.000e+00   0.000e+00   -63.024   -63.016     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.20     11.64   16.84  Mg(OH)2
-  H2(g)           -11.54    -14.69   -3.15  H2
+  H2(g)           -11.53    -14.68   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.97     -3.39    1.58  NaCl
-  O2(g)           -60.10    -62.99   -2.89  O2
+  O2(g)           -60.12    -63.02   -2.89  O2
   Portlandite     -11.18     11.62   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -423,11 +423,11 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               8.7361e-01 
-equiv frac CaX2:              5.0552e-02 
-equiv frac MgX2:              5.0550e-02 
-equiv frac KX:                2.5201e-02 
-equiv frac HX:                8.6855e-05 
+equiv frac NaX:               8.7360e-01 
+equiv frac CaX2:              5.0557e-02 
+equiv frac MgX2:              5.0555e-02 
+equiv frac KX:                2.5204e-02 
+equiv frac HX:                8.6836e-05 
 
 -----------------------------Solution composition------------------------------
 
@@ -442,15 +442,15 @@ equiv frac HX:                8.6855e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.084        Charge balance
-                                        pe  =  -1.631       Adjusted to redox equilibrium
+                                        pe  =  -1.171       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.995e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.000e-07  
+                   Total alkalinity (eq/kg)  = 3.000e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  8.685e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   367  (1004 overall)
+                   Electrical balance (eq)  =  2.618e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   348  (1018 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
 
@@ -459,7 +459,7 @@ equiv frac HX:                8.6855e-05
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             1.558e-07   1.213e-07    -6.807    -6.916    -0.109     (0)  
+   OH-             1.559e-07   1.213e-07    -6.807    -6.916    -0.109     (0)  
    H+              9.872e-08   8.239e-08    -7.006    -7.084    -0.079      0.00
    H2O             5.551e+01   9.983e-01     1.744    -0.001     0.000     18.07
 Ca            9.977e-03
@@ -467,27 +467,27 @@ Ca            9.977e-03
    CaOH+           1.033e-08   8.350e-09    -7.986    -8.078    -0.093     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.683e-02    -1.222    -1.329    -0.108     (0)  
-H(0)          1.727e-14
-   H2              8.637e-15   8.798e-15   -14.064   -14.056     0.008     (0)  
+H(0)          2.070e-15
+   H2              1.035e-15   1.054e-15   -14.985   -14.977     0.008     (0)  
 K             9.977e-03
    K+              9.977e-03   7.787e-03    -2.001    -2.109    -0.108     (0)  
 Mg            9.977e-03
    Mg+2            9.977e-03   4.297e-03    -2.001    -2.367    -0.366     (0)  
-   MgOH+           2.325e-07   1.890e-07    -6.634    -6.723    -0.090     (0)  
+   MgOH+           2.325e-07   1.891e-07    -6.633    -6.723    -0.090     (0)  
 Na            1.012e-02
    Na+             1.012e-02   8.051e-03    -1.995    -2.094    -0.099     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.278   -64.270     0.008     (0)  
+   O2              0.000e+00   0.000e+00   -62.435   -62.427     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.04     11.80   16.84  Mg(OH)2
-  H2(g)           -10.91    -14.06   -3.15  H2
+  H2(g)           -11.83    -14.98   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -5.01     -3.42    1.58  NaCl
-  O2(g)           -61.38    -64.27   -2.89  O2
+  O2(g)           -59.54    -62.43   -2.89  O2
   Portlandite     -11.01     11.79   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -513,10 +513,10 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               7.4765e-01 
-equiv frac CaX2:              1.0104e-01 
-equiv frac MgX2:              1.0103e-01 
-equiv frac KX:                5.0198e-02 
+equiv frac NaX:               7.4769e-01 
+equiv frac CaX2:              1.0103e-01 
+equiv frac MgX2:              1.0102e-01 
+equiv frac KX:                5.0191e-02 
 equiv frac HX:                7.7430e-05 
 
 -----------------------------Solution composition------------------------------
@@ -532,15 +532,15 @@ equiv frac HX:                7.7430e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.075        Charge balance
-                                        pe  =  -1.728       Adjusted to redox equilibrium
+                                        pe  =  -1.013       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.991e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.887e-07  
+                   Total alkalinity (eq/kg)  = 2.887e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.157e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   17   (43 overall)
+                   Electrical balance (eq)  =  4.775e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   62   (106 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
 
@@ -557,8 +557,8 @@ Ca            9.954e-03
    CaOH+           1.009e-08   8.152e-09    -7.996    -8.089    -0.093     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.683e-02    -1.222    -1.329    -0.108     (0)  
-H(0)          2.811e-14
-   H2              1.405e-14   1.432e-14   -13.852   -13.844     0.008     (0)  
+H(0)          1.046e-15
+   H2              5.232e-16   5.329e-16   -15.281   -15.273     0.008     (0)  
 K             9.954e-03
    K+              9.954e-03   7.769e-03    -2.002    -2.110    -0.108     (0)  
 Mg            9.954e-03
@@ -567,17 +567,17 @@ Mg            9.954e-03
 Na            1.023e-02
    Na+             1.023e-02   8.143e-03    -1.990    -2.089    -0.099     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.701   -64.693     0.008     (0)  
+   O2              0.000e+00   0.000e+00   -61.843   -61.835     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.06     11.78   16.84  Mg(OH)2
-  H2(g)           -10.69    -13.84   -3.15  H2
+  H2(g)           -12.12    -15.27   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -5.00     -3.42    1.58  NaCl
-  O2(g)           -61.80    -64.69   -2.89  O2
+  O2(g)           -58.94    -61.83   -2.89  O2
   Portlandite     -11.03     11.77   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -603,11 +603,11 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               6.0876e-01 
-equiv frac CaX2:              1.5684e-01 
-equiv frac MgX2:              1.5680e-01 
-equiv frac KX:                7.7541e-02 
-equiv frac HX:                6.3964e-05 
+equiv frac NaX:               6.0886e-01 
+equiv frac CaX2:              1.5679e-01 
+equiv frac MgX2:              1.5676e-01 
+equiv frac KX:                7.7521e-02 
+equiv frac HX:                6.3973e-05 
 
 -----------------------------Solution composition------------------------------
 
@@ -622,15 +622,15 @@ equiv frac HX:                6.3964e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.065        Charge balance
-                                        pe  =  -1.586       Adjusted to redox equilibrium
+                                        pe  =  -1.689       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.986e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.775e-07  
+                   Total alkalinity (eq/kg)  = 2.775e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.225e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   17   (43 overall)
+                   Electrical balance (eq)  =  5.270e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   26   (66 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
 
@@ -640,15 +640,15 @@ equiv frac HX:                6.3964e-05
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    OH-             1.492e-07   1.161e-07    -6.826    -6.935    -0.109     (0)  
-   H+              1.031e-07   8.608e-08    -6.987    -7.065    -0.079      0.00
+   H+              1.031e-07   8.607e-08    -6.987    -7.065    -0.079      0.00
    H2O             5.551e+01   9.983e-01     1.744    -0.001     0.000     18.07
 Ca            9.931e-03
    Ca+2            9.931e-03   4.134e-03    -2.003    -2.384    -0.381     (0)  
-   CaOH+           9.848e-09   7.957e-09    -8.007    -8.099    -0.093     (0)  
+   CaOH+           9.848e-09   7.958e-09    -8.007    -8.099    -0.093     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.683e-02    -1.222    -1.329    -0.108     (0)  
-H(0)          1.528e-14
-   H2              7.639e-15   7.781e-15   -14.117   -14.109     0.008     (0)  
+H(0)          2.462e-14
+   H2              1.231e-14   1.254e-14   -13.910   -13.902     0.008     (0)  
 K             9.931e-03
    K+              9.931e-03   7.752e-03    -2.003    -2.111    -0.108     (0)  
 Mg            9.931e-03
@@ -657,17 +657,17 @@ Mg            9.931e-03
 Na            1.035e-02
    Na+             1.035e-02   8.235e-03    -1.985    -2.084    -0.099     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.172   -64.164     0.008     (0)  
+   O2              0.000e+00   0.000e+00   -64.586   -64.578     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.08     11.76   16.84  Mg(OH)2
-  H2(g)           -10.96    -14.11   -3.15  H2
+  H2(g)           -10.75    -13.90   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -5.00     -3.41    1.58  NaCl
-  O2(g)           -61.27    -64.16   -2.89  O2
+  O2(g)           -61.69    -64.58   -2.89  O2
   Portlandite     -11.05     11.75   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -693,11 +693,11 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               5.0007e-01 
-equiv frac CaX2:              2.0062e-01 
-equiv frac MgX2:              2.0055e-01 
-equiv frac KX:                9.8699e-02 
-equiv frac HX:                5.3097e-05 
+equiv frac NaX:               4.9934e-01 
+equiv frac CaX2:              2.0092e-01 
+equiv frac MgX2:              2.0085e-01 
+equiv frac KX:                9.8840e-02 
+equiv frac HX:                5.3022e-05 
 
 -----------------------------Solution composition------------------------------
 
@@ -712,14 +712,14 @@ equiv frac HX:                5.3097e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.055        Charge balance
-                                        pe  =  -1.665       Adjusted to redox equilibrium
+                                        pe  =  -1.543       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.981e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.661e-07  
+                   Total alkalinity (eq/kg)  = 2.661e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  6.202e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.247e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   15   (37 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -737,27 +737,27 @@ Ca            9.907e-03
    CaOH+           9.607e-09   7.763e-09    -8.017    -8.110    -0.093     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.684e-02    -1.222    -1.329    -0.108     (0)  
-H(0)          2.302e-14
-   H2              1.151e-14   1.173e-14   -13.939   -13.931     0.008     (0)  
+H(0)          1.315e-14
+   H2              6.576e-15   6.698e-15   -14.182   -14.174     0.008     (0)  
 K             9.909e-03
    K+              9.909e-03   7.735e-03    -2.004    -2.112    -0.108     (0)  
 Mg            9.907e-03
    Mg+2            9.907e-03   4.269e-03    -2.004    -2.370    -0.366     (0)  
-   MgOH+           2.162e-07   1.757e-07    -6.665    -6.755    -0.090     (0)  
+   MgOH+           2.162e-07   1.758e-07    -6.665    -6.755    -0.090     (0)  
 Na            1.046e-02
    Na+             1.046e-02   8.327e-03    -1.980    -2.080    -0.099     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.528   -64.520     0.008     (0)  
+   O2              0.000e+00   0.000e+00   -64.041   -64.033     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.10     11.74   16.84  Mg(OH)2
-  H2(g)           -10.78    -13.93   -3.15  H2
+  H2(g)           -11.02    -14.17   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.99     -3.41    1.58  NaCl
-  O2(g)           -61.63    -64.52   -2.89  O2
+  O2(g)           -61.14    -64.03   -2.89  O2
   Portlandite     -11.08     11.72   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -783,11 +783,11 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               4.0925e-01 
-equiv frac CaX2:              2.3734e-01 
-equiv frac MgX2:              2.3721e-01 
-equiv frac KX:                1.1615e-01 
-equiv frac HX:                4.3910e-05 
+equiv frac NaX:               4.1047e-01 
+equiv frac CaX2:              2.3685e-01 
+equiv frac MgX2:              2.3672e-01 
+equiv frac KX:                1.1591e-01 
+equiv frac HX:                4.4033e-05 
 
 -----------------------------Solution composition------------------------------
 
@@ -802,14 +802,14 @@ equiv frac HX:                4.3910e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.045        Charge balance
-                                        pe  =  -1.739       Adjusted to redox equilibrium
+                                        pe  =  -1.111       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.977e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.546e-07  
+                   Total alkalinity (eq/kg)  = 2.546e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  8.079e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  9.124e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   17   (43 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -819,16 +819,16 @@ equiv frac HX:                4.3910e-05
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             1.424e-07   1.109e-07    -6.846    -6.955    -0.109     (0)  
+   OH-             1.425e-07   1.109e-07    -6.846    -6.955    -0.109     (0)  
    H+              1.080e-07   9.012e-08    -6.967    -7.045    -0.079      0.00
    H2O             5.551e+01   9.983e-01     1.744    -0.001     0.000     18.07
 Ca            9.884e-03
    Ca+2            9.884e-03   4.116e-03    -2.005    -2.385    -0.380     (0)  
-   CaOH+           9.365e-09   7.568e-09    -8.029    -8.121    -0.093     (0)  
+   CaOH+           9.365e-09   7.568e-09    -8.028    -8.121    -0.093     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.684e-02    -1.222    -1.329    -0.108     (0)  
-H(0)          3.391e-14
-   H2              1.696e-14   1.727e-14   -13.771   -13.763     0.008     (0)  
+H(0)          1.878e-15
+   H2              9.390e-16   9.564e-16   -15.027   -15.019     0.008     (0)  
 K             9.887e-03
    K+              9.887e-03   7.718e-03    -2.005    -2.112    -0.108     (0)  
 Mg            9.884e-03
@@ -837,17 +837,17 @@ Mg            9.884e-03
 Na            1.058e-02
    Na+             1.058e-02   8.418e-03    -1.976    -2.075    -0.099     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.864   -64.856     0.008     (0)  
+   O2              0.000e+00   0.000e+00   -62.351   -62.343     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.12     11.72   16.84  Mg(OH)2
-  H2(g)           -10.61    -13.76   -3.15  H2
+  H2(g)           -11.87    -15.02   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.99     -3.40    1.58  NaCl
-  O2(g)           -61.96    -64.86   -2.89  O2
+  O2(g)           -59.45    -62.34   -2.89  O2
   Portlandite     -11.10     11.70   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -873,11 +873,11 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               3.0918e-01 
-equiv frac CaX2:              2.7802e-01 
-equiv frac MgX2:              2.7777e-01 
-equiv frac KX:                1.3500e-01 
-equiv frac HX:                3.3566e-05 
+equiv frac NaX:               3.0822e-01 
+equiv frac CaX2:              2.7841e-01 
+equiv frac MgX2:              2.7816e-01 
+equiv frac KX:                1.3518e-01 
+equiv frac HX:                3.3465e-05 
 
 -----------------------------Solution composition------------------------------
 
@@ -892,15 +892,15 @@ equiv frac HX:                3.3566e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.035        Charge balance
-                                        pe  =  -1.585       Adjusted to redox equilibrium
+                                        pe  =  11.609       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.972e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.429e-07  
+                   Total alkalinity (eq/kg)  = 2.429e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  9.832e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   17   (39 overall)
+                   Electrical balance (eq)  =  9.891e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   97   (225 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
 
@@ -917,8 +917,8 @@ Ca            9.861e-03
    CaOH+           9.123e-09   7.372e-09    -8.040    -8.132    -0.093     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.684e-02    -1.222    -1.329    -0.108     (0)  
-H(0)          1.749e-14
-   H2              8.745e-15   8.907e-15   -14.058   -14.050     0.008     (0)  
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -40.446   -40.438     0.008     (0)  
 K             9.865e-03
    K+              9.865e-03   7.702e-03    -2.006    -2.113    -0.108     (0)  
 Mg            9.861e-03
@@ -926,18 +926,18 @@ Mg            9.861e-03
    MgOH+           2.053e-07   1.669e-07    -6.688    -6.778    -0.090     (0)  
 Na            1.069e-02
    Na+             1.069e-02   8.509e-03    -1.971    -2.070    -0.099     (0)  
-O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.289   -64.281     0.008     (0)  
+O(0)          6.142e-12
+   O2              3.071e-12   3.128e-12   -11.513   -11.505     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.14     11.70   16.84  Mg(OH)2
-  H2(g)           -10.90    -14.05   -3.15  H2
+  H2(g)           -37.29    -40.44   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.98     -3.40    1.58  NaCl
-  O2(g)           -61.39    -64.28   -2.89  O2
+  O2(g)            -8.61    -11.50   -2.89  O2
   Portlandite     -11.12     11.68   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -963,11 +963,11 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               1.8185e-01 
-equiv frac CaX2:              3.3044e-01 
-equiv frac MgX2:              3.2974e-01 
-equiv frac KX:                1.5795e-01 
-equiv frac HX:                2.0067e-05 
+equiv frac NaX:               1.8221e-01 
+equiv frac CaX2:              3.3029e-01 
+equiv frac MgX2:              3.2959e-01 
+equiv frac KX:                1.5789e-01 
+equiv frac HX:                2.0106e-05 
 
 -----------------------------Solution composition------------------------------
 
@@ -982,14 +982,14 @@ equiv frac HX:                2.0067e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.024        Charge balance
-                                        pe  =  -1.171       Adjusted to redox equilibrium
+                                        pe  =  11.620       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.968e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.311e-07  
+                   Total alkalinity (eq/kg)  = 2.311e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.140e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.146e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   21   (51 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -1007,27 +1007,27 @@ Ca            9.839e-03
    CaOH+           8.883e-09   7.179e-09    -8.051    -8.144    -0.093     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.684e-02    -1.222    -1.329    -0.107     (0)  
-H(0)          2.737e-15
-   H2              1.368e-15   1.394e-15   -14.864   -14.856     0.008     (0)  
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -40.446   -40.438     0.008     (0)  
 K             9.845e-03
-   K+              9.845e-03   7.686e-03    -2.007    -2.114    -0.107     (0)  
+   K+              9.845e-03   7.687e-03    -2.007    -2.114    -0.107     (0)  
 Mg            9.839e-03
    Mg+2            9.839e-03   4.241e-03    -2.007    -2.373    -0.365     (0)  
    MgOH+           1.999e-07   1.625e-07    -6.699    -6.789    -0.090     (0)  
 Na            1.080e-02
    Na+             1.080e-02   8.598e-03    -1.967    -2.066    -0.099     (0)  
-O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -62.678   -62.670     0.008     (0)  
+O(0)          6.145e-12
+   O2              3.073e-12   3.130e-12   -11.512   -11.505     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.17     11.67   16.84  Mg(OH)2
-  H2(g)           -11.71    -14.86   -3.15  H2
+  H2(g)           -37.29    -40.44   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.98     -3.39    1.58  NaCl
-  O2(g)           -59.78    -62.67   -2.89  O2
+  O2(g)            -8.61    -11.50   -2.89  O2
   Portlandite     -11.14     11.66   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -1053,11 +1053,11 @@ Kinetics 1.
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               8.6563e-02 
+equiv frac NaX:               8.6558e-02 
 equiv frac CaX2:              3.7120e-01 
 equiv frac MgX2:              3.6893e-01 
 equiv frac KX:                1.7330e-01 
-equiv frac HX:                9.7310e-06 
+equiv frac HX:                9.7281e-06 
 
 -----------------------------Solution composition------------------------------
 
@@ -1072,14 +1072,14 @@ equiv frac HX:                9.7310e-06
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.014        Charge balance
-                                        pe  =  -1.587       Adjusted to redox equilibrium
+                                        pe  =  11.630       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.963e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.199e-07  
+                   Total alkalinity (eq/kg)  = 2.199e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.254e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.260e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   33   (79 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -1094,11 +1094,11 @@ equiv frac HX:                9.7310e-06
    H2O             5.551e+01   9.983e-01     1.744    -0.001     0.000     18.07
 Ca            9.817e-03
    Ca+2            9.817e-03   4.090e-03    -2.008    -2.388    -0.380     (0)  
-   CaOH+           8.656e-09   6.995e-09    -8.063    -8.155    -0.092     (0)  
+   CaOH+           8.656e-09   6.996e-09    -8.063    -8.155    -0.092     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.685e-02    -1.222    -1.329    -0.107     (0)  
-H(0)          1.949e-14
-   H2              9.743e-15   9.924e-15   -14.011   -14.003     0.008     (0)  
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -40.446   -40.438     0.008     (0)  
 K             9.828e-03
    K+              9.828e-03   7.674e-03    -2.008    -2.115    -0.107     (0)  
 Mg            9.818e-03
@@ -1106,18 +1106,18 @@ Mg            9.818e-03
    MgOH+           1.948e-07   1.584e-07    -6.710    -6.800    -0.090     (0)  
 Na            1.090e-02
    Na+             1.090e-02   8.680e-03    -1.962    -2.061    -0.099     (0)  
-O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.383   -64.375     0.008     (0)  
+O(0)          6.145e-12
+   O2              3.072e-12   3.129e-12   -11.513   -11.505     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.19     11.65   16.84  Mg(OH)2
-  H2(g)           -10.85    -14.00   -3.15  H2
+  H2(g)           -37.29    -40.44   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.97     -3.39    1.58  NaCl
-  O2(g)           -61.48    -64.37   -2.89  O2
+  O2(g)            -8.61    -11.50   -2.89  O2
   Portlandite     -11.16     11.64   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -1137,7 +1137,7 @@ Kinetics 1.
 	CaX2              1.446e-05   1.978e-04   Ca                        1
 	MgX2              1.007e-05   1.925e-04   Mg                        1
 	KX                6.849e-06   1.787e-04   K                         1
-	HX               -4.904e-09   5.867e-09   H                         1
+	HX               -4.897e-09   5.874e-09   H                         1
 	NaX              -5.591e-05   4.071e-05   Na                        1
 
 ----------------------------------User print-----------------------------------
@@ -1147,7 +1147,7 @@ equiv frac NaX:               3.9763e-02
 equiv frac CaX2:              3.9700e-01 
 equiv frac MgX2:              3.8456e-01 
 equiv frac KX:                1.7866e-01 
-equiv frac HX:                1.6837e-05 
+equiv frac HX:                1.6824e-05 
 
 -----------------------------Solution composition------------------------------
 
@@ -1162,15 +1162,15 @@ equiv frac HX:                1.6837e-05
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.009        Charge balance
-                                        pe  =  -1.409       Adjusted to redox equilibrium
+                                        pe  =  11.635       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.961e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.150e-07  
+                   Total alkalinity (eq/kg)  = 2.150e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.263e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   82   (163 overall)
+                   Electrical balance (eq)  =  1.269e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   69   (140 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
 
@@ -1184,11 +1184,11 @@ equiv frac HX:                1.6837e-05
    H2O             5.551e+01   9.983e-01     1.744    -0.001     0.000     18.07
 Ca            9.802e-03
    Ca+2            9.802e-03   4.084e-03    -2.009    -2.389    -0.380     (0)  
-   CaOH+           8.554e-09   6.913e-09    -8.068    -8.160    -0.092     (0)  
+   CaOH+           8.554e-09   6.914e-09    -8.068    -8.160    -0.092     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.685e-02    -1.222    -1.329    -0.107     (0)  
-H(0)          8.778e-15
-   H2              4.389e-15   4.470e-15   -14.358   -14.350     0.008     (0)  
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -40.446   -40.438     0.008     (0)  
 K             9.821e-03
    K+              9.821e-03   7.668e-03    -2.008    -2.115    -0.107     (0)  
 Mg            9.808e-03
@@ -1196,18 +1196,18 @@ Mg            9.808e-03
    MgOH+           1.926e-07   1.566e-07    -6.715    -6.805    -0.090     (0)  
 Na            1.096e-02
    Na+             1.096e-02   8.725e-03    -1.960    -2.059    -0.099     (0)  
-O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -63.690   -63.682     0.008     (0)  
+O(0)          6.140e-12
+   O2              3.070e-12   3.127e-12   -11.513   -11.505     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.20     11.64   16.84  Mg(OH)2
-  H2(g)           -11.20    -14.35   -3.15  H2
+  H2(g)           -37.29    -40.44   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.97     -3.39    1.58  NaCl
-  O2(g)           -60.79    -63.68   -2.89  O2
+  O2(g)            -8.61    -11.50   -2.89  O2
   Portlandite     -11.17     11.63   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -1224,20 +1224,20 @@ Kinetics 1.
 
 	Rate name       Delta Moles Total Moles   Reactant        Coefficient
 
-	CaX2              4.971e-06   2.028e-04   Ca                        1
-	MgX2             -3.336e-06   1.891e-04   Mg                        1
-	KX               -9.646e-07   1.777e-04   K                         1
-	HX               -1.421e-09   4.446e-09   H                         1
-	NaX              -2.303e-06   3.841e-05   Na                        1
+	CaX2              4.970e-06   2.028e-04   Ca                        1
+	MgX2             -3.337e-06   1.891e-04   Mg                        1
+	KX               -9.651e-07   1.777e-04   K                         1
+	HX               -1.550e-09   4.324e-09   H                         1
+	NaX              -2.299e-06   3.841e-05   Na                        1
 
 ----------------------------------User print-----------------------------------
 
 Total equivalents:            1.0000e-03 
-equiv frac NaX:               3.8394e-02 
-equiv frac CaX2:              4.0676e-01 
-equiv frac MgX2:              3.7728e-01 
-equiv frac KX:                1.7756e-01 
-equiv frac HX:                5.5989e-06 
+equiv frac NaX:               3.8404e-02 
+equiv frac CaX2:              4.0661e-01 
+equiv frac MgX2:              3.7740e-01 
+equiv frac KX:                1.7758e-01 
+equiv frac HX:                4.3218e-06 
 
 -----------------------------Solution composition------------------------------
 
@@ -1252,15 +1252,15 @@ equiv frac HX:                5.5989e-06
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.008        Charge balance
-                                        pe  =  -1.116       Adjusted to redox equilibrium
+                                        pe  =  11.636       Adjusted to redox equilibrium
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  7.961e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.136e-07  
+                   Total alkalinity (eq/kg)  = 2.135e-07  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.263e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   70   (160 overall)
+                   Electrical balance (eq)  =  1.269e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   48   (115 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
 
@@ -1269,36 +1269,36 @@ equiv frac HX:                5.5989e-06
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             1.307e-07   1.018e-07    -6.884    -6.992    -0.109     (0)  
-   H+              1.176e-07   9.820e-08    -6.929    -7.008    -0.078      0.00
+   OH-             1.307e-07   1.017e-07    -6.884    -6.993    -0.109     (0)  
+   H+              1.177e-07   9.823e-08    -6.929    -7.008    -0.078      0.00
    H2O             5.551e+01   9.983e-01     1.744    -0.001     0.000     18.07
 Ca            9.797e-03
    Ca+2            9.797e-03   4.082e-03    -2.009    -2.389    -0.380     (0)  
-   CaOH+           8.521e-09   6.887e-09    -8.069    -8.162    -0.092     (0)  
+   CaOH+           8.519e-09   6.885e-09    -8.070    -8.162    -0.092     (0)  
 Cl            6.000e-02
    Cl-             6.000e-02   4.685e-02    -1.222    -1.329    -0.107     (0)  
-H(0)          2.292e-15
-   H2              1.146e-15   1.167e-15   -14.941   -14.933     0.008     (0)  
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -40.446   -40.438     0.008     (0)  
 K             9.822e-03
    K+              9.822e-03   7.669e-03    -2.008    -2.115    -0.107     (0)  
 Mg            9.811e-03
    Mg+2            9.811e-03   4.230e-03    -2.008    -2.374    -0.365     (0)  
-   MgOH+           1.920e-07   1.561e-07    -6.717    -6.807    -0.090     (0)  
+   MgOH+           1.919e-07   1.561e-07    -6.717    -6.807    -0.090     (0)  
 Na            1.096e-02
    Na+             1.096e-02   8.727e-03    -1.960    -2.059    -0.099     (0)  
-O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -62.524   -62.516     0.008     (0)  
+O(0)          6.141e-12
+   O2              3.071e-12   3.127e-12   -11.513   -11.505     0.008     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Brucite          -5.20     11.64   16.84  Mg(OH)2
-  H2(g)           -11.78    -14.93   -3.15  H2
+  H2(g)           -37.29    -40.44   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -4.97     -3.39    1.58  NaCl
-  O2(g)           -59.62    -62.52   -2.89  O2
-  Portlandite     -11.17     11.63   22.80  Ca(OH)2
+  O2(g)            -8.61    -11.50   -2.89  O2
+  Portlandite     -11.18     11.62   22.80  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1310,8 +1310,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 4.
 ------------------------------------
-
--------------------------------
-End of Run after 0.091 Seconds.
--------------------------------
 

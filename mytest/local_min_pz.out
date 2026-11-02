@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -70,18 +69,18 @@ Initial solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
 
                                         pH  =  8.220      
                                         pe  =  8.451      
-       Specific Conductance (µS/cm,  25°C)  =  52919     
+       Specific Conductance (µS/cm,  25°C)  =  52539     
                            Density (g/cm³)  =  1.02327  
                                 Volume (L)  =  1.01280  
-                         Viscosity (mPa s)  =  0.96021  
+                         Viscosity (mPa s)  =  0.96837  
                          Activity of water  =  0.981  
                   Ionic strength (mol/kgw)  =  7.223e-01  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  2.216e-03  
+                      Total carbon (mol/kg)  = 2.216e-03  
                         Total CO2 (mol/kg)  =  2.216e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.819e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.90360  
@@ -100,7 +99,7 @@ Initial solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
    H2O             5.551e+01   9.813e-01     1.744    -0.008     0.000     18.07
 C(4)          2.216e-03
    HCO3-           1.998e-03   1.327e-03    -2.699    -2.877    -0.178     26.73
-   CO3-2           1.026e-04   1.033e-05    -3.989    -4.986    -0.997      0.08
+   CO3-2           1.026e-04   1.033e-05    -3.989    -4.986    -0.997      0.18
    MgCO3           9.837e-05   9.837e-05    -4.007    -4.007     0.000    -17.09
    CO2             1.648e-05   1.833e-05    -4.783    -4.737     0.046     34.79
 Ca            1.066e-02
@@ -236,7 +235,13 @@ Beginning of batch-reaction calculations.
 Reaction step 1.
 
 WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 3.695308e-01
+	 SI may be a local minimum.	Residual: 3.695304e-01
+
+WARNING: Sylvite, Pure phase with add formula has not converged.
+	 SI may be a local minimum.	Residual: 4.082483e-01
+
+WARNING: Sylvite, Pure phase with add formula has not converged.
+	 SI may be a local minimum.	Residual: 4.414936e-01
 
 WARNING: Maximum iterations exceeded, 400
 
@@ -245,7 +250,7 @@ WARNING: Numerical method failed with this set of convergence parameters.
 WARNING: Trying reduced tolerance 1e-16 ...
 
 WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 3.307221e-01
+	 SI may be a local minimum.	Residual: 3.307215e-01
 
 WARNING: Maximum iterations exceeded, 800
 
@@ -254,61 +259,16 @@ WARNING: Numerical method failed with this set of convergence parameters.
 WARNING: Trying increased tolerance 1e-14 ...
 
 WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 3.307221e-01
+	 SI may be a local minimum.	Residual: 3.307215e-01
 
 WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 2.656913e-01
+	 SI may be a local minimum.	Residual: 1.698566e-01
 
 WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 2.465721e-01
+	 SI may be a local minimum.	Residual: 2.650101e-01
 
 WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 3.594464e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 7.103837e-02
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 4.543197e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 4.434514e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 6.594464e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 5.592526e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 5.139998e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 4.397169e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 2.397169e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 3.889611e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 4.577764e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 4.577798e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 5.577798e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 6.468429e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 4.981462e-01
-
-WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 6.126971e-01
+	 SI may be a local minimum.	Residual: 2.650101e-01
 
 WARNING: Maximum iterations exceeded, 800
 
@@ -317,7 +277,7 @@ WARNING: Numerical method failed with this set of convergence parameters.
 WARNING: Trying diagonal scaling ...
 
 WARNING: Sylvite, Pure phase with add formula has not converged.
-	 SI may be a local minimum.	Residual: 2.681024e-01
+	 SI may be a local minimum.	Residual: 2.681016e-01
 
 Using solution 1.	SEAWATER FROM NORDSTROM ET AL. (1979)
 Using pure phase assemblage 1.	
@@ -333,7 +293,7 @@ Brucite          -3.52   -14.40    -10.88    0.000e+00           0   0.000e+00
 CO2(g)           -3.50    -4.97     -1.47    1.000e+01   1.000e+01   1.013e-03
 Calcite          -3.32   -11.76     -8.44    0.000e+00           0   0.000e+00
 Carnallite       -0.90     3.52      4.42    0.000e+00           0   0.000e+00
-Epsomite         -0.00    -1.85     -1.85    0.000e+00   5.155e-03   5.155e-03
+Epsomite          0.00    -1.85     -1.85    0.000e+00   5.155e-03   5.155e-03
 Glauberite       -0.11    -5.46     -5.35    0.000e+00           0   0.000e+00
 Gypsum           -0.09    -4.69     -4.60    0.000e+00           0   0.000e+00
 Halite            0.00     1.58      1.58    0.000e+00   4.689e-01   4.689e-01
@@ -356,7 +316,7 @@ Sylvite          -0.12     0.78      0.90
 	Ca                2.545e-03   3.582e-05
 	Cl                6.941e+00   9.770e-02
 	K                 7.516e-01   1.058e-02
-	Mg                3.462e+00   4.873e-02
+	Mg                3.462e+00   4.872e-02
 	Na                1.176e+00   1.655e-02
 	S                 9.576e-01   1.348e-02
 
@@ -364,24 +324,24 @@ Sylvite          -0.12     0.78      0.90
 
                                         pH  =  6.579        Charge balance
                                         pe  =  8.451        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  117997    
-                           Density (g/cm³)  =  1.29449  
+       Specific Conductance (µS/cm,  25°C)  =  117902    
+                           Density (g/cm³)  =  1.29448  
                                 Volume (L)  =  0.01608  
-                         Viscosity (mPa s)  =  5.36725  
+                         Viscosity (mPa s)  =  5.37469  
                          Activity of water  =  0.606  
                   Ionic strength (mol/kgw)  =  1.328e+01  
                         Mass of water (kg)  =  1.407e-02  
-                  Total alkalinity (eq/kg)  =  1.913e-04  
+                   Total alkalinity (eq/kg)  = 1.913e-04  
                         Total CO2 (mol/kg)  =  5.399e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.819e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                               Iterations  =   63   (2066 overall)
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   42   (2045 overall)
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  2.09156  
                           Density of water  =  0.99704  
                                    Total H  =  1.562467e+00
-                                   Total O  =  8.351466e-01
+                                   Total O  =  8.351462e-01
 
 ----------------------------Distribution of species----------------------------
 
@@ -393,10 +353,10 @@ Sylvite          -0.12     0.78      0.90
    H+              4.139e-08   2.633e-07    -7.383    -6.579     0.804      0.00
    H2O             5.551e+01   6.060e-01     1.744    -0.217     0.000     18.07
 C(4)          5.399e-05
-   HCO3-           3.855e-05   1.109e-05    -4.414    -4.955    -0.541     29.36
+   HCO3-           3.855e-05   1.109e-05    -4.414    -4.955    -0.541     29.20
    MgCO3           1.242e-05   1.242e-05    -4.906    -4.906     0.000    -17.09
    CO2             2.183e-06   1.083e-05    -5.661    -4.965     0.696     34.79
-   CO3-2           8.447e-07   1.975e-09    -6.073    -8.705    -2.631      9.95
+   CO3-2           8.447e-07   1.975e-09    -6.073    -8.705    -2.631      9.32
 Ca            2.545e-03
    Ca+2            2.545e-03   8.804e-04    -2.594    -3.055    -0.461    -11.55
 Cl            6.941e+00
@@ -429,7 +389,7 @@ S(6)          9.576e-01
   Carnallite       -0.90      3.52    4.42  KMgCl3:6H2O
   CO2(g)           -3.50     -4.97   -1.47  CO2	 Pressure   0.0 atm, phi 1.000
   Dolomite         -2.51    -19.59  -17.09  CaMg(CO3)2
-  Epsomite         -0.00     -1.85   -1.85  MgSO4:7H2O
+  Epsomite          0.00     -1.85   -1.85  MgSO4:7H2O
   Gaylussite      -12.14    -21.56   -9.42  CaNa2(CO3)2:5H2O
   Glaserite        -1.00     -4.80   -3.80  NaK3(SO4)2
   Glauberite       -0.11     -5.46   -5.35  Na2Ca(SO4)2
@@ -473,8 +433,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.204 Seconds.
--------------------------------
 

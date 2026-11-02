@@ -73,10 +73,10 @@ Initial solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -124,10 +124,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -200,10 +200,10 @@ Initial solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.000e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.416e-09  
+                   Total alkalinity (eq/kg)  = 1.416e-09  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  5.539e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.526e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  4   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -247,7 +247,7 @@ Surface 0.
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	  2.183e-29  Surface + diffuse layer charge, eq
+	  1.783e-29  Surface + diffuse layer charge, eq
 	  0.000e+00  Surface charge, eq
 	  0.000e+00  sigma, C/m²
 	  5.073e-19  psi, V
@@ -306,8 +306,4 @@ WARNING: Dispersivities were read for 1 cells. Last value is used till cell 4.
 WARNING: No porosities were read; used the value 1.00e+00 from -multi_D.
 
 Calculating transport: 4 (mobile) cells, 3 shifts, 5 mixruns...
-
--------------------------------
-End of Run after 0.047 Seconds.
--------------------------------
 

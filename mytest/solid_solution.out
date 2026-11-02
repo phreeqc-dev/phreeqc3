@@ -67,15 +67,15 @@ Initial solution 1.
        Specific Conductance (µS/cm,  25°C)  =  3         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89015  
+                         Viscosity (mPa s)  =  0.89017  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.647e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.273e-05  
+                   Total alkalinity (eq/kg)  = 3.273e-05  
                         Total CO2 (mol/kg)  =  4.000e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.269e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  9.97  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 9.97  
                                 Iterations  =  5   
                                    Total H  =  1.110125e+02
                                    Total O  =  5.550633e+01
@@ -164,15 +164,15 @@ Ca(x)Mg(1-x)CO3                             0.00e+00
        Specific Conductance (µS/cm,  25°C)  =  3         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89015  
+                         Viscosity (mPa s)  =  0.89017  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.647e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.273e-05  
+                   Total alkalinity (eq/kg)  = 3.273e-05  
                         Total CO2 (mol/kg)  =  4.000e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.269e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  9.97  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 9.97  
                                 Iterations  =  0   
                                    Total H  =  1.110125e+02
                                    Total O  =  5.550633e+01
@@ -291,16 +291,16 @@ Ca(x)Mg(1-x)CO3                             9.89e-03
        Specific Conductance (µS/cm,  25°C)  =  35        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00296  
-                         Viscosity (mPa s)  =  0.89039  
+                         Viscosity (mPa s)  =  0.89042  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.058e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.550e-04  
+                   Total alkalinity (eq/kg)  = 2.550e-04  
                         Total CO2 (mol/kg)  =  1.511e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.269e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  1.47  
-                                Iterations  =  52  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 1.47  
+                                Iterations  =  46  
                                    Total H  =  1.110125e+02
                                    Total O  =  5.550666e+01
 
@@ -313,7 +313,7 @@ Ca(x)Mg(1-x)CO3                             9.89e-03
    H+              1.665e-10   1.629e-10    -9.778    -9.788    -0.010      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00  -126.233  -126.233     0.000     35.46
+   CH4             0.000e+00   0.000e+00  -126.234  -126.234     0.000     35.46
 C(4)          1.511e-04
    HCO3-           1.109e-04   1.084e-04    -3.955    -3.965    -0.010     22.46
    CO3-2           3.420e-05   3.121e-05    -4.466    -4.506    -0.040     -6.78
@@ -335,8 +335,8 @@ Mg            1.233e-09
    MgCO3           3.195e-11   3.195e-11   -10.496   -10.496     0.000    -17.09
    MgOH+           2.446e-11   2.391e-11   -10.612   -10.621    -0.010     (0)  
    MgHCO3+         1.392e-12   1.361e-12   -11.856   -11.866    -0.010      5.47
-O(0)          7.074e-15
-   O2              3.537e-15   3.537e-15   -14.451   -14.451     0.000     30.40
+O(0)          7.075e-15
+   O2              3.537e-15   3.538e-15   -14.451   -14.451     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -362,8 +362,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.017 Seconds.
--------------------------------
 

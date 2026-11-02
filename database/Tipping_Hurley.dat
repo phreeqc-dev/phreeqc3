@@ -23,9 +23,9 @@ Cd       Cd+2           0.0     112.4           112.4
 Cl       Cl-            0.0     35.453          35.453
 Cs       Cs+            0.0     132.905         132.905
 Cu       Cu+2           0.0     63.546          63.546
-Cu(+1)   Cu+1           0.0     63.546          
-Cu(+2)   Cu+2           0.0     63.546          
-E        e-             0.0     0.0             0.0
+Cu(+1)   Cu+1           0.0     63.546
+Cu(+2)   Cu+2           0.0     63.546
+E        e-             1.0     0.0             0.0
 F        F-             0.0     18.9984         18.9984
 Fe       Fe+2           0.0     55.847          55.847
 Fe(+2)   Fe+2           0.0     55.847
@@ -1344,17 +1344,17 @@ SOLUTION_SPECIES
         Fe+2 + 3 HS- = Fe(HS)3-
         log_k 10.987
 
-#H2AsO3- 		478	
+#H2AsO3- 		478
 	H3AsO3 = H2AsO3- + H+
 	log_k -9.15
 	delta_h 27.54 kJ
 
-#HAsO3-2 		479	
+#HAsO3-2 		479
 	H3AsO3 = HAsO3-2 + 2 H+
 	log_k -23.85
 	delta_h 59.41 kJ
 
-#AsO3-3 		480	
+#AsO3-3 		480
 	H3AsO3 = AsO3-3 + 3 H+
 	log_k -39.55
 	delta_h 84.73 kJ
@@ -1363,17 +1363,17 @@ SOLUTION_SPECIES
         H3AsO3 + H+ = H4AsO3+
         log_k -0.305
 
-#H2AsO4- 		482	
+#H2AsO4- 		482
 	H3AsO4 = H2AsO4- + H+
 	log_k -2.3
 	delta_h -7.066 kJ
 
-#HAsO4-2 		483	
+#HAsO4-2 		483
 	H3AsO4 = HAsO4-2 + 2 H+
 	log_k -9.46
 	delta_h -3.846 kJ
 
-#AsO43- 		484	
+#AsO43- 		484
 	H3AsO4 = AsO4-3 + 3 H+
 	log_k -21.11
 	delta_h 14.354 kJ
@@ -1383,12 +1383,12 @@ SOLUTION_SPECIES
 	log_k 22.5
 	delta_h -117.480344 kJ
 
-#As3S4(HS)-2 		631	
+#As3S4(HS)-2 		631
 	3 H3AsO3 + 6 HS- + 5 H+ = As3S4(HS)2- + 9 H2O
 	log_k 72.314
         -gamma 5 0
 
-#AsS(OH)(HS)- 		637	
+#AsS(OH)(HS)- 		637
 	H3AsO3 + 2 HS- + H+ = AsS(OH)(HS)- + 2 H2O
 	log_k 18.038
         -gamma 5 0
@@ -3179,7 +3179,7 @@ Arsenolite 497
 #        As4O6 + 6H2O = 4H3AsO3
 #        log_k           -2.801
 #        delta_h 14.330 kcal
-	As2O3 + 3 H2O = 2 H3AsO3	
+	As2O3 + 3 H2O = 2 H3AsO3
 	log_k -1.38
 	delta_h 30.041 kJ
 

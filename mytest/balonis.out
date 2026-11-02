@@ -1,4 +1,3 @@
-WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: balonis
   Output file: balonis.out
 Database file: ../database/phreeqc.dat
@@ -170,22 +169,22 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 0
-                          Density (g/cm³)  =   0.99704
-                               Volume (L)  =   1.00297
-                        Viscosity (mPa s)  =   0.89002
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.007e-07
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.217e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.217e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60
-                               Iterations  =   0
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  0         
+                           Density (g/cm³)  =  0.99704  
+                                Volume (L)  =  1.00297  
+                         Viscosity (mPa s)  =  0.89002  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.007e-07  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.217e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
+                                Iterations  =  0   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -313,7 +312,7 @@ Scl_plus
 	Scl_plus+         2.955e-29       0.000   2.329e-29     -28.633
 
 Su            
-	 -8.548e-13  Surface + diffuse layer charge, eq
+	 -8.549e-13  Surface + diffuse layer charge, eq
 	  5.106e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.034e-01  psi, V
@@ -352,22 +351,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.078      Charge balance
-                                       pe  =   6.231      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3551
-                          Density (g/cm³)  =   0.99827
-                               Volume (L)  =   1.27254
-                        Viscosity (mPa s)  =   0.89634
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.672e-02
-                       Mass of water (kg)  =   1.269e+00
-                 Total alkalinity (eq/kg)  =   3.111e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.226e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0 (7830 overall)
-                                  Total H  = 1.408608e+02
-                                  Total O  = 7.045011e+01
+                                        pH  =  12.078       Charge balance
+                                        pe  =  6.225        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3557      
+                           Density (g/cm³)  =  0.99827  
+                                Volume (L)  =  1.27254  
+                         Viscosity (mPa s)  =  0.89635  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.672e-02  
+                        Mass of water (kg)  =  1.269e+00  
+                   Total alkalinity (eq/kg)  = 3.111e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.226e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   0    (7830 overall)
+                                   Total H  =  1.408608e+02
+                                   Total O  =  7.045011e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -386,10 +385,10 @@ Al            3.945e-03
 Ca            9.637e-03
    Ca+2            8.544e-03   4.711e-03    -2.068    -2.327    -0.259    -17.76
    CaOH+           1.093e-03   9.356e-04    -2.961    -3.029    -0.068     (0)  
-H(0)          3.394e-40
-   H2              1.697e-40   1.708e-40   -39.770   -39.767     0.003     14.99
-O(0)          2.954e-13
-   O2              1.477e-13   1.486e-13   -12.831   -12.828     0.003     30.40
+H(0)          3.476e-40
+   H2              1.738e-40   1.749e-40   -39.760   -39.757     0.003     14.99
+O(0)          2.816e-13
+   O2              1.408e-13   1.417e-13   -12.851   -12.849     0.003     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -397,10 +396,10 @@ O(0)          2.954e-13
 
   Al(OH)3(a)       -2.68      8.12   10.80  Al(OH)3
   Gibbsite          0.16      8.12    7.96  Al(OH)3
-  H2(g)           -36.67    -39.77   -3.10  H2
+  H2(g)           -36.66    -39.76   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet       0.78    -19.59  -20.37  Ca3Al2(OH)12
-  O2(g)            -9.94    -12.83   -2.89  O2
+  O2(g)            -9.96    -12.85   -2.89  O2
   OH_AFm           -0.19    -25.75  -25.56  Ca4Al2(OH)2O6:12H2O
   OH_AFm_Surf0.1    0.00    -25.56  -25.56  Ca4Al2(OH)1.9O6:12H2O+0.1
   OH_AFm_Surf0.2    0.19    -25.37  -25.56  Ca4Al2(OH)1.8O6:12H2O+0.2
@@ -545,7 +544,7 @@ Scl_plus
 	Scl_plus+         2.955e-29       0.000   2.951e-29     -28.530
 
 Su            
-	 -2.906e-17  Surface + diffuse layer charge, eq
+	 -2.342e-17  Surface + diffuse layer charge, eq
 	  3.589e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.896e-01  psi, V
@@ -584,22 +583,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.405      Charge balance
-                                       pe  =  -9.501      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 6909
-                          Density (g/cm³)  =   0.99873
-                               Volume (L)  =   1.00424
-                        Viscosity (mPa s)  =   0.89994
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   4.573e-02
-                       Mass of water (kg)  =   1.001e+00
-                 Total alkalinity (eq/kg)  =   3.576e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.657e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 264 (5825 overall)
-                                  Total H  = 1.111992e+02
-                                  Total O  = 5.561749e+01
+                                        pH  =  12.405       Charge balance
+                                        pe  =  -9.501       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  6930      
+                           Density (g/cm³)  =  0.99873  
+                                Volume (L)  =  1.00424  
+                         Viscosity (mPa s)  =  0.89996  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  4.573e-02  
+                        Mass of water (kg)  =  1.001e+00  
+                   Total alkalinity (eq/kg)  = 3.576e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.657e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   262  (5837 overall)
+                                   Total H  =  1.111992e+02
+                                   Total O  =  5.561749e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -725,7 +724,7 @@ Hydrogarnet       0.00   -20.37    -20.37    0.000e+00   1.491e-02   1.491e-02
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	 -4.445e-18  Surface + diffuse layer charge, eq
+	 -7.589e-18  Surface + diffuse layer charge, eq
 	  5.292e-04  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.916e-01  psi, V
@@ -757,7 +756,7 @@ Scl_plus
 	Scl_plus+         5.292e-04       1.000   5.286e-04      -3.277
 
 Su            
-	 -2.559e-17  Surface + diffuse layer charge, eq
+	 -3.946e-17  Surface + diffuse layer charge, eq
 	  3.323e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.916e-01  psi, V
@@ -798,22 +797,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.362      Charge balance
-                                       pe  =  -9.458      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 6322
-                          Density (g/cm³)  =   0.99859
-                               Volume (L)  =   1.00399
-                        Viscosity (mPa s)  =   0.89920
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   4.223e-02
-                       Mass of water (kg)  =   1.001e+00
-                 Total alkalinity (eq/kg)  =   3.236e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.657e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 561 (14651 overall)
-                                  Total H  = 1.111605e+02
-                                  Total O  = 5.559645e+01
+                                        pH  =  12.362       Charge balance
+                                        pe  =  -9.458       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  6340      
+                           Density (g/cm³)  =  0.99859  
+                                Volume (L)  =  1.00399  
+                         Viscosity (mPa s)  =  0.89922  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  4.223e-02  
+                        Mass of water (kg)  =  1.001e+00  
+                   Total alkalinity (eq/kg)  = 3.236e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.657e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   554  (14481 overall)
+                                   Total H  =  1.111605e+02
+                                   Total O  =  5.559645e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -945,7 +944,7 @@ Hydrogarnet       0.00   -20.37    -20.37    0.000e+00   1.317e-02   1.317e-02
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	  7.524e-17  Surface + diffuse layer charge, eq
+	 -7.255e-15  Surface + diffuse layer charge, eq
 	  1.063e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.939e-01  psi, V
@@ -977,7 +976,7 @@ Scl_plus
 	Scl_plus+         1.063e-03       1.000   1.062e-03      -2.974
 
 Su            
-	  2.103e-16  Surface + diffuse layer charge, eq
+	 -2.017e-14  Surface + diffuse layer charge, eq
 	  2.957e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.939e-01  psi, V
@@ -1018,22 +1017,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.314      Charge balance
-                                       pe  =  -9.410      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 5737
-                          Density (g/cm³)  =   0.99846
-                               Volume (L)  =   1.00385
-                        Viscosity (mPa s)  =   0.89846
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   3.870e-02
-                       Mass of water (kg)  =   1.001e+00
-                 Total alkalinity (eq/kg)  =   2.919e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.657e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 493 (15201 overall)
-                                  Total H  = 1.111341e+02
-                                  Total O  = 5.558166e+01
+                                        pH  =  12.314       Charge balance
+                                        pe  =  -9.410       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  5751      
+                           Density (g/cm³)  =  0.99846  
+                                Volume (L)  =  1.00385  
+                         Viscosity (mPa s)  =  0.89848  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  3.870e-02  
+                        Mass of water (kg)  =  1.001e+00  
+                   Total alkalinity (eq/kg)  = 2.919e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.657e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   510  (15728 overall)
+                                   Total H  =  1.111341e+02
+                                   Total O  =  5.558166e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1165,7 +1164,7 @@ Hydrogarnet       0.00   -20.37    -20.37    0.000e+00   1.148e-02   1.148e-02
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	  3.686e-18  Surface + diffuse layer charge, eq
+	  1.845e-16  Surface + diffuse layer charge, eq
 	  1.596e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.961e-01  psi, V
@@ -1197,7 +1196,7 @@ Scl_plus
 	Scl_plus+         1.596e-03       1.000   1.595e-03      -2.797
 
 Su            
-	  6.939e-18  Surface + diffuse layer charge, eq
+	  2.958e-16  Surface + diffuse layer charge, eq
 	  2.585e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.961e-01  psi, V
@@ -1238,22 +1237,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.264      Charge balance
-                                       pe  =  -9.360      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 5188
-                          Density (g/cm³)  =   0.99834
-                               Volume (L)  =   1.00371
-                        Viscosity (mPa s)  =   0.89778
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   3.549e-02
-                       Mass of water (kg)  =   1.001e+00
-                 Total alkalinity (eq/kg)  =   2.642e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.664e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 751 (36219 overall)
-                                  Total H  = 1.111088e+02
-                                  Total O  = 5.556763e+01
+                                        pH  =  12.264       Charge balance
+                                        pe  =  -9.360       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  5200      
+                           Density (g/cm³)  =  0.99834  
+                                Volume (L)  =  1.00371  
+                         Viscosity (mPa s)  =  0.89780  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  3.549e-02  
+                        Mass of water (kg)  =  1.001e+00  
+                   Total alkalinity (eq/kg)  = 2.642e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.665e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   759  (37008 overall)
+                                   Total H  =  1.111088e+02
+                                   Total O  =  5.556763e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1276,7 +1275,7 @@ Cl            1.560e-03
    Cl-             1.560e-03   1.304e-03    -2.807    -2.885    -0.078     18.22
    HCl             2.364e-16   2.447e-16   -15.626   -15.611     0.015     20.36
 H(0)          2.182e-09
-   H2              1.091e-09   1.100e-09    -8.962    -8.958     0.004     14.99
+   H2              1.091e-09   1.100e-09    -8.962    -8.959     0.004     14.99
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -74.450   -74.446     0.004     30.40
 
@@ -1376,14 +1375,14 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite          0.00     7.96      7.96    0.000e+00   1.001e-03   1.001e-03
+Gibbsite         -0.00     7.96      7.96    0.000e+00   1.001e-03   1.001e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	  1.908e-15  Surface + diffuse layer charge, eq
+	  1.597e-15  Surface + diffuse layer charge, eq
 	  2.178e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.038e-01  psi, V
@@ -1415,7 +1414,7 @@ Scl_plus
 	Scl_plus+         2.178e-03       1.000   2.180e-03      -2.662
 
 Su            
-	  2.587e-15  Surface + diffuse layer charge, eq
+	  2.167e-15  Surface + diffuse layer charge, eq
 	  2.958e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.038e-01  psi, V
@@ -1456,22 +1455,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.072      Charge balance
-                                       pe  =  -9.168      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3538
-                          Density (g/cm³)  =   0.99816
-                               Volume (L)  =   1.00275
-                        Viscosity (mPa s)  =   0.89606
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.627e-02
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   2.585e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.657e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 372 (19523 overall)
-                                  Total H  = 1.109760e+02
-                                  Total O  = 5.550091e+01
+                                        pH  =  12.072       Charge balance
+                                        pe  =  -9.168       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3543      
+                           Density (g/cm³)  =  0.99816  
+                                Volume (L)  =  1.00275  
+                         Viscosity (mPa s)  =  0.89607  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.627e-02  
+                        Mass of water (kg)  =  9.994e-01  
+                   Total alkalinity (eq/kg)  = 2.585e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.657e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   372  (19516 overall)
+                                   Total H  =  1.109760e+02
+                                   Total O  =  5.550091e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1506,7 +1505,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.79    -28.26  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.55    -28.01  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2   -0.25    -27.71  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite          0.00      7.96    7.96  Al(OH)3
+  Gibbsite         -0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet       0.41    -19.96  -20.37  Ca3Al2(OH)12
@@ -1594,14 +1593,14 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite          0.00     7.96      7.96    0.000e+00   1.070e-03   1.070e-03
+Gibbsite         -0.00     7.96      7.96    0.000e+00   1.070e-03   1.070e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	  6.666e-16  Surface + diffuse layer charge, eq
+	  7.138e-16  Surface + diffuse layer charge, eq
 	  2.712e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.040e-01  psi, V
@@ -1633,7 +1632,7 @@ Scl_plus
 	Scl_plus+         2.712e-03       1.000   2.714e-03      -2.566
 
 Su            
-	  5.985e-16  Surface + diffuse layer charge, eq
+	  6.421e-16  Surface + diffuse layer charge, eq
 	  2.426e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.040e-01  psi, V
@@ -1674,22 +1673,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.057      Charge balance
-                                       pe  =  -9.152      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3471
-                          Density (g/cm³)  =   0.99814
-                               Volume (L)  =   1.00276
-                        Viscosity (mPa s)  =   0.89596
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.607e-02
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   2.493e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.657e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 783 (39405 overall)
-                                  Total H  = 1.109745e+02
-                                  Total O  = 5.549973e+01
+                                        pH  =  12.057       Charge balance
+                                        pe  =  -9.152       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3476      
+                           Density (g/cm³)  =  0.99814  
+                                Volume (L)  =  1.00276  
+                         Viscosity (mPa s)  =  0.89597  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.607e-02  
+                        Mass of water (kg)  =  9.994e-01  
+                   Total alkalinity (eq/kg)  = 2.493e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.657e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   783  (39401 overall)
+                                   Total H  =  1.109745e+02
+                                   Total O  =  5.549973e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1724,7 +1723,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.62    -28.08  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.38    -27.84  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2   -0.09    -27.55  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite          0.00      7.96    7.96  Al(OH)3
+  Gibbsite         -0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet       0.31    -20.06  -20.37  Ca3Al2(OH)12
@@ -1824,14 +1823,14 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite          0.00     7.96      7.96    0.000e+00   1.161e-03   1.161e-03
+Gibbsite         -0.00     7.96      7.96    0.000e+00   1.161e-03   1.161e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	  1.331e-16  Surface + diffuse layer charge, eq
+	  1.350e-15  Surface + diffuse layer charge, eq
 	  3.239e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.042e-01  psi, V
@@ -1863,7 +1862,7 @@ Scl_plus
 	Scl_plus+         3.239e-03       1.000   3.241e-03      -2.489
 
 Su            
-	  7.741e-17  Surface + diffuse layer charge, eq
+	  7.934e-16  Surface + diffuse layer charge, eq
 	  1.901e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.042e-01  psi, V
@@ -1904,22 +1903,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.038      Charge balance
-                                       pe  =  -9.134      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3399
-                          Density (g/cm³)  =   0.99812
-                               Volume (L)  =   1.00277
-                        Viscosity (mPa s)  =   0.89585
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.590e-02
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   2.389e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.657e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 657 (33864 overall)
-                                  Total H  = 1.109730e+02
-                                  Total O  = 5.549846e+01
+                                        pH  =  12.038       Charge balance
+                                        pe  =  -9.134       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3405      
+                           Density (g/cm³)  =  0.99812  
+                                Volume (L)  =  1.00277  
+                         Viscosity (mPa s)  =  0.89586  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.590e-02  
+                        Mass of water (kg)  =  9.994e-01  
+                   Total alkalinity (eq/kg)  = 2.389e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.657e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   664  (34606 overall)
+                                   Total H  =  1.109730e+02
+                                   Total O  =  5.549846e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1954,7 +1953,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.49    -27.95  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.25    -27.71  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2    0.02    -27.44  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite          0.00      7.96    7.96  Al(OH)3
+  Gibbsite         -0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet       0.20    -20.17  -20.37  Ca3Al2(OH)12
@@ -2042,14 +2041,14 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite          0.00     7.96      7.96    0.000e+00   1.285e-03   1.285e-03
+Gibbsite         -0.00     7.96      7.96    0.000e+00   1.285e-03   1.285e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	 -2.127e-14  Surface + diffuse layer charge, eq
+	 -2.128e-14  Surface + diffuse layer charge, eq
 	  3.756e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.043e-01  psi, V
@@ -2081,7 +2080,7 @@ Scl_plus
 	Scl_plus+         3.756e-03       1.000   3.758e-03      -2.425
 
 Su            
-	 -7.853e-15  Surface + diffuse layer charge, eq
+	 -7.858e-15  Surface + diffuse layer charge, eq
 	  1.386e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.043e-01  psi, V
@@ -2122,22 +2121,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  12.016      Charge balance
-                                       pe  =  -9.111      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3321
-                          Density (g/cm³)  =   0.99810
-                               Volume (L)  =   1.00278
-                        Viscosity (mPa s)  =   0.89574
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.579e-02
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   2.267e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.657e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 732 (37060 overall)
-                                  Total H  = 1.109714e+02
-                                  Total O  = 5.549705e+01
+                                        pH  =  12.016       Charge balance
+                                        pe  =  -9.111       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3326      
+                           Density (g/cm³)  =  0.99810  
+                                Volume (L)  =  1.00278  
+                         Viscosity (mPa s)  =  0.89575  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.579e-02  
+                        Mass of water (kg)  =  9.994e-01  
+                   Total alkalinity (eq/kg)  = 2.267e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.657e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   740  (37380 overall)
+                                   Total H  =  1.109714e+02
+                                   Total O  =  5.549705e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2172,7 +2171,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.39    -27.85  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.16    -27.62  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2    0.10    -27.36  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite          0.00      7.96    7.96  Al(OH)3
+  Gibbsite         -0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet       0.06    -20.31  -20.37  Ca3Al2(OH)12
@@ -2272,14 +2271,14 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite          0.00     7.96      7.96    0.000e+00   1.475e-03   1.475e-03
+Gibbsite         -0.00     7.96      7.96    0.000e+00   1.475e-03   1.475e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	 -1.240e-13  Surface + diffuse layer charge, eq
+	 -1.239e-13  Surface + diffuse layer charge, eq
 	  4.252e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.043e-01  psi, V
@@ -2352,22 +2351,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.985      Charge balance
-                                       pe  =  -9.081      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3234
-                          Density (g/cm³)  =   0.99809
-                               Volume (L)  =   1.00280
-                        Viscosity (mPa s)  =   0.89562
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.581e-02
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   2.114e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.626e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 690 (37444 overall)
-                                  Total H  = 1.109698e+02
-                                  Total O  = 5.549548e+01
+                                        pH  =  11.985       Charge balance
+                                        pe  =  -9.081       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3239      
+                           Density (g/cm³)  =  0.99809  
+                                Volume (L)  =  1.00280  
+                         Viscosity (mPa s)  =  0.89563  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.581e-02  
+                        Mass of water (kg)  =  9.994e-01  
+                   Total alkalinity (eq/kg)  = 2.114e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.623e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   689  (37260 overall)
+                                   Total H  =  1.109698e+02
+                                   Total O  =  5.549548e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2402,7 +2401,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.31    -27.77  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.09    -27.55  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2    0.16    -27.30  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite          0.00      7.96    7.96  Al(OH)3
+  Gibbsite         -0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -0.12    -20.49  -20.37  Ca3Al2(OH)12
@@ -2503,7 +2502,7 @@ Gibbsite          0.00     7.96      7.96    0.000e+00   1.837e-03   1.837e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	  1.357e-15  Surface + diffuse layer charge, eq
+	  1.363e-15  Surface + diffuse layer charge, eq
 	  4.701e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.038e-01  psi, V
@@ -2535,7 +2534,7 @@ Scl_plus
 	Scl_plus+         4.701e-03       1.000   4.704e-03      -2.328
 
 Su            
-	  1.264e-16  Surface + diffuse layer charge, eq
+	  1.279e-16  Surface + diffuse layer charge, eq
 	  4.389e-04  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.038e-01  psi, V
@@ -2576,22 +2575,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.937      Charge balance
-                                       pe  =  -9.033      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3144
-                          Density (g/cm³)  =   0.99808
-                               Volume (L)  =   1.00284
-                        Viscosity (mPa s)  =   0.89551
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.631e-02
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   1.897e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.644e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 609 (33421 overall)
-                                  Total H  = 1.109686e+02
-                                  Total O  = 5.549378e+01
+                                        pH  =  11.937       Charge balance
+                                        pe  =  -9.033       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3148      
+                           Density (g/cm³)  =  0.99808  
+                                Volume (L)  =  1.00284  
+                         Viscosity (mPa s)  =  0.89551  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.631e-02  
+                        Mass of water (kg)  =  9.994e-01  
+                   Total alkalinity (eq/kg)  = 1.897e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.643e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   609  (33414 overall)
+                                   Total H  =  1.109686e+02
+                                   Total O  =  5.549378e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2720,7 +2719,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite         -0.00     7.96      7.96    0.000e+00   2.188e-03   2.188e-03
+Gibbsite          0.00     7.96      7.96    0.000e+00   2.188e-03   2.188e-03
 
 ------------------------------Surface composition------------------------------
 
@@ -2759,7 +2758,7 @@ Scl_plus
 	Scl_plus+         4.881e-03       1.000   4.884e-03      -2.311
 
 Su            
-	  9.514e-18  Surface + diffuse layer charge, eq
+	  8.945e-18  Surface + diffuse layer charge, eq
 	  2.529e-04  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  3.030e-01  psi, V
@@ -2778,8 +2777,8 @@ Su
 
 	Element       	     Moles
 	Al            	  2.4952e-05
-	Ca            	  3.6126e-11
-	Cl            	  9.7879e-05
+	Ca            	  3.6127e-11
+	Cl            	  9.7880e-05
 	H             	  2.2984e-04
 	O             	  2.2984e-04
 
@@ -2800,22 +2799,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.899      Charge balance
-                                       pe  =  -8.994      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3113
-                          Density (g/cm³)  =   0.99808
-                               Volume (L)  =   1.00287
-                        Viscosity (mPa s)  =   0.89549
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   2.714e-02
-                       Mass of water (kg)  =   9.994e-01
-                 Total alkalinity (eq/kg)  =   1.741e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.649e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 606 (32614 overall)
-                                  Total H  = 1.109688e+02
-                                  Total O  = 5.549308e+01
+                                        pH  =  11.899       Charge balance
+                                        pe  =  -8.994       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3117      
+                           Density (g/cm³)  =  0.99808  
+                                Volume (L)  =  1.00287  
+                         Viscosity (mPa s)  =  0.89550  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  2.714e-02  
+                        Mass of water (kg)  =  9.994e-01  
+                   Total alkalinity (eq/kg)  = 1.741e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.648e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   605  (32865 overall)
+                                   Total H  =  1.109688e+02
+                                   Total O  =  5.549308e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2850,7 +2849,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.24    -27.70  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.02    -27.48  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2    0.20    -27.26  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite         -0.00      7.96    7.96  Al(OH)3
+  Gibbsite          0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -0.58    -20.95  -20.37  Ca3Al2(OH)12
@@ -2944,7 +2943,7 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite         -0.00     7.96      7.96    0.000e+00   2.818e-03   2.818e-03
+Gibbsite          0.00     7.96      7.96    0.000e+00   2.818e-03   2.818e-03
 
 ------------------------------Surface composition------------------------------
 
@@ -2983,7 +2982,7 @@ Scl_plus
 	Scl_plus+         5.060e-03       1.000   5.063e-03      -2.296
 
 Su            
-	 -1.691e-16  Surface + diffuse layer charge, eq
+	 -1.692e-16  Surface + diffuse layer charge, eq
 	  7.300e-05  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.984e-01  psi, V
@@ -2992,7 +2991,7 @@ Su
 	  2.745e+03  specific area, m²/mol OH_AFm_Surf0.1
 	  2.004e+00  m² for   7.300e-04 moles of OH_AFm_Surf0.1
 
-	Water in diffuse layer: 6.761e-06 kg,  1.4% of total DDL-water.
+	Water in diffuse layer: 6.762e-06 kg,  1.4% of total DDL-water.
 		      viscosity: 0.00000 mPa s for DDL water.
 	Radius of total pore:   1.419e-05 m; of free pore: 1.419e-05 m.
 
@@ -3001,11 +3000,11 @@ Su
 	Boltzmann factor, exp(-psi_DL * F / RT) = 2.024e-03 (= c_DL / c_free if z is +1).
 
 	Element       	     Moles
-	Al            	  4.6045e-06
-	Ca            	  9.2401e-12
-	Cl            	  4.4374e-05
-	H             	  4.2441e-05
-	O             	  4.2441e-05
+	Al            	  4.6047e-06
+	Ca            	  9.2404e-12
+	Cl            	  4.4376e-05
+	H             	  4.2442e-05
+	O             	  4.2442e-05
 
 Su_plus       
 	  7.300e-05  moles	[0.1 mol/(mol kinetic reactant OH_AFm_Surf0.1)]
@@ -3024,22 +3023,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.776      Charge balance
-                                       pe  =  -8.872      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3258
-                          Density (g/cm³)  =   0.99820
-                               Volume (L)  =   1.00296
-                        Viscosity (mPa s)  =   0.89584
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   3.245e-02
-                       Mass of water (kg)  =   9.995e-01
-                 Total alkalinity (eq/kg)  =   1.336e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.653e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 644 (34450 overall)
-                                  Total H  = 1.109698e+02
-                                  Total O  = 5.549155e+01
+                                        pH  =  11.776       Charge balance
+                                        pe  =  -8.872       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3262      
+                           Density (g/cm³)  =  0.99820  
+                                Volume (L)  =  1.00296  
+                         Viscosity (mPa s)  =  0.89585  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  3.245e-02  
+                        Mass of water (kg)  =  9.995e-01  
+                   Total alkalinity (eq/kg)  = 1.336e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.653e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   648  (34835 overall)
+                                   Total H  =  1.109698e+02
+                                   Total O  =  5.549155e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3054,7 +3053,7 @@ Al            1.378e-03
    Al(OH)3         1.030e-09   1.038e-09    -8.987    -8.984     0.003     (0)  
    Al(OH)2+        1.387e-14   1.181e-14   -13.858   -13.928    -0.070     (0)  
    AlOH+2          4.800e-21   2.528e-21   -20.319   -20.597    -0.279    -27.36
-   Al+3            1.478e-27   4.267e-28   -26.830   -27.370    -0.540    -41.52
+   Al+3            1.478e-27   4.268e-28   -26.830   -27.370    -0.540    -41.52
 Ca            1.125e-02
    Ca+2            1.060e-02   5.585e-03    -1.975    -2.253    -0.278    -17.72
    CaOH+           6.537e-04   5.527e-04    -3.185    -3.257    -0.073     (0)  
@@ -3074,7 +3073,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.21    -27.67  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.00    -27.47  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2    0.19    -27.27  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite         -0.00      7.96    7.96  Al(OH)3
+  Gibbsite          0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -1.13    -21.50  -20.37  Ca3Al2(OH)12
@@ -3128,16 +3127,28 @@ but is not in solution or other phases.
 WARNING: Negative moles in solution -999 for Al, -1.732388e+00. Recovering...
 WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
 but is not in solution or other phases.
-WARNING: Negative moles in solution -999 for Al, -4.929065e-02. Recovering...
+WARNING: Negative moles in solution -999 for Al, -4.287635e-01. Recovering...
 WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
 but is not in solution or other phases.
-WARNING: Negative moles in solution -999 for Al, -2.407056e-02. Recovering...
+WARNING: Negative moles in solution -999 for Al, -1.009121e-02. Recovering...
 WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
 but is not in solution or other phases.
-WARNING: Negative moles in solution -999 for Al, -5.234642e-03. Recovering...
+WARNING: Negative moles in solution -999 for Al, -2.855056e-01. Recovering...
 WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
 but is not in solution or other phases.
-WARNING: Negative moles in solution -999 for Al, -5.368585e-04. Recovering...
+WARNING: Negative moles in solution -999 for Al, -2.687857e-02. Recovering...
+WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
+but is not in solution or other phases.
+WARNING: Negative moles in solution -999 for Al, -1.295445e-02. Recovering...
+WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
+but is not in solution or other phases.
+WARNING: Negative moles in solution -999 for Al, -2.213755e-03. Recovering...
+WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
+but is not in solution or other phases.
+WARNING: Negative moles in solution -999 for Al, -6.234374e-01. Recovering...
+WARNING: Element Al is contained in Gibbsite (which has 0.0 mass),	
+but is not in solution or other phases.
+WARNING: Negative moles in solution -999 for Al, -6.234374e-01. Recovering...
 Using mix 1.	
 Using surface 1.	
 Using pure phase assemblage 1.	
@@ -3173,21 +3184,21 @@ Kinetics 1.
 	Rate name       Delta Moles Total Moles   Reactant        Coefficient
 
 	Cl_AFm_Surf0.1    5.112e-02   5.112e-02   Cl_AFm_Surf0.1            1
-	OH_AFm_Surf0.1   -5.053e-02   5.313e-04   OH_AFm_Surf0.1            1
+	OH_AFm_Surf0.1   -5.053e-02   5.305e-04   OH_AFm_Surf0.1            1
 
 -------------------------------Phase assemblage--------------------------------
 
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite          0.00     7.96      7.96    0.000e+00   2.424e-03   2.424e-03
+Gibbsite         -0.00     7.96      7.96    0.000e+00   2.424e-03   2.424e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	  7.211e-14  Surface + diffuse layer charge, eq
+	  7.225e-14  Surface + diffuse layer charge, eq
 	  5.112e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.952e-01  psi, V
@@ -3205,30 +3216,30 @@ Scl
 	Boltzmann factor, exp(-psi_DL * F / RT) = 2.150e-03 (= c_DL / c_free if z is +1).
 
 	Element       	     Moles
-	Al            	  2.4966e-04
-	Ca            	  6.2724e-10
+	Al            	  2.4969e-04
+	Ca            	  6.2726e-10
 	Cl            	  3.5585e-03
-	H             	  2.3023e-03
-	O             	  2.3023e-03
+	H             	  2.3025e-03
+	O             	  2.3025e-03
 
 Scl_plus      
 	  5.112e-03  moles	[0.1 mol/(mol kinetic reactant Cl_AFm_Surf0.1)]
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Scl_plus+         5.112e-03       1.000   5.114e-03      -2.291
+	Scl_plus+         5.112e-03       1.000   5.115e-03      -2.291
 
 Su            
-	  7.495e-16  Surface + diffuse layer charge, eq
-	  5.313e-05  Surface charge, eq
+	  7.499e-16  Surface + diffuse layer charge, eq
+	  5.305e-05  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.952e-01  psi, V
 	 -1.149e+01  -F*psi/RT
 	  1.022e-05  exp(-F*psi/RT)
 	  2.745e+03  specific area, m²/mol OH_AFm_Surf0.1
-	  1.458e+00  m² for   5.313e-04 moles of OH_AFm_Surf0.1
+	  1.456e+00  m² for   5.305e-04 moles of OH_AFm_Surf0.1
 
-	Water in diffuse layer: 4.626e-06 kg,  1.0% of total DDL-water.
+	Water in diffuse layer: 4.620e-06 kg,  1.0% of total DDL-water.
 		      viscosity: 0.00000 mPa s for DDL water.
 	Radius of total pore:   1.411e-05 m; of free pore: 1.410e-05 m.
 
@@ -3237,18 +3248,18 @@ Su
 	Boltzmann factor, exp(-psi_DL * F / RT) = 2.150e-03 (= c_DL / c_free if z is +1).
 
 	Element       	     Moles
-	Al            	  2.5948e-06
-	Ca            	  6.5192e-12
-	Cl            	  3.6985e-05
-	H             	  2.3928e-05
-	O             	  2.3928e-05
+	Al            	  2.5912e-06
+	Ca            	  6.5095e-12
+	Cl            	  3.6929e-05
+	H             	  2.3895e-05
+	O             	  2.3895e-05
 
 Su_plus       
-	  5.313e-05  moles	[0.1 mol/(mol kinetic reactant OH_AFm_Surf0.1)]
+	  5.305e-05  moles	[0.1 mol/(mol kinetic reactant OH_AFm_Surf0.1)]
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Su_plus+          5.313e-05       1.000   5.316e-05      -4.274
+	Su_plus+          5.305e-05       1.000   5.308e-05      -4.275
 
 -----------------------------Solution composition------------------------------
 
@@ -3256,26 +3267,26 @@ Su_plus
 
 	Al                1.206e-03   1.205e-03
 	Ca                1.266e-02   1.265e-02
-	Cl                1.719e-02   1.718e-02
+	Cl                1.718e-02   1.718e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.714      Charge balance
-                                       pe  =  -8.810      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 3468
-                          Density (g/cm³)  =   0.99831
-                               Volume (L)  =   1.00298
-                        Viscosity (mPa s)  =   0.89625
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   3.672e-02
-                       Mass of water (kg)  =   9.995e-01
-                 Total alkalinity (eq/kg)  =   1.175e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.653e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 1107 (57307 overall)
-                                  Total H  = 1.109672e+02
-                                  Total O  = 5.548946e+01
+                                        pH  =  11.714       Charge balance
+                                        pe  =  -8.810       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  3471      
+                           Density (g/cm³)  =  0.99831  
+                                Volume (L)  =  1.00298  
+                         Viscosity (mPa s)  =  0.89625  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  3.672e-02  
+                        Mass of water (kg)  =  9.995e-01  
+                   Total alkalinity (eq/kg)  = 1.175e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.652e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   1138 (57550 overall)
+                                   Total H  =  1.109672e+02
+                                   Total O  =  5.548946e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3289,14 +3300,14 @@ Al            1.206e-03
    Al(OH)4-        1.206e-03   1.012e-03    -2.919    -2.995    -0.076     (0)  
    Al(OH)3         1.029e-09   1.038e-09    -8.988    -8.984     0.004     (0)  
    Al(OH)2+        1.611e-14   1.362e-14   -13.793   -13.866    -0.073     (0)  
-   AlOH+2          6.575e-21   3.358e-21   -20.182   -20.474    -0.292    -27.33
-   Al+3            2.381e-27   6.536e-28   -26.623   -27.185    -0.561    -41.48
+   AlOH+2          6.574e-21   3.358e-21   -20.182   -20.474    -0.292    -27.33
+   Al+3            2.381e-27   6.535e-28   -26.623   -27.185    -0.561    -41.48
 Ca            1.266e-02
    Ca+2            1.203e-02   6.151e-03    -1.920    -2.211    -0.291    -17.69
    CaOH+           6.296e-04   5.281e-04    -3.201    -3.277    -0.076     (0)  
-Cl            1.719e-02
-   Cl-             1.719e-02   1.433e-02    -1.765    -1.844    -0.079     18.22
-   HCl             9.200e-15   9.537e-15   -14.036   -14.021     0.016     20.36
+Cl            1.718e-02
+   Cl-             1.718e-02   1.433e-02    -1.765    -1.844    -0.079     18.22
+   HCl             9.199e-15   9.536e-15   -14.036   -14.021     0.016     20.36
 H(0)          2.184e-09
    H2              1.092e-09   1.102e-09    -8.962    -8.958     0.004     14.99
 O(0)          0.000e+00
@@ -3310,7 +3321,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.21    -27.67  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1   -0.00    -27.46  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2    0.18    -27.28  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite          0.00      7.96    7.96  Al(OH)3
+  Gibbsite         -0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -1.38    -21.75  -20.37  Ca3Al2(OH)12
@@ -3404,14 +3415,14 @@ Kinetics 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite          0.00     7.96      7.96    0.000e+00   1.952e-03   1.952e-03
+Gibbsite         -0.00     7.96      7.96    0.000e+00   1.952e-03   1.952e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Scl           
-	 -1.391e-16  Surface + diffuse layer charge, eq
+	 -1.357e-16  Surface + diffuse layer charge, eq
 	  5.167e-03  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.884e-01  psi, V
@@ -3443,7 +3454,7 @@ Scl_plus
 	Scl_plus+         5.167e-03       1.000   5.169e-03      -2.287
 
 Su            
-	 -1.040e-18  Surface + diffuse layer charge, eq
+	 -1.027e-18  Surface + diffuse layer charge, eq
 	  3.998e-05  Surface charge, eq
 	  3.515e+00  sigma, C/m²
 	  2.884e-01  psi, V
@@ -3462,7 +3473,7 @@ Su
 
 	Element       	     Moles
 	Al            	  1.1777e-06
-	Ca            	  4.8010e-12
+	Ca            	  4.8011e-12
 	Cl            	  3.2639e-05
 	H             	  1.0874e-05
 	O             	  1.0874e-05
@@ -3484,22 +3495,22 @@ Su_plus
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.601      Charge balance
-                                       pe  =  -8.697      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 4111
-                          Density (g/cm³)  =   0.99863
-                               Volume (L)  =   1.00304
-                        Viscosity (mPa s)  =   0.89740
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   4.786e-02
-                       Mass of water (kg)  =   9.995e-01
-                 Total alkalinity (eq/kg)  =   9.338e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.653e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  = 664 (35336 overall)
-                                  Total H  = 1.109656e+02
-                                  Total O  = 5.548748e+01
+                                        pH  =  11.601       Charge balance
+                                        pe  =  -8.697       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  4115      
+                           Density (g/cm³)  =  0.99863  
+                                Volume (L)  =  1.00304  
+                         Viscosity (mPa s)  =  0.89741  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  4.786e-02  
+                        Mass of water (kg)  =  9.995e-01  
+                   Total alkalinity (eq/kg)  = 9.338e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.652e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   664  (35342 overall)
+                                   Total H  =  1.109656e+02
+                                   Total O  =  5.548748e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3534,7 +3545,7 @@ O(0)          0.000e+00
   Cl_AFm           -0.20    -27.66  -27.46  Ca4Al2Cl1.95(OH)0.05O6:12H2O
   Cl_AFm_Surf0.1    0.00    -27.46  -27.46  Ca4Al2Cl1.9O6:12H2O+0.1
   Cl_AFm_Surf0.2    0.17    -27.29  -27.46  Ca4Al2Cl1.8O6:12H2O+0.2
-  Gibbsite          0.00      7.96    7.96  Al(OH)3
+  Gibbsite         -0.00      7.96    7.96  Al(OH)3
   H2(g)            -5.86     -8.96   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -1.79    -22.16  -20.37  Ca3Al2(OH)12
@@ -3562,4 +3573,8 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 17.
 -------------------------------------
+
+--------------------------------
+End of Run after 14.187 Seconds.
+--------------------------------
 

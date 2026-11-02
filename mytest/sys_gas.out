@@ -106,11 +106,11 @@ Gas C(4), C(-4):             0            0
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.771e-07  
                         Mass of water (kg)  =  1.000e-03  
-                  Total alkalinity (eq/kg)  =  2.792e-20  
+                   Total alkalinity (eq/kg)  = 2.399e-20  
                           Temperature (°C)  =  102.00
                             Pressure (atm)  =  500.00
-                   Electrical balance (eq)  =  -2.792e-23 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.399e-23 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  6   
                                    Total H  =  1.110124e-01
                                    Total O  =  5.550622e-02
@@ -194,19 +194,19 @@ CO2(g)             2.40   2.498e+02  0.488   8.170e+01   8.163e+01  -6.500e-02
 
                                         pH  =  3.195        Charge balance
                                         pe  =  -1.222       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 102°C)  =  447       
+       Specific Conductance (µS/cm, 102°C)  =  1         
                            Density (g/cm³)  =  0.98174  
                                 Volume (L)  =  0.00343  
-                         Viscosity (mPa s)  =  0.29284  
+                         Viscosity (mPa s)  =  0.29280  
                          Activity of water  =  0.986  
                   Ionic strength (mol/kgw)  =  6.587e-04  
                         Mass of water (kg)  =  3.252e-03  
-                  Total alkalinity (eq/kg)  =  -2.621e-14 
+                   Total alkalinity (eq/kg)  = -2.621e-14 
                         Total CO2 (mol/kg)  =  7.674e-01  
                           Temperature (°C)  =  102.00
                             Pressure (atm)  =  500.08
                    Electrical balance (eq)  =  8.524e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  126 
                                    Total H  =  3.625409e-01
                                    Total O  =  1.854976e-01
@@ -294,19 +294,19 @@ CO2(g)             2.40   2.497e+02  0.488   8.163e+01   8.157e+01  -6.423e-02
 
                                         pH  =  3.195        Charge balance
                                         pe  =  -1.222       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 102°C)  =  447       
+       Specific Conductance (µS/cm, 102°C)  =  2         
                            Density (g/cm³)  =  0.98174  
                                 Volume (L)  =  0.00581  
-                         Viscosity (mPa s)  =  0.29284  
+                         Viscosity (mPa s)  =  0.29280  
                          Activity of water  =  0.986  
                   Ionic strength (mol/kgw)  =  6.585e-04  
                         Mass of water (kg)  =  5.504e-03  
-                  Total alkalinity (eq/kg)  =  -6.601e-14 
+                   Total alkalinity (eq/kg)  = -6.601e-14 
                         Total CO2 (mol/kg)  =  7.669e-01  
                           Temperature (°C)  =  102.00
                             Pressure (atm)  =  500.17
                    Electrical balance (eq)  =  3.633e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  66  
                                    Total H  =  6.136014e-01
                                    Total O  =  3.139480e-01
@@ -351,8 +351,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.021 Seconds.
--------------------------------
 

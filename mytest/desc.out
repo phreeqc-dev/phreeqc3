@@ -67,10 +67,10 @@ Initial solution 1.	 A
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.991e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.115e-06  
+                   Total alkalinity (eq/kg)  = 1.115e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.989e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.96 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.96 
                                 Iterations  =  4   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -125,10 +125,10 @@ Initial solution 2.	 B
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.495e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.506e-09  
+                   Total alkalinity (eq/kg)  = 3.506e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  2.495e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.99 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.99 
                                Iterations  =   4    (8 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -179,14 +179,14 @@ Initial solution 3.	 C
        Specific Conductance (µS/cm,  25°C)  =  70        
                            Density (g/cm³)  =  0.99708  
                                 Volume (L)  =  1.00295  
-                         Viscosity (mPa s)  =  0.89055  
+                         Viscosity (mPa s)  =  0.89054  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.248e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.028e-06 
+                   Total alkalinity (eq/kg)  = -1.028e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.249e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  100.00
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 100.00
                                Iterations  =   4    (12 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -277,15 +277,15 @@ Calcite          -4.41   -12.86     -8.45    0.000e+00           0   0.000e+00
        Specific Conductance (µS/cm,  25°C)  =  269       
                            Density (g/cm³)  =  0.99719  
                                 Volume (L)  =  1.00292  
-                         Viscosity (mPa s)  =  0.89196  
+                         Viscosity (mPa s)  =  0.89214  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.992e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.115e-06  
+                   Total alkalinity (eq/kg)  = 1.115e-06  
                         Total CO2 (mol/kg)  =  1.372e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.989e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.88 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.88 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550625e+01
@@ -298,8 +298,8 @@ Calcite          -4.41   -12.86     -8.45    0.000e+00           0   0.000e+00
    H+              1.859e-06   1.736e-06    -5.731    -5.760    -0.030      0.00
    OH-             6.295e-09   5.830e-09    -8.201    -8.234    -0.033     -4.07
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
-C(-4)         6.089e-27
-   CH4             6.089e-27   6.096e-27   -26.215   -26.215     0.000     35.46
+C(-4)         6.081e-27
+   CH4             6.081e-27   6.088e-27   -26.216   -26.216     0.000     35.46
 C(4)          1.372e-05
    CO2             1.075e-05   1.076e-05    -4.968    -4.968     0.000     34.79
    HCO3-           2.968e-06   2.757e-06    -5.528    -5.560    -0.032     23.71
@@ -312,10 +312,10 @@ Ca            2.495e-03
    CaCO3           2.320e-10   2.323e-10    -9.634    -9.634     0.000    -14.60
    CaOH+           1.915e-10   1.775e-10    -9.718    -9.751    -0.033     (0)  
    CaHCO3+         4.827e-13   4.488e-13   -12.316   -12.348    -0.032      9.70
-H(0)          5.511e-15
-   H2              2.756e-15   2.759e-15   -14.560   -14.559     0.001     14.99
+H(0)          5.509e-15
+   H2              2.755e-15   2.758e-15   -14.560   -14.559     0.001     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -63.245   -63.244     0.000     30.40
+   O2              0.000e+00   0.000e+00   -63.244   -63.244     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -323,7 +323,7 @@ O(0)          0.000e+00
 
   Aragonite        -4.52    -12.86   -8.34  CaCO3
   Calcite          -4.41    -12.86   -8.45  CaCO3
-  CH4(g)          -23.41    -26.21   -2.80  CH4
+  CH4(g)          -23.41    -26.22   -2.80  CH4
   CO2(g)           -3.50     -4.97   -1.47  CO2	 Pressure   0.0 atm, phi 1.000
   H2(g)           -11.46    -14.56   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
@@ -378,15 +378,15 @@ Calcite          -4.88   -13.33     -8.45    0.000e+00           0   0.000e+00
        Specific Conductance (µS/cm,  25°C)  =  138       
                            Density (g/cm³)  =  0.99712  
                                 Volume (L)  =  1.00294  
-                         Viscosity (mPa s)  =  0.89117  
+                         Viscosity (mPa s)  =  0.89124  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.497e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.506e-09  
+                   Total alkalinity (eq/kg)  = 3.506e-09  
                         Total CO2 (mol/kg)  =  1.306e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  2.495e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.82 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.82 
                                 Iterations  =  12  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -399,8 +399,8 @@ Calcite          -4.88   -13.33     -8.45    0.000e+00           0   0.000e+00
    H+              2.306e-06   2.191e-06    -5.637    -5.659    -0.022      0.00
    OH-             4.882e-09   4.619e-09    -8.311    -8.335    -0.024     -4.09
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
-C(-4)         3.182e-27
-   CH4             3.182e-27   3.184e-27   -26.497   -26.497     0.000     35.46
+C(-4)         3.181e-27
+   CH4             3.181e-27   3.183e-27   -26.497   -26.497     0.000     35.46
 C(4)          1.306e-05
    CO2             1.076e-05   1.076e-05    -4.968    -4.968     0.000     34.79
    HCO3-           2.305e-06   2.184e-06    -5.637    -5.661    -0.023     23.34
@@ -413,7 +413,7 @@ Ca            1.248e-03
    CaOH+           8.042e-11   7.612e-11   -10.095   -10.119    -0.024     (0)  
    CaCO3           7.887e-11   7.891e-11   -10.103   -10.103     0.000    -14.60
    CaHCO3+         2.030e-13   1.925e-13   -12.692   -12.716    -0.023      9.68
-H(0)          4.688e-15
+H(0)          4.687e-15
    H2              2.344e-15   2.345e-15   -14.630   -14.630     0.000     14.99
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -63.103   -63.103     0.000     30.40
@@ -479,15 +479,15 @@ Calcite          -5.35   -13.80     -8.45    0.000e+00           0   0.000e+00
        Specific Conductance (µS/cm,  25°C)  =  70        
                            Density (g/cm³)  =  0.99708  
                                 Volume (L)  =  1.00295  
-                         Viscosity (mPa s)  =  0.89073  
+                         Viscosity (mPa s)  =  0.89075  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.250e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.028e-06 
+                   Total alkalinity (eq/kg)  = -1.028e-06 
                         Total CO2 (mol/kg)  =  1.257e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.249e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.71 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.71 
                                 Iterations  =  11  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -500,8 +500,8 @@ Calcite          -5.35   -13.80     -8.45    0.000e+00           0   0.000e+00
    H+              2.847e-06   2.742e-06    -5.546    -5.562    -0.016      0.00
    OH-             3.842e-09   3.692e-09    -8.415    -8.433    -0.017     -4.10
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
-C(-4)         8.537e-28
-   CH4             8.537e-28   8.539e-28   -27.069   -27.069     0.000     35.46
+C(-4)         8.542e-28
+   CH4             8.542e-28   8.544e-28   -27.068   -27.068     0.000     35.46
 C(4)          1.257e-05
    CO2             1.076e-05   1.076e-05    -4.968    -4.968     0.000     34.79
    HCO3-           1.815e-06   1.746e-06    -5.741    -5.758    -0.017     22.99
@@ -515,7 +515,7 @@ Ca            6.238e-04
    CaCO3           2.675e-11   2.675e-11   -10.573   -10.573     0.000    -14.60
    CaHCO3+         8.486e-14   8.163e-14   -13.071   -13.088    -0.017      9.67
 H(0)          3.375e-15
-   H2              1.687e-15   1.688e-15   -14.773   -14.773     0.000     14.99
+   H2              1.688e-15   1.688e-15   -14.773   -14.773     0.000     14.99
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -62.817   -62.817     0.000     30.40
 
@@ -574,10 +574,10 @@ Infilling   6.9999e+00            0
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -646,11 +646,11 @@ Calcite              Element not present.    0.000e+00           0   0.000e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.194e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.295e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  12  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -714,10 +714,10 @@ Cell 2   8.0000e+00   2.4950e-03
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.991e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.115e-06  
+                   Total alkalinity (eq/kg)  = 1.115e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.989e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.96 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.96 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -775,10 +775,10 @@ Cell 3   7.0000e+00   1.2475e-03
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.495e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.506e-09  
+                   Total alkalinity (eq/kg)  = 3.506e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  2.495e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.99 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.99 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -846,11 +846,11 @@ Calcite              Element not present.    0.000e+00           0   0.000e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.194e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.295e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  12  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -914,11 +914,11 @@ Cell 2   5.6597e+00            0
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.194e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.295e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -982,10 +982,10 @@ Cell 3   8.0000e+00   2.4950e-03
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.991e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.115e-06  
+                   Total alkalinity (eq/kg)  = 1.115e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.989e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  99.96 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 99.96 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -1053,11 +1053,11 @@ Calcite              Element not present.    0.000e+00           0   0.000e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.194e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.295e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  12  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -1121,11 +1121,11 @@ Cell 2   5.6597e+00            0
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.194e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.295e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -1189,11 +1189,11 @@ Cell 3   5.6597e+00            0
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.194e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.295e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -1277,11 +1277,11 @@ Mix 2   5.6597e+00            0
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.194e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.295e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.03 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.03 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -1326,8 +1326,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 8.
 ------------------------------------
-
--------------------------------
-End of Run after 0.024 Seconds.
--------------------------------
 

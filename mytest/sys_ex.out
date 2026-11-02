@@ -89,18 +89,18 @@ Initial solution 1.
 
                                         pH  =  7.600      
                                         pe  =  12.945       Equilibrium with O2(g)
-       Specific Conductance (µS/cm,  25°C)  =  30292     
+       Specific Conductance (µS/cm,  25°C)  =  30245     
                            Density (g/cm³)  =  1.01114  
                                 Volume (L)  =  1.00787  
-                         Viscosity (mPa s)  =  0.92507  
+                         Viscosity (mPa s)  =  0.92865  
                          Activity of water  =  0.990  
                   Ionic strength (mol/kgw)  =  3.653e-01  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  4.802e-04  
+                      Total carbon (mol/kg)  = 4.802e-04  
                         Total CO2 (mol/kg)  =  4.802e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -6.560e-04 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.10 
                                 Iterations  =  6   
                                    Total H  =  1.110129e+02
                                    Total O  =  5.556428e+01
@@ -259,8 +259,8 @@ Y                1.000e+00 mol
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	CaY               5.910e-01   1.182e+00   5.910e-01    -0.000
-	Na2Y              4.090e-01   8.180e-01   4.090e-01    -0.000
+	CaY               5.910e-01   1.182e+00   5.910e-01     0.000
+	Na2Y              4.090e-01   8.180e-01   4.090e-01     0.000
 
 -----------------------------Solution composition------------------------------
 
@@ -279,18 +279,18 @@ Y                1.000e+00 mol
 
                                         pH  =  7.600        Charge balance
                                         pe  =  12.945       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  30292     
+       Specific Conductance (µS/cm,  25°C)  =  30245     
                            Density (g/cm³)  =  1.01114  
                                 Volume (L)  =  1.00787  
-                         Viscosity (mPa s)  =  0.92507  
+                         Viscosity (mPa s)  =  0.92865  
                          Activity of water  =  0.990  
                   Ionic strength (mol/kgw)  =  3.653e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.760e-04  
+                   Total alkalinity (eq/kg)  = 4.760e-04  
                         Total CO2 (mol/kg)  =  4.802e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -6.560e-04 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.10 
                                 Iterations  =  7   
                                    Total H  =  1.110129e+02
                                    Total O  =  5.556428e+01
@@ -408,8 +408,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.017 Seconds.
--------------------------------
 

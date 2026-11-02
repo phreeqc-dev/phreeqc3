@@ -10855,9 +10855,15 @@ Plattnerite
           log_k 49.6001
           delta_h -296.27 kJ
 Pb(OH)2
-          Pb(OH)2 + 2 H+ = Pb+2 + 2 H2O
-          log_k 8.15
-          delta_h -58.5342 kJ
+Pb(OH)2 + 2 H+ = Pb+2 + 2 H2O
+     log_k    13.514
+     delta_h  -56.140    #kJ/mol        #52lat
+     -analytic -3.5536959E+2  -4.807084E-2  2.2120649E+4  1.2942742E+2  -9.9884185E+5
+     #References = LogK/DGf: Internal calculation; DHf/DHr: 52lat; S°: 52lat; V°: Default value;
+# Pb(OH)2 # not correct, see https://doi.org/10.1016/S1003-6326(08)60295-2.
+          # Pb(OH)2 + 2 H+ = Pb+2 + 2 H2O
+          # log_k 8.15
+          # delta_h -58.5342 kJ
 Pb2O(OH)2
           Pb2O(OH)2 + 4 H+ = 2 Pb+2 + 3 H2O
           log_k 26.188

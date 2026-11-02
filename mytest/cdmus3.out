@@ -293,10 +293,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  9.536e-20  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  20  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -528,14 +528,14 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Goethite         -0.00    -1.00     -1.00    1.000e-06   1.010e-04   1.000e-04
+Goethite          0.00    -1.00     -1.00    1.000e-06   1.010e-04   1.000e-04
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Goe           
-	 -2.635e-20  Surface + diffuse layer charge, eq
+	  6.264e-21  Surface + diffuse layer charge, eq
 	  1.011e-07  Surface charge, eq
 	  9.663e-02  sigma, C/m²
 	  2.345e-01  psi, V
@@ -594,10 +594,10 @@ Goe_uni
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.946e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.946e-04 
+                   Total alkalinity (eq/kg)  = -2.946e-04 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.734e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.735e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   1    (20 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550602e+01
@@ -647,7 +647,7 @@ O(0)          5.857e-15
   Fe(OH)2.7Cl.3    -0.08     -3.12   -3.04  Fe(OH)2.7Cl0.3
   Fe(OH)3(a)       -5.89     -1.00    4.89  Fe(OH)3
   Fe3(OH)8        -28.09     -7.87   20.22  Fe3(OH)8
-  Goethite         -0.00     -1.00   -1.00  FeOOH
+  Goethite          0.00     -1.00   -1.00  FeOOH
   H2(g)           -35.77    -38.92   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite          -15.10    -13.51    1.58  NaCl
@@ -709,7 +709,7 @@ Goethite          0.00    -1.00     -1.00    1.000e-06   1.010e-04   1.000e-04
 Diffuse Double Layer Surface-Complexation Model
 
 Fhy           
-	  4.700e-20  Surface + diffuse layer charge, eq
+	  3.853e-20  Surface + diffuse layer charge, eq
 	  9.020e-08  Surface charge, eq
 	  8.617e-02  sigma, C/m²
 	  2.286e-01  psi, V
@@ -779,10 +779,10 @@ Fhy_unie
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.953e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.953e-04 
+                   Total alkalinity (eq/kg)  = -2.953e-04 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  9.372e-20  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.021e-19  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (17 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550602e+01
@@ -851,8 +851,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 6.
 ------------------------------------
-
--------------------------------
-End of Run after 0.035 Seconds.
--------------------------------
 

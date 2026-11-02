@@ -71,10 +71,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -145,11 +145,11 @@ Hdg(g)            -0.24   5.759e-01  1.001   4.101e-02   4.055e-02  -4.585e-04
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.767e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                         Total CO2 (mol/kg)  =  1.338e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  15  
                                    Total H  =  1.110080e+02
                                    Total O  =  5.553074e+01
@@ -163,24 +163,24 @@ Hdg(g)            -0.24   5.759e-01  1.001   4.101e-02   4.055e-02  -4.585e-04
    OH-             1.330e-10   1.316e-10    -9.876    -9.881    -0.004     -4.13
    H2O             5.551e+01   9.998e-01     1.744    -0.000     0.000     18.07
 C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00  -120.335  -120.335     0.000     35.46
+   CH4             0.000e+00   0.000e+00  -120.336  -120.336     0.000     35.46
 C(4)          1.338e-02
    CO2             1.330e-02   1.330e-02    -1.876    -1.876     0.000     34.79
    HCO3-           7.768e-05   7.689e-05    -4.110    -4.114    -0.004     21.75
    (CO2)2          2.874e-06   2.874e-06    -5.542    -5.542     0.000     68.75
    CO3-2           4.884e-11   4.689e-11   -10.311   -10.329    -0.018     -7.14
-H(0)          2.747e-39
+H(0)          2.745e-39
    H2              1.373e-39   1.373e-39   -38.862   -38.862     0.000     14.99
 Hdg           4.585e-04
    Hdg             4.585e-04   4.585e-04    -3.339    -3.339     0.000     14.99
-O(0)          4.599e-15
-   O2              2.300e-15   2.300e-15   -14.638   -14.638     0.000     30.40
+O(0)          4.605e-15
+   O2              2.302e-15   2.302e-15   -14.638   -14.638     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  CH4(g)         -117.53   -120.33   -2.80  CH4
+  CH4(g)         -117.53   -120.34   -2.80  CH4
   CO2(g)           -0.41     -1.88   -1.47  CO2	 Pressure   0.4 atm, phi 0.996
   H2(g)           -35.76    -38.86   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O	 Pressure   0.0 atm, phi 0.991
@@ -197,8 +197,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.019 Seconds.
--------------------------------
 

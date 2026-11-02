@@ -310,7 +310,7 @@ write_banner(void)
 	screen_msg("               ____________________________________________\n");
 	screen_msg("              |                                            |\n");
 	/* version */
-	len = snprintf(buffer, sizeof(buffer), "* PHREEQC_%s *", "3.8.9");
+	len = snprintf(buffer, sizeof(buffer), "* PHREEQC_%s *", "3.9.1");
 	indent = (44 - len) / 2;
 	screen_msg(sformatf("%14c|%*c%s%*c|\n", ' ', indent, ' ', buffer,
 			   44 - indent - len, ' '));
@@ -321,7 +321,7 @@ write_banner(void)
 	screen_msg("              |       D.L. Parkhurst and C.A.J. Appelo     |\n");
 	screen_msg("              |                                            |\n");
 	/* date */
-	len = snprintf(buffer, sizeof(buffer), "%s", "October 13, 2025");
+	len = snprintf(buffer, sizeof(buffer), "%s", "September 23, 2026");
 	indent = (44 - len) / 2;
 	screen_msg(sformatf("%14c|%*c%s%*c|\n", ' ', indent, ' ', buffer,
 			   44 - indent - len, ' '));
@@ -500,7 +500,7 @@ process_file_names(int argc, char *argv[], std::istream **db_cookie,
 		output_msg(sformatf("   Input file: %s\n", in_file.c_str()));
 		output_msg(sformatf("  Output file: %s\n", out_file.c_str()));
 #ifdef NPP
-		output_msg(sformatf("Using PHREEQC: version 3.8.9, compiled October 13, 2025\n"));
+		output_msg(sformatf("Using PHREEQC: version 3.9.1, compiled September 23, 2026\n"));
 #endif
 		output_msg(sformatf("Database file: %s\n\n", token.c_str()));
 #ifdef NPP

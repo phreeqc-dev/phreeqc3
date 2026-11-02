@@ -1,4 +1,3 @@
-WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: count_database_species
   Output file: count_database_species.out
 Database file: ../database/sit.dat
@@ -357,21 +356,21 @@ number of aqueous species 	 = 	         1099
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   4.947e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.203e-02
-                       Total CO2 (mol/kg)  =   1.000e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   3.099e-02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  59.46
-                               Iterations  =  38
-                         Gamma iterations  =  12
-                      Osmotic coefficient  =   0.86566
-                                  Total H  = 1.110722e+02
-                                  Total O  = 5.559155e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  4.947e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 1.203e-02  
+                        Total CO2 (mol/kg)  =  1.000e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  3.099e-02  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 59.46 
+                                Iterations  =  38  
+                          Gamma iterations  =  12  
+                       Osmotic coefficient  =  0.86566  
+                                   Total H  =  1.110722e+02
+                                   Total O  =  5.559155e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3256,4 +3255,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
+
+--------------------------------
+End of Run after 42.733 Seconds.
+--------------------------------
 

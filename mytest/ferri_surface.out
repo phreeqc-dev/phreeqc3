@@ -125,11 +125,11 @@ Reading input data for simulation 1.
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.297e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.076e-03  
+                   Total alkalinity (eq/kg)  = 2.076e-03  
                         Total CO2 (mol/kg)  =  2.054e-03  
                           Temperature (°C)  =  31.78 
                    Electrical balance (eq)  =  7.591e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.21  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.21  
                                 Iterations  =  11  
                                    Total H  =  1.110156e+02
                                    Total O  =  5.552901e+01
@@ -197,9 +197,9 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Alunite          -8.47    -9.75     -1.28    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.52     -8.52    0.000e+00   1.340e-05   1.340e-05
-Ferrihydrite      0.00     4.89      4.89    0.000e+00   3.737e-06   3.737e-06
+Ferrihydrite     -0.00     4.89      4.89    0.000e+00   3.737e-06   3.737e-06
 Gypsum           -1.58    -6.19     -4.61    0.000e+00           0   0.000e+00
-Halloysite       -0.00     8.35      8.35    0.000e+00   1.241e-06   1.241e-06
+Halloysite        0.00     8.35      8.35    0.000e+00   1.241e-06   1.241e-06
 Jarosite-K       -3.06   -18.37    -15.31    0.000e+00           0   0.000e+00
 Jarosite-Na      -4.84   -16.63    -11.79    0.000e+00           0   0.000e+00
 Malachite        -2.19    -7.63     -5.43    0.000e+00           0   0.000e+00
@@ -284,12 +284,12 @@ Hfo_w
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.294e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.035e-03  
+                   Total alkalinity (eq/kg)  = 2.035e-03  
                         Total CO2 (mol/kg)  =  2.041e-03  
                           Temperature (°C)  =  31.78 
                    Electrical balance (eq)  =  7.583e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.21  
-                                Iterations  =  51  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.21  
+                                Iterations  =  45  
                                    Total H  =  1.110155e+02
                                    Total O  =  5.552894e+01
 
@@ -366,11 +366,11 @@ Hfo_w
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.235e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.197e-03  
+                   Total alkalinity (eq/kg)  = 2.197e-03  
                         Total CO2 (mol/kg)  =  2.206e-03  
                           Temperature (°C)  =  26.97 
                    Electrical balance (eq)  =  4.893e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.14  
                                 Iterations  =  12  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552824e+01
@@ -427,7 +427,7 @@ Hfo_w
 
 ----------------------------------User print-----------------------------------
 
-   O(0)                4.6054e-12      4.6054e-12 
+   O(0)                4.1028e-15      4.1028e-15 
 
 -------------------------------Phase assemblage--------------------------------
 
@@ -442,7 +442,7 @@ Halloysite       -0.00     8.80      8.80    0.000e+00           0   0.000e+00
 Jarosite-K       -3.52   -18.47    -14.95    0.000e+00           0   0.000e+00
 Jarosite-Na      -5.36   -16.73    -11.37    0.000e+00           0   0.000e+00
 Malachite        -2.50    -7.76     -5.26    0.000e+00           0   0.000e+00
-Manganite        -1.91    -2.15     -0.24    0.000e+00           0   0.000e+00
+Manganite        -2.67    -2.91     -0.24    0.000e+00           0   0.000e+00
 
 ------------------------------Surface composition------------------------------
 
@@ -515,15 +515,15 @@ Hfo_w
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.988        Charge balance
-                                        pe  =  10.461       Adjusted to redox equilibrium
+                                        pe  =  9.698        Adjusted to redox equilibrium
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.235e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.197e-03  
+                   Total alkalinity (eq/kg)  = 2.197e-03  
                         Total CO2 (mol/kg)  =  2.206e-03  
                           Temperature (°C)  =  26.97 
                    Electrical balance (eq)  =  4.893e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.14  
                                 Iterations  =  13  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552824e+01
@@ -601,11 +601,11 @@ Hfo_w
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.236e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.202e-03  
+                   Total alkalinity (eq/kg)  = 2.202e-03  
                         Total CO2 (mol/kg)  =  2.211e-03  
                           Temperature (°C)  =  26.97 
                    Electrical balance (eq)  =  5.450e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.16  
                                 Iterations  =  12  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552825e+01
@@ -662,7 +662,7 @@ Hfo_w
 
 ----------------------------------User print-----------------------------------
 
-   O(0)                2.3070e-19      2.3070e-19 
+   O(0)                2.8946e-20      2.8946e-20 
 
 -------------------------------Phase assemblage--------------------------------
 
@@ -677,7 +677,7 @@ Halloysite       -0.00     8.80      8.80    0.000e+00           0   0.000e+00
 Jarosite-K       -3.52   -18.47    -14.95    0.000e+00           0   0.000e+00
 Jarosite-Na      -5.35   -16.72    -11.37    0.000e+00           0   0.000e+00
 Malachite        -2.50    -7.76     -5.26    0.000e+00           0   0.000e+00
-Manganite        -3.73    -3.97     -0.24    0.000e+00           0   0.000e+00
+Manganite        -3.96    -4.19     -0.24    0.000e+00           0   0.000e+00
 
 ------------------------------Surface composition------------------------------
 
@@ -750,15 +750,15 @@ Hfo_w
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.986        Charge balance
-                                        pe  =  8.638        Adjusted to redox equilibrium
+                                        pe  =  8.412        Adjusted to redox equilibrium
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.236e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.202e-03  
+                   Total alkalinity (eq/kg)  = 2.202e-03  
                         Total CO2 (mol/kg)  =  2.211e-03  
                           Temperature (°C)  =  26.97 
                    Electrical balance (eq)  =  5.450e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.16  
                                 Iterations  =  13  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552825e+01
@@ -836,11 +836,11 @@ Hfo_w
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.237e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.210e-03  
+                   Total alkalinity (eq/kg)  = 2.210e-03  
                         Total CO2 (mol/kg)  =  2.220e-03  
                           Temperature (°C)  =  26.97 
                    Electrical balance (eq)  =  5.133e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.15  
                                 Iterations  =  12  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552829e+01
@@ -897,7 +897,7 @@ Hfo_w
 
 ----------------------------------User print-----------------------------------
 
-   O(0)                1.8503e-20      1.8503e-20 
+   O(0)                3.6447e-22      3.6447e-22 
 
 -------------------------------Phase assemblage--------------------------------
 
@@ -908,11 +908,11 @@ Alunite          -7.79    -9.11     -1.33    0.000e+00           0   0.000e+00
 Calcite          -0.00    -8.49     -8.49    0.000e+00           0   0.000e+00
 Ferrihydrite     -0.00     4.89      4.89    0.000e+00           0   0.000e+00
 Gypsum           -1.57    -6.18     -4.61    0.000e+00           0   0.000e+00
-Halloysite       -0.00     8.80      8.80    0.000e+00   1.668e-11   1.668e-11
+Halloysite        0.00     8.80      8.80    0.000e+00   1.668e-11   1.668e-11
 Jarosite-K       -3.50   -18.45    -14.95    0.000e+00           0   0.000e+00
 Jarosite-Na      -5.34   -16.71    -11.37    0.000e+00           0   0.000e+00
 Malachite        -2.50    -7.76     -5.26    0.000e+00           0   0.000e+00
-Manganite        -4.00    -4.24     -0.24    0.000e+00           0   0.000e+00
+Manganite        -4.43    -4.67     -0.24    0.000e+00           0   0.000e+00
 
 ------------------------------Surface composition------------------------------
 
@@ -985,15 +985,15 @@ Hfo_w
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.982        Charge balance
-                                        pe  =  8.368        Adjusted to redox equilibrium
+                                        pe  =  7.941        Adjusted to redox equilibrium
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.237e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.210e-03  
+                   Total alkalinity (eq/kg)  = 2.210e-03  
                         Total CO2 (mol/kg)  =  2.220e-03  
                           Temperature (°C)  =  26.97 
                    Electrical balance (eq)  =  5.133e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.15  
                                 Iterations  =  12  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552829e+01
@@ -1071,11 +1071,11 @@ Hfo_w
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.239e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.224e-03  
+                   Total alkalinity (eq/kg)  = 2.224e-03  
                         Total CO2 (mol/kg)  =  2.235e-03  
                           Temperature (°C)  =  26.98 
                    Electrical balance (eq)  =  4.825e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.14  
                                 Iterations  =  12  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552833e+01
@@ -1132,7 +1132,7 @@ Hfo_w
 
 ----------------------------------User print-----------------------------------
 
-   O(0)                2.7046e-13      2.7046e-13 
+   O(0)                4.5474e-14      4.5474e-14 
 
 -------------------------------Phase assemblage--------------------------------
 
@@ -1147,7 +1147,7 @@ Halloysite       -0.00     8.80      8.80    0.000e+00           0   0.000e+00
 Jarosite-K       -3.48   -18.44    -14.95    0.000e+00           0   0.000e+00
 Jarosite-Na      -5.32   -16.69    -11.37    0.000e+00           0   0.000e+00
 Malachite        -2.50    -7.75     -5.26    0.000e+00           0   0.000e+00
-Manganite        -2.20    -2.44     -0.24    0.000e+00           0   0.000e+00
+Manganite        -2.40    -2.64     -0.24    0.000e+00           0   0.000e+00
 
 ------------------------------Surface composition------------------------------
 
@@ -1220,20 +1220,16 @@ Hfo_w
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.976        Charge balance
-                                        pe  =  10.165       Adjusted to redox equilibrium
+                                        pe  =  9.971        Adjusted to redox equilibrium
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.239e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.224e-03  
+                   Total alkalinity (eq/kg)  = 2.224e-03  
                         Total CO2 (mol/kg)  =  2.235e-03  
                           Temperature (°C)  =  26.98 
                    Electrical balance (eq)  =  4.825e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.14  
-                                Iterations  =  13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.14  
+                                Iterations  =  12  
                                    Total H  =  1.110157e+02
                                    Total O  =  5.552833e+01
-
--------------------------------
-End of Run after 0.088 Seconds.
--------------------------------
 

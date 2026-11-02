@@ -1,4 +1,3 @@
-WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: current1
   Output file: current1.out
 Database file: ../database/wateq4f.dat
@@ -64,26 +63,26 @@ Initial solution 0.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000    
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   2.724e-17
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.735e-11
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   4
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000      
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = -9.384e-18 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.735e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  4   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             1.371e-07   9.239e-08    -6.863    -7.034    -0.171     (0)  
    H+              1.371e-07   1.072e-07    -6.863    -6.970    -0.107      0.00
+   OH-             1.371e-07   9.239e-08    -6.863    -7.034    -0.171     (0)  
    H2O             5.551e+01   9.898e-01     1.744    -0.004     0.000     18.07
 Cl            3.000e-01
    Cl-             3.000e-01   2.043e-01    -0.523    -0.690    -0.167     (0)  
@@ -117,18 +116,18 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000    
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.668e-18
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -4.088e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   4 (8 overall)
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000      
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -9.269e-19 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -4.088e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   4    (8 overall)
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -170,19 +169,19 @@ Initial solution 101.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000    
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =  -7.911e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  3.00
-                  Electrical balance (eq)  =  -1.735e-11
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   4 (12 overall)
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000      
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = -9.384e-18 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  3.00 
+                   Electrical balance (eq)  =  -1.735e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   4    (12 overall)
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -238,26 +237,26 @@ H2(g)           -24.54   -27.69     -3.15    0.000e+00           0   0.000e+00
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   5.300      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   2.755e-17
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.783e-11
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   1
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  6.970        Charge balance
+                                        pe  =  5.300        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = -9.081e-18 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.783e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  1   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             1.371e-07   9.239e-08    -6.863    -7.034    -0.171     (0)  
    H+              1.371e-07   1.072e-07    -6.863    -6.970    -0.107      0.00
+   OH-             1.371e-07   9.239e-08    -6.863    -7.034    -0.171     (0)  
    H2O             5.551e+01   9.898e-01     1.744    -0.004     0.000     18.07
 Cl            3.000e-01
    Cl-             3.000e-01   2.043e-01    -0.523    -0.690    -0.167     (0)  
@@ -382,18 +381,18 @@ Using solution 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.668e-18
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -4.088e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0 (1 overall)
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -9.269e-19 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -4.088e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   0    (1 overall)
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -446,19 +445,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -508,19 +507,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -570,19 +569,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -632,19 +631,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -694,19 +693,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -756,19 +755,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -818,19 +817,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -880,19 +879,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -942,19 +941,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1004,19 +1003,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1066,19 +1065,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1128,19 +1127,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1190,19 +1189,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1252,19 +1251,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1314,19 +1313,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1376,19 +1375,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1438,19 +1437,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1500,19 +1499,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1562,19 +1561,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1624,19 +1623,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1702,19 +1701,19 @@ Using solution 50.	Solution after simulation 2.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.49
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0 (1 overall)
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.49 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   0    (1 overall)
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1767,19 +1766,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.970      Charge balance
-                                       pe  =   4.000      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.000e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =  -6.336e-18
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -4.212e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   0
-                                  Total H  = 2.615453e-02
-                                  Total O  = 1.307726e-02
+                                        pH  =  6.970        Charge balance
+                                        pe  =  4.000        Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.000e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = -5.958e-19 
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -4.212e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  0   
+                                   Total H  =  2.615453e-02
+                                   Total O  =  1.307726e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1829,19 +1828,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   9.948      Charge balance
-                                       pe  =  -7.796      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   2.997e-01
-                       Mass of water (kg)  =   2.356e-04
-                 Total alkalinity (eq/kg)  =   1.304e-04
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -2.586e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.615489e-02
-                                  Total O  = 1.307746e-02
+                                        pH  =  9.948        Charge balance
+                                        pe  =  -7.796       Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  2.997e-01  
+                        Mass of water (kg)  =  2.356e-04  
+                   Total alkalinity (eq/kg)  = 1.304e-04  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -2.586e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.615489e-02
+                                   Total O  =  1.307746e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1854,11 +1853,11 @@ Mixture 50.
 Cl            2.996e-01
    Cl-             2.996e-01   2.040e-01    -0.524    -0.690    -0.167     (0)  
 H(0)          6.559e-08
-   H2              3.280e-08   3.514e-08    -7.484    -7.454     0.030     (0)  
+   H2              3.279e-08   3.514e-08    -7.484    -7.454     0.030     (0)  
 Na            2.997e-01
    Na+             2.997e-01   2.171e-01    -0.523    -0.663    -0.140     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -77.510   -77.481     0.030     (0)  
+   O2              0.000e+00   0.000e+00   -77.510   -77.480     0.030     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1891,19 +1890,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  10.885      Charge balance
-                                       pe  =  -8.708      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   2.945e-01
-                       Mass of water (kg)  =   2.357e-04
-                 Total alkalinity (eq/kg)  =   1.127e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.030e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.616374e-02
-                                  Total O  = 1.308200e-02
+                                        pH  =  10.885       Charge balance
+                                        pe  =  -8.708       Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  2.945e-01  
+                        Mass of water (kg)  =  2.357e-04  
+                   Total alkalinity (eq/kg)  = 1.127e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.030e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.616374e-02
+                                   Total O  =  1.308200e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1915,12 +1914,12 @@ Mixture 50.
    H2O             5.551e+01   9.900e-01     1.744    -0.004     0.000     18.07
 Cl            2.934e-01
    Cl-             2.934e-01   2.002e-01    -0.533    -0.699    -0.166     (0)  
-H(0)          5.861e-08
-   H2              2.931e-08   3.136e-08    -7.533    -7.504     0.029     (0)  
+H(0)          5.852e-08
+   H2              2.926e-08   3.132e-08    -7.534    -7.504     0.029     (0)  
 Na            2.945e-01
    Na+             2.945e-01   2.136e-01    -0.531    -0.670    -0.139     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -77.411   -77.382     0.029     (0)  
+   O2              0.000e+00   0.000e+00   -77.410   -77.380     0.029     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1953,19 +1952,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.194      Charge balance
-                                       pe  =  -8.975      Adjusted to redox equilibrium
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   2.836e-01
-                       Mass of water (kg)  =   2.359e-04
-                 Total alkalinity (eq/kg)  =   2.284e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.045e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.618984e-02
-                                  Total O  = 1.309519e-02
+                                        pH  =  11.194       Charge balance
+                                        pe  =  -8.981       Adjusted to redox equilibrium
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  2.836e-01  
+                        Mass of water (kg)  =  2.359e-04  
+                   Total alkalinity (eq/kg)  = 2.284e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.045e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.618984e-02
+                                   Total O  =  1.309519e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -1977,21 +1976,21 @@ Mixture 50.
    H2O             5.551e+01   9.904e-01     1.744    -0.004     0.000     18.07
 Cl            2.813e-01
    Cl-             2.813e-01   1.928e-01    -0.551    -0.715    -0.164     (0)  
-H(0)          4.849e-08
-   H2              2.425e-08   2.588e-08    -7.615    -7.587     0.028     (0)  
+H(0)          4.968e-08
+   H2              2.484e-08   2.652e-08    -7.605    -7.576     0.028     (0)  
 Na            2.836e-01
    Na+             2.836e-01   2.062e-01    -0.547    -0.686    -0.139     (0)  
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -77.243   -77.214     0.028     (0)  
+   O2              0.000e+00   0.000e+00   -77.264   -77.236     0.028     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  H2(g)            -4.44     -7.59   -3.15  H2
+  H2(g)            -4.43     -7.58   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -2.98     -1.40    1.58  NaCl
-  O2(g)           -74.32    -77.21   -2.89  O2
+  O2(g)           -74.34    -77.24   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2015,19 +2014,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.365      Charge balance
-                                       pe  =   8.295      Adjusted to redox equilibrium
-                        Activity of water  =   0.991
-                 Ionic strength (mol/kgw)  =   2.690e-01
-                       Mass of water (kg)  =   2.363e-04
-                 Total alkalinity (eq/kg)  =   3.370e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.046e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.623370e-02
-                                  Total O  = 1.311725e-02
+                                        pH  =  11.365       Charge balance
+                                        pe  =  8.295        Adjusted to redox equilibrium
+                         Activity of water  =  0.991  
+                  Ionic strength (mol/kgw)  =  2.690e-01  
+                        Mass of water (kg)  =  2.363e-04  
+                   Total alkalinity (eq/kg)  = 3.370e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.046e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.623370e-02
+                                   Total O  =  1.311725e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2040,11 +2039,11 @@ Mixture 50.
 Cl            2.656e-01
    Cl-             2.656e-01   1.831e-01    -0.576    -0.737    -0.162     (0)  
 H(0)          0.000e+00
-   H2              0.000e+00   0.000e+00   -42.499   -42.472     0.027     (0)  
+   H2              0.000e+00   0.000e+00   -42.497   -42.470     0.027     (0)  
 Na            2.690e-01
    Na+             2.690e-01   1.961e-01    -0.570    -0.707    -0.137     (0)  
-O(0)          6.751e-08
-   O2              3.376e-08   3.591e-08    -7.472    -7.445     0.027     (0)  
+O(0)          6.714e-08
+   O2              3.357e-08   3.571e-08    -7.474    -7.447     0.027     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2053,7 +2052,7 @@ O(0)          6.751e-08
   H2(g)           -39.32    -42.47   -3.15  H2
   H2O(g)           -1.51     -0.00    1.51  H2O
   Halite           -3.03     -1.44    1.58  NaCl
-  O2(g)            -4.55     -7.44   -2.89  O2
+  O2(g)            -4.55     -7.45   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2077,19 +2076,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.479      Charge balance
-                                       pe  =   8.406      Adjusted to redox equilibrium
-                        Activity of water  =   0.991
-                 Ionic strength (mol/kgw)  =   2.517e-01
-                       Mass of water (kg)  =   2.369e-04
-                 Total alkalinity (eq/kg)  =   4.346e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.044e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.629497e-02
-                                  Total O  = 1.314800e-02
+                                        pH  =  11.479       Charge balance
+                                        pe  =  8.406        Adjusted to redox equilibrium
+                         Activity of water  =  0.991  
+                  Ionic strength (mol/kgw)  =  2.517e-01  
+                        Mass of water (kg)  =  2.369e-04  
+                   Total alkalinity (eq/kg)  = 4.346e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.044e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.629497e-02
+                                   Total O  =  1.314800e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2105,8 +2104,8 @@ H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -42.945   -42.920     0.025     (0)  
 Na            2.517e-01
    Na+             2.517e-01   1.843e-01    -0.599    -0.734    -0.135     (0)  
-O(0)          5.348e-07
-   O2              2.674e-07   2.833e-07    -6.573    -6.548     0.025     (0)  
+O(0)          5.340e-07
+   O2              2.670e-07   2.829e-07    -6.574    -6.548     0.025     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2139,19 +2138,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.560      Charge balance
-                                       pe  =   8.455      Adjusted to redox equilibrium
-                        Activity of water  =   0.992
-                 Ionic strength (mol/kgw)  =   2.324e-01
-                       Mass of water (kg)  =   2.376e-04
-                 Total alkalinity (eq/kg)  =   5.193e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.039e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.637310e-02
-                                  Total O  = 1.318717e-02
+                                        pH  =  11.560       Charge balance
+                                        pe  =  8.455        Adjusted to redox equilibrium
+                         Activity of water  =  0.992  
+                  Ionic strength (mol/kgw)  =  2.324e-01  
+                        Mass of water (kg)  =  2.376e-04  
+                   Total alkalinity (eq/kg)  = 5.193e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.039e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.637310e-02
+                                   Total O  =  1.318717e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2168,7 +2167,7 @@ H(0)          0.000e+00
 Na            2.324e-01
    Na+             2.324e-01   1.711e-01    -0.634    -0.767    -0.133     (0)  
 O(0)          1.783e-06
-   O2              8.914e-07   9.404e-07    -6.050    -6.027     0.023     (0)  
+   O2              8.913e-07   9.402e-07    -6.050    -6.027     0.023     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2201,19 +2200,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.619      Charge balance
-                                       pe  =   8.487      Adjusted to redox equilibrium
-                        Activity of water  =   0.993
-                 Ionic strength (mol/kgw)  =   2.116e-01
-                       Mass of water (kg)  =   2.384e-04
-                 Total alkalinity (eq/kg)  =   5.888e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.032e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.646731e-02
-                                  Total O  = 1.323436e-02
+                                        pH  =  11.619       Charge balance
+                                        pe  =  8.487        Adjusted to redox equilibrium
+                         Activity of water  =  0.993  
+                  Ionic strength (mol/kgw)  =  2.116e-01  
+                        Mass of water (kg)  =  2.384e-04  
+                   Total alkalinity (eq/kg)  = 5.888e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.032e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.646731e-02
+                                   Total O  =  1.323436e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2229,7 +2228,7 @@ H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -43.384   -43.363     0.021     (0)  
 Na            2.116e-01
    Na+             2.116e-01   1.567e-01    -0.675    -0.805    -0.130     (0)  
-O(0)          4.166e-06
+O(0)          4.165e-06
    O2              2.083e-06   2.187e-06    -5.681    -5.660     0.021     (0)  
 
 ------------------------------Saturation indices-------------------------------
@@ -2263,19 +2262,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.661      Charge balance
-                                       pe  =   8.514      Adjusted to redox equilibrium
-                        Activity of water  =   0.994
-                 Ionic strength (mol/kgw)  =   1.897e-01
-                       Mass of water (kg)  =   2.394e-04
-                 Total alkalinity (eq/kg)  =   6.405e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.022e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.657653e-02
-                                  Total O  = 1.328903e-02
+                                        pH  =  11.661       Charge balance
+                                        pe  =  8.514        Adjusted to redox equilibrium
+                         Activity of water  =  0.994  
+                  Ionic strength (mol/kgw)  =  1.897e-01  
+                        Mass of water (kg)  =  2.394e-04  
+                   Total alkalinity (eq/kg)  = 6.405e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.022e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.657653e-02
+                                   Total O  =  1.328903e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2325,19 +2324,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.688      Charge balance
-                                       pe  =   8.541      Adjusted to redox equilibrium
-                        Activity of water  =   0.994
-                 Ionic strength (mol/kgw)  =   1.672e-01
-                       Mass of water (kg)  =   2.405e-04
-                 Total alkalinity (eq/kg)  =   6.728e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.48
-                  Electrical balance (eq)  =  -3.011e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.669948e-02
-                                  Total O  = 1.335055e-02
+                                        pH  =  11.688       Charge balance
+                                        pe  =  8.541        Adjusted to redox equilibrium
+                         Activity of water  =  0.994  
+                  Ionic strength (mol/kgw)  =  1.672e-01  
+                        Mass of water (kg)  =  2.405e-04  
+                   Total alkalinity (eq/kg)  = 6.728e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.48 
+                   Electrical balance (eq)  =  -3.011e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.669948e-02
+                                   Total O  =  1.335055e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2353,8 +2352,8 @@ H(0)          0.000e+00
    H2              0.000e+00   0.000e+00   -43.624   -43.608     0.017     (0)  
 Na            1.672e-01
    Na+             1.672e-01   1.259e-01    -0.777    -0.900    -0.123     (0)  
-O(0)          1.302e-05
-   O2              6.508e-06   6.763e-06    -5.187    -5.170     0.017     (0)  
+O(0)          1.301e-05
+   O2              6.507e-06   6.763e-06    -5.187    -5.170     0.017     (0)  
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2387,19 +2386,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.702      Charge balance
-                                       pe  =   8.570      Adjusted to redox equilibrium
-                        Activity of water  =   0.995
-                 Ionic strength (mol/kgw)  =   1.447e-01
-                       Mass of water (kg)  =   2.417e-04
-                 Total alkalinity (eq/kg)  =   6.842e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.47
-                  Electrical balance (eq)  =  -2.998e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.683459e-02
-                                  Total O  = 1.341812e-02
+                                        pH  =  11.702       Charge balance
+                                        pe  =  8.570        Adjusted to redox equilibrium
+                         Activity of water  =  0.995  
+                  Ionic strength (mol/kgw)  =  1.447e-01  
+                        Mass of water (kg)  =  2.417e-04  
+                   Total alkalinity (eq/kg)  = 6.842e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.47 
+                   Electrical balance (eq)  =  -2.998e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.683459e-02
+                                   Total O  =  1.341812e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2449,19 +2448,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.703      Charge balance
-                                       pe  =   8.605      Adjusted to redox equilibrium
-                        Activity of water  =   0.996
-                 Ionic strength (mol/kgw)  =   1.227e-01
-                       Mass of water (kg)  =   2.430e-04
-                 Total alkalinity (eq/kg)  =   6.742e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.47
-                  Electrical balance (eq)  =  -2.985e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.697998e-02
-                                  Total O  = 1.349082e-02
+                                        pH  =  11.703       Charge balance
+                                        pe  =  8.605        Adjusted to redox equilibrium
+                         Activity of water  =  0.996  
+                  Ionic strength (mol/kgw)  =  1.227e-01  
+                        Mass of water (kg)  =  2.430e-04  
+                   Total alkalinity (eq/kg)  = 6.742e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.47 
+                   Electrical balance (eq)  =  -2.985e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.697998e-02
+                                   Total O  =  1.349082e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2511,19 +2510,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.690      Charge balance
-                                       pe  =   8.647      Adjusted to redox equilibrium
-                        Activity of water  =   0.997
-                 Ionic strength (mol/kgw)  =   1.016e-01
-                       Mass of water (kg)  =   2.444e-04
-                 Total alkalinity (eq/kg)  =   6.433e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.47
-                  Electrical balance (eq)  =  -2.972e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.713350e-02
-                                  Total O  = 1.356754e-02
+                                        pH  =  11.690       Charge balance
+                                        pe  =  8.647        Adjusted to redox equilibrium
+                         Activity of water  =  0.997  
+                  Ionic strength (mol/kgw)  =  1.016e-01  
+                        Mass of water (kg)  =  2.444e-04  
+                   Total alkalinity (eq/kg)  = 6.433e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.47 
+                   Electrical balance (eq)  =  -2.972e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.713350e-02
+                                   Total O  =  1.356754e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2573,19 +2572,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.664      Charge balance
-                                       pe  =   8.699      Adjusted to redox equilibrium
-                        Activity of water  =   0.997
-                 Ionic strength (mol/kgw)  =   8.204e-02
-                       Mass of water (kg)  =   2.458e-04
-                 Total alkalinity (eq/kg)  =   5.933e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.46
-                  Electrical balance (eq)  =  -2.960e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.729270e-02
-                                  Total O  = 1.364709e-02
+                                        pH  =  11.664       Charge balance
+                                        pe  =  8.699        Adjusted to redox equilibrium
+                         Activity of water  =  0.997  
+                  Ionic strength (mol/kgw)  =  8.204e-02  
+                        Mass of water (kg)  =  2.458e-04  
+                   Total alkalinity (eq/kg)  = 5.933e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.46 
+                   Electrical balance (eq)  =  -2.960e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.729270e-02
+                                   Total O  =  1.364709e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2635,19 +2634,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.623      Charge balance
-                                       pe  =   8.762      Adjusted to redox equilibrium
-                        Activity of water  =   0.998
-                 Ionic strength (mol/kgw)  =   6.445e-02
-                       Mass of water (kg)  =   2.473e-04
-                 Total alkalinity (eq/kg)  =   5.279e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.45
-                  Electrical balance (eq)  =  -2.950e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.745492e-02
-                                  Total O  = 1.372813e-02
+                                        pH  =  11.623       Charge balance
+                                        pe  =  8.762        Adjusted to redox equilibrium
+                         Activity of water  =  0.998  
+                  Ionic strength (mol/kgw)  =  6.445e-02  
+                        Mass of water (kg)  =  2.473e-04  
+                   Total alkalinity (eq/kg)  = 5.279e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.45 
+                   Electrical balance (eq)  =  -2.950e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.745492e-02
+                                   Total O  =  1.372813e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2697,19 +2696,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.566      Charge balance
-                                       pe  =   8.838      Adjusted to redox equilibrium
-                        Activity of water  =   0.998
-                 Ionic strength (mol/kgw)  =   4.926e-02
-                       Mass of water (kg)  =   2.488e-04
-                 Total alkalinity (eq/kg)  =   4.528e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.44
-                  Electrical balance (eq)  =  -2.942e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.761738e-02
-                                  Total O  = 1.380927e-02
+                                        pH  =  11.566       Charge balance
+                                        pe  =  8.838        Adjusted to redox equilibrium
+                         Activity of water  =  0.998  
+                  Ionic strength (mol/kgw)  =  4.926e-02  
+                        Mass of water (kg)  =  2.488e-04  
+                   Total alkalinity (eq/kg)  = 4.528e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.44 
+                   Electrical balance (eq)  =  -2.942e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.761738e-02
+                                   Total O  =  1.380927e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2759,19 +2758,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.494      Charge balance
-                                       pe  =   8.927      Adjusted to redox equilibrium
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   3.676e-02
-                       Mass of water (kg)  =   2.502e-04
-                 Total alkalinity (eq/kg)  =   3.751e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.43
-                  Electrical balance (eq)  =  -2.937e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.777734e-02
-                                  Total O  = 1.388916e-02
+                                        pH  =  11.494       Charge balance
+                                        pe  =  8.927        Adjusted to redox equilibrium
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  3.676e-02  
+                        Mass of water (kg)  =  2.502e-04  
+                   Total alkalinity (eq/kg)  = 3.751e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.43 
+                   Electrical balance (eq)  =  -2.937e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.777734e-02
+                                   Total O  =  1.388916e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2821,19 +2820,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.410      Charge balance
-                                       pe  =   9.026      Adjusted to redox equilibrium
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   2.705e-02
-                       Mass of water (kg)  =   2.516e-04
-                 Total alkalinity (eq/kg)  =   3.025e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.42
-                  Electrical balance (eq)  =  -2.934e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.793244e-02
-                                  Total O  = 1.396663e-02
+                                        pH  =  11.410       Charge balance
+                                        pe  =  9.026        Adjusted to redox equilibrium
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  2.705e-02  
+                        Mass of water (kg)  =  2.516e-04  
+                   Total alkalinity (eq/kg)  = 3.025e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.42 
+                   Electrical balance (eq)  =  -2.934e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.793244e-02
+                                   Total O  =  1.396663e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2883,19 +2882,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.320      Charge balance
-                                       pe  =   9.130      Adjusted to redox equilibrium
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   1.991e-02
-                       Mass of water (kg)  =   2.529e-04
-                 Total alkalinity (eq/kg)  =   2.410e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.40
-                  Electrical balance (eq)  =  -2.933e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.808102e-02
-                                  Total O  = 1.404084e-02
+                                        pH  =  11.320       Charge balance
+                                        pe  =  9.130        Adjusted to redox equilibrium
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  1.991e-02  
+                        Mass of water (kg)  =  2.529e-04  
+                   Total alkalinity (eq/kg)  = 2.410e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.40 
+                   Electrical balance (eq)  =  -2.933e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.808102e-02
+                                   Total O  =  1.404084e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2945,19 +2944,19 @@ Mixture 50.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =  11.230      Charge balance
-                                       pe  =   9.231      Adjusted to redox equilibrium
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   1.491e-02
-                       Mass of water (kg)  =   2.542e-04
-                 Total alkalinity (eq/kg)  =   1.929e-03
-                         Temperature (°C)  =  25.00
-              Electrical Potential (Volt)  =  1.38
-                  Electrical balance (eq)  =  -2.932e-12
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   2
-                                  Total H  = 2.822232e-02
-                                  Total O  = 1.411144e-02
+                                        pH  =  11.230       Charge balance
+                                        pe  =  9.231        Adjusted to redox equilibrium
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  1.491e-02  
+                        Mass of water (kg)  =  2.542e-04  
+                   Total alkalinity (eq/kg)  = 1.929e-03  
+                          Temperature (°C)  =  25.00 
+               Electrical Potential (Volt)  =  1.38 
+                   Electrical balance (eq)  =  -2.932e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  2   
+                                   Total H  =  2.822232e-02
+                                   Total O  =  1.411144e-02
 
 ----------------------------Distribution of species----------------------------
 
@@ -2995,4 +2994,8 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 4.
 ------------------------------------
+
+-------------------------------
+End of Run after 4.775 Seconds.
+-------------------------------
 

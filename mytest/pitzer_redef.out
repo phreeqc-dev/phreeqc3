@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -56,23 +55,23 @@ Initial solution 11.
 
 	Ca                1.850e-02   1.850e-02
 	Na                3.824e+00   3.824e+00
-	S(6)              1.931e+00   1.931e+00
+	S(6)              1.930e+00   1.930e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.391        Charge balance
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  116997    
+       Specific Conductance (µS/cm,  25°C)  =  117221    
                            Density (g/cm³)  =  1.20451  
                                 Volume (L)  =  1.05778  
-                         Viscosity (mPa s)  =  2.19862  
+                         Viscosity (mPa s)  =  2.19839  
                          Activity of water  =  0.937  
                   Ionic strength (mol/kgw)  =  5.810e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.007e-16  
+                   Total alkalinity (eq/kg)  = 6.467e-16  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -7.008e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  5.107e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  13  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.62860  
@@ -93,7 +92,7 @@ Ca            1.850e-02
    Ca+2            1.850e-02   7.454e-04    -1.733    -3.128    -1.395    -14.35
 Na            3.824e+00
    Na+             3.824e+00   1.654e+00     0.583     0.219    -0.364      1.21
-S(6)          1.931e+00
+S(6)          1.930e+00
    SO4-2           1.930e+00   3.923e-02     0.286    -1.406    -1.692     26.13
    HSO4-           3.622e-07   1.549e-07    -6.441    -6.810    -0.369     42.02
 
@@ -120,8 +119,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.014 Seconds.
--------------------------------
 

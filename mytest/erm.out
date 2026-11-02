@@ -92,10 +92,10 @@ sys Na =   1.0000e-04 sys("K") =   1.0000e-04 sys("Cl") =   2.0000e-04          
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.000e-03  
                         Mass of water (kg)  =  1.000e-01  
-                  Total alkalinity (eq/kg)  =  -5.296e-20 
+                   Total alkalinity (eq/kg)  = -6.531e-20 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.223e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.245e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  3   
                                    Total H  =  1.110124e+01
                                    Total O  =  5.550622e+00
@@ -243,10 +243,10 @@ Su
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.000e-03  
                         Mass of water (kg)  =  1.000e-01  
-                  Total alkalinity (eq/kg)  =  -2.565e-15 
+                   Total alkalinity (eq/kg)  = -2.565e-15 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  3.055e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   0    (6 overall)
                                    Total H  =  1.110124e+01
                                    Total O  =  5.550622e+00
@@ -262,20 +262,20 @@ Su
 Cl            2.000e-03
    Cl-             2.000e-03   1.903e-03    -2.699    -2.721    -0.022     18.09
    HCl             6.591e-11   6.604e-11   -10.181   -10.180     0.001     20.36
-H(0)          9.662e-15
-   H2              4.831e-15   4.834e-15   -14.316   -14.316     0.000     14.99
+H(0)          9.681e-15
+   H2              4.841e-15   4.843e-15   -14.315   -14.315     0.000     14.99
 K             1.000e-03
    K+              1.000e-03   9.513e-04    -3.000    -3.022    -0.022      9.02
 Na            1.000e-03
    Na+             1.000e-03   9.520e-04    -3.000    -3.021    -0.021     -1.46
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -63.731   -63.731     0.000     30.40
+   O2              0.000e+00   0.000e+00   -63.733   -63.733     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  H2(g)           -11.22    -14.32   -3.10  H2
+  H2(g)           -11.22    -14.31   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Halite           -7.31     -5.74    1.57  NaCl
   O2(g)           -60.84    -63.73   -2.89  O2
@@ -325,10 +325,10 @@ sys Na =            0 sys("K") =   1.0000e-03 sys("Cl") =   1.0000e-03          
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.000e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.417e-09  
+                   Total alkalinity (eq/kg)  = 1.417e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.417e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  3   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -426,14 +426,14 @@ Su
        Specific Conductance (µS/cm,  25°C)  =  140       
                            Density (g/cm³)  =  0.99709  
                                 Volume (L)  =  1.00299  
-                         Viscosity (mPa s)  =  0.89017  
+                         Viscosity (mPa s)  =  0.89016  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.663e-08  
+                   Total alkalinity (eq/kg)  = 3.663e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.429e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   0    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -449,14 +449,14 @@ Su
 Cl            1.000e-03
    Cl-             1.000e-03   9.652e-04    -3.000    -3.015    -0.016     18.07
    HCl             2.808e-11   2.811e-11   -10.552   -10.551     0.000     20.36
-H(0)          4.538e-39
+H(0)          4.539e-39
    H2              2.269e-39   2.270e-39   -38.644   -38.644     0.000     14.99
 K             7.426e-04
    K+              7.426e-04   7.165e-04    -3.129    -3.145    -0.016      9.01
 Na            2.578e-04
    Na+             2.578e-04   2.488e-04    -3.589    -3.604    -0.015     -1.48
 O(0)          1.684e-15
-   O2              8.422e-16   8.424e-16   -15.075   -15.075     0.000     30.40
+   O2              8.420e-16   8.422e-16   -15.075   -15.075     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -478,8 +478,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
-------------------------------
-End of Run after 0.02 Seconds.
-------------------------------
 

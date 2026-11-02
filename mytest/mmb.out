@@ -84,10 +84,10 @@ sys_Ca =   1.0000e-06 a_Ca =   8.6845e-07 a_Na =   9.6513e-04
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.003e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.419e-09  
+                   Total alkalinity (eq/kg)  = 1.419e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.978e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  6   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -166,17 +166,17 @@ sys_Ca =            0 a_Ca =   1.0000e-99 a_Na =   3.5876e-01
 
                                         pH  =  7.000      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  46282     
+       Specific Conductance (µS/cm,  25°C)  =  46256     
                            Density (g/cm³)  =  1.01702  
                                 Volume (L)  =  0.62348  
-                         Viscosity (mPa s)  =  0.92995  
+                         Viscosity (mPa s)  =  0.92992  
                          Activity of water  =  0.983  
                   Ionic strength (mol/kgw)  =  5.000e-01  
                         Mass of water (kg)  =  6.161e-01  
-                  Total alkalinity (eq/kg)  =  1.962e-08  
+                   Total alkalinity (eq/kg)  = 1.962e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.138e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                                    Total H  =  6.839365e+01
                                    Total O  =  3.419683e+01
@@ -275,7 +275,7 @@ sys_Ca =            0 a_Ca =   1.0000e-99 a_Na =   3.5876e-01
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	  2.651e-10  Surface + diffuse layer charge, eq
+	  2.571e-10  Surface + diffuse layer charge, eq
 	 -1.000e-01  Surface charge, eq
 	 -9.649e-03  sigma, C/m²
 	 -5.963e-03  psi, V
@@ -314,18 +314,18 @@ Su
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.000        Charge balance
-                                        pe  =  -1.397       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  46282     
+                                        pe  =  -1.395       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  46256     
                            Density (g/cm³)  =  1.01702  
                                 Volume (L)  =  0.62348  
-                         Viscosity (mPa s)  =  0.92995  
+                         Viscosity (mPa s)  =  0.92992  
                          Activity of water  =  0.983  
                   Ionic strength (mol/kgw)  =  5.000e-01  
                         Mass of water (kg)  =  6.161e-01  
-                  Total alkalinity (eq/kg)  =  1.962e-08  
+                   Total alkalinity (eq/kg)  = 1.962e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  8.781e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   0    (11 overall)
                                    Total H  =  6.839365e+01
                                    Total O  =  3.419683e+01
@@ -341,12 +341,12 @@ Su
 Cl            5.000e-01
    Cl-             5.000e-01   3.249e-01    -0.301    -0.488    -0.187     18.69
    HCl             6.858e-09   1.119e-08    -8.164    -7.951     0.213     20.36
-H(0)          7.814e-15
-   H2              3.907e-15   4.409e-15   -14.408   -14.356     0.053     14.99
+H(0)          7.727e-15
+   H2              3.863e-15   4.360e-15   -14.413   -14.361     0.053     14.99
 Na            5.000e-01
    Na+             5.000e-01   3.588e-01    -0.301    -0.445    -0.144     -0.63
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -63.716   -63.666     0.050     30.40
+   O2              0.000e+00   0.000e+00   -63.706   -63.656     0.050     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -355,7 +355,7 @@ O(0)          0.000e+00
   H2(g)           -11.26    -14.36   -3.10  H2
   H2O(g)           -1.51     -0.01    1.50  H2O
   Halite           -2.50     -0.93    1.57  NaCl
-  O2(g)           -60.77    -63.67   -2.89  O2
+  O2(g)           -60.76    -63.66   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -384,52 +384,48 @@ Calculating transport: 1 (mobile) cells, 8 shifts, 2520 mixruns...
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   1.2089e-07 total water   1.0000e+00   7.0015e+00 Na =   1.1052e-03 Cl =   1.1060e-03 
+EB =   1.2249e-07 total water   1.0000e+00   7.0015e+00 Na =   1.1052e-03 Cl =   1.1060e-03 
 sys_Ca =   7.8594e-03 a_Ca =   4.4762e-07 a_Na =   1.0648e-03 
 
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   5.0599e-07 total water   1.0000e+00   7.0008e+00 Na =   1.0047e-03 Cl =   1.0058e-03 
+EB =   5.0759e-07 total water   1.0000e+00   7.0008e+00 Na =   1.0047e-03 Cl =   1.0058e-03 
 sys_Ca =   1.3398e-02 a_Ca =   8.4127e-07 a_Na =   9.6955e-04 
 
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   5.0445e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0006e-03 Cl =   1.0018e-03 
+EB =   5.0605e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0006e-03 Cl =   1.0018e-03 
 sys_Ca =   1.3698e-02 a_Ca =   8.6760e-07 a_Na =   9.6575e-04 
 
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   4.8195e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0004e-03 Cl =   1.0016e-03 
+EB =   4.8355e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0004e-03 Cl =   1.0016e-03 
 sys_Ca =   1.3715e-02 a_Ca =   8.6904e-07 a_Na =   9.6552e-04 
 
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   4.5822e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0004e-03 Cl =   1.0016e-03 
+EB =   4.5982e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0004e-03 Cl =   1.0016e-03 
 sys_Ca =   1.3716e-02 a_Ca =   8.6909e-07 a_Na =   9.6549e-04 
 
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   4.3442e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0004e-03 Cl =   1.0016e-03 
+EB =   4.3602e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0004e-03 Cl =   1.0016e-03 
 sys_Ca =   1.3716e-02 a_Ca =   8.6906e-07 a_Na =   9.6547e-04 
 
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   4.1062e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0003e-03 Cl =   1.0017e-03 
+EB =   4.1222e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0003e-03 Cl =   1.0017e-03 
 sys_Ca =   1.3716e-02 a_Ca =   8.6903e-07 a_Na =   9.6545e-04 
 
 ----------------------------------User print-----------------------------------
 
 solution =            1 
-EB =   3.8683e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0003e-03 Cl =   1.0017e-03 
-sys_Ca =   1.3716e-02 a_Ca =   8.6899e-07 a_Na =   9.6543e-04 
-
--------------------------------
-End of Run after 3.475 Seconds.
--------------------------------
+EB =   3.8843e-07 total water   1.0000e+00   7.0001e+00 Na =   1.0003e-03 Cl =   1.0017e-03 
+sys_Ca =   1.3716e-02 a_Ca =   8.6900e-07 a_Na =   9.6543e-04 
 

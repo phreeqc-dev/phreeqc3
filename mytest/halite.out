@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -70,10 +69,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.212e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.382e-22  
+                   Total alkalinity (eq/kg)  = 2.382e-22  
                           Temperature (°C)  =  30.00 
                    Electrical balance (eq)  =  -2.382e-22 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  5   
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99986  
@@ -128,17 +127,17 @@ Halite            0.00     1.59      1.59    1.000e+01   3.848e+00  -6.152e+00
 
                                         pH  =  6.300        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  274747    
+       Specific Conductance (µS/cm,  30°C)  =  277326    
                            Density (g/cm³)  =  1.19549  
                                 Volume (L)  =  1.13722  
-                         Viscosity (mPa s)  =  1.58896  
+                         Viscosity (mPa s)  =  1.58877  
                          Activity of water  =  0.752  
                   Ionic strength (mol/kgw)  =  6.152e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.492e-16  
+                   Total alkalinity (eq/kg)  = -1.863e-16 
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  -2.986e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.198e-13 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  16  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.28654  
@@ -152,8 +151,8 @@ Halite            0.00     1.59      1.59    1.000e+01   3.848e+00  -6.152e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             6.700e-08   2.204e-08    -7.174    -7.657    -0.483      5.18
    H+              6.700e-08   5.008e-07    -7.174    -6.300     0.874      0.00
+   OH-             6.700e-08   2.204e-08    -7.174    -7.657    -0.483      5.18
    H2O             5.551e+01   7.519e-01     1.744    -0.124     0.000     18.09
 Cl            6.152e+00
    Cl-             6.152e+00   3.830e+00     0.789     0.583    -0.206     20.22
@@ -181,7 +180,7 @@ Using pressure 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite            0.00     1.61      1.61    1.000e+01   3.788e+00  -6.212e+00
+Halite           -0.00     1.61      1.61    1.000e+01   3.788e+00  -6.212e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -194,18 +193,18 @@ Halite            0.00     1.61      1.61    1.000e+01   3.788e+00  -6.212e+00
 
                                         pH  =  6.271        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  277136    
+       Specific Conductance (µS/cm,  30°C)  =  280225    
                            Density (g/cm³)  =  1.20333  
                                 Volume (L)  =  1.13275  
-                         Viscosity (mPa s)  =  1.60105  
+                         Viscosity (mPa s)  =  1.60086  
                          Activity of water  =  0.748  
                   Ionic strength (mol/kgw)  =  6.212e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.731e-16  
+                   Total alkalinity (eq/kg)  = 2.377e-16  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  223.11
-                   Electrical balance (eq)  =  -3.953e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.235e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  16  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.29421  
@@ -232,7 +231,7 @@ Na            6.212e+00
   Phase               SI** log IAP   log K(303 K, 223 atm)
 
   H2O(g)           -1.43     -0.13    1.31  H2O
-  Halite            0.00      1.61    1.61  NaCl
+  Halite           -0.00      1.61    1.61  NaCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -248,7 +247,7 @@ Using pressure 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite            0.00     1.63      1.63    1.000e+01   3.742e+00  -6.258e+00
+Halite           -0.00     1.63      1.63    1.000e+01   3.742e+00  -6.258e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -261,18 +260,18 @@ Halite            0.00     1.63      1.63    1.000e+01   3.742e+00  -6.258e+00
 
                                         pH  =  6.244        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  279005    
+       Specific Conductance (µS/cm,  30°C)  =  282599    
                            Density (g/cm³)  =  1.21068  
                                 Volume (L)  =  1.12807  
-                         Viscosity (mPa s)  =  1.61273  
+                         Viscosity (mPa s)  =  1.61255  
                          Activity of water  =  0.746  
                   Ionic strength (mol/kgw)  =  6.258e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.307e-16 
+                   Total alkalinity (eq/kg)  = 5.259e-16  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  445.22
-                   Electrical balance (eq)  =  -5.228e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.633e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  16  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.30052  
@@ -286,8 +285,8 @@ Halite            0.00     1.63      1.63    1.000e+01   3.742e+00  -6.258e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              7.215e-08   5.695e-07    -7.142    -6.244     0.897      0.00
    OH-             7.215e-08   2.370e-08    -7.142    -7.625    -0.483      6.03
+   H+              7.215e-08   5.695e-07    -7.142    -6.244     0.897      0.00
    H2O             5.551e+01   7.458e-01     1.744    -0.127     0.000     17.75
 Cl            6.258e+00
    Cl-             6.258e+00   3.941e+00     0.796     0.596    -0.201     20.21
@@ -299,7 +298,7 @@ Na            6.258e+00
   Phase               SI** log IAP   log K(303 K, 445 atm)
 
   H2O(g)           -1.37     -0.13    1.24  H2O
-  Halite            0.00      1.63    1.63  NaCl
+  Halite           -0.00      1.63    1.63  NaCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -328,19 +327,19 @@ Halite            0.00     1.64      1.64    1.000e+01   3.709e+00  -6.291e+00
 
                                         pH  =  6.221        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  280334    
+       Specific Conductance (µS/cm,  30°C)  =  284423    
                            Density (g/cm³)  =  1.21760  
                                 Volume (L)  =  1.12326  
-                         Viscosity (mPa s)  =  1.62456  
+                         Viscosity (mPa s)  =  1.62438  
                          Activity of water  =  0.744  
                   Ionic strength (mol/kgw)  =  6.291e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.078e-16  
+                   Total alkalinity (eq/kg)  = 4.162e-16  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  667.33
-                   Electrical balance (eq)  =  1.046e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  18  
+                   Electrical balance (eq)  =  3.489e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.30571  
                           Density of water  =  1.02378  
@@ -395,19 +394,19 @@ Halite            0.00     1.64      1.64    1.000e+01   3.685e+00  -6.315e+00
 
                                         pH  =  6.201        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  281139    
+       Specific Conductance (µS/cm,  30°C)  =  285723    
                            Density (g/cm³)  =  1.22422  
                                 Volume (L)  =  1.11834  
-                         Viscosity (mPa s)  =  1.63705  
+                         Viscosity (mPa s)  =  1.63686  
                          Activity of water  =  0.742  
                   Ionic strength (mol/kgw)  =  6.315e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.202e-17 
+                   Total alkalinity (eq/kg)  = 3.073e-16  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  889.44
-                   Electrical balance (eq)  =  1.955e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  18  
+                   Electrical balance (eq)  =  4.352e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.31003  
                           Density of water  =  1.03241  
@@ -420,8 +419,8 @@ Halite            0.00     1.64      1.64    1.000e+01   3.685e+00  -6.315e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              7.735e-08   6.297e-07    -7.112    -6.201     0.911      0.00
    OH-             7.735e-08   2.542e-08    -7.112    -7.595    -0.483      6.68
+   H+              7.735e-08   6.297e-07    -7.112    -6.201     0.911      0.00
    H2O             5.551e+01   7.422e-01     1.744    -0.129     0.000     17.45
 Cl            6.315e+00
    Cl-             6.315e+00   4.007e+00     0.800     0.603    -0.198     20.23
@@ -449,7 +448,7 @@ Using pressure 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite           -0.00     1.65      1.65    1.000e+01   3.667e+00  -6.333e+00
+Halite            0.00     1.65      1.65    1.000e+01   3.667e+00  -6.333e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -462,20 +461,20 @@ Halite           -0.00     1.65      1.65    1.000e+01   3.667e+00  -6.333e+00
 
                                         pH  =  6.182        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  281450    
+       Specific Conductance (µS/cm,  30°C)  =  286540    
                            Density (g/cm³)  =  1.23075  
-                                Volume (L)  =  1.11325  
-                         Viscosity (mPa s)  =  1.65079  
+                                Volume (L)  =  1.11326  
+                         Viscosity (mPa s)  =  1.65060  
                          Activity of water  =  0.741  
                   Ionic strength (mol/kgw)  =  6.333e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.831e-16  
+                   Total alkalinity (eq/kg)  = 1.467e-17  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  1111.56
-                   Electrical balance (eq)  =  8.935e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  24  
-                          Gamma iterations  =  6   
+                   Electrical balance (eq)  =  5.000e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
+                          Gamma iterations  =  5   
                        Osmotic coefficient  =  1.31373  
                           Density of water  =  1.04077  
                                    Total H  =  1.110124e+02
@@ -500,7 +499,7 @@ Na            6.333e+00
   Phase               SI** log IAP   log K(303 K, 1112 atm)
 
   H2O(g)           -1.17     -0.13    1.04  H2O
-  Halite           -0.00      1.65    1.65  NaCl
+  Halite            0.00      1.65    1.65  NaCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -529,19 +528,19 @@ Halite            0.00     1.66      1.66    1.000e+01   3.652e+00  -6.348e+00
 
                                         pH  =  6.164        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  281276    
+       Specific Conductance (µS/cm,  30°C)  =  286906    
                            Density (g/cm³)  =  1.23745  
                                 Volume (L)  =  1.10792  
-                         Viscosity (mPa s)  =  1.66663  
+                         Viscosity (mPa s)  =  1.66644  
                          Activity of water  =  0.740  
                   Ionic strength (mol/kgw)  =  6.348e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.065e-16  
+                   Total alkalinity (eq/kg)  = 8.223e-18  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  1333.67
-                   Electrical balance (eq)  =  3.206e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  17  
+                   Electrical balance (eq)  =  5.480e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  19  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.31703  
                           Density of water  =  1.04904  
@@ -583,7 +582,7 @@ Using pressure 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite           -0.00     1.66      1.66    1.000e+01   3.638e+00  -6.362e+00
+Halite            0.00     1.66      1.66    1.000e+01   3.638e+00  -6.362e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -596,18 +595,18 @@ Halite           -0.00     1.66      1.66    1.000e+01   3.638e+00  -6.362e+00
 
                                         pH  =  6.148        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  280581    
+       Specific Conductance (µS/cm,  30°C)  =  286815    
                            Density (g/cm³)  =  1.24463  
                                 Volume (L)  =  1.10220  
-                         Viscosity (mPa s)  =  1.68577  
+                         Viscosity (mPa s)  =  1.68558  
                          Activity of water  =  0.739  
                   Ionic strength (mol/kgw)  =  6.362e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.179e-16  
+                   Total alkalinity (eq/kg)  = -2.775e-16 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  1555.78
-                   Electrical balance (eq)  =  1.949e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.853e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  17  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.32017  
@@ -621,8 +620,8 @@ Halite           -0.00     1.66      1.66    1.000e+01   3.638e+00  -6.362e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             8.529e-08   2.803e-08    -7.069    -7.552    -0.483      7.29
    H+              8.529e-08   7.117e-07    -7.069    -6.148     0.921      0.00
+   OH-             8.529e-08   2.803e-08    -7.069    -7.552    -0.483      7.29
    H2O             5.551e+01   7.389e-01     1.744    -0.131     0.000     17.04
 Cl            6.362e+00
    Cl-             6.362e+00   4.060e+00     0.804     0.608    -0.195     20.17
@@ -634,7 +633,7 @@ Na            6.362e+00
   Phase               SI** log IAP   log K(303 K, 1556 atm)
 
   H2O(g)           -1.05     -0.13    0.91  H2O
-  Halite           -0.00      1.66    1.66  NaCl
+  Halite            0.00      1.66    1.66  NaCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -663,20 +662,20 @@ Halite           -0.00     1.66      1.66    1.000e+01   3.621e+00  -6.379e+00
 
                                         pH  =  6.131        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  279243    
+       Specific Conductance (µS/cm,  30°C)  =  286200    
                            Density (g/cm³)  =  1.25264  
                                 Volume (L)  =  1.09594  
-                         Viscosity (mPa s)  =  1.70996  
+                         Viscosity (mPa s)  =  1.70977  
                          Activity of water  =  0.738  
                   Ionic strength (mol/kgw)  =  6.379e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.581e-16  
+                   Total alkalinity (eq/kg)  = 4.768e-16  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  1777.89
-                   Electrical balance (eq)  =  9.232e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  25  
-                          Gamma iterations  =  7   
+                   Electrical balance (eq)  =  9.893e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
+                          Gamma iterations  =  5   
                        Osmotic coefficient  =  1.32339  
                           Density of water  =  1.06626  
                                    Total H  =  1.110124e+02
@@ -730,19 +729,19 @@ Halite           -0.00     1.67      1.67    1.000e+01   3.598e+00  -6.402e+00
 
                                         pH  =  6.115        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  277008    
+       Specific Conductance (µS/cm,  30°C)  =  284892    
                            Density (g/cm³)  =  1.26190  
                                 Volume (L)  =  1.08896  
-                         Viscosity (mPa s)  =  1.74172  
+                         Viscosity (mPa s)  =  1.74153  
                          Activity of water  =  0.736  
                   Ionic strength (mol/kgw)  =  6.402e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.741e-16  
+                   Total alkalinity (eq/kg)  = 5.087e-16  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  2000.00
-                   Electrical balance (eq)  =  -7.147e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  17  
+                   Electrical balance (eq)  =  1.030e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  19  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.32693  
                           Density of water  =  1.07580  
@@ -780,8 +779,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.022 Seconds.
--------------------------------
 

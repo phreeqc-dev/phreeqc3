@@ -117,17 +117,17 @@ Psi slipping plane:    7.4927e-10
 
                                         pH  =  6.995        Charge balance
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  1409      
+       Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.301e-18 
+                   Total alkalinity (eq/kg)  = -8.024e-19 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  3   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -247,14 +247,14 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Fix_H+          -11.00   -11.00      0.00
 	 NaOH               is reactant       1.000e+01   9.999e+00  -1.131e-03
-NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.103e-12
+NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.101e-12
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.482e-21  Surface + diffuse layer charge, eq
+	 -8.470e-22  Surface + diffuse layer charge, eq
 	 -5.274e-07  Surface charge, eq
 	 -7.270e-01  sigma, C/m²
 	 -2.449e-01  psi, V
@@ -304,14 +304,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1671      
                            Density (g/cm³)  =  0.99757  
                                 Volume (L)  =  1.00323  
-                         Viscosity (mPa s)  =  0.89049  
+                         Viscosity (mPa s)  =  0.89048  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.114e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.130e-03  
+                   Total alkalinity (eq/kg)  = 1.130e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (21 overall)
                                    Total H  =  1.110135e+02
                                    Total O  =  5.550733e+01
@@ -397,7 +397,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01   9.805e-11
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -7.327e-20  Surface + diffuse layer charge, eq
+	 -7.380e-20  Surface + diffuse layer charge, eq
 	 -5.216e-07  Surface charge, eq
 	 -7.190e-01  sigma, C/m²
 	 -2.455e-01  psi, V
@@ -444,17 +444,17 @@ Q_s
 
                                         pH  =  10.750       Charge balance
                                         pe  =  7.212        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  1556      
+       Specific Conductance (µS/cm,  25°C)  =  1557      
                            Density (g/cm³)  =  0.99754  
                                 Volume (L)  =  1.00323  
                          Viscosity (mPa s)  =  0.89042  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.064e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.341e-04  
+                   Total alkalinity (eq/kg)  = 6.341e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (20 overall)
                                    Total H  =  1.110130e+02
                                    Total O  =  5.550684e+01
@@ -540,7 +540,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01   9.654e-11
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.239e-19  Surface + diffuse layer charge, eq
+	 -1.231e-19  Surface + diffuse layer charge, eq
 	 -5.120e-07  Surface charge, eq
 	 -7.058e-01  sigma, C/m²
 	 -2.452e-01  psi, V
@@ -594,10 +594,10 @@ Q_s
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.036e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.561e-04  
+                   Total alkalinity (eq/kg)  = 3.561e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (19 overall)
                                    Total H  =  1.110128e+02
                                    Total O  =  5.550656e+01
@@ -683,7 +683,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01   9.385e-11
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -8.057e-20  Surface + diffuse layer charge, eq
+	 -8.026e-20  Surface + diffuse layer charge, eq
 	 -4.972e-07  Surface charge, eq
 	 -6.854e-01  sigma, C/m²
 	 -2.441e-01  psi, V
@@ -737,10 +737,10 @@ Q_s
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.021e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.001e-04  
+                   Total alkalinity (eq/kg)  = 2.001e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (18 overall)
                                    Total H  =  1.110126e+02
                                    Total O  =  5.550640e+01
@@ -759,13 +759,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.006e-03    -2.000    -2.045    -0.046     18.14
    HCl             1.727e-13   1.745e-13   -12.763   -12.758     0.004     20.36
 H(0)          1.683e-39
-   H2              8.416e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.001e-03    -2.000    -2.046    -0.046      9.07
 Na            2.006e-04
    Na+             2.006e-04   1.810e-04    -3.698    -3.742    -0.045     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -826,7 +826,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01   8.909e-11
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -4.521e-20  Surface + diffuse layer charge, eq
+	 -4.648e-20  Surface + diffuse layer charge, eq
 	 -4.759e-07  Surface charge, eq
 	 -6.560e-01  sigma, C/m²
 	 -2.421e-01  psi, V
@@ -880,10 +880,10 @@ Q_s
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.012e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.125e-04  
+                   Total alkalinity (eq/kg)  = 1.125e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (17 overall)
                                    Total H  =  1.110125e+02
                                    Total O  =  5.550631e+01
@@ -902,13 +902,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.009e-03    -2.000    -2.045    -0.046     18.14
    HCl             3.073e-13   3.104e-13   -12.512   -12.508     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.005e-03    -2.000    -2.046    -0.046      9.07
 Na            1.130e-04
    Na+             1.130e-04   1.020e-04    -3.947    -3.991    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -969,7 +969,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01   8.066e-11
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  6.411e-18  Surface + diffuse layer charge, eq
+	  6.434e-18  Surface + diffuse layer charge, eq
 	 -4.473e-07  Surface charge, eq
 	 -6.167e-01  sigma, C/m²
 	 -2.390e-01  psi, V
@@ -1023,10 +1023,10 @@ Q_s
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.324e-05  
+                   Total alkalinity (eq/kg)  = 6.324e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110125e+02
                                    Total O  =  5.550626e+01
@@ -1112,7 +1112,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01   6.577e-11
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  3.375e-17  Surface + diffuse layer charge, eq
+	  3.372e-17  Surface + diffuse layer charge, eq
 	 -4.125e-07  Surface charge, eq
 	 -5.687e-01  sigma, C/m²
 	 -2.349e-01  psi, V
@@ -1166,10 +1166,10 @@ Q_s
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.004e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.556e-05  
+                   Total alkalinity (eq/kg)  = 3.556e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (17 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550624e+01
@@ -1255,7 +1255,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01   3.956e-11
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  1.375e-19  Surface + diffuse layer charge, eq
+	  1.371e-19  Surface + diffuse layer charge, eq
 	 -3.734e-07  Surface charge, eq
 	 -5.147e-01  sigma, C/m²
 	 -2.298e-01  psi, V
@@ -1305,14 +1305,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1414      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.003e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.999e-05  
+                   Total alkalinity (eq/kg)  = 1.999e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (17 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -1331,13 +1331,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.013e-03    -2.000    -2.045    -0.045     18.14
    HCl             1.729e-12   1.746e-12   -11.762   -11.758     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.009e-03    -2.000    -2.045    -0.046      9.07
 Na            2.037e-05
    Na+             2.037e-05   1.840e-05    -4.691    -4.735    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1391,7 +1391,7 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Fix_H+           -9.00    -9.00      0.00
 	 NaOH               is reactant       1.000e+01   1.000e+01  -1.157e-05
-NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -6.345e-12
+NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -6.347e-12
 
 ------------------------------Surface composition------------------------------
 
@@ -1448,14 +1448,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1412      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.002e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.124e-05  
+                   Total alkalinity (eq/kg)  = 1.124e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550621e+01
@@ -1591,14 +1591,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1411      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.320e-06  
+                   Total alkalinity (eq/kg)  = 6.320e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550621e+01
@@ -1616,14 +1616,14 @@ Br            1.862e-10
 Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             5.468e-12   5.522e-12   -11.262   -11.258     0.004     20.36
-H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+H(0)          1.684e-39
+   H2              8.418e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.009e-03    -2.000    -2.045    -0.046      9.07
 Na            6.612e-06
    Na+             6.612e-06   5.972e-06    -5.180    -5.224    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1684,7 +1684,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -2.235e-10
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  9.490e-18  Surface + diffuse layer charge, eq
+	  9.489e-18  Surface + diffuse layer charge, eq
 	 -2.527e-07  Surface charge, eq
 	 -3.484e-01  sigma, C/m²
 	 -2.098e-01  psi, V
@@ -1734,14 +1734,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.552e-06  
+                   Total alkalinity (eq/kg)  = 3.552e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -1760,13 +1760,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             9.723e-12   9.819e-12   -11.012   -11.008     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.009e-03    -2.000    -2.045    -0.046      9.07
 Na            3.805e-06
    Na+             3.805e-06   3.437e-06    -5.420    -5.464    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1827,7 +1827,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -4.567e-10
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  1.711e-19  Surface + diffuse layer charge, eq
+	  1.725e-19  Surface + diffuse layer charge, eq
 	 -2.170e-07  Surface charge, eq
 	 -2.992e-01  sigma, C/m²
 	 -2.020e-01  psi, V
@@ -1877,14 +1877,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.993e-06  
+                   Total alkalinity (eq/kg)  = 1.993e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -1902,8 +1902,8 @@ Br            5.567e-10
 Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             1.729e-11   1.746e-11   -10.762   -10.758     0.004     20.36
-H(0)          1.683e-39
-   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
+H(0)          1.684e-39
+   H2              8.418e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            2.211e-06
@@ -1970,7 +1970,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -8.473e-10
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  2.579e-19  Surface + diffuse layer charge, eq
+	  2.585e-19  Surface + diffuse layer charge, eq
 	 -1.850e-07  Surface charge, eq
 	 -2.550e-01  sigma, C/m²
 	 -1.938e-01  psi, V
@@ -2020,14 +2020,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.113e-06  
+                   Total alkalinity (eq/kg)  = 1.113e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -2046,13 +2046,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             3.075e-11   3.105e-11   -10.512   -10.508     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            1.299e-06
    Na+             1.299e-06   1.174e-06    -5.886    -5.931    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2113,7 +2113,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.496e-09
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  5.820e-19  Surface + diffuse layer charge, eq
+	  5.816e-19  Surface + diffuse layer charge, eq
 	 -1.566e-07  Surface charge, eq
 	 -2.159e-01  sigma, C/m²
 	 -1.853e-01  psi, V
@@ -2163,14 +2163,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.127e-07  
+                   Total alkalinity (eq/kg)  = 6.127e-07  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -2188,8 +2188,8 @@ Br            1.596e-09
 Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             5.468e-11   5.522e-11   -10.262   -10.258     0.004     20.36
-H(0)          1.683e-39
-   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
+H(0)          1.684e-39
+   H2              8.418e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            7.709e-07
@@ -2306,14 +2306,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.208e-07  
+                   Total alkalinity (eq/kg)  = 3.208e-07  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -2332,7 +2332,7 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             9.723e-11   9.819e-11   -10.012   -10.008     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            4.555e-07
@@ -2449,14 +2449,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.382e-07  
+                   Total alkalinity (eq/kg)  = 1.382e-07  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -2475,13 +2475,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             1.729e-10   1.746e-10    -9.762    -9.758     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            2.538e-07
    Na+             2.538e-07   2.292e-07    -6.596    -6.640    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2589,17 +2589,17 @@ Q_s
 
                                         pH  =  7.000        Charge balance
                                         pe  =  10.962       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  1409      
+       Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.626e-09  
+                   Total alkalinity (eq/kg)  = 2.626e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (15 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -2617,14 +2617,14 @@ Br            1.152e-08
 Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             3.075e-10   3.105e-10    -9.512    -9.508     0.004     20.36
-H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+H(0)          1.684e-39
+   H2              8.418e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            1.068e-07
    Na+             1.068e-07   9.646e-08    -6.971    -7.016    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2685,7 +2685,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -7.179e-08
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -5.334e-20  Surface + diffuse layer charge, eq
+	 -5.340e-20  Surface + diffuse layer charge, eq
 	 -7.726e-08  Surface charge, eq
 	 -1.065e-01  sigma, C/m²
 	 -1.491e-01  psi, V
@@ -2735,14 +2735,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.320e-07 
+                   Total alkalinity (eq/kg)  = -1.320e-07 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (18 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -2767,7 +2767,7 @@ K             1.001e-02
 Na            1.712e-08
    Na+             1.712e-08   1.546e-08    -7.767    -7.811    -0.044     -1.38
 O(0)          1.215e-14
-   O2              6.077e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -2828,7 +2828,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -2.522e-07
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  4.333e-18  Surface + diffuse layer charge, eq
+	  4.334e-18  Surface + diffuse layer charge, eq
 	 -6.427e-08  Surface charge, eq
 	 -8.859e-02  sigma, C/m²
 	 -1.397e-01  psi, V
@@ -2878,14 +2878,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.117e-07 
+                   Total alkalinity (eq/kg)  = -3.117e-07 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (17 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -2904,7 +2904,7 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             9.723e-10   9.819e-10    -9.012    -9.008     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            4.879e-09
@@ -2964,7 +2964,7 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Fix_H+           -6.25    -6.25      0.00
 	 NaOH               is reactant       1.000e+01   1.000e+01   5.442e-07
-NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -5.463e-07
+NaBr             -0.00   -15.00    -15.00    1.000e+01   1.000e+01  -5.463e-07
 
 ------------------------------Surface composition------------------------------
 
@@ -3021,14 +3021,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.974e-07 
+                   Total alkalinity (eq/kg)  = -5.974e-07 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (17 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -3047,13 +3047,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             1.729e-09   1.746e-09    -8.762    -8.758     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            2.253e-09
    Na+             2.253e-09   2.035e-09    -8.647    -8.691    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -3063,7 +3063,7 @@ O(0)          1.216e-14
   H2(g)           -35.97    -39.07   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Halite          -12.31    -10.74    1.57  NaCl
-  NaBr              0.00    -15.00  -15.00  NaBr
+  NaBr             -0.00    -15.00  -15.00  NaBr
   O2(g)           -11.32    -14.22   -2.89  O2
   Sylvite          -4.99     -4.09    0.90  KCl
 
@@ -3114,7 +3114,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.044e-06
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  9.858e-20  Surface + diffuse layer charge, eq
+	  9.839e-20  Surface + diffuse layer charge, eq
 	 -4.415e-08  Surface charge, eq
 	 -6.086e-02  sigma, C/m²
 	 -1.207e-01  psi, V
@@ -3164,14 +3164,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.087e-06 
+                   Total alkalinity (eq/kg)  = -1.087e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -3257,7 +3257,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.910e-06
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  5.671e-21  Surface + diffuse layer charge, eq
+	  5.724e-21  Surface + diffuse layer charge, eq
 	 -3.645e-08  Surface charge, eq
 	 -5.024e-02  sigma, C/m²
 	 -1.110e-01  psi, V
@@ -3307,14 +3307,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1410      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.946e-06 
+                   Total alkalinity (eq/kg)  = -1.946e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -3339,7 +3339,7 @@ K             1.001e-02
 Na            6.442e-10
    Na+             6.442e-10   5.819e-10    -9.191    -9.235    -0.044     -1.38
 O(0)          1.216e-14
-   O2              6.079e-15   6.093e-15   -14.216   -14.215     0.001     30.40
+   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -3400,7 +3400,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -3.439e-06
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -5.531e-19  Surface + diffuse layer charge, eq
+	 -5.532e-19  Surface + diffuse layer charge, eq
 	 -3.000e-08  Surface charge, eq
 	 -4.135e-02  sigma, C/m²
 	 -1.013e-01  psi, V
@@ -3450,14 +3450,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1411      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.469e-06 
+                   Total alkalinity (eq/kg)  = -3.469e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550620e+01
@@ -3476,7 +3476,7 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.014e-03    -2.000    -2.045    -0.045     18.14
    HCl             9.723e-09   9.819e-09    -8.012    -8.008     0.004     20.36
 H(0)          1.683e-39
-   H2              8.416e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.010e-03    -2.000    -2.045    -0.046      9.07
 Na            3.579e-10
@@ -3543,7 +3543,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -6.148e-06
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -5.252e-19  Surface + diffuse layer charge, eq
+	 -5.253e-19  Surface + diffuse layer charge, eq
 	 -2.458e-08  Surface charge, eq
 	 -3.389e-02  sigma, C/m²
 	 -9.156e-02  psi, V
@@ -3593,14 +3593,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1412      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -6.173e-06 
+                   Total alkalinity (eq/kg)  = -6.173e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550619e+01
@@ -3686,7 +3686,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.096e-05
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -5.953e-20  Surface + diffuse layer charge, eq
+	 -5.964e-20  Surface + diffuse layer charge, eq
 	 -2.003e-08  Surface charge, eq
 	 -2.762e-02  sigma, C/m²
 	 -8.174e-02  psi, V
@@ -3736,14 +3736,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1414      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.002e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.098e-05 
+                   Total alkalinity (eq/kg)  = -1.098e-05 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550619e+01
@@ -3829,7 +3829,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.951e-05
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -4.381e-20  Surface + diffuse layer charge, eq
+	 -4.383e-20  Surface + diffuse layer charge, eq
 	 -1.619e-08  Surface charge, eq
 	 -2.232e-02  sigma, C/m²
 	 -7.184e-02  psi, V
@@ -3879,14 +3879,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1417      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.003e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.953e-05 
+                   Total alkalinity (eq/kg)  = -1.953e-05 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (18 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550618e+01
@@ -3910,8 +3910,8 @@ K             1.001e-02
    K+              1.001e-02   9.009e-03    -2.000    -2.045    -0.046      9.07
 Na            6.309e-11
    Na+             6.309e-11   5.699e-11   -10.200   -10.244    -0.044     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4022,14 +4022,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1424      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.004e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.472e-05 
+                   Total alkalinity (eq/kg)  = -3.472e-05 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (19 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550617e+01
@@ -4115,7 +4115,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -6.175e-05
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.700e-18  Surface + diffuse layer charge, eq
+	 -1.702e-18  Surface + diffuse layer charge, eq
 	 -1.014e-08  Surface charge, eq
 	 -1.397e-02  sigma, C/m²
 	 -5.177e-02  psi, V
@@ -4165,14 +4165,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1435      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -6.176e-05 
+                   Total alkalinity (eq/kg)  = -6.176e-05 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (19 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550614e+01
@@ -4258,7 +4258,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.098e-04
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.566e-18  Surface + diffuse layer charge, eq
+	 -1.564e-18  Surface + diffuse layer charge, eq
 	 -7.708e-09  Surface charge, eq
 	 -1.063e-02  sigma, C/m²
 	 -4.158e-02  psi, V
@@ -4308,14 +4308,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1454      
                            Density (g/cm³)  =  0.99752  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.012e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.098e-04 
+                   Total alkalinity (eq/kg)  = -1.098e-04 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (17 overall)
                                    Total H  =  1.110123e+02
                                    Total O  =  5.550609e+01
@@ -4334,13 +4334,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.009e-03    -2.000    -2.045    -0.046     18.14
    HCl             3.073e-07   3.103e-07    -6.512    -6.508     0.004     20.36
 H(0)          1.683e-39
-   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.438e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.005e-03    -2.000    -2.046    -0.046      9.07
 Na            1.122e-11
    Na+             1.122e-11   1.013e-11   -10.950   -10.995    -0.044     -1.38
 O(0)          1.215e-14
-   O2              6.077e-15   6.092e-15   -14.216   -14.215     0.001     30.40
+   O2              6.077e-15   6.091e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4401,7 +4401,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   1.000e+01  -1.954e-04
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.408e-15  Surface + diffuse layer charge, eq
+	 -1.409e-15  Surface + diffuse layer charge, eq
 	 -5.562e-09  Surface charge, eq
 	 -7.667e-03  sigma, C/m²
 	 -3.128e-02  psi, V
@@ -4451,14 +4451,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1489      
                            Density (g/cm³)  =  0.99753  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.020e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.954e-04 
+                   Total alkalinity (eq/kg)  = -1.954e-04 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110122e+02
                                    Total O  =  5.550601e+01
@@ -4477,7 +4477,7 @@ Cl            1.001e-02
    Cl-             1.001e-02   9.005e-03    -2.000    -2.046    -0.046     18.14
    HCl             5.462e-07   5.517e-07    -6.263    -6.258     0.004     20.36
 H(0)          1.683e-39
-   H2              8.416e-40   8.437e-40   -39.075   -39.074     0.001     14.99
+   H2              8.417e-40   8.437e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   9.002e-03    -2.000    -2.046    -0.046      9.07
 Na            6.310e-12
@@ -4594,14 +4594,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1552      
                            Density (g/cm³)  =  0.99754  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.035e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.476e-04 
+                   Total alkalinity (eq/kg)  = -3.476e-04 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (18 overall)
                                    Total H  =  1.110121e+02
                                    Total O  =  5.550585e+01
@@ -4620,13 +4620,13 @@ Cl            1.001e-02
    Cl-             1.001e-02   8.999e-03    -2.000    -2.046    -0.046     18.14
    HCl             9.704e-07   9.803e-07    -6.013    -6.009     0.004     20.36
 H(0)          1.683e-39
-   H2              8.415e-40   8.436e-40   -39.075   -39.074     0.001     14.99
+   H2              8.416e-40   8.437e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   8.995e-03    -2.000    -2.046    -0.046      9.07
 Na            3.552e-12
    Na+             3.552e-12   3.203e-12   -11.450   -11.494    -0.045     -1.38
 O(0)          1.216e-14
-   O2              6.078e-15   6.093e-15   -14.216   -14.215     0.001     30.40
+   O2              6.078e-15   6.092e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4680,14 +4680,14 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Fix_H+           -3.25    -3.25      0.00
 	 NaOH               is reactant       1.000e+01   1.000e+01   6.187e-04
-NaBr             -0.00   -15.00    -15.00    1.000e+01   9.999e+00  -6.187e-04
+NaBr              0.00   -15.00    -15.00    1.000e+01   9.999e+00  -6.187e-04
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -3.286e-19  Surface + diffuse layer charge, eq
+	 -3.289e-19  Surface + diffuse layer charge, eq
 	 -1.791e-09  Surface charge, eq
 	 -2.469e-03  sigma, C/m²
 	 -1.042e-02  psi, V
@@ -4737,14 +4737,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1662      
                            Density (g/cm³)  =  0.99755  
                                 Volume (L)  =  1.00324  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.062e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -6.187e-04 
+                   Total alkalinity (eq/kg)  = -6.187e-04 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (20 overall)
                                    Total H  =  1.110118e+02
                                    Total O  =  5.550558e+01
@@ -4768,8 +4768,8 @@ K             1.001e-02
    K+              1.001e-02   8.984e-03    -2.000    -2.047    -0.047      9.07
 Na            2.000e-12
    Na+             2.000e-12   1.802e-12   -11.699   -11.744    -0.045     -1.38
-O(0)          1.216e-14
-   O2              6.078e-15   6.093e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.092e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4779,7 +4779,7 @@ O(0)          1.216e-14
   H2(g)           -35.97    -39.07   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Halite          -15.36    -13.79    1.57  NaCl
-  NaBr             -0.00    -15.00  -15.00  NaBr
+  NaBr              0.00    -15.00  -15.00  NaBr
   O2(g)           -11.32    -14.22   -2.89  O2
   Sylvite          -4.99     -4.09    0.90  KCl
 
@@ -4812,7 +4812,7 @@ Using pure phase assemblage 1.
 
 ----------------------------------User print-----------------------------------
 
-psi:                   2.5458e-10 
+psi:                   2.5465e-10 
 DEBYE_length:          7.1123e-10 
 Psi slipping plane:    7.1123e-10 
 
@@ -4830,11 +4830,11 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.999e+00  -1.102e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.483e-16  Surface + diffuse layer charge, eq
+	 -1.484e-16  Surface + diffuse layer charge, eq
 	 -1.039e-16  Surface charge, eq
 	 -1.432e-10  sigma, C/m²
 	  2.546e-10  psi, V
-	 -9.909e-09  -F*psi/RT
+	 -9.912e-09  -F*psi/RT
 	  1.000e+00  exp(-F*psi/RT)
 	  1.400e+00  specific area, m²/g
 	  7.000e-02  m² for   5.000e-02 g
@@ -4880,14 +4880,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  1860      
                            Density (g/cm³)  =  0.99758  
                                 Volume (L)  =  1.00325  
-                         Viscosity (mPa s)  =  0.89035  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.111e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.102e-03 
+                   Total alkalinity (eq/kg)  = -1.102e-03 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (20 overall)
                                    Total H  =  1.110113e+02
                                    Total O  =  5.550510e+01
@@ -4973,7 +4973,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.998e+00  -1.965e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  6.160e-20  Surface + diffuse layer charge, eq
+	  6.154e-20  Surface + diffuse layer charge, eq
 	  1.867e-09  Surface charge, eq
 	  2.574e-03  sigma, C/m²
 	  1.024e-02  psi, V
@@ -5023,14 +5023,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  2212      
                            Density (g/cm³)  =  0.99763  
                                 Volume (L)  =  1.00325  
-                         Viscosity (mPa s)  =  0.89036  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.197e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.965e-03 
+                   Total alkalinity (eq/kg)  = -1.965e-03 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (19 overall)
                                    Total H  =  1.110104e+02
                                    Total O  =  5.550424e+01
@@ -5054,8 +5054,8 @@ K             1.001e-02
    K+              1.001e-02   8.932e-03    -2.000    -2.049    -0.049      9.08
 Na            6.370e-13
    Na+             6.370e-13   5.708e-13   -12.196   -12.244    -0.048     -1.37
-O(0)          1.216e-14
-   O2              6.078e-15   6.094e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.094e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -5166,14 +5166,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  2841      
                            Density (g/cm³)  =  0.99771  
                                 Volume (L)  =  1.00326  
-                         Viscosity (mPa s)  =  0.89037  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.351e-02  
                         Mass of water (kg)  =  9.999e-01  
-                  Total alkalinity (eq/kg)  =  -3.510e-03 
+                   Total alkalinity (eq/kg)  = -3.510e-03 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (21 overall)
                                    Total H  =  1.110089e+02
                                    Total O  =  5.550269e+01
@@ -5192,13 +5192,13 @@ Cl            1.001e-02
    Cl-             9.999e-03   8.874e-03    -2.000    -2.052    -0.052     18.15
    HCl             9.539e-06   9.667e-06    -5.020    -5.015     0.006     20.36
 H(0)          1.681e-39
-   H2              8.405e-40   8.433e-40   -39.075   -39.074     0.001     14.99
+   H2              8.406e-40   8.433e-40   -39.075   -39.074     0.001     14.99
 K             1.001e-02
    K+              1.001e-02   8.877e-03    -2.000    -2.052    -0.052      9.08
 Na            3.610e-13
    Na+             3.610e-13   3.216e-13   -12.443   -12.493    -0.050     -1.36
-O(0)          1.216e-14
-   O2              6.078e-15   6.097e-15   -14.216   -14.215     0.001     30.40
+O(0)          1.215e-14
+   O2              6.077e-15   6.096e-15   -14.216   -14.215     0.001     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -5259,7 +5259,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.994e+00  -6.286e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  4.284e-21  Surface + diffuse layer charge, eq
+	  4.296e-21  Surface + diffuse layer charge, eq
 	  6.516e-09  Surface charge, eq
 	  8.983e-03  sigma, C/m²
 	  2.923e-02  psi, V
@@ -5309,14 +5309,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  3968      
                            Density (g/cm³)  =  0.99787  
                                 Volume (L)  =  1.00328  
-                         Viscosity (mPa s)  =  0.89040  
+                         Viscosity (mPa s)  =  0.89034  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  1.628e-02  
                         Mass of water (kg)  =  9.999e-01  
-                  Total alkalinity (eq/kg)  =  -6.286e-03 
+                   Total alkalinity (eq/kg)  = -6.286e-03 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (21 overall)
                                    Total H  =  1.110061e+02
                                    Total O  =  5.549992e+01
@@ -5402,7 +5402,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.989e+00  -1.130e-02
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  4.520e-20  Surface + diffuse layer charge, eq
+	  4.515e-20  Surface + diffuse layer charge, eq
 	  9.873e-09  Surface charge, eq
 	  1.361e-02  sigma, C/m²
 	  3.745e-02  psi, V
@@ -5452,14 +5452,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  5996      
                            Density (g/cm³)  =  0.99815  
                                 Volume (L)  =  1.00331  
-                         Viscosity (mPa s)  =  0.89046  
+                         Viscosity (mPa s)  =  0.89035  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.128e-02  
                         Mass of water (kg)  =  9.998e-01  
-                  Total alkalinity (eq/kg)  =  -1.130e-02 
+                   Total alkalinity (eq/kg)  = -1.130e-02 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (20 overall)
                                    Total H  =  1.110011e+02
                                    Total O  =  5.549491e+01
@@ -5478,7 +5478,7 @@ Cl            1.001e-02
    Cl-             9.980e-03   8.632e-03    -2.001    -2.064    -0.063     18.18
    HCl             2.912e-05   2.974e-05    -4.536    -4.527     0.009     20.36
 H(0)          1.676e-39
-   H2              8.378e-40   8.422e-40   -39.077   -39.075     0.002     14.99
+   H2              8.378e-40   8.421e-40   -39.077   -39.075     0.002     14.99
 K             1.001e-02
    K+              1.001e-02   8.650e-03    -2.000    -2.063    -0.063      9.11
 Na            1.179e-13
@@ -5545,7 +5545,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.980e+00  -2.040e-02
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -3.864e-21  Surface + diffuse layer charge, eq
+	 -3.877e-21  Surface + diffuse layer charge, eq
 	  1.455e-08  Surface charge, eq
 	  2.006e-02  sigma, C/m²
 	  4.460e-02  psi, V
@@ -5595,14 +5595,14 @@ Q_s
        Specific Conductance (µS/cm,  25°C)  =  9655      
                            Density (g/cm³)  =  0.99866  
                                 Volume (L)  =  1.00337  
-                         Viscosity (mPa s)  =  0.89058  
+                         Viscosity (mPa s)  =  0.89037  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  3.037e-02  
                         Mass of water (kg)  =  9.996e-01  
-                  Total alkalinity (eq/kg)  =  -2.040e-02 
+                   Total alkalinity (eq/kg)  = -2.040e-02 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (19 overall)
                                    Total H  =  1.109920e+02
                                    Total O  =  5.548581e+01
@@ -5621,13 +5621,13 @@ Cl            1.001e-02
    Cl-             9.961e-03   8.419e-03    -2.002    -2.075    -0.073     18.21
    HCl             5.006e-05   5.157e-05    -4.301    -4.288     0.013     20.36
 H(0)          1.670e-39
-   H2              8.348e-40   8.410e-40   -39.078   -39.075     0.003     14.99
+   H2              8.348e-40   8.409e-40   -39.078   -39.075     0.003     14.99
 K             1.001e-02
    K+              1.001e-02   8.451e-03    -2.000    -2.073    -0.074      9.13
 Na            6.828e-14
    Na+             6.828e-14   5.818e-14   -13.166   -13.235    -0.070     -1.28
 O(0)          1.216e-14
-   O2              6.081e-15   6.123e-15   -14.216   -14.213     0.003     30.40
+   O2              6.082e-15   6.124e-15   -14.216   -14.213     0.003     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -5735,17 +5735,17 @@ Q_s
 
                                         pH  =  1.500        Charge balance
                                         pe  =  16.463       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  16272     
+       Specific Conductance (µS/cm,  25°C)  =  16274     
                            Density (g/cm³)  =  0.99959  
                                 Volume (L)  =  1.00349  
-                         Viscosity (mPa s)  =  0.89082  
+                         Viscosity (mPa s)  =  0.89043  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  4.694e-02  
                         Mass of water (kg)  =  9.993e-01  
-                  Total alkalinity (eq/kg)  =  -3.701e-02 
+                   Total alkalinity (eq/kg)  = -3.701e-02 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (20 overall)
                                    Total H  =  1.109754e+02
                                    Total O  =  5.546922e+01
@@ -5763,14 +5763,14 @@ Br            3.701e-02
 Cl            1.001e-02
    Cl-             9.930e-03   8.127e-03    -2.003    -2.090    -0.087     18.25
    HCl             8.455e-05   8.853e-05    -4.073    -4.053     0.020     20.36
-H(0)          1.658e-39
-   H2              8.292e-40   8.386e-40   -39.081   -39.076     0.005     14.99
+H(0)          1.659e-39
+   H2              8.293e-40   8.388e-40   -39.081   -39.076     0.005     14.99
 K             1.001e-02
    K+              1.001e-02   8.182e-03    -1.999    -2.087    -0.088      9.16
 Na            4.003e-14
    Na+             4.003e-14   3.316e-14   -13.398   -13.479    -0.082     -1.22
-O(0)          1.217e-14
-   O2              6.084e-15   6.150e-15   -14.216   -14.211     0.005     30.40
+O(0)          1.216e-14
+   O2              6.082e-15   6.149e-15   -14.216   -14.211     0.005     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -5831,7 +5831,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.933e+00  -6.733e-02
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	  4.860e-24  Surface + diffuse layer charge, eq
+	  1.505e-22  Surface + diffuse layer charge, eq
 	  3.117e-08  Surface charge, eq
 	  4.297e-02  sigma, C/m²
 	  5.596e-02  psi, V
@@ -5878,17 +5878,17 @@ Q_s
 
                                         pH  =  1.250        Charge balance
                                         pe  =  16.714       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  28236     
+       Specific Conductance (µS/cm,  25°C)  =  28243     
                            Density (g/cm³)  =  1.00128  
                                 Volume (L)  =  1.00369  
-                         Viscosity (mPa s)  =  0.89131  
+                         Viscosity (mPa s)  =  0.89058  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  7.729e-02  
                         Mass of water (kg)  =  9.988e-01  
-                  Total alkalinity (eq/kg)  =  -6.741e-02 
+                   Total alkalinity (eq/kg)  = -6.741e-02 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (20 overall)
                                    Total H  =  1.109451e+02
                                    Total O  =  5.543888e+01
@@ -5907,13 +5907,13 @@ Cl            1.002e-02
    Cl-             9.880e-03   7.755e-03    -2.005    -2.110    -0.105     18.30
    HCl             1.393e-04   1.502e-04    -3.856    -3.823     0.033     20.36
 H(0)          1.639e-39
-   H2              8.193e-40   8.348e-40   -39.087   -39.078     0.008     14.99
+   H2              8.194e-40   8.348e-40   -39.087   -39.078     0.008     14.99
 K             1.002e-02
    K+              1.002e-02   7.844e-03    -1.999    -2.105    -0.106      9.21
 Na            2.377e-14
    Na+             2.377e-14   1.902e-14   -13.624   -13.721    -0.097     -1.14
 O(0)          1.217e-14
-   O2              6.085e-15   6.195e-15   -14.216   -14.208     0.008     30.40
+   O2              6.085e-15   6.194e-15   -14.216   -14.208     0.008     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -5974,7 +5974,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.877e+00  -1.228e-01
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.422e-22  Surface + diffuse layer charge, eq
+	  6.100e-24  Surface + diffuse layer charge, eq
 	  4.566e-08  Surface charge, eq
 	  6.294e-02  sigma, C/m²
 	  6.057e-02  psi, V
@@ -5997,7 +5997,7 @@ Q
 	H             	  2.2844e-09
 	K             	  1.8498e-10
 	Na            	  2.6326e-22
-	O             	  5.0311e-20
+	O             	  5.0313e-20
 
 Q_s           
 	  5.347e-07  moles
@@ -6021,17 +6021,17 @@ Q_s
 
                                         pH  =  1.000        Charge balance
                                         pe  =  16.966       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  49760     
+       Specific Conductance (µS/cm,  25°C)  =  49780     
                            Density (g/cm³)  =  1.00438  
                                 Volume (L)  =  1.00408  
-                         Viscosity (mPa s)  =  0.89228  
+                         Viscosity (mPa s)  =  0.89094  
                          Activity of water  =  0.995  
                   Ionic strength (mol/kgw)  =  1.329e-01  
                         Mass of water (kg)  =  9.978e-01  
-                  Total alkalinity (eq/kg)  =  -1.231e-01 
+                   Total alkalinity (eq/kg)  = -1.231e-01 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (21 overall)
                                    Total H  =  1.108896e+02
                                    Total O  =  5.538338e+01
@@ -6049,14 +6049,14 @@ Br            1.231e-01
 Cl            1.003e-02
    Cl-             9.808e-03   7.316e-03    -2.008    -2.136    -0.127     18.38
    HCl             2.212e-04   2.520e-04    -3.655    -3.599     0.057     20.36
-H(0)          1.603e-39
-   H2              8.014e-40   8.276e-40   -39.096   -39.082     0.014     14.99
+H(0)          1.602e-39
+   H2              8.008e-40   8.269e-40   -39.096   -39.083     0.014     14.99
 K             1.003e-02
    K+              1.003e-02   7.452e-03    -1.999    -2.128    -0.129      9.28
 Na            1.427e-14
    Na+             1.427e-14   1.098e-14   -13.845   -13.959    -0.114     -1.03
-O(0)          1.218e-14
-   O2              6.089e-15   6.278e-15   -14.215   -14.202     0.013     30.40
+O(0)          1.220e-14
+   O2              6.099e-15   6.289e-15   -14.215   -14.201     0.013     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -6117,7 +6117,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.776e+00  -2.241e-01
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -3.577e-22  Surface + diffuse layer charge, eq
+	 -2.878e-22  Surface + diffuse layer charge, eq
 	  6.672e-08  Surface charge, eq
 	  9.198e-02  sigma, C/m²
 	  6.467e-02  psi, V
@@ -6164,17 +6164,17 @@ Q_s
 
                                         pH  =  0.750        Charge balance
                                         pe  =  17.220       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  87998     
+       Specific Conductance (µS/cm,  25°C)  =  88062     
                            Density (g/cm³)  =  1.01000  
                                 Volume (L)  =  1.00479  
-                         Viscosity (mPa s)  =  0.89421  
+                         Viscosity (mPa s)  =  0.89183  
                          Activity of water  =  0.992  
                   Ionic strength (mol/kgw)  =  2.347e-01  
                         Mass of water (kg)  =  9.960e-01  
-                  Total alkalinity (eq/kg)  =  -2.250e-01 
+                   Total alkalinity (eq/kg)  = -2.250e-01 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.596e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (22 overall)
                                    Total H  =  1.107883e+02
                                    Total O  =  5.528210e+01
@@ -6193,13 +6193,13 @@ Cl            1.005e-02
    Cl-             9.715e-03   6.836e-03    -2.013    -2.165    -0.153     18.49
    HCl             3.327e-04   4.188e-04    -3.478    -3.378     0.100     20.36
 H(0)          1.538e-39
-   H2              7.691e-40   8.140e-40   -39.114   -39.089     0.025     14.99
+   H2              7.692e-40   8.142e-40   -39.114   -39.089     0.025     14.99
 K             1.005e-02
    K+              1.005e-02   7.029e-03    -1.998    -2.153    -0.155      9.37
 Na            8.610e-15
    Na+             8.610e-15   6.375e-15   -14.065   -14.196    -0.131     -0.89
 O(0)          1.221e-14
-   O2              6.106e-15   6.446e-15   -14.214   -14.191     0.023     30.40
+   O2              6.103e-15   6.442e-15   -14.214   -14.191     0.023     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -6283,7 +6283,7 @@ Q
 	H             	  3.6430e-09
 	K             	  8.8937e-11
 	Na            	  4.5398e-23
-	O             	  1.2235e-20
+	O             	  1.2232e-20
 
 Q_s           
 	  5.347e-07  moles
@@ -6307,17 +6307,17 @@ Q_s
 
                                         pH  =  0.500        Charge balance
                                         pe  =  17.476       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  154173    
+       Specific Conductance (µS/cm,  25°C)  =  154363    
                            Density (g/cm³)  =  1.02017  
                                 Volume (L)  =  1.00612  
-                         Viscosity (mPa s)  =  0.89799  
+                         Viscosity (mPa s)  =  0.89393  
                          Activity of water  =  0.986  
                   Ionic strength (mol/kgw)  =  4.206e-01  
                         Mass of water (kg)  =  9.926e-01  
-                  Total alkalinity (eq/kg)  =  -4.110e-01 
+                   Total alkalinity (eq/kg)  = -4.110e-01 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.597e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.596e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (23 overall)
                                    Total H  =  1.106044e+02
                                    Total O  =  5.509821e+01
@@ -6335,14 +6335,14 @@ Br            4.110e-01
 Cl            1.008e-02
    Cl-             9.622e-03   6.366e-03    -2.017    -2.196    -0.179     18.64
    HCl             4.592e-04   6.935e-04    -3.338    -3.159     0.179     20.36
-H(0)          1.425e-39
-   H2              7.127e-40   7.890e-40   -39.147   -39.103     0.044     14.99
+H(0)          1.429e-39
+   H2              7.143e-40   7.908e-40   -39.146   -39.102     0.044     14.99
 K             1.008e-02
    K+              1.008e-02   6.612e-03    -1.996    -2.180    -0.183      9.51
 Na            5.146e-15
    Na+             5.146e-15   3.707e-15   -14.289   -14.431    -0.142     -0.70
-O(0)          1.229e-14
-   O2              6.147e-15   6.773e-15   -14.211   -14.169     0.042     30.40
+O(0)          1.224e-14
+   O2              6.120e-15   6.742e-15   -14.213   -14.171     0.042     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -6403,7 +6403,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   9.261e+00  -7.392e-01
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -2.632e-21  Surface + diffuse layer charge, eq
+	 -5.719e-20  Surface + diffuse layer charge, eq
 	  1.390e-07  Surface charge, eq
 	  1.916e-01  sigma, C/m²
 	  7.122e-02  psi, V
@@ -6426,7 +6426,7 @@ Q
 	H             	  4.6431e-09
 	K             	  6.2651e-11
 	Na            	  1.8360e-23
-	O             	  5.9575e-21
+	O             	  5.9585e-21
 
 Q_s           
 	  5.347e-07  moles
@@ -6450,17 +6450,17 @@ Q_s
 
                                         pH  =  0.250        Charge balance
                                         pe  =  17.738       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  262862    
+       Specific Conductance (µS/cm,  25°C)  =  263379    
                            Density (g/cm³)  =  1.03833  
                                 Volume (L)  =  1.00858  
-                         Viscosity (mPa s)  =  0.90543  
+                         Viscosity (mPa s)  =  0.89895  
                          Activity of water  =  0.974  
                   Ionic strength (mol/kgw)  =  7.588e-01  
                         Mass of water (kg)  =  9.867e-01  
-                  Total alkalinity (eq/kg)  =  -7.492e-01 
+                   Total alkalinity (eq/kg)  = -7.492e-01 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.599e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.598e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   1    (23 overall)
                                    Total H  =  1.102732e+02
                                    Total O  =  5.476702e+01
@@ -6478,14 +6478,14 @@ Br            7.492e-01
 Cl            1.014e-02
    Cl-             9.592e-03   5.982e-03    -2.018    -2.223    -0.205     18.83
    HCl             5.509e-04   1.159e-03    -3.259    -2.936     0.323     20.36
-H(0)          1.244e-39
-   H2              6.221e-40   7.474e-40   -39.206   -39.126     0.080     14.99
+H(0)          1.243e-39
+   H2              6.214e-40   7.466e-40   -39.207   -39.127     0.080     14.99
 K             1.014e-02
    K+              1.014e-02   6.245e-03    -1.994    -2.204    -0.211      9.71
 Na            2.972e-15
    Na+             2.972e-15   2.140e-15   -14.527   -14.670    -0.143     -0.45
-O(0)          1.238e-14
-   O2              6.191e-15   7.372e-15   -14.208   -14.132     0.076     30.40
+O(0)          1.241e-14
+   O2              6.205e-15   7.389e-15   -14.207   -14.131     0.076     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -6546,7 +6546,7 @@ NaBr              0.00   -15.00    -15.00    1.000e+01   8.671e+00  -1.329e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Q             
-	 -1.302e-19  Surface + diffuse layer charge, eq
+	 -2.904e-22  Surface + diffuse layer charge, eq
 	  1.955e-07  Surface charge, eq
 	  2.695e-01  sigma, C/m²
 	  7.329e-02  psi, V
@@ -6569,7 +6569,7 @@ Q
 	H             	  6.0050e-09
 	K             	  4.5139e-11
 	Na            	  7.0025e-24
-	O             	  2.8669e-21
+	O             	  2.8632e-21
 
 Q_s           
 	  5.347e-07  moles
@@ -6592,19 +6592,19 @@ Q_s
 ----------------------------Description of solution----------------------------
 
                                         pH  =  -0.000       Charge balance
-                                        pe  =  18.009       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  424156    
+                                        pe  =  18.008       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  425366    
                            Density (g/cm³)  =  1.07029  
                                 Volume (L)  =  1.01312  
-                         Viscosity (mPa s)  =  0.92019  
+                         Viscosity (mPa s)  =  0.91086  
                          Activity of water  =  0.953  
                   Ionic strength (mol/kgw)  =  1.371e+00  
                         Mass of water (kg)  =  9.761e-01  
-                  Total alkalinity (eq/kg)  =  -1.361e+00 
+                   Total alkalinity (eq/kg)  = -1.361e+00 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  4.595e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   1    (22 overall)
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   1    (23 overall)
                                    Total H  =  1.096835e+02
                                    Total O  =  5.417731e+01
 
@@ -6621,14 +6621,14 @@ Br            1.361e+00
 Cl            1.025e-02
    Cl-             9.733e-03   5.785e-03    -2.012    -2.238    -0.226     19.09
    HCl             5.199e-04   1.993e-03    -3.284    -2.701     0.584     20.36
-H(0)          9.735e-40
-   H2              4.868e-40   6.781e-40   -39.313   -39.169     0.144     14.99
+H(0)          9.793e-40
+   H2              4.896e-40   6.821e-40   -39.310   -39.166     0.144     14.99
 K             1.025e-02
    K+              1.025e-02   5.982e-03    -1.989    -2.223    -0.234     10.03
 Na            1.591e-15
    Na+             1.591e-15   1.207e-15   -14.798   -14.918    -0.120     -0.12
-O(0)          1.251e-14
-   O2              6.255e-15   8.577e-15   -14.204   -14.067     0.137     30.40
+O(0)          1.236e-14
+   O2              6.182e-15   8.477e-15   -14.209   -14.072     0.137     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -6639,7 +6639,7 @@ O(0)          1.251e-14
   H2O(g)           -1.52     -0.02    1.50  H2O
   Halite          -18.73    -17.16    1.57  NaCl
   NaBr              0.00    -15.00  -15.00  NaBr
-  O2(g)           -11.17    -14.07   -2.89  O2
+  O2(g)           -11.18    -14.07   -2.89  O2
   Sylvite          -5.36     -4.46    0.90  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -6652,8 +6652,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 51.
 -------------------------------------
-
--------------------------------
-End of Run after 0.069 Seconds.
--------------------------------
 

@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -73,17 +72,17 @@ Initial solution 1.
 
                                         pH  =  7.717        Charge balance
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  254984    
+       Specific Conductance (µS/cm,  25°C)  =  255006    
                            Density (g/cm³)  =  1.22137  
                                 Volume (L)  =  1.10411  
-                         Viscosity (mPa s)  =  1.44718  
+                         Viscosity (mPa s)  =  1.44698  
                          Activity of water  =  0.930  
                   Ionic strength (mol/kgw)  =  6.000e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.635e-16  
+                   Total alkalinity (eq/kg)  = 4.090e-16  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.015e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.424e-13 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  12  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.67444  
@@ -165,17 +164,17 @@ Sylvite          -5.34    -4.56      0.78    0.000e+00           0   0.000e+00
 
                                         pH  =  7.569        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  79334     
+       Specific Conductance (µS/cm,  15°C)  =  79340     
                            Density (g/cm³)  =  1.07056  
                                 Volume (L)  =  1.02205  
-                         Viscosity (mPa s)  =  1.24029  
+                         Viscosity (mPa s)  =  1.24016  
                          Activity of water  =  0.981  
                   Ionic strength (mol/kgw)  =  1.621e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.071e-16  
+                   Total alkalinity (eq/kg)  = 8.653e-16  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -1.601e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -9.290e-13 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  10  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.66862  
@@ -256,17 +255,17 @@ Sylvite          -1.13    -0.35      0.78    0.000e+00           0   0.000e+00
 
                                         pH  =  7.401        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  124820    
+       Specific Conductance (µS/cm,  15°C)  =  124825    
                            Density (g/cm³)  =  1.07937  
                                 Volume (L)  =  1.04088  
-                         Viscosity (mPa s)  =  1.15114  
+                         Viscosity (mPa s)  =  1.15107  
                          Activity of water  =  0.959  
                   Ionic strength (mol/kgw)  =  1.843e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.414e-16  
+                   Total alkalinity (eq/kg)  = 1.029e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -1.067e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.944e-13 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.81999  
@@ -347,17 +346,17 @@ Sylvite          -0.64     0.14      0.78    0.000e+00           0   0.000e+00
 
                                         pH  =  7.284        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  184106    
+       Specific Conductance (µS/cm,  15°C)  =  184113    
                            Density (g/cm³)  =  1.10531  
                                 Volume (L)  =  1.06681  
-                         Viscosity (mPa s)  =  1.13113  
+                         Viscosity (mPa s)  =  1.13106  
                          Activity of water  =  0.931  
                   Ionic strength (mol/kgw)  =  2.517e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.351e-16  
+                   Total alkalinity (eq/kg)  = 1.100e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  1.506e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.513e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.87724  
@@ -423,7 +422,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -2.02     -2.02    9.000e+00   8.882e+00  -1.181e-01
+Arcanite         -0.00    -2.02     -2.02    9.000e+00   8.882e+00  -1.181e-01
 Sylvite          -0.32     0.47      0.78    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -438,17 +437,17 @@ Sylvite          -0.32     0.47      0.78    0.000e+00           0   0.000e+00
 
                                         pH  =  7.209        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  240788    
+       Specific Conductance (µS/cm,  15°C)  =  240797    
                            Density (g/cm³)  =  1.13515  
                                 Volume (L)  =  1.09611  
-                         Viscosity (mPa s)  =  1.13448  
+                         Viscosity (mPa s)  =  1.13440  
                          Activity of water  =  0.901  
                   Ionic strength (mol/kgw)  =  3.355e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.874e-16  
+                   Total alkalinity (eq/kg)  = 2.066e-17  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  1.848e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.855e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.91455  
@@ -477,7 +476,7 @@ S(6)          1.181e-01
 
   Phase               SI** log IAP   log K(288 K,   1 atm)
 
-  Arcanite          0.00     -2.02   -2.02  K2SO4
+  Arcanite         -0.00     -2.02   -2.02  K2SO4
   H2O(g)           -1.81     -0.05    1.77  H2O
   Misenite        -48.07    -58.88  -10.81  K8H6(SO4)7
   Sylvite          -0.32      0.47    0.78  KCl
@@ -529,17 +528,17 @@ Sylvite          -0.07     0.72      0.78    0.000e+00           0   0.000e+00
 
                                         pH  =  7.158        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  289712    
+       Specific Conductance (µS/cm,  15°C)  =  289724    
                            Density (g/cm³)  =  1.16450  
                                 Volume (L)  =  1.12750  
-                         Viscosity (mPa s)  =  1.15556  
+                         Viscosity (mPa s)  =  1.15547  
                          Activity of water  =  0.868  
                   Ionic strength (mol/kgw)  =  4.254e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.901e-17  
+                   Total alkalinity (eq/kg)  = 7.922e-16  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  1.873e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.880e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.94820  
@@ -606,7 +605,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Arcanite          0.00    -2.02     -2.02    7.000e+00   6.923e+00  -7.710e-02
-Sylvite          -0.00     0.78      0.78    0.000e+00   7.028e-01   7.028e-01
+Sylvite           0.00     0.78      0.78    0.000e+00   7.028e-01   7.028e-01
 
 -----------------------------Solution composition------------------------------
 
@@ -620,17 +619,17 @@ Sylvite          -0.00     0.78      0.78    0.000e+00   7.028e-01   7.028e-01
 
                                         pH  =  7.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  302542    
+       Specific Conductance (µS/cm,  15°C)  =  302555    
                            Density (g/cm³)  =  1.17292  
                                 Volume (L)  =  1.13717  
-                         Viscosity (mPa s)  =  1.16502  
+                         Viscosity (mPa s)  =  1.16493  
                          Activity of water  =  0.859  
                   Ionic strength (mol/kgw)  =  4.529e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.799e-16  
+                   Total alkalinity (eq/kg)  = 5.046e-16  
                           Temperature (°C)  =  15.00 
                    Electrical balance (eq)  =  2.641e-08  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.95810  
@@ -662,7 +661,7 @@ S(6)          7.710e-02
   Arcanite          0.00     -2.02   -2.02  K2SO4
   H2O(g)           -1.84     -0.07    1.77  H2O
   Misenite        -48.61    -59.42  -10.81  K8H6(SO4)7
-  Sylvite          -0.00      0.78    0.78  KCl
+  Sylvite           0.00      0.78    0.78  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -697,7 +696,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Arcanite         -0.00    -2.02     -2.02    6.000e+00   5.923e+00  -7.710e-02
-Sylvite          -0.00     0.78      0.78    7.028e-01   1.703e+00   1.000e+00
+Sylvite           0.00     0.78      0.78    7.028e-01   1.703e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -711,17 +710,17 @@ Sylvite          -0.00     0.78      0.78    7.028e-01   1.703e+00   1.000e+00
 
                                         pH  =  7.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  302542    
+       Specific Conductance (µS/cm,  15°C)  =  302555    
                            Density (g/cm³)  =  1.17292  
                                 Volume (L)  =  1.13717  
-                         Viscosity (mPa s)  =  1.16502  
+                         Viscosity (mPa s)  =  1.16493  
                          Activity of water  =  0.859  
                   Ionic strength (mol/kgw)  =  4.529e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.693e-15 
+                   Total alkalinity (eq/kg)  = -3.591e-15 
                           Temperature (°C)  =  15.00 
                    Electrical balance (eq)  =  2.167e-08  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.95810  
@@ -753,7 +752,7 @@ S(6)          7.710e-02
   Arcanite         -0.00     -2.02   -2.02  K2SO4
   H2O(g)           -1.84     -0.07    1.77  H2O
   Misenite        -48.61    -59.42  -10.81  K8H6(SO4)7
-  Sylvite          -0.00      0.78    0.78  KCl
+  Sylvite           0.00      0.78    0.78  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -788,7 +787,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Arcanite          0.00    -2.02     -2.02    5.000e+00   4.923e+00  -7.710e-02
-Sylvite          -0.00     0.78      0.78    1.703e+00   2.703e+00   1.000e+00
+Sylvite           0.00     0.78      0.78    1.703e+00   2.703e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -802,17 +801,17 @@ Sylvite          -0.00     0.78      0.78    1.703e+00   2.703e+00   1.000e+00
 
                                         pH  =  7.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  302542    
+       Specific Conductance (µS/cm,  15°C)  =  302555    
                            Density (g/cm³)  =  1.17292  
                                 Volume (L)  =  1.13717  
-                         Viscosity (mPa s)  =  1.16502  
+                         Viscosity (mPa s)  =  1.16493  
                          Activity of water  =  0.859  
                   Ionic strength (mol/kgw)  =  4.529e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -4.615e-15 
+                   Total alkalinity (eq/kg)  = -5.341e-15 
                           Temperature (°C)  =  15.00 
                    Electrical balance (eq)  =  1.693e-08  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.95810  
@@ -844,7 +843,7 @@ S(6)          7.710e-02
   Arcanite          0.00     -2.02   -2.02  K2SO4
   H2O(g)           -1.84     -0.07    1.77  H2O
   Misenite        -48.61    -59.42  -10.81  K8H6(SO4)7
-  Sylvite          -0.00      0.78    0.78  KCl
+  Sylvite           0.00      0.78    0.78  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -879,7 +878,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Arcanite          0.00    -2.02     -2.02    4.000e+00   3.923e+00  -7.710e-02
-Sylvite          -0.00     0.78      0.78    2.703e+00   3.703e+00   1.000e+00
+Sylvite           0.00     0.78      0.78    2.703e+00   3.703e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -893,17 +892,17 @@ Sylvite          -0.00     0.78      0.78    2.703e+00   3.703e+00   1.000e+00
 
                                         pH  =  7.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  302542    
+       Specific Conductance (µS/cm,  15°C)  =  302555    
                            Density (g/cm³)  =  1.17292  
                                 Volume (L)  =  1.13717  
-                         Viscosity (mPa s)  =  1.16502  
+                         Viscosity (mPa s)  =  1.16493  
                          Activity of water  =  0.859  
                   Ionic strength (mol/kgw)  =  4.529e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.418e-15 
+                   Total alkalinity (eq/kg)  = -3.699e-15 
                           Temperature (°C)  =  15.00 
                    Electrical balance (eq)  =  1.219e-08  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.95810  
@@ -935,7 +934,7 @@ S(6)          7.710e-02
   Arcanite          0.00     -2.02   -2.02  K2SO4
   H2O(g)           -1.84     -0.07    1.77  H2O
   Misenite        -48.61    -59.42  -10.81  K8H6(SO4)7
-  Sylvite          -0.00      0.78    0.78  KCl
+  Sylvite           0.00      0.78    0.78  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -984,17 +983,17 @@ Sylvite           0.00     0.78      0.78    3.703e+00   4.703e+00   1.000e+00
 
                                         pH  =  7.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  302542    
+       Specific Conductance (µS/cm,  15°C)  =  302555    
                            Density (g/cm³)  =  1.17292  
                                 Volume (L)  =  1.13717  
-                         Viscosity (mPa s)  =  1.16502  
+                         Viscosity (mPa s)  =  1.16493  
                          Activity of water  =  0.859  
                   Ionic strength (mol/kgw)  =  4.529e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.266e-15 
+                   Total alkalinity (eq/kg)  = -7.936e-15 
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  7.447e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.448e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.95810  
@@ -1075,17 +1074,17 @@ Sylvite           0.00     0.78      0.78    4.703e+00   5.703e+00   1.000e+00
 
                                         pH  =  7.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  302542    
+       Specific Conductance (µS/cm,  15°C)  =  302555    
                            Density (g/cm³)  =  1.17292  
                                 Volume (L)  =  1.13717  
-                         Viscosity (mPa s)  =  1.16502  
+                         Viscosity (mPa s)  =  1.16493  
                          Activity of water  =  0.859  
                   Ionic strength (mol/kgw)  =  4.529e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.484e-15 
+                   Total alkalinity (eq/kg)  = -1.096e-14 
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  2.706e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.707e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.95810  
@@ -1152,7 +1151,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Arcanite          0.00    -2.02     -2.02    9.999e-01   9.228e-01  -7.710e-02
-Sylvite          -0.00     0.78      0.78    5.703e+00   6.703e+00   1.000e+00
+Sylvite           0.00     0.78      0.78    5.703e+00   6.703e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -1166,17 +1165,17 @@ Sylvite          -0.00     0.78      0.78    5.703e+00   6.703e+00   1.000e+00
 
                                         pH  =  7.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  302542    
+       Specific Conductance (µS/cm,  15°C)  =  302555    
                            Density (g/cm³)  =  1.17292  
                                 Volume (L)  =  1.13717  
-                         Viscosity (mPa s)  =  1.16502  
+                         Viscosity (mPa s)  =  1.16493  
                          Activity of water  =  0.859  
                   Ionic strength (mol/kgw)  =  4.529e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -9.583e-15 
+                   Total alkalinity (eq/kg)  = -1.368e-14 
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -2.035e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.034e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.95810  
@@ -1208,7 +1207,7 @@ S(6)          7.710e-02
   Arcanite          0.00     -2.02   -2.02  K2SO4
   H2O(g)           -1.84     -0.07    1.77  H2O
   Misenite        -48.61    -59.42  -10.81  K8H6(SO4)7
-  Sylvite          -0.00      0.78    0.78  KCl
+  Sylvite           0.00      0.78    0.78  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1257,17 +1256,17 @@ Sylvite           0.00     0.78      0.78    6.703e+00   7.653e+00   9.498e-01
 
                                         pH  =  7.047        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  299704    
+       Specific Conductance (µS/cm,  15°C)  =  299716    
                            Density (g/cm³)  =  1.16706  
                                 Volume (L)  =  1.13456  
-                         Viscosity (mPa s)  =  1.14740  
+                         Viscosity (mPa s)  =  1.14731  
                          Activity of water  =  0.860  
                   Ionic strength (mol/kgw)  =  4.347e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.002e-14 
+                   Total alkalinity (eq/kg)  = -1.335e-14 
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -2.013e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.012e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.96357  
@@ -1368,17 +1367,17 @@ Sylvite          -5.43    -4.48      0.95    0.000e+00           0   0.000e+00
 
                                         pH  =  7.405        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  130210    
+       Specific Conductance (µS/cm,  30°C)  =  130221    
                            Density (g/cm³)  =  1.08243  
                                 Volume (L)  =  1.03347  
-                         Viscosity (mPa s)  =  0.90552  
+                         Viscosity (mPa s)  =  0.90541  
                          Activity of water  =  0.976  
                   Ionic strength (mol/kgw)  =  2.043e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.064e-15 
+                   Total alkalinity (eq/kg)  = -1.840e-15 
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  2.431e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.433e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.66624  
@@ -1459,17 +1458,17 @@ Sylvite          -1.25    -0.30      0.95    0.000e+00           0   0.000e+00
 
                                         pH  =  7.252        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  181352    
+       Specific Conductance (µS/cm,  30°C)  =  181361    
                            Density (g/cm³)  =  1.08644  
                                 Volume (L)  =  1.05098  
-                         Viscosity (mPa s)  =  0.84987  
+                         Viscosity (mPa s)  =  0.84980  
                          Activity of water  =  0.955  
                   Ionic strength (mol/kgw)  =  2.158e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.751e-15  
+                   Total alkalinity (eq/kg)  = 7.470e-15  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  4.780e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.791e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  13  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.81425  
@@ -1550,17 +1549,17 @@ Sylvite          -0.78     0.18      0.95    0.000e+00           0   0.000e+00
 
                                         pH  =  7.129        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  249154    
+       Specific Conductance (µS/cm,  30°C)  =  249164    
                            Density (g/cm³)  =  1.10692  
                                 Volume (L)  =  1.07573  
-                         Viscosity (mPa s)  =  0.84495  
+                         Viscosity (mPa s)  =  0.84488  
                          Activity of water  =  0.928  
                   Ionic strength (mol/kgw)  =  2.717e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.488e-15  
+                   Total alkalinity (eq/kg)  = 8.262e-15  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  4.803e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.814e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.88333  
@@ -1641,17 +1640,17 @@ Sylvite          -0.45     0.50      0.95    0.000e+00           0   0.000e+00
 
                                         pH  =  7.043        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  316319    
+       Specific Conductance (µS/cm,  30°C)  =  316332    
                            Density (g/cm³)  =  1.13336  
                                 Volume (L)  =  1.10439  
-                         Viscosity (mPa s)  =  0.85708  
+                         Viscosity (mPa s)  =  0.85701  
                          Activity of water  =  0.897  
                   Ionic strength (mol/kgw)  =  3.482e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.237e-15  
+                   Total alkalinity (eq/kg)  = 8.883e-15  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  4.818e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.829e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.92758  
@@ -1732,17 +1731,17 @@ Sylvite          -0.20     0.75      0.95    0.000e+00           0   0.000e+00
 
                                         pH  =  6.982        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  375428    
+       Specific Conductance (µS/cm,  30°C)  =  375444    
                            Density (g/cm³)  =  1.16079  
                                 Volume (L)  =  1.13533  
-                         Viscosity (mPa s)  =  0.87979  
+                         Viscosity (mPa s)  =  0.87971  
                          Activity of water  =  0.865  
                   Ionic strength (mol/kgw)  =  4.339e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.230e-15  
+                   Total alkalinity (eq/kg)  = 7.590e-15  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  4.819e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.830e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.96427  
@@ -1808,8 +1807,8 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.82     -1.82    7.000e+00   6.917e+00  -8.256e-02
-Sylvite          -0.00     0.95      0.95    0.000e+00   6.207e-02   6.207e-02
+Arcanite         -0.00    -1.82     -1.82    7.000e+00   6.917e+00  -8.256e-02
+Sylvite           0.00     0.95      0.95    0.000e+00   6.207e-02   6.207e-02
 
 -----------------------------Solution composition------------------------------
 
@@ -1823,17 +1822,17 @@ Sylvite          -0.00     0.95      0.95    0.000e+00   6.207e-02   6.207e-02
 
                                         pH  =  6.939        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  421945    
+       Specific Conductance (µS/cm,  30°C)  =  421963    
                            Density (g/cm³)  =  1.18582  
                                 Volume (L)  =  1.16588  
-                         Viscosity (mPa s)  =  0.90912  
+                         Viscosity (mPa s)  =  0.90904  
                          Activity of water  =  0.834  
                   Ionic strength (mol/kgw)  =  5.186e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.718e-15  
+                   Total alkalinity (eq/kg)  = 7.473e-15  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  5.456e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.467e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99596  
@@ -1862,10 +1861,10 @@ S(6)          8.256e-02
 
   Phase               SI** log IAP   log K(303 K,   1 atm)
 
-  Arcanite          0.00     -1.82   -1.82  K2SO4
+  Arcanite         -0.00     -1.82   -1.82  K2SO4
   H2O(g)           -1.46     -0.08    1.38  H2O
   Misenite        -46.43    -57.23  -10.81  K8H6(SO4)7
-  Sylvite          -0.00      0.95    0.95  KCl
+  Sylvite           0.00      0.95    0.95  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -1914,17 +1913,17 @@ Sylvite           0.00     0.95      0.95    6.207e-02   1.062e+00   1.000e+00
 
                                         pH  =  6.939        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  421945    
+       Specific Conductance (µS/cm,  30°C)  =  421963    
                            Density (g/cm³)  =  1.18582  
                                 Volume (L)  =  1.16588  
-                         Viscosity (mPa s)  =  0.90912  
+                         Viscosity (mPa s)  =  0.90904  
                          Activity of water  =  0.834  
                   Ionic strength (mol/kgw)  =  5.186e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.527e-15  
+                   Total alkalinity (eq/kg)  = 1.466e-14  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  6.148e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.257e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99596  
@@ -1990,7 +1989,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.82     -1.82    5.000e+00   4.917e+00  -8.256e-02
+Arcanite         -0.00    -1.82     -1.82    5.000e+00   4.917e+00  -8.256e-02
 Sylvite           0.00     0.95      0.95    1.062e+00   2.062e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -2005,17 +2004,17 @@ Sylvite           0.00     0.95      0.95    1.062e+00   2.062e+00   1.000e+00
 
                                         pH  =  6.939        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  421945    
+       Specific Conductance (µS/cm,  30°C)  =  421963    
                            Density (g/cm³)  =  1.18582  
                                 Volume (L)  =  1.16588  
-                         Viscosity (mPa s)  =  0.90912  
+                         Viscosity (mPa s)  =  0.90904  
                          Activity of water  =  0.834  
                   Ionic strength (mol/kgw)  =  5.186e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -4.140e-15 
+                   Total alkalinity (eq/kg)  = 9.527e-15  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  -4.226e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.215e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99596  
@@ -2044,7 +2043,7 @@ S(6)          8.256e-02
 
   Phase               SI** log IAP   log K(303 K,   1 atm)
 
-  Arcanite          0.00     -1.82   -1.82  K2SO4
+  Arcanite         -0.00     -1.82   -1.82  K2SO4
   H2O(g)           -1.46     -0.08    1.38  H2O
   Misenite        -46.43    -57.23  -10.81  K8H6(SO4)7
   Sylvite           0.00      0.95    0.95  KCl
@@ -2081,7 +2080,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.82     -1.82    4.000e+00   3.917e+00  -8.256e-02
+Arcanite         -0.00    -1.82     -1.82    4.000e+00   3.917e+00  -8.256e-02
 Sylvite           0.00     0.95      0.95    2.062e+00   3.062e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -2096,17 +2095,17 @@ Sylvite           0.00     0.95      0.95    2.062e+00   3.062e+00   1.000e+00
 
                                         pH  =  6.939        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  421945    
+       Specific Conductance (µS/cm,  30°C)  =  421963    
                            Density (g/cm³)  =  1.18582  
                                 Volume (L)  =  1.16588  
-                         Viscosity (mPa s)  =  0.90912  
+                         Viscosity (mPa s)  =  0.90904  
                          Activity of water  =  0.834  
                   Ionic strength (mol/kgw)  =  5.186e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -9.590e-15 
+                   Total alkalinity (eq/kg)  = 3.994e-15  
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  -9.067e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -9.056e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99596  
@@ -2135,7 +2134,7 @@ S(6)          8.256e-02
 
   Phase               SI** log IAP   log K(303 K,   1 atm)
 
-  Arcanite          0.00     -1.82   -1.82  K2SO4
+  Arcanite         -0.00     -1.82   -1.82  K2SO4
   H2O(g)           -1.46     -0.08    1.38  H2O
   Misenite        -46.43    -57.23  -10.81  K8H6(SO4)7
   Sylvite           0.00      0.95    0.95  KCl
@@ -2172,7 +2171,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.82     -1.82    3.000e+00   2.917e+00  -8.256e-02
+Arcanite         -0.00    -1.82     -1.82    3.000e+00   2.917e+00  -8.256e-02
 Sylvite           0.00     0.95      0.95    3.062e+00   4.062e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -2187,17 +2186,17 @@ Sylvite           0.00     0.95      0.95    3.062e+00   4.062e+00   1.000e+00
 
                                         pH  =  6.939        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  421945    
+       Specific Conductance (µS/cm,  30°C)  =  421963    
                            Density (g/cm³)  =  1.18582  
                                 Volume (L)  =  1.16588  
-                         Viscosity (mPa s)  =  0.90912  
+                         Viscosity (mPa s)  =  0.90904  
                          Activity of water  =  0.834  
                   Ionic strength (mol/kgw)  =  5.186e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.464e-14 
+                   Total alkalinity (eq/kg)  = -1.485e-15 
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  -1.391e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.390e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99596  
@@ -2226,7 +2225,7 @@ S(6)          8.256e-02
 
   Phase               SI** log IAP   log K(303 K,   1 atm)
 
-  Arcanite          0.00     -1.82   -1.82  K2SO4
+  Arcanite         -0.00     -1.82   -1.82  K2SO4
   H2O(g)           -1.46     -0.08    1.38  H2O
   Misenite        -46.43    -57.23  -10.81  K8H6(SO4)7
   Sylvite           0.00      0.95    0.95  KCl
@@ -2278,17 +2277,17 @@ Sylvite           0.00     0.95      0.95    4.062e+00   5.062e+00   1.000e+00
 
                                         pH  =  6.939        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  421945    
+       Specific Conductance (µS/cm,  30°C)  =  421963    
                            Density (g/cm³)  =  1.18582  
                                 Volume (L)  =  1.16588  
-                         Viscosity (mPa s)  =  0.90912  
+                         Viscosity (mPa s)  =  0.90904  
                          Activity of water  =  0.834  
                   Ionic strength (mol/kgw)  =  5.186e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.030e-14 
+                   Total alkalinity (eq/kg)  = -6.922e-15 
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  -1.875e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.874e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99596  
@@ -2355,7 +2354,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Arcanite         -0.00    -1.82     -1.82    9.999e-01   9.173e-01  -8.256e-02
-Sylvite          -0.00     0.95      0.95    5.062e+00   6.062e+00   1.000e+00
+Sylvite           0.00     0.95      0.95    5.062e+00   6.062e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -2369,17 +2368,17 @@ Sylvite          -0.00     0.95      0.95    5.062e+00   6.062e+00   1.000e+00
 
                                         pH  =  6.939        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  421945    
+       Specific Conductance (µS/cm,  30°C)  =  421963    
                            Density (g/cm³)  =  1.18582  
                                 Volume (L)  =  1.16588  
-                         Viscosity (mPa s)  =  0.90912  
+                         Viscosity (mPa s)  =  0.90904  
                          Activity of water  =  0.834  
                   Ionic strength (mol/kgw)  =  5.186e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.479e-14 
+                   Total alkalinity (eq/kg)  = -1.466e-14 
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  -2.359e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.358e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99596  
@@ -2411,7 +2410,7 @@ S(6)          8.256e-02
   Arcanite         -0.00     -1.82   -1.82  K2SO4
   H2O(g)           -1.46     -0.08    1.38  H2O
   Misenite        -46.43    -57.23  -10.81  K8H6(SO4)7
-  Sylvite          -0.00      0.95    0.95  KCl
+  Sylvite           0.00      0.95    0.95  KCl
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2460,17 +2459,17 @@ Sylvite           0.00     0.95      0.95    6.062e+00   7.001e+00   9.387e-01
 
                                         pH  =  6.785        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  30°C)  =  419182    
+       Specific Conductance (µS/cm,  30°C)  =  419199    
                            Density (g/cm³)  =  1.18009  
                                 Volume (L)  =  1.16322  
-                         Viscosity (mPa s)  =  0.89607  
+                         Viscosity (mPa s)  =  0.89599  
                          Activity of water  =  0.835  
                   Ionic strength (mol/kgw)  =  4.999e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.335e-14 
+                   Total alkalinity (eq/kg)  = -1.615e-14 
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  -2.363e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.362e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.00007  
@@ -2571,23 +2570,23 @@ Sylvite          -5.59    -4.34      1.25    0.000e+00           0   0.000e+00
 
                                         pH  =  7.126        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  338737    
+       Specific Conductance (µS/cm,  75°C)  =  338775    
                            Density (g/cm³)  =  1.10276  
                                 Volume (L)  =  1.07467  
-                         Viscosity (mPa s)  =  0.47941  
+                         Viscosity (mPa s)  =  0.47933  
                          Activity of water  =  0.963  
                   Ionic strength (mol/kgw)  =  3.187e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.236e-16 
+                   Total alkalinity (eq/kg)  = 8.992e-16  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  4.145e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.332e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.66166  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.975497e+01
+                                   Total O  =  5.975496e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2647,7 +2646,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.50     -1.50    1.094e+01   1.030e+01  -6.420e-01
+Arcanite         -0.00    -1.50     -1.50    1.094e+01   1.030e+01  -6.420e-01
 Sylvite          -1.47    -0.21      1.25    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -2662,23 +2661,23 @@ Sylvite          -1.47    -0.21      1.25    0.000e+00           0   0.000e+00
 
                                         pH  =  7.005        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  397168    
+       Specific Conductance (µS/cm,  75°C)  =  397198    
                            Density (g/cm³)  =  1.09911  
                                 Volume (L)  =  1.08930  
-                         Viscosity (mPa s)  =  0.45851  
+                         Viscosity (mPa s)  =  0.45846  
                          Activity of water  =  0.943  
                   Ionic strength (mol/kgw)  =  3.113e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.791e-16  
+                   Total alkalinity (eq/kg)  = 1.038e-15  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  4.185e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  10  
+                   Electrical balance (eq)  =  4.372e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  11  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.79219  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.832288e+01
+                                   Total O  =  5.832287e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2701,7 +2700,7 @@ S(6)          7.042e-01
 
   Phase               SI** log IAP   log K(348 K,   1 atm)
 
-  Arcanite          0.00     -1.50   -1.50  K2SO4
+  Arcanite         -0.00     -1.50   -1.50  K2SO4
   H2O(g)           -0.45     -0.03    0.42  H2O
   Misenite        -41.89    -52.70  -10.81  K8H6(SO4)7
   Sylvite          -1.47     -0.21    1.25  KCl
@@ -2753,23 +2752,23 @@ Sylvite          -1.03     0.23      1.25    0.000e+00           0   0.000e+00
 
                                         pH  =  6.890        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  474702    
+       Specific Conductance (µS/cm,  75°C)  =  474731    
                            Density (g/cm³)  =  1.10880  
                                 Volume (L)  =  1.11042  
-                         Viscosity (mPa s)  =  0.46201  
+                         Viscosity (mPa s)  =  0.46196  
                          Activity of water  =  0.918  
                   Ionic strength (mol/kgw)  =  3.414e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.085e-14  
+                   Total alkalinity (eq/kg)  = 9.201e-14  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.826e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.875e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.87514  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.739133e+01
+                                   Total O  =  5.739132e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2829,7 +2828,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.50     -1.50    9.000e+00   8.673e+00  -3.272e-01
+Arcanite         -0.00    -1.50     -1.50    9.000e+00   8.673e+00  -3.272e-01
 Sylvite          -0.72     0.53      1.25    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -2844,23 +2843,23 @@ Sylvite          -0.72     0.53      1.25    0.000e+00           0   0.000e+00
 
                                         pH  =  6.794        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  559295    
+       Specific Conductance (µS/cm,  75°C)  =  559325    
                            Density (g/cm³)  =  1.12705  
                                 Volume (L)  =  1.13631  
-                         Viscosity (mPa s)  =  0.47601  
+                         Viscosity (mPa s)  =  0.47596  
                          Activity of water  =  0.889  
                   Ionic strength (mol/kgw)  =  3.982e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.139e-14  
+                   Total alkalinity (eq/kg)  = 9.174e-14  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.814e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.860e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.93126  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.681489e+01
+                                   Total O  =  5.681488e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2883,7 +2882,7 @@ S(6)          3.272e-01
 
   Phase               SI** log IAP   log K(348 K,   1 atm)
 
-  Arcanite          0.00     -1.50   -1.50  K2SO4
+  Arcanite         -0.00     -1.50   -1.50  K2SO4
   H2O(g)           -0.47     -0.05    0.42  H2O
   Misenite        -42.21    -53.02  -10.81  K8H6(SO4)7
   Sylvite          -0.72      0.53    1.25  KCl
@@ -2935,23 +2934,23 @@ Sylvite          -0.47     0.78      1.25    0.000e+00           0   0.000e+00
 
                                         pH  =  6.719        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  638876    
+       Specific Conductance (µS/cm,  75°C)  =  638908    
                            Density (g/cm³)  =  1.14918  
-                                Volume (L)  =  1.16525  
-                         Viscosity (mPa s)  =  0.49539  
+                                Volume (L)  =  1.16526  
+                         Viscosity (mPa s)  =  0.49533  
                          Activity of water  =  0.858  
                   Ionic strength (mol/kgw)  =  4.704e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.166e-14  
+                   Total alkalinity (eq/kg)  = 9.100e-14  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.802e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.848e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.97380  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.644446e+01
+                                   Total O  =  5.644445e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3011,7 +3010,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite         -0.00    -1.50     -1.50    7.000e+00   6.828e+00  -1.723e-01
+Arcanite          0.00    -1.50     -1.50    7.000e+00   6.828e+00  -1.723e-01
 Sylvite          -0.26     0.99      1.25    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -3026,17 +3025,17 @@ Sylvite          -0.26     0.99      1.25    0.000e+00           0   0.000e+00
 
                                         pH  =  6.661        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  708482    
+       Specific Conductance (µS/cm,  75°C)  =  708517    
                            Density (g/cm³)  =  1.17263  
                                 Volume (L)  =  1.19628  
-                         Viscosity (mPa s)  =  0.51809  
+                         Viscosity (mPa s)  =  0.51803  
                          Activity of water  =  0.826  
                   Ionic strength (mol/kgw)  =  5.517e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.118e-14  
+                   Total alkalinity (eq/kg)  = 8.984e-14  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.753e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.802e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00850  
@@ -3065,7 +3064,7 @@ S(6)          1.723e-01
 
   Phase               SI** log IAP   log K(348 K,   1 atm)
 
-  Arcanite         -0.00     -1.50   -1.50  K2SO4
+  Arcanite          0.00     -1.50   -1.50  K2SO4
   H2O(g)           -0.51     -0.08    0.42  H2O
   Misenite        -42.68    -53.48  -10.81  K8H6(SO4)7
   Sylvite          -0.26      0.99    1.25  KCl
@@ -3102,7 +3101,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.50     -1.50    6.000e+00   5.871e+00  -1.293e-01
+Arcanite         -0.00    -1.50     -1.50    6.000e+00   5.871e+00  -1.293e-01
 Sylvite          -0.09     1.16      1.25    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -3117,23 +3116,23 @@ Sylvite          -0.09     1.16      1.25    0.000e+00           0   0.000e+00
 
                                         pH  =  6.615        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  766892    
-                           Density (g/cm³)  =  1.19610  
-                                Volume (L)  =  1.22886  
-                         Viscosity (mPa s)  =  0.54319  
+       Specific Conductance (µS/cm,  75°C)  =  766930    
+                           Density (g/cm³)  =  1.19609  
+                                Volume (L)  =  1.22887  
+                         Viscosity (mPa s)  =  0.54313  
                          Activity of water  =  0.793  
                   Ionic strength (mol/kgw)  =  6.388e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.373e-14  
+                   Total alkalinity (eq/kg)  = 8.914e-14  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.740e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.792e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  12  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.03754  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.602324e+01
+                                   Total O  =  5.602323e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3156,7 +3155,7 @@ S(6)          1.293e-01
 
   Phase               SI** log IAP   log K(348 K,   1 atm)
 
-  Arcanite          0.00     -1.50   -1.50  K2SO4
+  Arcanite         -0.00     -1.50   -1.50  K2SO4
   H2O(g)           -0.52     -0.10    0.42  H2O
   Misenite        -42.92    -53.73  -10.81  K8H6(SO4)7
   Sylvite          -0.09      1.16    1.25  KCl
@@ -3208,23 +3207,23 @@ Sylvite           0.00     1.25      1.25    0.000e+00   4.623e-01   4.623e-01
 
                                         pH  =  6.595        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  793741    
-                           Density (g/cm³)  =  1.20847  
+       Specific Conductance (µS/cm,  75°C)  =  793780    
+                           Density (g/cm³)  =  1.20846  
                                 Volume (L)  =  1.24691  
-                         Viscosity (mPa s)  =  0.55750  
+                         Viscosity (mPa s)  =  0.55743  
                          Activity of water  =  0.776  
                   Ionic strength (mol/kgw)  =  6.873e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.649e-14  
+                   Total alkalinity (eq/kg)  = 8.872e-14  
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.685e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.737e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  11  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.05111  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.595266e+01
+                                   Total O  =  5.595265e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3299,23 +3298,23 @@ Sylvite           0.00     1.25      1.25    4.623e-01   1.462e+00   1.000e+00
 
                                         pH  =  6.595        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  793741    
-                           Density (g/cm³)  =  1.20847  
+       Specific Conductance (µS/cm,  75°C)  =  793780    
+                           Density (g/cm³)  =  1.20846  
                                 Volume (L)  =  1.24691  
-                         Viscosity (mPa s)  =  0.55750  
+                         Viscosity (mPa s)  =  0.55743  
                          Activity of water  =  0.776  
                   Ionic strength (mol/kgw)  =  6.873e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.283e-12 
+                   Total alkalinity (eq/kg)  = -1.338e-12 
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -8.733e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -8.638e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  1.05111  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.595266e+01
+                                   Total O  =  5.595265e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3375,7 +3374,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite         -0.00    -1.50     -1.50    3.000e+00   2.888e+00  -1.116e-01
+Arcanite          0.00    -1.50     -1.50    3.000e+00   2.888e+00  -1.116e-01
 Sylvite           0.00     1.25      1.25    1.462e+00   2.462e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -3390,23 +3389,23 @@ Sylvite           0.00     1.25      1.25    1.462e+00   2.462e+00   1.000e+00
 
                                         pH  =  6.595        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  793741    
-                           Density (g/cm³)  =  1.20847  
+       Specific Conductance (µS/cm,  75°C)  =  793780    
+                           Density (g/cm³)  =  1.20846  
                                 Volume (L)  =  1.24691  
-                         Viscosity (mPa s)  =  0.55750  
+                         Viscosity (mPa s)  =  0.55743  
                          Activity of water  =  0.776  
                   Ionic strength (mol/kgw)  =  6.873e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.714e-12 
+                   Total alkalinity (eq/kg)  = -2.764e-12 
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -1.710e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.700e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  1.05111  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.595266e+01
+                                   Total O  =  5.595265e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3429,7 +3428,7 @@ S(6)          1.116e-01
 
   Phase               SI** log IAP   log K(348 K,   1 atm)
 
-  Arcanite         -0.00     -1.50   -1.50  K2SO4
+  Arcanite          0.00     -1.50   -1.50  K2SO4
   H2O(g)           -0.53     -0.11    0.42  H2O
   Misenite        -43.06    -53.86  -10.81  K8H6(SO4)7
   Sylvite           0.00      1.25    1.25  KCl
@@ -3481,23 +3480,23 @@ Sylvite           0.00     1.25      1.25    2.462e+00   3.462e+00   1.000e+00
 
                                         pH  =  6.595        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  793741    
-                           Density (g/cm³)  =  1.20847  
+       Specific Conductance (µS/cm,  75°C)  =  793780    
+                           Density (g/cm³)  =  1.20846  
                                 Volume (L)  =  1.24691  
-                         Viscosity (mPa s)  =  0.55750  
+                         Viscosity (mPa s)  =  0.55743  
                          Activity of water  =  0.776  
                   Ionic strength (mol/kgw)  =  6.873e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -4.088e-12 
+                   Total alkalinity (eq/kg)  = -4.192e-12 
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -2.546e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.537e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  1.05111  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.595266e+01
+                                   Total O  =  5.595265e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3557,7 +3556,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite         -0.00    -1.50     -1.50    9.999e-01   8.883e-01  -1.116e-01
+Arcanite          0.00    -1.50     -1.50    9.999e-01   8.883e-01  -1.116e-01
 Sylvite           0.00     1.25      1.25    3.462e+00   4.462e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -3572,23 +3571,23 @@ Sylvite           0.00     1.25      1.25    3.462e+00   4.462e+00   1.000e+00
 
                                         pH  =  6.595        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  793741    
-                           Density (g/cm³)  =  1.20847  
+       Specific Conductance (µS/cm,  75°C)  =  793780    
+                           Density (g/cm³)  =  1.20846  
                                 Volume (L)  =  1.24691  
-                         Viscosity (mPa s)  =  0.55750  
+                         Viscosity (mPa s)  =  0.55743  
                          Activity of water  =  0.776  
                   Ionic strength (mol/kgw)  =  6.873e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.517e-12 
+                   Total alkalinity (eq/kg)  = -5.617e-12 
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.383e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.373e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  1.05111  
                           Density of water  =  0.97484  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.595266e+01
+                                   Total O  =  5.595265e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3611,7 +3610,7 @@ S(6)          1.116e-01
 
   Phase               SI** log IAP   log K(348 K,   1 atm)
 
-  Arcanite         -0.00     -1.50   -1.50  K2SO4
+  Arcanite          0.00     -1.50   -1.50  K2SO4
   H2O(g)           -0.53     -0.11    0.42  H2O
   Misenite        -43.06    -53.86  -10.81  K8H6(SO4)7
   Sylvite           0.00      1.25    1.25  KCl
@@ -3663,17 +3662,17 @@ Sylvite           0.00     1.25      1.25    4.462e+00   5.375e+00   9.130e-01
 
                                         pH  =  6.201        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  789947    
+       Specific Conductance (µS/cm,  75°C)  =  789984    
                            Density (g/cm³)  =  1.20152  
                                 Volume (L)  =  1.24333  
-                         Viscosity (mPa s)  =  0.54905  
+                         Viscosity (mPa s)  =  0.54899  
                          Activity of water  =  0.777  
                   Ionic strength (mol/kgw)  =  6.625e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.517e-12 
+                   Total alkalinity (eq/kg)  = -5.616e-12 
                           Temperature (°C)  =  75.00 
-                   Electrical balance (eq)  =  -3.410e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.400e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.05531  
@@ -3774,23 +3773,23 @@ Sylvite          -5.65    -4.32      1.33    0.000e+00           0   0.000e+00
 
                                         pH  =  7.067        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  487600    
-                           Density (g/cm³)  =  1.10587  
+       Specific Conductance (µS/cm, 100°C)  =  487665    
+                           Density (g/cm³)  =  1.10586  
                                 Volume (L)  =  1.10073  
-                         Viscosity (mPa s)  =  0.37729  
+                         Viscosity (mPa s)  =  0.37722  
                          Activity of water  =  0.957  
                   Ionic strength (mol/kgw)  =  3.740e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.122e-16  
+                   Total alkalinity (eq/kg)  = 7.763e-16  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  -2.045e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  5.128e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.65217  
                           Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  6.049296e+01
+                                   Total O  =  6.049294e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3865,23 +3864,23 @@ Sylvite          -1.54    -0.21      1.33    0.000e+00           0   0.000e+00
 
                                         pH  =  6.954        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  546132    
-                           Density (g/cm³)  =  1.10062  
+       Specific Conductance (µS/cm, 100°C)  =  546182    
+                           Density (g/cm³)  =  1.10061  
                                 Volume (L)  =  1.11446  
-                         Viscosity (mPa s)  =  0.36260  
+                         Viscosity (mPa s)  =  0.36255  
                          Activity of water  =  0.938  
                   Ionic strength (mol/kgw)  =  3.617e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.839e-15  
+                   Total alkalinity (eq/kg)  = 1.155e-15  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  -1.695e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  8.674e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.77346  
                           Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.899606e+01
+                                   Total O  =  5.899603e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3897,7 +3896,7 @@ Cl            1.000e+00
 K             2.745e+00
    K+              2.745e+00   1.108e+00     0.439     0.044    -0.394     11.88
 S(6)          8.725e-01
-   SO4-2           8.725e-01   2.797e-02    -0.059    -1.553    -1.494     21.94
+   SO4-2           8.724e-01   2.797e-02    -0.059    -1.553    -1.494     21.94
    HSO4-           7.772e-06   2.227e-06    -5.109    -5.652    -0.543     43.79
 
 ------------------------------Saturation indices-------------------------------
@@ -3956,23 +3955,23 @@ Sylvite          -1.11     0.22      1.33    0.000e+00           0   0.000e+00
 
                                         pH  =  6.847        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  621459    
-                           Density (g/cm³)  =  1.10726  
+       Specific Conductance (µS/cm, 100°C)  =  621503    
+                           Density (g/cm³)  =  1.10725  
                                 Volume (L)  =  1.13422  
-                         Viscosity (mPa s)  =  0.36615  
+                         Viscosity (mPa s)  =  0.36610  
                          Activity of water  =  0.914  
                   Ionic strength (mol/kgw)  =  3.838e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.010e-13  
+                   Total alkalinity (eq/kg)  = 2.022e-13  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  4.525e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  13  
+                   Electrical balance (eq)  =  4.873e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  14  
                           Gamma iterations  =  3   
-                       Osmotic coefficient  =  0.85699  
+                       Osmotic coefficient  =  0.85700  
                           Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.795680e+01
+                                   Total O  =  5.795677e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4032,7 +4031,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.46     -1.46    9.000e+00   8.557e+00  -4.426e-01
+Arcanite          0.00    -1.46     -1.46    9.000e+00   8.557e+00  -4.425e-01
 Sylvite          -0.81     0.52      1.33    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -4041,29 +4040,29 @@ Sylvite          -0.81     0.52      1.33    0.000e+00           0   0.000e+00
 
 	Cl                3.000e+00   3.000e+00
 	K                 3.885e+00   3.885e+00
-	S                 4.426e-01   4.426e-01
+	S                 4.425e-01   4.425e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.755        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  706583    
+       Specific Conductance (µS/cm, 100°C)  =  706627    
                            Density (g/cm³)  =  1.12249  
-                                Volume (L)  =  1.15883  
-                         Viscosity (mPa s)  =  0.37830  
+                                Volume (L)  =  1.15884  
+                         Viscosity (mPa s)  =  0.37825  
                          Activity of water  =  0.886  
                   Ionic strength (mol/kgw)  =  4.328e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.013e-13  
+                   Total alkalinity (eq/kg)  = 2.018e-13  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  4.528e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.878e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.91566  
+                       Osmotic coefficient  =  0.91567  
                           Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.727643e+01
+                                   Total O  =  5.727640e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4078,8 +4077,8 @@ Cl            3.000e+00
    Cl-             3.000e+00   1.713e+00     0.477     0.234    -0.243     19.47
 K             3.885e+00
    K+              3.885e+00   1.927e+00     0.589     0.285    -0.304     12.06
-S(6)          4.426e-01
-   SO4-2           4.425e-01   9.242e-03    -0.354    -2.034    -1.680     22.89
+S(6)          4.425e-01
+   SO4-2           4.425e-01   9.242e-03    -0.354    -2.034    -1.680     22.88
    HSO4-           4.455e-06   1.165e-06    -5.351    -5.934    -0.583     44.01
 
 ------------------------------Saturation indices-------------------------------
@@ -4123,7 +4122,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite         -0.00    -1.46     -1.46    8.000e+00   7.670e+00  -3.295e-01
+Arcanite          0.00    -1.46     -1.46    8.000e+00   7.670e+00  -3.295e-01
 Sylvite          -0.57     0.76      1.33    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -4138,23 +4137,23 @@ Sylvite          -0.57     0.76      1.33    0.000e+00           0   0.000e+00
 
                                         pH  =  6.680        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  789578    
+       Specific Conductance (µS/cm, 100°C)  =  789625    
                            Density (g/cm³)  =  1.14228  
-                                Volume (L)  =  1.18678  
-                         Viscosity (mPa s)  =  0.39498  
+                                Volume (L)  =  1.18679  
+                         Viscosity (mPa s)  =  0.39493  
                          Activity of water  =  0.856  
                   Ionic strength (mol/kgw)  =  4.989e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.010e-13  
+                   Total alkalinity (eq/kg)  = 2.010e-13  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  4.531e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.881e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.95983  
                           Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.682438e+01
+                                   Total O  =  5.682434e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4177,7 +4176,7 @@ S(6)          3.295e-01
 
   Phase               SI** log IAP   log K(373 K,   1 atm)
 
-  Arcanite         -0.00     -1.46   -1.46  K2SO4
+  Arcanite          0.00     -1.46   -1.46  K2SO4
   H2O(g)           -0.07     -0.07    0.00  H2O
   Misenite        -41.87    -52.68  -10.81  K8H6(SO4)7
   Sylvite          -0.57      0.76    1.33  KCl
@@ -4229,23 +4228,23 @@ Sylvite          -0.37     0.96      1.33    0.000e+00           0   0.000e+00
 
                                         pH  =  6.621        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  864109    
-                           Density (g/cm³)  =  1.16404  
+       Specific Conductance (µS/cm, 100°C)  =  864159    
+                           Density (g/cm³)  =  1.16403  
                                 Volume (L)  =  1.21707  
-                         Viscosity (mPa s)  =  0.41436  
+                         Viscosity (mPa s)  =  0.41430  
                          Activity of water  =  0.825  
                   Ionic strength (mol/kgw)  =  5.757e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.031e-13  
+                   Total alkalinity (eq/kg)  = 1.999e-13  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  4.535e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.882e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99488  
                           Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.651494e+01
+                                   Total O  =  5.651491e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4305,7 +4304,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.46     -1.46    6.000e+00   5.802e+00  -1.981e-01
+Arcanite         -0.00    -1.46     -1.46    6.000e+00   5.802e+00  -1.981e-01
 Sylvite          -0.20     1.13      1.33    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -4320,23 +4319,23 @@ Sylvite          -0.20     1.13      1.33    0.000e+00           0   0.000e+00
 
                                         pH  =  6.575        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  927907    
-                           Density (g/cm³)  =  1.18631  
-                                Volume (L)  =  1.24911  
-                         Viscosity (mPa s)  =  0.43555  
+       Specific Conductance (µS/cm, 100°C)  =  927962    
+                           Density (g/cm³)  =  1.18630  
+                                Volume (L)  =  1.24912  
+                         Viscosity (mPa s)  =  0.43549  
                          Activity of water  =  0.793  
                   Ionic strength (mol/kgw)  =  6.594e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.035e-13  
+                   Total alkalinity (eq/kg)  = 1.991e-13  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  4.538e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.884e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.02313  
-                          Density of water  =  0.95836  
+                          Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.629859e+01
+                                   Total O  =  5.629855e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4352,14 +4351,14 @@ Cl            6.000e+00
 K             6.396e+00
    K+              6.396e+00   3.710e+00     0.806     0.569    -0.237     12.59
 S(6)          1.981e-01
-   SO4-2           1.981e-01   2.494e-03    -0.703    -2.603    -1.900     25.50
+   SO4-2           1.981e-01   2.494e-03    -0.703    -2.603    -1.900     25.49
    HSO4-           2.250e-06   4.755e-07    -5.648    -6.323    -0.675     44.54
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(373 K,   1 atm)
 
-  Arcanite          0.00     -1.46   -1.46  K2SO4
+  Arcanite         -0.00     -1.46   -1.46  K2SO4
   H2O(g)           -0.11     -0.10    0.00  H2O
   Misenite        -42.31    -53.12  -10.81  K8H6(SO4)7
   Sylvite          -0.20      1.13    1.33  KCl
@@ -4396,7 +4395,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite          0.00    -1.46     -1.46    5.000e+00   4.840e+00  -1.598e-01
+Arcanite         -0.00    -1.46     -1.46    5.000e+00   4.840e+00  -1.598e-01
 Sylvite          -0.05     1.28      1.33    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -4411,23 +4410,23 @@ Sylvite          -0.05     1.28      1.33    0.000e+00           0   0.000e+00
 
                                         pH  =  6.539        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  980653    
-                           Density (g/cm³)  =  1.20831  
-                                Volume (L)  =  1.28254  
-                         Viscosity (mPa s)  =  0.45808  
+       Specific Conductance (µS/cm, 100°C)  =  980712    
+                           Density (g/cm³)  =  1.20830  
+                                Volume (L)  =  1.28255  
+                         Viscosity (mPa s)  =  0.45802  
                          Activity of water  =  0.761  
                   Ionic strength (mol/kgw)  =  7.480e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.025e-13  
+                   Total alkalinity (eq/kg)  = 2.002e-13  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  4.548e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.891e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  13  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.04549  
-                          Density of water  =  0.95836  
+                          Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.614547e+01
+                                   Total O  =  5.614544e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4443,14 +4442,14 @@ Cl            7.000e+00
 K             7.320e+00
    K+              7.320e+00   4.399e+00     0.864     0.643    -0.221     12.79
 S(6)          1.598e-01
-   SO4-2           1.598e-01   1.774e-03    -0.796    -2.751    -1.955     26.39
+   SO4-2           1.598e-01   1.773e-03    -0.796    -2.751    -1.955     26.39
    HSO4-           1.869e-06   3.675e-07    -5.728    -6.435    -0.706     44.71
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(373 K,   1 atm)
 
-  Arcanite          0.00     -1.46   -1.46  K2SO4
+  Arcanite         -0.00     -1.46   -1.46  K2SO4
   H2O(g)           -0.12     -0.12    0.00  H2O
   Misenite        -42.54    -53.34  -10.81  K8H6(SO4)7
   Sylvite          -0.05      1.28    1.33  KCl
@@ -4495,30 +4494,30 @@ Sylvite           0.00     1.33      1.33    0.000e+00   6.511e-01   6.511e-01
 	Elements           Molality       Moles
 
 	Cl                7.349e+00   7.349e+00
-	K                 7.648e+00   7.648e+00
+	K                 7.647e+00   7.647e+00
 	S                 1.492e-01   1.492e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.528        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  996545    
-                           Density (g/cm³)  =  1.21584  
-                                Volume (L)  =  1.29449  
-                         Viscosity (mPa s)  =  0.46621  
+       Specific Conductance (µS/cm, 100°C)  =  996603    
+                           Density (g/cm³)  =  1.21582  
+                                Volume (L)  =  1.29450  
+                         Viscosity (mPa s)  =  0.46614  
                          Activity of water  =  0.750  
                   Ionic strength (mol/kgw)  =  7.797e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.150e-13  
+                   Total alkalinity (eq/kg)  = 2.144e-13  
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  4.837e-08  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.874e-08  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.05197  
-                          Density of water  =  0.95836  
+                          Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.610320e+01
+                                   Total O  =  5.610318e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4531,8 +4530,8 @@ Sylvite           0.00     1.33      1.33    0.000e+00   6.511e-01   6.511e-01
    H2O             5.551e+01   7.505e-01     1.744    -0.125     0.000     18.80
 Cl            7.349e+00
    Cl-             7.349e+00   4.603e+00     0.866     0.663    -0.203     20.23
-K             7.648e+00
-   K+              7.648e+00   4.647e+00     0.884     0.667    -0.216     12.86
+K             7.647e+00
+   K+              7.647e+00   4.647e+00     0.884     0.667    -0.216     12.86
 S(6)          1.492e-01
    SO4-2           1.492e-01   1.590e-03    -0.826    -2.799    -1.973     26.70
    HSO4-           1.760e-06   3.374e-07    -5.755    -6.472    -0.717     44.76
@@ -4586,30 +4585,30 @@ Sylvite           0.00     1.33      1.33    6.511e-01   1.651e+00   1.000e+00
 	Elements           Molality       Moles
 
 	Cl                7.349e+00   7.349e+00
-	K                 7.648e+00   7.648e+00
+	K                 7.647e+00   7.647e+00
 	S                 1.492e-01   1.492e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.528        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  996545    
-                           Density (g/cm³)  =  1.21584  
-                                Volume (L)  =  1.29449  
-                         Viscosity (mPa s)  =  0.46621  
+       Specific Conductance (µS/cm, 100°C)  =  996603    
+                           Density (g/cm³)  =  1.21582  
+                                Volume (L)  =  1.29450  
+                         Viscosity (mPa s)  =  0.46614  
                          Activity of water  =  0.750  
                   Ionic strength (mol/kgw)  =  7.797e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -8.140e-12 
+                   Total alkalinity (eq/kg)  = -8.172e-12 
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  3.094e-08  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.130e-08  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  1.05197  
-                          Density of water  =  0.95836  
+                          Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.610320e+01
+                                   Total O  =  5.610318e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4622,8 +4621,8 @@ Sylvite           0.00     1.33      1.33    6.511e-01   1.651e+00   1.000e+00
    H2O             5.551e+01   7.505e-01     1.744    -0.125     0.000     18.80
 Cl            7.349e+00
    Cl-             7.349e+00   4.603e+00     0.866     0.663    -0.203     20.23
-K             7.648e+00
-   K+              7.648e+00   4.647e+00     0.884     0.667    -0.216     12.86
+K             7.647e+00
+   K+              7.647e+00   4.647e+00     0.884     0.667    -0.216     12.86
 S(6)          1.492e-01
    SO4-2           1.492e-01   1.590e-03    -0.826    -2.799    -1.973     26.70
    HSO4-           1.760e-06   3.374e-07    -5.755    -6.472    -0.717     44.76
@@ -4669,7 +4668,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Arcanite         -0.00    -1.46     -1.46    2.000e+00   1.851e+00  -1.492e-01
+Arcanite          0.00    -1.46     -1.46    2.000e+00   1.851e+00  -1.492e-01
 Sylvite           0.00     1.33      1.33    1.651e+00   2.651e+00   1.000e+00
 
 -----------------------------Solution composition------------------------------
@@ -4677,30 +4676,30 @@ Sylvite           0.00     1.33      1.33    1.651e+00   2.651e+00   1.000e+00
 	Elements           Molality       Moles
 
 	Cl                7.349e+00   7.349e+00
-	K                 7.648e+00   7.648e+00
+	K                 7.647e+00   7.647e+00
 	S                 1.492e-01   1.492e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.528        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  996545    
-                           Density (g/cm³)  =  1.21584  
-                                Volume (L)  =  1.29449  
-                         Viscosity (mPa s)  =  0.46621  
+       Specific Conductance (µS/cm, 100°C)  =  996603    
+                           Density (g/cm³)  =  1.21582  
+                                Volume (L)  =  1.29450  
+                         Viscosity (mPa s)  =  0.46614  
                          Activity of water  =  0.750  
                   Ionic strength (mol/kgw)  =  7.797e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.649e-11 
+                   Total alkalinity (eq/kg)  = -1.656e-11 
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  1.351e-08  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.387e-08  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  1.05197  
-                          Density of water  =  0.95836  
+                          Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.610320e+01
+                                   Total O  =  5.610318e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4713,8 +4712,8 @@ Sylvite           0.00     1.33      1.33    1.651e+00   2.651e+00   1.000e+00
    H2O             5.551e+01   7.505e-01     1.744    -0.125     0.000     18.80
 Cl            7.349e+00
    Cl-             7.349e+00   4.603e+00     0.866     0.663    -0.203     20.23
-K             7.648e+00
-   K+              7.648e+00   4.647e+00     0.884     0.667    -0.216     12.86
+K             7.647e+00
+   K+              7.647e+00   4.647e+00     0.884     0.667    -0.216     12.86
 S(6)          1.492e-01
    SO4-2           1.492e-01   1.590e-03    -0.826    -2.799    -1.973     26.70
    HSO4-           1.760e-06   3.374e-07    -5.755    -6.472    -0.717     44.76
@@ -4723,7 +4722,7 @@ S(6)          1.492e-01
 
   Phase               SI** log IAP   log K(373 K,   1 atm)
 
-  Arcanite         -0.00     -1.46   -1.46  K2SO4
+  Arcanite          0.00     -1.46   -1.46  K2SO4
   H2O(g)           -0.13     -0.12    0.00  H2O
   Misenite        -42.62    -53.42  -10.81  K8H6(SO4)7
   Sylvite           0.00      1.33    1.33  KCl
@@ -4768,30 +4767,30 @@ Sylvite           0.00     1.33      1.33    2.651e+00   3.651e+00   1.000e+00
 	Elements           Molality       Moles
 
 	Cl                7.349e+00   7.349e+00
-	K                 7.648e+00   7.648e+00
+	K                 7.647e+00   7.647e+00
 	S                 1.492e-01   1.492e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.528        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  996545    
-                           Density (g/cm³)  =  1.21584  
-                                Volume (L)  =  1.29449  
-                         Viscosity (mPa s)  =  0.46621  
+       Specific Conductance (µS/cm, 100°C)  =  996603    
+                           Density (g/cm³)  =  1.21582  
+                                Volume (L)  =  1.29450  
+                         Viscosity (mPa s)  =  0.46614  
                          Activity of water  =  0.750  
                   Ionic strength (mol/kgw)  =  7.797e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.491e-11 
+                   Total alkalinity (eq/kg)  = -2.488e-11 
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  -3.927e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.559e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  1.05197  
-                          Density of water  =  0.95836  
+                          Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.610320e+01
+                                   Total O  =  5.610318e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4804,8 +4803,8 @@ Sylvite           0.00     1.33      1.33    2.651e+00   3.651e+00   1.000e+00
    H2O             5.551e+01   7.505e-01     1.744    -0.125     0.000     18.80
 Cl            7.349e+00
    Cl-             7.349e+00   4.603e+00     0.866     0.663    -0.203     20.23
-K             7.648e+00
-   K+              7.648e+00   4.647e+00     0.884     0.667    -0.216     12.86
+K             7.647e+00
+   K+              7.647e+00   4.647e+00     0.884     0.667    -0.216     12.86
 S(6)          1.492e-01
    SO4-2           1.492e-01   1.590e-03    -0.826    -2.799    -1.973     26.70
    HSO4-           1.760e-06   3.374e-07    -5.755    -6.472    -0.717     44.76
@@ -4866,21 +4865,21 @@ Sylvite           0.00     1.33      1.33    3.651e+00   4.555e+00   9.041e-01
 
                                         pH  =  5.971        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  989839    
-                           Density (g/cm³)  =  1.20657  
-                                Volume (L)  =  1.28879  
-                         Viscosity (mPa s)  =  0.45674  
+       Specific Conductance (µS/cm, 100°C)  =  989894    
+                           Density (g/cm³)  =  1.20656  
+                                Volume (L)  =  1.28880  
+                         Viscosity (mPa s)  =  0.45668  
                          Activity of water  =  0.753  
                   Ionic strength (mol/kgw)  =  7.445e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.491e-11 
+                   Total alkalinity (eq/kg)  = -2.488e-11 
                           Temperature (°C)  =  100.00
-                   Electrical balance (eq)  =  -4.833e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.465e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.05988  
-                          Density of water  =  0.95836  
+                          Density of water  =  0.95835  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550626e+01
 
@@ -4920,8 +4919,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 5.
 ------------------------------------
-
--------------------------------
-End of Run after 0.039 Seconds.
--------------------------------
 

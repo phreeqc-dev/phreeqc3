@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -73,10 +72,10 @@ Initial solution 2.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  0.000e+00  
+                   Total alkalinity (eq/kg)  = 0.000e+00  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  0.000e+00  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  4   
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99988  
@@ -157,10 +156,10 @@ WARNING: USER_PUNCH: Headings count does not match number of calls to PUNCH.
                          Activity of water  =  0.876  
                   Ionic strength (mol/kgw)  =  8.304e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -9.176e-19 
+                   Total alkalinity (eq/kg)  = 1.651e-18  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  9.176e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.651e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  15  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
@@ -264,10 +263,10 @@ H2Sg(g)           -0.00   9.938e-01  0.990   0.000e+00   8.783e+00   8.783e+00
                          Activity of water  =  0.996  
                   Ionic strength (mol/kgw)  =  9.878e-05  
                         Mass of water (kg)  =  9.990e-01  
-                  Total alkalinity (eq/kg)  =  -4.181e-18 
+                   Total alkalinity (eq/kg)  = -1.549e-18 
                           Temperature (°C)  =  0.00  
-                   Electrical balance (eq)  =  4.177e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.548e-18  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  30  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  1.00000  
@@ -336,10 +335,10 @@ H2Sg(g)           -0.00   9.912e-01  0.990   0.000e+00   8.819e+00   8.819e+00
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.010e-04  
                         Mass of water (kg)  =  9.986e-01  
-                  Total alkalinity (eq/kg)  =  -1.456e-17 
+                   Total alkalinity (eq/kg)  = -1.228e-17 
                           Temperature (°C)  =  5.00  
-                   Electrical balance (eq)  =  1.454e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.226e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  1.00000  
@@ -408,10 +407,10 @@ H2Sg(g)           -0.01   9.876e-01  0.991   0.000e+00   8.847e+00   8.847e+00
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.030e-04  
                         Mass of water (kg)  =  9.980e-01  
-                  Total alkalinity (eq/kg)  =  -2.184e-17 
+                   Total alkalinity (eq/kg)  = -1.898e-17 
                           Temperature (°C)  =  10.00 
-                   Electrical balance (eq)  =  2.179e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.895e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99999  
@@ -480,10 +479,10 @@ H2Sg(g)           -0.01   9.828e-01  0.991   0.000e+00   8.869e+00   8.869e+00
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.046e-04  
                         Mass of water (kg)  =  9.972e-01  
-                  Total alkalinity (eq/kg)  =  -3.159e-17 
+                   Total alkalinity (eq/kg)  = -2.912e-17 
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  3.150e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.904e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99999  
@@ -552,10 +551,10 @@ H2Sg(g)           -0.01   9.766e-01  0.992   0.000e+00   8.887e+00   8.887e+00
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.059e-04  
                         Mass of water (kg)  =  9.962e-01  
-                  Total alkalinity (eq/kg)  =  -4.556e-17 
+                   Total alkalinity (eq/kg)  = -4.242e-17 
                           Temperature (°C)  =  20.00 
-                   Electrical balance (eq)  =  4.539e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.226e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99999  
@@ -624,10 +623,10 @@ H2Sg(g)           -0.01   9.683e-01  0.992   0.000e+00   8.902e+00   8.902e+00
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.068e-04  
                         Mass of water (kg)  =  9.948e-01  
-                  Total alkalinity (eq/kg)  =  -6.382e-17 
+                   Total alkalinity (eq/kg)  = -6.122e-17 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  6.349e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.090e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99999  
@@ -696,10 +695,10 @@ H2Sg(g)           -0.02   9.577e-01  0.992   0.000e+00   8.915e+00   8.915e+00
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.073e-04  
                         Mass of water (kg)  =  9.929e-01  
-                  Total alkalinity (eq/kg)  =  -8.833e-17 
+                   Total alkalinity (eq/kg)  = -8.592e-17 
                           Temperature (°C)  =  30.00 
-                   Electrical balance (eq)  =  8.771e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  8.531e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99999  
@@ -768,10 +767,10 @@ H2Sg(g)           -0.03   9.440e-01  0.993   0.000e+00   8.925e+00   8.925e+00
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  1.073e-04  
                         Mass of water (kg)  =  9.905e-01  
-                  Total alkalinity (eq/kg)  =  -1.209e-16 
+                   Total alkalinity (eq/kg)  = -1.183e-16 
                           Temperature (°C)  =  35.00 
-                   Electrical balance (eq)  =  1.197e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.172e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99999  
@@ -840,10 +839,10 @@ H2Sg(g)           -0.03   9.266e-01  0.993   0.000e+00   8.934e+00   8.934e+00
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  1.069e-04  
                         Mass of water (kg)  =  9.873e-01  
-                  Total alkalinity (eq/kg)  =  -1.631e-16 
+                   Total alkalinity (eq/kg)  = -1.606e-16 
                           Temperature (°C)  =  40.00 
-                   Electrical balance (eq)  =  1.610e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.585e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99999  
@@ -912,10 +911,10 @@ H2Sg(g)           -0.06   8.776e-01  0.994   0.000e+00   8.949e+00   8.949e+00
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  1.044e-04  
                         Mass of water (kg)  =  9.775e-01  
-                  Total alkalinity (eq/kg)  =  -2.880e-16 
+                   Total alkalinity (eq/kg)  = -2.848e-16 
                           Temperature (°C)  =  50.00 
-                   Electrical balance (eq)  =  2.815e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.784e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  34  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99998  
@@ -984,10 +983,10 @@ H2Sg(g)           -0.10   8.028e-01  0.994   0.000e+00   8.961e+00   8.961e+00
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  9.935e-05  
                         Mass of water (kg)  =  9.603e-01  
-                  Total alkalinity (eq/kg)  =  -4.930e-16 
+                   Total alkalinity (eq/kg)  = -4.902e-16 
                           Temperature (°C)  =  60.00 
-                   Electrical balance (eq)  =  4.735e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.707e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  35  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99998  
@@ -1056,10 +1055,10 @@ H2Sg(g)           -0.16   6.919e-01  0.995   0.000e+00   8.972e+00   8.972e+00
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  9.101e-05  
                         Mass of water (kg)  =  9.280e-01  
-                  Total alkalinity (eq/kg)  =  -8.343e-16 
+                   Total alkalinity (eq/kg)  = -8.315e-16 
                           Temperature (°C)  =  70.00 
-                   Electrical balance (eq)  =  7.743e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.717e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  38  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99998  
@@ -1128,10 +1127,10 @@ H2Sg(g)           -0.27   5.324e-01  0.996   0.000e+00   8.982e+00   8.982e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.816e-05  
                         Mass of water (kg)  =  8.579e-01  
-                  Total alkalinity (eq/kg)  =  -1.439e-15 
+                   Total alkalinity (eq/kg)  = -1.436e-15 
                           Temperature (°C)  =  80.00 
-                   Electrical balance (eq)  =  1.235e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.232e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  44  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  0.99997  
@@ -1200,10 +1199,10 @@ H2Sg(g)           -0.51   3.087e-01  0.997   0.000e+00   8.993e+00   8.993e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.782e-05  
                         Mass of water (kg)  =  6.372e-01  
-                  Total alkalinity (eq/kg)  =  5.848e-17  
+                   Total alkalinity (eq/kg)  = 6.261e-17  
                           Temperature (°C)  =  90.00 
-                   Electrical balance (eq)  =  -3.726e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.989e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  61  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.99996  
@@ -1272,10 +1271,10 @@ H2Sg(g)           -0.70   1.973e-01  0.998   0.000e+00   8.998e+00   8.998e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.559e-05  
                         Mass of water (kg)  =  3.405e-01  
-                  Total alkalinity (eq/kg)  =  1.808e-18  
+                   Total alkalinity (eq/kg)  = 9.255e-18  
                           Temperature (°C)  =  94.00 
-                   Electrical balance (eq)  =  -6.158e-19 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.152e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  104 
                           Gamma iterations  =  17  
                        Osmotic coefficient  =  0.99996  
@@ -1365,11 +1364,11 @@ H2Sg(g)            1.47   2.954e+01  0.780   0.000e+00   6.535e+00   6.535e+00
                          Activity of water  =  0.961  
                   Ionic strength (mol/kgw)  =  5.295e-04  
                         Mass of water (kg)  =  9.998e-01  
-                  Total alkalinity (eq/kg)  =  -5.868e-17 
+                   Total alkalinity (eq/kg)  = -5.584e-17 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  29.60
-                   Electrical balance (eq)  =  5.866e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.583e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  24  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -1387,7 +1386,7 @@ H2Sg(g)            1.47   2.954e+01  0.780   0.000e+00   6.535e+00   6.535e+00
    OH-             2.882e-11   2.868e-11   -10.540   -10.542    -0.002     -3.89
    H2O             5.551e+01   9.608e-01     1.744    -0.017     0.000     18.07
 Sg            2.466e+00
-   H2Sg            1.977e+00   1.977e+00     0.296     0.296    -0.000     37.08
+   H2Sg            1.977e+00   1.977e+00     0.296     0.296     0.000     37.08
    (H2Sg)2         2.442e-01   2.442e-01    -0.612    -0.612     0.000     31.19
    HSg-            5.295e-04   5.270e-04    -3.276    -3.278    -0.002     20.80
 
@@ -1438,11 +1437,11 @@ H2Sg(g)            1.47   2.935e+01  0.831   0.000e+00   7.522e+00   7.522e+00
                          Activity of water  =  0.976  
                   Ionic strength (mol/kgw)  =  5.520e-04  
                         Mass of water (kg)  =  9.989e-01  
-                  Total alkalinity (eq/kg)  =  -1.670e-14 
+                   Total alkalinity (eq/kg)  = -1.668e-14 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  29.60
-                   Electrical balance (eq)  =  1.668e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.666e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  27  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -1507,19 +1506,19 @@ H2Sg(g)            1.46   2.877e+01  0.867   0.000e+00   7.941e+00   7.941e+00
        Specific Conductance (µS/cm,  90°C)  =  351       
                            Density (g/cm³)  =  0.96349  
                                 Volume (L)  =  1.07106  
-                         Viscosity (mPa s)  =  0.31503  
+                         Viscosity (mPa s)  =  0.31502  
                          Activity of water  =  0.983  
                   Ionic strength (mol/kgw)  =  5.259e-04  
                         Mass of water (kg)  =  9.959e-01  
-                  Total alkalinity (eq/kg)  =  -1.864e-13 
+                   Total alkalinity (eq/kg)  = -1.862e-13 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  29.60
-                   Electrical balance (eq)  =  1.857e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.854e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  29  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.96665  
+                          Density of water  =  0.96664  
                                    Total H  =  1.126720e+02
                                    Total O  =  5.527691e+01
 
@@ -1577,22 +1576,22 @@ H2Sg(g)            1.44   2.733e+01  0.894   0.000e+00   8.160e+00   8.160e+00
 
                                         pH  =  3.353        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  353       
+       Specific Conductance (µS/cm, 120°C)  =  381       
                            Density (g/cm³)  =  0.94118  
-                                Volume (L)  =  1.07996  
+                                Volume (L)  =  1.07997  
                          Viscosity (mPa s)  =  0.23282  
                          Activity of water  =  0.986  
                   Ionic strength (mol/kgw)  =  4.608e-04  
                         Mass of water (kg)  =  9.878e-01  
-                  Total alkalinity (eq/kg)  =  -1.111e-18 
+                   Total alkalinity (eq/kg)  = 1.809e-18  
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  29.60
-                   Electrical balance (eq)  =  1.097e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.787e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  34  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.94454  
+                          Density of water  =  0.94453  
                                    Total H  =  1.113391e+02
                                    Total O  =  5.482913e+01
 
@@ -1606,7 +1605,7 @@ H2Sg(g)            1.44   2.733e+01  0.894   0.000e+00   8.160e+00   8.160e+00
    OH-             2.599e-09   2.540e-09    -8.585    -8.595    -0.010     -7.88
    H2O             5.551e+01   9.862e-01     1.744    -0.006     0.000     19.07
 Sg            8.508e-01
-   H2Sg            6.922e-01   6.922e-01    -0.160    -0.160     0.000     47.34
+   H2Sg            6.922e-01   6.922e-01    -0.160    -0.160    -0.000     47.34
    (H2Sg)2         7.908e-02   7.908e-02    -1.102    -1.102     0.000     22.77
    HSg-            4.608e-04   4.503e-04    -3.336    -3.346    -0.010     18.52
 
@@ -1650,22 +1649,22 @@ H2Sg(g)            1.39   2.432e+01  0.917   0.000e+00   8.319e+00   8.319e+00
 
                                         pH  =  3.448        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  307       
+       Specific Conductance (µS/cm, 150°C)  =  333       
                            Density (g/cm³)  =  0.91491  
-                                Volume (L)  =  1.08282  
+                                Volume (L)  =  1.08283  
                          Viscosity (mPa s)  =  0.18328  
                          Activity of water  =  0.988  
                   Ionic strength (mol/kgw)  =  3.695e-04  
                         Mass of water (kg)  =  9.675e-01  
-                  Total alkalinity (eq/kg)  =  -1.059e-18 
+                   Total alkalinity (eq/kg)  = 1.282e-18  
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  29.60
-                   Electrical balance (eq)  =  1.025e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.240e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  36  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.91848  
+                          Density of water  =  0.91844  
                                    Total H  =  1.087653e+02
                                    Total O  =  5.370210e+01
 
@@ -1723,22 +1722,22 @@ H2Sg(g)            1.27   1.883e+01  0.938   0.000e+00   8.504e+00   8.504e+00
 
                                         pH  =  3.593        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 180°C)  =  230       
-                           Density (g/cm³)  =  0.88466  
+       Specific Conductance (µS/cm, 180°C)  =  242       
+                           Density (g/cm³)  =  0.88465  
                                 Volume (L)  =  1.05039  
-                         Viscosity (mPa s)  =  0.15088  
+                         Viscosity (mPa s)  =  0.15089  
                          Activity of water  =  0.991  
                   Ionic strength (mol/kgw)  =  2.636e-04  
                         Mass of water (kg)  =  9.123e-01  
-                  Total alkalinity (eq/kg)  =  -8.986e-19 
+                   Total alkalinity (eq/kg)  = 1.988e-18  
                           Temperature (°C)  =  180.00
                             Pressure (atm)  =  29.60
-                   Electrical balance (eq)  =  8.199e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.814e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  39  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.88839  
+                          Density of water  =  0.88831  
                                    Total H  =  1.022717e+02
                                    Total O  =  5.063994e+01
 
@@ -1796,24 +1795,24 @@ H2Sg(g)            1.00   9.898e+00  0.966   0.000e+00   8.793e+00   8.793e+00
 
                                         pH  =  3.837        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 210°C)  =  134       
-                           Density (g/cm³)  =  0.85065  
-                                Volume (L)  =  0.81316  
-                         Viscosity (mPa s)  =  0.12815  
+       Specific Conductance (µS/cm, 210°C)  =  109       
+                           Density (g/cm³)  =  0.85064  
+                                Volume (L)  =  0.81317  
+                         Viscosity (mPa s)  =  0.12816  
                          Activity of water  =  0.995  
                   Ionic strength (mol/kgw)  =  1.493e-04  
                         Mass of water (kg)  =  6.847e-01  
-                  Total alkalinity (eq/kg)  =  -9.365e-19 
+                   Total alkalinity (eq/kg)  = 2.672e-18  
                           Temperature (°C)  =  210.00
                             Pressure (atm)  =  29.60
-                   Electrical balance (eq)  =  6.412e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.830e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  60  
                           Gamma iterations  =  7   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.85380  
-                                   Total H  =  7.641996e+01
-                                   Total O  =  3.800288e+01
+                          Density of water  =  0.85361  
+                                   Total H  =  7.641995e+01
+                                   Total O  =  3.800287e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1897,11 +1896,11 @@ H2Sg(g)            1.69   4.885e+01  0.395   0.000e+00   7.063e+00   7.063e+00
                          Activity of water  =  0.969  
                   Ionic strength (mol/kgw)  =  4.797e-04  
                         Mass of water (kg)  =  9.988e-01  
-                  Total alkalinity (eq/kg)  =  -7.564e-19 
+                   Total alkalinity (eq/kg)  = 1.240e-18  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  7.555e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.238e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  29  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
@@ -1970,11 +1969,11 @@ H2Sg(g)            1.69   4.899e+01  0.719   0.000e+00   6.735e+00   6.735e+00
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  6.603e-04  
                         Mass of water (kg)  =  9.992e-01  
-                  Total alkalinity (eq/kg)  =  -3.499e-16 
+                   Total alkalinity (eq/kg)  = -3.465e-16 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  3.497e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.462e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  27  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -1992,7 +1991,7 @@ H2Sg(g)            1.69   4.899e+01  0.719   0.000e+00   6.735e+00   6.735e+00
    OH-             1.564e-10   1.545e-10    -9.806    -9.811    -0.005     -4.07
    H2O             5.551e+01   9.653e-01     1.744    -0.015     0.000     18.28
 Sg            2.267e+00
-   H2Sg            1.651e+00   1.651e+00     0.218     0.218    -0.000     41.57
+   H2Sg            1.651e+00   1.651e+00     0.218     0.218     0.000     41.57
    (H2Sg)2         3.079e-01   3.079e-01    -0.512    -0.512     0.000     30.36
    HSg-            6.603e-04   6.523e-04    -3.180    -3.186    -0.005     21.09
 
@@ -2043,11 +2042,11 @@ H2Sg(g)            1.68   4.834e+01  0.782   0.000e+00   7.273e+00   7.273e+00
                          Activity of water  =  0.973  
                   Ionic strength (mol/kgw)  =  6.450e-04  
                         Mass of water (kg)  =  9.974e-01  
-                  Total alkalinity (eq/kg)  =  -1.811e-14 
+                   Total alkalinity (eq/kg)  = -1.805e-14 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  1.807e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.800e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  28  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -2065,8 +2064,8 @@ H2Sg(g)            1.68   4.834e+01  0.782   0.000e+00   7.273e+00   7.273e+00
    OH-             6.606e-10   6.484e-10    -9.180    -9.188    -0.008     -5.43
    H2O             5.551e+01   9.735e-01     1.744    -0.012     0.000     18.62
 Sg            1.731e+00
-   H2Sg            1.251e+00   1.251e+00     0.097     0.097     0.000     44.58
-   (H2Sg)2         2.401e-01   2.401e-01    -0.620    -0.620     0.000     27.73
+   H2Sg            1.251e+00   1.251e+00     0.097     0.097    -0.000     44.58
+   (H2Sg)2         2.401e-01   2.401e-01    -0.620    -0.620    -0.000     27.73
    HSg-            6.450e-04   6.331e-04    -3.190    -3.199    -0.008     20.32
 
 ------------------------------Saturation indices-------------------------------
@@ -2109,22 +2108,22 @@ H2Sg(g)            1.67   4.676e+01  0.827   0.000e+00   7.556e+00   7.556e+00
 
                                         pH  =  3.258        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  426       
+       Specific Conductance (µS/cm, 120°C)  =  471       
                            Density (g/cm³)  =  0.94362  
                                 Volume (L)  =  1.10406  
                          Viscosity (mPa s)  =  0.23336  
                          Activity of water  =  0.978  
                   Ionic strength (mol/kgw)  =  5.784e-04  
                         Mass of water (kg)  =  9.926e-01  
-                  Total alkalinity (eq/kg)  =  -1.512e-13 
+                   Total alkalinity (eq/kg)  = -1.504e-13 
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  1.500e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.493e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.94554  
+                          Density of water  =  0.94553  
                                    Total H  =  1.130786e+02
                                    Total O  =  5.509545e+01
 
@@ -2182,22 +2181,22 @@ H2Sg(g)            1.64   4.352e+01  0.862   0.000e+00   7.743e+00   7.743e+00
 
                                         pH  =  3.339        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  384       
-                           Density (g/cm³)  =  0.91698  
+       Specific Conductance (µS/cm, 150°C)  =  429       
+                           Density (g/cm³)  =  0.91697  
                                 Volume (L)  =  1.11705  
                          Viscosity (mPa s)  =  0.18379  
                          Activity of water  =  0.980  
                   Ionic strength (mol/kgw)  =  4.790e-04  
                         Mass of water (kg)  =  9.815e-01  
-                  Total alkalinity (eq/kg)  =  -1.152e-18 
+                   Total alkalinity (eq/kg)  = 1.898e-18  
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  1.130e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.863e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  35  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.91960  
+                          Density of water  =  0.91957  
                                    Total H  =  1.114695e+02
                                    Total O  =  5.447799e+01
 
@@ -2211,7 +2210,7 @@ H2Sg(g)            1.64   4.352e+01  0.862   0.000e+00   7.743e+00   7.743e+00
    OH-             5.394e-09   5.273e-09    -8.268    -8.278    -0.010    -12.12
    H2O             5.551e+01   9.799e-01     1.744    -0.009     0.000     19.59
 Sg            1.280e+00
-   H2Sg            9.683e-01   9.683e-01    -0.014    -0.014     0.000     49.47
+   H2Sg            9.683e-01   9.683e-01    -0.014    -0.014    -0.000     49.47
    (H2Sg)2         1.558e-01   1.558e-01    -0.807    -0.807     0.000     17.71
    HSg-            4.790e-04   4.682e-04    -3.320    -3.330    -0.010     15.50
 
@@ -2255,22 +2254,22 @@ H2Sg(g)            1.58   3.767e+01  0.892   0.000e+00   7.934e+00   7.934e+00
 
                                         pH  =  3.457        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 180°C)  =  306       
-                           Density (g/cm³)  =  0.88597  
-                                Volume (L)  =  1.11991  
-                         Viscosity (mPa s)  =  0.15137  
+       Specific Conductance (µS/cm, 180°C)  =  342       
+                           Density (g/cm³)  =  0.88596  
+                                Volume (L)  =  1.11992  
+                         Viscosity (mPa s)  =  0.15139  
                          Activity of water  =  0.982  
                   Ionic strength (mol/kgw)  =  3.643e-04  
                         Mass of water (kg)  =  9.559e-01  
-                  Total alkalinity (eq/kg)  =  -9.254e-19 
+                   Total alkalinity (eq/kg)  = 1.782e-18  
                           Temperature (°C)  =  180.00
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  8.846e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.703e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  37  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.88969  
+                          Density of water  =  0.88961  
                                    Total H  =  1.082455e+02
                                    Total O  =  5.305635e+01
 
@@ -2328,24 +2327,24 @@ H2Sg(g)            1.45   2.818e+01  0.923   0.000e+00   8.216e+00   8.216e+00
 
                                         pH  =  3.623        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 210°C)  =  212       
-                           Density (g/cm³)  =  0.85023  
-                                Volume (L)  =  1.07713  
-                         Viscosity (mPa s)  =  0.12866  
+       Specific Conductance (µS/cm, 210°C)  =  228       
+                           Density (g/cm³)  =  0.85021  
+                                Volume (L)  =  1.07715  
+                         Viscosity (mPa s)  =  0.12867  
                          Activity of water  =  0.985  
                   Ionic strength (mol/kgw)  =  2.477e-04  
                         Mass of water (kg)  =  8.891e-01  
-                  Total alkalinity (eq/kg)  =  -6.643e-19 
+                   Total alkalinity (eq/kg)  = 2.036e-18  
                           Temperature (°C)  =  210.00
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  5.906e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.810e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  43  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.85538  
+                          Density of water  =  0.85519  
                                    Total H  =  1.002668e+02
-                                   Total O  =  4.934899e+01
+                                   Total O  =  4.934898e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2401,24 +2400,24 @@ H2Sg(g)            1.16   1.429e+01  0.964   0.000e+00   8.695e+00   8.695e+00
 
                                         pH  =  3.884        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 240°C)  =  116       
-                           Density (g/cm³)  =  0.81006  
-                                Volume (L)  =  0.77362  
-                         Viscosity (mPa s)  =  0.11153  
+       Specific Conductance (µS/cm, 240°C)  =  90        
+                           Density (g/cm³)  =  0.81003  
+                                Volume (L)  =  0.77364  
+                         Viscosity (mPa s)  =  0.11154  
                          Activity of water  =  0.991  
                   Ionic strength (mol/kgw)  =  1.347e-04  
                         Mass of water (kg)  =  6.163e-01  
-                  Total alkalinity (eq/kg)  =  -1.220e-18 
+                   Total alkalinity (eq/kg)  = 2.644e-18  
                           Temperature (°C)  =  240.00
                             Pressure (atm)  =  49.30
-                   Electrical balance (eq)  =  7.520e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.629e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  72  
                           Gamma iterations  =  9   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.81558  
-                                   Total H  =  6.902488e+01
-                                   Total O  =  3.420774e+01
+                          Density of water  =  0.81515  
+                                   Total H  =  6.902473e+01
+                                   Total O  =  3.420767e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2502,11 +2501,11 @@ H2Sg(g)            1.99   9.779e+01  0.214   0.000e+00   7.014e+00   7.014e+00
                          Activity of water  =  0.968  
                   Ionic strength (mol/kgw)  =  4.895e-04  
                         Mass of water (kg)  =  9.988e-01  
-                  Total alkalinity (eq/kg)  =  -1.418e-16 
+                   Total alkalinity (eq/kg)  = -1.396e-16 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  1.416e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.394e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -2524,7 +2523,7 @@ H2Sg(g)            1.99   9.779e+01  0.214   0.000e+00   7.014e+00   7.014e+00
    OH-             3.328e-11   3.302e-11   -10.478   -10.481    -0.003     -3.72
    H2O             5.551e+01   9.680e-01     1.744    -0.014     0.000     18.02
 Sg            1.988e+00
-   H2Sg            1.624e+00   1.624e+00     0.210     0.210    -0.000     36.28
+   H2Sg            1.624e+00   1.624e+00     0.210     0.210     0.000     36.28
    (H2Sg)2         1.822e-01   1.822e-01    -0.739    -0.739     0.000     34.28
    HSg-            4.895e-04   4.857e-04    -3.310    -3.314    -0.003     20.82
 
@@ -2575,11 +2574,11 @@ H2Sg(g)            1.99   9.692e+01  0.362   0.000e+00   6.901e+00   6.901e+00
                          Activity of water  =  0.968  
                   Ionic strength (mol/kgw)  =  6.463e-04  
                         Mass of water (kg)  =  9.977e-01  
-                  Total alkalinity (eq/kg)  =  -5.825e-16 
+                   Total alkalinity (eq/kg)  = -5.782e-16 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  5.812e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.768e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -2648,11 +2647,11 @@ H2Sg(g)            1.98   9.567e+01  0.535   0.000e+00   6.598e+00   6.598e+00
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  7.396e-04  
                         Mass of water (kg)  =  9.962e-01  
-                  Total alkalinity (eq/kg)  =  -1.860e-15 
+                   Total alkalinity (eq/kg)  = -1.849e-15 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  1.853e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.842e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  34  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -2671,7 +2670,7 @@ H2Sg(g)            1.98   9.567e+01  0.535   0.000e+00   6.598e+00   6.598e+00
    H2O             5.551e+01   9.647e-01     1.744    -0.016     0.000     18.58
 Sg            2.412e+00
    H2Sg            1.576e+00   1.576e+00     0.198     0.198     0.000     43.87
-   (H2Sg)2         4.172e-01   4.172e-01    -0.380    -0.380     0.000     30.02
+   (H2Sg)2         4.172e-01   4.172e-01    -0.380    -0.380    -0.000     30.02
    HSg-            7.396e-04   7.280e-04    -3.131    -3.138    -0.007     20.34
 
 ------------------------------Saturation indices-------------------------------
@@ -2714,22 +2713,22 @@ H2Sg(g)            1.98   9.491e+01  0.667   0.000e+00   6.388e+00   6.388e+00
 
                                         pH  =  3.161        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  507       
+       Specific Conductance (µS/cm, 120°C)  =  577       
                            Density (g/cm³)  =  0.95309  
                                 Volume (L)  =  1.13780  
                          Viscosity (mPa s)  =  0.23470  
                          Activity of water  =  0.962  
                   Ionic strength (mol/kgw)  =  7.323e-04  
                         Mass of water (kg)  =  9.954e-01  
-                  Total alkalinity (eq/kg)  =  -1.942e-15 
+                   Total alkalinity (eq/kg)  = -1.909e-15 
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  1.933e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  31  
+                   Electrical balance (eq)  =  1.900e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  30  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.94802  
+                          Density of water  =  0.94801  
                                    Total H  =  1.157267e+02
                                    Total O  =  5.525142e+01
 
@@ -2787,22 +2786,22 @@ H2Sg(g)            1.96   9.112e+01  0.736   0.000e+00   6.443e+00   6.443e+00
 
                                         pH  =  3.222        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  476       
-                           Density (g/cm³)  =  0.92782  
-                                Volume (L)  =  1.16133  
-                         Viscosity (mPa s)  =  0.18507  
+       Specific Conductance (µS/cm, 150°C)  =  553       
+                           Density (g/cm³)  =  0.92781  
+                                Volume (L)  =  1.16134  
+                         Viscosity (mPa s)  =  0.18506  
                          Activity of water  =  0.963  
                   Ionic strength (mol/kgw)  =  6.364e-04  
                         Mass of water (kg)  =  9.903e-01  
-                  Total alkalinity (eq/kg)  =  -3.676e-15 
+                   Total alkalinity (eq/kg)  = -3.594e-15 
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  3.640e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.559e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.92238  
+                          Density of water  =  0.92234  
                                    Total H  =  1.150554e+02
                                    Total O  =  5.497055e+01
 
@@ -2860,22 +2859,22 @@ H2Sg(g)            1.93   8.434e+01  0.789   0.000e+00   6.532e+00   6.532e+00
 
                                         pH  =  3.317        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 180°C)  =  399       
-                           Density (g/cm³)  =  0.89759  
-                                Volume (L)  =  1.18545  
-                         Viscosity (mPa s)  =  0.15260  
+       Specific Conductance (µS/cm, 180°C)  =  473       
+                           Density (g/cm³)  =  0.89757  
+                                Volume (L)  =  1.18548  
+                         Viscosity (mPa s)  =  0.15262  
                          Activity of water  =  0.963  
                   Ionic strength (mol/kgw)  =  5.118e-04  
                         Mass of water (kg)  =  9.800e-01  
-                  Total alkalinity (eq/kg)  =  -6.272e-15 
+                   Total alkalinity (eq/kg)  = -6.076e-15 
                           Temperature (°C)  =  180.00
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  6.146e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.954e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  34  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.89290  
+                          Density of water  =  0.89282  
                                    Total H  =  1.137222e+02
                                    Total O  =  5.439353e+01
 
@@ -2933,24 +2932,24 @@ H2Sg(g)            1.87   7.353e+01  0.836   0.000e+00   6.720e+00   6.720e+00
 
                                         pH  =  3.442        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 210°C)  =  302       
-                           Density (g/cm³)  =  0.86141  
-                                Volume (L)  =  1.20301  
+       Specific Conductance (µS/cm, 210°C)  =  363       
+                           Density (g/cm³)  =  0.86136  
+                                Volume (L)  =  1.20308  
                          Viscosity (mPa s)  =  0.12991  
                          Activity of water  =  0.964  
                   Ionic strength (mol/kgw)  =  3.824e-04  
                         Mass of water (kg)  =  9.586e-01  
-                  Total alkalinity (eq/kg)  =  -1.049e-14 
+                   Total alkalinity (eq/kg)  = -9.973e-15 
                           Temperature (°C)  =  210.00
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  1.005e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  9.560e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  35  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.85927  
+                          Density of water  =  0.85909  
                                    Total H  =  1.109736e+02
-                                   Total O  =  5.320658e+01
+                                   Total O  =  5.320656e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2962,7 +2961,7 @@ H2Sg(g)            1.87   7.353e+01  0.836   0.000e+00   6.720e+00   6.720e+00
    OH-             1.582e-08   1.556e-08    -7.801    -7.808    -0.007    -29.45
    H2O             5.551e+01   9.642e-01     1.744    -0.016     0.000     20.97
 Sg            2.379e+00
-   H2Sg            1.665e+00   1.665e+00     0.221     0.221     0.000     55.45
+   H2Sg            1.665e+00   1.665e+00     0.221     0.221    -0.000     55.45
    (H2Sg)2         3.566e-01   3.566e-01    -0.448    -0.448     0.000     -3.62
    HSg-            3.824e-04   3.762e-04    -3.417    -3.425    -0.007      2.77
 
@@ -3006,24 +3005,24 @@ H2Sg(g)            1.76   5.780e+01  0.883   0.000e+00   7.109e+00   7.109e+00
 
                                         pH  =  3.603        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 240°C)  =  206       
-                           Density (g/cm³)  =  0.81758  
-                                Volume (L)  =  1.19111  
-                         Viscosity (mPa s)  =  0.11290  
+       Specific Conductance (µS/cm, 240°C)  =  245       
+                           Density (g/cm³)  =  0.81748  
+                                Volume (L)  =  1.19126  
+                         Viscosity (mPa s)  =  0.11289  
                          Activity of water  =  0.968  
                   Ionic strength (mol/kgw)  =  2.631e-04  
                         Mass of water (kg)  =  9.094e-01  
-                  Total alkalinity (eq/kg)  =  -1.693e-14 
+                   Total alkalinity (eq/kg)  = -1.554e-14 
                           Temperature (°C)  =  240.00
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  1.540e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  42  
+                   Electrical balance (eq)  =  1.413e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  40  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.82062  
-                                   Total H  =  1.047352e+02
-                                   Total O  =  5.047649e+01
+                          Density of water  =  0.82021  
+                                   Total H  =  1.047351e+02
+                                   Total O  =  5.047641e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3033,10 +3032,10 @@ H2Sg(g)            1.76   5.780e+01  0.883   0.000e+00   7.109e+00   7.109e+00
 
    H+              2.631e-04   2.496e-04    -3.580    -3.603    -0.023      0.00
    OH-             2.581e-08   2.540e-08    -7.588    -7.595    -0.007    -48.39
-   H2O             5.551e+01   9.675e-01     1.744    -0.014     0.000     21.96
+   H2O             5.551e+01   9.675e-01     1.744    -0.014     0.000     21.97
 Sg            2.080e+00
    H2Sg            1.585e+00   1.585e+00     0.200     0.200     0.000     61.87
-   (H2Sg)2         2.470e-01   2.470e-01    -0.607    -0.607     0.000    -29.66
+   (H2Sg)2         2.469e-01   2.469e-01    -0.607    -0.607     0.000    -29.66
    HSg-            2.631e-04   2.589e-04    -3.580    -3.587    -0.007    -11.59
 
 ------------------------------Saturation indices-------------------------------
@@ -3060,7 +3059,7 @@ Using temperature 101.
 Total pressure: 98.70      atmospheres          (Peng-Robinson calculation)
     Gas volume:   7.34e+00 liters
   Molar volume:   3.48e-01 liters/mole
-   P * Vm / RT:  0.77014  (Compressibility Factor Z) 
+   P * Vm / RT:  0.77013  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
@@ -3079,24 +3078,24 @@ H2Sg(g)            1.56   3.671e+01  0.940   0.000e+00   7.855e+00   7.855e+00
 
                                         pH  =  3.814        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 270°C)  =  123       
-                           Density (g/cm³)  =  0.76435  
-                                Volume (L)  =  1.04677  
-                         Viscosity (mPa s)  =  0.09907  
+       Specific Conductance (µS/cm, 270°C)  =  128       
+                           Density (g/cm³)  =  0.76418  
+                                Volume (L)  =  1.04699  
+                         Viscosity (mPa s)  =  0.09905  
                          Activity of water  =  0.975  
                   Ionic strength (mol/kgw)  =  1.604e-04  
                         Mass of water (kg)  =  7.611e-01  
-                  Total alkalinity (eq/kg)  =  -1.151e-18 
+                   Total alkalinity (eq/kg)  = 2.303e-18  
                           Temperature (°C)  =  270.00
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  8.759e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  78  
+                   Electrical balance (eq)  =  -1.752e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  57  
                           Gamma iterations  =  6   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.77492  
-                                   Total H  =  8.677849e+01
-                                   Total O  =  4.224375e+01
+                          Density of water  =  0.77399  
+                                   Total H  =  8.677724e+01
+                                   Total O  =  4.224317e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3105,11 +3104,11 @@ H2Sg(g)            1.56   3.671e+01  0.940   0.000e+00   7.855e+00   7.855e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    H+              1.604e-04   1.534e-04    -3.795    -3.814    -0.019      0.00
-   OH-             4.078e-08   4.011e-08    -7.390    -7.397    -0.007    -85.56
-   H2O             5.551e+01   9.754e-01     1.744    -0.011     0.000     23.27
+   OH-             4.079e-08   4.011e-08    -7.389    -7.397    -0.007    -85.56
+   H2O             5.551e+01   9.754e-01     1.744    -0.011     0.000     23.28
 Sg            1.505e+00
    H2Sg            1.264e+00   1.264e+00     0.102     0.102     0.000     73.89
-   (H2Sg)2         1.204e-01   1.204e-01    -0.920    -0.920     0.000    -80.61
+   (H2Sg)2         1.203e-01   1.203e-01    -0.920    -0.920     0.000    -80.61
    HSg-            1.603e-04   1.577e-04    -3.795    -3.802    -0.007    -39.85
 
 ------------------------------Saturation indices-------------------------------
@@ -3133,43 +3132,43 @@ Using temperature 101.
 Total pressure: 98.70      atmospheres          (Peng-Robinson calculation)
     Gas volume:   2.00e+01 liters
   Molar volume:   3.49e-01 liters/mole
-   P * Vm / RT:  0.73789  (Compressibility Factor Z) 
+   P * Vm / RT:  0.73788  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             1.92   8.335e+01  0.752   0.000e+00   4.837e+01   4.837e+01
+H2O(g)             1.92   8.335e+01  0.752   0.000e+00   4.838e+01   4.838e+01
 H2Sg(g)            1.19   1.535e+01  1.005   0.000e+00   8.909e+00   8.909e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Sg                7.061e-01   9.075e-02
+	Sg                7.060e-01   9.068e-02
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  4.090        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 295°C)  =  63        
-                           Density (g/cm³)  =  0.71453  
-                                Volume (L)  =  0.18421  
-                         Viscosity (mPa s)  =  0.08858  
+       Specific Conductance (µS/cm, 295°C)  =  11        
+                           Density (g/cm³)  =  0.71436  
+                                Volume (L)  =  0.18412  
+                         Viscosity (mPa s)  =  0.08856  
                          Activity of water  =  0.988  
-                  Ionic strength (mol/kgw)  =  8.384e-05  
-                        Mass of water (kg)  =  1.285e-01  
-                  Total alkalinity (eq/kg)  =  -7.018e-18 
+                  Ionic strength (mol/kgw)  =  8.383e-05  
+                        Mass of water (kg)  =  1.284e-01  
+                   Total alkalinity (eq/kg)  = 1.273e-17  
                           Temperature (°C)  =  295.00
                             Pressure (atm)  =  98.70
-                   Electrical balance (eq)  =  9.021e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.635e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  163 
                           Gamma iterations  =  25  
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.72830  
-                                   Total H  =  1.445007e+01
-                                   Total O  =  7.134287e+00
+                          Density of water  =  0.72644  
+                                   Total H  =  1.443984e+01
+                                   Total O  =  7.129242e+00
 
 ----------------------------Distribution of species----------------------------
 
@@ -3177,13 +3176,13 @@ H2Sg(g)            1.19   1.535e+01  1.005   0.000e+00   8.909e+00   8.909e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              8.384e-05   8.120e-05    -4.077    -4.090    -0.014      0.00
-   OH-             7.044e-08   6.915e-08    -7.152    -7.160    -0.008   -152.42
-   H2O             5.551e+01   9.879e-01     1.744    -0.005     0.000     24.79
-Sg            7.061e-01
-   H2Sg            6.500e-01   6.500e-01    -0.187    -0.187     0.000     95.07
+   H+              8.383e-05   8.119e-05    -4.077    -4.090    -0.014      0.00
+   OH-             7.044e-08   6.916e-08    -7.152    -7.160    -0.008   -152.42
+   H2O             5.551e+01   9.879e-01     1.744    -0.005     0.000     24.80
+Sg            7.060e-01
+   H2Sg            6.499e-01   6.499e-01    -0.187    -0.187     0.000     95.07
    (H2Sg)2         2.799e-02   2.799e-02    -1.553    -1.553     0.000   -172.06
-   HSg-            8.377e-05   8.224e-05    -4.077    -4.085    -0.008    -90.77
+   HSg-            8.376e-05   8.224e-05    -4.077    -4.085    -0.008    -90.77
 
 ------------------------------Saturation indices-------------------------------
 
@@ -3253,11 +3252,11 @@ H2Sg(g)            2.17   1.466e+02  0.154   0.000e+00   6.966e+00   6.966e+00
                          Activity of water  =  0.967  
                   Ionic strength (mol/kgw)  =  4.991e-04  
                         Mass of water (kg)  =  9.988e-01  
-                  Total alkalinity (eq/kg)  =  -4.612e-16 
+                   Total alkalinity (eq/kg)  = -4.442e-16 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  4.607e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.437e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -3326,11 +3325,11 @@ H2Sg(g)            2.16   1.453e+02  0.262   0.000e+00   6.828e+00   6.828e+00
                          Activity of water  =  0.967  
                   Ionic strength (mol/kgw)  =  6.608e-04  
                         Mass of water (kg)  =  9.977e-01  
-                  Total alkalinity (eq/kg)  =  -1.178e-15 
+                   Total alkalinity (eq/kg)  = -1.169e-15 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  1.176e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.167e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -3348,7 +3347,7 @@ H2Sg(g)            2.16   1.453e+02  0.262   0.000e+00   6.828e+00   6.828e+00
    OH-             1.698e-10   1.676e-10    -9.770    -9.776    -0.006     -4.29
    H2O             5.551e+01   9.670e-01     1.744    -0.015     0.000     18.21
 Sg            2.177e+00
-   H2Sg            1.547e+00   1.547e+00     0.189     0.189     0.000     40.29
+   H2Sg            1.547e+00   1.547e+00     0.189     0.189    -0.000     40.29
    (H2Sg)2         3.151e-01   3.151e-01    -0.502    -0.502     0.000     34.73
    HSg-            6.608e-04   6.523e-04    -3.180    -3.186    -0.006     21.10
 
@@ -3399,11 +3398,11 @@ H2Sg(g)            2.16   1.432e+02  0.391   0.000e+00   6.456e+00   6.456e+00
                          Activity of water  =  0.963  
                   Ionic strength (mol/kgw)  =  7.613e-04  
                         Mass of water (kg)  =  9.961e-01  
-                  Total alkalinity (eq/kg)  =  -1.770e-15 
+                   Total alkalinity (eq/kg)  = -1.760e-15 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  1.764e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.753e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  34  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -3465,22 +3464,22 @@ H2Sg(g)            2.15   1.405e+02  0.523   0.000e+00   5.974e+00   5.974e+00
 
                                         pH  =  3.136        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  529       
+       Specific Conductance (µS/cm, 120°C)  =  605       
                            Density (g/cm³)  =  0.95924  
-                                Volume (L)  =  1.14398  
-                         Viscosity (mPa s)  =  0.23602  
+                                Volume (L)  =  1.14399  
+                         Viscosity (mPa s)  =  0.23601  
                          Activity of water  =  0.958  
                   Ionic strength (mol/kgw)  =  7.785e-04  
                         Mass of water (kg)  =  9.942e-01  
-                  Total alkalinity (eq/kg)  =  -1.767e-15 
+                   Total alkalinity (eq/kg)  = -1.738e-15 
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  1.757e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.728e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  35  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.95045  
+                          Density of water  =  0.95044  
                                    Total H  =  1.164241e+02
                                    Total O  =  5.518624e+01
 
@@ -3538,22 +3537,22 @@ H2Sg(g)            2.14   1.368e+02  0.626   0.000e+00   5.577e+00   5.577e+00
 
                                         pH  =  3.177        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  513       
-                           Density (g/cm³)  =  0.93845  
-                                Volume (L)  =  1.18116  
-                         Viscosity (mPa s)  =  0.18632  
+       Specific Conductance (µS/cm, 150°C)  =  607       
+                           Density (g/cm³)  =  0.93844  
+                                Volume (L)  =  1.18117  
+                         Viscosity (mPa s)  =  0.18631  
                          Activity of water  =  0.953  
                   Ionic strength (mol/kgw)  =  7.127e-04  
                         Mass of water (kg)  =  9.918e-01  
-                  Total alkalinity (eq/kg)  =  -1.504e-15 
+                   Total alkalinity (eq/kg)  = -1.446e-15 
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  1.492e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.434e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.92509  
+                          Density of water  =  0.92506  
                                    Total H  =  1.169488e+02
                                    Total O  =  5.505164e+01
 
@@ -3611,22 +3610,22 @@ H2Sg(g)            2.11   1.294e+02  0.702   0.000e+00   5.367e+00   5.367e+00
 
                                         pH  =  3.256        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 180°C)  =  442       
-                           Density (g/cm³)  =  0.91229  
-                                Volume (L)  =  1.21668  
-                         Viscosity (mPa s)  =  0.15382  
+       Specific Conductance (µS/cm, 180°C)  =  537       
+                           Density (g/cm³)  =  0.91226  
+                                Volume (L)  =  1.21672  
+                         Viscosity (mPa s)  =  0.15383  
                          Activity of water  =  0.949  
                   Ionic strength (mol/kgw)  =  5.946e-04  
                         Mass of water (kg)  =  9.861e-01  
-                  Total alkalinity (eq/kg)  =  -1.532e-15 
+                   Total alkalinity (eq/kg)  = -1.436e-15 
                           Temperature (°C)  =  180.00
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  1.511e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  34  
+                   Electrical balance (eq)  =  1.416e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  33  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.89603  
+                          Density of water  =  0.89595  
                                    Total H  =  1.167398e+02
                                    Total O  =  5.473654e+01
 
@@ -3640,7 +3639,7 @@ H2Sg(g)            2.11   1.294e+02  0.702   0.000e+00   5.367e+00   5.367e+00
    OH-             7.849e-09   7.754e-09    -8.105    -8.110    -0.005    -18.55
    H2O             5.551e+01   9.492e-01     1.744    -0.023     0.000     20.11
 Sg            3.684e+00
-   H2Sg            2.107e+00   2.107e+00     0.324     0.324     0.000     50.55
+   H2Sg            2.107e+00   2.107e+00     0.324     0.324    -0.000     50.55
    (H2Sg)2         7.886e-01   7.886e-01    -0.103    -0.103     0.000     14.19
    HSg-            5.946e-04   5.875e-04    -3.226    -3.231    -0.005     11.28
 
@@ -3684,24 +3683,24 @@ H2Sg(g)            2.07   1.174e+02  0.764   0.000e+00   5.315e+00   5.315e+00
 
                                         pH  =  3.366        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 210°C)  =  345       
-                           Density (g/cm³)  =  0.88007  
-                                Volume (L)  =  1.25058  
+       Specific Conductance (µS/cm, 210°C)  =  432       
+                           Density (g/cm³)  =  0.88000  
+                                Volume (L)  =  1.25068  
                          Viscosity (mPa s)  =  0.13114  
                          Activity of water  =  0.947  
                   Ionic strength (mol/kgw)  =  4.618e-04  
                         Mass of water (kg)  =  9.750e-01  
-                  Total alkalinity (eq/kg)  =  -1.729e-15 
+                   Total alkalinity (eq/kg)  = -1.534e-15 
                           Temperature (°C)  =  210.00
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  1.686e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  36  
+                   Electrical balance (eq)  =  1.495e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  35  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.86304  
+                          Density of water  =  0.86286  
                                    Total H  =  1.156086e+02
-                                   Total O  =  5.411912e+01
+                                   Total O  =  5.411910e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3738,7 +3737,7 @@ Using temperature 10.
 Total pressure: 148.00      atmospheres          (Peng-Robinson calculation)
     Gas volume:   1.64e+00 liters
   Molar volume:   2.01e-01 liters/mole
-   P * Vm / RT:  0.70709  (Compressibility Factor Z) 
+   P * Vm / RT:  0.70708  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
@@ -3757,24 +3756,24 @@ H2Sg(g)            2.00   9.994e+01  0.822   0.000e+00   5.490e+00   5.490e+00
 
                                         pH  =  3.503        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 240°C)  =  248       
-                           Density (g/cm³)  =  0.83989  
-                                Volume (L)  =  1.27642  
-                         Viscosity (mPa s)  =  0.11423  
+       Specific Conductance (µS/cm, 240°C)  =  316       
+                           Density (g/cm³)  =  0.83973  
+                                Volume (L)  =  1.27666  
+                         Viscosity (mPa s)  =  0.11420  
                          Activity of water  =  0.947  
                   Ionic strength (mol/kgw)  =  3.362e-04  
                         Mass of water (kg)  =  9.524e-01  
-                  Total alkalinity (eq/kg)  =  -2.533e-15 
+                   Total alkalinity (eq/kg)  = -2.013e-15 
                           Temperature (°C)  =  240.00
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  2.412e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  38  
+                   Electrical balance (eq)  =  1.917e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  39  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.82543  
-                                   Total H  =  1.127520e+02
-                                   Total O  =  5.286600e+01
+                          Density of water  =  0.82504  
+                                   Total H  =  1.127517e+02
+                                   Total O  =  5.286591e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3784,7 +3783,7 @@ H2Sg(g)            2.00   9.994e+01  0.822   0.000e+00   5.490e+00   5.490e+00
 
    H+              3.362e-04   3.139e-04    -3.473    -3.503    -0.030      0.00
    OH-             2.146e-08   2.129e-08    -7.668    -7.672    -0.003    -46.24
-   H2O             5.551e+01   9.468e-01     1.744    -0.024     0.000     21.83
+   H2O             5.551e+01   9.468e-01     1.744    -0.024     0.000     21.84
 Sg            3.685e+00
    H2Sg            2.386e+00   2.386e+00     0.378     0.378     0.000     60.30
    (H2Sg)2         6.492e-01   6.492e-01    -0.188    -0.188     0.000    -23.94
@@ -3811,43 +3810,43 @@ Using temperature 10.
 Total pressure: 148.00      atmospheres          (Peng-Robinson calculation)
     Gas volume:   2.50e+00 liters
   Molar volume:   2.15e-01 liters/mole
-   P * Vm / RT:  0.71277  (Compressibility Factor Z) 
+   P * Vm / RT:  0.71276  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             1.85   7.133e+01  0.637   0.000e+00   5.619e+00   5.619e+00
-H2Sg(g)            1.88   7.667e+01  0.885   0.000e+00   6.040e+00   6.040e+00
+H2O(g)             1.85   7.133e+01  0.637   0.000e+00   5.620e+00   5.620e+00
+H2Sg(g)            1.88   7.667e+01  0.885   0.000e+00   6.041e+00   6.041e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Sg                3.293e+00   2.960e+00
+	Sg                3.293e+00   2.959e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.668        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 270°C)  =  164       
-                           Density (g/cm³)  =  0.78844  
-                                Volume (L)  =  1.26784  
-                         Viscosity (mPa s)  =  0.10061  
+       Specific Conductance (µS/cm, 270°C)  =  208       
+                           Density (g/cm³)  =  0.78813  
+                                Volume (L)  =  1.26833  
+                         Viscosity (mPa s)  =  0.10055  
                          Activity of water  =  0.951  
                   Ionic strength (mol/kgw)  =  2.292e-04  
-                        Mass of water (kg)  =  8.988e-01  
-                  Total alkalinity (eq/kg)  =  -6.420e-15 
+                        Mass of water (kg)  =  8.987e-01  
+                   Total alkalinity (eq/kg)  = -4.248e-15 
                           Temperature (°C)  =  270.00
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  5.770e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  44  
+                   Electrical balance (eq)  =  3.818e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  45  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.78150  
-                                   Total H  =  1.056926e+02
-                                   Total O  =  4.988674e+01
+                          Density of water  =  0.78063  
+                                   Total H  =  1.056910e+02
+                                   Total O  =  4.988612e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3857,7 +3856,7 @@ H2Sg(g)            1.88   7.667e+01  0.885   0.000e+00   6.040e+00   6.040e+00
 
    H+              2.292e-04   2.150e-04    -3.640    -3.668    -0.028      0.00
    OH-             3.107e-08   3.083e-08    -7.508    -7.511    -0.003    -79.64
-   H2O             5.551e+01   9.508e-01     1.744    -0.022     0.000     23.07
+   H2O             5.551e+01   9.508e-01     1.744    -0.022     0.000     23.08
 Sg            3.293e+00
    H2Sg            2.311e+00   2.311e+00     0.364     0.364     0.000     71.13
    (H2Sg)2         4.906e-01   4.906e-01    -0.309    -0.309     0.000    -69.72
@@ -3884,43 +3883,43 @@ Using temperature 10.
 Total pressure: 148.00      atmospheres          (Peng-Robinson calculation)
     Gas volume:   4.92e+00 liters
   Molar volume:   2.19e-01 liters/mole
-   P * Vm / RT:  0.68848  (Compressibility Factor Z) 
+   P * Vm / RT:  0.68845  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             2.00   1.003e+02  0.661   0.000e+00   1.525e+01   1.525e+01
-H2Sg(g)            1.68   4.768e+01  0.966   0.000e+00   7.247e+00   7.247e+00
+H2O(g)             2.00   1.003e+02  0.661   0.000e+00   1.526e+01   1.526e+01
+H2Sg(g)            1.68   4.767e+01  0.966   0.000e+00   7.248e+00   7.248e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Sg                2.417e+00   1.753e+00
+	Sg                2.417e+00   1.752e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.865        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 300°C)  =  99        
-                           Density (g/cm³)  =  0.72164  
-                                Volume (L)  =  1.08779  
-                         Viscosity (mPa s)  =  0.08841  
+       Specific Conductance (µS/cm, 300°C)  =  108       
+                           Density (g/cm³)  =  0.72109  
+                                Volume (L)  =  1.08847  
+                         Viscosity (mPa s)  =  0.08831  
                          Activity of water  =  0.963  
                   Ionic strength (mol/kgw)  =  1.442e-04  
-                        Mass of water (kg)  =  7.253e-01  
-                  Total alkalinity (eq/kg)  =  -1.361e-18 
+                        Mass of water (kg)  =  7.252e-01  
+                   Total alkalinity (eq/kg)  = 2.150e-18  
                           Temperature (°C)  =  300.00
                             Pressure (atm)  =  148.00
-                   Electrical balance (eq)  =  9.868e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  65  
+                   Electrical balance (eq)  =  -1.559e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  66  
                           Gamma iterations  =  7   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.72722  
-                                   Total H  =  8.401776e+01
-                                   Total O  =  4.025591e+01
+                          Density of water  =  0.72527  
+                                   Total H  =  8.400650e+01
+                                   Total O  =  4.025083e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3929,11 +3928,11 @@ H2Sg(g)            1.68   4.768e+01  0.966   0.000e+00   7.247e+00   7.247e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    H+              1.442e-04   1.366e-04    -3.841    -3.865    -0.024      0.00
-   OH-             4.606e-08   4.551e-08    -7.337    -7.342    -0.005   -154.99
-   H2O             5.551e+01   9.625e-01     1.744    -0.017     0.000     24.82
+   OH-             4.606e-08   4.552e-08    -7.337    -7.342    -0.005   -154.99
+   H2O             5.551e+01   9.625e-01     1.744    -0.017     0.000     24.84
 Sg            2.417e+00
    H2Sg            1.825e+00   1.825e+00     0.261     0.261     0.000     95.03
-   (H2Sg)2         2.960e-01   2.960e-01    -0.529    -0.529     0.000   -172.90
+   (H2Sg)2         2.959e-01   2.959e-01    -0.529    -0.529     0.000   -172.90
    HSg-            1.442e-04   1.425e-04    -3.841    -3.846    -0.005    -92.34
 
 ------------------------------Saturation indices-------------------------------
@@ -4004,11 +4003,11 @@ H2Sg(g)            2.29   1.956e+02  0.125   0.000e+00   6.918e+00   6.918e+00
                          Activity of water  =  0.967  
                   Ionic strength (mol/kgw)  =  5.085e-04  
                         Mass of water (kg)  =  9.988e-01  
-                  Total alkalinity (eq/kg)  =  -4.492e-16 
+                   Total alkalinity (eq/kg)  = -4.459e-16 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  4.487e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.454e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -4026,7 +4025,7 @@ H2Sg(g)            2.29   1.956e+02  0.125   0.000e+00   6.918e+00   6.918e+00
    OH-             3.482e-11   3.456e-11   -10.458   -10.461    -0.003     -3.50
    H2O             5.551e+01   9.668e-01     1.744    -0.015     0.000     17.94
 Sg            2.084e+00
-   H2Sg            1.661e+00   1.661e+00     0.220     0.220    -0.000     35.21
+   H2Sg            1.661e+00   1.661e+00     0.220     0.220     0.000     35.21
    (H2Sg)2         2.113e-01   2.113e-01    -0.675    -0.675     0.000     38.41
    HSg-            5.085e-04   5.047e-04    -3.294    -3.297    -0.003     20.85
 
@@ -4077,11 +4076,11 @@ H2Sg(g)            2.29   1.938e+02  0.213   0.000e+00   6.757e+00   6.757e+00
                          Activity of water  =  0.966  
                   Ionic strength (mol/kgw)  =  6.747e-04  
                         Mass of water (kg)  =  9.977e-01  
-                  Total alkalinity (eq/kg)  =  -1.140e-15 
+                   Total alkalinity (eq/kg)  = -1.135e-15 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  1.138e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.132e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -4099,7 +4098,7 @@ H2Sg(g)            2.29   1.938e+02  0.213   0.000e+00   6.757e+00   6.757e+00
    OH-             1.732e-10   1.710e-10    -9.761    -9.767    -0.006     -4.39
    H2O             5.551e+01   9.662e-01     1.744    -0.015     0.000     18.17
 Sg            2.248e+00
-   H2Sg            1.564e+00   1.564e+00     0.194     0.194     0.000     39.68
+   H2Sg            1.564e+00   1.564e+00     0.194     0.194    -0.000     39.68
    (H2Sg)2         3.417e-01   3.417e-01    -0.466    -0.466     0.000     36.80
    HSg-            6.747e-04   6.661e-04    -3.171    -3.176    -0.006     21.10
 
@@ -4150,11 +4149,11 @@ H2Sg(g)            2.28   1.909e+02  0.319   0.000e+00   6.328e+00   6.328e+00
                          Activity of water  =  0.962  
                   Ionic strength (mol/kgw)  =  7.811e-04  
                         Mass of water (kg)  =  9.961e-01  
-                  Total alkalinity (eq/kg)  =  -1.654e-15 
+                   Total alkalinity (eq/kg)  = -1.638e-15 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  1.647e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.631e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  34  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -4216,22 +4215,22 @@ H2Sg(g)            2.27   1.867e+02  0.434   0.000e+00   5.726e+00   5.726e+00
 
                                         pH  =  3.122        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  542       
+       Specific Conductance (µS/cm, 120°C)  =  622       
                            Density (g/cm³)  =  0.96403  
-                                Volume (L)  =  1.14692  
+                                Volume (L)  =  1.14693  
                          Viscosity (mPa s)  =  0.23732  
                          Activity of water  =  0.955  
                   Ionic strength (mol/kgw)  =  8.063e-04  
                         Mass of water (kg)  =  9.941e-01  
-                  Total alkalinity (eq/kg)  =  -1.498e-15 
+                   Total alkalinity (eq/kg)  = -1.469e-15 
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  1.489e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.461e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  37  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.95284  
+                          Density of water  =  0.95282  
                                    Total H  =  1.169056e+02
                                    Total O  =  5.517906e+01
 
@@ -4247,7 +4246,7 @@ H2Sg(g)            2.27   1.867e+02  0.434   0.000e+00   5.726e+00   5.726e+00
 Sg            3.293e+00
    H2Sg            1.822e+00   1.822e+00     0.260     0.260     0.000     44.79
    (H2Sg)2         7.353e-01   7.353e-01    -0.134    -0.134     0.000     30.74
-   HSg-            8.063e-04   7.947e-04    -3.094    -3.100    -0.006     18.79
+   HSg-            8.062e-04   7.947e-04    -3.094    -3.100    -0.006     18.79
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4289,24 +4288,24 @@ H2Sg(g)            2.26   1.810e+02  0.541   0.000e+00   5.069e+00   5.069e+00
 
                                         pH  =  3.154        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  532       
-                           Density (g/cm³)  =  0.94636  
-                                Volume (L)  =  1.18954  
+       Specific Conductance (µS/cm, 150°C)  =  632       
+                           Density (g/cm³)  =  0.94634  
+                                Volume (L)  =  1.18955  
                          Viscosity (mPa s)  =  0.18756  
                          Activity of water  =  0.947  
                   Ionic strength (mol/kgw)  =  7.536e-04  
                         Mass of water (kg)  =  9.917e-01  
-                  Total alkalinity (eq/kg)  =  -9.163e-16 
+                   Total alkalinity (eq/kg)  = -8.731e-16 
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  9.087e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  8.659e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  36  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.92776  
+                          Density of water  =  0.92773  
                                    Total H  =  1.179583e+02
-                                   Total O  =  5.504768e+01
+                                   Total O  =  5.504767e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4362,24 +4361,24 @@ H2Sg(g)            2.24   1.725e+02  0.630   0.000e+00   4.496e+00   4.496e+00
 
                                         pH  =  3.223        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 180°C)  =  465       
-                           Density (g/cm³)  =  0.92529  
-                                Volume (L)  =  1.23405  
-                         Viscosity (mPa s)  =  0.15502  
+       Specific Conductance (µS/cm, 180°C)  =  574       
+                           Density (g/cm³)  =  0.92525  
+                                Volume (L)  =  1.23409  
+                         Viscosity (mPa s)  =  0.15504  
                          Activity of water  =  0.939  
                   Ionic strength (mol/kgw)  =  6.461e-04  
                         Mass of water (kg)  =  9.883e-01  
-                  Total alkalinity (eq/kg)  =  -1.590e-18 
+                   Total alkalinity (eq/kg)  = 1.373e-18  
                           Temperature (°C)  =  180.00
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  1.571e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  35  
+                   Electrical balance (eq)  =  -1.357e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  36  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.89910  
+                          Density of water  =  0.89902  
                                    Total H  =  1.187262e+02
-                                   Total O  =  5.485875e+01
+                                   Total O  =  5.485874e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4391,7 +4390,7 @@ H2Sg(g)            2.24   1.725e+02  0.630   0.000e+00   4.496e+00   4.496e+00
    OH-             7.540e-09   7.480e-09    -8.123    -8.126    -0.003    -18.41
    H2O             5.551e+01   9.395e-01     1.744    -0.027     0.000     20.04
 Sg            4.558e+00
-   H2Sg            2.370e+00   2.370e+00     0.375     0.375    -0.000     49.67
+   H2Sg            2.370e+00   2.370e+00     0.375     0.375     0.000     49.67
    (H2Sg)2         1.093e+00   1.093e+00     0.039     0.039     0.000     17.02
    HSg-            6.461e-04   6.411e-04    -3.190    -3.193    -0.003     11.67
 
@@ -4435,24 +4434,24 @@ H2Sg(g)            2.20   1.593e+02  0.705   0.000e+00   4.093e+00   4.093e+00
 
                                         pH  =  3.323        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 210°C)  =  371       
-                           Density (g/cm³)  =  0.89953  
-                                Volume (L)  =  1.27799  
-                         Viscosity (mPa s)  =  0.13235  
+       Specific Conductance (µS/cm, 210°C)  =  474       
+                           Density (g/cm³)  =  0.89944  
+                                Volume (L)  =  1.27811  
+                         Viscosity (mPa s)  =  0.13234  
                          Activity of water  =  0.933  
                   Ionic strength (mol/kgw)  =  5.156e-04  
                         Mass of water (kg)  =  9.824e-01  
-                  Total alkalinity (eq/kg)  =  -2.108e-18 
+                   Total alkalinity (eq/kg)  = 1.309e-18  
                           Temperature (°C)  =  210.00
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  2.070e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  38  
+                   Electrical balance (eq)  =  -1.286e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  37  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.86671  
-                                   Total H  =  1.188676e+02
-                                   Total O  =  5.452680e+01
+                          Density of water  =  0.86654  
+                                   Total H  =  1.188675e+02
+                                   Total O  =  5.452678e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4508,24 +4507,24 @@ H2Sg(g)            2.15   1.402e+02  0.773   0.000e+00   3.924e+00   3.924e+00
 
                                         pH  =  3.447        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 240°C)  =  275       
-                           Density (g/cm³)  =  0.86772  
-                                Volume (L)  =  1.31860  
-                         Viscosity (mPa s)  =  0.11552  
+       Specific Conductance (µS/cm, 240°C)  =  363       
+                           Density (g/cm³)  =  0.86752  
+                                Volume (L)  =  1.31890  
+                         Viscosity (mPa s)  =  0.11548  
                          Activity of water  =  0.929  
                   Ionic strength (mol/kgw)  =  3.878e-04  
                         Mass of water (kg)  =  9.712e-01  
-                  Total alkalinity (eq/kg)  =  -7.825e-19 
+                   Total alkalinity (eq/kg)  = 1.877e-18  
                           Temperature (°C)  =  240.00
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  7.600e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  41  
+                   Electrical balance (eq)  =  -1.823e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  42  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.83006  
-                                   Total H  =  1.179658e+02
-                                   Total O  =  5.390666e+01
+                          Density of water  =  0.82968  
+                                   Total H  =  1.179654e+02
+                                   Total O  =  5.390654e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4537,7 +4536,7 @@ H2Sg(g)            2.15   1.402e+02  0.773   0.000e+00   3.924e+00   3.924e+00
    OH-             1.968e-08   1.968e-08    -7.706    -7.706     0.000    -44.32
    H2O             5.551e+01   9.289e-01     1.744    -0.032     0.000     21.71
 Sg            5.227e+00
-   H2Sg            2.956e+00   2.956e+00     0.471     0.471    -0.000     58.82
+   H2Sg            2.956e+00   2.956e+00     0.471     0.471     0.000     58.82
    (H2Sg)2         1.135e+00   1.135e+00     0.055     0.055     0.000    -18.60
    HSg-            3.878e-04   3.880e-04    -3.411    -3.411     0.000     -7.83
 
@@ -4562,13 +4561,13 @@ Using temperature 10.
 Total pressure: 197.40      atmospheres          (Peng-Robinson calculation)
     Gas volume:   1.05e+00 liters
   Molar volume:   1.50e-01 liters/mole
-   P * Vm / RT:  0.66241  (Compressibility Factor Z) 
+   P * Vm / RT:  0.66239  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             1.92   8.236e+01  0.552   0.000e+00   2.938e+00   2.938e+00
+H2O(g)             1.92   8.237e+01  0.552   0.000e+00   2.939e+00   2.939e+00
 H2Sg(g)            2.06   1.150e+02  0.844   0.000e+00   4.104e+00   4.104e+00
 
 -----------------------------Solution composition------------------------------
@@ -4581,24 +4580,24 @@ H2Sg(g)            2.06   1.150e+02  0.844   0.000e+00   4.104e+00   4.104e+00
 
                                         pH  =  3.591        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 270°C)  =  193       
-                           Density (g/cm³)  =  0.82836  
-                                Volume (L)  =  1.34474  
-                         Viscosity (mPa s)  =  0.10208  
+       Specific Conductance (µS/cm, 270°C)  =  260       
+                           Density (g/cm³)  =  0.82791  
+                                Volume (L)  =  1.34544  
+                         Viscosity (mPa s)  =  0.10199  
                          Activity of water  =  0.928  
                   Ionic strength (mol/kgw)  =  2.778e-04  
                         Mass of water (kg)  =  9.471e-01  
-                  Total alkalinity (eq/kg)  =  -1.227e-18 
+                   Total alkalinity (eq/kg)  = 1.593e-18  
                           Temperature (°C)  =  270.00
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  1.162e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  40  
+                   Electrical balance (eq)  =  -1.509e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  59  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.78769  
-                                   Total H  =  1.149284e+02
-                                   Total O  =  5.256797e+01
+                          Density of water  =  0.78687  
+                                   Total H  =  1.149262e+02
+                                   Total O  =  5.256725e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4607,12 +4606,12 @@ H2Sg(g)            2.06   1.150e+02  0.844   0.000e+00   4.104e+00   4.104e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    H+              2.778e-04   2.564e-04    -3.556    -3.591    -0.035      0.00
-   OH-             2.756e-08   2.763e-08    -7.560    -7.559     0.001    -74.47
-   H2O             5.551e+01   9.283e-01     1.744    -0.032     0.000     22.88
+   OH-             2.757e-08   2.764e-08    -7.560    -7.559     0.001    -74.47
+   H2O             5.551e+01   9.283e-01     1.744    -0.032     0.000     22.90
 Sg            5.170e+00
-   H2Sg            3.091e+00   3.091e+00     0.490     0.490     0.000     68.64
-   (H2Sg)2         1.040e+00   1.040e+00     0.017     0.017     0.000    -59.94
-   HSg-            2.777e-04   2.785e-04    -3.556    -3.555     0.001    -30.72
+   H2Sg            3.090e+00   3.090e+00     0.490     0.490     0.000     68.64
+   (H2Sg)2         1.039e+00   1.039e+00     0.017     0.017     0.000    -59.94
+   HSg-            2.777e-04   2.784e-04    -3.556    -3.555     0.001    -30.72
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4635,43 +4634,43 @@ Using temperature 10.
 Total pressure: 197.40      atmospheres          (Peng-Robinson calculation)
     Gas volume:   1.78e+00 liters
   Molar volume:   1.55e-01 liters/mole
-   P * Vm / RT:  0.65029  (Compressibility Factor Z) 
+   P * Vm / RT:  0.65021  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             2.06   1.136e+02  0.581   0.000e+00   6.595e+00   6.595e+00
-H2Sg(g)            1.92   8.381e+01  0.928   0.000e+00   4.865e+00   4.865e+00
+H2O(g)             2.06   1.136e+02  0.581   0.000e+00   6.600e+00   6.600e+00
+H2Sg(g)            1.92   8.378e+01  0.928   0.000e+00   4.867e+00   4.867e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Sg                4.692e+00   4.135e+00
+	Sg                4.691e+00   4.133e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.748        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 300°C)  =  133       
-                           Density (g/cm³)  =  0.78424  
-                                Volume (L)  =  1.30329  
-                         Viscosity (mPa s)  =  0.09020  
+       Specific Conductance (µS/cm, 300°C)  =  174       
+                           Density (g/cm³)  =  0.78327  
+                                Volume (L)  =  1.30471  
+                         Viscosity (mPa s)  =  0.09003  
                          Activity of water  =  0.934  
                   Ionic strength (mol/kgw)  =  1.926e-04  
-                        Mass of water (kg)  =  8.812e-01  
-                  Total alkalinity (eq/kg)  =  -1.431e-18 
+                        Mass of water (kg)  =  8.811e-01  
+                   Total alkalinity (eq/kg)  = -5.364e-14 
                           Temperature (°C)  =  300.00
                             Pressure (atm)  =  197.40
-                   Electrical balance (eq)  =  1.261e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  52  
+                   Electrical balance (eq)  =  4.726e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  48  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.73605  
-                                   Total H  =  1.060925e+02
-                                   Total O  =  4.891164e+01
+                          Density of water  =  0.73426  
+                                   Total H  =  1.060785e+02
+                                   Total O  =  4.890627e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -4679,13 +4678,13 @@ H2Sg(g)            1.92   8.381e+01  0.928   0.000e+00   4.865e+00   4.865e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   H+              1.926e-04   1.787e-04    -3.715    -3.748    -0.033      0.00
-   OH-             3.814e-08   3.816e-08    -7.419    -7.418     0.000   -139.28
-   H2O             5.551e+01   9.342e-01     1.744    -0.030     0.000     24.50
-Sg            4.692e+00
+   H+              1.926e-04   1.786e-04    -3.715    -3.748    -0.033      0.00
+   OH-             3.815e-08   3.816e-08    -7.419    -7.418     0.000   -139.28
+   H2O             5.551e+01   9.343e-01     1.744    -0.030     0.000     24.54
+Sg            4.691e+00
    H2Sg            2.859e+00   2.859e+00     0.456     0.456     0.000     89.24
-   (H2Sg)2         9.163e-01   9.163e-01    -0.038    -0.038     0.000   -148.71
-   HSg-            1.926e-04   1.927e-04    -3.715    -3.715     0.000    -80.01
+   (H2Sg)2         9.159e-01   9.159e-01    -0.038    -0.038     0.000   -148.71
+   HSg-            1.926e-04   1.926e-04    -3.715    -3.715     0.000    -80.02
 
 ------------------------------Saturation indices-------------------------------
 
@@ -4755,11 +4754,11 @@ H2Sg(g)            2.39   2.444e+02  0.108   0.000e+00   6.872e+00   6.872e+00
                          Activity of water  =  0.966  
                   Ionic strength (mol/kgw)  =  5.178e-04  
                         Mass of water (kg)  =  9.988e-01  
-                  Total alkalinity (eq/kg)  =  -4.701e-16 
+                   Total alkalinity (eq/kg)  = -4.332e-16 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  4.696e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.327e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -4777,7 +4776,7 @@ H2Sg(g)            2.39   2.444e+02  0.108   0.000e+00   6.872e+00   6.872e+00
    OH-             3.562e-11   3.536e-11   -10.448   -10.451    -0.003     -3.39
    H2O             5.551e+01   9.662e-01     1.744    -0.015     0.000     17.90
 Sg            2.131e+00
-   H2Sg            1.682e+00   1.682e+00     0.226     0.226     0.000     34.71
+   H2Sg            1.682e+00   1.682e+00     0.226     0.226    -0.000     34.71
    (H2Sg)2         2.241e-01   2.241e-01    -0.650    -0.650     0.000     40.38
    HSg-            5.178e-04   5.140e-04    -3.286    -3.289    -0.003     20.87
 
@@ -4822,17 +4821,17 @@ H2Sg(g)            2.38   2.422e+02  0.184   0.000e+00   6.690e+00   6.690e+00
                                         pH  =  3.185        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  60°C)  =  356       
-                           Density (g/cm³)  =  0.99679  
+                           Density (g/cm³)  =  0.99678  
                                 Volume (L)  =  1.07992  
                          Viscosity (mPa s)  =  0.47215  
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  6.882e-04  
                         Mass of water (kg)  =  9.977e-01  
-                  Total alkalinity (eq/kg)  =  -1.099e-15 
+                   Total alkalinity (eq/kg)  = -1.093e-15 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.097e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.091e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -4850,7 +4849,7 @@ H2Sg(g)            2.38   2.422e+02  0.184   0.000e+00   6.690e+00   6.690e+00
    OH-             1.769e-10   1.747e-10    -9.752    -9.758    -0.005     -4.48
    H2O             5.551e+01   9.655e-01     1.744    -0.015     0.000     18.13
 Sg            2.315e+00
-   H2Sg            1.581e+00   1.581e+00     0.199     0.199    -0.000     39.09
+   H2Sg            1.581e+00   1.581e+00     0.199     0.199     0.000     39.09
    (H2Sg)2         3.666e-01   3.666e-01    -0.436    -0.436     0.000     38.80
    HSg-            6.882e-04   6.796e-04    -3.162    -3.168    -0.005     21.11
 
@@ -4901,15 +4900,15 @@ H2Sg(g)            2.38   2.385e+02  0.277   0.000e+00   6.209e+00   6.209e+00
                          Activity of water  =  0.961  
                   Ionic strength (mol/kgw)  =  7.996e-04  
                         Mass of water (kg)  =  9.962e-01  
-                  Total alkalinity (eq/kg)  =  -1.531e-15 
+                   Total alkalinity (eq/kg)  = -1.510e-15 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.525e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.504e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  34  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.97639  
+                          Density of water  =  0.97638  
                                    Total H  =  1.161669e+02
                                    Total O  =  5.529265e+01
 
@@ -4967,22 +4966,22 @@ H2Sg(g)            2.37   2.331e+02  0.380   0.000e+00   5.508e+00   5.508e+00
 
                                         pH  =  3.110        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  553       
-                           Density (g/cm³)  =  0.96832  
+       Specific Conductance (µS/cm, 120°C)  =  635       
+                           Density (g/cm³)  =  0.96831  
                                 Volume (L)  =  1.14963  
                          Viscosity (mPa s)  =  0.23861  
                          Activity of water  =  0.953  
                   Ionic strength (mol/kgw)  =  8.305e-04  
                         Mass of water (kg)  =  9.942e-01  
-                  Total alkalinity (eq/kg)  =  -1.247e-15 
+                   Total alkalinity (eq/kg)  = -1.217e-15 
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.239e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.210e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  36  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.95518  
+                          Density of water  =  0.95517  
                                    Total H  =  1.173519e+02
                                    Total O  =  5.518369e+01
 
@@ -4997,7 +4996,7 @@ H2Sg(g)            2.37   2.331e+02  0.380   0.000e+00   5.508e+00   5.508e+00
    H2O             5.551e+01   9.527e-01     1.744    -0.021     0.000     18.86
 Sg            3.513e+00
    H2Sg            1.867e+00   1.867e+00     0.271     0.271    -0.000     44.10
-   (H2Sg)2         8.225e-01   8.225e-01    -0.085    -0.085     0.000     32.91
+   (H2Sg)2         8.225e-01   8.225e-01    -0.085    -0.085    -0.000     32.91
    HSg-            8.305e-04   8.194e-04    -3.081    -3.087    -0.006     18.87
 
 ------------------------------Saturation indices-------------------------------
@@ -5040,22 +5039,22 @@ H2Sg(g)            2.35   2.254e+02  0.482   0.000e+00   4.671e+00   4.671e+00
 
                                         pH  =  3.138        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  544       
-                           Density (g/cm³)  =  0.95294  
-                                Volume (L)  =  1.19584  
+       Specific Conductance (µS/cm, 150°C)  =  651       
+                           Density (g/cm³)  =  0.95293  
+                                Volume (L)  =  1.19586  
                          Viscosity (mPa s)  =  0.18879  
                          Activity of water  =  0.943  
                   Ionic strength (mol/kgw)  =  7.844e-04  
                         Mass of water (kg)  =  9.920e-01  
-                  Total alkalinity (eq/kg)  =  -1.418e-18 
+                   Total alkalinity (eq/kg)  = 1.589e-18  
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.407e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.576e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  35  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.93038  
+                          Density of water  =  0.93034  
                                    Total H  =  1.187859e+02
                                    Total O  =  5.506411e+01
 
@@ -5070,7 +5069,7 @@ H2Sg(g)            2.35   2.254e+02  0.482   0.000e+00   4.671e+00   4.671e+00
    H2O             5.551e+01   9.429e-01     1.744    -0.026     0.000     19.36
 Sg            4.364e+00
    H2Sg            2.164e+00   2.164e+00     0.335     0.335     0.000     46.28
-   (H2Sg)2         1.100e+00   1.100e+00     0.041     0.041     0.000     27.68
+   (H2Sg)2         1.100e+00   1.100e+00     0.041     0.041    -0.000     27.68
    HSg-            7.844e-04   7.766e-04    -3.105    -3.110    -0.004     16.24
 
 ------------------------------Saturation indices-------------------------------
@@ -5113,22 +5112,22 @@ H2Sg(g)            2.33   2.147e+02  0.575   0.000e+00   3.813e+00   3.813e+00
 
                                         pH  =  3.201        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 180°C)  =  479       
-                           Density (g/cm³)  =  0.93618  
-                                Volume (L)  =  1.24607  
-                         Viscosity (mPa s)  =  0.15621  
+       Specific Conductance (µS/cm, 180°C)  =  597       
+                           Density (g/cm³)  =  0.93614  
+                                Volume (L)  =  1.24611  
+                         Viscosity (mPa s)  =  0.15622  
                          Activity of water  =  0.932  
                   Ionic strength (mol/kgw)  =  6.830e-04  
                         Mass of water (kg)  =  9.897e-01  
-                  Total alkalinity (eq/kg)  =  -1.076e-18 
+                   Total alkalinity (eq/kg)  = 1.315e-18  
                           Temperature (°C)  =  180.00
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.065e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -1.302e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  37  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.90210  
+                          Density of water  =  0.90202  
                                    Total H  =  1.202491e+02
                                    Total O  =  5.493710e+01
 
@@ -5167,7 +5166,7 @@ Using temperature 10.
 Total pressure: 246.70      atmospheres          (Peng-Robinson calculation)
     Gas volume:   3.42e-01 liters
   Molar volume:   9.08e-02 liters/mole
-   P * Vm / RT:  0.56497  (Compressibility Factor Z) 
+   P * Vm / RT:  0.56496  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
@@ -5186,24 +5185,24 @@ H2Sg(g)            2.30   1.995e+02  0.658   0.000e+00   3.042e+00   3.042e+00
 
                                         pH  =  3.294        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 210°C)  =  388       
-                           Density (g/cm³)  =  0.91732  
-                                Volume (L)  =  1.29734  
+       Specific Conductance (µS/cm, 210°C)  =  503       
+                           Density (g/cm³)  =  0.91723  
+                                Volume (L)  =  1.29747  
                          Viscosity (mPa s)  =  0.13353  
                          Activity of water  =  0.922  
                   Ionic strength (mol/kgw)  =  5.554e-04  
                         Mass of water (kg)  =  9.870e-01  
-                  Total alkalinity (eq/kg)  =  -5.435e-15 
+                   Total alkalinity (eq/kg)  = -5.074e-15 
                           Temperature (°C)  =  210.00
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  5.364e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.008e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  34  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.87028  
-                                   Total H  =  1.214889e+02
-                                   Total O  =  5.478656e+01
+                          Density of water  =  0.87011  
+                                   Total H  =  1.214888e+02
+                                   Total O  =  5.478654e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5213,7 +5212,7 @@ H2Sg(g)            2.30   1.995e+02  0.658   0.000e+00   3.042e+00   3.042e+00
 
    H+              5.554e-04   5.085e-04    -3.255    -3.294    -0.038      0.00
    OH-             1.255e-08   1.258e-08    -7.901    -7.900     0.001    -27.41
-   H2O             5.551e+01   9.222e-01     1.744    -0.035     0.000     20.70
+   H2O             5.551e+01   9.222e-01     1.744    -0.035     0.000     20.71
 Sg            6.036e+00
    H2Sg            2.950e+00   2.950e+00     0.470     0.470     0.000     52.24
    (H2Sg)2         1.543e+00   1.543e+00     0.188     0.188     0.000      7.20
@@ -5240,43 +5239,43 @@ Using temperature 10.
 Total pressure: 246.70      atmospheres          (Peng-Robinson calculation)
     Gas volume:   3.50e-01 liters
   Molar volume:   1.04e-01 liters/mole
-   P * Vm / RT:  0.60874  (Compressibility Factor Z) 
+   P * Vm / RT:  0.60873  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             1.83   6.804e+01  0.437   0.000e+00   9.297e-01   9.297e-01
-H2Sg(g)            2.25   1.787e+02  0.735   0.000e+00   2.441e+00   2.441e+00
+H2O(g)             1.83   6.804e+01  0.437   0.000e+00   9.299e-01   9.299e-01
+H2Sg(g)            2.25   1.787e+02  0.735   0.000e+00   2.442e+00   2.442e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Sg                6.670e+00   6.559e+00
+	Sg                6.670e+00   6.558e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.409        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 240°C)  =  295       
-                           Density (g/cm³)  =  0.89625  
-                                Volume (L)  =  1.34646  
-                         Viscosity (mPa s)  =  0.11677  
+       Specific Conductance (µS/cm, 240°C)  =  397       
+                           Density (g/cm³)  =  0.89601  
+                                Volume (L)  =  1.34681  
+                         Viscosity (mPa s)  =  0.11672  
                          Activity of water  =  0.914  
                   Ionic strength (mol/kgw)  =  4.273e-04  
                         Mass of water (kg)  =  9.832e-01  
-                  Total alkalinity (eq/kg)  =  -1.145e-18 
+                   Total alkalinity (eq/kg)  = -7.935e-15 
                           Temperature (°C)  =  240.00
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.126e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  36  
+                   Electrical balance (eq)  =  7.802e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  34  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.83449  
-                                   Total H  =  1.222702e+02
-                                   Total O  =  5.457647e+01
+                          Density of water  =  0.83413  
+                                   Total H  =  1.222696e+02
+                                   Total O  =  5.457634e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5286,9 +5285,9 @@ H2Sg(g)            2.25   1.787e+02  0.735   0.000e+00   2.441e+00   2.441e+00
 
    H+              4.273e-04   3.896e-04    -3.369    -3.409    -0.040      0.00
    OH-             1.883e-08   1.898e-08    -7.725    -7.722     0.004    -42.59
-   H2O             5.551e+01   9.135e-01     1.744    -0.039     0.000     21.59
+   H2O             5.551e+01   9.135e-01     1.744    -0.039     0.000     21.60
 Sg            6.670e+00
-   H2Sg            3.367e+00   3.367e+00     0.527     0.527    -0.000     57.44
+   H2Sg            3.367e+00   3.367e+00     0.527     0.527     0.000     57.44
    (H2Sg)2         1.651e+00   1.651e+00     0.218     0.218     0.000    -13.62
    HSg-            4.273e-04   4.308e-04    -3.369    -3.366     0.004     -6.21
 
@@ -5313,43 +5312,43 @@ Using temperature 10.
 Total pressure: 246.70      atmospheres          (Peng-Robinson calculation)
     Gas volume:   3.83e-01 liters
   Molar volume:   1.14e-01 liters/mole
-   P * Vm / RT:  0.62957  (Compressibility Factor Z) 
+   P * Vm / RT:  0.62953  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             1.98   9.495e+01  0.480   0.000e+00   1.297e+00   1.297e+00
-H2Sg(g)            2.18   1.518e+02  0.812   0.000e+00   2.073e+00   2.073e+00
+H2O(g)             1.98   9.496e+01  0.480   0.000e+00   1.298e+00   1.298e+00
+H2Sg(g)            2.18   1.517e+02  0.812   0.000e+00   2.074e+00   2.074e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Sg                7.093e+00   6.927e+00
+	Sg                7.092e+00   6.926e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.542        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 270°C)  =  217       
-                           Density (g/cm³)  =  0.87585  
-                                Volume (L)  =  1.38461  
-                         Viscosity (mPa s)  =  0.10348  
-                         Activity of water  =  0.907  
+       Specific Conductance (µS/cm, 270°C)  =  301       
+                           Density (g/cm³)  =  0.87527  
+                                Volume (L)  =  1.38548  
+                         Viscosity (mPa s)  =  0.10336  
+                         Activity of water  =  0.908  
                   Ionic strength (mol/kgw)  =  3.157e-04  
                         Mass of water (kg)  =  9.766e-01  
-                  Total alkalinity (eq/kg)  =  -1.365e-18 
+                   Total alkalinity (eq/kg)  = -4.777e-15 
                           Temperature (°C)  =  270.00
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.333e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  42  
+                   Electrical balance (eq)  =  4.665e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  36  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.79351  
-                                   Total H  =  1.222731e+02
-                                   Total O  =  5.420933e+01
+                          Density of water  =  0.79274  
+                                   Total H  =  1.222701e+02
+                                   Total O  =  5.420856e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5359,8 +5358,8 @@ H2Sg(g)            2.18   1.518e+02  0.812   0.000e+00   2.073e+00   2.073e+00
 
    H+              3.157e-04   2.871e-04    -3.501    -3.542    -0.041      0.00
    OH-             2.584e-08   2.618e-08    -7.588    -7.582     0.006    -69.96
-   H2O             5.551e+01   9.075e-01     1.744    -0.042     0.000     22.71
-Sg            7.093e+00
+   H2O             5.551e+01   9.075e-01     1.744    -0.042     0.000     22.73
+Sg            7.092e+00
    H2Sg            3.682e+00   3.682e+00     0.566     0.566     0.000     66.37
    (H2Sg)2         1.705e+00   1.705e+00     0.232     0.232     0.000    -51.13
    HSg-            3.156e-04   3.198e-04    -3.501    -3.495     0.006    -26.96
@@ -5369,8 +5368,8 @@ Sg            7.093e+00
 
   Phase               SI** log IAP   log K(543 K, 247 atm)
 
-  H2O(g)            1.66     -0.04   -1.70  H2O	 Pressure  94.9 atm, phi 0.480
-  H2Sg(g)           2.09     -7.04   -9.13  H2Sg	 Pressure 151.8 atm, phi 0.812
+  H2O(g)            1.66     -0.04   -1.70  H2O	 Pressure  95.0 atm, phi 0.480
+  H2Sg(g)           2.09     -7.04   -9.13  H2Sg	 Pressure 151.7 atm, phi 0.812
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -5384,45 +5383,45 @@ Using temperature 10.
 -----------------------------------Gas phase-----------------------------------
 
 Total pressure: 246.70      atmospheres          (Peng-Robinson calculation)
-    Gas volume:   4.77e-01 liters
+    Gas volume:   4.78e-01 liters
   Molar volume:   1.20e-01 liters/mole
-   P * Vm / RT:  0.62707  (Compressibility Factor Z) 
+   P * Vm / RT:  0.62692  (Compressibility Factor Z) 
 
                                                         Moles in gas
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             2.11   1.274e+02  0.514   0.000e+00   2.059e+00   2.059e+00
-H2Sg(g)            2.08   1.193e+02  0.899   0.000e+00   1.929e+00   1.929e+00
+H2O(g)             2.11   1.274e+02  0.514   0.000e+00   2.064e+00   2.064e+00
+H2Sg(g)            2.08   1.193e+02  0.899   0.000e+00   1.933e+00   1.933e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Sg                7.343e+00   7.071e+00
+	Sg                7.340e+00   7.067e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.679        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 300°C)  =  169       
-                           Density (g/cm³)  =  0.88023  
-                                Volume (L)  =  1.36770  
-                         Viscosity (mPa s)  =  0.09188  
+       Specific Conductance (µS/cm, 300°C)  =  232       
+                           Density (g/cm³)  =  0.87871  
+                                Volume (L)  =  1.36981  
+                         Viscosity (mPa s)  =  0.09165  
                          Activity of water  =  0.905  
                   Ionic strength (mol/kgw)  =  2.302e-04  
-                        Mass of water (kg)  =  9.629e-01  
-                  Total alkalinity (eq/kg)  =  -1.480e-18 
+                        Mass of water (kg)  =  9.628e-01  
+                   Total alkalinity (eq/kg)  = -3.953e-15 
                           Temperature (°C)  =  300.00
                             Pressure (atm)  =  246.70
-                   Electrical balance (eq)  =  1.425e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  42  
+                   Electrical balance (eq)  =  3.806e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  37  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.74417  
-                                   Total H  =  1.210372e+02
-                                   Total O  =  5.344771e+01
+                          Density of water  =  0.74252  
+                                   Total H  =  1.210192e+02
+                                   Total O  =  5.344228e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5431,12 +5430,12 @@ H2Sg(g)            2.08   1.193e+02  0.899   0.000e+00   1.929e+00   1.929e+00
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
    H+              2.302e-04   2.093e-04    -3.638    -3.679    -0.041      0.00
-   OH-             3.443e-08   3.496e-08    -7.463    -7.456     0.007   -126.26
-   H2O             5.551e+01   9.054e-01     1.744    -0.043     0.000     24.22
-Sg            7.343e+00
-   H2Sg            3.684e+00   3.684e+00     0.566     0.566     0.000     84.30
-   (H2Sg)2         1.830e+00   1.830e+00     0.262     0.262     0.000   -128.26
-   HSg-            2.302e-04   2.337e-04    -3.638    -3.631     0.007    -69.76
+   OH-             3.444e-08   3.497e-08    -7.463    -7.456     0.007   -126.27
+   H2O             5.551e+01   9.055e-01     1.744    -0.043     0.000     24.26
+Sg            7.340e+00
+   H2Sg            3.683e+00   3.683e+00     0.566     0.566     0.000     84.30
+   (H2Sg)2         1.829e+00   1.829e+00     0.262     0.262     0.000   -128.26
+   HSg-            2.301e-04   2.337e-04    -3.638    -3.631     0.007    -69.76
 
 ------------------------------Saturation indices-------------------------------
 
@@ -5502,15 +5501,15 @@ H2Sg(g)            2.64   4.401e+02  0.081   0.000e+00   6.698e+00   6.698e+00
        Specific Conductance (µS/cm,  30°C)  =  218       
                            Density (g/cm³)  =  1.02092  
                                 Volume (L)  =  1.05527  
-                         Viscosity (mPa s)  =  0.79884  
+                         Viscosity (mPa s)  =  0.79883  
                          Activity of water  =  0.964  
                   Ionic strength (mol/kgw)  =  5.539e-04  
                         Mass of water (kg)  =  9.989e-01  
-                  Total alkalinity (eq/kg)  =  -3.740e-16 
+                   Total alkalinity (eq/kg)  = -3.632e-16 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  444.10
-                   Electrical balance (eq)  =  3.736e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.628e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -5579,11 +5578,11 @@ H2Sg(g)            2.64   4.360e+02  0.137   0.000e+00   6.459e+00   6.459e+00
                          Activity of water  =  0.963  
                   Ionic strength (mol/kgw)  =  7.395e-04  
                         Mass of water (kg)  =  9.978e-01  
-                  Total alkalinity (eq/kg)  =  -9.319e-16 
+                   Total alkalinity (eq/kg)  = -9.234e-16 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  444.10
-                   Electrical balance (eq)  =  9.299e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  9.214e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -5652,11 +5651,11 @@ H2Sg(g)            2.63   4.294e+02  0.207   0.000e+00   5.805e+00   5.805e+00
                          Activity of water  =  0.956  
                   Ionic strength (mol/kgw)  =  8.675e-04  
                         Mass of water (kg)  =  9.964e-01  
-                  Total alkalinity (eq/kg)  =  -1.096e-15 
+                   Total alkalinity (eq/kg)  = -1.095e-15 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  444.10
-                   Electrical balance (eq)  =  1.092e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.091e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -5718,22 +5717,22 @@ H2Sg(g)            2.62   4.194e+02  0.287   0.000e+00   4.776e+00   4.776e+00
 
                                         pH  =  3.071        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  585       
+       Specific Conductance (µS/cm, 120°C)  =  679       
                            Density (g/cm³)  =  0.98143  
                                 Volume (L)  =  1.16045  
-                         Viscosity (mPa s)  =  0.24369  
+                         Viscosity (mPa s)  =  0.24368  
                          Activity of water  =  0.945  
                   Ionic strength (mol/kgw)  =  9.143e-04  
                         Mass of water (kg)  =  9.949e-01  
-                  Total alkalinity (eq/kg)  =  -5.860e-18 
+                   Total alkalinity (eq/kg)  = -2.023e-18 
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  444.10
-                   Electrical balance (eq)  =  5.830e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.013e-18  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.96419  
+                          Density of water  =  0.96418  
                                    Total H  =  1.188991e+02
                                    Total O  =  5.522528e+01
 
@@ -5748,7 +5747,7 @@ H2Sg(g)            2.62   4.194e+02  0.287   0.000e+00   4.776e+00   4.776e+00
    H2O             5.551e+01   9.452e-01     1.744    -0.024     0.000     18.69
 Sg            4.246e+00
    H2Sg            2.010e+00   2.010e+00     0.303     0.303     0.000     41.56
-   (H2Sg)2         1.118e+00   1.118e+00     0.048     0.048    -0.000     40.86
+   (H2Sg)2         1.118e+00   1.118e+00     0.048     0.048     0.000     40.86
    HSg-            9.143e-04   9.048e-04    -3.039    -3.043    -0.005     19.13
 
 ------------------------------Saturation indices-------------------------------
@@ -5791,24 +5790,24 @@ H2Sg(g)            2.61   4.052e+02  0.373   0.000e+00   3.376e+00   3.376e+00
 
                                         pH  =  3.091        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  575       
-                           Density (g/cm³)  =  0.97220  
-                                Volume (L)  =  1.21974  
-                         Viscosity (mPa s)  =  0.19361  
+       Specific Conductance (µS/cm, 150°C)  =  702       
+                           Density (g/cm³)  =  0.97218  
+                                Volume (L)  =  1.21976  
+                         Viscosity (mPa s)  =  0.19360  
                          Activity of water  =  0.930  
                   Ionic strength (mol/kgw)  =  8.816e-04  
                         Mass of water (kg)  =  9.942e-01  
-                  Total alkalinity (eq/kg)  =  -1.429e-18 
+                   Total alkalinity (eq/kg)  = 3.227e-18  
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  444.10
-                   Electrical balance (eq)  =  1.421e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -3.208e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  34  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.94039  
-                                   Total H  =  1.216123e+02
-                                   Total O  =  5.518191e+01
+                          Density of water  =  0.94036  
+                                   Total H  =  1.216122e+02
+                                   Total O  =  5.518190e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5851,7 +5850,7 @@ Total pressure: 444.10      atmospheres          (Peng-Robinson calculation)
                                             ----------------------------------
 Component         log P           P    phi     Initial       Final       Delta
 
-H2O(g)             1.76   5.814e+01  0.186   0.000e+00   2.430e-01   2.430e-01
+H2O(g)             1.76   5.814e+01  0.186   0.000e+00   2.431e-01   2.431e-01
 H2Sg(g)            2.59   3.860e+02  0.461   0.000e+00   1.613e+00   1.613e+00
 
 -----------------------------Solution composition------------------------------
@@ -5864,24 +5863,24 @@ H2Sg(g)            2.59   3.860e+02  0.461   0.000e+00   1.613e+00   1.613e+00
 
                                         pH  =  3.145        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 180°C)  =  508       
-                           Density (g/cm³)  =  0.96757  
-                                Volume (L)  =  1.28916  
+       Specific Conductance (µS/cm, 180°C)  =  655       
+                           Density (g/cm³)  =  0.96753  
+                                Volume (L)  =  1.28922  
                          Viscosity (mPa s)  =  0.16085  
                          Activity of water  =  0.911  
                   Ionic strength (mol/kgw)  =  7.896e-04  
                         Mass of water (kg)  =  9.956e-01  
-                  Total alkalinity (eq/kg)  =  -5.464e-15 
+                   Total alkalinity (eq/kg)  = -4.623e-15 
                           Temperature (°C)  =  180.00
                             Pressure (atm)  =  444.10
-                   Electrical balance (eq)  =  5.440e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.602e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.00000  
-                          Density of water  =  0.91351  
-                                   Total H  =  1.252996e+02
-                                   Total O  =  5.526317e+01
+                          Density of water  =  0.91344  
+                                   Total H  =  1.252995e+02
+                                   Total O  =  5.526316e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -5961,15 +5960,15 @@ H2Sg(g)            2.84   6.848e+02  0.075   0.000e+00   6.511e+00   6.511e+00
        Specific Conductance (µS/cm,  30°C)  =  237       
                            Density (g/cm³)  =  1.03227  
                                 Volume (L)  =  1.04991  
-                         Viscosity (mPa s)  =  0.80180  
+                         Viscosity (mPa s)  =  0.80179  
                          Activity of water  =  0.961  
                   Ionic strength (mol/kgw)  =  5.977e-04  
                         Mass of water (kg)  =  9.990e-01  
-                  Total alkalinity (eq/kg)  =  -2.966e-16 
+                   Total alkalinity (eq/kg)  = -2.920e-16 
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  690.80
-                   Electrical balance (eq)  =  2.963e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.917e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -6038,11 +6037,11 @@ H2Sg(g)            2.83   6.787e+02  0.125   0.000e+00   6.259e+00   6.259e+00
                          Activity of water  =  0.960  
                   Ionic strength (mol/kgw)  =  8.003e-04  
                         Mass of water (kg)  =  9.980e-01  
-                  Total alkalinity (eq/kg)  =  -7.527e-16 
+                   Total alkalinity (eq/kg)  = -7.642e-16 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  690.80
-                   Electrical balance (eq)  =  7.512e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.626e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  31  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -6111,11 +6110,11 @@ H2Sg(g)            2.83   6.689e+02  0.187   0.000e+00   5.470e+00   5.470e+00
                          Activity of water  =  0.952  
                   Ionic strength (mol/kgw)  =  9.453e-04  
                         Mass of water (kg)  =  9.968e-01  
-                  Total alkalinity (eq/kg)  =  -7.559e-16 
+                   Total alkalinity (eq/kg)  = -7.376e-16 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  690.80
-                   Electrical balance (eq)  =  7.535e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.352e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  33  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -6177,22 +6176,22 @@ H2Sg(g)            2.82   6.542e+02  0.259   0.000e+00   4.143e+00   4.143e+00
 
                                         pH  =  3.031        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  616       
-                           Density (g/cm³)  =  0.99067  
-                                Volume (L)  =  1.17229  
+       Specific Conductance (µS/cm, 120°C)  =  722       
+                           Density (g/cm³)  =  0.99066  
+                                Volume (L)  =  1.17230  
                          Viscosity (mPa s)  =  0.24990  
                          Activity of water  =  0.938  
                   Ionic strength (mol/kgw)  =  1.006e-03  
                         Mass of water (kg)  =  9.958e-01  
-                  Total alkalinity (eq/kg)  =  -1.080e-18 
+                   Total alkalinity (eq/kg)  = 1.996e-18  
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  690.80
-                   Electrical balance (eq)  =  1.075e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  35  
+                   Electrical balance (eq)  =  -1.988e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  32  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.97479  
+                          Density of water  =  0.97478  
                                    Total H  =  1.202627e+02
                                    Total O  =  5.527412e+01
 
@@ -6250,22 +6249,22 @@ H2Sg(g)            2.80   6.335e+02  0.337   0.000e+00   2.188e+00   2.188e+00
 
                                         pH  =  3.048        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  597       
-                           Density (g/cm³)  =  0.98397  
-                                Volume (L)  =  1.24859  
-                         Viscosity (mPa s)  =  0.19945  
+       Specific Conductance (µS/cm, 150°C)  =  745       
+                           Density (g/cm³)  =  0.98395  
+                                Volume (L)  =  1.24861  
+                         Viscosity (mPa s)  =  0.19944  
                          Activity of water  =  0.918  
                   Ionic strength (mol/kgw)  =  9.831e-04  
                         Mass of water (kg)  =  9.964e-01  
-                  Total alkalinity (eq/kg)  =  -7.747e-15 
+                   Total alkalinity (eq/kg)  = -6.961e-15 
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  690.80
-                   Electrical balance (eq)  =  7.720e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  6.936e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  29  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.95204  
+                          Density of water  =  0.95201  
                                    Total H  =  1.242399e+02
                                    Total O  =  5.530839e+01
 
@@ -6351,11 +6350,11 @@ H2Sg(g)            2.99   9.789e+02  0.080   0.000e+00   6.303e+00   6.303e+00
                          Activity of water  =  0.957  
                   Ionic strength (mol/kgw)  =  6.494e-04  
                         Mass of water (kg)  =  9.991e-01  
-                  Total alkalinity (eq/kg)  =  9.734e-16  
+                   Total alkalinity (eq/kg)  = 9.763e-16  
                           Temperature (°C)  =  30.00 
                             Pressure (atm)  =  986.90
-                   Electrical balance (eq)  =  -9.725e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -9.754e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  29  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  1.00000  
@@ -6424,11 +6423,11 @@ H2Sg(g)            2.99   9.707e+02  0.130   0.000e+00   6.125e+00   6.125e+00
                          Activity of water  =  0.957  
                   Ionic strength (mol/kgw)  =  8.711e-04  
                         Mass of water (kg)  =  9.982e-01  
-                  Total alkalinity (eq/kg)  =  -6.243e-16 
+                   Total alkalinity (eq/kg)  = -5.681e-16 
                           Temperature (°C)  =  60.00 
                             Pressure (atm)  =  986.90
-                   Electrical balance (eq)  =  6.232e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.671e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  30  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
@@ -6497,15 +6496,15 @@ H2Sg(g)            2.98   9.576e+02  0.192   0.000e+00   5.298e+00   5.298e+00
                          Activity of water  =  0.949  
                   Ionic strength (mol/kgw)  =  1.034e-03  
                         Mass of water (kg)  =  9.971e-01  
-                  Total alkalinity (eq/kg)  =  -5.372e-16 
+                   Total alkalinity (eq/kg)  = -5.054e-16 
                           Temperature (°C)  =  90.00 
                             Pressure (atm)  =  986.90
-                   Electrical balance (eq)  =  5.357e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  33  
+                   Electrical balance (eq)  =  5.039e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  34  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  1.00587  
+                          Density of water  =  1.00586  
                                    Total H  =  1.180912e+02
                                    Total O  =  5.534407e+01
 
@@ -6563,18 +6562,18 @@ H2Sg(g)            2.97   9.382e+02  0.264   0.000e+00   3.798e+00   3.798e+00
 
                                         pH  =  2.991        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 120°C)  =  654       
-                           Density (g/cm³)  =  0.99634  
-                                Volume (L)  =  1.17805  
+       Specific Conductance (µS/cm, 120°C)  =  770       
+                           Density (g/cm³)  =  0.99633  
+                                Volume (L)  =  1.17806  
                          Viscosity (mPa s)  =  0.25721  
                          Activity of water  =  0.933  
                   Ionic strength (mol/kgw)  =  1.108e-03  
                         Mass of water (kg)  =  9.964e-01  
-                  Total alkalinity (eq/kg)  =  6.934e-18  
+                   Total alkalinity (eq/kg)  = 1.258e-18  
                           Temperature (°C)  =  120.00
                             Pressure (atm)  =  986.90
-                   Electrical balance (eq)  =  -6.910e-18 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.253e-18 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  31  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
@@ -6593,7 +6592,7 @@ H2Sg(g)            2.97   9.382e+02  0.264   0.000e+00   3.798e+00   3.798e+00
    H2O             5.551e+01   9.334e-01     1.744    -0.030     0.000     18.26
 Sg            5.221e+00
    H2Sg            2.428e+00   2.428e+00     0.385     0.385     0.000     36.04
-   (H2Sg)2         1.396e+00   1.396e+00     0.145     0.145    -0.000     58.17
+   (H2Sg)2         1.396e+00   1.396e+00     0.145     0.145     0.000     58.17
    HSg-            1.108e-03   1.102e-03    -2.955    -2.958    -0.003     19.71
 
 ------------------------------Saturation indices-------------------------------
@@ -6636,22 +6635,22 @@ H2Sg(g)            2.96   9.117e+02  0.341   0.000e+00   1.437e+00   1.437e+00
 
                                         pH  =  3.005        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  620       
-                           Density (g/cm³)  =  0.98741  
-                                Volume (L)  =  1.27161  
-                         Viscosity (mPa s)  =  0.20625  
+       Specific Conductance (µS/cm, 150°C)  =  788       
+                           Density (g/cm³)  =  0.98739  
+                                Volume (L)  =  1.27163  
+                         Viscosity (mPa s)  =  0.20624  
                          Activity of water  =  0.909  
                   Ionic strength (mol/kgw)  =  1.093e-03  
                         Mass of water (kg)  =  9.979e-01  
-                  Total alkalinity (eq/kg)  =  -3.561e-15 
+                   Total alkalinity (eq/kg)  = -3.049e-15 
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  986.90
-                   Electrical balance (eq)  =  3.554e-15  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.043e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  28  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.99999  
-                          Density of water  =  0.96495  
+                          Density of water  =  0.96492  
                                    Total H  =  1.259003e+02
                                    Total O  =  5.538757e+01
 
@@ -6695,8 +6694,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 14.
 -------------------------------------
-
--------------------------------
-End of Run after 0.208 Seconds.
--------------------------------
 

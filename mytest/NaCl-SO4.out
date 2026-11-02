@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -75,17 +74,17 @@ Initial solution 1.
 
                                         pH  =  7.397        Charge balance
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  117190    
+       Specific Conductance (µS/cm,  25°C)  =  117429    
                            Density (g/cm³)  =  1.21073  
                                 Volume (L)  =  1.06064  
-                         Viscosity (mPa s)  =  2.27075  
+                         Viscosity (mPa s)  =  2.27052  
                          Activity of water  =  0.934  
                   Ionic strength (mol/kgw)  =  6.001e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.285e-16  
+                   Total alkalinity (eq/kg)  = 1.104e-15  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -2.008e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.119e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  12  
                           Gamma iterations  =  5   
                        Osmotic coefficient  =  0.63094  
@@ -156,7 +155,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -4.71    -3.15      1.56    0.000e+00           0   0.000e+00
-Mirabilite       -0.00    -1.71     -1.71    1.000e+01   1.126e+01   1.263e+00
+Mirabilite        0.00    -1.71     -1.71    1.000e+01   1.126e+01   1.263e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -170,17 +169,17 @@ Mirabilite       -0.00    -1.71     -1.71    1.000e+01   1.126e+01   1.263e+00
 
                                         pH  =  7.496        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  74510     
+       Specific Conductance (µS/cm,  15°C)  =  73137     
                            Density (g/cm³)  =  1.11159  
                                 Volume (L)  =  0.78914  
-                         Viscosity (mPa s)  =  1.80239  
+                         Viscosity (mPa s)  =  1.80243  
                          Activity of water  =  0.968  
                   Ionic strength (mol/kgw)  =  2.863e+00  
                         Mass of water (kg)  =  7.725e-01  
-                  Total alkalinity (eq/kg)  =  5.322e-16  
+                   Total alkalinity (eq/kg)  = 1.762e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -7.169e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -6.280e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.62593  
@@ -211,7 +210,7 @@ S(6)          9.540e-01
 
   H2O(g)           -1.78     -0.01    1.77  H2O
   Halite           -4.71     -3.15    1.56  NaCl
-  Mirabilite       -0.00     -1.71   -1.71  Na2SO4:10H2O
+  Mirabilite        0.00     -1.71   -1.71  Na2SO4:10H2O
   Thenardite       -1.31     -1.57   -0.25  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -261,22 +260,22 @@ Mirabilite        0.00    -1.71     -1.71    1.100e+01   1.046e+01  -5.353e-01
 
                                         pH  =  7.276        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  123627    
+       Specific Conductance (µS/cm,  15°C)  =  121586    
                            Density (g/cm³)  =  1.12672  
                                 Volume (L)  =  0.95858  
-                         Viscosity (mPa s)  =  1.68628  
+                         Viscosity (mPa s)  =  1.68635  
                          Activity of water  =  0.924  
                   Ionic strength (mol/kgw)  =  3.391e+00  
                         Mass of water (kg)  =  9.163e-01  
-                  Total alkalinity (eq/kg)  =  3.373e-16  
+                   Total alkalinity (eq/kg)  = 1.179e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -7.523e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -6.633e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  17  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.87365  
                           Density of water  =  0.99910  
-                                   Total H  =  1.017196e+02
+                                   Total H  =  1.017195e+02
                                    Total O  =  5.300080e+01
 
 ----------------------------Distribution of species----------------------------
@@ -352,17 +351,17 @@ Mirabilite        0.00    -1.71     -1.71    1.000e+01   9.437e+00  -5.628e-01
 
                                         pH  =  7.161        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  151594    
+       Specific Conductance (µS/cm,  15°C)  =  149173    
                            Density (g/cm³)  =  1.15359  
                                 Volume (L)  =  1.17611  
-                         Viscosity (mPa s)  =  1.83918  
+                         Viscosity (mPa s)  =  1.83926  
                          Activity of water  =  0.884  
                   Ionic strength (mol/kgw)  =  4.258e+00  
                         Mass of water (kg)  =  1.101e+00  
-                  Total alkalinity (eq/kg)  =  4.636e-17  
+                   Total alkalinity (eq/kg)  = 3.032e-16  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -6.565e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -5.675e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  18  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  0.97799  
@@ -443,23 +442,23 @@ Mirabilite        0.00    -1.71     -1.71    9.000e+00   8.354e+00  -6.458e-01
 
                                         pH  =  7.100        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  165497    
+       Specific Conductance (µS/cm,  15°C)  =  162894    
                            Density (g/cm³)  =  1.17466  
                                 Volume (L)  =  1.40577  
-                         Viscosity (mPa s)  =  1.99852  
+                         Viscosity (mPa s)  =  1.99860  
                          Activity of water  =  0.853  
                   Ionic strength (mol/kgw)  =  4.966e+00  
                         Mass of water (kg)  =  1.297e+00  
-                  Total alkalinity (eq/kg)  =  2.187e-16  
+                   Total alkalinity (eq/kg)  = 1.179e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -5.466e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.573e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  17  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.04605  
                           Density of water  =  0.99910  
                                    Total H  =  1.439295e+02
-                                   Total O  =  7.454776e+01
+                                   Total O  =  7.454775e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -534,17 +533,17 @@ Mirabilite        0.00    -1.71     -1.71    8.000e+00   7.248e+00  -7.515e-01
 
                                         pH  =  7.064        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  172667    
+       Specific Conductance (µS/cm,  15°C)  =  169975    
                            Density (g/cm³)  =  1.19053  
                                 Volume (L)  =  1.64061  
-                         Viscosity (mPa s)  =  2.13940  
+                         Viscosity (mPa s)  =  2.13949  
                          Activity of water  =  0.828  
                   Ionic strength (mol/kgw)  =  5.519e+00  
                         Mass of water (kg)  =  1.496e+00  
-                  Total alkalinity (eq/kg)  =  3.389e-16  
+                   Total alkalinity (eq/kg)  = 1.003e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -4.808e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.919e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  17  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.09624  
@@ -611,7 +610,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.35     1.21      1.56    0.000e+00           0   0.000e+00
-Mirabilite        0.00    -1.71     -1.71    7.000e+00   6.129e+00  -8.707e-01
+Mirabilite        0.00    -1.71     -1.71    7.000e+00   6.129e+00  -8.706e-01
 
 -----------------------------Solution composition------------------------------
 
@@ -619,24 +618,24 @@ Mirabilite        0.00    -1.71     -1.71    7.000e+00   6.129e+00  -8.707e-01
 
 	Cl                4.419e+00   7.501e+00
 	Na                5.445e+00   9.242e+00
-	S                 5.129e-01   8.707e-01
+	S                 5.129e-01   8.706e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.043        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  176507    
+       Specific Conductance (µS/cm,  15°C)  =  173770    
                            Density (g/cm³)  =  1.20274  
                                 Volume (L)  =  1.87855  
-                         Viscosity (mPa s)  =  2.26073  
+                         Viscosity (mPa s)  =  2.26082  
                          Activity of water  =  0.809  
                   Ionic strength (mol/kgw)  =  5.958e+00  
                         Mass of water (kg)  =  1.697e+00  
-                  Total alkalinity (eq/kg)  =  2.570e-15  
+                   Total alkalinity (eq/kg)  = 3.320e-16  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  3.215e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  16  
+                   Electrical balance (eq)  =  3.216e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.13517  
                           Density of water  =  0.99910  
@@ -716,17 +715,17 @@ Mirabilite        0.00    -1.71     -1.71    6.000e+00   5.001e+00  -9.991e-01
 
                                         pH  =  7.030        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  178592    
+       Specific Conductance (µS/cm,  15°C)  =  175833    
                            Density (g/cm³)  =  1.21239  
                                 Volume (L)  =  2.11865  
-                         Viscosity (mPa s)  =  2.36505  
+                         Viscosity (mPa s)  =  2.36514  
                          Activity of water  =  0.793  
                   Ionic strength (mol/kgw)  =  6.313e+00  
                         Mass of water (kg)  =  1.901e+00  
-                  Total alkalinity (eq/kg)  =  2.731e-15  
+                   Total alkalinity (eq/kg)  = 1.099e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  5.069e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.070e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  15  
                           Gamma iterations  =  4   
                        Osmotic coefficient  =  1.16629  
@@ -807,17 +806,17 @@ Mirabilite       -0.00    -1.71     -1.71    5.000e+00   3.865e+00  -1.135e+00
 
                                         pH  =  7.021        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  179701    
+       Specific Conductance (µS/cm,  15°C)  =  176933    
                            Density (g/cm³)  =  1.22019  
                                 Volume (L)  =  2.36038  
-                         Viscosity (mPa s)  =  2.45521  
+                         Viscosity (mPa s)  =  2.45530  
                          Activity of water  =  0.780  
                   Ionic strength (mol/kgw)  =  6.605e+00  
                         Mass of water (kg)  =  2.105e+00  
-                  Total alkalinity (eq/kg)  =  1.559e-15  
+                   Total alkalinity (eq/kg)  = 2.056e-16  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  4.497e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.498e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.19173  
@@ -884,7 +883,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.12     1.44      1.56    0.000e+00           0   0.000e+00
-Mirabilite       -0.00    -1.71     -1.71    3.865e+00   2.724e+00  -1.141e+00
+Mirabilite        0.00    -1.71     -1.71    3.865e+00   2.724e+00  -1.141e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -898,17 +897,17 @@ Mirabilite       -0.00    -1.71     -1.71    3.865e+00   2.724e+00  -1.141e+00
 
                                         pH  =  7.016        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  180243    
+       Specific Conductance (µS/cm,  15°C)  =  177473    
                            Density (g/cm³)  =  1.22662  
                                 Volume (L)  =  2.60339  
-                         Viscosity (mPa s)  =  2.53368  
+                         Viscosity (mPa s)  =  2.53377  
                          Activity of water  =  0.769  
                   Ionic strength (mol/kgw)  =  6.850e+00  
                         Mass of water (kg)  =  2.311e+00  
-                  Total alkalinity (eq/kg)  =  1.442e-15  
+                   Total alkalinity (eq/kg)  = -1.268e-15 
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  4.238e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.239e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.21292  
@@ -939,7 +938,7 @@ S(6)          5.520e-01
 
   H2O(g)           -1.88     -0.11    1.77  H2O
   Halite           -0.12      1.44    1.56  NaCl
-  Mirabilite       -0.00     -1.71   -1.71  Na2SO4:10H2O
+  Mirabilite        0.00     -1.71   -1.71  Na2SO4:10H2O
   Thenardite       -0.31     -0.56   -0.25  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -975,7 +974,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.07     1.49      1.56    0.000e+00           0   0.000e+00
-Mirabilite       -0.00    -1.71     -1.71    2.724e+00   1.579e+00  -1.146e+00
+Mirabilite        0.00    -1.71     -1.71    2.724e+00   1.579e+00  -1.146e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -989,17 +988,17 @@ Mirabilite       -0.00    -1.71     -1.71    2.724e+00   1.579e+00  -1.146e+00
 
                                         pH  =  7.013        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  180449    
-                           Density (g/cm³)  =  1.23202  
+       Specific Conductance (µS/cm,  15°C)  =  177679    
+                           Density (g/cm³)  =  1.23201  
                                 Volume (L)  =  2.84744  
-                         Viscosity (mPa s)  =  2.60248  
+                         Viscosity (mPa s)  =  2.60257  
                          Activity of water  =  0.759  
                   Ionic strength (mol/kgw)  =  7.057e+00  
                         Mass of water (kg)  =  2.517e+00  
-                  Total alkalinity (eq/kg)  =  8.109e-16  
+                   Total alkalinity (eq/kg)  = 1.098e-16  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  4.139e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.140e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.23082  
@@ -1030,7 +1029,7 @@ S(6)          5.646e-01
 
   H2O(g)           -1.89     -0.12    1.77  H2O
   Halite           -0.07      1.49    1.56  NaCl
-  Mirabilite       -0.00     -1.71   -1.71  Na2SO4:10H2O
+  Mirabilite        0.00     -1.71   -1.71  Na2SO4:10H2O
   Thenardite       -0.26     -0.51   -0.25  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -1066,7 +1065,7 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.02     1.53      1.56    0.000e+00           0   0.000e+00
-Mirabilite       -0.00    -1.71     -1.71    1.579e+00   4.295e-01  -1.149e+00
+Mirabilite        0.00    -1.71     -1.71    1.579e+00   4.295e-01  -1.149e+00
 
 -----------------------------Solution composition------------------------------
 
@@ -1080,22 +1079,22 @@ Mirabilite       -0.00    -1.71     -1.71    1.579e+00   4.295e-01  -1.149e+00
 
                                         pH  =  7.011        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  180449    
+       Specific Conductance (µS/cm,  15°C)  =  177683    
                            Density (g/cm³)  =  1.23660  
                                 Volume (L)  =  3.09234  
-                         Viscosity (mPa s)  =  2.66323  
+                         Viscosity (mPa s)  =  2.66332  
                          Activity of water  =  0.751  
                   Ionic strength (mol/kgw)  =  7.236e+00  
                         Mass of water (kg)  =  2.724e+00  
-                  Total alkalinity (eq/kg)  =  1.254e-15  
+                   Total alkalinity (eq/kg)  = 1.702e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  4.122e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.123e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.24614  
                           Density of water  =  0.99910  
-                                   Total H  =  3.024222e+02
+                                   Total H  =  3.024221e+02
                                    Total O  =  1.574926e+02
 
 ----------------------------Distribution of species----------------------------
@@ -1121,7 +1120,7 @@ S(6)          5.765e-01
 
   H2O(g)           -1.89     -0.12    1.77  H2O
   Halite           -0.02      1.53    1.56  NaCl
-  Mirabilite       -0.00     -1.71   -1.71  Na2SO4:10H2O
+  Mirabilite        0.00     -1.71   -1.71  Na2SO4:10H2O
   Thenardite       -0.21     -0.46   -0.25  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -1156,7 +1155,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite           -0.00     1.56      1.56    0.000e+00   2.837e-01   2.837e-01
+Halite            0.00     1.56      1.56    0.000e+00   2.837e-01   2.837e-01
 Mirabilite       -0.20    -1.91     -1.71    4.295e-01           0  -4.295e-01
 
 -----------------------------Solution composition------------------------------
@@ -1171,17 +1170,17 @@ Mirabilite       -0.20    -1.91     -1.71    4.295e-01           0  -4.295e-01
 
                                         pH  =  6.911        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  189650    
+       Specific Conductance (µS/cm,  15°C)  =  186797    
                            Density (g/cm³)  =  1.22523  
                                 Volume (L)  =  3.17606  
-                         Viscosity (mPa s)  =  2.50505  
+                         Viscosity (mPa s)  =  2.50514  
                          Activity of water  =  0.750  
                   Ionic strength (mol/kgw)  =  6.859e+00  
                         Mass of water (kg)  =  2.802e+00  
-                  Total alkalinity (eq/kg)  =  5.942e-16  
+                   Total alkalinity (eq/kg)  = 2.547e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  4.073e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.074e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.26430  
@@ -1211,7 +1210,7 @@ S(6)          3.569e-01
   Phase               SI** log IAP   log K(288 K,   1 atm)
 
   H2O(g)           -1.89     -0.13    1.77  H2O
-  Halite           -0.00      1.56    1.56  NaCl
+  Halite            0.00      1.56    1.56  NaCl
   Mirabilite       -0.20     -1.91   -1.71  Na2SO4:10H2O
   Thenardite       -0.41     -0.66   -0.25  Na2SO4
 
@@ -1262,17 +1261,17 @@ Mirabilite       -4.19    -5.90     -1.71    0.000e+00           0   0.000e+00
 
                                         pH  =  6.545        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  15°C)  =  204548    
+       Specific Conductance (µS/cm,  15°C)  =  201565    
                            Density (g/cm³)  =  1.20257  
                                 Volume (L)  =  3.16056  
-                         Viscosity (mPa s)  =  2.23228  
+                         Viscosity (mPa s)  =  2.23236  
                          Activity of water  =  0.755  
                   Ionic strength (mol/kgw)  =  6.103e+00  
                         Mass of water (kg)  =  2.802e+00  
-                  Total alkalinity (eq/kg)  =  6.575e-17  
+                   Total alkalinity (eq/kg)  = 2.035e-15  
                           Temperature (°C)  =  15.00 
-                   Electrical balance (eq)  =  -4.595e-08 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -4.596e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  6   
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  1.28048  
@@ -1363,38 +1362,38 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -4.45    -3.26      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    1.000e+01   8.977e+00  -1.023e+00
+Thenardite        0.00    -1.81     -1.81    1.000e+01   8.975e+00  -1.025e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                1.100e-03   1.100e-03
-	Na                6.047e+00   6.047e+00
-	S                 3.023e+00   3.023e+00
+	Na                6.051e+00   6.051e+00
+	S                 3.025e+00   3.025e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.956        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  737182    
-                           Density (g/cm³)  =  1.10414  
-                                Volume (L)  =  1.29466  
-                         Viscosity (mPa s)  =  0.38673  
+       Specific Conductance (µS/cm, 200°C)  =  1041946   
+                           Density (g/cm³)  =  1.10438  
+                                Volume (L)  =  1.29459  
+                         Viscosity (mPa s)  =  0.44123  
                          Activity of water  =  0.931  
-                  Ionic strength (mol/kgw)  =  9.070e+00  
+                  Ionic strength (mol/kgw)  =  9.075e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.230e-16  
+                   Total alkalinity (eq/kg)  = 1.585e-15  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  -2.622e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  -1.794e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  18  
                           Gamma iterations  =  6   
-                       Osmotic coefficient  =  0.43608  
+                       Osmotic coefficient  =  0.43613  
                           Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  6.759884e+01
+                                   Total O  =  6.760533e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1402,22 +1401,22 @@ Thenardite        0.00    -1.81     -1.81    1.000e+01   8.977e+00  -1.023e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             1.023e-04   4.060e-05    -3.990    -4.391    -0.401      6.43
-   H+              5.353e-07   1.106e-07    -6.271    -6.956    -0.685      0.00
+   OH-             1.023e-04   4.057e-05    -3.990    -4.392    -0.401      6.43
+   H+              5.354e-07   1.107e-07    -6.271    -6.956    -0.685      0.00
    H2O             5.551e+01   9.312e-01     1.744    -0.031     0.000     20.84
 Cl            1.100e-03
-   Cl-             1.100e-03   4.364e-04    -2.959    -3.360    -0.402     17.91
-Na            6.047e+00
-   Na+             6.047e+00   1.272e+00     0.782     0.104    -0.677      3.18
-S(6)          3.023e+00
-   SO4-2           3.023e+00   9.583e-03     0.480    -2.018    -2.499     39.33
-   HSO4-           1.018e-04   1.860e-05    -3.992    -4.730    -0.738     49.34
+   Cl-             1.100e-03   4.365e-04    -2.959    -3.360    -0.401     17.91
+Na            6.051e+00
+   Na+             6.051e+00   1.273e+00     0.782     0.105    -0.677      3.18
+S(6)          3.025e+00
+   SO4-2           3.025e+00   9.571e-03     0.481    -2.019    -2.500     39.28
+   HSO4-           1.017e-04   1.859e-05    -3.993    -4.731    -0.738     49.33
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
-  H2O(g)            1.12     -0.03   -1.16  H2O
+  H2O(g)            1.13     -0.03   -1.16  H2O
   Halite           -4.45     -3.26    1.19  NaCl
   Mirabilite       -0.76     -2.12   -1.36  Na2SO4:10H2O
   Thenardite        0.00     -1.81   -1.81  Na2SO4
@@ -1455,38 +1454,38 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -1.44    -0.25      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    8.977e+00   8.775e+00  -2.017e-01
+Thenardite        0.00    -1.81     -1.81    8.975e+00   8.774e+00  -2.008e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                1.001e+00   1.001e+00
-	Na                5.451e+00   5.451e+00
-	S                 2.225e+00   2.225e+00
+	Na                5.452e+00   5.452e+00
+	S                 2.226e+00   2.226e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.899        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  902093    
-                           Density (g/cm³)  =  1.08610  
-                                Volume (L)  =  1.26557  
-                         Viscosity (mPa s)  =  0.30288  
+       Specific Conductance (µS/cm, 200°C)  =  1279026   
+                           Density (g/cm³)  =  1.08623  
+                                Volume (L)  =  1.26551  
+                         Viscosity (mPa s)  =  0.33163  
                          Activity of water  =  0.914  
-                  Ionic strength (mol/kgw)  =  7.676e+00  
+                  Ionic strength (mol/kgw)  =  7.678e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.379e-15  
+                   Total alkalinity (eq/kg)  = -1.648e-16 
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  -4.634e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  -3.676e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  15  
                           Gamma iterations  =  5   
-                       Osmotic coefficient  =  0.57771  
+                       Osmotic coefficient  =  0.57782  
                           Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  6.440572e+01
+                                   Total O  =  6.440854e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1494,24 +1493,24 @@ Thenardite        0.00    -1.81     -1.81    8.977e+00   8.775e+00  -2.017e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             8.698e-05   3.495e-05    -4.061    -4.457    -0.396      3.08
-   H+              4.683e-07   1.262e-07    -6.329    -6.899    -0.570      0.00
-   H2O             5.551e+01   9.137e-01     1.744    -0.039     0.000     20.84
+   OH-             8.694e-05   3.494e-05    -4.061    -4.457    -0.396      3.07
+   H+              4.684e-07   1.263e-07    -6.329    -6.899    -0.569      0.00
+   H2O             5.551e+01   9.136e-01     1.744    -0.039     0.000     20.84
 Cl            1.001e+00
-   Cl-             1.001e+00   3.970e-01     0.000    -0.401    -0.402     16.42
-Na            5.451e+00
-   Na+             5.451e+00   1.413e+00     0.736     0.150    -0.586      3.21
-S(6)          2.225e+00
-   SO4-2           2.225e+00   7.780e-03     0.347    -2.109    -2.456     33.78
-   HSO4-           8.651e-05   1.721e-05    -4.063    -4.764    -0.701     47.85
+   Cl-             1.001e+00   3.971e-01     0.000    -0.401    -0.402     16.42
+Na            5.452e+00
+   Na+             5.452e+00   1.414e+00     0.737     0.150    -0.586      3.21
+S(6)          2.226e+00
+   SO4-2           2.225e+00   7.775e-03     0.347    -2.109    -2.457     33.73
+   HSO4-           8.647e-05   1.720e-05    -4.063    -4.764    -0.701     47.83
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.12     -0.04   -1.16  H2O
   Halite           -1.44     -0.25    1.19  NaCl
-  Mirabilite       -0.85     -2.20   -1.36  Na2SO4:10H2O
+  Mirabilite       -0.84     -2.20   -1.36  Na2SO4:10H2O
   Thenardite        0.00     -1.81   -1.81  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -1547,7 +1546,7 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -1.07     0.12      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    8.775e+00   8.302e+00  -4.734e-01
+Thenardite        0.00    -1.81     -1.81    8.774e+00   8.301e+00  -4.730e-01
 
 -----------------------------Solution composition------------------------------
 
@@ -1555,30 +1554,30 @@ Thenardite        0.00    -1.81     -1.81    8.775e+00   8.302e+00  -4.734e-01
 
 	Cl                2.001e+00   2.001e+00
 	Na                5.398e+00   5.398e+00
-	S                 1.698e+00   1.698e+00
+	S                 1.699e+00   1.699e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.810        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  981848    
-                           Density (g/cm³)  =  1.07915  
-                                Volume (L)  =  1.25857  
-                         Viscosity (mPa s)  =  0.27727  
+       Specific Conductance (µS/cm, 200°C)  =  1420012   
+                           Density (g/cm³)  =  1.07921  
+                                Volume (L)  =  1.25853  
+                         Viscosity (mPa s)  =  0.29554  
                          Activity of water  =  0.893  
-                  Ionic strength (mol/kgw)  =  7.096e+00  
+                  Ionic strength (mol/kgw)  =  7.097e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.211e-15  
+                   Total alkalinity (eq/kg)  = -1.992e-16 
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  -1.157e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  -1.005e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  13  
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.68967  
-                          Density of water  =  0.86469  
+                       Osmotic coefficient  =  0.68980  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  6.229949e+01
+                                   Total O  =  6.230043e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1586,20 +1585,20 @@ Thenardite        0.00    -1.81     -1.81    8.775e+00   8.302e+00  -4.734e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             7.418e-05   2.787e-05    -4.130    -4.555    -0.425      1.64
-   H+              3.971e-07   1.547e-07    -6.401    -6.810    -0.409      0.00
-   H2O             5.551e+01   8.931e-01     1.744    -0.049     0.000     20.83
+   OH-             7.415e-05   2.787e-05    -4.130    -4.555    -0.425      1.63
+   H+              3.972e-07   1.548e-07    -6.401    -6.810    -0.409      0.00
+   H2O             5.551e+01   8.931e-01     1.744    -0.049     0.000     20.84
 Cl            2.001e+00
-   Cl-             2.001e+00   7.918e-01     0.301    -0.101    -0.403     15.76
+   Cl-             2.001e+00   7.920e-01     0.301    -0.101    -0.403     15.76
 Na            5.398e+00
-   Na+             5.398e+00   1.682e+00     0.732     0.226    -0.506      3.22
-S(6)          1.698e+00
-   SO4-2           1.698e+00   5.493e-03     0.230    -2.260    -2.490     31.33
-   HSO4-           7.378e-05   1.489e-05    -4.132    -4.827    -0.695     47.17
+   Na+             5.398e+00   1.683e+00     0.732     0.226    -0.506      3.22
+S(6)          1.699e+00
+   SO4-2           1.698e+00   5.491e-03     0.230    -2.260    -2.490     31.27
+   HSO4-           7.375e-05   1.489e-05    -4.132    -4.827    -0.695     47.16
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.11     -0.05   -1.16  H2O
   Halite           -1.07      0.12    1.19  NaCl
@@ -1639,38 +1638,38 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.80     0.39      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    8.302e+00   7.655e+00  -6.469e-01
+Thenardite        0.00    -1.81     -1.81    8.301e+00   7.655e+00  -6.465e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                3.001e+00   3.001e+00
-	Na                5.692e+00   5.691e+00
+	Na                5.691e+00   5.691e+00
 	S                 1.345e+00   1.345e+00
 
 ----------------------------Description of solution----------------------------
 
-                                        pH  =  6.709        Charge balance
+                                        pH  =  6.708        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1024423   
-                           Density (g/cm³)  =  1.08137  
-                                Volume (L)  =  1.26364  
-                         Viscosity (mPa s)  =  0.27478  
+       Specific Conductance (µS/cm, 200°C)  =  1515786   
+                           Density (g/cm³)  =  1.08138  
+                                Volume (L)  =  1.26361  
+                         Viscosity (mPa s)  =  0.28845  
                          Activity of water  =  0.869  
-                  Ionic strength (mol/kgw)  =  7.037e+00  
+                  Ionic strength (mol/kgw)  =  7.036e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.913e-15  
+                   Total alkalinity (eq/kg)  = 6.240e-15  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  -1.542e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  -4.482e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  10  
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.77621  
-                          Density of water  =  0.86471  
+                       Osmotic coefficient  =  0.77637  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  6.088701e+01
+                                   Total O  =  6.088636e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1678,22 +1677,22 @@ Thenardite        0.00    -1.81     -1.81    8.302e+00   7.655e+00  -6.469e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             6.381e-05   2.146e-05    -4.195    -4.668    -0.473      1.49
-   H+              3.379e-07   1.955e-07    -6.471    -6.709    -0.238      0.00
-   H2O             5.551e+01   8.690e-01     1.744    -0.061     0.000     20.83
+   OH-             6.378e-05   2.146e-05    -4.195    -4.668    -0.473      1.48
+   H+              3.380e-07   1.957e-07    -6.471    -6.708    -0.237      0.00
+   H2O             5.551e+01   8.690e-01     1.744    -0.061     0.000     20.84
 Cl            3.001e+00
-   Cl-             3.001e+00   1.187e+00     0.477     0.074    -0.403     15.69
-Na            5.692e+00
-   Na+             5.692e+00   2.068e+00     0.755     0.316    -0.440      3.22
+   Cl-             3.001e+00   1.187e+00     0.477     0.075    -0.403     15.68
+Na            5.691e+00
+   Na+             5.691e+00   2.068e+00     0.755     0.316    -0.440      3.22
 S(6)          1.345e+00
-   SO4-2           1.345e+00   3.636e-03     0.129    -2.439    -2.568     31.08
-   HSO4-           6.347e-05   1.246e-05    -4.197    -4.905    -0.707     47.11
+   SO4-2           1.345e+00   3.635e-03     0.129    -2.440    -2.568     31.01
+   HSO4-           6.344e-05   1.245e-05    -4.198    -4.905    -0.707     47.09
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
-  H2O(g)            1.09     -0.06   -1.16  H2O
+  H2O(g)            1.10     -0.06   -1.16  H2O
   Halite           -0.80      0.39    1.19  NaCl
   Mirabilite       -1.06     -2.42   -1.36  Na2SO4:10H2O
   Thenardite        0.00     -1.81   -1.81  Na2SO4
@@ -1731,38 +1730,38 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.59     0.61      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    7.655e+00   6.883e+00  -7.717e-01
+Thenardite        0.00    -1.81     -1.81    7.655e+00   6.883e+00  -7.714e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                4.001e+00   4.001e+00
-	Na                6.235e+00   6.235e+00
-	S                 1.117e+00   1.117e+00
+	Na                6.234e+00   6.234e+00
+	S                 1.116e+00   1.116e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.602        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1052545   
-                           Density (g/cm³)  =  1.09051  
-                                Volume (L)  =  1.27691  
-                         Viscosity (mPa s)  =  0.28442  
+       Specific Conductance (µS/cm, 200°C)  =  1593319   
+                           Density (g/cm³)  =  1.09047  
+                                Volume (L)  =  1.27689  
+                         Viscosity (mPa s)  =  0.29640  
                          Activity of water  =  0.842  
-                  Ionic strength (mol/kgw)  =  7.352e+00  
+                  Ionic strength (mol/kgw)  =  7.350e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.393e-15  
+                   Total alkalinity (eq/kg)  = 8.646e-15  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  -1.946e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  10  
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  -4.495e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  9   
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.84037  
-                          Density of water  =  0.86474  
+                       Osmotic coefficient  =  0.84057  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.997394e+01
+                                   Total O  =  5.997184e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1770,24 +1769,24 @@ Thenardite        0.00    -1.81     -1.81    7.655e+00   6.883e+00  -7.717e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             5.655e-05   1.628e-05    -4.248    -4.788    -0.541      2.28
-   H+              2.906e-07   2.497e-07    -6.537    -6.602    -0.066      0.00
-   H2O             5.551e+01   8.421e-01     1.744    -0.075     0.000     20.83
+   OH-             5.651e-05   1.628e-05    -4.248    -4.788    -0.541      2.26
+   H+              2.906e-07   2.499e-07    -6.537    -6.602    -0.066      0.00
+   H2O             5.551e+01   8.421e-01     1.744    -0.075     0.000     20.84
 Cl            4.001e+00
-   Cl-             4.001e+00   1.585e+00     0.602     0.200    -0.402     16.06
-Na            6.235e+00
-   Na+             6.235e+00   2.557e+00     0.795     0.408    -0.387      3.22
-S(6)          1.117e+00
-   SO4-2           1.117e+00   2.376e-03     0.048    -2.624    -2.672     32.44
-   HSO4-           5.626e-05   1.040e-05    -4.250    -4.983    -0.733     47.48
+   Cl-             4.001e+00   1.585e+00     0.602     0.200    -0.402     16.05
+Na            6.234e+00
+   Na+             6.234e+00   2.558e+00     0.795     0.408    -0.387      3.21
+S(6)          1.116e+00
+   SO4-2           1.116e+00   2.375e-03     0.048    -2.624    -2.672     32.36
+   HSO4-           5.622e-05   1.040e-05    -4.250    -4.983    -0.733     47.46
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.08     -0.07   -1.16  H2O
   Halite           -0.59      0.61    1.19  NaCl
-  Mirabilite       -1.20     -2.56   -1.36  Na2SO4:10H2O
+  Mirabilite       -1.20     -2.55   -1.36  Na2SO4:10H2O
   Thenardite        0.00     -1.81   -1.81  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -1823,38 +1822,38 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.40     0.79      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    6.883e+00   6.022e+00  -8.608e-01
+Thenardite        0.00    -1.81     -1.81    6.883e+00   6.023e+00  -8.604e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                5.001e+00   5.001e+00
-	Na                6.956e+00   6.956e+00
-	S                 9.777e-01   9.777e-01
+	Na                6.955e+00   6.955e+00
+	S                 9.768e-01   9.768e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.495        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1071609   
-                           Density (g/cm³)  =  1.10400  
-                                Volume (L)  =  1.29633  
-                         Viscosity (mPa s)  =  0.30178  
-                         Activity of water  =  0.814  
-                  Ionic strength (mol/kgw)  =  7.934e+00  
+       Specific Conductance (µS/cm, 200°C)  =  1658928   
+                           Density (g/cm³)  =  1.10394  
+                                Volume (L)  =  1.29630  
+                         Viscosity (mPa s)  =  0.31382  
+                         Activity of water  =  0.813  
+                  Ionic strength (mol/kgw)  =  7.931e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.545e-14  
+                   Total alkalinity (eq/kg)  = 1.551e-14  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  -1.658e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  -2.220e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  10  
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.88571  
-                          Density of water  =  0.86477  
+                       Osmotic coefficient  =  0.88597  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.941696e+01
+                                   Total O  =  5.941340e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1862,20 +1861,20 @@ Thenardite        0.00    -1.81     -1.81    6.883e+00   6.022e+00  -8.608e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             5.259e-05   1.227e-05    -4.279    -4.911    -0.632      3.72
-   H+              2.514e-07   3.199e-07    -6.600    -6.495     0.105      0.00
-   H2O             5.551e+01   8.135e-01     1.744    -0.090     0.000     20.83
+   OH-             5.254e-05   1.227e-05    -4.279    -4.911    -0.632      3.70
+   H+              2.515e-07   3.201e-07    -6.599    -6.495     0.105      0.00
+   H2O             5.551e+01   8.135e-01     1.744    -0.090     0.000     20.84
 Cl            5.001e+00
-   Cl-             5.001e+00   1.984e+00     0.699     0.298    -0.401     16.72
-Na            6.956e+00
-   Na+             6.956e+00   3.129e+00     0.842     0.495    -0.347      3.21
-S(6)          9.777e-01
-   SO4-2           9.776e-01   1.586e-03    -0.010    -2.800    -2.790     34.87
-   HSO4-           5.234e-05   8.895e-06    -4.281    -5.051    -0.770     48.14
+   Cl-             5.001e+00   1.985e+00     0.699     0.298    -0.401     16.70
+Na            6.955e+00
+   Na+             6.955e+00   3.130e+00     0.842     0.496    -0.347      3.20
+S(6)          9.768e-01
+   SO4-2           9.767e-01   1.585e-03    -0.010    -2.800    -2.790     34.77
+   HSO4-           5.229e-05   8.893e-06    -4.282    -5.051    -0.769     48.12
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.07     -0.09   -1.16  H2O
   Halite           -0.40      0.79    1.19  NaCl
@@ -1915,38 +1914,38 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.24     0.95      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    6.000e+00   5.092e+00  -9.081e-01
+Thenardite        0.00    -1.81     -1.81    6.000e+00   5.093e+00  -9.068e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                6.001e+00   6.001e+00
-	Na                7.817e+00   7.817e+00
-	S                 9.081e-01   9.081e-01
+	Na                7.815e+00   7.815e+00
+	S                 9.068e-01   9.068e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.386        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1080057   
-                           Density (g/cm³)  =  1.12000  
-                                Volume (L)  =  1.32117  
-                         Viscosity (mPa s)  =  0.32550  
+       Specific Conductance (µS/cm, 200°C)  =  1710026   
+                           Density (g/cm³)  =  1.11992  
+                                Volume (L)  =  1.32110  
+                         Viscosity (mPa s)  =  0.33898  
                          Activity of water  =  0.785  
-                  Ionic strength (mol/kgw)  =  8.725e+00  
+                  Ionic strength (mol/kgw)  =  8.721e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.177e-13  
+                   Total alkalinity (eq/kg)  = 8.601e-14  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  2.734e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  3.410e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  15  
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.91404  
-                          Density of water  =  0.86481  
+                       Osmotic coefficient  =  0.91437  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.913872e+01
+                                   Total O  =  5.913338e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1954,20 +1953,20 @@ Thenardite        0.00    -1.81     -1.81    6.000e+00   5.092e+00  -9.081e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             5.211e-05   9.206e-06    -4.283    -5.036    -0.753      5.63
-   H+              2.177e-07   4.110e-07    -6.662    -6.386     0.276      0.00
-   H2O             5.551e+01   7.847e-01     1.744    -0.105     0.000     20.83
+   OH-             5.204e-05   9.205e-06    -4.284    -5.036    -0.752      5.59
+   H+              2.177e-07   4.112e-07    -6.662    -6.386     0.276      0.00
+   H2O             5.551e+01   7.846e-01     1.744    -0.105     0.000     20.84
 Cl            6.001e+00
-   Cl-             6.001e+00   2.382e+00     0.778     0.377    -0.401     17.57
-Na            7.817e+00
-   Na+             7.817e+00   3.754e+00     0.893     0.574    -0.319      3.19
-S(6)          9.081e-01
-   SO4-2           9.081e-01   1.100e-03    -0.042    -2.958    -2.917     38.04
-   HSO4-           5.189e-05   7.939e-06    -4.285    -5.100    -0.815     49.00
+   Cl-             6.001e+00   2.383e+00     0.778     0.377    -0.401     17.55
+Na            7.815e+00
+   Na+             7.815e+00   3.756e+00     0.893     0.575    -0.318      3.19
+S(6)          9.068e-01
+   SO4-2           9.067e-01   1.100e-03    -0.043    -2.959    -2.916     37.92
+   HSO4-           5.183e-05   7.935e-06    -4.285    -5.100    -0.815     48.97
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.05     -0.11   -1.16  H2O
   Halite           -0.24      0.95    1.19  NaCl
@@ -2006,39 +2005,39 @@ Reaction 2.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite           -0.11     1.08      1.19    0.000e+00           0   0.000e+00
-Thenardite        0.00    -1.81     -1.81    5.000e+00   4.091e+00  -9.087e-01
+Halite           -0.11     1.09      1.19    0.000e+00           0   0.000e+00
+Thenardite        0.00    -1.81     -1.81    5.000e+00   4.093e+00  -9.066e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                7.001e+00   7.001e+00
-	Na                8.819e+00   8.818e+00
-	S                 9.087e-01   9.087e-01
+	Na                8.814e+00   8.814e+00
+	S                 9.066e-01   9.066e-01
 
 ----------------------------Description of solution----------------------------
 
-                                        pH  =  6.274        Charge balance
+                                        pH  =  6.273        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1073145   
-                           Density (g/cm³)  =  1.13757  
-                                Volume (L)  =  1.35222  
-                         Viscosity (mPa s)  =  0.35663  
+       Specific Conductance (µS/cm, 200°C)  =  1739867   
+                           Density (g/cm³)  =  1.13748  
+                                Volume (L)  =  1.35206  
+                         Viscosity (mPa s)  =  0.37306  
                          Activity of water  =  0.757  
-                  Ionic strength (mol/kgw)  =  9.727e+00  
+                  Ionic strength (mol/kgw)  =  9.721e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.185e-13  
+                   Total alkalinity (eq/kg)  = 8.507e-14  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  2.737e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  19  
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  3.414e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  17  
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.92386  
-                          Density of water  =  0.86484  
+                       Osmotic coefficient  =  0.92432  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.914100e+01
+                                   Total O  =  5.913271e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2046,23 +2045,23 @@ Thenardite        0.00    -1.81     -1.81    5.000e+00   4.091e+00  -9.087e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             5.616e-05   6.847e-06    -4.251    -5.165    -0.914      7.97
-   H+              1.874e-07   5.327e-07    -6.727    -6.274     0.454      0.00
-   H2O             5.551e+01   7.570e-01     1.744    -0.121     0.000     20.83
+   OH-             5.605e-05   6.847e-06    -4.251    -5.165    -0.913      7.93
+   H+              1.875e-07   5.329e-07    -6.727    -6.273     0.454      0.00
+   H2O             5.551e+01   7.570e-01     1.744    -0.121     0.000     20.84
 Cl            7.001e+00
-   Cl-             7.001e+00   2.769e+00     0.845     0.442    -0.403     18.57
-Na            8.819e+00
-   Na+             8.819e+00   4.391e+00     0.945     0.643    -0.303      3.17
-S(6)          9.087e-01
-   SO4-2           9.086e-01   8.034e-04    -0.042    -3.095    -3.053     41.85
-   HSO4-           5.597e-05   7.518e-06    -4.252    -5.124    -0.872     50.01
+   Cl-             7.001e+00   2.770e+00     0.845     0.442    -0.403     18.55
+Na            8.814e+00
+   Na+             8.814e+00   4.393e+00     0.945     0.643    -0.302      3.16
+S(6)          9.066e-01
+   SO4-2           9.066e-01   8.027e-04    -0.043    -3.095    -3.053     41.71
+   HSO4-           5.586e-05   7.512e-06    -4.253    -5.124    -0.871     49.98
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
-  H2O(g)            1.03     -0.12   -1.16  H2O
-  Halite           -0.11      1.08    1.19  NaCl
+  H2O(g)            1.04     -0.12   -1.16  H2O
+  Halite           -0.11      1.09    1.19  NaCl
   Mirabilite       -1.66     -3.02   -1.36  Na2SO4:10H2O
   Thenardite        0.00     -1.81   -1.81  Na2SO4
 
@@ -2099,38 +2098,38 @@ Reaction 2.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Halite           -0.00     1.19      1.19    0.000e+00           0   0.000e+00
-Thenardite       -0.00    -1.81     -1.81    4.000e+00   2.968e+00  -1.032e+00
+Thenardite        0.00    -1.81     -1.81    4.000e+00   2.972e+00  -1.028e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
 	Cl                8.001e+00   8.001e+00
-	Na                1.007e+01   1.007e+01
-	S                 1.032e+00   1.032e+00
+	Na                1.006e+01   1.006e+01
+	S                 1.028e+00   1.028e+00
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.149        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1036330   
-                           Density (g/cm³)  =  1.15731  
-                                Volume (L)  =  1.39479  
-                         Viscosity (mPa s)  =  0.40318  
+       Specific Conductance (µS/cm, 200°C)  =  1728983   
+                           Density (g/cm³)  =  1.15722  
+                                Volume (L)  =  1.39436  
+                         Viscosity (mPa s)  =  0.42518  
                          Activity of water  =  0.733  
-                  Ionic strength (mol/kgw)  =  1.110e+01  
+                  Ionic strength (mol/kgw)  =  1.108e+01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.102e-13  
+                   Total alkalinity (eq/kg)  = 1.700e-13  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  6.415e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  6.857e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  18  
                           Gamma iterations  =  5   
-                       Osmotic coefficient  =  0.90372  
-                          Density of water  =  0.86487  
+                       Osmotic coefficient  =  0.90462  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.963450e+01
+                                   Total O  =  5.961677e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2138,25 +2137,25 @@ Thenardite       -0.00    -1.81     -1.81    4.000e+00   2.968e+00  -1.032e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             6.972e-05   4.974e-06    -4.157    -5.303    -1.147     11.08
-   H+              1.587e-07   7.090e-07    -6.800    -6.149     0.650      0.00
-   H2O             5.551e+01   7.328e-01     1.744    -0.135     0.000     20.83
+   OH-             6.945e-05   4.976e-06    -4.158    -5.303    -1.145     11.02
+   H+              1.588e-07   7.089e-07    -6.799    -6.149     0.650      0.00
+   H2O             5.551e+01   7.327e-01     1.744    -0.135     0.000     20.84
 Cl            8.001e+00
-   Cl-             8.001e+00   3.119e+00     0.903     0.494    -0.409     19.85
-Na            1.007e+01
-   Na+             1.007e+01   4.960e+00     1.003     0.696    -0.307      3.13
-S(6)          1.032e+00
-   SO4-2           1.032e+00   6.284e-04     0.014    -3.202    -3.215     46.77
-   HSO4-           6.956e-05   7.836e-06    -4.158    -5.106    -0.948     51.30
+   Cl-             8.001e+00   3.121e+00     0.903     0.494    -0.409     19.81
+Na            1.006e+01
+   Na+             1.006e+01   4.965e+00     1.002     0.696    -0.307      3.13
+S(6)          1.028e+00
+   SO4-2           1.028e+00   6.274e-04     0.012    -3.202    -3.214     46.58
+   HSO4-           6.929e-05   7.821e-06    -4.159    -5.107    -0.947     51.26
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.02     -0.14   -1.16  H2O
   Halite           -0.00      1.19    1.19  NaCl
   Mirabilite       -1.80     -3.16   -1.36  Na2SO4:10H2O
-  Thenardite       -0.00     -1.81   -1.81  Na2SO4
+  Thenardite        0.00     -1.81   -1.81  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2190,39 +2189,39 @@ Reaction 2.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite            0.00     1.19      1.19    0.000e+00   9.535e-01   9.535e-01
-Thenardite        0.00    -1.81     -1.81    2.968e+00   1.955e+00  -1.013e+00
+Halite            0.00     1.19      1.19    0.000e+00   9.615e-01   9.615e-01
+Thenardite        0.00    -1.81     -1.81    2.972e+00   1.962e+00  -1.010e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Cl                8.048e+00   8.048e+00
-	Na                1.014e+01   1.014e+01
-	S                 1.045e+00   1.045e+00
+	Cl                8.040e+00   8.040e+00
+	Na                1.012e+01   1.012e+01
+	S                 1.038e+00   1.038e+00
 
 ----------------------------Description of solution----------------------------
 
-                                        pH  =  6.143        Charge balance
+                                        pH  =  6.144        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1032994   
-                           Density (g/cm³)  =  1.15837  
-                                Volume (L)  =  1.39741  
-                         Viscosity (mPa s)  =  0.40627  
+       Specific Conductance (µS/cm, 200°C)  =  1726808   
+                           Density (g/cm³)  =  1.15809  
+                                Volume (L)  =  1.39650  
+                         Viscosity (mPa s)  =  0.42806  
                          Activity of water  =  0.732  
-                  Ionic strength (mol/kgw)  =  1.118e+01  
+                  Ionic strength (mol/kgw)  =  1.115e+01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.235e-13  
+                   Total alkalinity (eq/kg)  = 1.706e-13  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  6.653e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  11  
-                          Gamma iterations  =  4   
-                       Osmotic coefficient  =  0.90127  
-                          Density of water  =  0.86490  
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  6.855e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  10  
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  0.90266  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.968511e+01
+                                   Total O  =  5.965740e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2230,20 +2229,20 @@ Thenardite        0.00    -1.81     -1.81    2.968e+00   1.955e+00  -1.013e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             7.090e-05   4.894e-06    -4.149    -5.310    -1.161     11.27
-   H+              1.573e-07   7.197e-07    -6.803    -6.143     0.660      0.00
-   H2O             5.551e+01   7.318e-01     1.744    -0.136     0.000     20.83
-Cl            8.048e+00
-   Cl-             8.048e+00   3.133e+00     0.906     0.496    -0.410     19.92
-Na            1.014e+01
-   Na+             1.014e+01   4.982e+00     1.006     0.697    -0.309      3.13
-S(6)          1.045e+00
-   SO4-2           1.045e+00   6.229e-04     0.019    -3.206    -3.225     47.07
-   HSO4-           7.075e-05   7.886e-06    -4.150    -5.103    -0.953     51.38
+   OH-             7.041e-05   4.910e-06    -4.152    -5.309    -1.157     11.18
+   H+              1.576e-07   7.177e-07    -6.802    -6.144     0.658      0.00
+   H2O             5.551e+01   7.319e-01     1.744    -0.136     0.000     20.84
+Cl            8.040e+00
+   Cl-             8.040e+00   3.133e+00     0.905     0.496    -0.409     19.87
+Na            1.012e+01
+   Na+             1.012e+01   4.983e+00     1.005     0.697    -0.308      3.13
+S(6)          1.038e+00
+   SO4-2           1.038e+00   6.228e-04     0.016    -3.206    -3.222     46.82
+   HSO4-           7.025e-05   7.861e-06    -4.153    -5.105    -0.951     51.32
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.02     -0.14   -1.16  H2O
   Halite            0.00      1.19    1.19  NaCl
@@ -2282,39 +2281,39 @@ Reaction 2.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite            0.00     1.19      1.19    9.535e-01   1.954e+00   1.000e+00
-Thenardite        0.00    -1.81     -1.81    1.955e+00   9.552e-01  -1.000e+00
+Halite            0.00     1.19      1.19    9.615e-01   1.961e+00   1.000e+00
+Thenardite       -0.00    -1.81     -1.81    1.962e+00   9.621e-01  -1.000e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Cl                8.048e+00   8.048e+00
-	Na                1.014e+01   1.014e+01
-	S                 1.045e+00   1.045e+00
+	Cl                8.040e+00   8.040e+00
+	Na                1.012e+01   1.012e+01
+	S                 1.038e+00   1.038e+00
 
 ----------------------------Description of solution----------------------------
 
-                                        pH  =  6.143        Charge balance
+                                        pH  =  6.144        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1032994   
-                           Density (g/cm³)  =  1.15837  
-                                Volume (L)  =  1.39741  
-                         Viscosity (mPa s)  =  0.40627  
+       Specific Conductance (µS/cm, 200°C)  =  1726808   
+                           Density (g/cm³)  =  1.15809  
+                                Volume (L)  =  1.39650  
+                         Viscosity (mPa s)  =  0.42806  
                          Activity of water  =  0.732  
-                  Ionic strength (mol/kgw)  =  1.118e+01  
+                  Ionic strength (mol/kgw)  =  1.115e+01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.198e-12 
+                   Total alkalinity (eq/kg)  = 1.710e-13  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  3.148e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  4   
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  6.854e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  5   
                           Gamma iterations  =  1   
-                       Osmotic coefficient  =  0.90127  
-                          Density of water  =  0.86490  
+                       Osmotic coefficient  =  0.90266  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
-                                   Total O  =  5.968511e+01
+                                   Total O  =  5.965740e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -2322,25 +2321,25 @@ Thenardite        0.00    -1.81     -1.81    1.955e+00   9.552e-01  -1.000e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             7.090e-05   4.894e-06    -4.149    -5.310    -1.161     11.27
-   H+              1.573e-07   7.197e-07    -6.803    -6.143     0.660      0.00
-   H2O             5.551e+01   7.318e-01     1.744    -0.136     0.000     20.83
-Cl            8.048e+00
-   Cl-             8.048e+00   3.133e+00     0.906     0.496    -0.410     19.92
-Na            1.014e+01
-   Na+             1.014e+01   4.982e+00     1.006     0.697    -0.309      3.13
-S(6)          1.045e+00
-   SO4-2           1.045e+00   6.229e-04     0.019    -3.206    -3.225     47.07
-   HSO4-           7.075e-05   7.886e-06    -4.150    -5.103    -0.953     51.38
+   OH-             7.041e-05   4.910e-06    -4.152    -5.309    -1.157     11.18
+   H+              1.576e-07   7.177e-07    -6.802    -6.144     0.658      0.00
+   H2O             5.551e+01   7.319e-01     1.744    -0.136     0.000     20.84
+Cl            8.040e+00
+   Cl-             8.040e+00   3.133e+00     0.905     0.496    -0.409     19.87
+Na            1.012e+01
+   Na+             1.012e+01   4.983e+00     1.005     0.697    -0.308      3.13
+S(6)          1.038e+00
+   SO4-2           1.038e+00   6.228e-04     0.016    -3.206    -3.222     46.82
+   HSO4-           7.025e-05   7.861e-06    -4.153    -5.105    -0.951     51.32
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.02     -0.14   -1.16  H2O
   Halite            0.00      1.19    1.19  NaCl
   Mirabilite       -1.81     -3.17   -1.36  Na2SO4:10H2O
-  Thenardite        0.00     -1.81   -1.81  Na2SO4
+  Thenardite       -0.00     -1.81   -1.81  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -2374,37 +2373,37 @@ Reaction 2.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite            0.00     1.19      1.19    1.954e+00   2.974e+00   1.021e+00
-Thenardite       -0.01    -1.82     -1.81    9.552e-01           0  -9.552e-01
+Halite            0.00     1.19      1.19    1.961e+00   2.979e+00   1.017e+00
+Thenardite       -0.01    -1.82     -1.81    9.621e-01           0  -9.621e-01
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Cl                8.027e+00   8.027e+00
-	Na                1.003e+01   1.003e+01
+	Cl                8.022e+00   8.022e+00
+	Na                1.002e+01   1.002e+01
 	S                 9.999e-01   9.999e-01
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.146        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1041276   
-                           Density (g/cm³)  =  1.15665  
-                                Volume (L)  =  1.39293  
-                         Viscosity (mPa s)  =  0.40046  
+       Specific Conductance (µS/cm, 200°C)  =  1735047   
+                           Density (g/cm³)  =  1.15662  
+                                Volume (L)  =  1.39274  
+                         Viscosity (mPa s)  =  0.42232  
                          Activity of water  =  0.732  
-                  Ionic strength (mol/kgw)  =  1.103e+01  
+                  Ionic strength (mol/kgw)  =  1.102e+01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.199e-12 
+                   Total alkalinity (eq/kg)  = 1.721e-13  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  3.143e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  9   
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  6.851e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  10  
                           Gamma iterations  =  3   
-                       Osmotic coefficient  =  0.90876  
-                          Density of water  =  0.86490  
+                       Osmotic coefficient  =  0.90897  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.950582e+01
 
@@ -2414,20 +2413,20 @@ Thenardite       -0.01    -1.82     -1.81    9.552e-01           0  -9.552e-01
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             6.811e-05   4.929e-06    -4.167    -5.307    -1.140     10.93
-   H+              1.598e-07   7.148e-07    -6.796    -6.146     0.651      0.00
-   H2O             5.551e+01   7.320e-01     1.744    -0.135     0.000     20.83
-Cl            8.027e+00
-   Cl-             8.027e+00   3.132e+00     0.905     0.496    -0.409     19.78
-Na            1.003e+01
-   Na+             1.003e+01   4.984e+00     1.001     0.698    -0.304      3.13
+   OH-             6.805e-05   4.939e-06    -4.167    -5.306    -1.139     10.88
+   H+              1.598e-07   7.137e-07    -6.797    -6.146     0.650      0.00
+   H2O             5.551e+01   7.321e-01     1.744    -0.135     0.000     20.84
+Cl            8.022e+00
+   Cl-             8.022e+00   3.132e+00     0.904     0.496    -0.408     19.76
+Na            1.002e+01
+   Na+             1.002e+01   4.984e+00     1.001     0.698    -0.303      3.13
 S(6)          9.999e-01
-   SO4-2           9.998e-01   6.127e-04    -0.000    -3.213    -3.213     46.53
-   HSO4-           6.795e-05   7.704e-06    -4.168    -5.113    -0.945     51.24
+   SO4-2           9.998e-01   6.140e-04    -0.000    -3.212    -3.212     46.37
+   HSO4-           6.789e-05   7.707e-06    -4.168    -5.113    -0.945     51.20
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.02     -0.14   -1.16  H2O
   Halite            0.00      1.19    1.19  NaCl
@@ -2466,37 +2465,37 @@ Reaction 2.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Halite            0.00     1.19      1.19    2.974e+00   4.125e+00   1.150e+00
+Halite            0.00     1.19      1.19    2.979e+00   4.128e+00   1.149e+00
 Thenardite       -4.83    -6.64     -1.81    0.000e+00           0   0.000e+00
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Cl                7.876e+00   7.876e+00
-	Na                7.876e+00   7.876e+00
-	S                 1.001e-05   1.001e-05
+	Cl                7.873e+00   7.873e+00
+	Na                7.873e+00   7.873e+00
+	S                 1.000e-05   1.000e-05
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  5.039        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  1124448   
-                           Density (g/cm³)  =  1.11245  
-                                Volume (L)  =  1.31269  
-                         Viscosity (mPa s)  =  0.31021  
+       Specific Conductance (µS/cm, 200°C)  =  1817163   
+                           Density (g/cm³)  =  1.11227  
+                                Volume (L)  =  1.31276  
+                         Viscosity (mPa s)  =  0.31460  
                          Activity of water  =  0.742  
-                  Ionic strength (mol/kgw)  =  7.876e+00  
+                  Ionic strength (mol/kgw)  =  7.873e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.160e-12 
+                   Total alkalinity (eq/kg)  = 2.096e-13  
                           Temperature (°C)  =  200.00
-                            Pressure (atm)  =  14.32
-                   Electrical balance (eq)  =  7.621e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                            Pressure (atm)  =  15.38
+                   Electrical balance (eq)  =  1.194e-08  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  11  
                           Gamma iterations  =  4   
-                       Osmotic coefficient  =  1.05071  
-                          Density of water  =  0.86490  
+                       Osmotic coefficient  =  1.05082  
+                          Density of water  =  0.86467  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550626e+01
 
@@ -2506,24 +2505,24 @@ Thenardite       -4.83    -6.64     -1.81    0.000e+00           0   0.000e+00
                                 MacInnes       Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             2.599e-06   3.916e-07    -5.585    -6.407    -0.822      3.58
-   H+              2.589e-06   9.145e-06    -5.587    -5.039     0.548      0.00
-   H2O             5.551e+01   7.422e-01     1.744    -0.129     0.000     20.83
-Cl            7.876e+00
-   Cl-             7.876e+00   3.124e+00     0.896     0.495    -0.402     16.66
-Na            7.876e+00
-   Na+             7.876e+00   5.001e+00     0.896     0.699    -0.197      3.21
-S(6)          1.001e-05
-   SO4-2           9.996e-06   9.144e-09    -5.000    -8.039    -3.039     34.65
-   HSO4-           9.545e-09   1.466e-09    -8.020    -8.834    -0.814     48.08
+   OH-             2.598e-06   3.921e-07    -5.585    -6.407    -0.821      3.55
+   H+              2.589e-06   9.139e-06    -5.587    -5.039     0.548      0.00
+   H2O             5.551e+01   7.422e-01     1.744    -0.129     0.000     20.84
+Cl            7.873e+00
+   Cl-             7.873e+00   3.125e+00     0.896     0.495    -0.401     16.64
+Na            7.873e+00
+   Na+             7.873e+00   5.001e+00     0.896     0.699    -0.197      3.21
+S(6)          1.000e-05
+   SO4-2           9.992e-06   9.156e-09    -5.000    -8.038    -3.038     34.53
+   HSO4-           9.539e-09   1.467e-09    -8.021    -8.834    -0.813     48.05
 
 ------------------------------Saturation indices-------------------------------
 
-  Phase               SI** log IAP   log K(473 K,  14 atm)
+  Phase               SI** log IAP   log K(473 K,  15 atm)
 
   H2O(g)            1.03     -0.13   -1.16  H2O
   Halite            0.00      1.19    1.19  NaCl
-  Mirabilite       -6.58     -7.94   -1.36  Na2SO4:10H2O
+  Mirabilite       -6.58     -7.93   -1.36  Na2SO4:10H2O
   Thenardite       -4.83     -6.64   -1.81  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -2536,8 +2535,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.038 Seconds.
--------------------------------
 

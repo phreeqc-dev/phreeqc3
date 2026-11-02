@@ -67,17 +67,17 @@ Initial solution 1.
 
                                         pH  =  5.500      
                                         pe  =  4.700      
-       Specific Conductance (µS/cm,  25°C)  =  4423      
+       Specific Conductance (µS/cm,  25°C)  =  4465      
                            Density (g/cm³)  =  1.00030  
                                 Volume (L)  =  1.00340  
-                         Viscosity (mPa s)  =  0.89766  
+                         Viscosity (mPa s)  =  0.89772  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  6.714e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -8.124e-06 
+                   Total alkalinity (eq/kg)  = -8.124e-06 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -5.071e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -75.52
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -75.52
                                 Iterations  =  5   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.563996e+01
@@ -177,8 +177,8 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Pyrite           -0.00   -18.48    -18.48    1.000e+01   1.000e+01   1.062e-03
-Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.141e-03
+Pyrite            0.00   -18.48    -18.48    1.000e+01   1.000e+01   1.062e-03
+Sphalerite        0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.141e-03
 
 -----------------------------Solution composition------------------------------
 
@@ -193,18 +193,18 @@ Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.141e-03
 
                                         pH  =  5.656        Charge balance
                                         pe  =  -0.832       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  3950      
+       Specific Conductance (µS/cm,  25°C)  =  3985      
                            Density (g/cm³)  =  0.99970  
                                 Volume (L)  =  1.00386  
-                         Viscosity (mPa s)  =  0.89830  
+                         Viscosity (mPa s)  =  0.89827  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  5.756e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.117e-03  
+                   Total alkalinity (eq/kg)  = 2.117e-03  
                         Total CO2 (mol/kg)  =  9.998e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -5.071e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -86.48
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -86.48
                                 Iterations  =  10  
                                    Total H  =  1.110324e+02
                                    Total O  =  5.564996e+01
@@ -304,10 +304,10 @@ Zn            8.325e-05
   Mackinawite      -5.29     -9.94   -4.65  FeS
   Melanterite      -2.79     -5.00   -2.21  FeSO4:7H2O
   O2(g)           -63.87    -66.77   -2.89  O2
-  Pyrite           -0.00    -18.48  -18.48  FeS2
+  Pyrite            0.00    -18.48  -18.48  FeS2
   Siderite          0.36    -10.53  -10.89  FeCO3
   Smithsonite      -2.21    -12.21  -10.00  ZnCO3
-  Sphalerite       -0.00    -11.62  -11.62  ZnS
+  Sphalerite        0.00    -11.62  -11.62  ZnS
   Sulfur           -6.48     -1.60    4.88  S
   Zn(OH)2(e)       -4.93      6.57   11.50  Zn(OH)2
 
@@ -340,7 +340,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Pyrite            0.00   -18.48    -18.48    1.000e+01   1.000e+01   3.880e-03
+Pyrite           -0.00   -18.48    -18.48    1.000e+01   1.000e+01   3.880e-03
 Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.211e-03
 
 -----------------------------Solution composition------------------------------
@@ -356,18 +356,18 @@ Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.211e-03
 
                                         pH  =  6.060        Charge balance
                                         pe  =  -1.346       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  3564      
+       Specific Conductance (µS/cm,  25°C)  =  3592      
                            Density (g/cm³)  =  0.99931  
                                 Volume (L)  =  1.00421  
-                         Viscosity (mPa s)  =  0.90004  
+                         Viscosity (mPa s)  =  0.89947  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  4.890e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.750e-03  
+                   Total alkalinity (eq/kg)  = 7.750e-03  
                         Total CO2 (mol/kg)  =  1.999e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -5.071e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -96.06
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -96.06
                                 Iterations  =  9   
                                    Total H  =  1.110524e+02
                                    Total O  =  5.565996e+01
@@ -467,7 +467,7 @@ Zn            1.373e-05
   Mackinawite      -5.08     -9.73   -4.65  FeS
   Melanterite      -3.46     -5.67   -2.21  FeSO4:7H2O
   O2(g)           -64.31    -67.20   -2.89  O2
-  Pyrite            0.00    -18.48  -18.48  FeS2
+  Pyrite           -0.00    -18.48  -18.48  FeS2
   Siderite          0.74    -10.15  -10.89  FeCO3
   Smithsonite      -2.03    -12.03  -10.00  ZnCO3
   Sphalerite       -0.00    -11.62  -11.62  ZnS
@@ -503,7 +503,7 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Pyrite           -0.00   -18.48    -18.48    1.000e+01   1.000e+01   4.852e-03
+Pyrite            0.00   -18.48    -18.48    1.000e+01   1.000e+01   4.852e-03
 Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.224e-03
 
 -----------------------------Solution composition------------------------------
@@ -519,18 +519,18 @@ Sphalerite       -0.00   -11.62    -11.62    1.000e+01   1.000e+01   3.224e-03
 
                                         pH  =  6.304        Charge balance
                                         pe  =  -2.742       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  3355      
+       Specific Conductance (µS/cm,  25°C)  =  3375      
                            Density (g/cm³)  =  0.99913  
                                 Volume (L)  =  1.00457  
-                         Viscosity (mPa s)  =  0.90014  
+                         Viscosity (mPa s)  =  0.89866  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  4.256e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.626e-02  
+                   Total alkalinity (eq/kg)  = 1.626e-02  
                         Total CO2 (mol/kg)  =  2.999e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -5.071e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -100.00
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -100.00
                                 Iterations  =  27  
                                    Total H  =  1.110724e+02
                                    Total O  =  5.566996e+01
@@ -630,7 +630,7 @@ Zn            6.202e-07
   Mackinawite     -11.42    -16.07   -4.65  FeS
   Melanterite     -19.02    -21.23   -2.21  FeSO4:7H2O
   O2(g)           -68.92    -71.82   -2.89  O2
-  Pyrite           -0.00    -18.48  -18.48  FeS2
+  Pyrite            0.00    -18.48  -18.48  FeS2
   Siderite        -14.17    -25.06  -10.89  FeCO3
   Smithsonite     -10.61    -20.61  -10.00  ZnCO3
   Sphalerite       -0.00    -11.62  -11.62  ZnS
@@ -647,8 +647,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.018 Seconds.
--------------------------------
 

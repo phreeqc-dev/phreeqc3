@@ -106,15 +106,15 @@ Initial solution 1.
        Specific Conductance (µS/cm,  25°C)  =  67        
                            Density (g/cm³)  =  0.99711  
                                 Volume (L)  =  1.00301  
-                         Viscosity (mPa s)  =  0.89071  
+                         Viscosity (mPa s)  =  0.89082  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.824e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.563e-03  
+                   Total alkalinity (eq/kg)  = 1.563e-03  
                         Total CO2 (mol/kg)  =  1.902e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.563e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -99.99
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -99.99
                                 Iterations  =  4   
                                    Total H  =  1.110140e+02
                                    Total O  =  5.551158e+01
@@ -196,20 +196,20 @@ Kinetics 1.
 ----------------------------Description of solution----------------------------
 
                                         pH  =  8.082        Charge balance
-                                        pe  =  9.949        Adjusted to redox equilibrium
+                                        pe  =  -2.890       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  130       
                            Density (g/cm³)  =  0.99715  
                                 Volume (L)  =  1.00301  
-                         Viscosity (mPa s)  =  0.89160  
+                         Viscosity (mPa s)  =  0.89187  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.744e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.206e-03  
+                   Total alkalinity (eq/kg)  = 2.206e-03  
                         Total CO2 (mol/kg)  =  2.224e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.563e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -55.27
-                                Iterations  =  457 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -55.27
+                                Iterations  =  350 
                                    Total H  =  1.110140e+02
                                    Total O  =  5.551255e+01
 
@@ -221,8 +221,8 @@ Kinetics 1.
    OH-             1.282e-06   1.223e-06    -5.892    -5.912    -0.020     -4.10
    H+              8.643e-09   8.274e-09    -8.063    -8.082    -0.019      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
-C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00  -124.271  -124.271     0.000     35.46
+C(-4)         2.749e-22
+   CH4             2.749e-22   2.751e-22   -21.561   -21.561     0.000     35.46
 C(4)          2.224e-03
    HCO3-           2.166e-03   2.070e-03    -2.664    -2.684    -0.020     23.16
    CO2             3.849e-05   3.850e-05    -4.415    -4.415     0.000     34.79
@@ -235,10 +235,10 @@ Ca            3.215e-04
    CaCO3           5.189e-06   5.191e-06    -5.285    -5.285     0.000    -14.60
    CaOH+           5.535e-09   5.283e-09    -8.257    -8.277    -0.020     (0)  
    CaHCO3+         5.001e-11   4.779e-11   -10.301   -10.321    -0.020      9.68
-H(0)          1.228e-39
-   H2              6.140e-40   6.143e-40   -39.212   -39.212     0.000     14.99
-O(0)          2.299e-14
-   O2              1.149e-14   1.150e-14   -13.940   -13.939     0.000     30.40
+H(0)          5.845e-14
+   H2              2.922e-14   2.924e-14   -13.534   -13.534     0.000     14.99
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -65.295   -65.294     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -246,11 +246,11 @@ O(0)          2.299e-14
 
   Aragonite        -0.17     -8.51   -8.34  CaCO3
   Calcite          -0.06     -8.51   -8.45  CaCO3
-  CH4(g)         -121.47   -124.27   -2.80  CH4
+  CH4(g)          -18.76    -21.56   -2.80  CH4
   CO2(g)           -2.95     -4.41   -1.47  CO2
-  H2(g)           -36.11    -39.21   -3.10  H2
+  H2(g)           -10.43    -13.53   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
-  O2(g)           -11.05    -13.94   -2.89  O2
+  O2(g)           -62.40    -65.29   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -300,20 +300,20 @@ Kinetics 2.
 ----------------------------Description of solution----------------------------
 
                                         pH  =  8.082        Charge balance
-                                        pe  =  10.212       Adjusted to redox equilibrium
+                                        pe  =  10.818       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  130       
                            Density (g/cm³)  =  0.99715  
                                 Volume (L)  =  1.00301  
-                         Viscosity (mPa s)  =  0.89160  
+                         Viscosity (mPa s)  =  0.89187  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.744e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.206e-03  
+                   Total alkalinity (eq/kg)  = 2.206e-03  
                         Total CO2 (mol/kg)  =  2.224e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.563e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -55.27
-                                Iterations  =  394 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -55.27
+                                Iterations  =  376 
                                    Total H  =  1.110140e+02
                                    Total O  =  5.551255e+01
 
@@ -326,7 +326,7 @@ Kinetics 2.
    H+              8.655e-09   8.285e-09    -8.063    -8.082    -0.019      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00  -126.373  -126.373     0.000     35.46
+   CH4             0.000e+00   0.000e+00  -131.224  -131.224     0.000     35.46
 C(4)          2.224e-03
    HCO3-           2.166e-03   2.069e-03    -2.664    -2.684    -0.020     23.16
    CO2             3.854e-05   3.855e-05    -4.414    -4.414     0.000     34.79
@@ -339,10 +339,10 @@ Ca            3.214e-04
    CaCO3           5.180e-06   5.182e-06    -5.286    -5.286     0.000    -14.60
    CaOH+           5.526e-09   5.275e-09    -8.258    -8.278    -0.020     (0)  
    CaHCO3+         5.000e-11   4.778e-11   -10.301   -10.321    -0.020      9.68
-H(0)          3.660e-40
-   H2              1.830e-40   1.831e-40   -39.738   -39.737     0.000     14.99
-O(0)          2.588e-13
-   O2              1.294e-13   1.295e-13   -12.888   -12.888     0.000     30.40
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -40.950   -40.950     0.000     14.99
+O(0)          6.895e-11
+   O2              3.448e-11   3.449e-11   -10.462   -10.462     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -350,11 +350,11 @@ O(0)          2.588e-13
 
   Aragonite        -0.17     -8.51   -8.34  CaCO3
   Calcite          -0.06     -8.51   -8.45  CaCO3
-  CH4(g)         -123.57   -126.37   -2.80  CH4
+  CH4(g)         -128.42   -131.22   -2.80  CH4
   CO2(g)           -2.95     -4.41   -1.47  CO2
-  H2(g)           -36.64    -39.74   -3.10  H2
+  H2(g)           -37.85    -40.95   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
-  O2(g)           -10.00    -12.89   -2.89  O2
+  O2(g)            -7.57    -10.46   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -366,8 +366,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 5.
 ------------------------------------
-
--------------------------------
-End of Run after 0.025 Seconds.
--------------------------------
 

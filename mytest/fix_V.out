@@ -60,18 +60,18 @@ Initial solution 1.
 
                                         pH  =  6.007        Charge balance
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  1583      
+       Specific Conductance (µS/cm,  25°C)  =  1587      
                            Density (g/cm³)  =  0.99851  
                                 Volume (L)  =  1.00442  
-                         Viscosity (mPa s)  =  0.90544  
+                         Viscosity (mPa s)  =  0.90431  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.659e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.774e-02  
+                   Total alkalinity (eq/kg)  = 1.774e-02  
                         Total CO2 (mol/kg)  =  5.147e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.129e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -3.078e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  8   
                                    Total H  =  1.110302e+02
                                    Total O  =  5.562689e+01
@@ -155,20 +155,20 @@ Calcite          -0.00    -8.44     -8.44    1.000e+01   9.991e+00  -8.604e-03
 ----------------------------Description of solution----------------------------
 
                                         pH  =  5.511        Charge balance
-                                        pe  =  -0.101       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  2928      
+                                        pe  =  0.664        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  2942      
                            Density (g/cm³)  =  1.00135  
                                 Volume (L)  =  1.01009  
-                         Viscosity (mPa s)  =  0.92881  
+                         Viscosity (mPa s)  =  0.92360  
                          Activity of water  =  0.996  
                   Ionic strength (mol/kgw)  =  5.241e-02  
                         Mass of water (kg)  =  9.998e-01  
-                  Total alkalinity (eq/kg)  =  3.495e-02  
+                   Total alkalinity (eq/kg)  = 3.495e-02  
                         Total CO2 (mol/kg)  =  2.345e-01  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  6.12 
-                   Electrical balance (eq)  =  1.060e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  9.647e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  32  
                                    Total H  =  1.110302e+02
                                    Total O  =  5.600139e+01
@@ -181,8 +181,8 @@ Calcite          -0.00    -8.44     -8.44    1.000e+01   9.991e+00  -8.604e-03
    H+              3.617e-06   3.081e-06    -5.442    -5.511    -0.070      0.00
    OH-             4.065e-09   3.286e-09    -8.391    -8.483    -0.092     -3.85
    H2O             5.551e+01   9.957e-01     1.744    -0.002     0.000     18.07
-C(-4)         2.544e-20
-   CH4             2.544e-20   2.575e-20   -19.594   -19.589     0.005     35.46
+C(-4)         1.920e-26
+   CH4             1.920e-26   1.943e-26   -25.717   -25.711     0.005     35.46
 C(4)          2.345e-01
    CO2             1.982e-01   1.998e-01    -0.703    -0.699     0.003     34.79
    HCO3-           3.494e-02   2.889e-02    -1.457    -1.539    -0.083     25.17
@@ -195,10 +195,10 @@ Ca            1.747e-02
    CaCO3           5.981e-06   6.054e-06    -5.223    -5.218     0.005    -14.56
    CaHCO3+         2.485e-08   2.065e-08    -7.605    -7.685    -0.080      9.81
    CaOH+           5.346e-10   4.376e-10    -9.272    -9.359    -0.087     (0)  
-H(0)          2.109e-14
-   H2              1.054e-14   1.068e-14   -13.977   -13.971     0.006     14.99
+H(0)          6.216e-16
+   H2              3.108e-16   3.147e-16   -15.508   -15.502     0.006     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.431   -64.426     0.005     30.39
+   O2              0.000e+00   0.000e+00   -61.370   -61.364     0.005     30.39
 
 ------------------------------Saturation indices-------------------------------
 
@@ -206,11 +206,11 @@ O(0)          0.000e+00
 
   Aragonite        -0.11     -8.44   -8.33  CaCO3
   Calcite          -0.00     -8.44   -8.44  CaCO3
-  CH4(g)          -16.78    -19.59   -2.81  CH4
+  CH4(g)          -22.91    -25.71   -2.81  CH4
   CO2(g)            0.77     -0.70   -1.47  CO2	 Pressure   6.1 atm, phi 0.966
-  H2(g)           -10.87    -13.97   -3.10  H2
+  H2(g)           -12.40    -15.50   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
-  O2(g)           -61.53    -64.43   -2.90  O2
+  O2(g)           -58.47    -61.36   -2.90  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -293,21 +293,21 @@ Calcite           0.00    -8.44     -8.44    1.000e+01   1.000e+01   2.441e-04
 ----------------------------Description of solution----------------------------
 
                                         pH  =  5.521        Charge balance
-                                        pe  =  -0.222       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  2893      
+                                        pe  =  0.187        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  2906      
                            Density (g/cm³)  =  1.00125  
                                 Volume (L)  =  1.00985  
-                         Viscosity (mPa s)  =  0.92799  
+                         Viscosity (mPa s)  =  0.92290  
                          Activity of water  =  0.996  
                   Ionic strength (mol/kgw)  =  5.168e-02  
                         Mass of water (kg)  =  9.998e-01  
-                  Total alkalinity (eq/kg)  =  3.446e-02  
+                   Total alkalinity (eq/kg)  = 3.446e-02  
                         Total CO2 (mol/kg)  =  2.268e-01  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  5.89 
-                   Electrical balance (eq)  =  -2.235e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  21  
+                   Electrical balance (eq)  =  3.438e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  23  
                                    Total H  =  1.110302e+02
                                    Total O  =  5.598591e+01
 
@@ -319,8 +319,8 @@ Calcite           0.00    -8.44     -8.44    1.000e+01   1.000e+01   2.441e-04
    H+              3.531e-06   3.010e-06    -5.452    -5.521    -0.069      0.00
    OH-             4.156e-09   3.363e-09    -8.381    -8.473    -0.092     -3.85
    H2O             5.551e+01   9.959e-01     1.744    -0.002     0.000     18.07
-C(-4)         1.872e-19
-   CH4             1.872e-19   1.895e-19   -18.728   -18.722     0.005     35.46
+C(-4)         1.009e-22
+   CH4             1.009e-22   1.021e-22   -21.996   -21.991     0.005     35.46
 C(4)          2.268e-01
    CO2             1.912e-01   1.927e-01    -0.719    -0.715     0.003     34.79
    HCO3-           3.445e-02   2.851e-02    -1.463    -1.545    -0.082     25.16
@@ -333,10 +333,10 @@ Ca            1.723e-02
    CaCO3           5.979e-06   6.051e-06    -5.223    -5.218     0.005    -14.56
    CaHCO3+         2.425e-08   2.017e-08    -7.615    -7.695    -0.080      9.81
    CaOH+           5.411e-10   4.433e-10    -9.267    -9.353    -0.087     (0)  
-H(0)          3.506e-14
-   H2              1.753e-14   1.775e-14   -13.756   -13.751     0.005     14.99
+H(0)          5.342e-15
+   H2              2.671e-15   2.705e-15   -14.573   -14.568     0.005     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.872   -64.867     0.005     30.39
+   O2              0.000e+00   0.000e+00   -63.238   -63.232     0.005     30.39
 
 ------------------------------Saturation indices-------------------------------
 
@@ -344,11 +344,11 @@ O(0)          0.000e+00
 
   Aragonite        -0.11     -8.44   -8.33  CaCO3
   Calcite           0.00     -8.44   -8.44  CaCO3
-  CH4(g)          -15.92    -18.72   -2.80  CH4
+  CH4(g)          -19.19    -21.99   -2.80  CH4
   CO2(g)            0.76     -0.72   -1.47  CO2	 Pressure   5.9 atm, phi 0.968
-  H2(g)           -10.65    -13.75   -3.10  H2
+  H2(g)           -11.47    -14.57   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
-  O2(g)           -61.97    -64.87   -2.89  O2
+  O2(g)           -60.34    -63.23   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -360,8 +360,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.021 Seconds.
--------------------------------
 

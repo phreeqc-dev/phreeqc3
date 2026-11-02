@@ -73,15 +73,15 @@ Initial solution 1.	Fixed Carbon, Fixed Na, Fixed pH
        Specific Conductance (µS/cm,  25°C)  =  91        
                            Density (g/cm³)  =  0.99710  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89071  
+                         Viscosity (mPa s)  =  0.89092  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.971e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.850e-04  
+                   Total alkalinity (eq/kg)  = 9.850e-04  
                         Total CO2 (mol/kg)  =  1.000e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.502e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.76  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.76  
                                 Iterations  =  9   
                                    Total H  =  1.110134e+02
                                    Total O  =  5.550920e+01
@@ -111,14 +111,14 @@ C(4)          1.000e-03
 H(0)          1.000e-06
    H2              5.000e-07   5.001e-07    -6.301    -6.301     0.000     14.99
 N(-3)         8.423e-31
-   NH4+            7.984e-31   7.701e-31   -30.098   -30.113    -0.016     17.89
-   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     24.42
+   NH4+            7.984e-31   7.701e-31   -30.098   -30.113    -0.016     17.93
+   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     30.46
 N(0)          1.000e-03
    N2              5.000e-04   5.001e-04    -3.301    -3.301     0.000     29.29
 N(3)          2.484e-33
    NO2-            2.484e-33   2.396e-33   -32.605   -32.621    -0.016     24.97
 N(5)          6.685e-38
-   NO3-            6.685e-38   6.449e-38   -37.175   -37.191    -0.016     29.49
+   NO3-            6.685e-38   6.449e-38   -37.175   -37.191    -0.016     29.64
 Na            1.000e-03
    Na+             9.996e-04   9.648e-04    -3.000    -3.016    -0.015     -1.48
    NaHCO3          4.480e-07   4.481e-07    -6.349    -6.349     0.000     24.51
@@ -192,15 +192,15 @@ Initial solution 2.	Fixed Carbon, Fixed Na, Adj. pH
        Specific Conductance (µS/cm,  25°C)  =  92        
                            Density (g/cm³)  =  0.99710  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89072  
+                         Viscosity (mPa s)  =  0.89092  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.009e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.000e-03  
+                   Total alkalinity (eq/kg)  = 1.000e-03  
                         Total CO2 (mol/kg)  =  1.000e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.012e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -5.629e-19 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  9   
                                    Total H  =  1.110134e+02
                                    Total O  =  5.550921e+01
@@ -230,14 +230,14 @@ C(4)          1.000e-03
 H(0)          1.000e-06
    H2              5.000e-07   5.001e-07    -6.301    -6.301     0.000     14.99
 N(-3)         7.377e-32
-   NH4+            6.694e-32   6.455e-32   -31.174   -31.190    -0.016     17.89
-   NH3             6.835e-33   6.836e-33   -32.165   -32.165     0.000     24.42
+   NH4+            6.694e-32   6.455e-32   -31.174   -31.190    -0.016     17.93
+   NH3             6.835e-33   6.836e-33   -32.165   -32.165     0.000     30.46
 N(0)          1.000e-03
    N2              5.000e-04   5.001e-04    -3.301    -3.301     0.000     29.29
 N(3)          2.964e-32
    NO2-            2.964e-32   2.859e-32   -31.528   -31.544    -0.016     24.97
 N(5)          2.755e-36
-   NO3-            2.755e-36   2.657e-36   -35.560   -35.576    -0.016     29.49
+   NO3-            2.755e-36   2.657e-36   -35.560   -35.576    -0.016     29.64
 Na            1.000e-03
    Na+             9.995e-04   9.646e-04    -3.000    -3.016    -0.015     -1.48
    NaHCO3          4.502e-07   4.504e-07    -6.347    -6.346     0.000     24.51
@@ -313,15 +313,15 @@ Initial solution 3.	Fixed Carbon, Adj. Na, Fixed pH
        Specific Conductance (µS/cm,  25°C)  =  90        
                            Density (g/cm³)  =  0.99710  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89071  
+                         Viscosity (mPa s)  =  0.89091  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.896e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  9.850e-04  
+                   Total alkalinity (eq/kg)  = 9.850e-04  
                         Total CO2 (mol/kg)  =  1.000e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.136e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  8.237e-19  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.110134e+02
                                    Total O  =  5.550920e+01
@@ -350,14 +350,14 @@ C(4)          1.000e-03
 H(0)          1.000e-06
    H2              5.000e-07   5.001e-07    -6.301    -6.301     0.000     14.99
 N(-3)         8.422e-31
-   NH4+            7.983e-31   7.701e-31   -30.098   -30.113    -0.016     17.89
-   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     24.42
+   NH4+            7.983e-31   7.701e-31   -30.098   -30.113    -0.016     17.93
+   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     30.46
 N(0)          1.000e-03
    N2              5.000e-04   5.001e-04    -3.301    -3.301     0.000     29.29
 N(3)          2.483e-33
    NO2-            2.483e-33   2.396e-33   -32.605   -32.621    -0.016     24.97
 N(5)          6.684e-38
-   NO3-            6.684e-38   6.449e-38   -37.175   -37.191    -0.016     29.49
+   NO3-            6.684e-38   6.449e-38   -37.175   -37.191    -0.016     29.64
 Na            9.850e-04
    Na+             9.845e-04   9.504e-04    -3.007    -3.022    -0.015     -1.48
    NaHCO3          4.414e-07   4.415e-07    -6.355    -6.355     0.000     24.51
@@ -430,15 +430,15 @@ Initial solution 4.	Adj. Carbon, Fixed Na, Fixed pH
        Specific Conductance (µS/cm,  25°C)  =  92        
                            Density (g/cm³)  =  0.99711  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89072  
+                         Viscosity (mPa s)  =  0.89092  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.005e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.000e-03  
+                   Total alkalinity (eq/kg)  = 1.000e-03  
                         Total CO2 (mol/kg)  =  1.015e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.213e-18 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -7.731e-19 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  9   
                                    Total H  =  1.110134e+02
                                    Total O  =  5.550924e+01
@@ -467,14 +467,14 @@ C(4)          1.015e-03
 H(0)          1.000e-06
    H2              5.000e-07   5.001e-07    -6.301    -6.301     0.000     14.99
 N(-3)         8.424e-31
-   NH4+            7.985e-31   7.701e-31   -30.098   -30.113    -0.016     17.89
-   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     24.42
+   NH4+            7.985e-31   7.701e-31   -30.098   -30.113    -0.016     17.93
+   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     30.46
 N(0)          1.000e-03
    N2              5.000e-04   5.001e-04    -3.301    -3.301     0.000     29.29
 N(3)          2.484e-33
    NO2-            2.484e-33   2.396e-33   -32.605   -32.621    -0.016     24.97
 N(5)          6.686e-38
-   NO3-            6.686e-38   6.449e-38   -37.175   -37.191    -0.016     29.49
+   NO3-            6.686e-38   6.449e-38   -37.175   -37.191    -0.016     29.64
 Na            1.000e-03
    Na+             9.995e-04   9.647e-04    -3.000    -3.016    -0.015     -1.48
    NaHCO3          4.547e-07   4.549e-07    -6.342    -6.342     0.000     24.51
@@ -547,15 +547,15 @@ Initial solution 5.	Fixed Alkalinity, Fixed Na, Fixed pH
        Specific Conductance (µS/cm,  25°C)  =  92        
                            Density (g/cm³)  =  0.99711  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89072  
+                         Viscosity (mPa s)  =  0.89092  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.005e-03  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  1.015e-03  
+                      Total carbon (mol/kg)  = 1.015e-03  
                         Total CO2 (mol/kg)  =  1.015e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  7.390e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  -7.731e-19 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  9   
                                    Total H  =  1.110134e+02
                                    Total O  =  5.550924e+01
@@ -582,14 +582,14 @@ C(4)          1.015e-03
 H(0)          1.000e-06
    H2              5.000e-07   5.001e-07    -6.301    -6.301     0.000     14.99
 N(-3)         8.424e-31
-   NH4+            7.985e-31   7.701e-31   -30.098   -30.113    -0.016     17.89
-   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     24.42
+   NH4+            7.985e-31   7.701e-31   -30.098   -30.113    -0.016     17.93
+   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     30.46
 N(0)          1.000e-03
    N2              5.000e-04   5.001e-04    -3.301    -3.301     0.000     29.29
 N(3)          2.484e-33
    NO2-            2.484e-33   2.396e-33   -32.605   -32.621    -0.016     24.97
 N(5)          6.686e-38
-   NO3-            6.686e-38   6.449e-38   -37.175   -37.191    -0.016     29.49
+   NO3-            6.686e-38   6.449e-38   -37.175   -37.191    -0.016     29.64
 Na            1.000e-03
    Na+             9.995e-04   9.647e-04    -3.000    -3.016    -0.015     -1.48
    NaHCO3          4.547e-07   4.549e-07    -6.342    -6.342     0.000     24.51
@@ -661,15 +661,15 @@ Initial solution 6.	Fixed Alkalinity, Adj. Na, Fixed pH
        Specific Conductance (µS/cm,  25°C)  =  92        
                            Density (g/cm³)  =  0.99711  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89072  
+                         Viscosity (mPa s)  =  0.89092  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.005e-03  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  1.015e-03  
+                      Total carbon (mol/kg)  = 1.015e-03  
                         Total CO2 (mol/kg)  =  1.015e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.283e-19 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  9.423e-20  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.110134e+02
                                    Total O  =  5.550924e+01
@@ -696,14 +696,14 @@ C(4)          1.015e-03
 H(0)          1.000e-06
    H2              5.000e-07   5.001e-07    -6.301    -6.301     0.000     14.99
 N(-3)         8.424e-31
-   NH4+            7.985e-31   7.701e-31   -30.098   -30.113    -0.016     17.89
-   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     24.42
+   NH4+            7.985e-31   7.701e-31   -30.098   -30.113    -0.016     17.93
+   NH3             4.387e-32   4.388e-32   -31.358   -31.358     0.000     30.46
 N(0)          1.000e-03
    N2              5.000e-04   5.001e-04    -3.301    -3.301     0.000     29.29
 N(3)          2.484e-33
    NO2-            2.484e-33   2.396e-33   -32.605   -32.621    -0.016     24.97
 N(5)          6.686e-38
-   NO3-            6.686e-38   6.449e-38   -37.175   -37.191    -0.016     29.49
+   NO3-            6.686e-38   6.449e-38   -37.175   -37.191    -0.016     29.64
 Na            1.000e-03
    Na+             9.995e-04   9.647e-04    -3.000    -3.016    -0.015     -1.48
    NaHCO3          4.547e-07   4.549e-07    -6.342    -6.342     0.000     24.51
@@ -780,14 +780,14 @@ pH will be adjusted to obtain desired alkalinity.
        Specific Conductance (µS/cm,  25°C)  =  92        
                            Density (g/cm³)  =  0.99710  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89072  
+                         Viscosity (mPa s)  =  0.89092  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.009e-03  
                         Mass of water (kg)  =  1.000e+00  
                         Total CO2 (mol/kg)  =  1.000e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -2.075e-18 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.371e-14 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  9   
                                    Total H  =  1.110134e+02
                                    Total O  =  5.550921e+01
@@ -816,14 +816,14 @@ C(4)          1.000e-03
 H(0)          1.000e-06
    H2              5.000e-07   5.001e-07    -6.301    -6.301     0.000     14.99
 N(-3)         7.377e-32
-   NH4+            6.694e-32   6.455e-32   -31.174   -31.190    -0.016     17.89
-   NH3             6.835e-33   6.836e-33   -32.165   -32.165     0.000     24.42
+   NH4+            6.694e-32   6.455e-32   -31.174   -31.190    -0.016     17.93
+   NH3             6.835e-33   6.836e-33   -32.165   -32.165     0.000     30.46
 N(0)          1.000e-03
    N2              5.000e-04   5.001e-04    -3.301    -3.301     0.000     29.29
 N(3)          2.964e-32
    NO2-            2.964e-32   2.859e-32   -31.528   -31.544    -0.016     24.97
 N(5)          2.755e-36
-   NO3-            2.755e-36   2.657e-36   -35.560   -35.576    -0.016     29.49
+   NO3-            2.755e-36   2.657e-36   -35.560   -35.576    -0.016     29.64
 Na            1.000e-03
    Na+             9.995e-04   9.646e-04    -3.000    -3.016    -0.015     -1.48
    NaHCO3          4.502e-07   4.504e-07    -6.347    -6.346     0.000     24.51
@@ -863,8 +863,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 9.
 ------------------------------------
-
--------------------------------
-End of Run after 0.019 Seconds.
--------------------------------
 

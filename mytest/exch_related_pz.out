@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -61,10 +60,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.216e-09  
+                   Total alkalinity (eq/kg)  = 1.216e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  3   
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99988  
@@ -121,15 +120,15 @@ Calcite           0.00    -8.44     -8.44    1.000e-02   9.878e-03  -1.219e-04
        Specific Conductance (µS/cm,  25°C)  =  37        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00296  
-                         Viscosity (mPa s)  =  0.89032  
+                         Viscosity (mPa s)  =  0.89835  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.018e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.439e-04  
+                   Total alkalinity (eq/kg)  = 2.439e-04  
                         Total CO2 (mol/kg)  =  1.219e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.98116  
@@ -147,8 +146,8 @@ Calcite           0.00    -8.44     -8.44    1.000e-02   9.878e-03  -1.219e-04
    H+              1.235e-10   1.205e-10    -9.908    -9.919    -0.010      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(4)          1.219e-04
-   HCO3-           8.601e-05   8.410e-05    -4.065    -4.075    -0.010     23.36
-   CO3-2           3.592e-05   3.272e-05    -4.445    -4.485    -0.040     -6.94
+   HCO3-           8.601e-05   8.410e-05    -4.065    -4.075    -0.010     23.29
+   CO3-2           3.592e-05   3.272e-05    -4.445    -4.485    -0.040     -7.63
    CO2             2.279e-08   2.279e-08    -7.642    -7.642     0.000     34.79
 Ca            1.219e-04
    Ca+2            1.219e-04   1.111e-04    -3.914    -3.954    -0.041    -18.18
@@ -252,18 +251,18 @@ X                4.421e-12 mol	[0.33 (mol Ca.5X)/(mol Calcite)]
 
                                         pH  =  0.724        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  83269     
+       Specific Conductance (µS/cm,  25°C)  =  82942     
                            Density (g/cm³)  =  1.00215  
                                 Volume (L)  =  1.00795  
-                         Viscosity (mPa s)  =  0.90484  
+                         Viscosity (mPa s)  =  0.91220  
                          Activity of water  =  0.992  
                   Ionic strength (mol/kgw)  =  2.600e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.300e-01 
+                   Total alkalinity (eq/kg)  = -2.300e-01 
                         Total CO2 (mol/kg)  =  9.998e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  18  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.94494  
@@ -282,8 +281,8 @@ X                4.421e-12 mol	[0.33 (mol Ca.5X)/(mol Calcite)]
    H2O             5.551e+01   9.915e-01     1.744    -0.004     0.000     18.07
 C(4)          9.998e-03
    CO2             9.998e-03   1.001e-02    -2.000    -2.000     0.000     34.79
-   HCO3-           3.737e-08   2.335e-08    -7.427    -7.632    -0.204     26.06
-   CO3-2           4.773e-17   5.796e-18   -16.321   -17.237    -0.916     -2.04
+   HCO3-           3.737e-08   2.335e-08    -7.427    -7.632    -0.204     26.07
+   CO3-2           4.773e-17   5.796e-18   -16.321   -17.237    -0.916     -1.96
 Ca            9.998e-03
    Ca+2            9.998e-03   3.198e-03    -2.000    -2.495    -0.495    -17.12
 Cl            2.500e-01
@@ -352,18 +351,18 @@ X                4.421e-12 mol	[0.33 (mol Ca.5X)/(mol Calcite)]
 
                                         pH  =  0.724        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  83269     
+       Specific Conductance (µS/cm,  25°C)  =  82942     
                            Density (g/cm³)  =  1.00215  
                                 Volume (L)  =  1.00795  
-                         Viscosity (mPa s)  =  0.90484  
+                         Viscosity (mPa s)  =  0.91220  
                          Activity of water  =  0.992  
                   Ionic strength (mol/kgw)  =  2.600e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.300e-01 
+                   Total alkalinity (eq/kg)  = -2.300e-01 
                         Total CO2 (mol/kg)  =  9.998e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  1   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.94494  
@@ -382,8 +381,8 @@ X                4.421e-12 mol	[0.33 (mol Ca.5X)/(mol Calcite)]
    H2O             5.551e+01   9.915e-01     1.744    -0.004     0.000     18.07
 C(4)          9.998e-03
    CO2             9.998e-03   1.001e-02    -2.000    -2.000     0.000     34.79
-   HCO3-           3.737e-08   2.335e-08    -7.427    -7.632    -0.204     26.06
-   CO3-2           4.773e-17   5.796e-18   -16.321   -17.237    -0.916     -2.04
+   HCO3-           3.737e-08   2.335e-08    -7.427    -7.632    -0.204     26.07
+   CO3-2           4.773e-17   5.796e-18   -16.321   -17.237    -0.916     -1.96
 Ca            9.998e-03
    Ca+2            9.998e-03   3.198e-03    -2.000    -2.495    -0.495    -17.12
 Cl            2.500e-01
@@ -438,10 +437,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.216e-09  
+                   Total alkalinity (eq/kg)  = 1.216e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  3   
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99988  
@@ -507,10 +506,10 @@ Calcite              Element not present.    0.000e+00           0   0.000e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.216e-09  
+                   Total alkalinity (eq/kg)  = 1.216e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  1   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99988  
@@ -617,15 +616,15 @@ X                3.296e-02 mol	[0.33 (mol Ca.5X)/(mol Calcite)]
        Specific Conductance (µS/cm,  25°C)  =  37        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00296  
-                         Viscosity (mPa s)  =  0.89032  
+                         Viscosity (mPa s)  =  0.89835  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.018e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.439e-04  
+                   Total alkalinity (eq/kg)  = 2.439e-04  
                         Total CO2 (mol/kg)  =  1.219e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  26  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.98116  
@@ -643,8 +642,8 @@ X                3.296e-02 mol	[0.33 (mol Ca.5X)/(mol Calcite)]
    H+              1.235e-10   1.205e-10    -9.908    -9.919    -0.010      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(4)          1.219e-04
-   HCO3-           8.601e-05   8.410e-05    -4.065    -4.075    -0.010     23.36
-   CO3-2           3.592e-05   3.272e-05    -4.445    -4.485    -0.040     -6.94
+   HCO3-           8.601e-05   8.410e-05    -4.065    -4.075    -0.010     23.29
+   CO3-2           3.592e-05   3.272e-05    -4.445    -4.485    -0.040     -7.63
    CO2             2.279e-08   2.279e-08    -7.642    -7.642     0.000     34.79
 Ca            1.219e-04
    Ca+2            1.219e-04   1.111e-04    -3.914    -3.954    -0.041    -18.18
@@ -669,8 +668,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 6.
 ------------------------------------
-
--------------------------------
-End of Run after 0.021 Seconds.
--------------------------------
 

@@ -136,11 +136,11 @@ Initial solution 1.	 OXIDE COMPOSITE
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.467e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.715e-04  
+                   Total alkalinity (eq/kg)  = 8.715e-04  
                         Total CO2 (mol/kg)  =  5.851e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.196e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  10  
                                    Total H  =  1.110151e+02
                                    Total O  =  5.551753e+01
@@ -1044,7 +1044,7 @@ Zn            9.577e-08
   O2(g)           -29.53     53.56   83.09  O2
   Otavite          -2.53    -14.53  -12.00  CdCO3
   Pb(BO2)2         -8.91     -2.39    6.52  Pb(BO2)2
-  Pb(OH)2          -1.06      7.09    8.15  Pb(OH)2
+  Pb(OH)2          -6.43      7.09   13.51  Pb(OH)2
   Pb10(OH)6O(CO3)6 -59.15    -67.91   -8.76  Pb10(OH)6O(CO3)6
   Pb2(OH)3Cl       -8.44      0.35    8.79  Pb2(OH)3Cl
   Pb2O(OH)2       -12.01     14.18   26.19  Pb2O(OH)2
@@ -1240,11 +1240,11 @@ Initial solution 2.	 SHALLOW COMPOSITE
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  4.701e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.464e-03 
+                   Total alkalinity (eq/kg)  = -3.464e-03 
                         Total CO2 (mol/kg)  =  8.353e-06  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  3.628e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.334e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   19   (29 overall)
                                    Total H  =  1.110203e+02
                                    Total O  =  5.558051e+01
@@ -2148,7 +2148,7 @@ Zn            2.208e-04
   O2(g)           -56.21     26.88   83.09  O2
   Otavite         -11.46    -23.46  -12.00  CdCO3
   Pb(BO2)2        -16.41     -9.89    6.52  Pb(BO2)2
-  Pb(OH)2          -8.78     -0.63    8.15  Pb(OH)2
+  Pb(OH)2         -14.14     -0.63   13.51  Pb(OH)2
   Pb10(OH)6O(CO3)6-128.09   -136.85   -8.76  Pb10(OH)6O(CO3)6
   Pb2(OH)3Cl      -15.64     -6.85    8.79  Pb2(OH)3Cl
   Pb2O(OH)2       -27.45     -1.26   26.19  Pb2O(OH)2
@@ -2344,11 +2344,11 @@ Initial solution 3.	 DEEP COMPOSITE
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  6.175e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -2.880e-03 
+                   Total alkalinity (eq/kg)  = -2.880e-03 
                         Total CO2 (mol/kg)  =  8.361e-06  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.549e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  5.936e-19  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   14   (43 overall)
                                    Total H  =  1.110196e+02
                                    Total O  =  5.560226e+01
@@ -3252,7 +3252,7 @@ Zn            1.765e-04
   O2(g)           -55.73     27.36   83.09  O2
   Otavite         -11.52    -23.52  -12.00  CdCO3
   Pb(BO2)2        -16.08     -9.56    6.52  Pb(BO2)2
-  Pb(OH)2          -9.66     -1.51    8.15  Pb(OH)2
+  Pb(OH)2         -15.03     -1.51   13.51  Pb(OH)2
   Pb10(OH)6O(CO3)6-136.92   -145.68   -8.76  Pb10(OH)6O(CO3)6
   Pb2(OH)3Cl      -17.46     -8.67    8.79  Pb2(OH)3Cl
   Pb2O(OH)2       -29.21     -3.03   26.19  Pb2O(OH)2
@@ -3407,8 +3407,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
-------------------------------
-End of Run after 0.11 Seconds.
-------------------------------
 

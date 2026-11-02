@@ -67,18 +67,18 @@ Initial solution 10.	Test solution
 
                                         pH  =  7.000      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  84421     
+       Specific Conductance (µS/cm,  25°C)  =  84367     
                            Density (g/cm³)  =  1.03634  
                                 Volume (L)  =  1.02166  
-                         Viscosity (mPa s)  =  0.97411  
+                         Viscosity (mPa s)  =  0.97425  
                          Activity of water  =  0.966  
                   Ionic strength (mol/kgw)  =  1.007e+00  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.671e-03  
+                   Total alkalinity (eq/kg)  = 1.671e-03  
                         Total CO2 (mol/kg)  =  1.000e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  5.442e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.300e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110146e+02
                                    Total O  =  5.551711e+01
@@ -415,7 +415,7 @@ FeZnCO3                                     1.66e-01
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	 -7.731e-14  Surface + diffuse layer charge, eq
+	 -7.777e-14  Surface + diffuse layer charge, eq
 	 -2.869e-04  Surface charge, eq
 	 -4.613e-02  sigma, C/m²
 	 -1.952e-02  psi, V
@@ -507,19 +507,19 @@ X                1.000e-03 mol
 
                                         pH  =  6.906        Charge balance
                                         pe  =  8.684        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  84263     
+       Specific Conductance (µS/cm,  25°C)  =  84066     
                            Density (g/cm³)  =  1.04001  
                                 Volume (L)  =  1.02140  
-                         Viscosity (mPa s)  =  0.97767  
+                         Viscosity (mPa s)  =  0.97993  
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  1.022e+00  
                         Mass of water (kg)  =  9.991e-01  
-                  Total alkalinity (eq/kg)  =  3.651e-02  
+                   Total alkalinity (eq/kg)  = 3.651e-02  
                         Total CO2 (mol/kg)  =  2.834e-02  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  0.90 
-                   Electrical balance (eq)  =  2.947e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.430e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   15   (66 overall)
                                    Total H  =  1.110139e+02
                                    Total O  =  5.561936e+01
@@ -602,15 +602,15 @@ Fe(3)         3.295e-02
 H(0)          7.317e-35
    H2              3.659e-35   4.684e-35   -34.437   -34.329     0.107     14.99
 N(-3)         3.174e-40
-   NH4+            3.174e-40   1.659e-40   -39.498   -39.780    -0.282     18.58
-   NH3             0.000e+00   0.000e+00   -42.220   -42.118     0.102     24.42
-   NH4SO4-         0.000e+00   0.000e+00   -42.381   -42.611    -0.230     40.93
+   NH4+            3.174e-40   1.659e-40   -39.498   -39.780    -0.282     18.55
+   NH3             0.000e+00   0.000e+00   -42.220   -42.118     0.102     30.46
+   NH4SO4-         0.000e+00   0.000e+00   -42.461   -42.667    -0.206     40.69
 N(0)          8.221e-04
    N2              4.110e-04   5.200e-04    -3.386    -3.284     0.102     29.29
 N(3)          1.952e-23
    NO2-            1.952e-23   1.077e-23   -22.709   -22.968    -0.258     25.89
 N(5)          7.665e-21
-   NO3-            7.665e-21   4.229e-21   -20.115   -20.374    -0.258     30.50
+   NO3-            7.665e-21   4.229e-21   -20.115   -20.374    -0.258     30.55
 Na            9.948e-01
    Na+             9.906e-01   7.257e-01    -0.004    -0.139    -0.135     -0.30
    NaHCO3          3.548e-03   5.061e-03    -2.450    -2.296     0.154     24.51
@@ -655,7 +655,7 @@ S(6)          9.951e-04
    Fe(SO4)2-       1.412e-13   1.122e-13   -12.850   -12.950    -0.100     (0)  
    FeHSO4+         2.834e-14   2.251e-14   -13.548   -13.648    -0.100     (0)  
    FeHSO4+2        6.551e-17   2.606e-17   -16.184   -16.584    -0.400     (0)  
-   NH4SO4-         0.000e+00   0.000e+00   -42.381   -42.611    -0.230     40.93
+   NH4SO4-         0.000e+00   0.000e+00   -42.461   -42.667    -0.206     40.69
 Zn            2.839e-04
    Zn+2            1.096e-04   1.840e-05    -3.960    -4.735    -0.775    -23.96
    ZnCl+           4.984e-05   2.993e-05    -4.302    -4.524    -0.221    -17.14
@@ -884,19 +884,19 @@ X                1.000e-03 mol
 
                                         pH  =  6.906        Charge balance
                                         pe  =  8.684        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  84262     
+       Specific Conductance (µS/cm,  25°C)  =  84066     
                            Density (g/cm³)  =  1.04001  
                                 Volume (L)  =  1.02140  
-                         Viscosity (mPa s)  =  0.97767  
+                         Viscosity (mPa s)  =  0.97993  
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  1.022e+00  
                         Mass of water (kg)  =  9.991e-01  
-                  Total alkalinity (eq/kg)  =  3.651e-02  
+                   Total alkalinity (eq/kg)  = 3.651e-02  
                         Total CO2 (mol/kg)  =  2.834e-02  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  0.90 
                    Electrical balance (eq)  =  -3.701e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   20   (68 overall)
                                    Total H  =  1.110139e+02
                                    Total O  =  5.561935e+01
@@ -979,15 +979,15 @@ Fe(3)         3.294e-02
 H(0)          7.319e-35
    H2              3.660e-35   4.685e-35   -34.437   -34.329     0.107     14.99
 N(-3)         3.175e-40
-   NH4+            3.175e-40   1.660e-40   -39.498   -39.780    -0.282     18.58
-   NH3             0.000e+00   0.000e+00   -42.220   -42.118     0.102     24.42
-   NH4SO4-         0.000e+00   0.000e+00   -42.381   -42.611    -0.230     40.93
+   NH4+            3.175e-40   1.660e-40   -39.498   -39.780    -0.282     18.55
+   NH3             0.000e+00   0.000e+00   -42.220   -42.118     0.102     30.46
+   NH4SO4-         0.000e+00   0.000e+00   -42.461   -42.667    -0.206     40.69
 N(0)          8.221e-04
    N2              4.110e-04   5.200e-04    -3.386    -3.284     0.102     29.29
 N(3)          1.951e-23
    NO2-            1.951e-23   1.077e-23   -22.710   -22.968    -0.258     25.89
 N(5)          7.660e-21
-   NO3-            7.660e-21   4.226e-21   -20.116   -20.374    -0.258     30.50
+   NO3-            7.660e-21   4.226e-21   -20.116   -20.374    -0.258     30.55
 Na            9.948e-01
    Na+             9.906e-01   7.257e-01    -0.004    -0.139    -0.135     -0.30
    NaHCO3          3.548e-03   5.061e-03    -2.450    -2.296     0.154     24.51
@@ -1032,7 +1032,7 @@ S(6)          9.951e-04
    Fe(SO4)2-       1.412e-13   1.122e-13   -12.850   -12.950    -0.100     (0)  
    FeHSO4+         2.834e-14   2.251e-14   -13.548   -13.648    -0.100     (0)  
    FeHSO4+2        6.551e-17   2.606e-17   -16.184   -16.584    -0.400     (0)  
-   NH4SO4-         0.000e+00   0.000e+00   -42.381   -42.611    -0.230     40.93
+   NH4SO4-         0.000e+00   0.000e+00   -42.461   -42.667    -0.206     40.69
 Zn            2.839e-04
    Zn+2            1.096e-04   1.840e-05    -3.960    -4.735    -0.775    -23.96
    ZnCl+           4.985e-05   2.994e-05    -4.302    -4.524    -0.221    -17.14
@@ -1197,7 +1197,7 @@ FeZnCO3                                     1.66e-01
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	  4.039e-15  Surface + diffuse layer charge, eq
+	  4.548e-15  Surface + diffuse layer charge, eq
 	 -2.869e-04  Surface charge, eq
 	 -4.613e-02  sigma, C/m²
 	 -1.952e-02  psi, V
@@ -1289,20 +1289,20 @@ X                1.000e-03 mol
 
                                         pH  =  6.906        Charge balance
                                         pe  =  8.684        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  84263     
+       Specific Conductance (µS/cm,  25°C)  =  84066     
                            Density (g/cm³)  =  1.04001  
                                 Volume (L)  =  1.02140  
-                         Viscosity (mPa s)  =  0.97767  
+                         Viscosity (mPa s)  =  0.97993  
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  1.022e+00  
                         Mass of water (kg)  =  9.991e-01  
-                  Total alkalinity (eq/kg)  =  3.651e-02  
+                   Total alkalinity (eq/kg)  = 3.651e-02  
                         Total CO2 (mol/kg)  =  2.834e-02  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  0.90 
-                   Electrical balance (eq)  =  -3.110e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                               Iterations  =   10   (50 overall)
+                   Electrical balance (eq)  =  -3.340e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   10   (52 overall)
                                    Total H  =  1.110139e+02
                                    Total O  =  5.561936e+01
 
@@ -1384,15 +1384,15 @@ Fe(3)         3.295e-02
 H(0)          7.317e-35
    H2              3.659e-35   4.684e-35   -34.437   -34.329     0.107     14.99
 N(-3)         3.174e-40
-   NH4+            3.174e-40   1.659e-40   -39.498   -39.780    -0.282     18.58
-   NH3             0.000e+00   0.000e+00   -42.220   -42.118     0.102     24.42
-   NH4SO4-         0.000e+00   0.000e+00   -42.381   -42.611    -0.230     40.93
+   NH4+            3.174e-40   1.659e-40   -39.498   -39.780    -0.282     18.55
+   NH3             0.000e+00   0.000e+00   -42.220   -42.118     0.102     30.46
+   NH4SO4-         0.000e+00   0.000e+00   -42.461   -42.667    -0.206     40.69
 N(0)          8.221e-04
    N2              4.110e-04   5.200e-04    -3.386    -3.284     0.102     29.29
 N(3)          1.952e-23
    NO2-            1.952e-23   1.077e-23   -22.709   -22.968    -0.258     25.89
 N(5)          7.665e-21
-   NO3-            7.665e-21   4.229e-21   -20.115   -20.374    -0.258     30.50
+   NO3-            7.665e-21   4.229e-21   -20.115   -20.374    -0.258     30.55
 Na            9.948e-01
    Na+             9.906e-01   7.257e-01    -0.004    -0.139    -0.135     -0.30
    NaHCO3          3.548e-03   5.061e-03    -2.450    -2.296     0.154     24.51
@@ -1437,7 +1437,7 @@ S(6)          9.951e-04
    Fe(SO4)2-       1.412e-13   1.122e-13   -12.850   -12.950    -0.100     (0)  
    FeHSO4+         2.834e-14   2.251e-14   -13.548   -13.648    -0.100     (0)  
    FeHSO4+2        6.551e-17   2.606e-17   -16.184   -16.584    -0.400     (0)  
-   NH4SO4-         0.000e+00   0.000e+00   -42.381   -42.611    -0.230     40.93
+   NH4SO4-         0.000e+00   0.000e+00   -42.461   -42.667    -0.206     40.69
 Zn            2.839e-04
    Zn+2            1.096e-04   1.840e-05    -3.960    -4.735    -0.775    -23.96
    ZnCl+           4.984e-05   2.993e-05    -4.302    -4.524    -0.221    -17.14
@@ -1574,7 +1574,7 @@ FeZnCO3                                     1.66e-01
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	 -4.894e-14  Surface + diffuse layer charge, eq
+	 -4.893e-14  Surface + diffuse layer charge, eq
 	 -2.879e-04  Surface charge, eq
 	 -4.630e-02  sigma, C/m²
 	 -1.958e-02  psi, V
@@ -1666,19 +1666,19 @@ X                1.000e-03 mol
 
                                         pH  =  6.904        Charge balance
                                         pe  =  8.696        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  84264     
+       Specific Conductance (µS/cm,  25°C)  =  84066     
                            Density (g/cm³)  =  1.04006  
                                 Volume (L)  =  1.02139  
-                         Viscosity (mPa s)  =  0.97771  
+                         Viscosity (mPa s)  =  0.97999  
                          Activity of water  =  0.965  
                   Ionic strength (mol/kgw)  =  1.022e+00  
                         Mass of water (kg)  =  9.991e-01  
-                  Total alkalinity (eq/kg)  =  3.687e-02  
+                   Total alkalinity (eq/kg)  = 3.687e-02  
                         Total CO2 (mol/kg)  =  2.864e-02  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  0.90 
-                   Electrical balance (eq)  =  -1.134e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -1.363e-12 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   12   (31 overall)
                                    Total H  =  1.110139e+02
                                    Total O  =  5.562053e+01
@@ -1761,15 +1761,15 @@ Fe(3)         3.334e-02
 H(0)          6.982e-35
    H2              3.491e-35   4.469e-35   -34.457   -34.350     0.107     14.99
 N(-3)         2.971e-40
-   NH4+            2.971e-40   1.553e-40   -39.527   -39.809    -0.282     18.58
-   NH3             0.000e+00   0.000e+00   -42.251   -42.149     0.102     24.42
-   NH4SO4-         0.000e+00   0.000e+00   -42.410   -42.640    -0.230     40.93
+   NH4+            2.971e-40   1.553e-40   -39.527   -39.809    -0.282     18.55
+   NH3             0.000e+00   0.000e+00   -42.251   -42.149     0.102     30.46
+   NH4SO4-         0.000e+00   0.000e+00   -42.490   -42.696    -0.206     40.69
 N(0)          8.220e-04
    N2              4.110e-04   5.200e-04    -3.386    -3.284     0.102     29.29
 N(3)          2.086e-23
    NO2-            2.086e-23   1.151e-23   -22.681   -22.939    -0.258     25.89
 N(5)          8.583e-21
-   NO3-            8.583e-21   4.736e-21   -20.066   -20.325    -0.258     30.50
+   NO3-            8.583e-21   4.736e-21   -20.066   -20.325    -0.258     30.55
 Na            9.948e-01
    Na+             9.906e-01   7.257e-01    -0.004    -0.139    -0.135     -0.30
    NaHCO3          3.584e-03   5.113e-03    -2.446    -2.291     0.154     24.51
@@ -1814,7 +1814,7 @@ S(6)          9.951e-04
    Fe(SO4)2-       1.443e-13   1.146e-13   -12.841   -12.941    -0.100     (0)  
    FeHSO4+         2.828e-14   2.246e-14   -13.549   -13.649    -0.100     (0)  
    FeHSO4+2        6.718e-17   2.673e-17   -16.173   -16.573    -0.400     (0)  
-   NH4SO4-         0.000e+00   0.000e+00   -42.410   -42.640    -0.230     40.93
+   NH4SO4-         0.000e+00   0.000e+00   -42.490   -42.696    -0.206     40.69
 Zn            2.828e-04
    Zn+2            1.090e-04   1.829e-05    -3.963    -4.738    -0.775    -23.96
    ZnCl+           4.954e-05   2.975e-05    -4.305    -4.526    -0.221    -17.14
@@ -1878,8 +1878,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 11.
 -------------------------------------
-
--------------------------------
-End of Run after 0.046 Seconds.
--------------------------------
 

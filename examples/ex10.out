@@ -119,23 +119,23 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.960      Charge balance
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 703
-                          Density (g/cm³)  =   0.99755
-                               Volume (L)  =   1.00309
-                        Viscosity (mPa s)  =   0.89376
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.148e-02
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   7.864e-03
-                       Total CO2 (mol/kg)  =   7.864e-03
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.338e-14
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   7
-                                  Total H  = 1.110200e+02
-                                  Total O  = 5.552964e+01
+                                        pH  =  7.960        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  715       
+                           Density (g/cm³)  =  0.99756  
+                                Volume (L)  =  1.00308  
+                         Viscosity (mPa s)  =  0.89706  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.148e-02  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 7.864e-03  
+                        Total CO2 (mol/kg)  =  7.864e-03  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.333e-14 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  7   
+                                   Total H  =  1.110200e+02
+                                   Total O  =  5.552964e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -148,10 +148,10 @@ Initial solution 1.
 C(-4)         0.000e+00
    CH4             0.000e+00   0.000e+00   -75.072   -75.071     0.001     35.46
 C(4)          7.864e-03
-   HCO3-           7.532e-03   6.778e-03    -2.123    -2.169    -0.046     24.72
+   HCO3-           7.532e-03   6.778e-03    -2.123    -2.169    -0.046     24.18
    CO2             1.667e-04   1.669e-04    -3.778    -3.777     0.001     34.79
    CaCO3           1.213e-04   1.216e-04    -3.916    -3.915     0.001    -14.60
-   CO3-2           4.429e-05   2.902e-05    -4.354    -4.537    -0.184     -4.32
+   CO3-2           4.429e-05   2.902e-05    -4.354    -4.537    -0.184     -5.32
    CaHCO3+         1.645e-09   1.482e-09    -8.784    -8.829    -0.045      9.73
    (CO2)2          4.523e-10   4.531e-10    -9.345    -9.344     0.001     68.75
 Ca            3.932e-03
@@ -205,23 +205,23 @@ CO2(g)           -0.01    -1.48     -1.47    1.000e+01   9.962e+00  -3.849e-02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.055      Charge balance
-                                       pe  =  -0.559      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 1675
-                          Density (g/cm³)  =   0.99860
-                               Volume (L)  =   1.00431
-                        Viscosity (mPa s)  =   0.90033
-                        Activity of water  =   0.999
-                 Ionic strength (mol/kgw)  =   2.898e-02
-                       Mass of water (kg)  =   9.999e-01
-                 Total alkalinity (eq/kg)  =   1.934e-02
-                       Total CO2 (mol/kg)  =   5.209e-02
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   1.916e-13
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =  11
-                                  Total H  = 1.110200e+02
-                                  Total O  = 5.562382e+01
+                                        pH  =  6.055        Charge balance
+                                        pe  =  11.810       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  1722      
+                           Density (g/cm³)  =  0.99860  
+                                Volume (L)  =  1.00431  
+                         Viscosity (mPa s)  =  0.90525  
+                         Activity of water  =  0.999  
+                  Ionic strength (mol/kgw)  =  2.898e-02  
+                        Mass of water (kg)  =  9.999e-01  
+                   Total alkalinity (eq/kg)  = 1.934e-02  
+                        Total CO2 (mol/kg)  =  5.209e-02  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  2.347e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  10  
+                                   Total H  =  1.110200e+02
+                                   Total O  =  5.562382e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -231,24 +231,24 @@ CO2(g)           -0.01    -1.48     -1.47    1.000e+01   9.962e+00  -3.849e-02
    H+              1.006e-06   8.811e-07    -5.997    -6.055    -0.058      0.00
    OH-             1.356e-08   1.148e-08    -7.868    -7.940    -0.073     -3.95
    H2O             5.551e+01   9.990e-01     1.744    -0.000     0.000     18.07
-C(-4)         8.576e-22
-   CH4             8.576e-22   8.633e-22   -21.067   -21.064     0.003     35.46
+C(-4)         0.000e+00
+   CH4             0.000e+00   0.000e+00  -120.017  -120.014     0.003     35.46
 C(4)          5.209e-02
    CO2             3.273e-02   3.287e-02    -1.485    -1.483     0.002     34.79
-   HCO3-           1.932e-02   1.658e-02    -1.714    -1.780    -0.066     24.89
+   HCO3-           1.932e-02   1.658e-02    -1.714    -1.780    -0.066     24.75
    (CO2)2          1.749e-05   1.757e-05    -4.757    -4.755     0.002     68.75
    CaCO3           7.698e-06   7.750e-06    -5.114    -5.111     0.003    -14.60
-   CO3-2           1.631e-06   8.824e-07    -5.788    -6.054    -0.267     -4.01
+   CO3-2           1.631e-06   8.824e-07    -5.788    -6.054    -0.267     -4.61
    CaHCO3+         8.826e-09   7.599e-09    -8.054    -8.119    -0.065      9.76
 Ca            9.668e-03
    Ca+2            9.660e-03   5.228e-03    -2.015    -2.282    -0.267    -17.74
    CaCO3           7.698e-06   7.750e-06    -5.114    -5.111     0.003    -14.60
    CaHCO3+         8.826e-09   7.599e-09    -8.054    -8.119    -0.065      9.76
    CaOH+           1.155e-09   9.838e-10    -8.937    -9.007    -0.070     (0)  
-H(0)          1.429e-14
-   H2              7.145e-15   7.195e-15   -14.146   -14.143     0.003     14.99
-O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.080   -64.078     0.003     30.40
+H(0)          2.615e-39
+   H2              1.307e-39   1.317e-39   -38.884   -38.881     0.003     14.99
+O(0)          4.963e-15
+   O2              2.482e-15   2.498e-15   -14.605   -14.602     0.003     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -256,11 +256,11 @@ O(0)          0.000e+00
 
   Aragonite         0.00     -8.34   -8.34  CaCO3
   Calcite           0.11     -8.34   -8.45  CaCO3
-  CH4(g)          -18.26    -21.06   -2.80  CH4
+  CH4(g)         -117.21   -120.01   -2.80  CH4
   CO2(g)           -0.01     -1.48   -1.47  CO2	 Pressure   1.0 atm, phi 0.995
-  H2(g)           -11.04    -14.14   -3.10  H2
+  H2(g)           -35.78    -38.88   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
-  O2(g)           -61.19    -64.08   -2.89  O2
+  O2(g)           -11.71    -14.60   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.

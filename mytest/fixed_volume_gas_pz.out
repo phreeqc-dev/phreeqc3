@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -60,10 +59,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.216e-09  
+                   Total alkalinity (eq/kg)  = 1.216e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  3   
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99988  
@@ -119,15 +118,15 @@ CO2(g)           -1.50    -2.97     -1.47    1.000e+01   9.999e+00  -1.105e-03
        Specific Conductance (µS/cm,  25°C)  =  8         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00300  
-                         Viscosity (mPa s)  =  0.89011  
+                         Viscosity (mPa s)  =  0.90071  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.207e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.216e-09  
+                   Total alkalinity (eq/kg)  = 1.216e-09  
                         Total CO2 (mol/kg)  =  1.105e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  10  
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99991  
@@ -146,8 +145,8 @@ CO2(g)           -1.50    -2.97     -1.47    1.000e+01   9.999e+00  -1.105e-03
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(4)          1.105e-03
    CO2             1.083e-03   1.083e-03    -2.965    -2.965    -0.000     34.79
-   HCO3-           2.207e-05   2.195e-05    -4.656    -4.659    -0.002     22.51
-   CO3-2           4.795e-11   4.690e-11   -10.319   -10.329    -0.010     -7.39
+   HCO3-           2.207e-05   2.195e-05    -4.656    -4.659    -0.002     22.38
+   CO3-2           4.795e-11   4.690e-11   -10.319   -10.329    -0.010     -8.34
 
 ------------------------------Saturation indices-------------------------------
 
@@ -265,19 +264,19 @@ Dolomite          0.00   -17.09    -17.09    1.000e+01   9.999e+00  -7.034e-04
 
                                         pH  =  7.448        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  335       
+       Specific Conductance (µS/cm,  25°C)  =  333       
                            Density (g/cm³)  =  0.99723  
                                 Volume (L)  =  1.00304  
-                         Viscosity (mPa s)  =  0.89174  
+                         Viscosity (mPa s)  =  0.89610  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.452e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.634e-03  
+                   Total alkalinity (eq/kg)  = 3.634e-03  
                         Total CO2 (mol/kg)  =  3.894e-03  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  0.01 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.95427  
@@ -295,9 +294,9 @@ Dolomite          0.00   -17.09    -17.09    1.000e+01   9.999e+00  -7.034e-04
    H+              3.876e-08   3.565e-08    -7.412    -7.448    -0.036      0.00
    H2O             5.551e+01   9.999e-01     1.744    -0.000     0.000     18.07
 C(4)          3.894e-03
-   HCO3-           3.618e-03   3.351e-03    -2.442    -2.475    -0.033     24.25
+   HCO3-           3.618e-03   3.351e-03    -2.442    -2.475    -0.033     24.22
    CO2             2.684e-04   2.686e-04    -3.571    -3.571     0.000     34.79
-   CO3-2           6.212e-06   4.407e-06    -5.207    -5.356    -0.149     -6.03
+   CO3-2           6.212e-06   4.407e-06    -5.207    -5.356    -0.149     -6.39
    MgCO3           1.910e-06   1.910e-06    -5.719    -5.719     0.000    -17.10
 Ca            1.114e-03
    Ca+2            1.114e-03   8.248e-04    -2.953    -3.084    -0.130    -18.01
@@ -382,19 +381,19 @@ Dolomite          0.00   -17.09    -17.09    1.000e+01   1.000e+01  -3.890e-04
 
                                         pH  =  7.925        Charge balance
                                         pe  =  4.000        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  190       
+       Specific Conductance (µS/cm,  25°C)  =  189       
                            Density (g/cm³)  =  0.99713  
                                 Volume (L)  =  1.00302  
-                         Viscosity (mPa s)  =  0.89115  
+                         Viscosity (mPa s)  =  0.89508  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.027e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.015e-03  
+                   Total alkalinity (eq/kg)  = 2.015e-03  
                         Total CO2 (mol/kg)  =  2.053e-03  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  0.00 
                    Electrical balance (eq)  =  -1.216e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  25  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.96293  
@@ -412,9 +411,9 @@ Dolomite          0.00   -17.09    -17.09    1.000e+01   1.000e+01  -3.890e-04
    H+              1.266e-08   1.188e-08    -7.898    -7.925    -0.028      0.00
    H2O             5.551e+01   9.999e-01     1.744    -0.000     0.000     18.07
 C(4)          2.053e-03
-   HCO3-           1.991e-03   1.878e-03    -2.701    -2.726    -0.026     24.03
+   HCO3-           1.991e-03   1.878e-03    -2.701    -2.726    -0.026     24.00
    CO2             5.014e-05   5.016e-05    -4.300    -4.300     0.000     34.79
-   CO3-2           9.585e-06   7.412e-06    -5.018    -5.130    -0.112     -6.31
+   CO3-2           9.585e-06   7.412e-06    -5.018    -5.130    -0.112     -6.75
    MgCO3           1.910e-06   1.910e-06    -5.719    -5.719     0.000    -17.10
 Ca            6.187e-04
    Ca+2            6.187e-04   4.904e-04    -3.209    -3.309    -0.101    -18.07
@@ -449,8 +448,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 6.
 ------------------------------------
-
--------------------------------
-End of Run after 0.019 Seconds.
--------------------------------
 

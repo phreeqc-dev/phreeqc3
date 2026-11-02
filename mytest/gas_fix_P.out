@@ -67,10 +67,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.343e-16  
+                   Total alkalinity (eq/kg)  = 1.343e-16  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.343e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  12  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -148,21 +148,21 @@ N2(g)              1.32   2.094e+01  3.421   5.597e-01   5.444e-01  -1.530e-02
 ----------------------------Description of solution----------------------------
 
                                         pH  =  2.860        Charge balance
-                                        pe  =  5.435        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  509       
+                                        pe  =  6.204        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  508       
                            Density (g/cm³)  =  1.05248  
                                 Volume (L)  =  1.02575  
-                         Viscosity (mPa s)  =  1.01980  
+                         Viscosity (mPa s)  =  1.01971  
                          Activity of water  =  0.969  
                   Ionic strength (mol/kgw)  =  1.435e-03  
                         Mass of water (kg)  =  9.983e-01  
-                  Total alkalinity (eq/kg)  =  -5.047e-16 
+                   Total alkalinity (eq/kg)  = -3.727e-15 
                         Total CO2 (mol/kg)  =  1.840e+00  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  950.90
-                   Electrical balance (eq)  =  6.677e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  49  
+                   Electrical balance (eq)  =  4.028e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  24  
                                    Total H  =  1.108249e+02
                                    Total O  =  5.908592e+01
 
@@ -175,37 +175,37 @@ N2(g)              1.32   2.094e+01  3.421   5.597e-01   5.444e-01  -1.530e-02
    OH-             1.533e-11   1.472e-11   -10.814   -10.832    -0.018     -1.38
    H2O             5.551e+01   9.693e-01     1.744    -0.014     0.000     17.38
 C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00   -42.331   -42.330     0.000     36.35
+   CH4             0.000e+00   0.000e+00   -48.484   -48.484     0.000     36.35
 C(4)          1.840e+00
    CO2             1.737e+00   1.737e+00     0.240     0.240     0.000     33.94
    (CO2)2          5.069e-02   5.070e-02    -1.295    -1.295     0.000     67.04
    HCO3-           1.435e-03   1.379e-03    -2.843    -2.860    -0.017     27.29
    CO3-2           1.676e-10   1.428e-10    -9.776    -9.845    -0.069     -1.44
-H(0)          1.995e-20
-   H2              9.975e-21   9.978e-21   -20.001   -20.001     0.000     15.46
-N(-3)         6.638e-14
-   NH4+            6.638e-14   6.369e-14   -13.178   -13.196    -0.018     19.42
-   NH3             2.060e-20   2.061e-20   -19.686   -19.686     0.000     25.69
+H(0)          5.776e-22
+   H2              2.888e-22   2.889e-22   -21.539   -21.539     0.000     15.46
+N(-3)         3.074e-16
+   NH4+            3.074e-16   2.949e-16   -15.512   -15.530    -0.018     21.02
+   NH3             8.772e-23   8.775e-23   -22.057   -22.057     0.000     29.44
 N(0)          3.066e-02
    N2              1.533e-02   1.533e-02    -1.814    -1.814     0.000     29.29
 N(3)          0.000e+00
-   NO2-            0.000e+00   0.000e+00   -47.728   -47.745    -0.018     24.87
+   NO2-            0.000e+00   0.000e+00   -45.420   -45.438    -0.018     24.87
 N(5)          0.000e+00
-   NO3-            0.000e+00   0.000e+00   -59.491   -59.509    -0.018     28.61
+   NO3-            0.000e+00   0.000e+00   -55.670   -55.688    -0.018     30.09
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -52.818   -52.818     0.000     29.33
+   O2              0.000e+00   0.000e+00   -49.741   -49.741     0.000     29.33
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K, 951 atm)
 
-  CH4(g)          -38.92    -42.33   -3.41  CH4
+  CH4(g)          -45.07    -48.48   -3.41  CH4
   CO2(g)            2.28      0.24   -2.04  CO2	 Pressure 926.3 atm, phi 0.206
-  H2(g)           -16.64    -20.00   -3.36  H2
+  H2(g)           -18.18    -21.54   -3.36  H2
   H2O(g)           -1.22     -0.01    1.21  H2O	 Pressure   3.6 atm, phi 0.017
   N2(g)             1.86     -1.81   -3.67  N2	 Pressure  20.9 atm, phi 3.421
-  NH3(g)          -21.05    -19.69    1.36  NH3
-  O2(g)           -49.43    -52.82   -3.39  O2
+  NH3(g)          -23.36    -22.06    1.30  NH3
+  O2(g)           -46.35    -49.74   -3.39  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -255,21 +255,21 @@ N2(g)              1.29   1.941e+01  3.430   5.444e-01   5.455e-01   1.083e-03
 ----------------------------Description of solution----------------------------
 
                                         pH  =  2.859        Charge balance
-                                        pe  =  5.443        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  509       
+                                        pe  =  5.833        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  508       
                            Density (g/cm³)  =  1.05251  
                                 Volume (L)  =  1.02567  
-                         Viscosity (mPa s)  =  1.02001  
+                         Viscosity (mPa s)  =  1.01992  
                          Activity of water  =  0.969  
                   Ionic strength (mol/kgw)  =  1.436e-03  
                         Mass of water (kg)  =  9.981e-01  
-                  Total alkalinity (eq/kg)  =  -8.540e-15 
+                   Total alkalinity (eq/kg)  = -1.801e-15 
                         Total CO2 (mol/kg)  =  1.843e+00  
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  950.90
-                   Electrical balance (eq)  =  6.941e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  10  
+                   Electrical balance (eq)  =  5.666e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  11  
                                    Total H  =  1.108087e+02
                                    Total O  =  5.908342e+01
 
@@ -282,37 +282,37 @@ N2(g)              1.29   1.941e+01  3.430   5.444e-01   5.455e-01   1.083e-03
    OH-             1.532e-11   1.470e-11   -10.815   -10.833    -0.018     -1.38
    H2O             5.551e+01   9.693e-01     1.744    -0.014     0.000     17.38
 C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00   -42.386   -42.386     0.000     36.35
+   CH4             0.000e+00   0.000e+00   -45.507   -45.506     0.000     36.35
 C(4)          1.843e+00
    CO2             1.740e+00   1.740e+00     0.241     0.241     0.000     33.94
    (CO2)2          5.085e-02   5.086e-02    -1.294    -1.294     0.000     67.04
    HCO3-           1.436e-03   1.380e-03    -2.843    -2.860    -0.017     27.29
    CO3-2           1.676e-10   1.428e-10    -9.776    -9.845    -0.069     -1.44
-H(0)          1.931e-20
-   H2              9.656e-21   9.659e-21   -20.015   -20.015     0.000     15.46
-N(-3)         6.100e-14
-   NH4+            6.100e-14   5.853e-14   -13.215   -13.233    -0.018     19.42
-   NH3             1.891e-20   1.892e-20   -19.723   -19.723     0.000     25.69
+H(0)          3.204e-21
+   H2              1.602e-21   1.603e-21   -20.795   -20.795     0.000     15.46
+N(-3)         3.875e-15
+   NH4+            3.875e-15   3.718e-15   -14.412   -14.430    -0.018     21.02
+   NH3             1.105e-21   1.105e-21   -20.957   -20.956     0.000     29.44
 N(0)          2.849e-02
    N2              1.425e-02   1.425e-02    -1.846    -1.846     0.000     29.29
 N(3)          0.000e+00
-   NO2-            0.000e+00   0.000e+00   -47.723   -47.741    -0.018     24.87
+   NO2-            0.000e+00   0.000e+00   -46.553   -46.570    -0.018     24.87
 N(5)          0.000e+00
-   NO3-            0.000e+00   0.000e+00   -59.472   -59.490    -0.018     28.61
+   NO3-            0.000e+00   0.000e+00   -57.547   -57.564    -0.018     30.09
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -52.790   -52.789     0.000     29.33
+   O2              0.000e+00   0.000e+00   -51.229   -51.229     0.000     29.33
 
 ------------------------------Saturation indices-------------------------------
 
   Phase               SI** log IAP   log K(298 K, 951 atm)
 
-  CH4(g)          -38.97    -42.39   -3.41  CH4
+  CH4(g)          -42.09    -45.51   -3.41  CH4
   CO2(g)            2.28      0.24   -2.04  CO2	 Pressure 927.9 atm, phi 0.206
-  H2(g)           -16.65    -20.02   -3.36  H2
+  H2(g)           -17.44    -20.80   -3.36  H2
   H2O(g)           -1.22     -0.01    1.21  H2O	 Pressure   3.6 atm, phi 0.016
   N2(g)             1.82     -1.85   -3.67  N2	 Pressure  19.4 atm, phi 3.430
-  NH3(g)          -21.09    -19.72    1.36  NH3
-  O2(g)           -49.40    -52.79   -3.39  O2
+  NH3(g)          -22.26    -20.96    1.30  NH3
+  O2(g)           -47.84    -51.23   -3.39  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -324,8 +324,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.022 Seconds.
--------------------------------
 

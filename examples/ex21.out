@@ -108,22 +108,22 @@ Initial solution 0.	column with only cell 1, two boundary solutions 0 and 2.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 122
-                          Density (g/cm³)  =   0.99708
-                               Volume (L)  =   1.00298
-                        Viscosity (mPa s)  =   0.89026
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.000e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.417e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.417e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   3
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  122       
+                           Density (g/cm³)  =  0.99708  
+                                Volume (L)  =  1.00298  
+                         Viscosity (mPa s)  =  0.89026  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.000e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 1.417e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.417e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  3   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -434,23 +434,23 @@ WARNING: USER_PUNCH: Headings count does not match number of calls to PUNCH.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.600    
-                                       pe  =  13.120      Equilibrium with O2(g)
-      Specific Conductance (µS/cm,  23°C)  = 29097
-                          Density (g/cm³)  =   1.01168
-                               Volume (L)  =   0.20146
-                        Viscosity (mPa s)  =   0.96829
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.657e-01
-                       Mass of water (kg)  =   2.000e-01
-                    Total carbon (mol/kg)  =   4.815e-04
-                       Total CO2 (mol/kg)  =   4.815e-04
-                         Temperature (°C)  =  23.00
-                  Electrical balance (eq)  =  -1.312e-04
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.10
-                               Iterations  =   6
-                                  Total H  = 2.220258e+01
-                                  Total O  = 1.111286e+01
+                                        pH  =  7.600      
+                                        pe  =  13.120       Equilibrium with O2(g)
+       Specific Conductance (µS/cm,  23°C)  =  29017     
+                           Density (g/cm³)  =  1.01168  
+                                Volume (L)  =  0.20146  
+                         Viscosity (mPa s)  =  0.97200  
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.657e-01  
+                        Mass of water (kg)  =  2.000e-01  
+                      Total carbon (mol/kg)  = 4.815e-04  
+                        Total CO2 (mol/kg)  =  4.815e-04  
+                          Temperature (°C)  =  23.00 
+                   Electrical balance (eq)  =  -1.312e-04 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.10 
+                                Iterations  =  6   
+                                   Total H  =  2.220258e+01
+                                   Total O  =  1.111286e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -461,18 +461,18 @@ WARNING: USER_PUNCH: Headings count does not match number of calls to PUNCH.
    H+              3.238e-08   2.512e-08    -7.490    -7.600    -0.110      0.00
    H2O             5.551e+01   9.899e-01     1.744    -0.004     0.000     18.06
 C(4)          4.815e-04
-   HCO3-           4.101e-04   2.934e-04    -3.387    -3.533    -0.146     26.56
-   MgHCO3+         2.342e-05   1.578e-05    -4.630    -4.802    -0.171      5.70
-   NaHCO3          2.140e-05   2.430e-05    -4.670    -4.614     0.055     17.50
-   CO2             1.625e-05   1.717e-05    -4.789    -4.765     0.024     34.70
+   HCO3-           4.101e-04   2.933e-04    -3.387    -3.533    -0.146     26.45
+   MgHCO3+         2.341e-05   1.578e-05    -4.631    -4.802    -0.171      5.70
+   NaHCO3          2.140e-05   2.430e-05    -4.670    -4.614     0.055     24.68
+   CO2             1.624e-05   1.717e-05    -4.789    -4.765     0.024     34.70
    CaCO3           5.272e-06   5.735e-06    -5.278    -5.241     0.037    -14.61
    MgCO3           2.073e-06   2.255e-06    -5.683    -5.647     0.037    -17.09
-   CO3-2           2.061e-06   5.255e-07    -5.686    -6.279    -0.593     -1.98
+   CO3-2           2.061e-06   5.255e-07    -5.686    -6.279    -0.593     -1.48
    SrHCO3+         7.608e-07   5.406e-07    -6.119    -6.267    -0.148     (0)  
-   KHCO3           1.226e-07   1.334e-07    -6.911    -6.875     0.037     21.27
-   SrCO3           3.750e-08   4.080e-08    -7.426    -7.389     0.037    -14.14
+   KHCO3           1.434e-07   1.657e-07    -6.844    -6.781     0.063     28.79
+   SrCO3           3.750e-08   4.079e-08    -7.426    -7.389     0.037    -14.14
    CaHCO3+         1.556e-10   1.127e-10    -9.808    -9.948    -0.140      9.83
-   (CO2)2          4.092e-12   4.325e-12   -11.388   -11.364     0.024     68.56
+   (CO2)2          4.091e-12   4.325e-12   -11.388   -11.364     0.024     68.56
 Ca            2.580e-02
    Ca+2            2.434e-02   6.753e-03    -1.614    -2.170    -0.557    -17.02
    CaSO4           1.454e-03   1.510e-03    -2.837    -2.821     0.016      7.01
@@ -490,18 +490,18 @@ Hto           1.140e-09
 K             1.610e-03
    K+              1.577e-03   1.052e-03    -2.802    -2.978    -0.176      9.40
    KSO4-           3.262e-05   2.720e-05    -4.487    -4.565    -0.079     31.55
-   KHCO3           1.226e-07   1.334e-07    -6.911    -6.875     0.037     21.27
+   KHCO3           1.434e-07   1.657e-07    -6.844    -6.781     0.063     28.79
 Mg            1.690e-02
    Mg+2            1.517e-02   4.637e-03    -1.819    -2.334    -0.515    -20.64
    MgSO4           1.669e-03   1.975e-03    -2.778    -2.704     0.073     -0.58
    Mg(SO4)2-2      3.634e-05   1.156e-05    -4.440    -4.937    -0.497     46.00
-   MgHCO3+         2.342e-05   1.578e-05    -4.630    -4.802    -0.171      5.70
+   MgHCO3+         2.341e-05   1.578e-05    -4.631    -4.802    -0.171      5.70
    MgCO3           2.073e-06   2.255e-06    -5.683    -5.647     0.037    -17.09
    MgOH+           7.535e-07   5.532e-07    -6.123    -6.257    -0.134     (0)  
 Na            2.400e-01
    Na+             2.365e-01   1.714e-01    -0.626    -0.766    -0.140     -0.85
    NaSO4-          3.498e-03   2.521e-03    -2.456    -2.598    -0.142     20.13
-   NaHCO3          2.140e-05   2.430e-05    -4.670    -4.614     0.055     17.50
+   NaHCO3          2.140e-05   2.430e-05    -4.670    -4.614     0.055     24.68
    Na2SO4          1.599e-07   1.722e-07    -6.796    -6.764     0.032     48.97
 O(0)          2.437e-04
    O2              1.218e-04   1.325e-04    -3.914    -3.878     0.037     30.24
@@ -520,7 +520,7 @@ Sr            5.050e-04
    Sr+2            4.655e-04   1.290e-04    -3.332    -3.889    -0.557    -16.75
    SrSO4           3.867e-05   4.207e-05    -4.413    -4.376     0.037     24.16
    SrHCO3+         7.608e-07   5.406e-07    -6.119    -6.267    -0.148     (0)  
-   SrCO3           3.750e-08   4.080e-08    -7.426    -7.389     0.037    -14.14
+   SrCO3           3.750e-08   4.079e-08    -7.426    -7.389     0.037    -14.14
    SrOH+           3.720e-10   2.608e-10    -9.429    -9.584    -0.154     (0)  
 
 ------------------------------Saturation indices-------------------------------

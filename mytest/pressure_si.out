@@ -54,17 +54,17 @@ Initial solution 1.
 
                                         pH  =  6.350      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  75°C)  =  581       
+       Specific Conductance (µS/cm,  75°C)  =  555       
                            Density (g/cm³)  =  0.97506  
                                 Volume (L)  =  1.02582  
-                         Viscosity (mPa s)  =  0.37804  
+                         Viscosity (mPa s)  =  0.37809  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.000e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.062e-07 
+                   Total alkalinity (eq/kg)  = -1.062e-07 
                           Temperature (°C)  =  75.00 
                    Electrical balance (eq)  =  1.062e-07  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  4   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.551022e+01
@@ -146,19 +146,19 @@ Calcite           0.00    -8.58     -8.58    1.000e+01   1.000e+01  -2.295e-04
 
                                         pH  =  8.783        Charge balance
                                         pe  =  5.490        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  162       
+       Specific Conductance (µS/cm,  75°C)  =  160       
                            Density (g/cm³)  =  0.99600  
                                 Volume (L)  =  1.00404  
-                         Viscosity (mPa s)  =  0.39104  
+                         Viscosity (mPa s)  =  0.39107  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.586e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.588e-04  
+                   Total alkalinity (eq/kg)  = 4.588e-04  
                         Total CO2 (mol/kg)  =  2.295e-04  
                           Temperature (°C)  =  75.00 
                             Pressure (atm)  =  500.00
                    Electrical balance (eq)  =  1.062e-07  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.01  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.01  
                                 Iterations  =  16  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550702e+01
@@ -177,7 +177,7 @@ Ba            2.902e-05
    BaHCO3+         3.042e-07   2.942e-07    -6.517    -6.531    -0.015     (0)  
    BaOH+           6.218e-10   6.015e-10    -9.206    -9.221    -0.014     (0)  
 C(-4)         0.000e+00
-   CH4             0.000e+00   0.000e+00  -102.680  -102.680     0.000     38.97
+   CH4             0.000e+00   0.000e+00  -102.682  -102.681     0.000     38.97
 C(4)          2.295e-04
    HCO3-           1.950e-04   1.886e-04    -3.710    -3.724    -0.014     26.26
    CaCO3           1.682e-05   1.682e-05    -4.774    -4.774     0.000    -11.78
@@ -194,15 +194,15 @@ Ca            2.295e-04
    CaOH+           1.999e-08   1.933e-08    -7.699    -7.714    -0.015     (0)  
    CaHCO3+         9.974e-09   9.651e-09    -8.001    -8.015    -0.014     11.29
    CaHSO4+         3.157e-14   3.053e-14   -13.501   -13.515    -0.015     (0)  
-H(0)          1.951e-32
-   H2              9.756e-33   9.758e-33   -32.011   -32.011     0.000     17.04
-O(0)          3.654e-15
-   O2              1.827e-15   1.827e-15   -14.738   -14.738     0.000     31.77
+H(0)          1.950e-32
+   H2              9.750e-33   9.751e-33   -32.011   -32.011     0.000     17.04
+O(0)          3.658e-15
+   O2              1.829e-15   1.830e-15   -14.738   -14.738     0.000     31.77
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00  -100.838  -100.853    -0.015     20.92
-   H2S             0.000e+00   0.000e+00  -103.209  -103.209     0.000     37.74
-   S-2             0.000e+00   0.000e+00  -103.498  -103.555    -0.058     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -207.113  -207.113     0.000     47.11
+   HS-             0.000e+00   0.000e+00  -100.840  -100.854    -0.015     20.92
+   H2S             0.000e+00   0.000e+00  -103.210  -103.210     0.000     37.74
+   S-2             0.000e+00   0.000e+00  -103.499  -103.556    -0.058     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -207.115  -207.115     0.000     47.11
 S(6)          2.902e-05
    SO4-2           2.658e-05   2.327e-05    -4.576    -4.633    -0.058     18.04
    CaSO4           2.441e-06   2.441e-06    -5.612    -5.612     0.000     10.54
@@ -237,8 +237,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.017 Seconds.
--------------------------------
 

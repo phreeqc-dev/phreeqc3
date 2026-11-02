@@ -67,10 +67,10 @@ Initial solution 1.
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.575e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.275e-02 
+                   Total alkalinity (eq/kg)  = -1.275e-02 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.317e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.450e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  8   
                                    Total H  =  1.110252e+02
                                    Total O  =  5.550622e+01
@@ -159,10 +159,10 @@ X                2.000e-02 mol
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.575e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.275e-02 
+                   Total alkalinity (eq/kg)  = -1.275e-02 
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.317e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.450e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  0   
                                    Total H  =  1.110252e+02
                                    Total O  =  5.550622e+01
@@ -243,7 +243,7 @@ CO2(g)           -2.00    -3.47     -1.47    3.000e-01   2.771e-01  -2.295e-02
 Fe(OH)3(a)           Element not present.    0.000e+00           0   0.000e+00
 Fix_H+           -8.08    -8.08      0.00
 	 NaOH               is reactant       1.000e+01   9.949e+00  -5.116e-02
-O2(g)           -48.00   -50.89     -2.89    1.000e+01   1.000e+01  -7.105e-15
+O2(g)           -48.00   -50.89     -2.89    1.000e+01   1.000e+01  -5.329e-15
 
 ------------------------------Surface composition------------------------------
 
@@ -308,11 +308,11 @@ X                2.000e-02 mol
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  4.754e-02  
                         Mass of water (kg)  =  1.001e+00  
-                  Total alkalinity (eq/kg)  =  2.292e-02  
+                   Total alkalinity (eq/kg)  = 2.292e-02  
                         Total CO2 (mol/kg)  =  2.294e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -2.238e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.401e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  19  
                                    Total H  =  1.110918e+02
                                    Total O  =  5.560327e+01
@@ -380,8 +380,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
-------------------------------
-End of Run after 0.03 Seconds.
-------------------------------
 

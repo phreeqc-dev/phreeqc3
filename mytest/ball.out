@@ -73,18 +73,18 @@ Initial solution 1.	Synthetic stream water
 
                                         pH  =  7.200      
                                         pe  =  12.000     
-       Specific Conductance (µS/cm,  25°C)  =  78        
+       Specific Conductance (µS/cm,  25°C)  =  77        
                            Density (g/cm³)  =  0.99709  
                                 Volume (L)  =  1.00298  
-                         Viscosity (mPa s)  =  0.89080  
+                         Viscosity (mPa s)  =  0.89685  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.691e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.668e-04  
+                   Total alkalinity (eq/kg)  = 4.668e-04  
                         Total CO2 (mol/kg)  =  5.300e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  5.318e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  3.69  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 3.69  
                                 Iterations  =  8   
                                    Total H  =  1.110129e+02
                                    Total O  =  5.550786e+01
@@ -229,15 +229,15 @@ Otavite           0.00   -12.10    -12.10
        Specific Conductance (µS/cm,  25°C)  =  78        
                            Density (g/cm³)  =  0.99709  
                                 Volume (L)  =  1.00298  
-                         Viscosity (mPa s)  =  0.89079  
+                         Viscosity (mPa s)  =  0.89682  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.774e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.668e-04  
+                   Total alkalinity (eq/kg)  = 4.668e-04  
                         Total CO2 (mol/kg)  =  5.300e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  5.318e-05  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  3.66  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 3.66  
                                 Iterations  =  12  
                                    Total H  =  1.110129e+02
                                    Total O  =  5.550788e+01
@@ -315,15 +315,15 @@ Mg            8.000e-05
    MgOH+           4.103e-09   3.964e-09    -8.387    -8.402    -0.015     (0)  
    Mg(SO4)2-2      4.346e-11   3.790e-11   -10.362   -10.421    -0.059     33.86
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -54.414   -54.430    -0.016     17.89
-   NH3             0.000e+00   0.000e+00   -56.474   -56.474     0.000     24.42
-   NH4SO4-         0.000e+00   0.000e+00   -57.660   -57.675    -0.015     33.27
+   NH4+            0.000e+00   0.000e+00   -54.414   -54.430    -0.016     17.93
+   NH3             0.000e+00   0.000e+00   -56.474   -56.474     0.000     30.46
+   NH4SO4-         0.000e+00   0.000e+00   -57.716   -57.731    -0.015     29.73
 N(0)          1.408e-10
    N2              7.042e-11   7.043e-11   -10.152   -10.152     0.000     29.29
 N(3)          7.248e-16
    NO2-            7.248e-16   6.994e-16   -15.140   -15.155    -0.015     24.97
 N(5)          5.635e-06
-   NO3-            5.635e-06   5.438e-06    -5.249    -5.265    -0.015     29.49
+   NO3-            5.635e-06   5.438e-06    -5.249    -5.265    -0.015     29.64
    CdNO3+          3.366e-11   3.249e-11   -10.473   -10.488    -0.015     17.52
 Na            2.900e-04
    Na+             2.899e-04   2.799e-04    -3.538    -3.553    -0.015     -1.48
@@ -353,7 +353,7 @@ S(6)          3.000e-05
    Cd(SO4)2-2      8.506e-13   7.397e-13   -12.070   -12.131    -0.061     36.65
    CaHSO4+         2.342e-13   2.261e-13   -12.630   -12.646    -0.015     (0)  
    Na2SO4          8.473e-15   8.474e-15   -14.072   -14.072     0.000     47.96
-   NH4SO4-         0.000e+00   0.000e+00   -57.660   -57.675    -0.015     33.27
+   NH4SO4-         0.000e+00   0.000e+00   -57.716   -57.731    -0.015     29.73
 
 ------------------------------Saturation indices-------------------------------
 
@@ -395,8 +395,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
-------------------------------
-End of Run after 0.02 Seconds.
-------------------------------
 

@@ -71,10 +71,10 @@ Initial solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.100e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.218e-09  
+                   Total alkalinity (eq/kg)  = 1.218e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.970e-22 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  9   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -128,10 +128,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.118e-22  
+                   Total alkalinity (eq/kg)  = 2.118e-22  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.118e-22 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   3    (12 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -179,10 +179,10 @@ Initial solution 4.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  5.000e-01  
-                  Total alkalinity (eq/kg)  =  2.118e-22  
+                   Total alkalinity (eq/kg)  = 2.118e-22  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.059e-22 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   3    (15 overall)
                                    Total H  =  5.550622e+01
                                    Total O  =  2.775311e+01
@@ -230,10 +230,10 @@ Initial solution 8.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  2.500e-01  
-                  Total alkalinity (eq/kg)  =  2.118e-22  
+                   Total alkalinity (eq/kg)  = 2.118e-22  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -5.294e-23 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   3    (18 overall)
                                    Total H  =  2.775311e+01
                                    Total O  =  1.387655e+01
@@ -292,7 +292,7 @@ X                2.000e+00 mol
 ----------------------------Description of solution----------------------------
 
                                         pH  =  7.000        Charge balance
-                                        pe  =  10.762       Adjusted to redox equilibrium
+                                        pe  =  10.760       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  0         
                            Density (g/cm³)  =  0.99704  
                                 Volume (L)  =  1.00297  
@@ -300,10 +300,10 @@ X                2.000e+00 mol
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.600e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.218e-09  
+                   Total alkalinity (eq/kg)  = 1.218e-09  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.953e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.975e-19  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  23  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -322,12 +322,12 @@ Ca            4.996e-07
 Cl            9.988e-07
    Cl-             9.988e-07   9.973e-07    -6.001    -6.001    -0.001     18.05
    HCl             3.436e-14   3.436e-14   -13.464   -13.464     0.000     20.36
-H(0)          4.235e-39
-   H2              2.117e-39   2.117e-39   -38.674   -38.674     0.000     14.99
+H(0)          4.285e-39
+   H2              2.142e-39   2.142e-39   -38.669   -38.669     0.000     14.99
 Na            8.869e-10
    Na+             8.869e-10   8.856e-10    -9.052    -9.053    -0.001     -1.52
-O(0)          1.936e-15
-   O2              9.679e-16   9.679e-16   -15.014   -15.014     0.000     30.40
+O(0)          1.891e-15
+   O2              9.455e-16   9.455e-16   -15.024   -15.024     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -336,7 +336,7 @@ O(0)          1.936e-15
   H2(g)           -35.57    -38.67   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Halite          -16.62    -15.05    1.57  NaCl
-  O2(g)           -12.12    -15.01   -2.89  O2
+  O2(g)           -12.13    -15.02   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -386,10 +386,10 @@ Mixture 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.500e-02  
-                  Total alkalinity (eq/kg)  =  2.206e-22  
+                   Total alkalinity (eq/kg)  = 2.206e-22  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.309e-24 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  0   
                                    Total H  =  1.665187e+00
                                    Total O  =  8.325933e-01
@@ -436,8 +436,4 @@ Calculating transport: 2 (mobile) cells, 100 shifts, 1 mixruns...
 
 
 Calculating transport: 2 (mobile) cells, 100 shifts, 1 mixruns...
-
--------------------------------
-End of Run after 0.206 Seconds.
--------------------------------
 

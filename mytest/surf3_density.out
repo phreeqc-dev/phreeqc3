@@ -92,14 +92,14 @@ Initial solution 1.	Seawater
        Specific Conductance (µS/cm,  25°C)  =  44        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89016  
+                         Viscosity (mPa s)  =  0.89424  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.993e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.902e-08  
+                   Total alkalinity (eq/kg)  = 5.902e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -6.470e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  8   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550692e+01
@@ -118,7 +118,7 @@ K             3.000e-04
    K+              2.996e-04   2.928e-04    -3.523    -3.533    -0.010      9.00
    KSO4-           4.143e-07   4.051e-07    -6.383    -6.392    -0.010     17.82
 N(5)          9.994e-05
-   NO3-            9.994e-05   9.767e-05    -4.000    -4.010    -0.010     29.48
+   NO3-            9.994e-05   9.767e-05    -4.000    -4.010    -0.010     29.63
 O(0)          1.093e-24
    O2              5.463e-25   5.463e-25   -24.263   -24.263     0.000     30.40
 S(6)          1.000e-04
@@ -222,7 +222,7 @@ Using surface 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Surf          
-	  8.674e-19  Surface + diffuse layer charge, eq
+	  2.846e-19  Surface + diffuse layer charge, eq
 	  9.907e-05  Surface charge, eq
 	  9.036e-03  sigma, C/m²
 	  6.973e-02  psi, V
@@ -253,7 +253,7 @@ Surf
 	SurfO-            1.082e-04       0.108   1.082e-04      -3.966
 
 Surfa         
-	  8.674e-19  Surface + diffuse layer charge, eq
+	  3.117e-19  Surface + diffuse layer charge, eq
 	  9.907e-05  Surface charge, eq
 	  9.036e-03  sigma, C/m²
 	  6.973e-02  psi, V
@@ -298,14 +298,14 @@ Surfa
        Specific Conductance (µS/cm,  25°C)  =  44        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89016  
+                         Viscosity (mPa s)  =  0.89424  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.993e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.903e-08  
+                   Total alkalinity (eq/kg)  = 5.903e-08  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.568e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                Iterations  =   1    (16 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550692e+01
@@ -324,15 +324,15 @@ K             3.000e-04
    K+              2.996e-04   2.928e-04    -3.523    -3.533    -0.010      9.00
    KSO4-           4.143e-07   4.051e-07    -6.383    -6.392    -0.010     17.82
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -54.078   -54.088    -0.010     17.88
-   NH3             0.000e+00   0.000e+00   -56.332   -56.332     0.000     24.42
-   NH4SO4-         0.000e+00   0.000e+00   -56.766   -56.776    -0.010     33.17
+   NH4+            0.000e+00   0.000e+00   -54.078   -54.088    -0.010     17.91
+   NH3             0.000e+00   0.000e+00   -56.332   -56.332     0.000     30.46
+   NH4SO4-         0.000e+00   0.000e+00   -56.822   -56.832    -0.010     29.45
 N(0)          2.616e-09
    N2              1.308e-09   1.308e-09    -8.883    -8.883     0.000     29.29
 N(3)          6.042e-15
    NO2-            6.042e-15   5.904e-15   -14.219   -14.229    -0.010     24.96
 N(5)          9.994e-05
-   NO3-            9.994e-05   9.767e-05    -4.000    -4.010    -0.010     29.48
+   NO3-            9.994e-05   9.767e-05    -4.000    -4.010    -0.010     29.63
 O(0)          6.540e-09
    O2              3.270e-09   3.270e-09    -8.485    -8.485     0.000     30.40
 S(-2)         0.000e+00
@@ -344,7 +344,7 @@ S(6)          1.000e-04
    SO4-2           9.959e-05   9.093e-05    -4.002    -4.041    -0.039     14.50
    KSO4-           4.143e-07   4.051e-07    -6.383    -6.392    -0.010     17.82
    HSO4-           9.045e-10   8.841e-10    -9.044    -9.054    -0.010     40.27
-   NH4SO4-         0.000e+00   0.000e+00   -56.766   -56.776    -0.010     33.17
+   NH4SO4-         0.000e+00   0.000e+00   -56.822   -56.832    -0.010     29.45
 
 ------------------------------Saturation indices-------------------------------
 
@@ -369,8 +369,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.021 Seconds.
--------------------------------
 

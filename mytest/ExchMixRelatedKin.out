@@ -60,10 +60,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.997e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -9.000e-04 
+                   Total alkalinity (eq/kg)  = -9.000e-04 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  6.706e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  5   
                                    Total H  =  1.110133e+02
                                    Total O  =  5.550622e+01
@@ -302,7 +302,7 @@ X                1.646e-03 mol	[1 (mol Ca0.5X)/(mol kinetic reactant Calcite)]
 ----------------------------Description of solution----------------------------
 
                                         pH  =  3.731        Charge balance
-                                        pe  =  1.579        Adjusted to redox equilibrium
+                                        pe  =  1.575        Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  162       
                            Density (g/cm³)  =  0.99709  
                                 Volume (L)  =  1.00300  
@@ -310,12 +310,12 @@ X                1.646e-03 mol	[1 (mol Ca0.5X)/(mol kinetic reactant Calcite)]
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.356e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.922e-04 
+                   Total alkalinity (eq/kg)  = -1.922e-04 
                         Total CO2 (mol/kg)  =  3.539e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  6.711e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  292 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  291 
                                    Total H  =  1.110133e+02
                                    Total O  =  5.550728e+01
 
@@ -327,8 +327,8 @@ X                1.646e-03 mol	[1 (mol Ca0.5X)/(mol kinetic reactant Calcite)]
    H+              1.930e-04   1.856e-04    -3.714    -3.731    -0.017      0.00
    OH-             5.684e-11   5.453e-11   -10.245   -10.263    -0.018     -4.10
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
-C(-4)         2.857e-22
-   CH4             2.857e-22   2.858e-22   -21.544   -21.544     0.000     35.46
+C(-4)         3.094e-22
+   CH4             3.094e-22   3.095e-22   -21.510   -21.509     0.000     35.46
 C(4)          3.539e-04
    CO2             3.530e-04   3.531e-04    -3.452    -3.452     0.000     34.79
    HCO3-           8.812e-07   8.462e-07    -6.055    -6.073    -0.018     23.03
@@ -345,13 +345,13 @@ Ca            3.556e-04
 Cl            1.000e-03
    Cl-             9.999e-04   9.594e-04    -3.000    -3.018    -0.018     18.08
    HCl             6.126e-08   6.134e-08    -7.213    -7.212     0.001     20.36
-H(0)          3.391e-14
-   H2              1.696e-14   1.696e-14   -13.771   -13.771     0.000     14.99
+H(0)          3.459e-14
+   H2              1.730e-14   1.730e-14   -13.762   -13.762     0.000     14.99
 Na            9.664e-05
    Na+             9.664e-05   9.277e-05    -4.015    -4.033    -0.018     -1.47
    NaHCO3          3.878e-11   3.880e-11   -10.411   -10.411     0.000     24.51
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -64.822   -64.821     0.000     30.40
+   O2              0.000e+00   0.000e+00   -64.839   -64.839     0.000     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -359,12 +359,12 @@ O(0)          0.000e+00
 
   Aragonite        -7.85    -16.19   -8.34  CaCO3
   Calcite          -7.74    -16.19   -8.45  CaCO3
-  CH4(g)          -18.74    -21.54   -2.80  CH4
+  CH4(g)          -18.71    -21.51   -2.80  CH4
   CO2(g)           -1.98     -3.45   -1.47  CO2
-  H2(g)           -10.67    -13.77   -3.10  H2
+  H2(g)           -10.66    -13.76   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Halite           -8.62     -7.05    1.57  NaCl
-  O2(g)           -61.93    -64.82   -2.89  O2
+  O2(g)           -61.95    -64.84   -2.89  O2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -376,8 +376,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 11.
 -------------------------------------
-
--------------------------------
-End of Run after 0.037 Seconds.
--------------------------------
 

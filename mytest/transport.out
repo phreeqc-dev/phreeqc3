@@ -141,18 +141,18 @@ Initial solution 0.
 
                                         pH  =  3.300      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  11032     
+       Specific Conductance (µS/cm,  25°C)  =  11167     
                            Density (g/cm³)  =  1.01096  
                                 Volume (L)  =  1.00371  
-                         Viscosity (mPa s)  =  0.91378  
+                         Viscosity (mPa s)  =  0.92027  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.126e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.663e-03 
+                   Total alkalinity (eq/kg)  = -1.663e-03 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.081e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.089e-14  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110141e+02
                                    Total O  =  5.591339e+01
@@ -405,18 +405,18 @@ Initial solution 1.
 
                                         pH  =  7.190      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  25°C)  =  445       
+       Specific Conductance (µS/cm,  25°C)  =  443       
                            Density (g/cm³)  =  0.99731  
                                 Volume (L)  =  1.00302  
-                         Viscosity (mPa s)  =  0.89257  
+                         Viscosity (mPa s)  =  0.89944  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  6.118e-03  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  2.593e-03  
+                      Total carbon (mol/kg)  = 2.593e-03  
                         Total CO2 (mol/kg)  =  2.593e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.603e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.448e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   11   (20 overall)
                                    Total H  =  1.110147e+02
                                    Total O  =  5.551672e+01
@@ -726,19 +726,19 @@ Surf
 
                                         pH  =  5.592        Charge balance
                                         pe  =  3.169        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  11720     
+       Specific Conductance (µS/cm,  25°C)  =  11878     
                            Density (g/cm³)  =  1.01020  
                                 Volume (L)  =  1.00336  
-                         Viscosity (mPa s)  =  0.91375  
+                         Viscosity (mPa s)  =  0.92066  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.219e-01  
                         Mass of water (kg)  =  9.996e-01  
-                  Total alkalinity (eq/kg)  =  4.930e-05  
+                   Total alkalinity (eq/kg)  = 4.930e-05  
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.032e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -4.46 
-                                Iterations  =  7   
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -4.46 
+                                Iterations  =  8   
                                    Total H  =  1.109633e+02
                                    Total O  =  5.586158e+01
 
@@ -1056,18 +1056,18 @@ Surf
 
                                         pH  =  6.431        Charge balance
                                         pe  =  0.907        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9673      
+       Specific Conductance (µS/cm,  25°C)  =  9757      
                            Density (g/cm³)  =  1.00787  
                                 Volume (L)  =  1.00173  
-                         Viscosity (mPa s)  =  0.91725  
+                         Viscosity (mPa s)  =  0.92412  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.732e-01  
                         Mass of water (kg)  =  9.976e-01  
-                  Total alkalinity (eq/kg)  =  2.802e-02  
+                   Total alkalinity (eq/kg)  = 2.802e-02  
                         Total CO2 (mol/kg)  =  3.723e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.442e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -7.36 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -7.36 
                                 Iterations  =  7   
                                    Total H  =  1.107676e+02
                                    Total O  =  5.572752e+01
@@ -1335,9 +1335,9 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 Al(OH)3(a)       -0.09    10.71     10.80    1.141e-06           0  -1.141e-06
 AlOHSO4          -1.28    -3.48     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    1.480e-01   1.460e-01  -2.005e-03
-Fe(OH)3          -0.00     4.89      4.89    7.300e-01   7.300e-01  -1.266e-08
+Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01  -1.266e-08
 Gypsum            0.00    -4.55     -4.55    0.000e+00   1.960e-03   1.960e-03
-MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -3.986e-11
+MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -3.987e-11
 
 ------------------------------Surface composition------------------------------
 
@@ -1386,18 +1386,18 @@ Surf
 
                                         pH  =  6.041        Charge balance
                                         pe  =  9.878        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  7310      
+       Specific Conductance (µS/cm,  25°C)  =  7342      
                            Density (g/cm³)  =  1.00424  
                                 Volume (L)  =  1.00075  
-                         Viscosity (mPa s)  =  0.92047  
+                         Viscosity (mPa s)  =  0.92613  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.231e-01  
                         Mass of water (kg)  =  9.958e-01  
-                  Total alkalinity (eq/kg)  =  3.206e-02  
+                   Total alkalinity (eq/kg)  = 3.206e-02  
                         Total CO2 (mol/kg)  =  6.982e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.098e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -7.43 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -7.43 
                                 Iterations  =  4   
                                    Total H  =  1.105739e+02
                                    Total O  =  5.557932e+01
@@ -1614,8 +1614,8 @@ Zn            1.785e-05
   CO2(g)            0.06     -1.41   -1.47  CO2
   Dolomite          0.14    -16.95  -17.08  CaMg(CO3)2
   Epsomite         -2.87     -4.60   -1.74  MgSO4:7H2O
-  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)       -101.98   -105.90   -3.92  FeS
   Gibbsite          2.60     10.71    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -1662,12 +1662,12 @@ Using pure phase assemblage 4.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)       -0.00    10.80     10.80    0.000e+00   4.758e-07   4.758e-07
+Al(OH)3(a)        0.00    10.80     10.80    0.000e+00   4.758e-07   4.758e-07
 AlOHSO4          -2.02    -4.22     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    1.412e-01   1.467e-01   5.447e-03
-Fe(OH)3          -0.00     4.89      4.89    7.300e-01   7.300e-01   7.160e-08
+Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01   7.160e-08
 Gypsum           -0.53    -5.08     -4.55    0.000e+00           0   0.000e+00
-MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -8.773e-11
+MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -8.771e-11
 
 ------------------------------Surface composition------------------------------
 
@@ -1716,18 +1716,18 @@ Surf
 
                                         pH  =  6.513        Charge balance
                                         pe  =  9.706        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  7436      
+       Specific Conductance (µS/cm,  25°C)  =  7477      
                            Density (g/cm³)  =  1.00284  
                                 Volume (L)  =  1.00050  
-                         Viscosity (mPa s)  =  0.91929  
+                         Viscosity (mPa s)  =  0.92354  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.028e-01  
                         Mass of water (kg)  =  9.955e-01  
-                  Total alkalinity (eq/kg)  =  3.717e-02  
+                   Total alkalinity (eq/kg)  = 3.717e-02  
                         Total CO2 (mol/kg)  =  5.611e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.211e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -55.31
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -55.31
                                 Iterations  =  9   
                                    Total H  =  1.105540e+02
                                    Total O  =  5.555713e+01
@@ -1933,7 +1933,7 @@ Zn            2.762e-07
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -2.02     -4.22   -2.20  AlOHSO4
   Alunite           6.40      5.00   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.76     -5.08   -4.31  CaSO4
@@ -1944,8 +1944,8 @@ Zn            2.762e-07
   CO2(g)           -0.25     -1.71   -1.47  CO2
   Dolomite          0.72    -16.36  -17.08  CaMg(CO3)2
   Epsomite         -2.81     -4.55   -1.74  MgSO4:7H2O
-  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)       -105.51   -109.43   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -1997,7 +1997,7 @@ AlOHSO4          -6.19    -8.39     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    1.405e-01   1.406e-01   8.884e-05
 Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01   7.015e-10
 Gypsum           -1.97    -6.52     -4.55    0.000e+00           0   0.000e+00
-MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -6.526e-12
+MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -6.540e-12
 
 ------------------------------Surface composition------------------------------
 
@@ -2046,18 +2046,18 @@ Surf
 
                                         pH  =  7.992        Charge balance
                                         pe  =  10.656       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  8764      
+       Specific Conductance (µS/cm,  25°C)  =  8829      
                            Density (g/cm³)  =  1.00339  
                                 Volume (L)  =  1.00020  
-                         Viscosity (mPa s)  =  0.92032  
+                         Viscosity (mPa s)  =  0.92426  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.180e-01  
                         Mass of water (kg)  =  9.955e-01  
-                  Total alkalinity (eq/kg)  =  4.434e-02  
+                   Total alkalinity (eq/kg)  = 4.434e-02  
                         Total CO2 (mol/kg)  =  4.428e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.038e-01 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -69.98
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -69.98
                                 Iterations  =  4   
                                    Total H  =  1.105577e+02
                                    Total O  =  5.557329e+01
@@ -2327,11 +2327,11 @@ Using pure phase assemblage 1.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    1.970e-02   1.209e-02  -7.611e-03
-AlOHSO4          -0.00    -2.20     -2.20    7.538e-02   9.350e-02   1.811e-02
+Al(OH)3(a)       -0.00    10.80     10.80    1.970e-02   1.209e-02  -7.611e-03
+AlOHSO4           0.00    -2.20     -2.20    7.538e-02   9.350e-02   1.811e-02
 Calcite          -4.91   -13.36     -8.45    0.000e+00           0   0.000e+00
 Fe(OH)3           0.00     4.89      4.89    8.175e-01   8.173e-01  -2.631e-04
-Gypsum            0.00    -4.55     -4.55    1.498e-01   1.510e-01   1.249e-03
+Gypsum           -0.00    -4.55     -4.55    1.498e-01   1.510e-01   1.249e-03
 MnO2            -16.08    25.30     41.38    0.000e+00           0   0.000e+00
 
 ------------------------------Surface composition------------------------------
@@ -2381,18 +2381,18 @@ Surf
 
                                         pH  =  5.561        Charge balance
                                         pe  =  3.225        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10212     
+       Specific Conductance (µS/cm,  25°C)  =  10320     
                            Density (g/cm³)  =  1.00871  
                                 Volume (L)  =  1.00371  
-                         Viscosity (mPa s)  =  0.91207  
+                         Viscosity (mPa s)  =  0.91906  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.925e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.236e-05  
+                   Total alkalinity (eq/kg)  = 5.236e-05  
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -6.564e-04 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.32 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.32 
                                 Iterations  =  9   
                                    Total H  =  1.110184e+02
                                    Total O  =  5.583894e+01
@@ -2598,8 +2598,8 @@ Zn            3.463e-04
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
-  AlOHSO4          -0.00     -2.20   -2.20  AlOHSO4
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  AlOHSO4           0.00     -2.20   -2.20  AlOHSO4
   Alunite           9.45      8.05   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
   Aragonite        -5.02    -13.36   -8.34  CaCO3
@@ -2614,7 +2614,7 @@ Zn            3.463e-04
   FeS(ppt)        -36.60    -40.51   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
-  Gypsum            0.00     -4.55   -4.55  CaSO4:2H2O
+  Gypsum           -0.00     -4.55   -4.55  CaSO4:2H2O
   H2(g)           -17.62    -20.72   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   H2S(g)          -41.70    -49.64   -7.94  H2S
@@ -2660,7 +2660,7 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 Al(OH)3(a)        0.00    10.80     10.80    5.258e-04   6.354e-04   1.096e-04
 AlOHSO4          -3.57    -5.77     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    2.121e-02   1.647e-02  -4.745e-03
-Fe(OH)3          -0.00     4.89      4.89    8.201e-01   8.202e-01   1.108e-04
+Fe(OH)3           0.00     4.89      4.89    8.201e-01   8.202e-01   1.108e-04
 Gypsum            0.00    -4.55     -4.55    1.196e-01   1.241e-01   4.521e-03
 MnO2            -20.02    21.36     41.38    0.000e+00           0   0.000e+00
 
@@ -2711,18 +2711,18 @@ Surf
 
                                         pH  =  7.338        Charge balance
                                         pe  =  -2.094       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9910      
+       Specific Conductance (µS/cm,  25°C)  =  10007     
                            Density (g/cm³)  =  1.00850  
                                 Volume (L)  =  1.00354  
-                         Viscosity (mPa s)  =  0.91244  
+                         Viscosity (mPa s)  =  0.91971  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.861e-01  
                         Mass of water (kg)  =  9.999e-01  
-                  Total alkalinity (eq/kg)  =  5.249e-03  
+                   Total alkalinity (eq/kg)  = 5.249e-03  
                         Total CO2 (mol/kg)  =  4.756e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.442e-04  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.38  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.38  
                                 Iterations  =  9   
                                    Total H  =  1.110033e+02
                                    Total O  =  5.582545e+01
@@ -2939,8 +2939,8 @@ Zn            1.235e-05
   CO2(g)           -2.33     -3.79   -1.47  CO2
   Dolomite          0.24    -16.84  -17.08  CaMg(CO3)2
   Epsomite         -2.76     -4.50   -1.74  MgSO4:7H2O
-  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)         -8.29    -12.20   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -2987,7 +2987,7 @@ Using pure phase assemblage 3.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    2.374e-05   3.767e-05   1.393e-05
+Al(OH)3(a)       -0.00    10.80     10.80    2.374e-05   3.767e-05   1.393e-05
 AlOHSO4          -2.97    -5.17     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    6.191e-02   5.832e-02  -3.588e-03
 Fe(OH)3           0.00     4.89      4.89    8.196e-01   8.196e-01  -7.775e-06
@@ -3041,18 +3041,18 @@ Surf
 
                                         pH  =  7.023        Charge balance
                                         pe  =  -1.144       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9704      
+       Specific Conductance (µS/cm,  25°C)  =  9792      
                            Density (g/cm³)  =  1.00840  
                                 Volume (L)  =  1.00339  
-                         Viscosity (mPa s)  =  0.91292  
+                         Viscosity (mPa s)  =  0.92037  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.833e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  9.054e-03  
+                   Total alkalinity (eq/kg)  = 9.054e-03  
                         Total CO2 (mol/kg)  =  9.191e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  5.712e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  2.90  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 2.90  
                                 Iterations  =  5   
                                    Total H  =  1.109916e+02
                                    Total O  =  5.581417e+01
@@ -3258,7 +3258,7 @@ Zn            1.029e-06
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -2.97     -5.17   -2.20  AlOHSO4
   Alunite           4.99      3.59   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -3371,19 +3371,19 @@ Surf
 
                                         pH  =  6.218        Charge balance
                                         pe  =  1.864        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  7848      
+       Specific Conductance (µS/cm,  25°C)  =  7885      
                            Density (g/cm³)  =  1.00553  
                                 Volume (L)  =  1.00151  
-                         Viscosity (mPa s)  =  0.91709  
+                         Viscosity (mPa s)  =  0.92422  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.440e-01  
                         Mass of water (kg)  =  9.974e-01  
-                  Total alkalinity (eq/kg)  =  2.826e-02  
+                   Total alkalinity (eq/kg)  = 2.826e-02  
                         Total CO2 (mol/kg)  =  4.546e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.209e-02  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  7.24  
-                                Iterations  =  8   
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 7.24  
+                                Iterations  =  7   
                                    Total H  =  1.107559e+02
                                    Total O  =  5.564543e+01
 
@@ -3650,9 +3650,9 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 Al(OH)3(a)       -0.07    10.73     10.80    0.000e+00           0   0.000e+00
 AlOHSO4          -1.33    -3.53     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    1.451e-01   1.419e-01  -3.137e-03
-Fe(OH)3           0.00     4.89      4.89    7.300e-01   7.300e-01  -1.981e-08
+Fe(OH)3          -0.00     4.89      4.89    7.300e-01   7.300e-01  -1.981e-08
 Gypsum            0.00    -4.55     -4.55    2.618e-03   5.088e-03   2.469e-03
-MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -1.388e-08
+MnO2              0.00    41.38     41.38    4.500e-02   4.500e-02  -7.148e-09
 
 ------------------------------Surface composition------------------------------
 
@@ -3701,19 +3701,19 @@ Surf
 
                                         pH  =  6.033        Charge balance
                                         pe  =  9.839        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  6913      
+       Specific Conductance (µS/cm,  25°C)  =  6932      
                            Density (g/cm³)  =  1.00400  
                                 Volume (L)  =  1.00119  
-                         Viscosity (mPa s)  =  0.91911  
+                         Viscosity (mPa s)  =  0.92567  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.235e-01  
                         Mass of water (kg)  =  9.967e-01  
-                  Total alkalinity (eq/kg)  =  2.839e-02  
+                   Total alkalinity (eq/kg)  = 2.839e-02  
                         Total CO2 (mol/kg)  =  6.035e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.242e-02  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  8.47  
-                                Iterations  =  11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 8.47  
+                                Iterations  =  10  
                                    Total H  =  1.106714e+02
                                    Total O  =  5.558774e+01
 
@@ -3929,8 +3929,8 @@ Zn            6.191e-06
   CO2(g)           -0.02     -1.48   -1.47  CO2
   Dolomite          0.09    -16.99  -17.08  CaMg(CO3)2
   Epsomite         -2.91     -4.65   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)       -101.63   -105.55   -3.92  FeS
   Gibbsite          2.62     10.73    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -4036,18 +4036,18 @@ Surf
 
                                         pH  =  4.685        Charge balance
                                         pe  =  5.870        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10832     
+       Specific Conductance (µS/cm,  25°C)  =  10958     
                            Density (g/cm³)  =  1.00962  
                                 Volume (L)  =  1.00354  
-                         Viscosity (mPa s)  =  0.91271  
+                         Viscosity (mPa s)  =  0.91962  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.031e-01  
                         Mass of water (kg)  =  9.998e-01  
-                  Total alkalinity (eq/kg)  =  -4.994e-05 
+                   Total alkalinity (eq/kg)  = -4.994e-05 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.519e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -3.53 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -3.53 
                                 Iterations  =  10  
                                    Total H  =  1.109887e+02
                                    Total O  =  5.585609e+01
@@ -4312,10 +4312,10 @@ Using pure phase assemblage 2.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    1.256e-03   1.823e-03   5.666e-04
+Al(OH)3(a)       -0.00    10.80     10.80    1.256e-03   1.823e-03   5.666e-04
 AlOHSO4          -3.17    -5.37     -2.20    0.000e+00           0   0.000e+00
 Calcite          -1.81   -10.26     -8.45    1.133e-04           0  -1.133e-04
-Fe(OH)3           0.00     4.89      4.89    8.211e-01   8.222e-01   1.106e-03
+Fe(OH)3          -0.00     4.89      4.89    8.211e-01   8.222e-01   1.106e-03
 Gypsum            0.00    -4.55     -4.55    1.399e-01   1.402e-01   3.387e-04
 MnO2            -19.27    22.11     41.38    0.000e+00           0   0.000e+00
 
@@ -4366,18 +4366,18 @@ Surf
 
                                         pH  =  7.170        Charge balance
                                         pe  =  -1.569       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10689     
+       Specific Conductance (µS/cm,  25°C)  =  10816     
                            Density (g/cm³)  =  1.00919  
                                 Volume (L)  =  1.00350  
-                         Viscosity (mPa s)  =  0.91291  
+                         Viscosity (mPa s)  =  0.91988  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.972e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  2.981e-04  
+                   Total alkalinity (eq/kg)  = 2.981e-04  
                         Total CO2 (mol/kg)  =  1.237e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.911e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -9.25 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -9.25 
                                 Iterations  =  10  
                                    Total H  =  1.109761e+02
                                    Total O  =  5.584714e+01
@@ -4583,7 +4583,7 @@ Zn            4.567e-05
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -3.17     -5.37   -2.20  AlOHSO4
   Alunite           4.72      3.32   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -4594,8 +4594,8 @@ Zn            4.567e-05
   CO2(g)           -3.73     -5.20   -1.47  CO2
   Dolomite         -3.36    -20.44  -17.08  CaMg(CO3)2
   Epsomite         -2.74     -4.48   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -11.10    -15.01   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -4642,10 +4642,10 @@ Using pure phase assemblage 3.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)       -0.00    10.80     10.80    9.983e-05   1.088e-04   8.975e-06
+Al(OH)3(a)        0.00    10.80     10.80    9.983e-05   1.088e-04   8.975e-06
 AlOHSO4          -3.52    -5.72     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    5.075e-02   4.992e-02  -8.273e-04
-Fe(OH)3          -0.00     4.89      4.89    8.198e-01   8.196e-01  -1.285e-04
+Fe(OH)3           0.00     4.89      4.89    8.198e-01   8.196e-01  -1.285e-04
 Gypsum            0.00    -4.55     -4.55    9.084e-02   9.163e-02   7.866e-04
 MnO2            -20.41    20.97     41.38    0.000e+00           0   0.000e+00
 
@@ -4696,18 +4696,18 @@ Surf
 
                                         pH  =  7.334        Charge balance
                                         pe  =  -2.057       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10426     
+       Specific Conductance (µS/cm,  25°C)  =  10539     
                            Density (g/cm³)  =  1.00895  
                                 Volume (L)  =  1.00339  
-                         Viscosity (mPa s)  =  0.91310  
+                         Viscosity (mPa s)  =  0.92026  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.913e-01  
                         Mass of water (kg)  =  9.995e-01  
-                  Total alkalinity (eq/kg)  =  5.619e-03  
+                   Total alkalinity (eq/kg)  = 5.619e-03  
                         Total CO2 (mol/kg)  =  5.147e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.539e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -7.58 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -7.58 
                                 Iterations  =  5   
                                    Total H  =  1.109671e+02
                                    Total O  =  5.583532e+01
@@ -4913,7 +4913,7 @@ Zn            5.346e-07
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -3.52     -5.72   -2.20  AlOHSO4
   Alunite           4.18      2.78   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -4924,8 +4924,8 @@ Zn            5.346e-07
   CO2(g)           -2.27     -3.74   -1.47  CO2
   Dolomite          0.26    -16.83  -17.08  CaMg(CO3)2
   Epsomite         -2.75     -4.48   -1.74  MgSO4:7H2O
-  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)         -8.53    -12.44   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -5026,18 +5026,18 @@ Surf
 
                                         pH  =  7.197        Charge balance
                                         pe  =  -1.659       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10021     
+       Specific Conductance (µS/cm,  25°C)  =  10121     
                            Density (g/cm³)  =  1.00863  
                                 Volume (L)  =  1.00342  
-                         Viscosity (mPa s)  =  0.91286  
+                         Viscosity (mPa s)  =  0.92015  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.866e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  6.814e-03  
+                   Total alkalinity (eq/kg)  = 6.814e-03  
                         Total CO2 (mol/kg)  =  6.554e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -4.270e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -2.15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -2.15 
                                 Iterations  =  4   
                                    Total H  =  1.109841e+02
                                    Total O  =  5.582498e+01
@@ -5356,18 +5356,18 @@ Surf
 
                                         pH  =  6.945        Charge balance
                                         pe  =  -0.909       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  9635      
+       Specific Conductance (µS/cm,  25°C)  =  9721      
                            Density (g/cm³)  =  1.00837  
                                 Volume (L)  =  1.00334  
-                         Viscosity (mPa s)  =  0.91310  
+                         Viscosity (mPa s)  =  0.92059  
                          Activity of water  =  0.998  
                   Ionic strength (mol/kgw)  =  1.825e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  1.042e-02  
+                   Total alkalinity (eq/kg)  = 1.042e-02  
                         Total CO2 (mol/kg)  =  1.084e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  8.140e-03  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  4.13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 4.13  
                                 Iterations  =  4   
                                    Total H  =  1.109880e+02
                                    Total O  =  5.581011e+01
@@ -5640,7 +5640,7 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 Al(OH)3(a)       -2.54     8.26     10.80    0.000e+00           0   0.000e+00
 AlOHSO4           0.00    -2.20     -2.20    1.932e-01   2.017e-01   8.485e-03
 Calcite          -7.30   -15.75     -8.45    0.000e+00           0   0.000e+00
-Fe(OH)3          -0.00     4.89      4.89    8.142e-01   8.138e-01  -3.785e-04
+Fe(OH)3           0.00     4.89      4.89    8.142e-01   8.138e-01  -3.785e-04
 Gypsum            0.00    -4.55     -4.55    1.647e-01   1.662e-01   1.450e-03
 MnO2            -13.55    27.83     41.38    0.000e+00           0   0.000e+00
 
@@ -5691,18 +5691,18 @@ Surf
 
                                         pH  =  4.302        Charge balance
                                         pe  =  7.017        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10862     
+       Specific Conductance (µS/cm,  25°C)  =  10989     
                            Density (g/cm³)  =  1.00999  
                                 Volume (L)  =  1.00352  
-                         Viscosity (mPa s)  =  0.91278  
+                         Viscosity (mPa s)  =  0.91970  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.065e-01  
                         Mass of water (kg)  =  9.998e-01  
-                  Total alkalinity (eq/kg)  =  -1.581e-04 
+                   Total alkalinity (eq/kg)  = -1.581e-04 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.650e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.76 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.76 
                                 Iterations  =  9   
                                    Total H  =  1.109921e+02
                                    Total O  =  5.586340e+01
@@ -5919,8 +5919,8 @@ Zn            3.353e-04
   CO2(g)           -3.51     -4.98   -1.47  CO2
   Dolomite        -14.34    -31.43  -17.08  CaMg(CO3)2
   Epsomite         -2.75     -4.49   -1.74  MgSO4:7H2O
-  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -56.84    -60.76   -3.92  FeS
   Gibbsite          0.15      8.26    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -6021,18 +6021,18 @@ Surf
 
                                         pH  =  6.247        Charge balance
                                         pe  =  1.201        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  11304     
+       Specific Conductance (µS/cm,  25°C)  =  11449     
                            Density (g/cm³)  =  1.00996  
                                 Volume (L)  =  1.00335  
-                         Viscosity (mPa s)  =  0.91354  
+                         Viscosity (mPa s)  =  0.92060  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.170e-01  
                         Mass of water (kg)  =  9.997e-01  
-                  Total alkalinity (eq/kg)  =  3.708e-05  
+                   Total alkalinity (eq/kg)  = 3.708e-05  
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.744e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -1.65 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -1.65 
                                 Iterations  =  9   
                                    Total H  =  1.109738e+02
                                    Total O  =  5.585212e+01
@@ -6351,18 +6351,18 @@ Surf
 
                                         pH  =  7.087        Charge balance
                                         pe  =  -1.303       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10350     
+       Specific Conductance (µS/cm,  25°C)  =  10461     
                            Density (g/cm³)  =  1.00911  
                                 Volume (L)  =  1.00315  
-                         Viscosity (mPa s)  =  0.91380  
+                         Viscosity (mPa s)  =  0.92116  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.926e-01  
                         Mass of water (kg)  =  9.993e-01  
-                  Total alkalinity (eq/kg)  =  8.972e-03  
+                   Total alkalinity (eq/kg)  = 8.972e-03  
                         Total CO2 (mol/kg)  =  8.936e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.027e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -4.99 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -4.99 
                                 Iterations  =  6   
                                    Total H  =  1.109478e+02
                                    Total O  =  5.582560e+01
@@ -6681,18 +6681,18 @@ Surf
 
                                         pH  =  7.220        Charge balance
                                         pe  =  -1.707       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10384     
+       Specific Conductance (µS/cm,  25°C)  =  10497     
                            Density (g/cm³)  =  1.00900  
                                 Volume (L)  =  1.00328  
-                         Viscosity (mPa s)  =  0.91342  
+                         Viscosity (mPa s)  =  0.92066  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.907e-01  
                         Mass of water (kg)  =  9.994e-01  
-                  Total alkalinity (eq/kg)  =  6.881e-03  
+                   Total alkalinity (eq/kg)  = 6.881e-03  
                         Total CO2 (mol/kg)  =  6.593e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.620e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -7.98 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -7.98 
                                 Iterations  =  5   
                                    Total H  =  1.109559e+02
                                    Total O  =  5.583173e+01
@@ -6957,10 +6957,10 @@ Using pure phase assemblage 5.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)       -0.00    10.80     10.80    5.655e-05   5.861e-05   2.066e-06
+Al(OH)3(a)        0.00    10.80     10.80    5.655e-05   5.861e-05   2.066e-06
 AlOHSO4          -3.44    -5.64     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    5.293e-02   5.265e-02  -2.772e-04
-Fe(OH)3          -0.00     4.89      4.89    8.191e-01   8.190e-01  -1.156e-04
+Fe(OH)3           0.00     4.89      4.89    8.191e-01   8.190e-01  -1.156e-04
 Gypsum            0.00    -4.55     -4.55    8.586e-02   8.612e-02   2.543e-04
 MnO2            -20.32    21.06     41.38    0.000e+00           0   0.000e+00
 
@@ -7011,18 +7011,18 @@ Surf
 
                                         pH  =  7.295        Charge balance
                                         pe  =  -1.935       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10417     
+       Specific Conductance (µS/cm,  25°C)  =  10532     
                            Density (g/cm³)  =  1.00900  
                                 Volume (L)  =  1.00332  
-                         Viscosity (mPa s)  =  0.91329  
+                         Viscosity (mPa s)  =  0.92049  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.911e-01  
                         Mass of water (kg)  =  9.995e-01  
-                  Total alkalinity (eq/kg)  =  6.027e-03  
+                   Total alkalinity (eq/kg)  = 6.027e-03  
                         Total CO2 (mol/kg)  =  5.615e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.697e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -8.37 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -8.37 
                                 Iterations  =  3   
                                    Total H  =  1.109597e+02
                                    Total O  =  5.583409e+01
@@ -7228,7 +7228,7 @@ Zn            4.597e-08
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -3.44     -5.64   -2.20  AlOHSO4
   Alunite           4.31      2.91   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -7239,8 +7239,8 @@ Zn            4.597e-08
   CO2(g)           -2.19     -3.66   -1.47  CO2
   Dolomite          0.26    -16.82  -17.08  CaMg(CO3)2
   Epsomite         -2.74     -4.48   -1.74  MgSO4:7H2O
-  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)         -9.20    -13.12   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -7346,18 +7346,18 @@ Surf
 
                                         pH  =  3.775        Charge balance
                                         pe  =  8.597        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10866     
+       Specific Conductance (µS/cm,  25°C)  =  10996     
                            Density (g/cm³)  =  1.01042  
                                 Volume (L)  =  1.00363  
-                         Viscosity (mPa s)  =  0.91291  
+                         Viscosity (mPa s)  =  0.91969  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.082e-01  
                         Mass of water (kg)  =  9.999e-01  
-                  Total alkalinity (eq/kg)  =  -7.972e-04 
+                   Total alkalinity (eq/kg)  = -7.972e-04 
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.893e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.86 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.86 
                                 Iterations  =  6   
                                    Total H  =  1.110037e+02
                                    Total O  =  5.588950e+01
@@ -7676,18 +7676,18 @@ Surf
 
                                         pH  =  5.566        Charge balance
                                         pe  =  3.216        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10375     
+       Specific Conductance (µS/cm,  25°C)  =  10488     
                            Density (g/cm³)  =  1.00891  
                                 Volume (L)  =  1.00365  
-                         Viscosity (mPa s)  =  0.91229  
+                         Viscosity (mPa s)  =  0.91927  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.953e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.207e-05  
+                   Total alkalinity (eq/kg)  = 5.207e-05  
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.172e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -1.55 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -1.55 
                                 Iterations  =  8   
                                    Total H  =  1.110087e+02
                                    Total O  =  5.584181e+01
@@ -7955,7 +7955,7 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 Al(OH)3(a)       -0.00    10.80     10.80    3.929e-05   1.679e-04   1.286e-04
 AlOHSO4          -2.77    -4.97     -2.20    0.000e+00           0   0.000e+00
 Calcite          -3.12   -11.56     -8.45    0.000e+00           0   0.000e+00
-Fe(OH)3          -0.00     4.89      4.89    8.198e-01   8.200e-01   2.346e-04
+Fe(OH)3           0.00     4.89      4.89    8.198e-01   8.200e-01   2.346e-04
 Gypsum            0.00    -4.55     -4.55    1.404e-01   1.404e-01  -4.587e-06
 MnO2            -18.21    23.17     41.38    0.000e+00           0   0.000e+00
 
@@ -8006,18 +8006,18 @@ Surf
 
                                         pH  =  6.965        Charge balance
                                         pe  =  -0.961       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10990     
+       Specific Conductance (µS/cm,  25°C)  =  11124     
                            Density (g/cm³)  =  1.00951  
                                 Volume (L)  =  1.00349  
-                         Viscosity (mPa s)  =  0.91304  
+                         Viscosity (mPa s)  =  0.92003  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  2.078e-01  
                         Mass of water (kg)  =  9.998e-01  
-                  Total alkalinity (eq/kg)  =  1.218e-04  
+                   Total alkalinity (eq/kg)  = 1.218e-04  
                         Total CO2 (mol/kg)  =  1.045e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -7.027e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -3.23 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -3.23 
                                 Iterations  =  8   
                                    Total H  =  1.109848e+02
                                    Total O  =  5.584935e+01
@@ -8234,8 +8234,8 @@ Zn            2.297e-04
   CO2(g)           -4.64     -6.11   -1.47  CO2
   Dolomite         -5.97    -23.06  -17.08  CaMg(CO3)2
   Epsomite         -2.74     -4.48   -1.74  MgSO4:7H2O
-  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -14.32    -18.23   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -8282,10 +8282,10 @@ Using pure phase assemblage 4.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)        0.00    10.80     10.80    4.157e-05   3.696e-05  -4.604e-06
+Al(OH)3(a)       -0.00    10.80     10.80    4.157e-05   3.696e-05  -4.604e-06
 AlOHSO4          -2.98    -5.18     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    4.153e-02   3.204e-02  -9.490e-03
-Fe(OH)3           0.00     4.89      4.89    8.182e-01   8.186e-01   4.516e-04
+Fe(OH)3          -0.00     4.89      4.89    8.182e-01   8.186e-01   4.516e-04
 Gypsum            0.00    -4.55     -4.55    9.828e-02   1.075e-01   9.208e-03
 MnO2            -18.98    22.40     41.38    0.000e+00           0   0.000e+00
 
@@ -8336,18 +8336,18 @@ Surf
 
                                         pH  =  7.061        Charge balance
                                         pe  =  -1.221       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10426     
+       Specific Conductance (µS/cm,  25°C)  =  10539     
                            Density (g/cm³)  =  1.00914  
                                 Volume (L)  =  1.00312  
-                         Viscosity (mPa s)  =  0.91394  
+                         Viscosity (mPa s)  =  0.92125  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.924e-01  
                         Mass of water (kg)  =  9.993e-01  
-                  Total alkalinity (eq/kg)  =  9.453e-03  
+                   Total alkalinity (eq/kg)  = 9.453e-03  
                         Total CO2 (mol/kg)  =  9.508e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.411e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -6.85 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -6.85 
                                 Iterations  =  6   
                                    Total H  =  1.109402e+02
                                    Total O  =  5.582682e+01
@@ -8553,7 +8553,7 @@ Zn            7.186e-06
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -2.98     -5.18   -2.20  AlOHSO4
   Alunite           4.99      3.59   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -8564,8 +8564,8 @@ Zn            7.186e-06
   CO2(g)           -1.73     -3.20   -1.47  CO2
   Dolomite          0.26    -16.83  -17.08  CaMg(CO3)2
   Epsomite         -2.75     -4.49   -1.74  MgSO4:7H2O
-  Fe(OH)3           0.00      4.89    4.89  Fe(OH)3
-  Fe(OH)3(a)        0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3          -0.00      4.89    4.89  Fe(OH)3
+  Fe(OH)3(a)       -0.00      4.89    4.89  Fe(OH)3
   FeS(ppt)        -13.05    -16.97   -3.92  FeS
   Gibbsite          2.69     10.80    8.11  Al(OH)3
   Goethite          5.89      4.89   -1.00  FeOOH
@@ -8612,7 +8612,7 @@ Using pure phase assemblage 5.	Pure-phase assemblage after simulation 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Al(OH)3(a)       -0.00    10.80     10.80    4.417e-05   4.491e-05   7.462e-07
+Al(OH)3(a)        0.00    10.80     10.80    4.417e-05   4.491e-05   7.462e-07
 AlOHSO4          -2.89    -5.09     -2.20    0.000e+00           0   0.000e+00
 Calcite           0.00    -8.45     -8.45    5.753e-02   5.722e-02  -3.084e-04
 Fe(OH)3           0.00     4.89      4.89    8.185e-01   8.182e-01  -2.708e-04
@@ -8666,18 +8666,18 @@ Surf
 
                                         pH  =  7.016        Charge balance
                                         pe  =  -1.089       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  10326     
+       Specific Conductance (µS/cm,  25°C)  =  10435     
                            Density (g/cm³)  =  1.00900  
                                 Volume (L)  =  1.00314  
-                         Viscosity (mPa s)  =  0.91388  
+                         Viscosity (mPa s)  =  0.92118  
                          Activity of water  =  0.997  
                   Ionic strength (mol/kgw)  =  1.900e-01  
                         Mass of water (kg)  =  9.993e-01  
-                  Total alkalinity (eq/kg)  =  1.008e-02  
+                   Total alkalinity (eq/kg)  = 1.008e-02  
                         Total CO2 (mol/kg)  =  1.031e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.336e-02 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -6.55 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -6.55 
                                 Iterations  =  4   
                                    Total H  =  1.109423e+02
                                    Total O  =  5.582444e+01
@@ -8883,7 +8883,7 @@ Zn            2.126e-07
 
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
-  Al(OH)3(a)       -0.00     10.80   10.80  Al(OH)3
+  Al(OH)3(a)        0.00     10.80   10.80  Al(OH)3
   AlOHSO4          -2.89     -5.09   -2.20  AlOHSO4
   Alunite           5.12      3.72   -1.40  KAl3(SO4)2(OH)6
   Anhydrite        -0.23     -4.55   -4.31  CaSO4
@@ -8937,8 +8937,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.131 Seconds.
--------------------------------
 

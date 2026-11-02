@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -86,19 +85,19 @@ Osmotic coefficient:    1.6379e+00
 
                                         pH  =  5.000      
                                         pe  =  4.000      
-       Specific Conductance (µS/cm,  18°C)  =  197771    
+       Specific Conductance (µS/cm,  18°C)  =  197508    
                            Density (g/cm³)  =  1.23177  
                                 Volume (L)  =  1.11148  
-                         Viscosity (mPa s)  =  2.47266  
+                         Viscosity (mPa s)  =  2.47085  
                          Activity of water  =  0.723  
                   Ionic strength (mol/kgw)  =  8.590e+00  
                         Mass of water (kg)  =  1.000e+00  
-                     Total carbon (mol/kg)  =  5.449e-03  
+                      Total carbon (mol/kg)  = 5.449e-03  
                         Total CO2 (mol/kg)  =  5.449e-03  
                           Temperature (°C)  =  18.00 
                    Electrical balance (eq)  =  -3.031e-01 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -2.32 
-                                Iterations  =  27  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -2.32 
+                                Iterations  =  26  
                           Gamma iterations  =  7   
                        Osmotic coefficient  =  1.63787  
                           Density of water  =  0.99859  
@@ -118,9 +117,9 @@ Br            2.504e-02
    Br-             2.504e-02   2.574e-02    -1.601    -1.589     0.012     26.05
 C(4)          5.449e-03
    CO2             5.104e-03   1.480e-02    -2.292    -1.830     0.462     34.46
-   HCO3-           3.351e-04   4.305e-04    -3.475    -3.366     0.109     28.22
+   HCO3-           3.351e-04   4.305e-04    -3.475    -3.366     0.109     28.10
    MgCO3           4.921e-06   4.921e-06    -5.308    -5.308     0.000    -17.08
-   CO3-2           4.763e-06   1.730e-09    -5.322    -8.762    -3.440      7.09
+   CO3-2           4.763e-06   1.730e-09    -5.322    -8.762    -3.440      6.63
 Ca            1.815e+00
    Ca+2            1.815e+00   1.534e+01     0.259     1.186     0.927    -13.90
 Cl            6.638e+00
@@ -200,8 +199,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.017 Seconds.
--------------------------------
 

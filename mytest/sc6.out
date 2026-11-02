@@ -103,10 +103,10 @@ Initial solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.226e-09  
+                   Total alkalinity (eq/kg)  = 1.226e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.226e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.61 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.61 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -183,10 +183,10 @@ Initial solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.002e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.427e-09  
+                   Total alkalinity (eq/kg)  = 1.427e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.999e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.10  
                                 Iterations  =  1   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -278,11 +278,11 @@ Hfo_w
 	Hfo_wOCa+         8.324e-10       0.000   8.324e-10      -9.080
 
 Sua           
-	 -2.308e-25  Surface + diffuse layer charge, eq
+	 -1.017e-24  Surface + diffuse layer charge, eq
 	  0.000e+00  Surface charge, eq
 	  0.000e+00  sigma, C/m²
-	  2.420e-22  psi, V
-	 -9.419e-21  -F*psi/RT
+	  1.781e-22  psi, V
+	 -6.934e-21  -F*psi/RT
 	  1.000e+00  exp(-F*psi/RT)
 	  1.000e+04  specific area, m²/g
 	  1.000e+04  m² for   1.000e+00 g
@@ -309,11 +309,11 @@ Sua
 	Sua               1.000e-03       1.000   1.000e-03      -3.000
 
 Sub           
-	 -2.308e-25  Surface + diffuse layer charge, eq
+	 -1.017e-24  Surface + diffuse layer charge, eq
 	  0.000e+00  Surface charge, eq
 	  0.000e+00  sigma, C/m²
-	  2.420e-22  psi, V
-	 -9.419e-21  -F*psi/RT
+	  1.781e-22  psi, V
+	 -6.934e-21  -F*psi/RT
 	  1.000e+00  exp(-F*psi/RT)
 	  1.000e+04  specific area, m²/g
 	  1.000e+04  m² for   1.000e+00 g
@@ -477,10 +477,10 @@ Sub
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.002e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.427e-09  
+                   Total alkalinity (eq/kg)  = 1.427e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  1.999e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.10  
                                Iterations  =   0    (5 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -914,7 +914,7 @@ Hfo
 	Boltzmann factor, exp(-psi_DL * F / RT) = 3.150e-07 (= c_DL / c_free if z is +1).
 
 	Element       	     Moles
-	Ca            	  2.9517e-36
+	Ca            	  2.9524e-36
 	Cl            	  1.5099e-14
 	H             	  5.0926e-15
 	Na            	  1.4956e-27
@@ -941,11 +941,11 @@ Hfo_w
 	Hfo_wOCa+         7.373e-20       0.000   7.373e-20     -19.132
 
 Sua           
-	 -4.930e-31  Surface + diffuse layer charge, eq
+	 -1.775e-30  Surface + diffuse layer charge, eq
 	  0.000e+00  Surface charge, eq
 	  0.000e+00  sigma, C/m²
-	  1.257e-23  psi, V
-	 -4.891e-22  -F*psi/RT
+	  3.737e-23  psi, V
+	 -1.455e-21  -F*psi/RT
 	  1.000e+00  exp(-F*psi/RT)
 	  1.000e+04  specific area, m²/g
 	  3.000e+00  m² for   3.000e-04 g
@@ -972,11 +972,11 @@ Sua
 	Sua               3.000e-07       1.000   3.000e-07      -6.523
 
 Sub           
-	 -1.107e-33  Surface + diffuse layer charge, eq
+	 -1.396e-33  Surface + diffuse layer charge, eq
 	  0.000e+00  Surface charge, eq
 	  0.000e+00  sigma, C/m²
-	  1.921e-23  psi, V
-	 -7.478e-22  -F*psi/RT
+	  2.797e-23  psi, V
+	 -1.089e-21  -F*psi/RT
 	  1.000e+00  exp(-F*psi/RT)
 	  1.000e+04  specific area, m²/g
 	  3.000e-03  m² for   3.000e-07 g
@@ -2041,7 +2041,7 @@ Hfo_w
 	Hfo_wOCa+         2.078e-10       0.000   2.078e-10      -9.682
 
 Sorbedhfo     
-	 -6.738e-22  Surface + diffuse layer charge, eq
+	 -6.737e-22  Surface + diffuse layer charge, eq
 	  5.004e-13  Surface charge, eq
 	  6.096e-03  sigma, C/m²
 	  6.531e-02  psi, V
@@ -2199,11 +2199,11 @@ Hfo_w
 	Hfo_wOCa+         4.790e-25       0.000   4.790e-25     -24.320
 
 Sua           
-	  7.889e-31  Surface + diffuse layer charge, eq
+	  1.085e-30  Surface + diffuse layer charge, eq
 	  0.000e+00  Surface charge, eq
 	  0.000e+00  sigma, C/m²
-	 -1.765e-23  psi, V
-	  6.871e-22  -F*psi/RT
+	 -2.252e-23  psi, V
+	  8.765e-22  -F*psi/RT
 	  1.000e+00  exp(-F*psi/RT)
 	  1.000e+04  specific area, m²/g
 	  5.998e+00  m² for   5.998e-04 g
@@ -2230,11 +2230,11 @@ Sua
 	Sua               5.998e-07       1.000   5.998e-07      -6.222
 
 Sub           
-	  8.667e-34  Surface + diffuse layer charge, eq
+	  7.704e-34  Surface + diffuse layer charge, eq
 	  0.000e+00  Surface charge, eq
 	  0.000e+00  sigma, C/m²
-	 -1.914e-23  psi, V
-	  7.448e-22  -F*psi/RT
+	 -1.415e-23  psi, V
+	  5.509e-22  -F*psi/RT
 	  1.000e+00  exp(-F*psi/RT)
 	  1.000e+04  specific area, m²/g
 	  6.000e-03  m² for   6.000e-07 g
@@ -2259,8 +2259,4 @@ Sub
 	Species               Moles    Fraction    Molality    Molality
 
 	Sub               6.000e-10       1.000   6.000e-10      -9.222
-
--------------------------------
-End of Run after 0.047 Seconds.
--------------------------------
 

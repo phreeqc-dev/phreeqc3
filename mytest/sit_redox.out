@@ -92,12 +92,12 @@ Initial solution 2.	High_SO4_high_sal
                          Activity of water  =  0.983  
                   Ionic strength (mol/kgw)  =  6.251e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.429e-03  
+                   Total alkalinity (eq/kg)  = 1.429e-03  
                         Total CO2 (mol/kg)  =  1.506e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.111e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  38  
+                   Electrical balance (eq)  =  4.690e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  37  
                           Gamma iterations  =  11  
                        Osmotic coefficient  =  0.90933  
                                    Total H  =  1.110195e+02
@@ -401,10 +401,10 @@ Reaction 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Calcite          -0.00    -8.48     -8.48    1.000e+00   9.989e-01  -1.062e-03
+Calcite           0.00    -8.48     -8.48    1.000e+00   9.989e-01  -1.062e-03
 Celestite         0.00    -6.62     -6.62    1.000e+00   1.000e+00   9.767e-06
 Dolomite          0.00   -17.13    -17.13    1.000e+00   1.001e+00   7.001e-04
-Gypsum            0.00    -4.61     -4.61    0.000e+00   1.497e-03   1.497e-03
+Gypsum           -0.00    -4.61     -4.61    0.000e+00   1.497e-03   1.497e-03
 Pyrite           -0.00   -16.82    -16.82    1.000e+00   1.000e+00   8.136e-11
 Quartz            0.00    -3.74     -3.74    1.000e+00   1.000e+00   9.910e-06
 Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.381e-04
@@ -431,12 +431,12 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.381e-04
                          Activity of water  =  0.982  
                   Ionic strength (mol/kgw)  =  6.556e-01  
                         Mass of water (kg)  =  9.459e-01  
-                  Total alkalinity (eq/kg)  =  1.510e-03  
+                   Total alkalinity (eq/kg)  = 1.510e-03  
                         Total CO2 (mol/kg)  =  1.592e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  5.000e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  22  
+                   Electrical balance (eq)  =  5.095e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  25  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.91063  
                                    Total H  =  1.050135e+02
@@ -642,7 +642,7 @@ Sr            3.796e-04
   CaCl2:H2O(s)    -11.02     -3.17    7.85  CaCl2:H2O
   CaCO3:H2O(s)     -0.89     -8.49   -7.60  CaCO3:H2O
   CaFe2O4(s)       -6.54     14.70   21.24  CaFe2O4
-  Calcite          -0.00     -8.48   -8.48  CaCO3
+  Calcite           0.00     -8.48   -8.48  CaCO3
   CaMg3(CO3)4(s)   -3.62    -34.43  -30.81  CaMg3(CO3)4
   CaO(cr)         -20.52     12.18   32.70  CaO
   Carnallite      -11.02     -6.69    4.33  KMgCl3:6H2O
@@ -681,7 +681,7 @@ Sr            3.796e-04
   GR-SO4           -6.58     51.72   58.30  Fe4Fe2(OH)12SO4
   Greenalite        0.62     22.44   21.82  Fe3Si2O5(OH)4
   Greigite        -17.29    -32.32  -15.03  Fe3S4
-  Gypsum            0.00     -4.61   -4.61  CaSO4:2H2O
+  Gypsum           -0.00     -4.61   -4.61  CaSO4:2H2O
   Gyrolite         -9.22     13.12   22.34  Ca2Si3O7.5(OH):2H2O
   H2(g)            -8.67     -8.67    0.00  H2
   H2O(g)           -1.50    -43.00  -41.50  H2O
@@ -836,12 +836,12 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.315e-04
                          Activity of water  =  0.981  
                   Ionic strength (mol/kgw)  =  6.895e-01  
                         Mass of water (kg)  =  8.918e-01  
-                  Total alkalinity (eq/kg)  =  1.590e-03  
+                   Total alkalinity (eq/kg)  = 1.590e-03  
                         Total CO2 (mol/kg)  =  1.683e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.255e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  24  
+                   Electrical balance (eq)  =  1.221e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  25  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.91210  
                                    Total H  =  9.900675e+01
@@ -1241,12 +1241,12 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.249e-04
                          Activity of water  =  0.980  
                   Ionic strength (mol/kgw)  =  7.277e-01  
                         Mass of water (kg)  =  8.377e-01  
-                  Total alkalinity (eq/kg)  =  1.679e-03  
+                   Total alkalinity (eq/kg)  = 1.679e-03  
                         Total CO2 (mol/kg)  =  1.785e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.866e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  22  
+                   Electrical balance (eq)  =  2.897e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  24  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.91375  
                                    Total H  =  9.299994e+01
@@ -1617,9 +1617,9 @@ Reaction 1.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Calcite           0.00    -8.48     -8.48    1.000e+00   9.952e-01  -4.833e-03
-Celestite        -0.00    -6.62     -6.62    1.000e+00   1.000e+00   3.511e-05
+Celestite         0.00    -6.62     -6.62    1.000e+00   1.000e+00   3.511e-05
 Dolomite          0.00   -17.13    -17.13    1.000e+00   1.003e+00   2.584e-03
-Gypsum            0.00    -4.61     -4.61    0.000e+00   6.603e-03   6.603e-03
+Gypsum           -0.00    -4.61     -4.61    0.000e+00   6.603e-03   6.603e-03
 Pyrite           -0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.690e-10
 Quartz            0.00    -3.74     -3.74    1.000e+00   1.000e+00   3.962e-05
 Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.182e-04
@@ -1646,12 +1646,12 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.182e-04
                          Activity of water  =  0.978  
                   Ionic strength (mol/kgw)  =  7.710e-01  
                         Mass of water (kg)  =  7.836e-01  
-                  Total alkalinity (eq/kg)  =  1.780e-03  
+                   Total alkalinity (eq/kg)  = 1.780e-03  
                         Total CO2 (mol/kg)  =  1.900e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  6.209e-11  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  23  
+                   Electrical balance (eq)  =  6.214e-11  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  24  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.91561  
                                    Total H  =  8.699305e+01
@@ -1861,7 +1861,7 @@ Sr            4.259e-04
   CaMg3(CO3)4(s)   -3.62    -34.43  -30.81  CaMg3(CO3)4
   CaO(cr)         -20.66     12.04   32.70  CaO
   Carnallite      -10.69     -6.36    4.33  KMgCl3:6H2O
-  Celestite        -0.00     -6.62   -6.62  Sr(SO4)
+  Celestite         0.00     -6.62   -6.62  Sr(SO4)
   CH4(g)          -14.22    -55.27  -41.05  CH4
   Chukanovite      -3.82     -0.85    2.97  Fe2(OH)2CO3
   Cl2(g)          -52.32     -6.34   45.98  Cl2
@@ -1896,7 +1896,7 @@ Sr            4.259e-04
   GR-SO4           -7.26     51.04   58.30  Fe4Fe2(OH)12SO4
   Greenalite        0.21     22.03   21.82  Fe3Si2O5(OH)4
   Greigite        -17.45    -32.48  -15.03  Fe3S4
-  Gypsum            0.00     -4.61   -4.61  CaSO4:2H2O
+  Gypsum           -0.00     -4.61   -4.61  CaSO4:2H2O
   Gyrolite         -9.50     12.84   22.34  Ca2Si3O7.5(OH):2H2O
   H2(g)            -8.69     -8.69    0.00  H2
   H2O(g)           -1.50    -43.00  -41.50  H2O
@@ -2025,7 +2025,7 @@ Calcite           0.00    -8.48     -8.48    1.000e+00   9.939e-01  -6.096e-03
 Celestite         0.00    -6.62     -6.62    1.000e+00   1.000e+00   4.341e-05
 Dolomite          0.00   -17.13    -17.13    1.000e+00   1.003e+00   3.216e-03
 Gypsum            0.00    -4.61     -4.61    0.000e+00   8.347e-03   8.347e-03
-Pyrite           -0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.648e-10
+Pyrite            0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.648e-10
 Quartz            0.00    -3.74     -3.74    1.000e+00   1.000e+00   4.952e-05
 Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.115e-04
 
@@ -2051,12 +2051,12 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.115e-04
                          Activity of water  =  0.977  
                   Ionic strength (mol/kgw)  =  8.206e-01  
                         Mass of water (kg)  =  7.295e-01  
-                  Total alkalinity (eq/kg)  =  1.893e-03  
+                   Total alkalinity (eq/kg)  = 1.893e-03  
                         Total CO2 (mol/kg)  =  2.032e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.460e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  25  
+                   Electrical balance (eq)  =  1.612e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  27  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.91774  
                                    Total H  =  8.098608e+01
@@ -2363,7 +2363,7 @@ Sr            4.462e-04
   Pirssonite       -6.58    -15.49   -8.91  Na2Ca(CO3)2:2H2O
   Polyhalite       -8.09    -21.83  -13.74  K2MgCa2(SO4)4:2H2O
   Portlandite     -10.83     11.98   22.81  Ca(OH)2
-  Pyrite           -0.00    -16.82  -16.82  FeS2
+  Pyrite            0.00    -16.82  -16.82  FeS2
   Pyrrhotite       -2.68     -8.00   -5.32  Fe0.87S
   Quartz            0.00     -3.74   -3.74  SiO2
   S(cr)            -6.82     -8.96   -2.14  S
@@ -2430,7 +2430,7 @@ Calcite           0.00    -8.48     -8.48    1.000e+00   9.926e-01  -7.357e-03
 Celestite         0.00    -6.62     -6.62    1.000e+00   1.000e+00   5.158e-05
 Dolomite          0.00   -17.13    -17.13    1.000e+00   1.004e+00   3.847e-03
 Gypsum            0.00    -4.61     -4.61    0.000e+00   1.012e-02   1.012e-02
-Pyrite            0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.606e-10
+Pyrite           -0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.606e-10
 Quartz            0.00    -3.74     -3.74    1.000e+00   1.000e+00   5.942e-05
 Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.048e-04
 
@@ -2456,13 +2456,13 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -3.048e-04
                          Activity of water  =  0.975  
                   Ionic strength (mol/kgw)  =  8.779e-01  
                         Mass of water (kg)  =  6.754e-01  
-                  Total alkalinity (eq/kg)  =  2.023e-03  
+                   Total alkalinity (eq/kg)  = 2.023e-03  
                         Total CO2 (mol/kg)  =  2.184e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.490e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  22  
-                          Gamma iterations  =  8   
+                   Electrical balance (eq)  =  2.574e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  34  
+                          Gamma iterations  =  9   
                        Osmotic coefficient  =  0.92018  
                                    Total H  =  7.497900e+01
                                    Total O  =  3.760366e+01
@@ -2768,7 +2768,7 @@ Sr            4.698e-04
   Pirssonite       -6.53    -15.44   -8.91  Na2Ca(CO3)2:2H2O
   Polyhalite       -8.04    -21.78  -13.74  K2MgCa2(SO4)4:2H2O
   Portlandite     -10.89     11.92   22.81  Ca(OH)2
-  Pyrite            0.00    -16.82  -16.82  FeS2
+  Pyrite           -0.00    -16.82  -16.82  FeS2
   Pyrrhotite       -2.71     -8.03   -5.32  Fe0.87S
   Quartz            0.00     -3.74   -3.74  SiO2
   S(cr)            -6.79     -8.93   -2.14  S
@@ -2835,7 +2835,7 @@ Calcite           0.00    -8.48     -8.48    1.000e+00   9.914e-01  -8.612e-03
 Celestite         0.00    -6.62     -6.62    1.000e+00   1.000e+00   5.958e-05
 Dolomite          0.00   -17.13    -17.13    1.000e+00   1.004e+00   4.475e-03
 Gypsum            0.00    -4.61     -4.61    0.000e+00   1.191e-02   1.191e-02
-Pyrite           -0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.562e-10
+Pyrite            0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.562e-10
 Quartz            0.00    -3.74     -3.74    1.000e+00   1.000e+00   6.931e-05
 Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -2.981e-04
 
@@ -2861,11 +2861,11 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -2.981e-04
                          Activity of water  =  0.973  
                   Ionic strength (mol/kgw)  =  9.449e-01  
                         Mass of water (kg)  =  6.213e-01  
-                  Total alkalinity (eq/kg)  =  2.173e-03  
+                   Total alkalinity (eq/kg)  = 2.173e-03  
                         Total CO2 (mol/kg)  =  2.361e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.684e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.151e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  25  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.92303  
@@ -3173,7 +3173,7 @@ Sr            4.979e-04
   Pirssonite       -6.48    -15.39   -8.91  Na2Ca(CO3)2:2H2O
   Polyhalite       -7.98    -21.72  -13.74  K2MgCa2(SO4)4:2H2O
   Portlandite     -10.95     11.86   22.81  Ca(OH)2
-  Pyrite           -0.00    -16.82  -16.82  FeS2
+  Pyrite            0.00    -16.82  -16.82  FeS2
   Pyrrhotite       -2.73     -8.05   -5.32  Fe0.87S
   Quartz            0.00     -3.74   -3.74  SiO2
   S(cr)            -6.75     -8.89   -2.14  S
@@ -3238,11 +3238,11 @@ Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Calcite           0.00    -8.48     -8.48    1.000e+00   9.901e-01  -9.853e-03
 Celestite        -0.00    -6.62     -6.62    1.000e+00   1.000e+00   6.733e-05
-Dolomite         -0.00   -17.13    -17.13    1.000e+00   1.005e+00   5.096e-03
+Dolomite          0.00   -17.13    -17.13    1.000e+00   1.005e+00   5.096e-03
 Gypsum           -0.00    -4.61     -4.61    0.000e+00   1.373e-02   1.373e-02
 Pyrite            0.00   -16.82    -16.82    1.000e+00   1.000e+00   1.518e-10
 Quartz            0.00    -3.74     -3.74    1.000e+00   1.000e+00   7.919e-05
-Siderite         -0.00   -10.68    -10.68    1.000e+00   9.997e-01  -2.913e-04
+Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -2.913e-04
 
 -----------------------------Solution composition------------------------------
 
@@ -3266,11 +3266,11 @@ Siderite         -0.00   -10.68    -10.68    1.000e+00   9.997e-01  -2.913e-04
                          Activity of water  =  0.970  
                   Ionic strength (mol/kgw)  =  1.024e+00  
                         Mass of water (kg)  =  5.671e-01  
-                  Total alkalinity (eq/kg)  =  2.348e-03  
+                   Total alkalinity (eq/kg)  = 2.348e-03  
                         Total CO2 (mol/kg)  =  2.570e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  8.623e-10  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  8.534e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  28  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.92640  
@@ -3492,7 +3492,7 @@ Sr            5.317e-04
   CSH0.8           -5.36      5.69   11.05  Ca0.8SiO2.8:1.54H2O
   CSH1.2           -8.90     10.40   19.30  Ca1.2SiO3.2:2.06H2O
   CSH1.6          -12.88     15.12   28.00  Ca1.6SiO3.6:2.58H2O
-  Dolomite         -0.00    -17.13  -17.13  CaMg(CO3)2
+  Dolomite          0.00    -17.13  -17.13  CaMg(CO3)2
   Epsonite         -2.97     -4.85   -1.88  Mg(SO4):7H2O
   Ettringite-Fe   -31.46     23.09   54.55  Ca6Fe2(SO4)3(OH)12:26H2O
   Fayalite         -4.07     15.48   19.55  Fe2(SiO4)
@@ -3584,7 +3584,7 @@ Sr            5.317e-04
   S(cr)            -6.71     -8.85   -2.14  S
   Schwertmannite(cr) -17.82     -9.10    8.72  Fe8O8(OH)6SO4
   Si(cr)          -84.37    -21.18   63.19  Si
-  Siderite         -0.00    -10.68  -10.68  Fe(CO3)
+  Siderite          0.00    -10.68  -10.68  Fe(CO3)
   SiO2(am)         -1.03     -3.74   -2.71  SiO2
   SO2(g)          -19.79    -28.73   -8.94  SO2
   Sr(cr)          -97.74      1.05   98.79  Sr
@@ -3671,12 +3671,12 @@ Siderite          0.00   -10.68    -10.68    1.000e+00   9.997e-01  -2.845e-04
                          Activity of water  =  0.967  
                   Ionic strength (mol/kgw)  =  1.120e+00  
                         Mass of water (kg)  =  5.130e-01  
-                  Total alkalinity (eq/kg)  =  2.556e-03  
+                   Total alkalinity (eq/kg)  = 2.556e-03  
                         Total CO2 (mol/kg)  =  2.821e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.492e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  28  
+                   Electrical balance (eq)  =  6.278e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  33  
                           Gamma iterations  =  8   
                        Osmotic coefficient  =  0.93042  
                                    Total H  =  5.695714e+01
@@ -4028,8 +4028,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.389 Seconds.
--------------------------------
 

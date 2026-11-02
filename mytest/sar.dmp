@@ -4,59 +4,59 @@ SOLUTION_RAW                 1 Solution after simulation 6.
   -potential                 0
   -total_h                   111.02432257353
   -total_o                   55.540737963575
-  -cb                        0.00012677966383095
-  -density                   1.0006221832683
-  -viscosity                 1.3059056246007
-  -viscos_0                  1.3059056246007
+  -cb                        0.00012677966385821
+  -density                   1.0006221830897
+  -viscosity                 1.3059056249385
+  -viscos_0                  1.3059056249385
   -totals
-    As_five                  9.1873546741726e-07
-    As_three                 1.3746390603556e-05
-    C(4)                     0.011452089330574
-    Ca                       0.0025455629124233
+    As_five                  9.187354674616e-07
+    As_three                 1.3746390603466e-05
+    C(4)                     0.01145208933062
+    Ca                       0.0025455629124413
     Cl                       0.00088146715910798
-    Fe_di                    9.1959976284853e-05
-    Fe_tri                   7.7164315320004e-09
-    K                        0.00011425400660939
-    Mg                       0.0014911895181325
-    Mn(2)                    3.191138209091e-06
-    Mn(3)                    2.756365112781e-19
-    Mn(6)                    4.345096525503e-22
-    Mn(7)                    2.9482973223431e-19
-    Na                       0.0012785299435272
-    O(0)                     1.1912109070081e-10
-    P                        3.7437156740866e-05
-    S(6)                     2.0821749987159e-06
-    Si                       0.00061277925246775
-  -pH                        6.8761160412278
-  -pe                        13.396500157731
-  -mu                        0.013209100315711
+    Fe_di                    9.195997628639e-05
+    Fe_tri                   7.7164315319005e-09
+    K                        0.0001142540066099
+    Mg                       0.0014911895181449
+    Mn(2)                    3.191138209168e-06
+    Mn(3)                    2.7565689771888e-19
+    Mn(6)                    4.3463821455117e-22
+    Mn(7)                    2.949387784399e-19
+    Na                       0.00127852994353
+    O(0)                     1.1915633604799e-10
+    P                        3.7437156741608e-05
+    S(6)                     2.0821749987179e-06
+    Si                       0.00061277925246648
+  -pH                        6.8761160412315
+  -pe                        13.396532277555
+  -mu                        0.013209100315774
   -ah2o                      0.99968949154354
   -mass_water                1.0000069659526
-  -soln_vol                  1.0003077393264
-  -total_alkalinity          0.008605847124386
+  -soln_vol                  1.000307739505
+  -total_alkalinity          0.0086058471244252
   -activities
-    As_five                  -10.953889224706
-    As_three                 -4.8619331312553
-    C(-4)                    -138.36777715725
-    C(4)                     -5.7390396924507
-    Ca                       -2.8075242469644
-    Cl                       -3.1052066902651
-    E                        -13.396500157731
-    Fe_di                    -4.4329089457999
-    Fe_tri                   -15.736943504534
-    H(0)                     -43.661213911387
-    K                        -3.9925250291321
-    Mg                       -3.0407802757976
-    Mn(2)                    -5.888485501749
-    Mn(3)                    -18.986661817566
-    Mn(6)                    -21.490830446647
-    Mn(7)                    -18.49407089775
-    Na                       -2.9436951942466
-    O(0)                     -10.155155887632
-    P                        -10.788117268994
-    S(-2)                    -138.86309064993
-    S(6)                     -5.9783796129727
-    Si                       -3.2116818388874
+    As_five                  -10.953889224681
+    As_three                 -4.8619331312582
+    C(-4)                    -138.36992530713
+    C(4)                     -5.739039692442
+    Ca                       -2.807524246948
+    Cl                       -3.1052066902612
+    E                        -13.396532277555
+    Fe_di                    -4.4329089457823
+    Fe_tri                   -15.736943504545
+    H(0)                     -43.661750948858
+    K                        -3.9925250291263
+    Mg                       -3.0407802757812
+    Mn(2)                    -5.8884855017282
+    Mn(3)                    -18.986393298814
+    Mn(6)                    -21.48975637167
+    Mn(7)                    -18.492728304041
+    Na                       -2.9436951942419
+    O(0)                     -10.15408181269
+    P                        -10.788117268977
+    S(-2)                    -138.86523879981
+    S(6)                     -5.9783796129646
+    Si                       -3.2116818388882
   -gammas
 EQUILIBRIUM_PHASES_RAW       1 Pure-phase assemblage after simulation 6.
   # EXCHANGE_MODIFY candidates; use new_def=true #
@@ -85,16 +85,16 @@ EXCHANGE_RAW                 1 Exchange assemblage after simulation 6.
   -component                 X
     # EXCHANGE_MODIFY candidate identifiers #
     -totals
-      Ca                     0.033619092862688
-      Fe_di                  0.00032172304829834
-      H                      8.4500945465038e-07
-      K                      0.00041767456352503
-      Mg                     0.014450155004674
-      Mn                     1.3548949342151e-05
-      Na                     0.00080919069701405
+      Ca                     0.033619092862678
+      Fe_di                  0.00032172304829978
+      H                      8.4500945464073e-07
+      K                      0.00041767456352572
+      Mg                     0.014450155004683
+      Mn                     1.354894934231e-05
+      Na                     0.00080919069701349
       X                      0.09803675
     -charge_balance          0
-    -la                      0.81158870384869
+    -la                      0.81158870384747
     -phase_proportion        0
     -formula_z               0
   # EXCHANGE_MODIFY candidates with new_def=true #
@@ -117,87 +117,87 @@ SURFACE_RAW                  1
     # SURFACE_MODIFY candidate identifiers #
     -formula_z               0
     -moles                   0
-    -la                      -2.3847704322698
-    -charge_balance          0.0063553521970921
+    -la                      -2.3847704323015
+    -charge_balance          0.0063553521971003
     -phase_name              Fe(OH)3(a)
     -phase_proportion        0.005
     -Dw                      0
     -charge_name             Hfo
     -master_element          Hfo_s
     -totals
-      Ca                     0.0028202140429533
-      Fe_di                  0.00052461319817244
-      H                      0.0029555064475184
+      Ca                     0.0028202140429604
+      Fe_di                  0.00052461319816992
+      H                      0.0029555064475168
       Hfo_s                  0.0035499999614178
-      Mn                     0.00013009561437005
+      Mn                     0.00013009561437036
       O                      0.0035499999614178
   -component                 Hfo_wOH
     # SURFACE_MODIFY candidate identifiers #
     -formula_z               0
     -moles                   0
-    -la                      -1.5765007208828
-    -charge_balance          -0.0068074416210942
+    -la                      -1.5765007208882
+    -charge_balance          -0.0068074416211639
     -phase_name              Fe(OH)3(a)
     -phase_proportion        0.2
     -Dw                      0
     -charge_name             Hfo
     -master_element          Hfo_w
     -totals
-      As_five                0.0067755892555962
-      As_three               0.00010412033046476
-      C                      2.9319853681796e-05
-      Ca                     7.1705689117074e-05
-      Fe_di                  0.0012815448732173
-      H                      0.271650066587
+      As_five                0.006775589255722
+      As_three               0.00010412033046068
+      C                      2.931985368122e-05
+      Ca                     7.1705689120859e-05
+      Fe_di                  0.0012815448732883
+      H                      0.27165006658637
       Hfo_w                  0.14199999845671
-      Mg                     0.00074524245022631
-      Mn                     0.0013322703390426
-      O                      0.5047116206514
-      P                      0.098405480573954
-      S                      4.5968560059662e-08
-      Si                     0.013942235642387
+      Mg                     0.00074524245026558
+      Mn                     0.0013322703391264
+      O                      0.50471162065113
+      P                      0.098405480573918
+      S                      4.5968560058502e-08
+      Si                     0.013942235642186
   -component                 Sscm_sOH
     # SURFACE_MODIFY candidate identifiers #
     -formula_z               0
     -moles                   0
-    -la                      -0.70169996821482
-    -charge_balance          6.3373057889397e-06
+    -la                      -0.70169996821476
+    -charge_balance          6.3373057889375e-06
     -phase_proportion        0
     -Dw                      0
     -charge_name             Sscm
     -master_element          Sscm_s
     -totals
-      H                      1.9137305789392e-05
+      H                      1.9137305789389e-05
       O                      1.2800000000452e-05
       Sscm_s                 1.2800000000452e-05
   -component                 Sscm_wOH
     # SURFACE_MODIFY candidate identifiers #
     -formula_z               0
     -moles                   0
-    -la                      -1.549825093199
-    -charge_balance          -9.4513375772173e-07
+    -la                      -1.5498250932031
+    -charge_balance          -9.4513375818834e-07
     -phase_proportion        0
     -Dw                      0
     -charge_name             Sscm
     -master_element          Sscm_w
     -totals
-      As_five                4.3581396508839e-07
-      As_three               6.3755435265144e-07
-      C                      1.4155143649622e-07
-      H                      0.0010037366425923
-      O                      0.0018293164485765
-      P                      0.00038469212203646
-      Si                     5.3458142997727e-05
+      As_five                4.3581396510962e-07
+      As_three               6.3755435264164e-07
+      C                      1.4155143649532e-07
+      H                      0.0010037366425919
+      O                      0.0018293164485786
+      P                      0.00038469212203775
+      Si                     5.3458142997113e-05
       Sscm_w                 0.00051200000000035
   -charge_component          Hfo
     # SURFACE_MODIFY candidate identifiers #
     -specific_area           64100
     -grams                   0.70999999228357
-    -charge_balance          -0.00045208942400208
+    -charge_balance          -0.00045208942406364
     -mass_water              0
     -f_free                  0
     -ddl_viscosity           0
-    -la_psi                  -0.030587100420399
+    -la_psi                  -0.030587100424474
     -capacitance0            1
     -capacitance1            5
     -diffuse_layer_totals
@@ -210,11 +210,11 @@ SURFACE_RAW                  1
     # SURFACE_MODIFY candidate identifiers #
     -specific_area           257.21
     -grams                   3.19
-    -charge_balance          5.392172031218e-06
+    -charge_balance          5.3921720307492e-06
     -mass_water              0
     -f_free                  0
     -ddl_viscosity           0
-    -la_psi                  0.020244974931263
+    -la_psi                  0.020244974929456
     -capacitance0            1
     -capacitance1            5
     -diffuse_layer_totals

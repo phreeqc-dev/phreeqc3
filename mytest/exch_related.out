@@ -62,10 +62,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -129,10 +129,10 @@ Ca-Montmorillonite   -0.00   -45.03    -45.03    1.000e-02   9.997e-03  -2.610e-
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.926e-06  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.911e-05  
+                   Total alkalinity (eq/kg)  = 1.911e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.02 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.02 
                                 Iterations  =  12  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550625e+01
@@ -251,14 +251,14 @@ Ca-Montmorillonite  -13.17   -58.20    -45.03    9.997e-03           0  -9.997e-
 
 -----------------------------Exchange composition------------------------------
 
-X                1.234e-16 mol	[0.33 (mol Ca.5X)/(mol Ca-Montmorillonite)]
+X                1.249e-16 mol	[0.33 (mol Ca.5X)/(mol Ca-Montmorillonite)]
 
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	AlX3              4.012e-17   1.204e-16   9.755e-01    -0.970
-	CaX2              1.513e-18   3.027e-18   2.453e-02    -0.545
-	AlOHX2            4.196e-22   8.392e-22   6.802e-06     0.135
+	AlX3              4.061e-17   1.218e-16   9.755e-01    -0.970
+	CaX2              1.532e-18   3.064e-18   2.453e-02    -0.545
+	AlOHX2            4.248e-22   8.495e-22   6.802e-06     0.135
 
 -----------------------------Solution composition------------------------------
 
@@ -273,17 +273,17 @@ X                1.234e-16 mol	[0.33 (mol Ca.5X)/(mol Ca-Montmorillonite)]
 
                                         pH  =  0.875        Charge balance
                                         pe  =  17.097       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  57657     
+       Specific Conductance (µS/cm,  25°C)  =  57658     
                            Density (g/cm³)  =  1.00467  
                                 Volume (L)  =  1.00806  
-                         Viscosity (mPa s)  =  0.90159  
+                         Viscosity (mPa s)  =  0.90157  
                          Activity of water  =  0.992  
                   Ionic strength (mol/kgw)  =  3.173e-01  
                         Mass of water (kg)  =  9.995e-01  
-                  Total alkalinity (eq/kg)  =  -1.767e-01 
+                   Total alkalinity (eq/kg)  = -1.767e-01 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  15  
                                    Total H  =  1.112826e+02
                                    Total O  =  5.562639e+01
@@ -308,10 +308,10 @@ Ca            6.181e-04
 Cl            2.501e-01
    Cl-             2.445e-01   1.667e-01    -0.612    -0.778    -0.166     18.56
    HCl             5.616e-03   7.664e-03    -2.251    -2.116     0.135     20.36
-H(0)          1.495e-39
-   H2              7.475e-40   8.071e-40   -39.126   -39.093     0.033     14.99
-O(0)          1.218e-14
-   O2              6.091e-15   6.553e-15   -14.215   -14.184     0.032     30.40
+H(0)          1.497e-39
+   H2              7.483e-40   8.080e-40   -39.126   -39.093     0.033     14.99
+O(0)          1.216e-14
+   O2              6.078e-15   6.538e-15   -14.216   -14.185     0.032     30.40
 Si            3.672e-02
    H4SiO4          3.672e-02   3.950e-02    -1.435    -1.403     0.032     52.08
    H3SiO4-         6.381e-11   4.363e-11   -10.195   -10.360    -0.165     28.48
@@ -367,14 +367,14 @@ Ca-Montmorillonite  -13.17   -58.20    -45.03    0.000e+00           0   0.000e+
 
 -----------------------------Exchange composition------------------------------
 
-X                1.234e-16 mol	[0.33 (mol Ca.5X)/(mol Ca-Montmorillonite)]
+X                1.249e-16 mol	[0.33 (mol Ca.5X)/(mol Ca-Montmorillonite)]
 
 	                               Equiv-    Equivalent      Log 
 	Species             Moles      alents      Fraction     Gamma
 
-	AlX3              4.012e-17   1.204e-16   9.755e-01    -0.970
-	CaX2              1.513e-18   3.027e-18   2.453e-02    -0.545
-	AlOHX2            4.196e-22   8.392e-22   6.802e-06     0.135
+	AlX3              4.061e-17   1.218e-16   9.755e-01    -0.970
+	CaX2              1.532e-18   3.064e-18   2.453e-02    -0.545
+	AlOHX2            4.248e-22   8.495e-22   6.802e-06     0.135
 
 -----------------------------Solution composition------------------------------
 
@@ -389,17 +389,17 @@ X                1.234e-16 mol	[0.33 (mol Ca.5X)/(mol Ca-Montmorillonite)]
 
                                         pH  =  0.875        Charge balance
                                         pe  =  17.103       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  57657     
+       Specific Conductance (µS/cm,  25°C)  =  57658     
                            Density (g/cm³)  =  1.00467  
                                 Volume (L)  =  1.00806  
-                         Viscosity (mPa s)  =  0.90159  
+                         Viscosity (mPa s)  =  0.90157  
                          Activity of water  =  0.992  
                   Ionic strength (mol/kgw)  =  3.173e-01  
                         Mass of water (kg)  =  9.995e-01  
-                  Total alkalinity (eq/kg)  =  -1.767e-01 
+                   Total alkalinity (eq/kg)  = -1.767e-01 
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  1   
                                    Total H  =  1.112826e+02
                                    Total O  =  5.562639e+01
@@ -424,10 +424,10 @@ Ca            6.181e-04
 Cl            2.501e-01
    Cl-             2.445e-01   1.667e-01    -0.612    -0.778    -0.166     18.56
    HCl             5.616e-03   7.664e-03    -2.251    -2.116     0.135     20.36
-H(0)          1.455e-39
-   H2              7.273e-40   7.853e-40   -39.138   -39.105     0.033     14.99
-O(0)          1.287e-14
-   O2              6.434e-15   6.921e-15   -14.192   -14.160     0.032     30.40
+H(0)          1.456e-39
+   H2              7.281e-40   7.862e-40   -39.138   -39.104     0.033     14.99
+O(0)          1.284e-14
+   O2              6.419e-15   6.906e-15   -14.193   -14.161     0.032     30.40
 Si            3.672e-02
    H4SiO4          3.672e-02   3.950e-02    -1.435    -1.403     0.032     52.08
    H3SiO4-         6.381e-11   4.363e-11   -10.195   -10.360    -0.165     28.48
@@ -488,10 +488,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.007e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -562,10 +562,10 @@ Ca-Montmorillonite   Element not present.    0.000e+00           0   0.000e+00
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.217e-09  
+                   Total alkalinity (eq/kg)  = 1.217e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.60 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.60 
                                 Iterations  =  7   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -683,10 +683,10 @@ X                3.300e-02 mol	[0.33 (mol Ca.5X)/(mol Ca-Montmorillonite)]
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.141e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.050e-05  
+                   Total alkalinity (eq/kg)  = 3.050e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.217e-09 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.01 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.01 
                                 Iterations  =  25  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550627e+01
@@ -743,8 +743,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 6.
 ------------------------------------
-
--------------------------------
-End of Run after 0.023 Seconds.
--------------------------------
 

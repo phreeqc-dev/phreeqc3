@@ -1,4 +1,3 @@
-WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: Cub
   Output file: Cub.out
 Database file: ../database/phreeqc.dat
@@ -73,22 +72,22 @@ Initial solution 0.	dummy column with 1 cell, calc`s are done with stagnant cell
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 122
-                          Density (g/cm³)  =   0.99708
-                               Volume (L)  =   1.00298
-                        Viscosity (mPa s)  =   0.89026
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.000e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.417e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.417e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   3
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  122       
+                           Density (g/cm³)  =  0.99708  
+                                Volume (L)  =  1.00298  
+                         Viscosity (mPa s)  =  0.89026  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.000e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 1.417e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.417e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  3   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -318,22 +317,22 @@ dt_max =   3.8000e+02
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.800    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 10609
-                          Density (g/cm³)  =   1.00115
-                               Volume (L)  =   1.00067
-                        Viscosity (mPa s)  =   0.89854
-                        Activity of water  =   0.997
-                 Ionic strength (mol/kgw)  =   1.000e-01
-                       Mass of water (kg)  =   9.960e-01
-                 Total alkalinity (eq/kg)  =  -1.122e-07
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.204e-15
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   9
-                                  Total H  = 1.105684e+02
-                                  Total O  = 5.528419e+01
+                                        pH  =  6.800      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  10605     
+                           Density (g/cm³)  =  1.00115  
+                                Volume (L)  =  1.00067  
+                         Viscosity (mPa s)  =  0.89852  
+                         Activity of water  =  0.997  
+                  Ionic strength (mol/kgw)  =  1.000e-01  
+                        Mass of water (kg)  =  9.960e-01  
+                   Total alkalinity (eq/kg)  = -1.122e-07 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.220e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  9   
+                                   Total H  =  1.105684e+02
+                                   Total O  =  5.528419e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -535,3 +534,7 @@ WARNING: No porosities were read; used the value 3.90e-01 from -multi_D.
 Calculating transport: 1 (mobile) cells, 13700 shifts, 3 mixruns...
 
 	END
+---------------------------------
+End of Run after 116.866 Seconds.
+---------------------------------
+

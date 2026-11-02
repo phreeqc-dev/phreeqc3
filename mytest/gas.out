@@ -82,16 +82,16 @@ Initial solution 1.
                                         pe  =  4.000      
        Specific Conductance (µS/cm,  25°C)  =  243       
                            Density (g/cm³)  =  0.99714  
-                                Volume (L)  =  1.00305  
-                         Viscosity (mPa s)  =  0.88997  
+                                Volume (L)  =  1.00306  
+                         Viscosity (mPa s)  =  0.89003  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.552e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -1.042e-04 
+                   Total alkalinity (eq/kg)  = -1.042e-04 
                         Total CO2 (mol/kg)  =  1.081e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -93.29
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -93.29
                                 Iterations  =  3   
                                    Total H  =  1.110125e+02
                                    Total O  =  5.551524e+01
@@ -112,7 +112,7 @@ C(4)          1.081e-05
 H(0)          1.415e-19
    H2              7.077e-20   7.079e-20   -19.150   -19.150     0.000     14.99
 N(5)          3.000e-03
-   NO3-            3.000e-03   2.870e-03    -2.523    -2.542    -0.019     29.50
+   NO3-            3.000e-03   2.870e-03    -2.523    -2.542    -0.019     29.64
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -54.063   -54.063     0.000     30.40
 
@@ -191,18 +191,18 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.998e+00  -2.131e-03
 
                                         pH  =  7.044        Charge balance
                                         pe  =  12.158       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  1287      
+       Specific Conductance (µS/cm,  25°C)  =  1286      
                            Density (g/cm³)  =  0.99779  
                                 Volume (L)  =  1.00325  
-                         Viscosity (mPa s)  =  0.89403  
+                         Viscosity (mPa s)  =  0.89456  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.739e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.077e-03  
+                   Total alkalinity (eq/kg)  = 4.077e-03  
                         Total CO2 (mol/kg)  =  4.781e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -11.97
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -11.97
                                 Iterations  =  26  
                                    Total H  =  1.110125e+02
                                    Total O  =  5.554650e+01
@@ -239,14 +239,14 @@ Mg            2.131e-03
    MgCO3           2.197e-06   2.206e-06    -5.658    -5.656     0.002    -17.09
    MgOH+           5.727e-08   5.075e-08    -7.242    -7.295    -0.052     (0)  
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -50.644   -50.705    -0.061     17.99
-   NH3             0.000e+00   0.000e+00   -52.907   -52.906     0.002     24.42
+   NH4+            0.000e+00   0.000e+00   -50.644   -50.705    -0.061     18.03
+   NH3             0.000e+00   0.000e+00   -52.907   -52.906     0.002     30.46
 N(0)          1.300e-03
    N2              6.502e-04   6.528e-04    -3.187    -3.185     0.002     29.29
 N(3)          1.399e-12
    NO2-            1.399e-12   1.220e-12   -11.854   -11.914    -0.060     25.06
 N(5)          9.544e-03
-   NO3-            9.544e-03   8.321e-03    -2.020    -2.080    -0.060     29.59
+   NO3-            9.544e-03   8.321e-03    -2.020    -2.080    -0.060     29.73
 O(0)          1.107e-09
    O2              5.536e-10   5.558e-10    -9.257    -9.255     0.002     30.40
 
@@ -330,15 +330,15 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.998e+00  -2.080e-03
        Specific Conductance (µS/cm,  25°C)  =  1244      
                            Density (g/cm³)  =  0.99778  
                                 Volume (L)  =  1.00326  
-                         Viscosity (mPa s)  =  0.89424  
+                         Viscosity (mPa s)  =  0.89479  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.696e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.596e-03  
+                   Total alkalinity (eq/kg)  = 4.596e-03  
                         Total CO2 (mol/kg)  =  5.476e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -12.26
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -12.26
                                 Iterations  =  23  
                                    Total H  =  1.110145e+02
                                    Total O  =  5.554675e+01
@@ -375,14 +375,14 @@ Mg            2.080e-03
    MgCO3           2.197e-06   2.206e-06    -5.658    -5.656     0.002    -17.09
    MgOH+           5.064e-08   4.493e-08    -7.296    -7.347    -0.052     (0)  
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -50.607   -50.667    -0.060     17.99
-   NH3             0.000e+00   0.000e+00   -52.913   -52.911     0.002     24.42
+   NH4+            0.000e+00   0.000e+00   -50.607   -50.667    -0.060     18.03
+   NH3             0.000e+00   0.000e+00   -52.913   -52.911     0.002     30.46
 N(0)          1.294e-03
    N2              6.468e-04   6.493e-04    -3.189    -3.188     0.002     29.29
 N(3)          1.274e-12
    NO2-            1.274e-12   1.113e-12   -11.895   -11.954    -0.059     25.06
 N(5)          8.744e-03
-   NO3-            8.744e-03   7.635e-03    -2.058    -2.117    -0.059     29.58
+   NO3-            8.744e-03   7.635e-03    -2.058    -2.117    -0.059     29.73
 O(0)          1.121e-09
    O2              5.605e-10   5.627e-10    -9.251    -9.250     0.002     30.40
 
@@ -465,16 +465,16 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.998e+00  -2.024e-03
                                         pe  =  12.236       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  1200      
                            Density (g/cm³)  =  0.99776  
-                                Volume (L)  =  1.00327  
-                         Viscosity (mPa s)  =  0.89444  
+                                Volume (L)  =  1.00328  
+                         Viscosity (mPa s)  =  0.89502  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.649e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.090e-03  
+                   Total alkalinity (eq/kg)  = 5.090e-03  
                         Total CO2 (mol/kg)  =  6.151e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -12.59
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -12.59
                                 Iterations  =  23  
                                    Total H  =  1.110165e+02
                                    Total O  =  5.554695e+01
@@ -511,14 +511,14 @@ Mg            2.024e-03
    MgCO3           2.197e-06   2.206e-06    -5.658    -5.656     0.002    -17.09
    MgOH+           4.556e-08   4.047e-08    -7.341    -7.393    -0.051     (0)  
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -50.572   -50.631    -0.059     17.99
-   NH3             0.000e+00   0.000e+00   -52.910   -52.909     0.002     24.42
+   NH4+            0.000e+00   0.000e+00   -50.572   -50.631    -0.059     18.03
+   NH3             0.000e+00   0.000e+00   -52.910   -52.909     0.002     30.46
 N(0)          1.287e-03
    N2              6.434e-04   6.458e-04    -3.192    -3.190     0.002     29.29
 N(3)          1.164e-12
    NO2-            1.164e-12   1.018e-12   -11.934   -11.992    -0.058     25.06
 N(5)          7.943e-03
-   NO3-            7.943e-03   6.948e-03    -2.100    -2.158    -0.058     29.58
+   NO3-            7.943e-03   6.948e-03    -2.100    -2.158    -0.058     29.73
 O(0)          1.110e-09
    O2              5.549e-10   5.570e-10    -9.256    -9.254     0.002     30.40
 
@@ -601,16 +601,16 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.998e+00  -1.964e-03
                                         pe  =  12.260       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  1154      
                            Density (g/cm³)  =  0.99775  
-                                Volume (L)  =  1.00328  
-                         Viscosity (mPa s)  =  0.89464  
+                                Volume (L)  =  1.00329  
+                         Viscosity (mPa s)  =  0.89525  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.600e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  5.568e-03  
+                   Total alkalinity (eq/kg)  = 5.568e-03  
                         Total CO2 (mol/kg)  =  6.809e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -12.96
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -12.96
                                 Iterations  =  24  
                                    Total H  =  1.110185e+02
                                    Total O  =  5.554710e+01
@@ -647,14 +647,14 @@ Mg            1.964e-03
    MgCO3           2.198e-06   2.206e-06    -5.658    -5.656     0.002    -17.09
    MgOH+           4.150e-08   3.692e-08    -7.382    -7.433    -0.051     (0)  
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -50.536   -50.594    -0.058     17.99
-   NH3             0.000e+00   0.000e+00   -52.902   -52.900     0.002     24.42
+   NH4+            0.000e+00   0.000e+00   -50.536   -50.594    -0.058     18.02
+   NH3             0.000e+00   0.000e+00   -52.902   -52.900     0.002     30.46
 N(0)          1.280e-03
    N2              6.399e-04   6.422e-04    -3.194    -3.192     0.002     29.29
 N(3)          1.062e-12
    NO2-            1.062e-12   9.308e-13   -11.974   -12.031    -0.057     25.06
 N(5)          7.143e-03
-   NO3-            7.143e-03   6.260e-03    -2.146    -2.203    -0.057     29.58
+   NO3-            7.143e-03   6.260e-03    -2.146    -2.203    -0.057     29.73
 O(0)          1.077e-09
    O2              5.385e-10   5.405e-10    -9.269    -9.267     0.002     30.40
 
@@ -738,16 +738,16 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.998e+00  -1.901e-03
        Specific Conductance (µS/cm,  25°C)  =  1107      
                            Density (g/cm³)  =  0.99773  
                                 Volume (L)  =  1.00330  
-                         Viscosity (mPa s)  =  0.89485  
+                         Viscosity (mPa s)  =  0.89547  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.549e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.032e-03  
+                   Total alkalinity (eq/kg)  = 6.032e-03  
                         Total CO2 (mol/kg)  =  7.454e-03  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -13.37
-                                Iterations  =  24  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -13.37
+                                Iterations  =  25  
                                    Total H  =  1.110205e+02
                                    Total O  =  5.554722e+01
 
@@ -783,14 +783,14 @@ Mg            1.901e-03
    MgCO3           2.198e-06   2.206e-06    -5.658    -5.656     0.002    -17.09
    MgOH+           3.816e-08   3.400e-08    -7.418    -7.469    -0.050     (0)  
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -50.499   -50.557    -0.058     17.98
-   NH3             0.000e+00   0.000e+00   -52.887   -52.885     0.002     24.42
+   NH4+            0.000e+00   0.000e+00   -50.499   -50.557    -0.058     18.02
+   NH3             0.000e+00   0.000e+00   -52.887   -52.885     0.002     30.46
 N(0)          1.273e-03
    N2              6.364e-04   6.387e-04    -3.196    -3.195     0.002     29.29
 N(3)          9.669e-13
    NO2-            9.669e-13   8.488e-13   -12.015   -12.071    -0.057     25.05
 N(5)          6.343e-03
-   NO3-            6.343e-03   5.569e-03    -2.198    -2.254    -0.057     29.58
+   NO3-            6.343e-03   5.569e-03    -2.198    -2.254    -0.057     29.72
 O(0)          1.025e-09
    O2              5.126e-10   5.145e-10    -9.290    -9.289     0.002     30.40
 
@@ -871,18 +871,18 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.999e+00  -1.496e-03
 
                                         pH  =  6.845        Charge balance
                                         pe  =  12.243       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  812       
+       Specific Conductance (µS/cm,  25°C)  =  813       
                            Density (g/cm³)  =  0.99763  
                                 Volume (L)  =  1.00336  
-                         Viscosity (mPa s)  =  0.89626  
+                         Viscosity (mPa s)  =  0.89694  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.228e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  8.714e-03  
+                   Total alkalinity (eq/kg)  = 8.714e-03  
                         Total CO2 (mol/kg)  =  1.118e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -16.64
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -16.64
                                 Iterations  =  23  
                                    Total H  =  1.110325e+02
                                    Total O  =  5.554761e+01
@@ -919,14 +919,14 @@ Mg            1.496e-03
    MgCO3           2.200e-06   2.206e-06    -5.658    -5.656     0.001    -17.09
    MgOH+           2.577e-08   2.320e-08    -7.589    -7.635    -0.046     (0)  
 N(-3)         0.000e+00
-   NH4+            0.000e+00   0.000e+00   -50.123   -50.175    -0.052     17.97
-   NH3             0.000e+00   0.000e+00   -52.575   -52.574     0.001     24.42
+   NH4+            0.000e+00   0.000e+00   -50.123   -50.175    -0.052     18.01
+   NH3             0.000e+00   0.000e+00   -52.575   -52.574     0.001     30.46
 N(0)          1.233e-03
    N2              6.164e-04   6.181e-04    -3.210    -3.209     0.001     29.29
 N(3)          3.833e-13
    NO2-            3.833e-13   3.409e-13   -12.416   -12.467    -0.051     25.04
 N(5)          1.543e-03
-   NO3-            1.543e-03   1.372e-03    -2.812    -2.863    -0.051     29.56
+   NO3-            1.543e-03   1.372e-03    -2.812    -2.863    -0.051     29.71
 O(0)          3.863e-10
    O2              1.932e-10   1.937e-10    -9.714    -9.713     0.001     30.40
 
@@ -1007,18 +1007,18 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.998e+00  -2.055e-03
 
                                         pH  =  6.485        Charge balance
                                         pe  =  -3.280       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  1411      
+       Specific Conductance (µS/cm,  25°C)  =  1414      
                            Density (g/cm³)  =  0.99802  
                                 Volume (L)  =  1.00374  
-                         Viscosity (mPa s)  =  0.90091  
+                         Viscosity (mPa s)  =  0.90056  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.017e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.716e-02  
+                   Total alkalinity (eq/kg)  = 1.716e-02  
                         Total CO2 (mol/kg)  =  2.801e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -9.36 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -9.36 
                                 Iterations  =  22  
                                    Total H  =  1.110455e+02
                                    Total O  =  5.557728e+01
@@ -1055,14 +1055,14 @@ Mg            2.055e-03
    MgCO3           2.196e-06   2.206e-06    -5.658    -5.656     0.002    -17.09
    MgOH+           1.373e-08   1.208e-08    -7.862    -7.918    -0.056     (0)  
 N(-3)         4.411e-03
-   NH4+            4.404e-03   3.793e-03    -2.356    -2.421    -0.065     18.00
-   NH3             6.575e-06   6.605e-06    -5.182    -5.180     0.002     24.42
+   NH4+            4.404e-03   3.793e-03    -2.356    -2.421    -0.065     18.04
+   NH3             6.575e-06   6.605e-06    -5.182    -5.180     0.002     30.46
 N(0)          3.837e-04
    N2              1.918e-04   1.927e-04    -3.717    -3.715     0.002     29.29
 N(3)          0.000e+00
    NO2-            0.000e+00   0.000e+00   -60.664   -60.728    -0.064     25.07
 N(5)          0.000e+00
-   NO3-            0.000e+00   0.000e+00   -82.824   -82.888    -0.064     29.60
+   NO3-            0.000e+00   0.000e+00   -82.824   -82.888    -0.064     29.74
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -73.245   -73.243     0.002     30.40
 
@@ -1143,19 +1143,19 @@ Dolomite          0.00   -17.08    -17.08    1.000e+01   9.997e+00  -2.524e-03
 
                                         pH  =  6.383        Charge balance
                                         pe  =  -3.173       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  1474      
+       Specific Conductance (µS/cm,  25°C)  =  1478      
                            Density (g/cm³)  =  0.99814  
                                 Volume (L)  =  1.00387  
-                         Viscosity (mPa s)  =  0.90237  
+                         Viscosity (mPa s)  =  0.90189  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  2.223e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.821e-02  
+                   Total alkalinity (eq/kg)  = 1.821e-02  
                         Total CO2 (mol/kg)  =  3.268e-02  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -2.896e-03 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -8.79 
-                                Iterations  =  25  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -8.79 
+                                Iterations  =  24  
                                    Total H  =  1.110442e+02
                                    Total O  =  5.558861e+01
 
@@ -1191,14 +1191,14 @@ Mg            2.524e-03
    MgCO3           2.195e-06   2.206e-06    -5.659    -5.656     0.002    -17.09
    MgOH+           1.309e-08   1.146e-08    -7.883    -7.941    -0.058     (0)  
 N(-3)         3.240e-03
-   NH4+            3.236e-03   2.769e-03    -2.490    -2.558    -0.068     18.01
-   NH3             3.795e-06   3.815e-06    -5.421    -5.419     0.002     24.42
+   NH4+            3.236e-03   2.769e-03    -2.490    -2.558    -0.068     18.04
+   NH3             3.795e-06   3.815e-06    -5.421    -5.419     0.002     30.46
 N(0)          1.384e-04
    N2              6.918e-05   6.954e-05    -4.160    -4.158     0.002     29.29
 N(3)          0.000e+00
    NO2-            0.000e+00   0.000e+00   -60.967   -61.034    -0.066     25.08
 N(5)          0.000e+00
-   NO3-            0.000e+00   0.000e+00   -83.116   -83.182    -0.066     29.60
+   NO3-            0.000e+00   0.000e+00   -83.116   -83.182    -0.066     29.75
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -73.222   -73.220     0.002     30.40
 
@@ -1227,8 +1227,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.029 Seconds.
--------------------------------
 

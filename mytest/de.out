@@ -67,15 +67,15 @@ Initial solution 1.
        Specific Conductance (µS/cm,  10°C)  =  388       
                            Density (g/cm³)  =  1.00014  
                                 Volume (L)  =  1.00044  
-                         Viscosity (mPa s)  =  1.31327  
+                         Viscosity (mPa s)  =  1.31373  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.223e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.199e-03  
+                   Total alkalinity (eq/kg)  = 6.199e-03  
                         Total CO2 (mol/kg)  =  7.814e-03  
                           Temperature (°C)  =  10.00 
-                   Electrical balance (eq)  =  1.839e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  1.854e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  5   
                                    Total H  =  1.110186e+02
                                    Total O  =  5.552803e+01
@@ -166,7 +166,7 @@ Using pure phase assemblage 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Goethite          3.00     2.56     -0.44    1.070e-02   1.070e-02   3.291e-14
+Goethite          3.00     2.56     -0.44    1.070e-02   1.070e-02   3.448e-14
 
 -----------------------------Solution composition------------------------------
 
@@ -184,15 +184,15 @@ Goethite          3.00     2.56     -0.44    1.070e-02   1.070e-02   3.291e-14
        Specific Conductance (µS/cm,  10°C)  =  388       
                            Density (g/cm³)  =  1.00014  
                                 Volume (L)  =  1.00044  
-                         Viscosity (mPa s)  =  1.31327  
+                         Viscosity (mPa s)  =  1.31373  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.223e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  6.199e-03  
+                   Total alkalinity (eq/kg)  = 6.199e-03  
                         Total CO2 (mol/kg)  =  7.814e-03  
                           Temperature (°C)  =  10.00 
-                   Electrical balance (eq)  =  2.517e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.974e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.110186e+02
                                    Total O  =  5.552803e+01
@@ -374,8 +374,4 @@ Calculating transport: 15 (mobile) cells, 10 shifts, 1 mixruns...
 
 
 Calculating transport: 15 (mobile) cells, 30 shifts, 1 mixruns...
-
--------------------------------
-End of Run after 0.717 Seconds.
--------------------------------
 

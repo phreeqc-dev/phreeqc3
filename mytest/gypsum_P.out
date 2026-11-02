@@ -77,10 +77,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.280e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.382e-16 
+                   Total alkalinity (eq/kg)  = -3.382e-16 
                           Temperature (°C)  =  62.00 
                    Electrical balance (eq)  =  3.382e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  4   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -137,18 +137,18 @@ Gypsum           -0.13    -4.94     -4.81    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.612        Charge balance
-                                        pe  =  8.123        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  2895      
+                                        pe  =  8.115        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  2795      
                            Density (g/cm³)  =  0.98365  
                                 Volume (L)  =  1.38510  
-                         Viscosity (mPa s)  =  0.45545  
+                         Viscosity (mPa s)  =  0.45600  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.558e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -2.574e-16 
+                   Total alkalinity (eq/kg)  = -2.541e-16 
                           Temperature (°C)  =  62.00 
                    Electrical balance (eq)  =  6.387e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                                    Total H  =  1.510124e+02
                                    Total O  =  7.556899e+01
@@ -166,15 +166,15 @@ Ca            1.154e-02
    CaSO4           5.141e-03   5.154e-03    -2.289    -2.288     0.001      9.74
    CaHSO4+         9.634e-09   8.173e-09    -8.016    -8.088    -0.071     (0)  
    CaOH+           2.735e-09   2.320e-09    -8.563    -8.634    -0.071     (0)  
-H(0)          3.439e-33
-   H2              1.719e-33   1.730e-33   -32.765   -32.762     0.003     16.94
-O(0)          1.515e-16
-   O2              7.575e-17   7.619e-17   -16.121   -16.118     0.003     32.47
+H(0)          3.560e-33
+   H2              1.780e-33   1.791e-33   -32.750   -32.747     0.003     16.94
+O(0)          1.413e-16
+   O2              7.066e-17   7.108e-17   -16.151   -16.148     0.003     32.47
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.105   -98.178    -0.074     21.24
-   H2S             0.000e+00   0.000e+00   -98.183   -98.180     0.003     42.48
-   S-2             0.000e+00   0.000e+00  -103.228  -103.505    -0.277     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.339  -197.336     0.003     27.96
+   HS-             0.000e+00   0.000e+00   -98.044   -98.118    -0.074     21.24
+   H2S             0.000e+00   0.000e+00   -98.122   -98.120     0.003     42.48
+   S-2             0.000e+00   0.000e+00  -103.168  -103.445    -0.277     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -197.218  -197.216     0.003     27.96
 S(6)          1.154e-02
    SO4-2           6.396e-03   3.374e-03    -2.194    -2.472    -0.278     16.37
    CaSO4           5.141e-03   5.154e-03    -2.289    -2.288     0.001      9.74
@@ -187,11 +187,11 @@ S(6)          1.154e-02
 
   Anhydrite         0.00     -4.94   -4.94  CaSO4
   Gypsum           -0.13     -4.94   -4.81  CaSO4:2H2O
-  H2(g)           -29.63    -32.76   -3.13  H2
+  H2(g)           -29.62    -32.75   -3.13  H2
   H2O(g)           -0.67     -0.00    0.67  H2O
-  H2S(g)          -96.87   -104.79   -7.92  H2S
-  O2(g)           -13.05    -16.12   -3.07  O2
-  Sulfur          -72.82    -68.71    4.11  S
+  H2S(g)          -96.81   -104.73   -7.92  H2S
+  O2(g)           -13.08    -16.15   -3.07  O2
+  Sulfur          -72.78    -68.67    4.11  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -220,20 +220,20 @@ Gypsum           -0.12    -4.86     -4.74    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.593        Charge balance
-                                        pe  =  8.141        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  3261      
+                                        pe  =  8.144        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  3143      
                            Density (g/cm³)  =  0.98869  
                                 Volume (L)  =  1.37834  
-                         Viscosity (mPa s)  =  0.45851  
+                         Viscosity (mPa s)  =  0.45916  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.882e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -2.280e-16 
+                   Total alkalinity (eq/kg)  = -2.476e-16 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  112.00
-                   Electrical balance (eq)  =  -5.603e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  20  
+                   Electrical balance (eq)  =  2.949e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  21  
                                    Total H  =  1.510124e+02
                                    Total O  =  7.557779e+01
 
@@ -250,15 +250,15 @@ Ca            1.315e-02
    CaSO4           5.949e-03   5.967e-03    -2.226    -2.224     0.001      9.84
    CaHSO4+         1.222e-08   1.030e-08    -7.913    -7.987    -0.074     (0)  
    CaOH+           2.904e-09   2.447e-09    -8.537    -8.611    -0.074     (0)  
-H(0)          3.234e-33
-   H2              1.617e-33   1.628e-33   -32.791   -32.788     0.003     16.87
-O(0)          1.518e-16
-   O2              7.588e-17   7.638e-17   -16.120   -16.117     0.003     32.19
+H(0)          3.188e-33
+   H2              1.594e-33   1.605e-33   -32.797   -32.794     0.003     16.87
+O(0)          1.561e-16
+   O2              7.807e-17   7.859e-17   -16.108   -16.105     0.003     32.19
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.164   -98.241    -0.077     21.26
-   H2S             0.000e+00   0.000e+00   -98.261   -98.258     0.003     40.98
-   S-2             0.000e+00   0.000e+00  -103.262  -103.550    -0.288     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.408  -197.405     0.003     33.03
+   HS-             0.000e+00   0.000e+00   -98.189   -98.266    -0.077     21.26
+   H2S             0.000e+00   0.000e+00   -98.285   -98.282     0.003     40.98
+   S-2             0.000e+00   0.000e+00  -103.287  -103.575    -0.288     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -197.458  -197.455     0.003     33.03
 S(6)          1.315e-02
    SO4-2           7.204e-03   3.701e-03    -2.142    -2.432    -0.289     17.06
    CaSO4           5.949e-03   5.967e-03    -2.226    -2.224     0.001      9.84
@@ -271,11 +271,11 @@ S(6)          1.315e-02
 
   Anhydrite        -0.00     -4.86   -4.86  CaSO4
   Gypsum           -0.12     -4.86   -4.74  CaSO4:2H2O
-  H2(g)           -29.63    -32.79   -3.16  H2
+  H2(g)           -29.64    -32.79   -3.16  H2
   H2O(g)           -0.64     -0.00    0.64  H2O
-  H2S(g)          -96.88   -104.83   -7.96  H2S
-  O2(g)           -12.99    -16.12   -3.13  O2
-  Sulfur          -72.83    -68.79    4.04  S
+  H2S(g)          -96.90   -104.86   -7.96  H2S
+  O2(g)           -12.98    -16.10   -3.13  O2
+  Sulfur          -72.85    -68.81    4.04  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -304,20 +304,20 @@ Gypsum           -0.10    -4.78     -4.68    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.573        Charge balance
-                                        pe  =  8.155        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  3648      
-                           Density (g/cm³)  =  0.99364  
+                                        pe  =  8.150        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  3510      
+                           Density (g/cm³)  =  0.99363  
                                 Volume (L)  =  1.37182  
-                         Viscosity (mPa s)  =  0.46163  
+                         Viscosity (mPa s)  =  0.46238  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.224e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -2.194e-16 
+                   Total alkalinity (eq/kg)  = -2.028e-16 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  223.00
-                   Electrical balance (eq)  =  -3.504e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  19  
+                   Electrical balance (eq)  =  -7.213e-15 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  18  
                                    Total H  =  1.510124e+02
                                    Total O  =  7.558751e+01
 
@@ -334,15 +334,15 @@ Ca            1.494e-02
    CaSO4           6.880e-03   6.902e-03    -2.162    -2.161     0.001      9.93
    CaHSO4+         1.550e-08   1.298e-08    -7.810    -7.887    -0.077     (0)  
    CaOH+           3.082e-09   2.580e-09    -8.511    -8.588    -0.077     (0)  
-H(0)          3.098e-33
-   H2              1.549e-33   1.561e-33   -32.810   -32.807     0.003     16.81
-O(0)          1.467e-16
-   O2              7.336e-17   7.391e-17   -16.135   -16.131     0.003     31.93
+H(0)          3.160e-33
+   H2              1.580e-33   1.592e-33   -32.801   -32.798     0.003     16.81
+O(0)          1.410e-16
+   O2              7.052e-17   7.105e-17   -16.152   -16.148     0.003     31.93
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.191   -98.271    -0.080     21.28
-   H2S             0.000e+00   0.000e+00   -98.301   -98.298     0.003     39.59
-   S-2             0.000e+00   0.000e+00  -103.264  -103.563    -0.299     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.430  -197.426     0.003     37.71
+   HS-             0.000e+00   0.000e+00   -98.157   -98.237    -0.080     21.28
+   H2S             0.000e+00   0.000e+00   -98.267   -98.264     0.003     39.59
+   S-2             0.000e+00   0.000e+00  -103.229  -103.528    -0.299     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -197.361  -197.358     0.003     37.71
 S(6)          1.494e-02
    SO4-2           8.060e-03   4.036e-03    -2.094    -2.394    -0.300     17.71
    CaSO4           6.880e-03   6.902e-03    -2.162    -2.161     0.001      9.93
@@ -355,11 +355,11 @@ S(6)          1.494e-02
 
   Anhydrite        -0.00     -4.78   -4.78  CaSO4
   Gypsum           -0.10     -4.78   -4.68  CaSO4:2H2O
-  H2(g)           -29.62    -32.81   -3.19  H2
+  H2(g)           -29.61    -32.80   -3.19  H2
   H2O(g)           -0.61     -0.00    0.61  H2O
-  H2S(g)          -96.85   -104.84   -7.99  H2S
-  O2(g)           -12.95    -16.13   -3.18  O2
-  Sulfur          -72.82    -68.84    3.97  S
+  H2S(g)          -96.81   -104.81   -7.99  H2S
+  O2(g)           -12.97    -16.15   -3.18  O2
+  Sulfur          -72.79    -68.82    3.97  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -381,7 +381,7 @@ Using pressure 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Anhydrite        -0.00    -4.71     -4.71    1.000e+01   1.998e+01   9.977e+00
+Anhydrite         0.00    -4.71     -4.71    1.000e+01   1.998e+01   9.977e+00
 Gypsum           -0.09    -4.71     -4.62    1.000e+01           0  -1.000e+01
 
 -----------------------------Solution composition------------------------------
@@ -394,20 +394,20 @@ Gypsum           -0.09    -4.71     -4.62    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.554        Charge balance
-                                        pe  =  8.183        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  4056      
+                                        pe  =  8.353        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  3897      
                            Density (g/cm³)  =  0.99849  
                                 Volume (L)  =  1.36551  
-                         Viscosity (mPa s)  =  0.46479  
+                         Viscosity (mPa s)  =  0.46565  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.586e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -2.110e-16 
+                   Total alkalinity (eq/kg)  = -2.506e-16 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  334.00
-                   Electrical balance (eq)  =  -2.980e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                               Iterations  =   25   (126 overall)
+                   Electrical balance (eq)  =  3.782e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   26   (127 overall)
                                    Total H  =  1.510124e+02
                                    Total O  =  7.559826e+01
 
@@ -424,15 +424,15 @@ Ca            1.692e-02
    CaSO4           7.950e-03   7.979e-03    -2.100    -2.098     0.002     10.01
    CaHSO4+         1.965e-08   1.635e-08    -7.707    -7.786    -0.080     (0)  
    CaOH+           3.270e-09   2.720e-09    -8.485    -8.565    -0.080     (0)  
-H(0)          2.774e-33
-   H2              1.387e-33   1.399e-33   -32.858   -32.854     0.004     16.76
-O(0)          1.626e-16
-   O2              8.129e-17   8.197e-17   -16.090   -16.086     0.004     31.70
+H(0)          1.269e-33
+   H2              6.346e-34   6.402e-34   -33.197   -33.194     0.004     16.76
+O(0)          7.764e-16
+   O2              3.882e-16   3.914e-16   -15.411   -15.407     0.004     31.70
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.335   -98.419    -0.083     21.30
-   H2S             0.000e+00   0.000e+00   -98.455   -98.451     0.004     38.31
-   S-2             0.000e+00   0.000e+00  -103.383  -103.692    -0.310     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.700  -197.697     0.004     42.04
+   HS-             0.000e+00   0.000e+00   -99.693   -99.777    -0.083     21.30
+   H2S             0.000e+00   0.000e+00   -99.813   -99.809     0.004     38.31
+   S-2             0.000e+00   0.000e+00  -104.741  -105.050    -0.310     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -200.416  -200.413     0.004     42.04
 S(6)          1.692e-02
    SO4-2           8.965e-03   4.380e-03    -2.047    -2.359    -0.311     18.32
    CaSO4           7.950e-03   7.979e-03    -2.100    -2.098     0.002     10.01
@@ -443,18 +443,30 @@ S(6)          1.692e-02
 
   Phase               SI** log IAP   log K(335 K, 334 atm)
 
-  Anhydrite        -0.00     -4.71   -4.71  CaSO4
+  Anhydrite         0.00     -4.71   -4.71  CaSO4
   Gypsum           -0.09     -4.71   -4.62  CaSO4:2H2O
-  H2(g)           -29.64    -32.85   -3.22  H2
+  H2(g)           -29.98    -33.19   -3.22  H2
   H2O(g)           -0.57     -0.00    0.57  H2O
-  H2S(g)          -96.94   -104.97   -8.03  H2S
-  O2(g)           -12.85    -16.09   -3.24  O2
-  Sulfur          -72.89    -68.98    3.91  S
+  H2S(g)          -98.30   -106.33   -8.03  H2S
+  O2(g)           -12.17    -15.41   -3.24  O2
+  Sulfur          -73.91    -70.00    3.91  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
 
 Reaction step 5.
+
+WARNING: Maximum iterations exceeded, 100
+
+WARNING: Numerical method failed with this set of convergence parameters.
+
+WARNING: Trying smaller step size, pe step size 10, 5 ... 
+
+WARNING: Maximum iterations exceeded, 200
+
+WARNING: Numerical method failed with this set of convergence parameters.
+
+WARNING: Trying reduced tolerance 1e-16 ...
 
 Using solution 1.	
 Using pure phase assemblage 1.	
@@ -478,20 +490,20 @@ Gypsum           -0.07    -4.64     -4.57    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.534        Charge balance
-                                        pe  =  8.170        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  4483      
+                                        pe  =  8.168        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  4302      
                            Density (g/cm³)  =  1.00328  
                                 Volume (L)  =  1.35940  
-                         Viscosity (mPa s)  =  0.46801  
+                         Viscosity (mPa s)  =  0.46899  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.967e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -4.843e-16 
+                   Total alkalinity (eq/kg)  = -1.644e-15 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  445.00
-                   Electrical balance (eq)  =  -4.375e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  48  
+                   Electrical balance (eq)  =  2.547e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   44   (346 overall)
                                    Total H  =  1.510124e+02
                                    Total O  =  7.561014e+01
 
@@ -508,15 +520,15 @@ Ca            1.910e-02
    CaSO4           9.182e-03   9.219e-03    -2.037    -2.035     0.002     10.08
    CaHSO4+         2.489e-08   2.059e-08    -7.604    -7.686    -0.082     (0)  
    CaOH+           3.468e-09   2.868e-09    -8.460    -8.542    -0.082     (0)  
-H(0)          3.008e-33
-   H2              1.504e-33   1.519e-33   -32.823   -32.819     0.004     16.70
-O(0)          1.229e-16
-   O2              6.145e-17   6.201e-17   -16.211   -16.208     0.004     31.47
+H(0)          3.038e-33
+   H2              1.519e-33   1.533e-33   -32.819   -32.814     0.004     16.70
+O(0)          1.205e-16
+   O2              6.027e-17   6.083e-17   -16.220   -16.216     0.004     31.47
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.147   -98.233    -0.086     21.32
-   H2S             0.000e+00   0.000e+00   -98.272   -98.268     0.004     37.13
-   S-2             0.000e+00   0.000e+00  -103.168  -103.488    -0.320     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.318  -197.314     0.004     46.06
+   HS-             0.000e+00   0.000e+00   -98.130   -98.216    -0.086     21.32
+   H2S             0.000e+00   0.000e+00   -98.255   -98.251     0.004     37.13
+   S-2             0.000e+00   0.000e+00  -103.152  -103.471    -0.320     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -197.284  -197.280     0.004     46.06
 S(6)          1.910e-02
    SO4-2           9.918e-03   4.732e-03    -2.004    -2.325    -0.321     18.90
    CaSO4           9.182e-03   9.219e-03    -2.037    -2.035     0.002     10.08
@@ -529,11 +541,11 @@ S(6)          1.910e-02
 
   Anhydrite         0.00     -4.64   -4.64  CaSO4
   Gypsum           -0.07     -4.64   -4.57  CaSO4:2H2O
-  H2(g)           -29.57    -32.82   -3.25  H2
+  H2(g)           -29.57    -32.81   -3.25  H2
   H2O(g)           -0.54     -0.00    0.54  H2O
-  H2S(g)          -96.70   -104.77   -8.07  H2S
-  O2(g)           -12.92    -16.21   -3.29  O2
-  Sulfur          -72.71    -68.86    3.85  S
+  H2S(g)          -96.68   -104.75   -8.07  H2S
+  O2(g)           -12.93    -16.22   -3.29  O2
+  Sulfur          -72.70    -68.85    3.85  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -555,7 +567,7 @@ Using pressure 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Anhydrite        -0.00    -4.58     -4.58    1.000e+01   1.997e+01   9.971e+00
+Anhydrite         0.00    -4.58     -4.58    1.000e+01   1.997e+01   9.971e+00
 Gypsum           -0.06    -4.58     -4.52    1.000e+01           0  -1.000e+01
 
 -----------------------------Solution composition------------------------------
@@ -568,20 +580,20 @@ Gypsum           -0.06    -4.58     -4.52    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.515        Charge balance
-                                        pe  =  8.191        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  4930      
+                                        pe  =  8.194        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  4726      
                            Density (g/cm³)  =  1.00799  
                                 Volume (L)  =  1.35349  
-                         Viscosity (mPa s)  =  0.47129  
+                         Viscosity (mPa s)  =  0.47239  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  4.367e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -2.006e-16 
+                   Total alkalinity (eq/kg)  = -3.228e-16 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  556.00
-                   Electrical balance (eq)  =  1.735e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   39   (140 overall)
+                   Electrical balance (eq)  =  -4.337e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   41   (142 overall)
                                    Total H  =  1.510124e+02
                                    Total O  =  7.562329e+01
 
@@ -598,15 +610,15 @@ Ca            2.152e-02
    CaSO4           1.060e-02   1.065e-02    -1.975    -1.973     0.002     10.16
    CaHSO4+         3.150e-08   2.590e-08    -7.502    -7.587    -0.085     (0)  
    CaOH+           3.678e-09   3.024e-09    -8.434    -8.519    -0.085     (0)  
-H(0)          2.788e-33
-   H2              1.394e-33   1.409e-33   -32.856   -32.851     0.005     16.65
-O(0)          1.274e-16
-   O2              6.369e-17   6.433e-17   -16.196   -16.192     0.004     31.27
+H(0)          2.755e-33
+   H2              1.378e-33   1.392e-33   -32.861   -32.856     0.005     16.65
+O(0)          1.304e-16
+   O2              6.520e-17   6.586e-17   -16.186   -16.181     0.004     31.27
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.231   -98.321    -0.089     21.34
-   H2S             0.000e+00   0.000e+00   -98.359   -98.354     0.004     36.02
-   S-2             0.000e+00   0.000e+00  -103.228  -103.557    -0.330     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.493  -197.489     0.004     49.79
+   HS-             0.000e+00   0.000e+00   -98.252   -98.341    -0.089     21.34
+   H2S             0.000e+00   0.000e+00   -98.379   -98.375     0.004     36.02
+   S-2             0.000e+00   0.000e+00  -103.248  -103.578    -0.330     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -197.534  -197.530     0.004     49.79
 S(6)          2.152e-02
    SO4-2           1.092e-02   5.090e-03    -1.962    -2.293    -0.331     19.44
    CaSO4           1.060e-02   1.065e-02    -1.975    -1.973     0.002     10.16
@@ -617,13 +629,13 @@ S(6)          2.152e-02
 
   Phase               SI** log IAP   log K(335 K, 556 atm)
 
-  Anhydrite        -0.00     -4.58   -4.58  CaSO4
+  Anhydrite         0.00     -4.58   -4.58  CaSO4
   Gypsum           -0.06     -4.58   -4.52  CaSO4:2H2O
-  H2(g)           -29.58    -32.85   -3.27  H2
+  H2(g)           -29.58    -32.86   -3.27  H2
   H2O(g)           -0.51     -0.00    0.51  H2O
-  H2S(g)          -96.73   -104.84   -8.11  H2S
-  O2(g)           -12.85    -16.19   -3.34  O2
-  Sulfur          -72.74    -68.94    3.80  S
+  H2S(g)          -96.75   -104.86   -8.11  H2S
+  O2(g)           -12.84    -16.18   -3.34  O2
+  Sulfur          -72.75    -68.96    3.80  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -652,20 +664,20 @@ Gypsum           -0.05    -4.52     -4.47    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.497        Charge balance
-                                        pe  =  8.213        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  5396      
+                                        pe  =  8.248        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  5167      
                            Density (g/cm³)  =  1.01264  
                                 Volume (L)  =  1.34776  
-                         Viscosity (mPa s)  =  0.47463  
+                         Viscosity (mPa s)  =  0.47587  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  4.784e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -1.687e-16 
+                   Total alkalinity (eq/kg)  = -2.049e-16 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  667.00
-                   Electrical balance (eq)  =  3.539e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  32  
+                   Electrical balance (eq)  =  3.192e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  34  
                                    Total H  =  1.510124e+02
                                    Total O  =  7.563784e+01
 
@@ -682,15 +694,15 @@ Ca            2.419e-02
    Ca+2            1.196e-02   5.580e-03    -1.922    -2.253    -0.331    -13.97
    CaHSO4+         3.983e-08   3.257e-08    -7.400    -7.487    -0.087     (0)  
    CaOH+           3.901e-09   3.190e-09    -8.409    -8.496    -0.087     (0)  
-H(0)          2.574e-33
-   H2              1.287e-33   1.302e-33   -32.890   -32.885     0.005     16.61
-O(0)          1.331e-16
-   O2              6.655e-17   6.729e-17   -16.177   -16.172     0.005     31.08
+H(0)          2.184e-33
+   H2              1.092e-33   1.105e-33   -32.962   -32.957     0.005     16.61
+O(0)          1.848e-16
+   O2              9.240e-17   9.342e-17   -16.034   -16.030     0.005     31.08
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.323   -98.415    -0.092     21.37
-   H2S             0.000e+00   0.000e+00   -98.449   -98.444     0.005     34.99
-   S-2             0.000e+00   0.000e+00  -103.293  -103.632    -0.339     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.693  -197.688     0.005     53.27
+   HS-             0.000e+00   0.000e+00   -98.608   -98.700    -0.092     21.37
+   H2S             0.000e+00   0.000e+00   -98.734   -98.729     0.005     34.99
+   S-2             0.000e+00   0.000e+00  -103.578  -103.917    -0.339     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -198.263  -198.259     0.005     53.27
 S(6)          2.419e-02
    CaSO4           1.223e-02   1.229e-02    -1.913    -1.910     0.002     10.22
    SO4-2           1.196e-02   5.455e-03    -1.922    -2.263    -0.341     19.96
@@ -703,11 +715,11 @@ S(6)          2.419e-02
 
   Anhydrite        -0.00     -4.52   -4.52  CaSO4
   Gypsum           -0.05     -4.52   -4.47  CaSO4:2H2O
-  H2(g)           -29.58    -32.89   -3.30  H2
+  H2(g)           -29.65    -32.96   -3.30  H2
   H2O(g)           -0.48     -0.00    0.48  H2O
-  H2S(g)          -96.77   -104.91   -8.15  H2S
-  O2(g)           -12.78    -16.17   -3.40  O2
-  Sulfur          -72.77    -69.03    3.75  S
+  H2S(g)          -97.05   -105.20   -8.15  H2S
+  O2(g)           -12.63    -16.03   -3.40  O2
+  Sulfur          -72.98    -69.24    3.75  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -736,20 +748,20 @@ Gypsum           -0.04    -4.46     -4.42    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.478        Charge balance
-                                        pe  =  8.223        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  5880      
+                                        pe  =  8.232        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  5624      
                            Density (g/cm³)  =  1.01725  
                                 Volume (L)  =  1.34220  
-                         Viscosity (mPa s)  =  0.47803  
+                         Viscosity (mPa s)  =  0.47942  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  5.220e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -3.799e-16 
+                   Total alkalinity (eq/kg)  = -3.407e-15 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  778.00
-                   Electrical balance (eq)  =  8.743e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                                Iterations  =  42  
+                   Electrical balance (eq)  =  8.724e-13  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  41  
                                    Total H  =  1.510124e+02
                                    Total O  =  7.565396e+01
 
@@ -766,15 +778,15 @@ Ca            2.715e-02
    Ca+2            1.305e-02   5.972e-03    -1.884    -2.224    -0.339    -13.46
    CaHSO4+         5.028e-08   4.091e-08    -7.299    -7.388    -0.090     (0)  
    CaOH+           4.138e-09   3.366e-09    -8.383    -8.473    -0.090     (0)  
-H(0)          2.490e-33
-   H2              1.245e-33   1.261e-33   -32.905   -32.899     0.005     16.56
-O(0)          1.267e-16
-   O2              6.335e-17   6.412e-17   -16.198   -16.193     0.005     30.90
+H(0)          2.392e-33
+   H2              1.196e-33   1.211e-33   -32.922   -32.917     0.005     16.56
+O(0)          1.373e-16
+   O2              6.866e-17   6.949e-17   -16.163   -16.158     0.005     30.90
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.332   -98.427    -0.095     21.39
-   H2S             0.000e+00   0.000e+00   -98.456   -98.450     0.005     34.03
-   S-2             0.000e+00   0.000e+00  -103.277  -103.625    -0.348     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.740  -197.735     0.005     56.53
+   HS-             0.000e+00   0.000e+00   -98.402   -98.497    -0.095     21.39
+   H2S             0.000e+00   0.000e+00   -98.526   -98.520     0.005     34.03
+   S-2             0.000e+00   0.000e+00  -103.347  -103.695    -0.348     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -197.880  -197.875     0.005     56.53
 S(6)          2.715e-02
    CaSO4           1.410e-02   1.418e-02    -1.851    -1.848     0.002     10.28
    SO4-2           1.305e-02   5.827e-03    -1.884    -2.235    -0.350     20.45
@@ -787,11 +799,11 @@ S(6)          2.715e-02
 
   Anhydrite         0.00     -4.46   -4.46  CaSO4
   Gypsum           -0.04     -4.46   -4.42  CaSO4:2H2O
-  H2(g)           -29.57    -32.90   -3.33  H2
+  H2(g)           -29.59    -32.92   -3.33  H2
   H2O(g)           -0.45     -0.00    0.45  H2O
-  H2S(g)          -96.72   -104.91   -8.18  H2S
-  O2(g)           -12.74    -16.19   -3.45  O2
-  Sulfur          -72.74    -69.05    3.70  S
+  H2S(g)          -96.79   -104.98   -8.18  H2S
+  O2(g)           -12.71    -16.16   -3.45  O2
+  Sulfur          -72.79    -69.10    3.70  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -807,7 +819,7 @@ Using pressure 1.
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Anhydrite         0.00    -4.40     -4.40    1.000e+01   1.996e+01   9.959e+00
+Anhydrite        -0.00    -4.40     -4.40    1.000e+01   1.996e+01   9.959e+00
 Gypsum           -0.03    -4.40     -4.38    1.000e+01           0  -1.000e+01
 
 -----------------------------Solution composition------------------------------
@@ -820,20 +832,20 @@ Gypsum           -0.03    -4.40     -4.38    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.461        Charge balance
-                                        pe  =  8.243        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  6380      
+                                        pe  =  8.324        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  6097      
                            Density (g/cm³)  =  1.02181  
                                 Volume (L)  =  1.33681  
-                         Viscosity (mPa s)  =  0.48150  
+                         Viscosity (mPa s)  =  0.48304  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  5.672e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -5.986e-16 
+                   Total alkalinity (eq/kg)  = 7.269e-16  
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  889.00
-                   Electrical balance (eq)  =  -1.617e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  34  
+                   Electrical balance (eq)  =  8.007e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  38  
                                    Total H  =  1.510124e+02
                                    Total O  =  7.567185e+01
 
@@ -850,15 +862,15 @@ Ca            3.044e-02
    Ca+2            1.418e-02   6.372e-03    -1.848    -2.196    -0.347    -12.99
    CaHSO4+         6.340e-08   5.133e-08    -7.198    -7.290    -0.092     (0)  
    CaOH+           4.390e-09   3.554e-09    -8.357    -8.449    -0.092     (0)  
-H(0)          2.315e-33
-   H2              1.157e-33   1.173e-33   -32.936   -32.931     0.006     16.52
-O(0)          1.307e-16
-   O2              6.535e-17   6.621e-17   -16.185   -16.179     0.006     30.73
+H(0)          1.593e-33
+   H2              7.965e-34   8.075e-34   -33.099   -33.093     0.006     16.52
+O(0)          2.760e-16
+   O2              1.380e-16   1.398e-16   -15.860   -15.854     0.006     30.73
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.412   -98.509    -0.098     21.42
-   H2S             0.000e+00   0.000e+00   -98.530   -98.524     0.006     33.13
-   S-2             0.000e+00   0.000e+00  -103.330  -103.687    -0.357     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.936  -197.930     0.006     59.58
+   HS-             0.000e+00   0.000e+00   -99.061   -99.159    -0.098     21.42
+   H2S             0.000e+00   0.000e+00   -99.179   -99.173     0.006     33.13
+   S-2             0.000e+00   0.000e+00  -103.980  -104.336    -0.357     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -199.234  -199.228     0.006     59.58
 S(6)          3.044e-02
    CaSO4           1.626e-02   1.635e-02    -1.789    -1.786     0.003     10.34
    SO4-2           1.418e-02   6.204e-03    -1.848    -2.207    -0.359     20.91
@@ -869,13 +881,13 @@ S(6)          3.044e-02
 
   Phase               SI** log IAP   log K(335 K, 889 atm)
 
-  Anhydrite         0.00     -4.40   -4.40  CaSO4
+  Anhydrite        -0.00     -4.40   -4.40  CaSO4
   Gypsum           -0.03     -4.40   -4.38  CaSO4:2H2O
-  H2(g)           -29.57    -32.93   -3.36  H2
+  H2(g)           -29.73    -33.09   -3.36  H2
   H2O(g)           -0.42     -0.00    0.42  H2O
-  H2S(g)          -96.75   -104.97   -8.22  H2S
-  O2(g)           -12.68    -16.18   -3.50  O2
-  Sulfur          -72.77    -69.12    3.65  S
+  H2S(g)          -97.40   -105.62   -8.22  H2S
+  O2(g)           -12.35    -15.85   -3.50  O2
+  Sulfur          -73.25    -69.60    3.65  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -904,20 +916,20 @@ Gypsum           -0.02    -4.35     -4.34    1.000e+01           0  -1.000e+01
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.444        Charge balance
-                                        pe  =  8.242        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  62°C)  =  6897      
+                                        pe  =  8.494        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  62°C)  =  6585      
                            Density (g/cm³)  =  1.02633  
                                 Volume (L)  =  1.33158  
-                         Viscosity (mPa s)  =  0.48503  
+                         Viscosity (mPa s)  =  0.48674  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  6.142e-02  
                         Mass of water (kg)  =  1.360e+00  
-                  Total alkalinity (eq/kg)  =  -3.346e-15 
+                   Total alkalinity (eq/kg)  = -1.242e-15 
                           Temperature (°C)  =  62.00 
                             Pressure (atm)  =  1000.00
-                   Electrical balance (eq)  =  -1.264e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  32  
+                   Electrical balance (eq)  =  3.331e-15  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  34  
                                    Total H  =  1.510124e+02
                                    Total O  =  7.569172e+01
 
@@ -934,15 +946,15 @@ Ca            3.409e-02
    Ca+2            1.535e-02   6.780e-03    -1.814    -2.169    -0.355    -12.54
    CaHSO4+         7.981e-08   6.431e-08    -7.098    -7.192    -0.094     (0)  
    CaOH+           4.661e-09   3.756e-09    -8.331    -8.425    -0.094     (0)  
-H(0)          2.351e-33
-   H2              1.175e-33   1.193e-33   -32.930   -32.923     0.006     16.48
-O(0)          1.131e-16
-   O2              5.653e-17   5.734e-17   -16.248   -16.242     0.006     30.57
+H(0)          7.360e-34
+   H2              3.680e-34   3.735e-34   -33.434   -33.428     0.006     16.48
+O(0)          1.153e-15
+   O2              5.766e-16   5.848e-16   -15.239   -15.233     0.006     30.57
 S(-2)         0.000e+00
-   HS-             0.000e+00   0.000e+00   -98.338   -98.438    -0.100     21.44
-   H2S             0.000e+00   0.000e+00   -98.449   -98.443     0.006     32.29
-   S-2             0.000e+00   0.000e+00  -103.230  -103.595    -0.365     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -197.833  -197.827     0.006     62.44
+   HS-             0.000e+00   0.000e+00  -100.355  -100.455    -0.100     21.44
+   H2S             0.000e+00   0.000e+00  -100.466  -100.460     0.006     32.29
+   S-2             0.000e+00   0.000e+00  -105.247  -105.612    -0.365     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -201.868  -201.861     0.006     62.44
 S(6)          3.409e-02
    CaSO4           1.874e-02   1.886e-02    -1.727    -1.725     0.003     10.40
    SO4-2           1.535e-02   6.586e-03    -1.814    -2.181    -0.368     21.35
@@ -955,11 +967,11 @@ S(6)          3.409e-02
 
   Anhydrite         0.00     -4.35   -4.35  CaSO4
   Gypsum           -0.02     -4.35   -4.34  CaSO4:2H2O
-  H2(g)           -29.54    -32.92   -3.39  H2
+  H2(g)           -30.04    -33.43   -3.39  H2
   H2O(g)           -0.39     -0.00    0.39  H2O
-  H2S(g)          -96.62   -104.88   -8.26  H2S
-  O2(g)           -12.69    -16.24   -3.55  O2
-  Sulfur          -72.68    -69.07    3.60  S
+  H2S(g)          -98.64   -106.90   -8.26  H2S
+  O2(g)           -11.68    -15.23   -3.55  O2
+  Sulfur          -74.19    -70.58    3.60  S
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
   For ideal gases, phi = 1.
@@ -971,8 +983,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.021 Seconds.
--------------------------------
 

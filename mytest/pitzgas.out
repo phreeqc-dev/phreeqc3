@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -58,10 +57,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  0.000e+00  
+                   Total alkalinity (eq/kg)  = 0.000e+00  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  0.000e+00  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  6   
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99988  
@@ -155,15 +154,15 @@ H2O(g)            -1.50   3.171e-02  0.990   0.000e+00   2.190e-03   2.190e-03
        Specific Conductance (µS/cm,  25°C)  =  47        
                            Density (g/cm³)  =  0.99735  
                                 Volume (L)  =  1.00408  
-                         Viscosity (mPa s)  =  0.89230  
+                         Viscosity (mPa s)  =  0.90308  
                          Activity of water  =  0.999  
                   Ionic strength (mol/kgw)  =  1.227e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.687e-16  
+                   Total alkalinity (eq/kg)  = 2.683e-16  
                         Total CO2 (mol/kg)  =  3.314e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -2.687e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -2.683e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  22  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.99953  
@@ -182,8 +181,8 @@ H2O(g)            -1.50   3.171e-02  0.990   0.000e+00   2.190e-03   2.190e-03
    H2O             5.551e+01   9.994e-01     1.744    -0.000     0.000     18.07
 C(4)          3.314e-02
    CO2             3.302e-02   3.299e-02    -1.481    -1.482    -0.000     34.79
-   HCO3-           1.227e-04   1.211e-04    -3.911    -3.917    -0.005     23.00
-   CO3-2           4.942e-11   4.692e-11   -10.306   -10.329    -0.023     -7.17
+   HCO3-           1.227e-04   1.211e-04    -3.911    -3.917    -0.005     22.90
+   CO3-2           4.942e-11   4.692e-11   -10.306   -10.329    -0.023     -7.98
 
 ------------------------------Saturation indices-------------------------------
 
@@ -202,8 +201,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.019 Seconds.
--------------------------------
 

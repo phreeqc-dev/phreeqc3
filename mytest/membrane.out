@@ -1,4 +1,3 @@
-WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: membrane
   Output file: membrane.out
 Database file: ../database/phreeqc.dat
@@ -56,22 +55,22 @@ Initial solution 0.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 46282
-                          Density (g/cm³)  =   1.01702
-                               Volume (L)  =   1.01200
-                        Viscosity (mPa s)  =   0.92995
-                        Activity of water  =   0.983
-                 Ionic strength (mol/kgw)  =   5.000e-01
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.962e-08
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.484e-08
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  31
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  46256     
+                           Density (g/cm³)  =  1.01702  
+                                Volume (L)  =  1.01200  
+                         Viscosity (mPa s)  =  0.92992  
+                         Activity of water  =  0.983  
+                  Ionic strength (mol/kgw)  =  5.000e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 1.962e-08  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.484e-08 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  31  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -143,22 +142,22 @@ Initial solution 1.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 122
-                          Density (g/cm³)  =   0.99708
-                               Volume (L)  =   0.02006
-                        Viscosity (mPa s)  =   0.89026
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.000e-03
-                       Mass of water (kg)  =   2.000e-02
-                 Total alkalinity (eq/kg)  =   1.417e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -2.835e-11
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  27
-                                  Total H  = 2.220249e+00
-                                  Total O  = 1.110124e+00
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  122       
+                           Density (g/cm³)  =  0.99708  
+                                Volume (L)  =  0.02006  
+                         Viscosity (mPa s)  =  0.89026  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.000e-03  
+                        Mass of water (kg)  =  2.000e-02  
+                   Total alkalinity (eq/kg)  = 1.417e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -2.835e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  27  
+                                   Total H  =  2.220249e+00
+                                   Total O  =  1.110124e+00
 
 ----------------------------Distribution of species----------------------------
 
@@ -201,22 +200,22 @@ Initial solution 21.
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 122
-                          Density (g/cm³)  =   0.99708
-                               Volume (L)  =   1.00298
-                        Viscosity (mPa s)  =   0.89026
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.000e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.417e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -1.417e-09
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =  27 (54 overall)
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550622e+01
+                                        pH  =  7.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  122       
+                           Density (g/cm³)  =  0.99708  
+                                Volume (L)  =  1.00298  
+                         Viscosity (mPa s)  =  0.89026  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.000e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 1.417e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -1.417e-09 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   27   (54 overall)
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550622e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -301,7 +300,7 @@ Using surface 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	  6.004e-10  Surface + diffuse layer charge, eq
+	 -4.105e-10  Surface + diffuse layer charge, eq
 	 -1.000e-01  Surface charge, eq
 	 -5.403e-02  sigma, C/m²
 	 -1.733e-01  psi, V
@@ -340,22 +339,22 @@ Su
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   7.000      Charge balance
-                                       pe  =  -3.375      Adjusted to redox equilibrium
-      Specific Conductance (µS/cm,  25°C)  = 0
-                          Density (g/cm³)  =   0.99708
-                               Volume (L)  =   1.00263
-                        Viscosity (mPa s)  =   0.89026
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.000e-03
-                       Mass of water (kg)  =   2.000e-02
-                 Total alkalinity (eq/kg)  =   1.415e-09
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   6.558e-10
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   0 (43 overall)
-                                  Total H  = 2.220278e+00
-                                  Total O  = 1.110139e+00
+                                        pH  =  7.000        Charge balance
+                                        pe  =  -3.375       Adjusted to redox equilibrium
+       Specific Conductance (µS/cm,  25°C)  =  0         
+                           Density (g/cm³)  =  0.99708  
+                                Volume (L)  =  1.00263  
+                         Viscosity (mPa s)  =  0.89026  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.000e-03  
+                        Mass of water (kg)  =  2.000e-02  
+                   Total alkalinity (eq/kg)  = 1.415e-09  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  6.561e-10  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   0    (46 overall)
+                                   Total H  =  2.220278e+00
+                                   Total O  =  1.110139e+00
 
 ----------------------------Distribution of species----------------------------
 
@@ -406,4 +405,8 @@ Calculating transport: 20 (mobile) cells, 1 shifts, 109 mixruns...
 WARNING: No porosities were read; used the value 1.00e+00 from -multi_D.
 
 Calculating transport: 20 (mobile) cells, 1 shifts, 218 mixruns...
+
+-------------------------------
+End of Run after 9.313 Seconds.
+-------------------------------
 

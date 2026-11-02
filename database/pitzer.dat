@@ -1,5 +1,4 @@
-
-.# pitzer.dat for calculating temperature and pressure dependence of reactions, and the specific conductance and viscosity of the solution, using
+# pitzer.dat for calculating temperature and pressure dependence of reactions, and the specific conductance and viscosity of the solution, using
 #   diffusion coefficients of species, molal volumina of aqueous species and minerals, and critical temperatures and pressures of gases used in Peng-Robinson's EOS.
 # Details are given at the end of this file.
 
@@ -60,7 +59,8 @@ Na+ = Na+
 # for calculating densities (rho) when I > 3...
 	# -Vm   2.28  -4.38  -4.1  -0.586  0.09  4  0.3  52  -3.33e-3  0.45
 	-viscosity 0.1387 -8.66e-2 1.25e-2 1.45e-2 7.5e-3 1.062
-	-dw 1.33e-9 75 3.627 0 0.7037
+	# -dw 1.33e-9 75 3.627 0 0.7037
+	-dw 1.33e-9 -180 3.545 2.2e-2 0.703 # for TC > 100, Quist and Marshall, 1968, JPC 72, 684
 K+ = K+
 	-Vm 3.322 -1.473 6.534 -2.712 9.06e-2 3.5 0 29.7 0 1
 	-viscosity 0.116 -0.191 1.52e-2 1.4e-2 2.59e-2 0.9028
@@ -71,11 +71,11 @@ Mg+2 = Mg+2
 	-dw 0.705e-9 -28 5.543 0 1.047
 Ca+2 = Ca+2
 	-Vm -0.3456 -7.252 6.149 -2.479 1.239 5 1.6 -57.1 -6.12e-3 1
-	-viscosity 0.359 -0.158 4.2e-2 1.5e-3 8.04e-3 2.3 # ref. 4, CaCl2 < 6 M
+	-viscosity 0.411 -0.204 2.64e-2 1.39e-3 8.92e-3 2.332
 	-dw 0.792e-9 34 5.411 0 1.046
 Sr+2 = Sr+2
 	-Vm -5.6e-2 -10.15 9.90 -2.36 0.807 5.26 2.72 -82.7 -1.37e-2 0.956
-	-viscosity 0.493 -0.255 2.3e-3 4.2e-3 -3.8e-3 1.762
+	-viscosity 0.310 -9.47e-2 1.97e-2 3.95e-3 -1e-3 1.813
 	-dw 0.794e-9 18 0.681 2.069 0.965 0.271
 Ba+2 = Ba+2
 	-Vm 2.012 -10 0.772 -2.4 0.4076 5.18 2 38.5 -1.13e-2 0.585
@@ -92,9 +92,9 @@ Cl- = Cl-
 	-viscosity 0 0 0 0 0 0 1 # the reference solute
 	-dw 2.033e-9 216 3.16 0.2071 0.7432
 CO3-2 = CO3-2
-	-Vm 4.476 -4.909 -7.621 -2.42 3.36 1.059 15 -287 -7.24e-2 0.267
-	-viscosity -7.52e-2 0.309 2.06e-2 6.83e-3 7.8e-4 1.305 -0.565
-	-dw 0.955e-9 -71.3 1.384 0.303 0.5726
+	-Vm 4.1 -5.115 -7.14 -2.42 3.2778 1.131 17.95 -350 -7.96e-2 0.208
+	-viscosity -9.6e-2 0.319 2.64e-2 8.91e-3 -1e-3 1.074 -1.696
+	-dw 0.955e-9 37.3 1.768 0.165 0.412
 SO4-2 = SO4-2
 	-Vm -7.77 43.17 176 -51.45 3.794 0 4.97 20.5 -5.77e-2 0.45
 	-viscosity -0.119 0.297 1.16e-2 5.58e-4 -1e-3 2.497 0.239
@@ -104,8 +104,8 @@ B(OH)3 = B(OH)3
 	-dw 1.1e-9
 Br- = Br-
 	-Vm 6.72 2.85 4.21 -3.14 1.38 0 -9.56e-2 7.08 -1.56e-3 1
-	-viscosity 0.254 -0.684 2.26e-3 0.399 3.54e-3 9.52e-3 0.753
-	-dw 2.09e-9 208 3.5 0 0.5737
+	-viscosity 0.666 -0.75 1.27e-3 3.92e-2 1.64e-2 0.3 0.833
+	-dw 2.09e-9 209 3.5 0 0.553
 H4SiO4 = H4SiO4
 	-Vm 10.5 1.7 20 -2.7 0.1291 # supcrt  2*H2O in a1
 	-dw 1.1e-9
@@ -129,14 +129,14 @@ H2Sg = H2Sg # H2S
 H2O = OH- + H+
 	-analytic 293.29227 0.1360833 -10576.913 -123.73158 0 -6.996455e-5
 	-Vm -9.66 28.5 80 -22.9 1.89 0 1.09 0 0 1
-	-viscosity -2.26e-2 0.106 2.184e-2 -3.2e-3 0 0.4082 -1.634 # < 5 M Li,Na,KOH
- 	-dw 5.27e-9 491 1.851 0 0.3256
+	-viscosity -3.18e-2 0.115 1.89e-2 -1.86e-2 4.94e-2 0.4133 -1.66 # < 5 M Li,Na,KOH
+	-dw 5.27e-9 487 1.31 0 0.139
 CO3-2 + H+ = HCO3-
 	log_k 10.329; -delta_h -3.561 kcal
 	-analytic 107.8871 0.03252849 -5151.79 -38.92561 563713.9
-	-Vm 9.293 -6.2 -10.566 -2.52 0.41 0.575 17 -1.65e-2 -9.44e-2 4.07e-2
-	-viscosity -0.185 1e-2 -5e-3 0.273 -5e-3 0.142 0.5
-	-dw 1.18e-9 -279 2.84 0 0.524
+	-Vm 9.04 -6.2 -11.696 -2.52 0.41 0.73 18 48.5 -9.34e-2 3.53e-2
+	-viscosity -6.61e-2 0.5 -1.5e-3 7.9e-3 -1e-3 -1 1.145
+	-dw 1.18e-9 -49.3 3.752 0 1
 CO3-2 + 2 H+ = CO2 + H2O
 	log_k 16.6767; -delta_h -5.738 kcal
 	-analytic 464.1965 0.09344813 -26986.16 -165.75951 2248628.9
@@ -155,7 +155,7 @@ H2Sg = HSg- + H+
 	-Vm 5.0119 4.9799 3.4765 -2.9849 1.441 # supcrt
 	-dw 1.73e-9
 2 H2Sg = (H2Sg)2 # activity correction for H2S solubility at high P, T
-        -analytical 10.227 -0.01384 -2200
+	-analytical 10.227 -0.01384 -2200
 	-Vm 36.41 -71.95 0 0 2.58
 	-dw 2.1e-9
 B(OH)3 + H2O = B(OH)4- + H+

@@ -56,10 +56,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -147,7 +147,7 @@ FeS(ppt)        -12.45   -16.36     -3.92    1.000e+00           0  -1.000e+00
 Goethite         -1.01    -2.01     -1.00    1.000e+00           0  -1.000e+00
 Greigite        -41.58   -86.62    -45.03    1.000e+00           0  -1.000e+00
 Gypsum            0.00    -4.58     -4.58    1.000e+00   2.994e+00   1.994e+00
-Hematite         -0.00    -4.01     -4.01    1.000e+00   6.500e+00   5.500e+00
+Hematite          0.00    -4.01     -4.01    1.000e+00   6.500e+00   5.500e+00
 Mackinawite     -11.71   -16.36     -4.65    1.000e+00           0  -1.000e+00
 Magnetite        -2.03     1.71      3.74    1.000e+00           0  -1.000e+00
 Pyrite           -9.37   -27.85    -18.48    1.000e+00           0  -1.000e+00
@@ -161,10 +161,10 @@ Zn(OH)2-b        -1.30    10.45     11.75    1.000e+00           0  -1.000e+00
 Zn(OH)2-c        -1.75    10.45     12.20    1.000e+00           0  -1.000e+00
 Zn(OH)2-e        -1.05    10.45     11.50    1.000e+00           0  -1.000e+00
 Zn(OH)2-g        -1.26    10.45     11.71    1.000e+00           0  -1.000e+00
-Zn2(OH)2SO4      -0.00     7.50      7.50    1.000e+00   7.693e-01  -2.307e-01
+Zn2(OH)2SO4       0.00     7.50      7.50    1.000e+00   7.693e-01  -2.307e-01
 Zn3O(SO4)2      -14.46     4.56     19.02    1.000e+00           0  -1.000e+00
 Zn4(OH)6SO4       0.00    28.40     28.40    1.000e+00   1.077e+00   7.698e-02
-ZnCO3:H2O         0.00   -10.26    -10.26    1.000e+00   6.000e+00   5.000e+00
+ZnCO3:H2O        -0.00   -10.26    -10.26    1.000e+00   6.000e+00   5.000e+00
 ZnMetal         -25.89    -0.13     25.76    1.000e+00           0  -1.000e+00
 ZnO(a)           -0.85    10.46     11.31    1.000e+00           0  -1.000e+00
 ZnS(a)           -2.57   -11.62     -9.05    1.000e+00           0  -1.000e+00
@@ -188,12 +188,12 @@ ZnSO4:H2O        -2.39    -2.96     -0.57    1.000e+00           0  -1.000e+00
                          Activity of water  =  0.969  
                   Ionic strength (mol/kgw)  =  1.847e+00  
                         Mass of water (kg)  =  9.552e-01  
-                  Total alkalinity (eq/kg)  =  3.563e-04  
+                   Total alkalinity (eq/kg)  = 3.563e-04  
                         Total CO2 (mol/kg)  =  3.858e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  57  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  28  
                                    Total H  =  1.060357e+02
                                    Total O  =  5.865677e+01
 
@@ -324,7 +324,7 @@ Zn            4.229e-01
   H2(g)           -10.61    -13.76   -3.15  H2
   H2O(g)           -1.52     -0.01    1.51  H2O
   H2S(g)          -14.16    -15.15   -1.00  H2S
-  Hematite         -0.00     -4.01   -4.01  Fe2O3
+  Hematite          0.00     -4.01   -4.01  Fe2O3
   Huntite         -10.72    -40.69  -29.97  CaMg3(CO3)4
   Hydromagnesite  -18.66    -27.43   -8.76  Mg5(CO3)4(OH)2:4H2O
   JarositeH       -27.51    -32.90   -5.39  (H3O)Fe3(SO4)2(OH)6
@@ -350,10 +350,10 @@ Zn            4.229e-01
   Zn(OH)2-c        -1.75     10.45   12.20  Zn(OH)2
   Zn(OH)2-e        -1.05     10.45   11.50  Zn(OH)2
   Zn(OH)2-g        -1.26     10.45   11.71  Zn(OH)2
-  Zn2(OH)2SO4      -0.00      7.50    7.50  Zn2(OH)2SO4
+  Zn2(OH)2SO4       0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.46      4.56   19.02  ZnO:2ZnSO4
   Zn4(OH)6SO4       0.00     28.40   28.40  Zn4(OH)6SO4
-  ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
+  ZnCO3:H2O        -0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.89     -0.13   25.76  Zn
   ZnO(a)           -0.85     10.46   11.31  ZnO
   ZnS(a)           -2.57    -11.62   -9.05  ZnS
@@ -395,10 +395,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -486,7 +486,7 @@ FeS(ppt)        -12.46   -16.37     -3.92    2.000e+00           0  -2.000e+00
 Goethite         -1.02    -2.02     -1.00    2.000e+00           0  -2.000e+00
 Greigite        -41.62   -86.65    -45.03    2.000e+00           0  -2.000e+00
 Gypsum            0.00    -4.58     -4.58    2.000e+00   5.996e+00   3.996e+00
-Hematite         -0.00    -4.01     -4.01    2.000e+00   1.300e+01   1.100e+01
+Hematite          0.00    -4.01     -4.01    2.000e+00   1.300e+01   1.100e+01
 Mackinawite     -11.72   -16.37     -4.65    2.000e+00           0  -2.000e+00
 Magnetite        -2.03     1.71      3.74    2.000e+00           0  -2.000e+00
 Pyrite           -9.39   -27.87    -18.48    2.000e+00           0  -2.000e+00
@@ -502,7 +502,7 @@ Zn(OH)2-e        -1.05    10.45     11.50    2.000e+00           0  -2.000e+00
 Zn(OH)2-g        -1.26    10.45     11.71    2.000e+00           0  -2.000e+00
 Zn2(OH)2SO4       0.00     7.50      7.50    2.000e+00   2.294e+00   2.943e-01
 Zn3O(SO4)2      -14.45     4.57     19.02    2.000e+00           0  -2.000e+00
-Zn4(OH)6SO4       0.00    28.40     28.40    2.000e+00   1.902e+00  -9.803e-02
+Zn4(OH)6SO4      -0.00    28.40     28.40    2.000e+00   1.902e+00  -9.803e-02
 ZnCO3:H2O         0.00   -10.26    -10.26    2.000e+00   1.200e+01   1.000e+01
 ZnMetal         -25.88    -0.12     25.76    2.000e+00           0  -2.000e+00
 ZnO(a)           -0.84    10.47     11.31    2.000e+00           0  -2.000e+00
@@ -527,12 +527,12 @@ ZnSO4:H2O        -2.40    -2.97     -0.57    2.000e+00           0  -2.000e+00
                          Activity of water  =  0.947  
                   Ionic strength (mol/kgw)  =  2.483e+00  
                         Mass of water (kg)  =  9.101e-01  
-                  Total alkalinity (eq/kg)  =  4.575e-04  
+                   Total alkalinity (eq/kg)  = 4.575e-04  
                         Total CO2 (mol/kg)  =  4.880e-04  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.189e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  43  
+                   Electrical balance (eq)  =  -1.081e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  27  
                                    Total H  =  1.010306e+02
                                    Total O  =  5.974899e+01
 
@@ -663,7 +663,7 @@ Zn            3.339e-01
   H2(g)           -10.62    -13.77   -3.15  H2
   H2O(g)           -1.53     -0.02    1.51  H2O
   H2S(g)          -14.18    -15.17   -1.00  H2S
-  Hematite         -0.00     -4.01   -4.01  Fe2O3
+  Hematite          0.00     -4.01   -4.01  Fe2O3
   Huntite          -9.39    -39.35  -29.97  CaMg3(CO3)4
   Hydromagnesite  -16.54    -25.30   -8.76  Mg5(CO3)4(OH)2:4H2O
   JarositeH       -27.57    -32.96   -5.39  (H3O)Fe3(SO4)2(OH)6
@@ -691,7 +691,7 @@ Zn            3.339e-01
   Zn(OH)2-g        -1.26     10.45   11.71  Zn(OH)2
   Zn2(OH)2SO4       0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.45      4.57   19.02  ZnO:2ZnSO4
-  Zn4(OH)6SO4       0.00     28.40   28.40  Zn4(OH)6SO4
+  Zn4(OH)6SO4      -0.00     28.40   28.40  Zn4(OH)6SO4
   ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.88     -0.12   25.76  Zn
   ZnO(a)           -0.84     10.47   11.31  ZnO
@@ -734,10 +734,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -811,6 +811,12 @@ Beginning of batch-reaction calculations.
 
 Reaction step 1.
 
+WARNING: Maximum iterations exceeded, 100
+
+WARNING: Numerical method failed with this set of convergence parameters.
+
+WARNING: Trying smaller step size, pe step size 10, 5 ... 
+
 Using solution 1.	Pure water
 Using pure phase assemblage 3.	
 
@@ -842,7 +848,7 @@ Zn(OH)2-g        -1.26    10.45     11.71    3.000e+00           0  -3.000e+00
 Zn2(OH)2SO4      -0.00     7.50      7.50    3.000e+00   3.766e+00   7.664e-01
 Zn3O(SO4)2      -14.44     4.58     19.02    3.000e+00           0  -3.000e+00
 Zn4(OH)6SO4      -0.00    28.40     28.40    3.000e+00   2.745e+00  -2.554e-01
-ZnCO3:H2O         0.00   -10.26    -10.26    3.000e+00   1.800e+01   1.500e+01
+ZnCO3:H2O        -0.00   -10.26    -10.26    3.000e+00   1.800e+01   1.500e+01
 ZnMetal         -25.87    -0.11     25.76    3.000e+00           0  -3.000e+00
 ZnO(a)           -0.83    10.48     11.31    3.000e+00           0  -3.000e+00
 ZnS(a)           -2.57   -11.62     -9.05    3.000e+00           0  -3.000e+00
@@ -866,12 +872,12 @@ ZnSO4:H2O        -2.41    -2.98     -0.57    3.000e+00           0  -3.000e+00
                          Activity of water  =  0.924  
                   Ionic strength (mol/kgw)  =  3.050e+00  
                         Mass of water (kg)  =  8.650e-01  
-                  Total alkalinity (eq/kg)  =  6.254e-04  
+                   Total alkalinity (eq/kg)  = 6.254e-04  
                         Total CO2 (mol/kg)  =  6.540e-04  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -4.625e-12 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  27  
+                   Electrical balance (eq)  =  -1.117e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   44   (145 overall)
                                    Total H  =  9.602773e+01
                                    Total O  =  6.098603e+01
 
@@ -1031,7 +1037,7 @@ Zn            2.766e-01
   Zn2(OH)2SO4      -0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.44      4.58   19.02  ZnO:2ZnSO4
   Zn4(OH)6SO4      -0.00     28.40   28.40  Zn4(OH)6SO4
-  ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
+  ZnCO3:H2O        -0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.87     -0.11   25.76  Zn
   ZnO(a)           -0.83     10.48   11.31  ZnO
   ZnS(a)           -2.57    -11.62   -9.05  ZnS
@@ -1073,10 +1079,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -1166,7 +1172,7 @@ FeS(ppt)        -12.48   -16.39     -3.92    4.000e+00           0  -4.000e+00
 Goethite         -1.03    -2.03     -1.00    4.000e+00           0  -4.000e+00
 Greigite        -41.71   -86.75    -45.03    4.000e+00           0  -4.000e+00
 Gypsum            0.00    -4.58     -4.58    4.000e+00   1.200e+01   7.997e+00
-Hematite          0.00    -4.01     -4.01    4.000e+00   2.600e+01   2.200e+01
+Hematite         -0.00    -4.01     -4.01    4.000e+00   2.600e+01   2.200e+01
 Mackinawite     -11.75   -16.39     -4.65    4.000e+00           0  -4.000e+00
 Magnetite        -2.03     1.71      3.74    4.000e+00           0  -4.000e+00
 Pyrite           -9.44   -27.92    -18.48    4.000e+00           0  -4.000e+00
@@ -1207,12 +1213,12 @@ ZnSO4:H2O        -2.43    -3.00     -0.57    4.000e+00           0  -4.000e+00
                          Activity of water  =  0.898  
                   Ionic strength (mol/kgw)  =  3.579e+00  
                         Mass of water (kg)  =  8.200e-01  
-                  Total alkalinity (eq/kg)  =  8.647e-04  
+                   Total alkalinity (eq/kg)  = 8.647e-04  
                         Total CO2 (mol/kg)  =  8.902e-04  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -9.315e-11 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  51  
+                   Electrical balance (eq)  =  -1.286e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  22  
                                    Total H  =  9.102578e+01
                                    Total O  =  6.230904e+01
 
@@ -1343,7 +1349,7 @@ Zn            2.388e-01
   H2(g)           -10.64    -13.79   -3.15  H2
   H2O(g)           -1.56     -0.05    1.51  H2O
   H2S(g)          -14.22    -15.22   -1.00  H2S
-  Hematite          0.00     -4.01   -4.01  Fe2O3
+  Hematite         -0.00     -4.01   -4.01  Fe2O3
   Huntite          -7.78    -37.74  -29.97  CaMg3(CO3)4
   Hydromagnesite  -14.08    -22.84   -8.76  Mg5(CO3)4(OH)2:4H2O
   JarositeH       -27.73    -33.12   -5.39  (H3O)Fe3(SO4)2(OH)6
@@ -1414,10 +1420,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -1491,6 +1497,12 @@ Beginning of batch-reaction calculations.
 
 Reaction step 1.
 
+WARNING: Maximum iterations exceeded, 200
+
+WARNING: Numerical method failed with this set of convergence parameters.
+
+WARNING: Trying smaller step size, pe step size 10, 5 ... 
+
 Using solution 1.	Pure water
 Using pure phase assemblage 3.	
 
@@ -1505,7 +1517,7 @@ FeS(ppt)        -12.49   -16.41     -3.92    5.000e+00           0  -5.000e+00
 Goethite         -1.03    -2.03     -1.00    5.000e+00           0  -5.000e+00
 Greigite        -41.77   -86.80    -45.03    5.000e+00           0  -5.000e+00
 Gypsum            0.00    -4.58     -4.58    5.000e+00   1.500e+01   9.997e+00
-Hematite          0.00    -4.01     -4.01    5.000e+00   3.250e+01   2.750e+01
+Hematite         -0.00    -4.01     -4.01    5.000e+00   3.250e+01   2.750e+01
 Mackinawite     -11.76   -16.41     -4.65    5.000e+00           0  -5.000e+00
 Magnetite        -2.03     1.71      3.74    5.000e+00           0  -5.000e+00
 Pyrite           -9.47   -27.95    -18.48    5.000e+00           0  -5.000e+00
@@ -1522,7 +1534,7 @@ Zn(OH)2-g        -1.26    10.45     11.71    5.000e+00           0  -5.000e+00
 Zn2(OH)2SO4       0.00     7.50      7.50    5.000e+00   6.628e+00   1.628e+00
 Zn3O(SO4)2      -14.41     4.61     19.02    5.000e+00           0  -5.000e+00
 Zn4(OH)6SO4       0.00    28.40     28.40    5.000e+00   4.457e+00  -5.425e-01
-ZnCO3:H2O        -0.00   -10.26    -10.26    5.000e+00   3.000e+01   2.500e+01
+ZnCO3:H2O         0.00   -10.26    -10.26    5.000e+00   3.000e+01   2.500e+01
 ZnMetal         -25.84    -0.08     25.76    5.000e+00           0  -5.000e+00
 ZnO(a)           -0.80    10.51     11.31    5.000e+00           0  -5.000e+00
 ZnS(a)           -2.57   -11.62     -9.05    5.000e+00           0  -5.000e+00
@@ -1546,12 +1558,12 @@ ZnSO4:H2O        -2.44    -3.01     -0.57    5.000e+00           0  -5.000e+00
                          Activity of water  =  0.869  
                   Ionic strength (mol/kgw)  =  4.084e+00  
                         Mass of water (kg)  =  7.749e-01  
-                  Total alkalinity (eq/kg)  =  1.191e-03  
+                   Total alkalinity (eq/kg)  = 1.191e-03  
                         Total CO2 (mol/kg)  =  1.212e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.081e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  33  
+                   Electrical balance (eq)  =  -1.224e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   115  (316 overall)
                                    Total H  =  8.602441e+01
                                    Total O  =  6.368350e+01
 
@@ -1682,7 +1694,7 @@ Zn            2.128e-01
   H2(g)           -10.65    -13.80   -3.15  H2
   H2O(g)           -1.57     -0.06    1.51  H2O
   H2S(g)          -14.25    -15.25   -1.00  H2S
-  Hematite          0.00     -4.01   -4.01  Fe2O3
+  Hematite         -0.00     -4.01   -4.01  Fe2O3
   Huntite          -7.15    -37.11  -29.97  CaMg3(CO3)4
   Hydromagnesite  -13.17    -21.93   -8.76  Mg5(CO3)4(OH)2:4H2O
   JarositeH       -27.82    -33.21   -5.39  (H3O)Fe3(SO4)2(OH)6
@@ -1711,7 +1723,7 @@ Zn            2.128e-01
   Zn2(OH)2SO4       0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.41      4.61   19.02  ZnO:2ZnSO4
   Zn4(OH)6SO4       0.00     28.40   28.40  Zn4(OH)6SO4
-  ZnCO3:H2O        -0.00    -10.26  -10.26  ZnCO3:H2O
+  ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.84     -0.08   25.76  Zn
   ZnO(a)           -0.80     10.51   11.31  ZnO
   ZnS(a)           -2.57    -11.62   -9.05  ZnS
@@ -1753,10 +1765,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -1897,12 +1909,12 @@ ZnSO4:H2O        -2.46    -3.03     -0.57    6.000e+00           0  -6.000e+00
                          Activity of water  =  0.838  
                   Ionic strength (mol/kgw)  =  4.573e+00  
                         Mass of water (kg)  =  7.298e-01  
-                  Total alkalinity (eq/kg)  =  1.625e-03  
+                   Total alkalinity (eq/kg)  = 1.625e-03  
                         Total CO2 (mol/kg)  =  1.642e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.067e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                               Iterations  =   65   (667 overall)
+                   Electrical balance (eq)  =  -1.081e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   104  (706 overall)
                                    Total H  =  8.102343e+01
                                    Total O  =  6.508916e+01
 
@@ -2104,10 +2116,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -2181,6 +2193,12 @@ Beginning of batch-reaction calculations.
 
 Reaction step 1.
 
+WARNING: Maximum iterations exceeded, 200
+
+WARNING: Numerical method failed with this set of convergence parameters.
+
+WARNING: Trying smaller step size, pe step size 10, 5 ... 
+
 Using solution 1.	Pure water
 Using pure phase assemblage 3.	
 
@@ -2195,7 +2213,7 @@ FeS(ppt)        -12.53   -16.44     -3.92    7.000e+00           0  -7.000e+00
 Goethite         -1.05    -2.05     -1.00    7.000e+00           0  -7.000e+00
 Greigite        -41.91   -86.94    -45.03    7.000e+00           0  -7.000e+00
 Gypsum            0.00    -4.58     -4.58    7.000e+00   2.100e+01   1.400e+01
-Hematite          0.00    -4.01     -4.01    7.000e+00   4.550e+01   3.850e+01
+Hematite         -0.00    -4.01     -4.01    7.000e+00   4.550e+01   3.850e+01
 Mackinawite     -11.80   -16.44     -4.65    7.000e+00           0  -7.000e+00
 Magnetite        -2.03     1.71      3.74    7.000e+00           0  -7.000e+00
 Pyrite           -9.54   -28.02    -18.48    7.000e+00           0  -7.000e+00
@@ -2209,10 +2227,10 @@ Zn(OH)2-b        -1.30    10.45     11.75    7.000e+00           0  -7.000e+00
 Zn(OH)2-c        -1.75    10.45     12.20    7.000e+00           0  -7.000e+00
 Zn(OH)2-e        -1.05    10.45     11.50    7.000e+00           0  -7.000e+00
 Zn(OH)2-g        -1.26    10.45     11.71    7.000e+00           0  -7.000e+00
-Zn2(OH)2SO4       0.00     7.50      7.50    7.000e+00   9.441e+00   2.441e+00
+Zn2(OH)2SO4      -0.00     7.50      7.50    7.000e+00   9.441e+00   2.441e+00
 Zn3O(SO4)2      -14.37     4.65     19.02    7.000e+00           0  -7.000e+00
 Zn4(OH)6SO4       0.00    28.40     28.40    7.000e+00   6.187e+00  -8.133e-01
-ZnCO3:H2O         0.00   -10.26    -10.26    7.000e+00   4.200e+01   3.500e+01
+ZnCO3:H2O        -0.00   -10.26    -10.26    7.000e+00   4.200e+01   3.500e+01
 ZnMetal         -25.80    -0.05     25.76    7.000e+00           0  -7.000e+00
 ZnO(a)           -0.76    10.55     11.31    7.000e+00           0  -7.000e+00
 ZnS(a)           -2.57   -11.62     -9.05    7.000e+00           0  -7.000e+00
@@ -2236,12 +2254,12 @@ ZnSO4:H2O        -2.48    -3.05     -0.57    7.000e+00           0  -7.000e+00
                          Activity of water  =  0.802  
                   Ionic strength (mol/kgw)  =  5.050e+00  
                         Mass of water (kg)  =  6.848e-01  
-                  Total alkalinity (eq/kg)  =  2.201e-03  
+                   Total alkalinity (eq/kg)  = 2.201e-03  
                         Total CO2 (mol/kg)  =  2.212e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  29  
+                   Electrical balance (eq)  =  7.119e-09  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   51   (252 overall)
                                    Total H  =  7.602279e+01
                                    Total O  =  6.651442e+01
 
@@ -2372,7 +2390,7 @@ Zn            1.801e-01
   H2(g)           -10.69    -13.84   -3.15  H2
   H2O(g)           -1.61     -0.10    1.51  H2O
   H2S(g)          -14.32    -15.32   -1.00  H2S
-  Hematite          0.00     -4.01   -4.01  Fe2O3
+  Hematite         -0.00     -4.01   -4.01  Fe2O3
   Huntite          -6.00    -35.97  -29.97  CaMg3(CO3)4
   Hydromagnesite  -11.62    -20.38   -8.76  Mg5(CO3)4(OH)2:4H2O
   JarositeH       -28.05    -33.44   -5.39  (H3O)Fe3(SO4)2(OH)6
@@ -2398,10 +2416,10 @@ Zn            1.801e-01
   Zn(OH)2-c        -1.75     10.45   12.20  Zn(OH)2
   Zn(OH)2-e        -1.05     10.45   11.50  Zn(OH)2
   Zn(OH)2-g        -1.26     10.45   11.71  Zn(OH)2
-  Zn2(OH)2SO4       0.00      7.50    7.50  Zn2(OH)2SO4
+  Zn2(OH)2SO4      -0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.37      4.65   19.02  ZnO:2ZnSO4
   Zn4(OH)6SO4       0.00     28.40   28.40  Zn4(OH)6SO4
-  ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
+  ZnCO3:H2O        -0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.80     -0.05   25.76  Zn
   ZnO(a)           -0.76     10.55   11.31  ZnO
   ZnS(a)           -2.57    -11.62   -9.05  ZnS
@@ -2443,10 +2461,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -2534,13 +2552,13 @@ FeS(ppt)        -12.55   -16.47     -3.92    8.000e+00           0  -8.000e+00
 Goethite         -1.06    -2.06     -1.00    8.000e+00           0  -8.000e+00
 Greigite        -42.00   -87.03    -45.03    8.000e+00           0  -8.000e+00
 Gypsum            0.00    -4.58     -4.58    8.000e+00   2.400e+01   1.600e+01
-Hematite          0.00    -4.01     -4.01    8.000e+00   5.200e+01   4.400e+01
+Hematite         -0.00    -4.01     -4.01    8.000e+00   5.200e+01   4.400e+01
 Mackinawite     -11.82   -16.47     -4.65    8.000e+00           0  -8.000e+00
 Magnetite        -2.03     1.71      3.74    8.000e+00           0  -8.000e+00
 Pyrite           -9.58   -28.06    -18.48    8.000e+00           0  -8.000e+00
 Siderite         -4.10   -14.99    -10.89    8.000e+00           0  -8.000e+00
 Smithsonite      -0.14   -10.14    -10.00    8.000e+00           0  -8.000e+00
-Sphalerite        0.00   -11.62    -11.62    8.000e+00   8.600e+01   7.800e+01
+Sphalerite       -0.00   -11.62    -11.62    8.000e+00   8.600e+01   7.800e+01
 Zincite(c)       -0.57    10.57     11.14    8.000e+00           0  -8.000e+00
 Zincosite        -5.96    -2.95      3.01    8.000e+00           0  -8.000e+00
 Zn(OH)2-a        -2.00    10.45     12.45    8.000e+00           0  -8.000e+00
@@ -2550,7 +2568,7 @@ Zn(OH)2-e        -1.05    10.45     11.50    8.000e+00           0  -8.000e+00
 Zn(OH)2-g        -1.26    10.45     11.71    8.000e+00           0  -8.000e+00
 Zn2(OH)2SO4       0.00     7.50      7.50    8.000e+00   1.084e+01   2.839e+00
 Zn3O(SO4)2      -14.35     4.67     19.02    8.000e+00           0  -8.000e+00
-Zn4(OH)6SO4       0.00    28.40     28.40    8.000e+00   7.054e+00  -9.459e-01
+Zn4(OH)6SO4      -0.00    28.40     28.40    8.000e+00   7.054e+00  -9.459e-01
 ZnCO3:H2O         0.00   -10.26    -10.26    8.000e+00   4.800e+01   4.000e+01
 ZnMetal         -25.78    -0.02     25.76    8.000e+00           0  -8.000e+00
 ZnO(a)           -0.74    10.57     11.31    8.000e+00           0  -8.000e+00
@@ -2575,12 +2593,12 @@ ZnSO4:H2O        -2.50    -3.07     -0.57    8.000e+00           0  -8.000e+00
                          Activity of water  =  0.761  
                   Ionic strength (mol/kgw)  =  5.524e+00  
                         Mass of water (kg)  =  6.398e-01  
-                  Total alkalinity (eq/kg)  =  2.962e-03  
+                   Total alkalinity (eq/kg)  = 2.962e-03  
                         Total CO2 (mol/kg)  =  2.966e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.083e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  29  
+                   Electrical balance (eq)  =  -1.078e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  31  
                                    Total H  =  7.102243e+01
                                    Total O  =  6.795267e+01
 
@@ -2711,7 +2729,7 @@ Zn            1.690e-01
   H2(g)           -10.71    -13.86   -3.15  H2
   H2O(g)           -1.63     -0.12    1.51  H2O
   H2S(g)          -14.37    -15.36   -1.00  H2S
-  Hematite          0.00     -4.01   -4.01  Fe2O3
+  Hematite         -0.00     -4.01   -4.01  Fe2O3
   Huntite          -5.44    -35.41  -29.97  CaMg3(CO3)4
   Hydromagnesite  -10.92    -19.68   -8.76  Mg5(CO3)4(OH)2:4H2O
   JarositeH       -28.19    -33.58   -5.39  (H3O)Fe3(SO4)2(OH)6
@@ -2727,7 +2745,7 @@ Zn            1.690e-01
   Siderite         -4.10    -14.99  -10.89  FeCO3
   Siderite(d)(3)   -4.54    -14.99  -10.45  FeCO3
   Smithsonite      -0.14    -10.14  -10.00  ZnCO3
-  Sphalerite        0.00    -11.62  -11.62  ZnS
+  Sphalerite       -0.00    -11.62  -11.62  ZnS
   Sulfur           -9.49    -24.51  -15.03  S
   Wurtzite         -1.94    -11.62   -9.68  ZnS
   Zincite(c)       -0.57     10.57   11.14  ZnO
@@ -2739,7 +2757,7 @@ Zn            1.690e-01
   Zn(OH)2-g        -1.26     10.45   11.71  Zn(OH)2
   Zn2(OH)2SO4       0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.35      4.67   19.02  ZnO:2ZnSO4
-  Zn4(OH)6SO4       0.00     28.40   28.40  Zn4(OH)6SO4
+  Zn4(OH)6SO4      -0.00     28.40   28.40  Zn4(OH)6SO4
   ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.78     -0.02   25.76  Zn
   ZnO(a)           -0.74     10.57   11.31  ZnO
@@ -2782,10 +2800,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -2859,8 +2877,8 @@ Beginning of batch-reaction calculations.
 
 Reaction step 1.
 
-WARNING: Mass of water is less than 1e-10 kilogram.
-The aqueous phase may not be stable relative to given masses of minerals.
+WARNING: Maximum iterations exceeded, 200
+
 WARNING: Numerical method failed with this set of convergence parameters.
 
 WARNING: Trying smaller step size, pe step size 10, 5 ... 
@@ -2879,7 +2897,7 @@ FeS(ppt)        -12.58   -16.49     -3.92    9.000e+00           0  -9.000e+00
 Goethite         -1.08    -2.08     -1.00    9.000e+00           0  -9.000e+00
 Greigite        -42.11   -87.14    -45.03    9.000e+00           0  -9.000e+00
 Gypsum            0.00    -4.58     -4.58    9.000e+00   2.700e+01   1.800e+01
-Hematite          0.00    -4.01     -4.01    9.000e+00   5.850e+01   4.950e+01
+Hematite         -0.00    -4.01     -4.01    9.000e+00   5.850e+01   4.950e+01
 Mackinawite     -11.85   -16.49     -4.65    9.000e+00           0  -9.000e+00
 Magnetite        -2.03     1.71      3.74    9.000e+00           0  -9.000e+00
 Pyrite           -9.64   -28.12    -18.48    9.000e+00           0  -9.000e+00
@@ -2893,10 +2911,10 @@ Zn(OH)2-b        -1.30    10.45     11.75    9.000e+00           0  -9.000e+00
 Zn(OH)2-c        -1.75    10.45     12.20    9.000e+00           0  -9.000e+00
 Zn(OH)2-e        -1.05    10.45     11.50    9.000e+00           0  -9.000e+00
 Zn(OH)2-g        -1.26    10.45     11.71    9.000e+00           0  -9.000e+00
-Zn2(OH)2SO4      -0.00     7.50      7.50    9.000e+00   1.223e+01   3.234e+00
+Zn2(OH)2SO4       0.00     7.50      7.50    9.000e+00   1.223e+01   3.234e+00
 Zn3O(SO4)2      -14.32     4.70     19.02    9.000e+00           0  -9.000e+00
-Zn4(OH)6SO4      -0.00    28.40     28.40    9.000e+00   7.923e+00  -1.077e+00
-ZnCO3:H2O        -0.00   -10.26    -10.26    9.000e+00   5.400e+01   4.500e+01
+Zn4(OH)6SO4       0.00    28.40     28.40    9.000e+00   7.923e+00  -1.077e+00
+ZnCO3:H2O         0.00   -10.26    -10.26    9.000e+00   5.400e+01   4.500e+01
 ZnMetal         -25.75     0.00     25.76    9.000e+00           0  -9.000e+00
 ZnO(a)           -0.71    10.60     11.31    9.000e+00           0  -9.000e+00
 ZnS(a)           -2.57   -11.62     -9.05    9.000e+00           0  -9.000e+00
@@ -2920,14 +2938,14 @@ ZnSO4:H2O        -2.53    -3.10     -0.57    9.000e+00           0  -9.000e+00
                          Activity of water  =  0.714  
                   Ionic strength (mol/kgw)  =  5.998e+00  
                         Mass of water (kg)  =  5.947e-01  
-                  Total alkalinity (eq/kg)  =  3.972e-03  
+                   Total alkalinity (eq/kg)  = 3.972e-03  
                         Total CO2 (mol/kg)  =  3.967e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  5.814e-09  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
-                               Iterations  =   67   (247 overall)
+                   Electrical balance (eq)  =  -1.082e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   65   (266 overall)
                                    Total H  =  6.602235e+01
-                                   Total O  =  6.940007e+01
+                                   Total O  =  6.940006e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -3056,7 +3074,7 @@ Zn            1.598e-01
   H2(g)           -10.74    -13.89   -3.15  H2
   H2O(g)           -1.66     -0.15    1.51  H2O
   H2S(g)          -14.42    -15.42   -1.00  H2S
-  Hematite          0.00     -4.01   -4.01  Fe2O3
+  Hematite         -0.00     -4.01   -4.01  Fe2O3
   Huntite          -4.87    -34.84  -29.97  CaMg3(CO3)4
   Hydromagnesite  -10.24    -19.00   -8.76  Mg5(CO3)4(OH)2:4H2O
   JarositeH       -28.37    -33.76   -5.39  (H3O)Fe3(SO4)2(OH)6
@@ -3082,10 +3100,10 @@ Zn            1.598e-01
   Zn(OH)2-c        -1.75     10.45   12.20  Zn(OH)2
   Zn(OH)2-e        -1.05     10.45   11.50  Zn(OH)2
   Zn(OH)2-g        -1.26     10.45   11.71  Zn(OH)2
-  Zn2(OH)2SO4      -0.00      7.50    7.50  Zn2(OH)2SO4
+  Zn2(OH)2SO4       0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.32      4.70   19.02  ZnO:2ZnSO4
-  Zn4(OH)6SO4      -0.00     28.40   28.40  Zn4(OH)6SO4
-  ZnCO3:H2O        -0.00    -10.26  -10.26  ZnCO3:H2O
+  Zn4(OH)6SO4       0.00     28.40   28.40  Zn4(OH)6SO4
+  ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.75      0.00   25.76  Zn
   ZnO(a)           -0.71     10.60   11.31  ZnO
   ZnS(a)           -2.57    -11.62   -9.05  ZnS
@@ -3127,10 +3145,10 @@ Initial solution 1.	Pure water
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.001e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.082e-10  
+                   Total alkalinity (eq/kg)  = 1.082e-10  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -1.082e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.05 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.05 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -3217,7 +3235,7 @@ Dolomite         -1.89   -18.98    -17.09    1.000e+01           0  -1.000e+01
 FeS(ppt)        -12.61   -16.53     -3.92    1.000e+01           0  -1.000e+01
 Goethite         -1.09    -2.09     -1.00    1.000e+01           0  -1.000e+01
 Greigite        -42.25   -87.28    -45.03    1.000e+01           0  -1.000e+01
-Gypsum            0.00    -4.58     -4.58    1.000e+01   3.000e+01   2.000e+01
+Gypsum           -0.00    -4.58     -4.58    1.000e+01   3.000e+01   2.000e+01
 Hematite          0.00    -4.01     -4.01    1.000e+01   6.500e+01   5.500e+01
 Mackinawite     -11.88   -16.53     -4.65    1.000e+01           0  -1.000e+01
 Magnetite        -2.03     1.71      3.74    1.000e+01           0  -1.000e+01
@@ -3232,10 +3250,10 @@ Zn(OH)2-b        -1.30    10.45     11.75    1.000e+01           0  -1.000e+01
 Zn(OH)2-c        -1.75    10.45     12.20    1.000e+01           0  -1.000e+01
 Zn(OH)2-e        -1.05    10.45     11.50    1.000e+01           0  -1.000e+01
 Zn(OH)2-g        -1.26    10.45     11.71    1.000e+01           0  -1.000e+01
-Zn2(OH)2SO4       0.00     7.50      7.50    1.000e+01   1.363e+01   3.626e+00
+Zn2(OH)2SO4      -0.00     7.50      7.50    1.000e+01   1.363e+01   3.626e+00
 Zn3O(SO4)2      -14.29     4.73     19.02    1.000e+01           0  -1.000e+01
-Zn4(OH)6SO4      -0.00    28.40     28.40    1.000e+01   8.792e+00  -1.208e+00
-ZnCO3:H2O        -0.00   -10.26    -10.26    1.000e+01   6.000e+01   5.000e+01
+Zn4(OH)6SO4       0.00    28.40     28.40    1.000e+01   8.792e+00  -1.208e+00
+ZnCO3:H2O         0.00   -10.26    -10.26    1.000e+01   6.000e+01   5.000e+01
 ZnMetal         -25.72     0.04     25.76    1.000e+01           0  -1.000e+01
 ZnO(a)           -0.68    10.63     11.31    1.000e+01           0  -1.000e+01
 ZnS(a)           -2.57   -11.62     -9.05    1.000e+01           0  -1.000e+01
@@ -3259,12 +3277,12 @@ ZnSO4:H2O        -2.56    -3.13     -0.57    1.000e+01           0  -1.000e+01
                          Activity of water  =  0.661  
                   Ionic strength (mol/kgw)  =  6.480e+00  
                         Mass of water (kg)  =  5.497e-01  
-                  Total alkalinity (eq/kg)  =  5.325e-03  
+                   Total alkalinity (eq/kg)  = 5.325e-03  
                         Total CO2 (mol/kg)  =  5.309e-03  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.067e-10 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
-                                Iterations  =  60  
+                   Electrical balance (eq)  =  -1.061e-10 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  40  
                                    Total H  =  6.102257e+01
                                    Total O  =  7.085430e+01
 
@@ -3314,7 +3332,7 @@ Fe(3)         1.359e-14
    Fe(OH)3         3.295e-16   1.465e-15   -15.482   -14.834     0.648     (0)  
    FeOH+2          1.550e-16   1.541e-17   -15.810   -16.812    -1.002     (0)  
    Fe(OH)4-        3.429e-18   1.994e-18   -17.465   -17.700    -0.235     (0)  
-   FeSO4+          2.770e-18   1.556e-18   -17.558   -17.808    -0.251     (0)  
+   FeSO4+          2.770e-18   1.555e-18   -17.558   -17.808    -0.251     (0)  
    Fe(SO4)2-       7.154e-19   3.019e-18   -18.145   -17.520     0.625     (0)  
    Fe+3            3.754e-20   1.599e-21   -19.426   -20.796    -1.371     (0)  
    FeHSO4+2        5.813e-27   1.843e-24   -26.236   -23.734     2.501     (0)  
@@ -3353,7 +3371,7 @@ S(6)          1.835e+01
    FeSO4           5.516e-07   2.452e-06    -6.258    -5.610     0.648     (0)  
    CaHSO4+         7.374e-09   3.112e-08    -8.132    -7.507     0.625     (0)  
    FeHSO4+         1.690e-12   7.134e-12   -11.772   -11.147     0.625     (0)  
-   FeSO4+          2.770e-18   1.556e-18   -17.558   -17.808    -0.251     (0)  
+   FeSO4+          2.770e-18   1.555e-18   -17.558   -17.808    -0.251     (0)  
    Fe(SO4)2-       7.154e-19   3.019e-18   -18.145   -17.520     0.625     (0)  
    FeHSO4+2        5.813e-27   1.843e-24   -26.236   -23.734     2.501     (0)  
 Zn            1.521e-01
@@ -3391,7 +3409,7 @@ Zn            1.521e-01
   Goethite         -1.09     -2.09   -1.00  FeOOH
   Goslarite        -2.25     -4.21   -1.96  ZnSO4:7H2O
   Greigite        -42.25    -87.28  -45.03  Fe3S4
-  Gypsum            0.00     -4.58   -4.58  CaSO4:2H2O
+  Gypsum           -0.00     -4.58   -4.58  CaSO4:2H2O
   H2(g)           -10.77    -13.92   -3.15  H2
   H2O(g)           -1.69     -0.18    1.51  H2O
   H2S(g)          -14.49    -15.49   -1.00  H2S
@@ -3421,10 +3439,10 @@ Zn            1.521e-01
   Zn(OH)2-c        -1.75     10.45   12.20  Zn(OH)2
   Zn(OH)2-e        -1.05     10.45   11.50  Zn(OH)2
   Zn(OH)2-g        -1.26     10.45   11.71  Zn(OH)2
-  Zn2(OH)2SO4       0.00      7.50    7.50  Zn2(OH)2SO4
+  Zn2(OH)2SO4      -0.00      7.50    7.50  Zn2(OH)2SO4
   Zn3O(SO4)2      -14.29      4.73   19.02  ZnO:2ZnSO4
-  Zn4(OH)6SO4      -0.00     28.40   28.40  Zn4(OH)6SO4
-  ZnCO3:H2O        -0.00    -10.26  -10.26  ZnCO3:H2O
+  Zn4(OH)6SO4       0.00     28.40   28.40  Zn4(OH)6SO4
+  ZnCO3:H2O         0.00    -10.26  -10.26  ZnCO3:H2O
   ZnMetal         -25.72      0.04   25.76  Zn
   ZnO(a)           -0.68     10.63   11.31  ZnO
   ZnS(a)           -2.57    -11.62   -9.05  ZnS
@@ -3440,8 +3458,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 21.
 -------------------------------------
-
-------------------------------
-End of Run after 0.17 Seconds.
-------------------------------
 

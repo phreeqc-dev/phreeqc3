@@ -7,7 +7,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -68,15 +67,15 @@ Initial solution 1.
        Specific Conductance (µS/cm,  25°C)  =  3         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89014  
+                         Viscosity (mPa s)  =  0.89543  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.648e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.273e-05  
+                   Total alkalinity (eq/kg)  = 3.273e-05  
                         Total CO2 (mol/kg)  =  4.000e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.270e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  9.97  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 9.97  
                                 Iterations  =  3   
                           Gamma iterations  =  2   
                        Osmotic coefficient  =  0.99458  
@@ -94,9 +93,9 @@ Initial solution 1.
    H+              1.009e-07   1.000e-07    -6.996    -7.000    -0.004      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(4)          4.000e-05
-   HCO3-           3.270e-05   3.241e-05    -4.485    -4.489    -0.004     22.77
+   HCO3-           3.270e-05   3.241e-05    -4.485    -4.489    -0.004     22.66
    CO2             7.287e-06   7.288e-06    -5.137    -5.137     0.000     34.79
-   CO3-2           1.575e-08   1.520e-08    -7.803    -7.818    -0.015     -7.29
+   CO3-2           1.575e-08   1.520e-08    -7.803    -7.818    -0.015     -8.16
    MgCO3           1.244e-10   1.244e-10    -9.905    -9.905     0.000    -17.09
 Ca            1.000e-05
    Ca+2            1.000e-05   9.658e-06    -5.000    -5.015    -0.015    -18.23
@@ -157,15 +156,15 @@ Ca(x)Mg(1-x)CO3                             0.00e+00
        Specific Conductance (µS/cm,  25°C)  =  3         
                            Density (g/cm³)  =  0.99705  
                                 Volume (L)  =  1.00297  
-                         Viscosity (mPa s)  =  0.89014  
+                         Viscosity (mPa s)  =  0.89543  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.648e-05  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.273e-05  
+                   Total alkalinity (eq/kg)  = 3.273e-05  
                         Total CO2 (mol/kg)  =  4.000e-05  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.270e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  9.97  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 9.97  
                                 Iterations  =  1   
                           Gamma iterations  =  1   
                        Osmotic coefficient  =  0.99458  
@@ -183,9 +182,9 @@ Ca(x)Mg(1-x)CO3                             0.00e+00
    H+              1.009e-07   1.000e-07    -6.996    -7.000    -0.004      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(4)          4.000e-05
-   HCO3-           3.270e-05   3.241e-05    -4.485    -4.489    -0.004     22.77
+   HCO3-           3.270e-05   3.241e-05    -4.485    -4.489    -0.004     22.66
    CO2             7.287e-06   7.288e-06    -5.137    -5.137     0.000     34.79
-   CO3-2           1.575e-08   1.520e-08    -7.803    -7.818    -0.015     -7.29
+   CO3-2           1.575e-08   1.520e-08    -7.803    -7.818    -0.015     -8.16
    MgCO3           1.244e-10   1.244e-10    -9.905    -9.905     0.000    -17.09
 Ca            1.000e-05
    Ca+2            1.000e-05   9.658e-06    -5.000    -5.015    -0.015    -18.23
@@ -276,15 +275,15 @@ Ca(x)Mg(1-x)CO3                             9.89e-03
        Specific Conductance (µS/cm,  25°C)  =  35        
                            Density (g/cm³)  =  0.99706  
                                 Volume (L)  =  1.00296  
-                         Viscosity (mPa s)  =  0.89033  
+                         Viscosity (mPa s)  =  0.89746  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.096e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.451e-04  
+                   Total alkalinity (eq/kg)  = 2.451e-04  
                         Total CO2 (mol/kg)  =  1.462e-04  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  7.270e-06  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  1.46  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 1.46  
                                 Iterations  =  38  
                           Gamma iterations  =  3   
                        Osmotic coefficient  =  0.98114  
@@ -302,8 +301,8 @@ Ca(x)Mg(1-x)CO3                             9.89e-03
    H+              1.655e-10   1.616e-10    -9.781    -9.792    -0.011      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.07
 C(4)          1.462e-04
-   HCO3-           1.114e-04   1.089e-04    -3.953    -3.963    -0.010     23.37
-   CO3-2           3.473e-05   3.161e-05    -4.459    -4.500    -0.041     -6.94
+   HCO3-           1.114e-04   1.089e-04    -3.953    -3.963    -0.010     23.30
+   CO3-2           3.473e-05   3.161e-05    -4.459    -4.500    -0.041     -7.62
    CO2             3.957e-08   3.957e-08    -7.403    -7.403     0.000     34.79
    MgCO3           2.836e-11   2.836e-11   -10.547   -10.547     0.000    -17.09
 Ca            1.262e-04
@@ -339,8 +338,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
--------------------------------
-End of Run after 0.016 Seconds.
--------------------------------
 

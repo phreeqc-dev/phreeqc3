@@ -75,11 +75,11 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.098e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -4.275e-21 
+                   Total alkalinity (eq/kg)  = -3.825e-21 
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  4.275e-21  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  3.825e-21  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  3   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -136,18 +136,18 @@ Celestite         0.00    -6.49     -6.49    1.000e+01   9.999e+00  -7.616e-04
 
                                         pH  =  6.968        Charge balance
                                         pe  =  -1.495       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  191       
+       Specific Conductance (µS/cm,  25°C)  =  190       
                            Density (g/cm³)  =  1.00605  
                                 Volume (L)  =  0.99413  
-                         Viscosity (mPa s)  =  0.88897  
+                         Viscosity (mPa s)  =  0.88904  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.842e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.805e-18 
+                   Total alkalinity (eq/kg)  = -3.919e-18 
                           Temperature (°C)  =  25.00 
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  8.263e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  8.280e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550926e+01
@@ -167,7 +167,7 @@ O(0)          0.000e+00
 S(-2)         4.558e-21
    HS-             2.538e-21   2.394e-21   -20.595   -20.621    -0.025     20.71
    H2S             2.020e-21   2.021e-21   -20.695   -20.694     0.000     34.12
-   S-2             3.992e-27   3.178e-27   -26.399   -26.498    -0.099     (0)  
+   S-2             3.993e-27   3.178e-27   -26.399   -26.498    -0.099     (0)  
    (H2S)2          0.000e+00   0.000e+00   -42.563   -42.563     0.000     38.72
 S(6)          7.616e-04
    SO4-2           7.106e-04   5.655e-04    -3.148    -3.248    -0.099     16.33
@@ -216,18 +216,18 @@ Celestite         0.00    -6.65     -6.65    1.000e+01   9.999e+00  -6.329e-04
 
                                         pH  =  6.609        Charge balance
                                         pe  =  -1.185       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  50°C)  =  253       
+       Specific Conductance (µS/cm,  50°C)  =  247       
                            Density (g/cm³)  =  0.99667  
                                 Volume (L)  =  1.00345  
-                         Viscosity (mPa s)  =  0.55128  
+                         Viscosity (mPa s)  =  0.55132  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  2.343e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -6.149e-18 
+                   Total alkalinity (eq/kg)  = -6.382e-18 
                           Temperature (°C)  =  50.00 
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  7.912e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.933e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550875e+01
@@ -240,14 +240,14 @@ Celestite         0.00    -6.65     -6.65    1.000e+01   9.999e+00  -6.329e-04
    OH-             2.773e-07   2.623e-07    -6.557    -6.581    -0.024     -3.99
    H+              2.593e-07   2.463e-07    -6.586    -6.609    -0.022      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     18.08
-H(0)          1.414e-14
-   H2              7.072e-15   7.076e-15   -14.150   -14.150     0.000     16.37
+H(0)          1.415e-14
+   H2              7.073e-15   7.077e-15   -14.150   -14.150     0.000     16.37
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -56.589   -56.589     0.000     31.50
-S(-2)         9.825e-24
-   HS-             4.924e-24   4.656e-24   -23.308   -23.332    -0.024     21.17
-   H2S             4.902e-24   4.904e-24   -23.310   -23.309     0.000     38.43
-   S-2             1.616e-29   1.299e-29   -28.791   -28.886    -0.095     (0)  
+S(-2)         9.828e-24
+   HS-             4.925e-24   4.658e-24   -23.308   -23.332    -0.024     21.17
+   H2S             4.903e-24   4.906e-24   -23.310   -23.309     0.000     38.43
+   S-2             1.617e-29   1.300e-29   -28.791   -28.886    -0.095     (0)  
    (H2S)2          0.000e+00   0.000e+00   -47.544   -47.544     0.000     37.53
 S(6)          6.329e-04
    SO4-2           5.857e-04   4.708e-04    -3.232    -3.327    -0.095     17.51
@@ -296,18 +296,18 @@ Celestite         0.00    -6.82     -6.82    1.000e+01   9.999e+00  -5.174e-04
 
                                         pH  =  6.331        Charge balance
                                         pe  =  -0.950       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  75°C)  =  295       
+       Specific Conductance (µS/cm,  75°C)  =  282       
                            Density (g/cm³)  =  0.98367  
                                 Volume (L)  =  1.01670  
-                         Viscosity (mPa s)  =  0.38315  
+                         Viscosity (mPa s)  =  0.38319  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.909e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -3.439e-18 
+                   Total alkalinity (eq/kg)  = -3.428e-18 
                           Temperature (°C)  =  75.00 
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  2.830e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  2.824e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550829e+01
@@ -376,18 +376,18 @@ Celestite        -0.00    -7.01     -7.01    1.000e+01   1.000e+01  -4.144e-04
 
                                         pH  =  6.120        Charge balance
                                         pe  =  -0.775       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 100°C)  =  312       
+       Specific Conductance (µS/cm, 100°C)  =  294       
                            Density (g/cm³)  =  0.96771  
                                 Volume (L)  =  1.03345  
-                         Viscosity (mPa s)  =  0.28731  
+                         Viscosity (mPa s)  =  0.28734  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.531e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.342e-17  
+                   Total alkalinity (eq/kg)  = 1.341e-17  
                           Temperature (°C)  =  100.00
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  -8.189e-16 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+                   Electrical balance (eq)  =  -8.191e-16 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550787e+01
@@ -404,8 +404,8 @@ H(0)          1.414e-14
    H2              7.072e-15   7.075e-15   -14.150   -14.150     0.000     18.04
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -45.173   -45.173     0.000     33.27
-S(-2)         4.827e-28
-   H2S             3.246e-28   3.247e-28   -27.489   -27.489     0.000     43.27
+S(-2)         4.828e-28
+   H2S             3.246e-28   3.247e-28   -27.489   -27.488     0.000     43.27
    HS-             1.581e-28   1.503e-28   -27.801   -27.823    -0.022     19.98
    S-2             2.019e-33   1.653e-33   -32.695   -32.782    -0.087     (0)  
    (H2S)2          0.000e+00   0.000e+00   -55.660   -55.660     0.000     33.42
@@ -456,18 +456,18 @@ Celestite        -0.00    -7.21     -7.21    1.000e+01   1.000e+01  -3.249e-04
 
                                         pH  =  5.968        Charge balance
                                         pe  =  -0.655       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 125°C)  =  306       
+       Specific Conductance (µS/cm, 125°C)  =  292       
                            Density (g/cm³)  =  0.94908  
                                 Volume (L)  =  1.05372  
-                         Viscosity (mPa s)  =  0.22756  
+                         Viscosity (mPa s)  =  0.22757  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.207e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  4.478e-17  
+                   Total alkalinity (eq/kg)  = 4.488e-17  
                           Temperature (°C)  =  125.00
                             Pressure (atm)  =  200.00
                    Electrical balance (eq)  =  -1.986e-15 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550752e+01
@@ -484,10 +484,10 @@ H(0)          1.414e-14
    H2              7.072e-15   7.074e-15   -14.150   -14.150     0.000     18.84
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -40.982   -40.982     0.000     34.10
-S(-2)         8.311e-30
-   H2S             6.335e-30   6.336e-30   -29.198   -29.198     0.000     45.12
+S(-2)         8.310e-30
+   H2S             6.334e-30   6.336e-30   -29.198   -29.198     0.000     45.12
    HS-             1.976e-30   1.883e-30   -29.704   -29.725    -0.021     18.45
-   S-2             4.828e-35   3.991e-35   -34.316   -34.399    -0.083     (0)  
+   S-2             4.828e-35   3.990e-35   -34.316   -34.399    -0.083     (0)  
    (H2S)2          0.000e+00   0.000e+00   -59.046   -59.046     0.000     30.11
 S(6)          3.249e-04
    SO4-2           3.011e-04   2.489e-04    -3.521    -3.604    -0.083      9.26
@@ -536,18 +536,18 @@ Celestite        -0.00    -7.42     -7.42    1.000e+01   1.000e+01  -2.499e-04
 
                                         pH  =  5.868        Charge balance
                                         pe  =  -0.583       Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 150°C)  =  283       
+       Specific Conductance (µS/cm, 150°C)  =  270       
                            Density (g/cm³)  =  0.92792  
                                 Volume (L)  =  1.07773  
-                         Viscosity (mPa s)  =  0.18775  
+                         Viscosity (mPa s)  =  0.18776  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  9.356e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.336e-17  
+                   Total alkalinity (eq/kg)  = 1.324e-17  
                           Temperature (°C)  =  150.00
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  7.650e-18  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  7.380e-18  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550722e+01
@@ -565,8 +565,8 @@ H(0)          1.414e-14
 O(0)          4.656e-38
    O2              2.328e-38   2.329e-38   -37.633   -37.633     0.000     35.05
 S(-2)         2.226e-31
-   H2S             1.863e-31   1.864e-31   -30.730   -30.730     0.000     46.99
-   HS-             3.631e-32   3.468e-32   -31.440   -31.460    -0.020     16.09
+   H2S             1.863e-31   1.863e-31   -30.730   -30.730     0.000     46.99
+   HS-             3.630e-32   3.467e-32   -31.440   -31.460    -0.020     16.09
    S-2             1.693e-36   1.413e-36   -35.771   -35.850    -0.079     (0)  
    (H2S)2          0.000e+00   0.000e+00   -62.117   -62.117     0.000     25.45
 S(6)          2.499e-04
@@ -616,18 +616,18 @@ Celestite         0.00    -7.65     -7.65    1.000e+01   1.000e+01  -1.892e-04
 
                                         pH  =  5.817        Charge balance
                                         pe  =  3.655        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 175°C)  =  249       
+       Specific Conductance (µS/cm, 175°C)  =  238       
                            Density (g/cm³)  =  0.90425  
                                 Volume (L)  =  1.10593  
-                         Viscosity (mPa s)  =  0.15979  
+                         Viscosity (mPa s)  =  0.15980  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  7.151e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -7.486e-16 
+                   Total alkalinity (eq/kg)  = -7.486e-16 
                           Temperature (°C)  =  175.00
                             Pressure (atm)  =  200.00
                    Electrical balance (eq)  =  2.268e-14  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  9   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550697e+01
@@ -640,10 +640,10 @@ Celestite         0.00    -7.65     -7.65    1.000e+01   1.000e+01  -1.892e-04
    OH-             3.044e-06   2.915e-06    -5.517    -5.535    -0.019    -17.20
    H+              1.588e-06   1.524e-06    -5.799    -5.817    -0.018      0.00
    H2O             5.551e+01   1.000e+00     1.744    -0.000     0.000     19.92
-H(0)          5.326e-23
-   H2              2.663e-23   2.664e-23   -22.575   -22.575     0.000     20.97
+H(0)          5.327e-23
+   H2              2.663e-23   2.664e-23   -22.575   -22.574     0.000     20.97
 O(0)          1.327e-18
-   O2              6.636e-19   6.637e-19   -18.178   -18.178     0.000     36.25
+   O2              6.634e-19   6.635e-19   -18.178   -18.178     0.000     36.25
 S(-2)         0.000e+00
    H2S             0.000e+00   0.000e+00   -65.821   -65.821     0.000     49.14
    HS-             0.000e+00   0.000e+00   -66.739   -66.758    -0.019     12.58
@@ -665,7 +665,7 @@ Sr            1.892e-04
   Celestite         0.00     -7.65   -7.65  SrSO4
   H2(g)           -19.67    -22.57   -2.91  H2
   H2O(g)            0.97     -0.00   -0.97  H2O
-  H2S(g)          -64.15    -72.58   -8.42  H2S
+  H2S(g)          -64.15    -72.57   -8.42  H2S
   O2(g)           -15.13    -18.18   -3.05  O2
   Sulfur          -49.31    -46.88    2.44  S
 
@@ -696,18 +696,18 @@ Celestite        -0.00    -7.88     -7.88    1.000e+01   1.000e+01  -1.419e-04
 
                                         pH  =  5.809        Charge balance
                                         pe  =  4.315        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 200°C)  =  211       
+       Specific Conductance (µS/cm, 200°C)  =  203       
                            Density (g/cm³)  =  0.87802  
                                 Volume (L)  =  1.13896  
-                         Viscosity (mPa s)  =  0.13929  
+                         Viscosity (mPa s)  =  0.13925  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  5.413e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.994e-17  
+                   Total alkalinity (eq/kg)  = 2.000e-17  
                           Temperature (°C)  =  200.00
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  5.096e-19  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  5.645e-19  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550678e+01
@@ -776,18 +776,18 @@ Celestite        -0.00    -8.13     -8.13    1.000e+01   1.000e+01  -1.065e-04
 
                                         pH  =  5.839        Charge balance
                                         pe  =  4.293        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 225°C)  =  175       
+       Specific Conductance (µS/cm, 225°C)  =  170       
                            Density (g/cm³)  =  0.84896  
                                 Volume (L)  =  1.17794  
-                         Viscosity (mPa s)  =  0.12355  
+                         Viscosity (mPa s)  =  0.12349  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.093e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.513e-16  
+                   Total alkalinity (eq/kg)  = 7.513e-16  
                           Temperature (°C)  =  225.00
                             Pressure (atm)  =  200.00
-                   Electrical balance (eq)  =  9.223e-17  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  9.169e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550664e+01
@@ -856,18 +856,18 @@ Celestite        -0.00    -8.36     -8.36    1.000e+01   1.000e+01  -8.136e-05
 
                                         pH  =  5.896        Charge balance
                                         pe  =  4.238        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 250°C)  =  144       
+       Specific Conductance (µS/cm, 250°C)  =  143       
                            Density (g/cm³)  =  0.81648  
                                 Volume (L)  =  1.22479  
-                         Viscosity (mPa s)  =  0.11090  
+                         Viscosity (mPa s)  =  0.11083  
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  3.140e-04  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  7.483e-15  
+                   Total alkalinity (eq/kg)  = 7.483e-15  
                           Temperature (°C)  =  250.00
                             Pressure (atm)  =  200.00
                    Electrical balance (eq)  =  -1.185e-14 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  10  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550654e+01
@@ -919,8 +919,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 2.
 ------------------------------------
-
--------------------------------
-End of Run after 0.019 Seconds.
--------------------------------
 

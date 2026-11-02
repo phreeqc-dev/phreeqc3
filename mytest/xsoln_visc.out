@@ -57,10 +57,10 @@ Initial solution 2.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.040e-17  
+                   Total alkalinity (eq/kg)  = 3.040e-17  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.040e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  2   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -138,19 +138,19 @@ Reaction 1.
 ----------------------------Description of solution----------------------------
 
                                         pH  =  6.668        Charge balance
-                                        pe  =  2.840        Adjusted to redox equilibrium
-       Specific Conductance (µS/cm, 198°C)  =  60557     
+                                        pe  =  2.829        Adjusted to redox equilibrium
+       Specific Conductance (µS/cm, 198°C)  =  71648     
                            Density (g/cm³)  =  0.88129  
                                 Volume (L)  =  1.15173  
-                         Viscosity (mPa s)  =  0.14293  
+                         Viscosity (mPa s)  =  0.14285  
                          Activity of water  =  0.996  
                   Ionic strength (mol/kgw)  =  1.687e-01  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  -5.605e-15 
+                   Total alkalinity (eq/kg)  = -4.879e-15 
                           Temperature (°C)  =  197.55
-                            Pressure (atm)  =  14.54
-                   Electrical balance (eq)  =  2.910e-12  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                            Pressure (atm)  =  14.60
+                   Electrical balance (eq)  =  3.263e-12  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  14  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.592862e+01
@@ -163,22 +163,22 @@ Reaction 1.
    OH-             3.647e-05   2.214e-05    -4.438    -4.655    -0.217    -22.11
    H+              2.966e-07   2.146e-07    -6.528    -6.668    -0.141      0.00
    H2O             5.551e+01   9.960e-01     1.744    -0.002     0.000     20.77
-H(0)          4.362e-23
-   H2              2.181e-23   2.272e-23   -22.661   -22.644     0.018     23.46
+H(0)          4.588e-23
+   H2              2.294e-23   2.389e-23   -22.639   -22.622     0.018     23.46
 Na            2.112e-01
    Na+             1.295e-01   8.336e-02    -0.888    -1.079    -0.191      1.82
-   NaSO4-          5.087e-02   3.219e-02    -1.294    -1.492    -0.199     -9.49
+   NaSO4-          5.087e-02   3.220e-02    -1.294    -1.492    -0.199     -9.48
    Na2SO4          1.543e-02   1.597e-02    -1.812    -1.797     0.015     20.54
-O(0)          1.285e-16
-   O2              6.423e-17   6.677e-17   -16.192   -16.175     0.017     39.03
+O(0)          1.161e-16
+   O2              5.807e-17   6.037e-17   -16.236   -16.219     0.017     39.03
 S(-2)         0.000e+00
-   H2S             0.000e+00   0.000e+00   -67.092   -67.075     0.017     55.45
-   HS-             0.000e+00   0.000e+00   -67.210   -67.427    -0.217      8.33
-   S-2             0.000e+00   0.000e+00   -69.668   -70.424    -0.755     (0)  
-   (H2S)2          0.000e+00   0.000e+00  -135.112  -135.095     0.017     -2.62
+   H2S             0.000e+00   0.000e+00   -67.005   -66.988     0.017     55.45
+   HS-             0.000e+00   0.000e+00   -67.123   -67.339    -0.217      8.33
+   S-2             0.000e+00   0.000e+00   -69.581   -70.336    -0.755     (0)  
+   (H2S)2          0.000e+00   0.000e+00  -134.937  -134.920     0.017     -2.62
 S(6)          1.056e-01
-   NaSO4-          5.087e-02   3.219e-02    -1.294    -1.492    -0.199     -9.49
-   SO4-2           3.927e-02   6.788e-03    -1.406    -2.168    -0.762    -27.10
+   NaSO4-          5.087e-02   3.220e-02    -1.294    -1.492    -0.199     -9.48
+   SO4-2           3.927e-02   6.789e-03    -1.406    -2.168    -0.762    -27.10
    Na2SO4          1.543e-02   1.597e-02    -1.812    -1.797     0.015     20.54
    HSO4-           3.618e-05   2.317e-05    -4.442    -4.635    -0.194     32.23
 
@@ -186,12 +186,12 @@ S(6)          1.056e-01
 
   Phase               SI** log IAP   log K(470 K,  15 atm)
 
-  H2(g)           -19.87    -22.64   -2.77  H2
+  H2(g)           -19.85    -22.62   -2.77  H2
   H2O(g)            1.13     -0.00   -1.13  H2O
-  H2S(g)          -65.54    -74.10   -8.56  H2S
+  H2S(g)          -65.45    -74.01   -8.56  H2S
   Mirabilite      -19.46     -4.34   15.12  Na2SO4:10H2O
-  O2(g)           -13.29    -16.18   -2.88  O2
-  Sulfur          -50.38    -48.06    2.32  S
+  O2(g)           -13.33    -16.22   -2.88  O2
+  Sulfur          -50.31    -47.99    2.32  S
   Thenardite       -2.25     -4.33   -2.08  Na2SO4
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -253,10 +253,10 @@ Reaction 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.006e-07  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  3.040e-17  
+                   Total alkalinity (eq/kg)  = 3.040e-17  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.040e-17 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  0   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550622e+01
@@ -292,8 +292,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 4.
 ------------------------------------
-
--------------------------------
-End of Run after 0.017 Seconds.
--------------------------------
 

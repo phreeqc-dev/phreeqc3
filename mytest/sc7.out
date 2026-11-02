@@ -99,10 +99,10 @@ Initial solution 1.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  4.000e-03  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  2.598e-09  
+                   Total alkalinity (eq/kg)  = 2.598e-09  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  -3.774e-13 
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
                                 Iterations  =  7   
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550689e+01
@@ -183,10 +183,10 @@ Initial solution 0.
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.300e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.773e-06  
+                   Total alkalinity (eq/kg)  = 1.773e-06  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  4.291e-16  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+                   Electrical balance (eq)  =  4.316e-16  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  10  
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550689e+01
@@ -270,7 +270,7 @@ Surface 0.
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	 -4.678e-17  Surface + diffuse layer charge, eq
+	 -4.620e-17  Surface + diffuse layer charge, eq
 	  2.091e-05  Surface charge, eq
 	  3.822e-02  sigma, C/m²
 	  9.106e-02  psi, V
@@ -390,10 +390,10 @@ Hfo_w
                          Activity of water  =  1.000  
                   Ionic strength (mol/kgw)  =  1.300e-02  
                         Mass of water (kg)  =  1.000e+00  
-                  Total alkalinity (eq/kg)  =  1.773e-06  
+                   Total alkalinity (eq/kg)  = 1.773e-06  
                           Temperature (°C)  =  25.00 
                    Electrical balance (eq)  =  2.909e-13  
-  Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  0.00  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                Iterations  =   0    (4 overall)
                                    Total H  =  1.110124e+02
                                    Total O  =  5.550689e+01
@@ -2125,7 +2125,7 @@ Adapting surface in            9
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	 -6.808e-18  Surface + diffuse layer charge, eq
+	 -6.809e-18  Surface + diffuse layer charge, eq
 	  7.828e-09  Surface charge, eq
 	  1.731e-02  sigma, C/m²
 	  8.128e-02  psi, V
@@ -5361,7 +5361,7 @@ Adapting surface in           11
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	 -7.177e-16  Surface + diffuse layer charge, eq
+	 -7.176e-16  Surface + diffuse layer charge, eq
 	  1.753e-07  Surface charge, eq
 	  1.965e-02  sigma, C/m²
 	  8.739e-02  psi, V
@@ -19718,7 +19718,7 @@ Adapting surface in            4
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	  8.514e-14  Surface + diffuse layer charge, eq
+	  8.515e-14  Surface + diffuse layer charge, eq
 	  3.533e-06  Surface charge, eq
 	  3.398e-02  sigma, C/m²
 	  1.374e-01  psi, V
@@ -27496,7 +27496,7 @@ Adapting surface in            9
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	  2.006e-12  Surface + diffuse layer charge, eq
+	  2.007e-12  Surface + diffuse layer charge, eq
 	  6.621e-06  Surface charge, eq
 	  3.204e-02  sigma, C/m²
 	  1.365e-01  psi, V
@@ -39450,7 +39450,7 @@ Adapting surface in            2
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	 -1.332e-19  Surface + diffuse layer charge, eq
+	 -1.331e-19  Surface + diffuse layer charge, eq
 	  8.186e-10  Surface charge, eq
 	  7.539e-03  sigma, C/m²
 	  7.490e-02  psi, V
@@ -40392,7 +40392,7 @@ Adapting surface in            2
 Diffuse Double Layer Surface-Complexation Model
 
 Hfo           
-	 -4.479e-20  Surface + diffuse layer charge, eq
+	 -4.478e-20  Surface + diffuse layer charge, eq
 	  5.095e-10  Surface charge, eq
 	  7.282e-03  sigma, C/m²
 	  7.331e-02  psi, V
@@ -41228,8 +41228,4 @@ Hfo_w
 	Hfo_wOUO2+        8.257e-06       0.175   8.257e-06      -5.083
 	Hfo_wOH2+         1.594e-06       0.034   1.594e-06      -5.798
 	Hfo_wOCa+         5.794e-09       0.000   5.794e-09      -8.237
-
--------------------------------
-End of Run after 1.515 Seconds.
--------------------------------
 

@@ -1,17 +1,17 @@
 # Marc Neveu - created March 2, 2017. Last edited April 16, 2018. mneveu@asu.edu
-# Reference for database description: Neveu M., Desch S. J., Castillo-Rogez J. C. (2017) 
-# Aqueous geochemistry in icy world interiors: Equilibrium fluid, rock, and gas compositions, 
-# and fate of antifreezes and radionuclides. Geochimica et Cosmochimica Acta 212, 324-371. 
+# Reference for database description: Neveu M., Desch S. J., Castillo-Rogez J. C. (2017)
+# Aqueous geochemistry in icy world interiors: Equilibrium fluid, rock, and gas compositions,
+# and fate of antifreezes and radionuclides. Geochimica et Cosmochimica Acta 212, 324-371.
  # http://dx.doi.org/10.1016/j.gca.2017.06.023
 #
-# Downloaded April 26, 2018 
-# 
+# Downloaded April 26, 2018
+#
 # Paraphrase from abstract:
-# This database is a compilation and careful validation of a 
+# This database is a compilation and careful validation of a
 # comprehensive PHREEQC database, which combines the advantages
-# of the default databases phreeqc.dat (carefully vetted data, molar volumes) 
-# and llnl.dat (large diversity of species), and should be of broad use to 
-# anyone seeking to model aqueous geochemistry at pressures that 
+# of the default databases phreeqc.dat (carefully vetted data, molar volumes)
+# and llnl.dat (large diversity of species), and should be of broad use to
+# anyone seeking to model aqueous geochemistry at pressures that
 # differ from 1 bar.
 #
 # Extrapolation algorithms:
@@ -101,7 +101,7 @@
 
 # Example entry block:
 
-# Formation reaction from basis species 
+# Formation reaction from basis species
 # 	-llnl_gamma	# ion size parameter in B-dot Debye-Huckel equation
 # 	log_k		# at 25C, 1 bar, used if no -delta_H or -analytic
 # 	-delta_H	# molar enthalpy of reaction, used if no -analytic
@@ -132,7 +132,7 @@ LLNL_AQUEOUS_MODEL_PARAMETERS
         -1.0312              0.0012806
           255.9                 0.4445
       -0.001606
-
+-use_phreeqc_dha_dhb
 SOLUTION_MASTER_SPECIES
 
 #element	species        alk     gfw_formula	element_gfw
@@ -153,71 +153,71 @@ Cl(-1)	Cl-	0	Cl	-17.43358
 Cl(1)	ClO-	0	Cl	-16.11094
 Cl(3)	ClO2-	0	Cl	-14.87484
 Cl(5)	ClO3-	0	Cl	-13.71476
-Cl(7)	ClO4-	0	Cl	
+Cl(7)	ClO4-	0	Cl
 Co	Co+2	0	Co	58.9332
-Co(+2)	Co+2	0	Co	
-Co(+3)	Co+3	0	Co	
+Co(+2)	Co+2	0	Co
+Co(+3)	Co+3	0	Co
 Cr	CrO4-2	0	CrO4-2	51.9961
-Cr(+2)	Cr+2	0	Cr	
-Cr(+3)	Cr+3	0	Cr	
-Cr(+6)	CrO4-2	0	Cr	
+Cr(+2)	Cr+2	0	Cr
+Cr(+3)	Cr+3	0	Cr
+Cr(+6)	CrO4-2	0	Cr
 Cu	Cu+2	0	Cu	63.546
-Cu(+1)	Cu+1	0	Cu	
-Cu(+2)	Cu+2	0	Cu	
-E	e-	0	0	0
+Cu(+1)	Cu+1	0	Cu
+Cu(+2)	Cu+2	0	Cu
+E	e-	1	0	0
 Eu	Eu+3	0	Eu	151.965
-Eu(+2)	Eu+2	0	Eu	
-Eu(+3)	Eu+3	0	Eu	
+Eu(+2)	Eu+2	0	Eu
+Eu(+3)	Eu+3	0	Eu
 Fe	Fe+2	0	Fe	55.847
-Fe(+2)	Fe+2	0	Fe	
-Fe(+3)	Fe+3	-2	Fe	
+Fe(+2)	Fe+2	0	Fe
+Fe(+3)	Fe+3	-2	Fe
 Gd	Gd+3	0	Gd	157.25
-Gd(+3)	Gd+3	0	Gd	
+Gd(+3)	Gd+3	0	Gd
 H	H+	-1	H	1.0079
-H(0)	H2	0	H	
-H(+1)	H+	-1	0	
+H(0)	H2	0	H
+H(+1)	H+	-1	0
 K	K+	0	K	39.0983
 Li	Li+	0	Li	6.941
 Mg	Mg+2	0	Mg	24.305
 Mn	Mn+2	0	Mn	54.938
-Mn(+2)	Mn+2	0	Mn	
-Mn(+3)	Mn+3	0	Mn	
-Mn(+6)	MnO4-2	0	Mn	
-Mn(+7)	MnO4-	0	Mn	
+Mn(+2)	Mn+2	0	Mn
+Mn(+3)	Mn+3	0	Mn
+Mn(+6)	MnO4-2	0	Mn
+Mn(+7)	MnO4-	0	Mn
 Mo	MoO4-2	0	Mo	95.94
 N	NH3	1	N	14.0067
-N(-3)	NH3	1	N	
-N(0)	N2	0	N	
-N(+3)	NO2-	0	N	
-N(+5)	NO3-	0	N	
+N(-3)	NH3	1	N
+N(0)	N2	0	N
+N(+3)	NO2-	0	N
+N(+5)	NO3-	0	N
 Na	Na+	0	Na	22.9898
 Ni	Ni+2	0	Ni	58.69
 O	H2O	0	O	15.994
-O(-2)	H2O	0	0	
-O(0)	O2	0	O	
+O(-2)	H2O	0	0
+O(0)	O2	0	O
 P	HPO4-2	2	P	30.9738
-P(5)	HPO4-2	2	P	
+P(5)	HPO4-2	2	P
 S	SO4-2	0	SO4	32.066
-S(-2)	HS-	1	S	
-S(+2)	S2O3-2	0	S	
-S(+3)	S2O4-2	0	S	
-S(+4)	SO3-2	0	S	
-S(+5)	S2O5-2	0	S	
-S(+6)	SO4-2	0	SO4	
-S(+7)	S2O8-2	0	S	
-S(+8)	HSO5-	0	S	
+S(-2)	HS-	1	S
+S(+2)	S2O3-2	0	S
+S(+3)	S2O4-2	0	S
+S(+4)	SO3-2	0	S
+S(+5)	S2O5-2	0	S
+S(+6)	SO4-2	0	SO4
+S(+7)	S2O8-2	0	S
+S(+8)	HSO5-	0	S
 Sc	Sc+3	0	Sc	44.9559
 Si	SiO2	0	SiO2	28.0855
 Sm	Sm+3	0	Sm	150.36
-Sm(+2)	Sm+2	0	Sm	
-Sm(+3)	Sm+3	0	Sm	
+Sm(+2)	Sm+2	0	Sm
+Sm(+3)	Sm+3	0	Sm
 Th	Th+4	0	Th	232.0381
 Ti	Ti(OH)4	0	Ti	47.88
 U	UO2+2	0	U	238.0289
-U(+3)	U+3	0	U	
-U(+4)	U+4	0	U	
-U(+5)	UO2+	0	U	
-U(+6)	UO2+2	0	U	
+U(+3)	U+3	0	U
+U(+4)	U+4	0	U
+U(+5)	UO2+	0	U
+U(+6)	UO2+2	0	U
 Zn	Zn+2	0	Zn	65.39
 
 SOLUTION_SPECIES
@@ -226,50 +226,50 @@ SOLUTION_SPECIES
 # 31 basis species
 #------------------
 
-Al+3 = Al+3 
-	-llnl_gamma	9	
+Al+3 = Al+3
+	-llnl_gamma	9
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-128.681	kcal/mol
 	-Vm   		-2.28 -17.1 10.9 -2.07 2.87 9 0 0 5.5e-3 1 # APP14, BH86
 
-B(OH)3 = B(OH)3 
-	-llnl_gamma	3	
+B(OH)3 = B(OH)3
+	-llnl_gamma	3
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-256.82 	kcal/mol
 	-Vm 		7.0643 8.847 3.5844 -3.1451 -0.2 0 0 0 0 0 # SHS89
 
-Ca+2 = Ca+2 
-	-llnl_gamma	6	
+Ca+2 = Ca+2
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-129.8		kcal/mol
 	-Vm  		-0.3456 -7.252 6.149 -2.479 1.239 5 1.60 -57.1 -6.12e-3 1 # APP14
 
-Cl- = Cl- 
-	-llnl_gamma	3	
+Cl- = Cl-
+	-llnl_gamma	3
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-39.933		kcal/mol
 	-Vm		4.465 4.801 4.325 -2.847 1.748 0 -0.331 20.16 0 1 # APP14
 
-Co+2 = Co+2 
-	-llnl_gamma	6	
+Co+2 = Co+2
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-13.9		kcal/mol
 	-Vm -1.2252 -8.9356 5.3191 -2.4095 1.47690 0 0 0 0 0 # SSW+97
 
-CrO4-2 = CrO4-2 
-	-llnl_gamma	4	
+CrO4-2 = CrO4-2
+	-llnl_gamma	4
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-210.6		kcal/mol
 	-Vm		5.4891 5.6223 3.5382 -3.0113 3.00240 0 0 0 0 0 # SSW+97
 
-Cu+2 = Cu+2 
-	-llnl_gamma	6	
+Cu+2 = Cu+2
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		15.7		kcal/mol
@@ -277,159 +277,159 @@ Cu+2 = Cu+2
 
 e- = e-
 
-Eu+3 = Eu+3 
-	-llnl_gamma	5	
+Eu+3 = Eu+3
+	-llnl_gamma	5
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-144.7		kcal/mol
 	-Vm		-3.1037 -15.3599 11.7871 -2.144 2.3161 0 0 0 0 0 # SH88
 
-Fe+2 = Fe+2 
-	-llnl_gamma	6	
+Fe+2 = Fe+2
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-22.05		kcal/mol
 	-Vm		-0.3255 -9.687 1.536 -2.379 0.3033 6 -4.21e-2 39.7 0 1 # APP14
 
-Gd+3 = Gd+3 
-	-llnl_gamma	5	
+Gd+3 = Gd+3
+	-llnl_gamma	5
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-164.2		kcal/mol
 	-Vm		-2.9771 -15.0506 11.6656 -2.1568 2.3265 0 0 0 0 0 # SH88
 
-H+ = H+ 
-	-llnl_gamma	9	
+H+ = H+
+	-llnl_gamma	9
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-0		kJ/mol
 
-HCO3- = HCO3- 
-	-llnl_gamma	4	
+HCO3- = HCO3-
+	-llnl_gamma	4
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-164.898	kcal/mol
 	-Vm		7.5621 1.1505 1.2346 -2.8266 1.27330 0 0 0 0 0 # SH88
 
-HPO4-2 = HPO4-2 
-	-llnl_gamma	4	
+HPO4-2 = HPO4-2
+	-llnl_gamma	4
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-308.815	kcal/mol
 	-Vm		3.6315 1.0857 5.3233 -2.8239 3.33630 0 0 0 0 0 # SH88
 
-K+ = K+ 
-	-llnl_gamma	3	
+K+ = K+
+	-llnl_gamma	3
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-60.27		kcal/mol
 	-Vm		3.322 -1.473 6.534 -2.712 9.06e-2 3.5 0 29.7 0 1 # APP14
 
-Li+ = Li+ 
-	-llnl_gamma	6	
+Li+ = Li+
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-66.552		kcal/mol
-	-Vm		-0.419 -0.069 13.16 -2.78 0.416 0 0.296 -12.4 -2.74e-3 1.26 # APP14, E68 
+	-Vm		-0.419 -0.069 13.16 -2.78 0.416 0 0.296 -12.4 -2.74e-3 1.26 # APP14, E68
 
-Mg+2 = Mg+2 
-	-llnl_gamma	8	
+Mg+2 = Mg+2
+	-llnl_gamma	8
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-111.367	kcal/mol
 	-Vm		-1.410 -8.6 11.13 -2.39 1.332 5.5 1.29 -32.9 -5.86e-3 1 # APP14
 
-Mn+2 = Mn+2 
-	-llnl_gamma	6	
+Mn+2 = Mn+2
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-52.724		kcal/mol
 	-Vm		-1.10 -8.03 4.08 -2.45 1.4 6 8.07 0 -1.51e-2 0.118 # APP14
 
-MoO4-2 = MoO4-2 
-	-llnl_gamma	4.5	
+MoO4-2 = MoO4-2
+	-llnl_gamma	4.5
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-238.5		kcal/mol
 	-Vm		6.9651 2.7095 18.6617 -2.8909 3.07770 0 0 0 0 0 # SSW+97
 
-NH3 = NH3 
-	-llnl_gamma	3	
+NH3 = NH3
+	-llnl_gamma	3
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-19.44		kcal/mol
 	-Vm		5.0911 2.797 8.6248 -2.8946 -7.690e-2 0 0 0 0 0 # SHS89
 
-Na+ = Na+ 
-	-llnl_gamma	4	
+Na+ = Na+
+	-llnl_gamma	4
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-57.433		kcal/mol
 	-Vm		2.28 -4.38 -4.1 -0.586 0.09 4 0.3 52 -3.33e-3 0.566 # APP14
 
-Ni+2 = Ni+2 
-	-llnl_gamma	6	
+Ni+2 = Ni+2
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-12.9		kcal/mol
 	-Vm		-1.6942 -11.9181 10.4344 -2.2863 1.50670 0 0 0 0 0 # SH88
 
-H2O = H2O 
-	-llnl_gamma	3	
+H2O = H2O
+	-llnl_gamma	3
         log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-68.317		kcal/mol
 
-SO4-2 = SO4-2 
-	-llnl_gamma	4	
+SO4-2 = SO4-2
+	-llnl_gamma	4
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-217.4		kcal/mol
 	-Vm		8.0 2.3 -46.04 6.245 3.82 0 0 0 0 1 # APP14
 
-Sc+3 = Sc+3 
-	-llnl_gamma	9	
+Sc+3 = Sc+3
+	-llnl_gamma	9
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-146.8		kcal/mol
 	-Vm		-2.1109 -12.9294 10.817 -2.2444 2.5003 0 0 0 0 0 # SSW+97
 
-SiO2 = SiO2 
-	-llnl_gamma	3	
+SiO2 = SiO2
+	-llnl_gamma	3
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-209.775	kcal/mol
 	-Vm		1.9 1.7 20 -2.7 0.12910 0 0 0 0 0 # SHS89
 
-Sm+3 = Sm+3 
-	-llnl_gamma	9	
+Sm+3 = Sm+3
+	-llnl_gamma	9
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-165.2		kcal/mol
 	-Vm		-3.2065 -15.6108 11.8857 -2.1337 2.2955 0 0 0 0 0 # SH88
 
-Th+4 = Th+4 
-	-llnl_gamma	11	
+Th+4 = Th+4
+	-llnl_gamma	11
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-183.8		kcal/mol
 	-Vm		-4.2886 -18.25 12.9154 -2.0244 3.70930 0 0 0 0 0 # SSW+97
 
-Ti(OH)4 = Ti(OH)4 
-	-llnl_gamma	3	
+Ti(OH)4 = Ti(OH)4
+	-llnl_gamma	3
 	log_k		0
 #	deltafH		-0		kcal/mol
 	-Vm		7.366874 10.21009 1.152964 -3.201004 0.01498566 0 0 0 0 0 # Ste01
 
-UO2+2 = UO2+2 
-	-llnl_gamma	4.5	
+UO2+2 = UO2+2
+	-llnl_gamma	4.5
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-1019		kJ/mol
 	-Vm 3.0256 -4.1084 15.3326 -2.6091 1.40990 0 0 0 0 0 # SSW+97
 
-Zn+2 = Zn+2 
-	-llnl_gamma	6	
+Zn+2 = Zn+2
+	-llnl_gamma	6
 	log_k		0
 	-delta_H	0		kJ/mol
 #	deltafH		-36.66		kcal/mol
@@ -439,7 +439,7 @@ Zn+2 = Zn+2
 # 40 Redox couples
 #-------------------
 
-2H2O = O2 + 4H+ + 4e-  
+2H2O = O2 + 4H+ + 4e-
 	-CO2_llnl_gamma
 	log_k		-85.9951
 	-delta_H	559.543		kJ/mol
@@ -450,8 +450,8 @@ Zn+2 = Zn+2
 #	Extrapol	supcrt92
 #	Ref		SHS89
 
-SO4-2 + H+ = HS- + 2 O2  
-	-llnl_gamma	3.5    
+SO4-2 + H+ = HS- + 2 O2
+	-llnl_gamma	3.5
 	log_k		-138.3169
 	-delta_H	869.226		kJ/mol
 #	deltafH		-3.85		kcal/mol
@@ -462,7 +462,7 @@ SO4-2 + H+ = HS- + 2 O2
 #	Ref		SH88
 
 .5 O2 + 2 HS- = S2-2 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		33.2673
 #	deltafH		-0		kcal/mol
 	-analytic	0.21730e2 -0.12307e-2 0.10098e5 -0.88813e1 0.15757e3
@@ -473,7 +473,7 @@ SO4-2 + H+ = HS- + 2 O2
 #	Ref		SH88
 
 2 H+ + 2 SO3-2  = S2O3-2 + O2 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-40.2906
 #	deltafH		-0		kcal/mol
 	-analytic	0.77679e2 0.65761e-1 -0.15438e5 -0.34651e2 -0.24092e3
@@ -483,7 +483,7 @@ SO4-2 + H+ = HS- + 2 O2
 #	Ref		SH88
 
 H+ + HCO3- + H2O = CH4 + 2 O2
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-144.1412
 	-delta_H	863.599		kJ/mol
 #	deltafH		-21.01		kcal/mol
@@ -494,7 +494,7 @@ H+ + HCO3- + H2O = CH4 + 2 O2
 #	Ref		SH90
 
 2 H+ + 2 HCO3- + H2O = C2H6 + 3.5 O2
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-228.6072
 #	deltafH		-0		kcal/mol
 	#analytic	-0.10777e2 0.72105e-1 -0.67489e5 -0.13915e2 -0.10531e4
@@ -516,8 +516,8 @@ H+ + HCO3- + H2O = CH4 + 2 O2
 #	Extrapol	supcrt92
 #	Ref		SH90
 
-HCO3- + H+ = CO + H2O + 0.5 O2 
-	-llnl_gamma	3.0    
+HCO3- + H+ = CO + H2O + 0.5 O2
+	-llnl_gamma	3.0
 	log_k		-41.7002
 	-delta_H	277.069		kJ/mol
 #	deltafH		-28.91		kcal/mol
@@ -526,9 +526,9 @@ HCO3- + H+ = CO + H2O + 0.5 O2
 	-Vm		6.2373 7.4498 2.8184 -3.0869 -0.37150
 #	Extrapol	supcrt92
 #	Ref		SM93
- 
-Cl- + 0.5 O2 = ClO-   
-	-llnl_gamma	4.0    
+
+Cl- + 0.5 O2 = ClO-
+	-llnl_gamma	4.0
 	log_k		-15.1014
 	-delta_H	66.0361		kJ/mol
 #	deltafH		-25.6		kcal/mol
@@ -538,8 +538,8 @@ Cl- + 0.5 O2 = ClO-
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-O2 + Cl- = ClO2-   
-	-llnl_gamma	4.0    
+O2 + Cl- = ClO2-
+	-llnl_gamma	4.0
 	log_k		-23.108
 	-delta_H	112.688		kJ/mol
 #	deltafH		-15.9		kcal/mol
@@ -549,8 +549,8 @@ O2 + Cl- = ClO2-
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-1.5 O2 + Cl- = ClO3-   
-	-llnl_gamma	3.5    
+1.5 O2 + Cl- = ClO3-
+	-llnl_gamma	3.5
 	log_k		-17.2608
 	-delta_H	81.3077		kJ/mol
 #	deltafH		-24.85		kcal/mol
@@ -560,8 +560,8 @@ O2 + Cl- = ClO2-
 #	Extrapol	supcrt92
 #	Ref		SH88
 
-2 O2 + Cl- = ClO4-   
-	-llnl_gamma	3.5    
+2 O2 + Cl- = ClO4-
+	-llnl_gamma	3.5
 	log_k		-15.7091
 	-delta_H	62.0194		kJ/mol
 #	deltafH		-30.91		kcal/mol
@@ -571,8 +571,8 @@ O2 + Cl- = ClO2-
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-H+ + Co+2 + 0.25 O2 = Co+3 + 0.5 H2O 
-	-llnl_gamma	5.0    
+H+ + Co+2 + 0.25 O2 = Co+3 + 0.5 H2O
+	-llnl_gamma	5.0
 	log_k		-11.4845
 	-delta_H	10.3198		kJ/mol
 #	deltafH		22		kcal/mol
@@ -582,8 +582,8 @@ H+ + Co+2 + 0.25 O2 = Co+3 + 0.5 H2O
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-4 H+ + CrO4-2 = Cr+2 + 2 H2O + O2 
-	-llnl_gamma	4.5    
+4 H+ + CrO4-2 = Cr+2 + 2 H2O + O2
+	-llnl_gamma	4.5
 	log_k		-21.6373
 	-delta_H	153.829		kJ/mol
 #	deltafH		-34.3		kcal/mol
@@ -591,10 +591,10 @@ H+ + Co+2 + 0.25 O2 = Co+3 + 0.5 H2O
 #	Range		0-350
 	-Vm		-0.8036 -9.74 9.5688 -2.3762 1.4287 # SSW+97
 #	Extrapol	supcrt92, 64cri/cob
-#	Ref		SSW+97, 76del/hal differ by 2 log K at 0C, 0.7 log K at 300C 
+#	Ref		SSW+97, 76del/hal differ by 2 log K at 0C, 0.7 log K at 300C
 
-5 H+ + CrO4-2 = Cr+3 + 2.5 H2O + 0.75 O2 
-	-llnl_gamma	9.0    
+5 H+ + CrO4-2 = Cr+3 + 2.5 H2O + 0.75 O2
+	-llnl_gamma	9.0
 	log_k		8.3842
 	-delta_H	-81.0336	kJ/mol
 #	deltafH		-57		kcal/mol
@@ -603,9 +603,9 @@ H+ + Co+2 + 0.25 O2 = Co+3 + 0.5 H2O
 	-Vm		-2.7824 -14.5709 11.4661 -2.1765 2.7403
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, 76del/hal differ by 1.5 log K at 0C, 0.8 log K at 300C
- 
-Cu+2 + 0.5 H2O = Cu+ + H+ + 0.25 O2 
-	-llnl_gamma	4.0    
+
+Cu+2 + 0.5 H2O = Cu+ + H+ + 0.25 O2
+	-llnl_gamma	4.0
 	log_k		-18.7704
 	-delta_H	145.877		kJ/mol
 #	deltafH		17.132		kcal/mol
@@ -614,9 +614,9 @@ Cu+2 + 0.5 H2O = Cu+ + H+ + 0.25 O2
 	-Vm		0.807 -5.804 8.0165 -2.5390 0.40460
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
- 
-Eu+3 + 0.5 H2O = Eu+2 + H+ + 0.25 O2 
-	-llnl_gamma	4.5    
+
+Eu+3 + 0.5 H2O = Eu+2 + H+ + 0.25 O2
+	-llnl_gamma	4.5
 	log_k		-27.5115
 	-delta_H	217.708		kJ/mol
 #	deltafH		-126.1		kcal/mol
@@ -626,8 +626,8 @@ Eu+3 + 0.5 H2O = Eu+2 + H+ + 0.25 O2
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-H+ + Fe+2 + 0.25 O2 = Fe+3 + 0.5 H2O 
-	-llnl_gamma	9.0    
+H+ + Fe+2 + 0.25 O2 = Fe+3 + 0.5 H2O
+	-llnl_gamma	9.0
 	log_k		8.4899
 	-delta_H	-97.209		kJ/mol
 #	deltafH		-11.85		kcal/mol
@@ -636,8 +636,8 @@ H+ + Fe+2 + 0.25 O2 = Fe+3 + 0.5 H2O
 	-Vm		-2.4256 -13.6961 11.1141 -2.2127 2.58120
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
- 
-H2O = H2 + 0.5 O2   
+
+H2O = H2 + 0.5 O2
 	-CO2_llnl_gamma
 	log_k		-46.1066
 	-delta_H	275.588		kJ/mol
@@ -648,8 +648,8 @@ H2O = H2 + 0.5 O2
 #	Extrapol	supcrt92
 #	Ref		SHS89
 
-SO4-2 + H+ + 0.5 O2 = HSO5-  
-	-llnl_gamma	4.0    
+SO4-2 + H+ + 0.5 O2 = HSO5-
+	-llnl_gamma	4.0
 	log_k		-17.2865
 	-delta_H	140.038		kJ/mol
 #	deltafH		-185.38		kcal/mol
@@ -658,9 +658,9 @@ SO4-2 + H+ + 0.5 O2 = HSO5-
 	-Vm		8.9391 14.043 0.2349 -3.3594 0.86110
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
- 
-Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O 
-	-llnl_gamma	5.0    
+
+Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
+	-llnl_gamma	5.0
 	log_k		-4.0811
 	-delta_H	-65.2892	kJ/mol
 #	deltafH		-34.895		kcal/mol
@@ -670,8 +670,8 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, 76mac match
 
-2 H2O + O2 + Mn+2 = MnO4-2 + 4 H+ 
-	-llnl_gamma	4.0    
+2 H2O + O2 + Mn+2 = MnO4-2 + 4 H+
+	-llnl_gamma	4.0
 	log_k		-32.4146
 	-delta_H	151.703		kJ/mol
 #	deltafH		-156		kcal/mol
@@ -681,8 +681,8 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-2 NH3 + 1.5 O2 = N2 + 3 H2O  
-	-llnl_gamma	3.0    
+2 NH3 + 1.5 O2 = N2 + 3 H2O
+	-llnl_gamma	3.0
 	log_k		116.4609
 	-delta_H	-687.08		kJ/mol
 #	deltafH		-2.495		kcal/mol
@@ -692,8 +692,8 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Extrapol	supcrt92
 #	Ref		SHS89
 
-1.5 O2 + NH3 = NO2- + H+ + H2O 
-	-llnl_gamma	3.0    
+1.5 O2 + NH3 = NO2- + H+ + H2O
+	-llnl_gamma	3.0
 	log_k		+46.8653
 	-delta_H	-290.901	kJ/mol
 #	deltafH		-25		kcal/mol
@@ -703,8 +703,8 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Extrapol	supcrt92
 #	Ref		SH88
 
-2 O2 + NH3 = NO3- + H+ + H2O 
-	-llnl_gamma	3.0    
+2 O2 + NH3 = NO3- + H+ + H2O
+	-llnl_gamma	3.0
 	log_k		62.1001
 	-delta_H	-387.045	kJ/mol
 #	deltafH		-49.429		kcal/mol
@@ -715,7 +715,7 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Ref		SH88
 
 2 H+ + 2 SO3-2 = S2O4-2 + .5 O2 + H2O
-	-llnl_gamma	5.0    
+	-llnl_gamma	5.0
 	log_k		-25.2076
 #	deltafH		-0		kcal/mol
 	-analytic	-2.3172e2 2.0393e-3 -7.1011 8.3239e1 9.4155e-1
@@ -725,7 +725,7 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Ref		SSW+97
 
 2 SO3-2 + .5 O2 + 2 H+ = S2O6-2 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		41.8289
 #	deltafH		-0		kcal/mol
 	-analytic	0.14458e3 0.61449e-1 0.71877e4 -0.58657e2 0.11211e3
@@ -735,7 +735,7 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Ref		SSW+97
 
 2 SO3-2 + 1.5 O2 + 2 H+ = S2O8-2 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		70.7489
 #	deltafH		-0		kcal/mol
 	-analytic	0.18394e3 0.60414e-1 0.13864e5 -0.71804e2 0.21628e3
@@ -745,7 +745,7 @@ Mn+2 + H+ + 0.25 O2 = Mn+3 + 0.5 H2O
 #	Ref		SH88
 
 O2 + H+ + 3 HS- = S3-2 + 2 H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		79.3915
 #	deltafH		-0		kcal/mol
 	-analytic	-0.51626e2 0.70208e-2 0.31797e5 0.11927e2 -0.64249e6
@@ -756,7 +756,7 @@ O2 + H+ + 3 HS- = S3-2 + 2 H2O
 #	Ref		SH88
 
 3 SO3-2 + 4 H+ = S3O6-2 + .5 O2 + 2 H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-6.2316
 #	deltafH		-0		kcal/mol
 	-analytic	0.23664e3 0.12702 -0.10110e5 -0.99715e2 -0.15783e3
@@ -766,7 +766,7 @@ O2 + H+ + 3 HS- = S3-2 + 2 H2O
 #	Ref		SSW+97
 
 1.5 O2 + 2 H+ + 4 HS- = S4-2 + 3 H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		125.2958
 #	deltafH		-0		kcal/mol
 	-analytic	0.20875e3 0.58133e-1 0.33278e5 -0.85833e2 0.51921e3
@@ -777,7 +777,7 @@ O2 + H+ + 3 HS- = S3-2 + 2 H2O
 #	Ref		SH88
 
 4 SO3-2 + 6 H+  = S4O6-2 + 1.5 O2 + 3 H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-38.3859
 #	deltafH		-0		kcal/mol
 	-analytic	0.32239e3 0.19555 -0.23617e5 -0.13729e3 -0.36862e3
@@ -787,7 +787,7 @@ O2 + H+ + 3 HS- = S3-2 + 2 H2O
 #	Ref		SSW+97
 
 2 O2 + 3 H+ + 5 HS- = S5-2 + 4 H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		170.9802
 #	deltafH		-0		kcal/mol
 	-analytic	0.30329e3 0.88033e-1 0.44739e5 -0.12471e3 0.69803e3
@@ -798,7 +798,7 @@ O2 + H+ + 3 HS- = S3-2 + 2 H2O
 #	Ref		SH88
 
 5 SO3-2 + 8 H+ = S5O6-2 + 2.5 O2 + 4 H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-99.4206
 #	deltafH		-0		kcal/mol
 	-analytic	0.42074e3 0.25833 -0.43878e5 -0.18178e3 -0.68480e3
@@ -808,7 +808,7 @@ O2 + H+ + 3 HS- = S3-2 + 2 H2O
 #	Ref		SSW+97
 
 H+ + HCO3- + HS- + NH3 = SCN- + 3 H2O
-	-llnl_gamma	3.5    
+	-llnl_gamma	3.5
 	log_k		3.0070
 #	deltafH		-0		kcal/mol
 	-analytic	0.16539e3 0.49623e-1 -0.44624e4 -0.65544e2 -0.69680e2
@@ -817,8 +817,8 @@ H+ + HCO3- + HS- + NH3 = SCN- + 3 H2O
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, 92gre/fug match
 
-SO4-2 = SO3-2 + 0.5 O2   
-	-llnl_gamma	4.5    
+SO4-2 = SO3-2 + 0.5 O2
+	-llnl_gamma	4.5
 	log_k		-46.6244
 	-delta_H	267.985		kJ/mol
 #	deltafH		-151.9		kcal/mol
@@ -828,8 +828,8 @@ SO4-2 = SO3-2 + 0.5 O2
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-Sm+3 + 0.5 H2O = Sm+2 + H+ + 0.25 O2 
-	-llnl_gamma	4.5    
+Sm+3 + 0.5 H2O = Sm+2 + H+ + 0.25 O2
+	-llnl_gamma	4.5
 	log_k		-47.9624
 	-delta_H	326.911		kJ/mol
 #	deltafH		-120.5		kcal/mol
@@ -839,8 +839,8 @@ Sm+3 + 0.5 H2O = Sm+2 + H+ + 0.25 O2
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
 
-UO2+2 + H+ = U+3 + 0.75 O2 + 0.5 H2O 
-	-llnl_gamma	5.0    
+UO2+2 + H+ = U+3 + 0.75 O2 + 0.5 H2O
+	-llnl_gamma	5.0
 	log_k		-64.8028
 	-delta_H	377.881		kJ/mol
 #	deltafH		-489.1		kJ/mol
@@ -850,8 +850,8 @@ UO2+2 + H+ = U+3 + 0.75 O2 + 0.5 H2O
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, 92gre/fug match
 
-2 H+ + UO2+2 = U+4 + H2O + 0.5 O2 
-	-llnl_gamma	5.5    
+2 H+ + UO2+2 = U+4 + H2O + 0.5 O2
+	-llnl_gamma	5.5
 	log_k		-33.9491
 	-delta_H	135.895		kJ/mol
 #	deltafH		-591.2		kJ/mol
@@ -861,8 +861,8 @@ UO2+2 + H+ = U+3 + 0.75 O2 + 0.5 H2O
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, 92gre/fug match
 
-UO2+2 + 0.5 H2O = UO2+ + H+ + 0.25 O2 
-	-llnl_gamma	4.0    
+UO2+2 + 0.5 H2O = UO2+ + H+ + 0.25 O2
+	-llnl_gamma	4.0
 	log_k		-20.0169
 	-delta_H	133.759		kJ/mol
 #	deltafH		-1025.13	kJ/mol
@@ -877,7 +877,7 @@ UO2+2 + 0.5 H2O = UO2+ + H+ + 0.25 O2
 #---------------------------
 
 2 CH3COOH + Al+3 = Al(CH3COO)2+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-5.595
 	-delta_H	-46.8566	kJ/mol
 #	deltafH		-372.08		kcal/mol
@@ -886,9 +886,9 @@ UO2+2 + 0.5 H2O = UO2+ + H+ + 0.25 O2
 	-Vm		8.9971 14.1844 0.1805 -3.3653 1.39180
 #	Extrapol	supcrt92
 #	Ref		SK93, differ by 2.2 log K at 0C, 1 log K at 300C
- 
+
 2 H2O + Al+3 = AlO2- + 4 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-22.8833
 	-delta_H	180.899		kJ/mol
 #	deltafH		-222.079	kcal/mol
@@ -899,7 +899,7 @@ UO2+2 + 0.5 H2O = UO2+ + H+ + 0.25 O2
 #	Ref		SSW+97, 95pok/hel match
 
 H2O + Al+3 = AlOH+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-4.9571
 	-delta_H	49.798		kJ/mol
 #	deltafH		-185.096	kcal/mol
@@ -910,7 +910,7 @@ H2O + Al+3 = AlOH+2 + H+
 #	Ref		SSW+97, 95pok/hel match
 
 B(OH)3 = BO2- + H+ + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-9.2449
 	-delta_H	16.3302		kJ/mol
 #	deltafH		-184.6		kcal/mol
@@ -919,7 +919,7 @@ B(OH)3 = BO2- + H+ + H2O
 	-Vm		-2.2428 -6.2065 -6.3216 -2.5224 1.75950
 #	Extrapol	supcrt92
 #	Ref		SH88
- 
+
 HCO3- + H+ = CO2 + H2O
 	-CO2_llnl_gamma
 	log_k		6.3447
@@ -932,7 +932,7 @@ HCO3- + H+ = CO2 + H2O
 #	Ref		SSW01, SHS89
 
 HCO3- = CO3-2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-10.3288
 	-delta_H	14.6984		kJ/mol
 #	deltafH		-161.385	kcal/mol
@@ -942,8 +942,8 @@ HCO3- = CO3-2 + H+
 #	Extrapol	supcrt92
 #	Ref		SH88
 
-NH3 + HCO3- = CN- + 2 H2O + 0.5 O2 
-	-llnl_gamma	3.0    
+NH3 + HCO3- = CN- + 2 H2O + 0.5 O2
+	-llnl_gamma	3.0
 	log_k		-56.0505
 	-delta_H	344.151		kJ/mol
 #	deltafH		36		kcal/mol
@@ -980,8 +980,8 @@ HCOOH = HCOO- + H+
 #	Extrapol	supcrt92
 #	Ref		Sho95
 
-CH3COOH = CH3COO- + H+ 
-	-llnl_gamma	4.5         
+CH3COOH = CH3COO- + H+
+	-llnl_gamma	4.5
 	log_k		-4.7572
 #	deltafH		-0		kcal/mol
 	-analytic	-0.96597e2 -0.34535e-1 0.19753e4 0.38593e2 0.30850e2
@@ -1036,7 +1036,7 @@ HCO3- + H+ = CH2O + O2
 #	Ref		SS93
 
 2 CH3COOH + Ca+2 = Ca(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.3814
 	-delta_H	-2.7196		kJ/mol
 #	deltafH		-362.65		kcal/mol
@@ -1045,9 +1045,9 @@ HCO3- + H+ = CH2O + O2
 	-Vm		12.9911 23.9379 -3.6556 -3.7685 -0.03
 #	Extrapol	supcrt92
 #	Ref		SK93
- 
+
 Ca+2 + CH3COOH = CaCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.8263
 	-delta_H	1.17152		kJ/mol
 #	deltafH		-245.62		kcal/mol
@@ -1058,7 +1058,7 @@ Ca+2 + CH3COOH = CaCH3COO+ + H+
 #	Ref		SK93
 
 HCO3- + Ca+2 = CaCO3 + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.0017
 	-delta_H	30.5767		kJ/mol
 #	deltafH		-287.39		kcal/mol
@@ -1069,7 +1069,7 @@ HCO3- + Ca+2 = CaCO3 + H+
 #	Ref		SSH97
 
 Cl- + Ca+2 = CaCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.6956
 	-delta_H	2.02087		kJ/mol
 #	deltafH		-169.25		kcal/mol
@@ -1080,7 +1080,7 @@ Cl- + Ca+2 = CaCl+
 #	Ref		SSH97 differ by 0.3 log K at 0C, 1.2 log K at 300C
 
 2 Cl- + Ca+2 = CaCl2
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-0.6436
 	-delta_H	-5.8325		kJ/mol
 #	deltafH		-211.06		kcal/mol
@@ -1089,9 +1089,9 @@ Cl- + Ca+2 = CaCl+
 	-Vm		6.2187 7.4058 2.8322 -3.0851 -0.038
 #	Extrapol	supcrt92
 #	Ref		SSH97
- 
+
 SO4-2 + Ca+2 = CaSO4
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		2.1111
 	-delta_H	5.4392		kJ/mol
 #	deltafH		-345.9		kcal/mol
@@ -1102,7 +1102,7 @@ SO4-2 + Ca+2 = CaSO4
 #	Ref		SSH97
 
 2 CH3COOH + Co+2 = Co(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.1468
 	-delta_H	-22.4262	kJ/mol
 #	deltafH		-251.46		kcal/mol
@@ -1113,7 +1113,7 @@ SO4-2 + Ca+2 = CaSO4
 #	Ref		SK93
 
 3 CH3COOH + Co+2 = Co(CH3COO)3- + 3 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-11.281
 	-delta_H	-48.2415	kJ/mol
 #	deltafH		-373.73		kcal/mol
@@ -1124,7 +1124,7 @@ SO4-2 + Ca+2 = CaSO4
 #	Ref		SK93
 
 Co+2 + CH3COOH = CoCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.2985
 	-delta_H	-8.70272	kJ/mol
 #	deltafH		-132.08		kcal/mol
@@ -1135,7 +1135,7 @@ Co+2 + CH3COOH = CoCH3COO+ + H+
 #	Ref		SK93
 
 Co+2 + Cl- = CoCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		0.1547
 	-delta_H	1.71962		kJ/mol
 #	deltafH		-53.422		kcal/mol
@@ -1144,9 +1144,9 @@ Co+2 + Cl- = CoCl+
 	-Vm	1.8028 -3.3766 7.0702 -2.6394 0.71910
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, 74nau/ryz match
- 
+
 2 H+ + 2 CrO4-2 = Cr2O7-2 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		14.5192
 	-delta_H	-13.8783	kJ/mol
 #	deltafH		-356.2		kcal/mol
@@ -1157,7 +1157,7 @@ Co+2 + Cl- = CoCl+
 #	Ref		SSW+97, SH88
 
 2 CH3COOH + Cu+2 = Cu(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-5.8824
 	-delta_H	-25.899		kJ/mol
 #	deltafH		-222.69		kcal/mol
@@ -1168,7 +1168,7 @@ Co+2 + Cl- = CoCl+
 #	Ref		SK93
 
 2 CH3COOH + Cu+ = Cu(CH3COO)2- + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-9.2139
 	-delta_H	-19.5476	kJ/mol
 #	deltafH		-219.74		kcal/mol
@@ -1179,7 +1179,7 @@ Co+2 + Cl- = CoCl+
 #	Ref		SK93
 
 3 CH3COOH + Cu+2 = Cu(CH3COO)3- + 3 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-9.3788
 	-delta_H	-53.2205	kJ/mol
 #	deltafH		-345.32		kcal/mol
@@ -1188,9 +1188,9 @@ Co+2 + Cl- = CoCl+
 	-Vm		20.2654 41.7019 -10.6422 -4.5029 1.3408
 #	Extrapol	supcrt92
 #	Ref		SK93
- 
+
 Cu+ + CH3COOH = CuCH3COO + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-4.4274
 	-delta_H	-4.19237	kJ/mol
 #	deltafH		-99.97		kcal/mol
@@ -1201,7 +1201,7 @@ Cu+ + CH3COOH = CuCH3COO + H+
 #	Ref		SK93
 
 Cu+2 + CH3COOH = CuCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-2.5252
 	-delta_H	-11.3805	kJ/mol
 #	deltafH		-103.12		kcal/mol
@@ -1212,7 +1212,7 @@ Cu+2 + CH3COOH = CuCH3COO+ + H+
 #	Ref		SK93
 
 2 CH3COOH + Eu+3 = Eu(CH3COO)2+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-4.6912
 	-delta_H	-28.3257	kJ/mol
 #	deltafH		-383.67		kcal/mol
@@ -1223,7 +1223,7 @@ Cu+2 + CH3COOH = CuCH3COO+ + H+
 #	Ref		SK93
 
 3 CH3COOH + Eu+3 = Eu(CH3COO)3 + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.9824
 	-delta_H	-47.3629	kJ/mol
 #	deltafH		-504.32		kcal/mol
@@ -1232,9 +1232,9 @@ Cu+2 + CH3COOH = CuCH3COO+ + H+
 	-Vm		16.6413 32.8512 -7.1605 -4.137 -0.03
 #	Extrapol	supcrt92
 #	Ref		SK93
- 
+
 Eu+3 + CH3COOH = EuCH3COO+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-1.9571
 	-delta_H	-14.5603	kJ/mol
 #	deltafH		-264.28		kcal/mol
@@ -1245,7 +1245,7 @@ Eu+3 + CH3COOH = EuCH3COO+2 + H+
 #	Ref		SK93
 
 HCO3- + Eu+3 = EuCO3+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-2.4057
 	-delta_H	90.7844		kJ/mol
 #	deltafH		-287.9		kcal/mol # OBIGT: -311.27 kcal/mol HSS95
@@ -1256,7 +1256,7 @@ HCO3- + Eu+3 = EuCO3+ + H+
 #	Ref		HSS95
 
 Eu+2 + Cl- = EuCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		0.3819
 	-delta_H	8.50607		kJ/mol
 #	deltafH		-164		kcal/mol
@@ -1267,7 +1267,7 @@ Eu+2 + Cl- = EuCl+
 #	Ref		HSS95
 
 Eu+3 + Cl- = EuCl+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		0.3086
 	-delta_H	13.9453		kJ/mol
 #	deltafH		-181.3		kcal/mol
@@ -1278,7 +1278,7 @@ Eu+3 + Cl- = EuCl+2
 #	Ref		HSS95
 
 2 Cl- + Eu+3 = EuCl2+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.0425
 	-delta_H	18.6857		kJ/mol
 #	deltafH		-220.1		kcal/mol # OBIGT: -204.6 kcal/mol HSS95
@@ -1289,7 +1289,7 @@ Eu+3 + Cl- = EuCl+2
 #	Ref		HSS95
 
 3 Cl- + Eu+3 = EuCl3
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-0.4669
 	-delta_H	11.2926		kJ/mol
 #	deltafH		-261.8		kcal/mol
@@ -1300,7 +1300,7 @@ Eu+3 + Cl- = EuCl+2
 #	Ref		HSS95
 
 3 Cl- + Eu+2 = EuCl3-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		2.0253
 	-delta_H	-3.76978	kJ/mol
 #	deltafH		-246.8		kcal/mol
@@ -1311,7 +1311,7 @@ Eu+3 + Cl- = EuCl+2
 #	Ref		HSS95
 
 4 Cl- + Eu+3 = EuCl4-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.8913
 	-delta_H	-9.90771	kJ/mol
 #	deltafH		-306.8		kcal/mol
@@ -1322,7 +1322,7 @@ Eu+3 + Cl- = EuCl+2
 #	Ref		HSS95
 
 4 Cl- + Eu+2 = EuCl4-2
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		2.8470
 	-delta_H	-19.9493	kJ/mol
 #	deltafH		-290.6		kcal/mol
@@ -1333,7 +1333,7 @@ Eu+3 + Cl- = EuCl+2
 #	Ref		HSS95
 
 HPO4-2 + H+ + Eu+3 = EuH2PO4+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		9.4484
 	-delta_H	-17.0916	kJ/mol
 #	deltafH		-457.6		kcal/mol
@@ -1344,7 +1344,7 @@ HPO4-2 + H+ + Eu+3 = EuH2PO4+2
 #	Ref		HSS95
 
 HCO3- + Eu+3 = EuHCO3+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		1.6258
 	-delta_H	8.77803		kJ/mol
 #	deltafH		-307.5		kcal/mol
@@ -1355,7 +1355,7 @@ HCO3- + Eu+3 = EuHCO3+2
 #	Ref		HSS95
 
 NO3- + Eu+3 = EuNO3+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		0.8745
 	-delta_H	-32.0955	kJ/mol
 #	deltafH		-201.8		kcal/mol
@@ -1366,7 +1366,7 @@ NO3- + Eu+3 = EuNO3+2
 #	Ref		HSS95
 
 H2O + Eu+3 = EuO+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-16.337
 	-delta_H	110.947		kJ/mol
 #	deltafH		-186.5		kcal/mol # OBIGT: -177.81 kcal/mol HSS95
@@ -1377,7 +1377,7 @@ H2O + Eu+3 = EuO+ + 2 H+
 #	Ref		HSS95
 
 2 H2O + Eu+3 = EuO2- + 4 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-34.5066
 	-delta_H	281.307		kJ/mol
 #	deltafH		-214.1		kcal/mol # OBIGT: -219.06 kcal/mol HSS95
@@ -1388,7 +1388,7 @@ H2O + Eu+3 = EuO+ + 2 H+
 #	Ref		HSS95
 
 2 H2O + Eu+3 = EuO2H + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-25.4173
 	-delta_H	222.313		kJ/mol
 #	deltafH		-228.2		kcal/mol
@@ -1397,9 +1397,9 @@ H2O + Eu+3 = EuO+ + 2 H+
 	-Vm		4.8064 3.954 4.1968 -2.9424 -0.03
 #	Extrapol	supcrt92
 #	Ref		HSS95
- 
+
 H2O + Eu+3 = EuOH+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-7.9075
 	-delta_H	78.0065		kJ/mol
 #	deltafH		-194.373	kcal/mol
@@ -1408,9 +1408,9 @@ H2O + Eu+3 = EuOH+2 + H+
 	-Vm		2.6569 -1.2969 6.2659 -2.7253 1.1815
 #	Extrapol	supcrt92
 #	Ref		HSS95
- 
+
 SO4-2 + Eu+3 = EuSO4+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		3.6430
 	-delta_H	62.3416		kJ/mol
 #	deltafH		-347.2		kcal/mol # OBIGT: -357.2 kcal/mol HSS95
@@ -1421,7 +1421,7 @@ SO4-2 + Eu+3 = EuSO4+
 #	Ref		HSS95
 
 2 CH3COOH + Fe+2 = Fe(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.0295
 	-delta_H	-20.2924	kJ/mol
 #	deltafH		-259.1		kcal/mol
@@ -1430,9 +1430,9 @@ SO4-2 + Eu+3 = EuSO4+
 	-Vm		12.1698 21.937 -2.8791 -3.6858 -0.038
 #	Extrapol	supcrt92
 #	Ref		SSH97, SK93
- 
+
 Fe+2 + CH3COOH = FeCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.4671
 	-delta_H	-3.80744	kJ/mol
 #	deltafH		-139.06		kcal/mol
@@ -1443,7 +1443,7 @@ Fe+2 + CH3COOH = FeCH3COO+ + H+
 #	Ref		SSH97, SK93
 
 Fe+2 + Cl- = FeCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.1605
 	-delta_H	3.02503		kJ/mol
 #	deltafH		-61.26		kcal/mol
@@ -1454,7 +1454,7 @@ Fe+2 + Cl- = FeCl+
 #	Ref		SSH97
 
 Fe+3 + Cl- = FeCl+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-0.8108
 	-delta_H	36.6421		kJ/mol
 #	deltafH		-180.018	kJ/mol
@@ -1465,7 +1465,7 @@ Fe+3 + Cl- = FeCl+2
 #	Ref		SSH97, WEP+82 differ by 2.7 log K at 0C, 1.2 log K at 300C
 
 2 Cl- + Fe+2 = FeCl2
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-2.4541
 	-delta_H	6.46846		kJ/mol
 #	deltafH		-100.37		kcal/mol
@@ -1474,18 +1474,18 @@ Fe+3 + Cl- = FeCl+2
 	-Vm		5.5057 5.665 3.5164 -3.0131 -0.038
 #	Extrapol	supcrt92
 #	Ref		SSH97 differ by 7.2 log K at 0C, 3.2 log K at 300C !! flag
- 
+
 H2O + Fe+2 = FeOH+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-9.5
 	-analytic	1.706e-1 0 -2.883e3
 #	Range		0-350
 	-Vm		-0.2561 -8.4039 9.0457 -2.4315 0.7003
 #	Extrapol	supcrt92
 #	Ref		SSW+97, Marion+03,08 match
- 
+
 H2O + Fe+3 = FeOH+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-2.19
 #	deltafH		-0		kcal/mol
 	-analytic	5.300 0 -2.272e3
@@ -1493,9 +1493,9 @@ H2O + Fe+3 = FeOH+2 + H+
 	-Vm		-1.1562 -10.6009 9.9077 -2.3407 1.43820
 #	Extrapol	supcrt92
 #	Ref		SSW+97, Marion+08 match
- 
+
 2 CH3COOH + Gd+3 = Gd(CH3COO)2+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-4.9625
 	-delta_H	-22.3426	kJ/mol
 #	deltafH		-401.74		kcal/mol
@@ -1506,7 +1506,7 @@ H2O + Fe+3 = FeOH+2 + H+
 #	Ref		SK93
 
 3 CH3COOH + Gd+3 = Gd(CH3COO)3 + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-8.3489
 	-delta_H	-37.9907	kJ/mol
 #	deltafH		-521.58		kcal/mol
@@ -1515,9 +1515,9 @@ H2O + Fe+3 = FeOH+2 + H+
 	-Vm		16.8116 33.2662 -7.3215 -4.1541 -0.03
 #	Extrapol	supcrt92
 #	Ref		SK93
-  
+
 Gd+3 + CH3COOH = GdCH3COO+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-2.1037
 	-delta_H	-11.7152	kJ/mol
 #	deltafH		-283.1		kcal/mol
@@ -1528,7 +1528,7 @@ Gd+3 + CH3COOH = GdCH3COO+2 + H+
 #	Ref		SK93
 
 HCO3- + Gd+3 = GdCO3+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-2.479
 	-delta_H	89.9476		kJ/mol
 #	deltafH		-307.6		kcal/mol # OBIGT: -330.22 kcal/mol HSS95
@@ -1539,7 +1539,7 @@ HCO3- + Gd+3 = GdCO3+ + H+
 #	Ref		HSS95
 
 Gd+3 + Cl- = GdCl+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		0.3086
 	-delta_H	14.7821		kJ/mol
 #	deltafH		-200.6		kcal/mol
@@ -1550,7 +1550,7 @@ Gd+3 + Cl- = GdCl+2
 #	Ref		HSS95
 
 2 Cl- + Gd+3 = GdCl2+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.0425
 	-delta_H	21.1961		kJ/mol
 #	deltafH		-239		kcal/mol
@@ -1561,7 +1561,7 @@ Gd+3 + Cl- = GdCl+2
 #	Ref		HSS95
 
 3 Cl- + Gd+3 = GdCl3
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-0.4669
 	-delta_H	15.895		kJ/mol
 #	deltafH		-280.2		kcal/mol
@@ -1572,7 +1572,7 @@ Gd+3 + Cl- = GdCl+2
 #	Ref		HSS95
 
 4 Cl- + Gd+3 = GdCl4-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.8913
 	-delta_H	-1.53971	kJ/mol
 #	deltafH		-324.3		kcal/mol
@@ -1583,7 +1583,7 @@ Gd+3 + Cl- = GdCl+2
 #	Ref		HSS95
 
 HPO4-2 + H+ + Gd+3 = GdH2PO4+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		9.4484
 	-delta_H	-14.9996	kJ/mol
 #	deltafH		-476.6		kcal/mol
@@ -1594,7 +1594,7 @@ HPO4-2 + H+ + Gd+3 = GdH2PO4+2
 #	Ref		HSS95
 
 HCO3- + Gd+3 = GdHCO3+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		1.6991
 	-delta_H	10.0332		kJ/mol
 #	deltafH		-326.7		kcal/mol
@@ -1603,9 +1603,9 @@ HCO3- + Gd+3 = GdHCO3+2
 	-Vm		0.6026 -6.3043 8.2153 -2.5183 1.2048
 #	Extrapol	supcrt92
 #	Ref		HSS95
- 
+
 NO3- + Gd+3 = GdNO3+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		0.4347
 	-delta_H	-25.8195	kJ/mol
 #	deltafH		-219.8		kcal/mol
@@ -1616,7 +1616,7 @@ NO3- + Gd+3 = GdNO3+2
 #	Ref		HSS95
 
 H2O + Gd+3 = GdO+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-16.337
 	-delta_H	113.039		kJ/mol
 #	deltafH		-205.5		kcal/mol # OBIGT: -196.63 kcal/mol HSS95
@@ -1627,7 +1627,7 @@ H2O + Gd+3 = GdO+ + 2 H+
 #	Ref		HSS95
 
 2 H2O + Gd+3 = GdO2- + 4 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-34.4333
 	-delta_H	283.817		kJ/mol
 #	deltafH		-233		kcal/mol # OBIGT: -237.73 kcal/mol HSS95
@@ -1638,7 +1638,7 @@ H2O + Gd+3 = GdO+ + 2 H+
 #	Ref		HSS95
 
 2 H2O + Gd+3 = GdO2H + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-25.2707
 	-delta_H	224.405		kJ/mol
 #	deltafH		-247.2		kcal/mol
@@ -1649,7 +1649,7 @@ H2O + Gd+3 = GdO+ + 2 H+
 #	Ref		HSS95
 
 H2O + Gd+3 = GdOH+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-7.9075
 	-delta_H	79.9855		kJ/mol
 #	deltafH		-213.4		kcal/mol # OBIGT: 212.9 kcal/mol HSS95
@@ -1658,9 +1658,9 @@ H2O + Gd+3 = GdOH+2 + H+
 	-Vm		2.7389 -1.0936 6.1786 -2.7337 1.1
 #	Extrapol	supcrt92
 #	Ref		HSS95
- 
+
 SO4-2 + Gd+3 = GdSO4+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.687
 	-delta_H	20.0832		kJ/mol
 #	deltafH		-376.8		kcal/mol
@@ -1670,9 +1670,9 @@ SO4-2 + Gd+3 = GdSO4+
 	-Vm		1.4776 -4.1705 7.3822 -2.6065 0.7287
 #	Extrapol	supcrt92
 #	Ref		HSS95 differ by 7 log K at 0C, 3.7 log K at 300C !! flag
- 
+
 2 HPO4-2 + 2 H+ = H2P2O7-2 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		12.0709
 	-delta_H	19.7192		kJ/mol
 #	deltafH		-544.6		kcal/mol
@@ -1681,9 +1681,9 @@ SO4-2 + Gd+3 = GdSO4+
 	-Vm		9.0963 14.4299 0.076 -3.3754 2.62180
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
- 
+
 HPO4-2 + H+ = H2PO4-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		7.2054
 	-delta_H	-4.20492	kJ/mol
 #	deltafH		-309.82		kcal/mol
@@ -1694,18 +1694,18 @@ HPO4-2 + H+ = H2PO4-
 #	Ref		SH88
 
 HS- + H+ = H2S
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		6.9877
 	-delta_H	-21.5518	kJ/mol
 #	deltafH		-9.001		kcal/mol
 	-analytic	3.9283e1 2.8727e-2  1.3477e3 -1.8331e1  2.1018e1
 #	Range		0-350
 	-Vm		7.81 2.96 -0.46 # phreeqc.dat
-#	Extrapol	supcrt92	
+#	Extrapol	supcrt92
 #	Ref		SSW01, SHS89
 
 3 H+ + 2 HPO4-2 = H3P2O7- + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		14.4165
 	-delta_H	21.8112		kJ/mol
 #	deltafH		-544.1		kcal/mol
@@ -1716,7 +1716,7 @@ HS- + H+ = H2S
 #	Ref		SSW+97, SH88
 
 2 H+ + HPO4-2 = H3PO4
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		9.3751
 	-delta_H	3.74468		kJ/mol
 #	deltafH		-307.92		kcal/mol
@@ -1725,9 +1725,9 @@ HS- + H+ = H2S
 	-Vm		8.2727 12.4182 0.8691 -3.2924 -0.22
 #	Extrapol	supcrt92
 #	Ref		SHS89
- 
+
 4 H+ + 2 HPO4-2 = H4P2O7 + H2O
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		15.9263
 	-delta_H	29.7226		kJ/mol
 #	deltafH		-2268.6		kJ/mol
@@ -1736,9 +1736,9 @@ HS- + H+ = H2S
 	-Vm		9.2975 14.9199 -0.113 -3.3957 -0.62920
 #	Extrapol	supcrt92, 69hel
 #	Ref		SSW+97, WEP+82
- 
+
 2 H2O + Al+3 = HAlO2 + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-16.4329
 	-delta_H	144.704		kJ/mol
 #	deltafH		-230.73		kcal/mol
@@ -1747,9 +1747,9 @@ HS- + H+ = H2S
 	-Vm		3.5338 0.8485 5.4132 -2.8140 -0.03
 #	Extrapol	supcrt92
 #	Ref		SSW+97, 95pok/hel
- 
+
 H+ + CN- = HCN
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		9.2359
 	-delta_H	-43.5136	kJ/mol
 #	deltafH		25.6		kcal/mol
@@ -1760,7 +1760,7 @@ H+ + CN- = HCN
 #	Ref		SM93
 
 H+ + Cl- = HCl
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-0.67
 #	deltafH		-0		kcal/mol
 	-analytic	4.1893e2 1.1103e-1 -1.1784e4 -1.6697e2 -1.8400e2
@@ -1768,9 +1768,9 @@ H+ + Cl- = HCl
 	-Vm		1.2547 -4.7177 7.6043 -2.5840 -0.7
 #	Extrapol	supcrt92, ?
 #	Ref		MS97, 87rua/sew match
- 
+
 H+ + CrO4-2 = HCrO4-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		6.4944
 	-delta_H	2.9288		kJ/mol
 #	deltafH		-209.9		kcal/mol
@@ -1781,7 +1781,7 @@ H+ + CrO4-2 = HCrO4-
 #	Ref		SSW+97, SH88
 
 NO2- + H+ = HNO2
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		3.2206
 	-delta_H	-14.782		kJ/mol
 #	deltafH		-119.382	kJ/mol
@@ -1792,7 +1792,7 @@ NO2- + H+ = HNO2
 #	Ref		SSW+97, WEP+82 match
 
 NO3- + H+ = HNO3
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-1.3025
 	-delta_H	16.8155		kJ/mol
 #	deltafH		-45.41		kcal/mol
@@ -1803,7 +1803,7 @@ NO3- + H+ = HNO3
 #	Ref		SSW+97, SHS89
 
 2 HPO4-2 + H+ = HP2O7-3 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		5.4498
 	-delta_H	23.3326		kJ/mol
 #	deltafH		-2274.99	kJ/mol
@@ -1812,9 +1812,9 @@ NO3- + H+ = HNO3
 	-Vm		8.3302 12.5558 0.8208 -3.2980 4.647
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, WEP+82 differ by 0 log K at 0C, 4.7 log K at 300C
- 
+
 SO3-2 + H+ = HSO3-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		7.2054
 	-delta_H	9.33032		kJ/mol
 #	deltafH		-149.67		kcal/mol
@@ -1825,7 +1825,7 @@ SO3-2 + H+ = HSO3-
 #	Ref		SH88
 
 SO4-2 + H+ = HSO4-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		1.9791
 	-delta_H	20.5016		kJ/mol
 #	deltafH		-212.5		kcal/mol
@@ -1836,7 +1836,7 @@ SO4-2 + H+ = HSO4-
 #	Ref		SH88
 
 SiO2 + H2O = HSiO3- + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-9.9525
 	-delta_H	25.991		kJ/mol
 #	deltafH		-271.88		kcal/mol
@@ -1845,9 +1845,9 @@ SiO2 + H2O = HSiO3- + H+
 	-Vm		2.9735 -0.5158 5.9467 -2.7575 1.5511
 #	Extrapol	supcrt92
 #	Ref		SSH97
- 
+
 2 CH3COOH + K+ = K(CH3COO)2- + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-10.2914
 	-delta_H	-1.79912	kJ/mol
 #	deltafH		-292.9		kcal/mol
@@ -1858,7 +1858,7 @@ SiO2 + H2O = HSiO3- + H+
 #	Ref		SK93
 
 K+ + CH3COOH = KCH3COO + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-5.0211
 	-delta_H	4.8116		kJ/mol
 #	deltafH		-175.22		kcal/mol
@@ -1869,7 +1869,7 @@ K+ + CH3COOH = KCH3COO + H+
 #	Ref		SK93
 
 K+ + Cl- = KCl
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-1.4946
 	-delta_H	14.1963		kJ/mol
 #	deltafH		-96.81		kcal/mol
@@ -1877,10 +1877,10 @@ K+ + Cl- = KCl
 #	Range		0-350
 	-Vm		6.9932 9.297 2.0889 -3.1633 -0.038
 #	Extrapol	supcrt92
-#	Ref		SSH97 
- 
+#	Ref		SSH97
+
 SO4-2 + K+ + H+ = KHSO4
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		0.8136
 	-delta_H	29.8319		kJ/mol
 #	deltafH		-270.54		kcal/mol
@@ -1891,7 +1891,7 @@ SO4-2 + K+ + H+ = KHSO4
 #	Ref		SSH97
 
 SO4-2 + K+ = KSO4-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		0.8796
 	-delta_H	2.88696		kJ/mol
 #	deltafH		-276.98		kcal/mol
@@ -1902,7 +1902,7 @@ SO4-2 + K+ = KSO4-
 #	Ref		SSH97
 
 2 CH3COOH + Li+ = Li(CH3COO)2- + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-9.2674
 	-delta_H	-24.7609	kJ/mol
 #	deltafH		-304.67		kcal/mol
@@ -1913,7 +1913,7 @@ SO4-2 + K+ = KSO4-
 #	Ref		SK93
 
 Li+ + CH3COOH = LiCH3COO + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-4.4589
 	-delta_H	-6.64419	kJ/mol
 #	deltafH		-184.24		kcal/mol
@@ -1924,7 +1924,7 @@ Li+ + CH3COOH = LiCH3COO + H+
 #	Ref		SK93
 
 Li+ + Cl- = LiCl
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-1.5115
 	-delta_H	3.36812		kJ/mol
 #	deltafH		-105.68		kcal/mol
@@ -1935,7 +1935,7 @@ Li+ + Cl- = LiCl
 #	Ref		SSH97
 
 2 CH3COOH + Mg+2 = Mg(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.473
 	-delta_H	-23.8195	kJ/mol
 #	deltafH		-349.26		kcal/mol
@@ -1944,9 +1944,9 @@ Li+ + Cl- = LiCl
 	-Vm		12.3982 22.4898 -3.0853 -3.7086 -0.03
 #	Extrapol	supcrt92
 #	Ref		SK93
- 
+
 Mg+2 + CH3COOH = MgCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.4781
 	-delta_H	-8.42239	kJ/mol
 #	deltafH		-229.48		kcal/mol
@@ -1957,7 +1957,7 @@ Mg+2 + CH3COOH = MgCH3COO+ + H+
 #	Ref		SK93
 
 Mg+2 + HCO3- = MgCO3 + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.3499
 	-delta_H	23.8279		kJ/mol
 #	deltafH		-270.57		kcal/mol
@@ -1968,7 +1968,7 @@ Mg+2 + HCO3- = MgCO3 + H+
 #	Ref		SSH97
 
 Mg+2 + Cl- = MgCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.1349
 	-delta_H	-0.58576	kJ/mol
 #	deltafH		-151.44		kcal/mol
@@ -1979,7 +1979,7 @@ Mg+2 + Cl- = MgCl+
 #	Ref		SSH97
 
 SO4-2 + Mg+2 = MgSO4
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		2.4117
 	-delta_H	19.6051		kJ/mol
 #	deltafH		-1355.96	kJ/mol
@@ -1990,7 +1990,7 @@ SO4-2 + Mg+2 = MgSO4
 #	Ref		MS97, 82mar/smi match
 
 2 CH3COOH + Mn+2 = Mn(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.4547
 	-delta_H	-11.4893	kJ/mol
 #	deltafH		-287.67		kcal/mol
@@ -2001,7 +2001,7 @@ SO4-2 + Mg+2 = MgSO4
 #	Ref		SK93
 
 3 CH3COOH + Mn+2 = Mn(CH3COO)3- + 3 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-11.8747
 	-delta_H	-30.3591	kJ/mol
 #	deltafH		-408.28		kcal/mol
@@ -2012,7 +2012,7 @@ SO4-2 + Mg+2 = MgSO4
 #	Ref		SK93
 
 Mn+2 + CH3COOH = MnCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.5404
 	-delta_H	-3.07942	kJ/mol
 #	deltafH		-169.56		kcal/mol
@@ -2021,9 +2021,9 @@ Mn+2 + CH3COOH = MnCH3COO+ + H+
 	-Vm		6.0776 7.057 2.9786 -3.0706 0.4555
 #	Extrapol	supcrt92
 #	Ref		SK93
- 
+
 Mn+2 + Cl- = MnCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		0.3013
 	-delta_H	18.3134		kJ/mol
 #	deltafH		-88.28		kcal/mol
@@ -2034,7 +2034,7 @@ Mn+2 + Cl- = MnCl+
 #	Ref		SSH97
 
 1.5 H2O + 1.25 O2 + Mn+2 = MnO4- + 3 H+
-	-llnl_gamma	3.5    
+	-llnl_gamma	3.5
 	log_k		-20.2963
 	-delta_H	123.112		kJ/mol
 #	deltafH		-129.4		kcal/mol
@@ -2045,7 +2045,7 @@ Mn+2 + Cl- = MnCl+
 #	Ref		SSW+97, SH88
 
 SO4-2 + Mn+2 = MnSO4
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		2.3529
 	-delta_H	14.1168		kJ/mol
 #	deltafH		-266.75		kcal/mol
@@ -2054,9 +2054,9 @@ SO4-2 + Mn+2 = MnSO4
 	-Vm		-1.31 -1.83 62.3 -2.7 # APP14
 #	Extrapol	supcrt92
 #	Ref		SSH97
- 
+
 2 CH3COOH + NH3 = NH4(CH3COO)2- + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.1928
 	-delta_H	-56.735		kJ/mol
 #	deltafH		-265.2		kcal/mol
@@ -2067,7 +2067,7 @@ SO4-2 + Mn+2 = MnSO4
 #	Ref		SK93
 
 NH3 + H+ = NH4+
-	-llnl_gamma	2.5    
+	-llnl_gamma	2.5
 	log_k		9.2410
 	-delta_H	-51.9234	kJ/mol
 #	deltafH		-31.85		kcal/mol
@@ -2078,7 +2078,7 @@ NH3 + H+ = NH4+
 #	Ref		SH88
 
 NH3 + CH3COOH = NH4CH3COO
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		4.6964
 	-delta_H	-48.911		kJ/mol
 #	deltafH		-147.23		kcal/mol
@@ -2087,9 +2087,9 @@ NH3 + CH3COOH = NH4CH3COO
 	-Vm		11.2849 19.7719 -2.0187 -3.5963 -0.03
 #	Extrapol	supcrt92
 #	Ref		SK93
- 
+
 2 CH3COOH + Na+ = Na(CH3COO)2- + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-9.9989
 	-delta_H	-11.5771	kJ/mol
 #	deltafH		-292.4		kcal/mol
@@ -2100,7 +2100,7 @@ NH3 + CH3COOH = NH4CH3COO
 #	Ref		SK93
 
 Na+ + CH3COOH = NaCH3COO + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-4.8606
 	-delta_H	-0.029288	kJ/mol
 #	deltafH		-173.54		kcal/mol
@@ -2111,7 +2111,7 @@ Na+ + CH3COOH = NaCH3COO + H+
 #	Ref		SK93
 
 Na+ + Cl- = NaCl
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-0.777
 	-delta_H	5.21326		kJ/mol
 #	deltafH		-96.12		kcal/mol
@@ -2122,7 +2122,7 @@ Na+ + Cl- = NaCl
 #	Ref		SSH97
 
 Na+ + HCO3- = NaHCO3
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		0.1541
 	-delta_H	-13.7741	kJ/mol
 #	deltafH		-944.007	kJ/mol
@@ -2133,7 +2133,7 @@ Na+ + HCO3- = NaHCO3
 #	Ref		WEP+82
 
 SiO2 + Na+ + H2O = NaHSiO3 + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-8.304
 	-delta_H	11.6524		kJ/mol
 #	deltafH		-332.74		kcal/mol
@@ -2144,7 +2144,7 @@ SiO2 + Na+ + H2O = NaHSiO3 + H+
 #	Ref		SSH97
 
 Na+ + H2O = NaOH + H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-14.7948
 	-delta_H	53.6514		kJ/mol
 #	deltafH		-112.927	kcal/mol
@@ -2155,7 +2155,7 @@ Na+ + H2O = NaOH + H+
 #	Ref		SSW+97, 95pok/hel match
 
 2 CH3COOH + Ni+2 = Ni(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.1908
 	-delta_H	-25.8571	kJ/mol
 #	deltafH		-251.28		kcal/mol
@@ -2166,7 +2166,7 @@ Na+ + H2O = NaOH + H+
 #	Ref		SK93
 
 3 CH3COOH + Ni+2 = Ni(CH3COO)3- + 3 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-11.3543
 	-delta_H	-53.6807	kJ/mol
 #	deltafH		-374.03		kcal/mol
@@ -2177,7 +2177,7 @@ Na+ + H2O = NaOH + H+
 #	Ref		SK93
 
 Ni+2 + CH3COOH = NiCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.3278
 	-delta_H	-10.2508	kJ/mol
 #	deltafH		-131.45		kcal/mol
@@ -2188,7 +2188,7 @@ Ni+2 + CH3COOH = NiCH3COO+ + H+
 #	Ref		SK93
 
 Ni+2 + Cl- = NiCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.9962
 	-delta_H	5.99567		kJ/mol
 #	deltafH		-51.4		kcal/mol
@@ -2199,7 +2199,7 @@ Ni+2 + Cl- = NiCl+
 #	Ref		SSH97
 
 H2O = OH- + H+
-	-llnl_gamma	3.5    
+	-llnl_gamma	3.5
 	log_k		-13.9951
 	-delta_H	55.8146		kJ/mol
 #	deltafH		-54.977		kcal/mol
@@ -2210,7 +2210,7 @@ H2O = OH- + H+
 #	Ref		SH88
 
 2 HPO4-2 = P2O7-4 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.7463
 	-delta_H	27.2256		kJ/mol
 #	deltafH		-2271.1		kJ/mol
@@ -2219,9 +2219,9 @@ H2O = OH- + H+
 	-Vm		7.0687 9.4773 2.0273 -3.1707 6.9069
 #	Extrapol	supcrt92, 64cri/cob
 #	Ref		SSW+97, WEP+82 differ by 0.1 log K at 0C, 7 log K at 350C !! flag
- 
+
 HPO4-2 = PO4-3 + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-12.3218
 	-delta_H	14.7068		kJ/mol
 #	deltafH		-305.3		kcal/mol
@@ -2230,9 +2230,9 @@ HPO4-2 = PO4-3 + H+
 	-Vm		-0.5258 -9.0576 9.2927 -2.4045 5.61140
 #	Extrapol	supcrt92
 #	Ref		SSW+97, SH88
- 
+
 2 H+ + 2 SO3-2 = S2O5-2 + H2O
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		9.5934
 #	deltafH		-0		kcal/mol
 	-analytic	0.12262e3 0.62883e-1 -0.18005e4 -0.50798e2 -0.28132e2
@@ -2242,7 +2242,7 @@ HPO4-2 = PO4-3 + H+
 #	Ref		SSW+97, SH88
 
 2 H+ + SO3-2 = SO2 + H2O
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		9.0656
 	-delta_H	26.7316		kJ/mol
 #	deltafH		-77.194		kcal/mol
@@ -2253,7 +2253,7 @@ HPO4-2 = PO4-3 + H+
 #	Ref		SHS89
 
 2 CH3COOH + Sc+3 = Sc(CH3COO)2+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.7237
 	-delta_H	-43.1789	kJ/mol
 #	deltafH		-389.32		kcal/mol
@@ -2264,7 +2264,7 @@ HPO4-2 = PO4-3 + H+
 #	Ref		SK93
 
 3 CH3COOH + Sc+3 = Sc(CH3COO)3 + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-6.6777
 	-delta_H	-70.0402	kJ/mol
 #	deltafH		-511.84		kcal/mol
@@ -2275,7 +2275,7 @@ HPO4-2 = PO4-3 + H+
 #	Ref		SK93
 
 Sc+3 + CH3COOH = ScCH3COO+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-1.4294
 	-delta_H	-21.7568	kJ/mol
 #	deltafH		-268.1		kcal/mol
@@ -2286,7 +2286,7 @@ Sc+3 + CH3COOH = ScCH3COO+2 + H+
 #	Ref		SK93
 
 2 CH3COOH + Sm+3 = Sm(CH3COO)2+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-4.7132
 	-delta_H	-25.5224	kJ/mol
 #	deltafH		-403.5		kcal/mol
@@ -2297,7 +2297,7 @@ Sc+3 + CH3COOH = ScCH3COO+2 + H+
 #	Ref		SK93
 
 3 CH3COOH + Sm+3 = Sm(CH3COO)3 + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-7.8798
 	-delta_H	-43.5554	kJ/mol
 #	deltafH		-523.91		kcal/mol
@@ -2306,9 +2306,9 @@ Sc+3 + CH3COOH = ScCH3COO+2 + H+
 	-Vm		16.5088 32.5307 -7.0412 -4.1237 -0.03
 #	Extrapol	supcrt92
 #	Ref		SK93
- 
+
 Sm+3 + CH3COOH = SmCH3COO+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-1.9205
 	-delta_H	-13.598		kJ/mol
 #	deltafH		-284.55		kcal/mol
@@ -2319,7 +2319,7 @@ Sm+3 + CH3COOH = SmCH3COO+2 + H+
 #	Ref		SK93
 
 Sm+3 + HCO3- = SmCO3+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-2.479
 	-delta_H	89.1108		kJ/mol
 #	deltafH		-308.8		kcal/mol # OBIGT: -331.34 kcal/mol HSS95
@@ -2330,7 +2330,7 @@ Sm+3 + HCO3- = SmCO3+ + H+
 #	Ref		HSS95
 
 Sm+3 + Cl- = SmCl+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		0.3086
 	-delta_H	14.3637		kJ/mol
 #	deltafH		-201.7		kcal/mol
@@ -2341,7 +2341,7 @@ Sm+3 + Cl- = SmCl+2
 #	Ref		HSS95
 
 2 Cl- + Sm+3 = SmCl2+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.0425
 	-delta_H	19.9409		kJ/mol
 #	deltafH		-240.3		kcal/mol
@@ -2352,7 +2352,7 @@ Sm+3 + Cl- = SmCl+2
 #	Ref		HSS95
 
 3 Cl- + Sm+3 = SmCl3
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-0.3936
 	-delta_H	13.803		kJ/mol
 #	deltafH		-281.7		kcal/mol
@@ -2363,7 +2363,7 @@ Sm+3 + Cl- = SmCl+2
 #	Ref		HSS95
 
 4 Cl- + Sm+3 = SmCl4-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.818
 	-delta_H	-5.30531	kJ/mol
 #	deltafH		-326.2		kcal/mol
@@ -2374,7 +2374,7 @@ Sm+3 + Cl- = SmCl+2
 #	Ref		HSS95
 
 Sm+3 + HPO4-2 + H+ = SmH2PO4+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		9.4484
 	-delta_H	-15.8364	kJ/mol
 #	deltafH		-477.8		kcal/mol
@@ -2385,7 +2385,7 @@ Sm+3 + HPO4-2 + H+ = SmH2PO4+2
 #	Ref		HSS95
 
 Sm+3 + HCO3- = SmHCO3+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		1.7724
 	-delta_H	9.19643		kJ/mol
 #	deltafH		-327.9		kcal/mol
@@ -2396,7 +2396,7 @@ Sm+3 + HCO3- = SmHCO3+2
 #	Ref		HSS95
 
 Sm+3 + NO3- = SmNO3+2
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		0.8012
 	-delta_H	-29.1667	kJ/mol
 #	deltafH		-221.6		kcal/mol
@@ -2407,7 +2407,7 @@ Sm+3 + NO3- = SmNO3+2
 #	Ref		HSS95
 
 Sm+3 + H2O = SmO+ + 2 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-16.4837
 	-delta_H	113.039		kJ/mol
 #	deltafH		-206.5		kcal/mol # OBIGT: -197.63 kcal/mol HSS95
@@ -2418,7 +2418,7 @@ Sm+3 + H2O = SmO+ + 2 H+
 #	Ref		HSS95
 
 2 H2O + Sm+3 = SmO2- + 4 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-35.0197
 	-delta_H	285.909		kJ/mol
 #	deltafH		-233.5		kcal/mol # OBIGT: -238.22 kcal/mol HSS95
@@ -2429,7 +2429,7 @@ Sm+3 + H2O = SmO+ + 2 H+
 #	Ref		HSS95
 
 2 H2O + Sm+3 = SmO2H + 3 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-25.9304
 	-delta_H	226.497		kJ/mol
 #	deltafH		-247.7		kcal/mol
@@ -2440,7 +2440,7 @@ Sm+3 + H2O = SmO+ + 2 H+
 #	Ref		HSS95
 
 Sm+3 + H2O = SmOH+2 + H+
-	-llnl_gamma	4.5    
+	-llnl_gamma	4.5
 	log_k		-7.9808
 	-delta_H	79.1487		kJ/mol
 #	deltafH		-214.6		kcal/mol # OBIGT: -213.97 kcal/mol HSS95
@@ -2451,7 +2451,7 @@ Sm+3 + H2O = SmOH+2 + H+
 #	Ref		HSS95
 
 Sm+3 + SO4-2 = SmSO4+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		3.6430
 	-delta_H	20.0832		kJ/mol
 #	deltafH		-377.8		kcal/mol
@@ -2460,9 +2460,9 @@ Sm+3 + SO4-2 = SmSO4+
 	-Vm		-1.3885 -4.3882 7.4678 -2.5975 0.7483
 #	Extrapol	supcrt92
 #	Ref		HSS95
- 
+
 UO2+2 + H2O = UO2OH+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-5.2073
 	-delta_H	43.1813		kJ/mol
 #	deltafH		-1261.66	kJ/mol
@@ -2473,7 +2473,7 @@ UO2+2 + H2O = UO2OH+ + H+
 #	Ref		SSW+97, 92gre/fug match
 
 2 CH3COOH + Zn+2 = Zn(CH3COO)2 + 2 H+
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		-6.062
 	-delta_H	-11.0458	kJ/mol
 #	deltafH		-271.5		kcal/mol
@@ -2484,7 +2484,7 @@ UO2+2 + H2O = UO2OH+ + H+
 #	Ref		SSH97, SK93
 
 3 CH3COOH + Zn+2 = Zn(CH3COO)3- + 3 H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-10.0715
 	-delta_H	25.355		kJ/mol
 #	deltafH		-378.9		kcal/mol
@@ -2493,9 +2493,9 @@ UO2+2 + H2O = UO2OH+ + H+
 	-Vm		20.0332 41.1373 -10.4257 -4.4796 1.2513
 #	Extrapol	supcrt92
 #	Ref		SSH97, SK93
-   
+
 Zn+2 + CH3COOH = ZnCH3COO+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-3.1519
 	-delta_H	-9.87424	kJ/mol
 #	deltafH		-155.12		kcal/mol
@@ -2504,9 +2504,9 @@ Zn+2 + CH3COOH = ZnCH3COO+ + H+
 	-Vm		4.8484 4.06 4.1473 -2.9468 0.41
 #	Extrapol	supcrt92
 #	Ref		SSH97, SK93
- 
+
 Zn+2 + Cl- = ZnCl+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		0.1986
 	-delta_H	43.317		kJ/mol
 #	deltafH		-66.24		kcal/mol
@@ -2517,7 +2517,7 @@ Zn+2 + Cl- = ZnCl+
 #	Ref		SSH97
 
 2 Cl- + Zn+2 = ZnCl2
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		0.2507
 	-delta_H	31.1541		kJ/mol
 #	deltafH		-109.08		kcal/mol
@@ -2528,7 +2528,7 @@ Zn+2 + Cl- = ZnCl+
 #	Ref		SSH97
 
 3 Cl- + Zn+2 = ZnCl3-
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-0.0198
 	-delta_H	22.5894		kJ/mol
 #	deltafH		-151.06		kcal/mol
@@ -2539,7 +2539,7 @@ Zn+2 + Cl- = ZnCl+
 #	Ref		SSH97
 
 4 Cl- + Zn+2 = ZnCl4-2
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		0.8605
 	-delta_H	4.98733		kJ/mol
 #	deltafH		-195.2		kcal/mol
@@ -2548,9 +2548,9 @@ Zn+2 + Cl- = ZnCl+
 	-Vm		28.42 28 -5.26 -3.94 2.67 0 0 0 4.62e-2 1 # APP14
 #	Extrapol	supcrt92
 #	Ref		SSH97?
- 
+
 Zn+2 + H2O = ZnOH+ + H+
-	-llnl_gamma	4.0    
+	-llnl_gamma	4.0
 	log_k		-8.96
 #	deltafH		-0		kcal/mol
 	-analytic	-7.8600e-1 -2.9499e-4 -2.8673e3 6.1892e-1 -4.2576e1
@@ -2558,9 +2558,9 @@ Zn+2 + H2O = ZnOH+ + H+
 	-Vm		1.1499 -4.9677 7.6896 -2.5735 0.326
 #	Extrapol	supcrt92, ?
 #	Ref		SSW+97, 87bou/bar differ by 0.8 log K at 0C, 2.7 log K at 300C
- 
+
 Zn+2 + SO4-2 = ZnSO4
-	-llnl_gamma	3.0    
+	-llnl_gamma	3.0
 	log_k		2.3062
 	-delta_H	15.277		kJ/mol
 #	deltafH		-1047.71	kJ/mol
@@ -2569,7 +2569,7 @@ Zn+2 + SO4-2 = ZnSO4
 	-Vm		2.51 0 18.8 # APP14
 #	Extrapol	69hel
 #	Ref		WEP+82
- 
+
 PHASES
 
 #------------
@@ -2692,7 +2692,7 @@ Alum-K
 #	Range		0-300
 	-Vm		269.54 # Marion+09
 #	Extrapol	Cp integration
-#	Ref		73bar/kna 
+#	Ref		73bar/kna
 
 Alunite
 	KAl3(OH)6(SO4)2 + 6 H+ = K+ + 2 SO4-2 + 3 Al+3 + 6 H2O
@@ -2794,7 +2794,7 @@ Anthophyllite
 #	Ref		HDN+78
 
 Antigorite
-	Mg48Si34O85(OH)62 + 96 H+ = 34 SiO2 + 48 Mg+2 + 79 H2O 
+	Mg48Si34O85(OH)62 + 96 H+ = 34 SiO2 + 48 Mg+2 + 79 H2O
 	log_k		477.1943
 	-delta_H	-3364.43	kJ/mol
 #	deltafH		-17070.9	kcal/mol
@@ -3323,7 +3323,7 @@ Clinochlore-7A
 Clinoptilolite-Ca
 	Ca1.7335Al3.45Fe.017Si14.533O36:10.922H2O + 13.868 H+ = 0.017 Fe+3 + 1.7335 Ca+2 + 3.45 Al+3 + 14.533 SiO2 + 17.856 H2O
 	log_k		-7.0095
-	-delta_H	-74.6745	kJ/mol 
+	-delta_H	-74.6745	kJ/mol
 #	deltafH		-4919.84	kcal/mol
 	-analytic	-4.4820e1 5.3696e-2 5.4878e4 -3.1459e1 -7.5491e6
 #	Range		0-300
@@ -4056,7 +4056,7 @@ Fe2(SO4)3
 #	Range		0-300
 	-Vm		130.77 # thermo.com.V8.R6+.tdat
 #	Extrapol	Cp integration
-#	Ref		RHF79	
+#	Ref		RHF79
 
 FeO
 	FeO + 2 H+ = Fe+2 + H2O
@@ -5194,14 +5194,14 @@ Nesquehonite
 #	Extrapol	supcrt92
 #	Ref		HDN+78
 
-NH4Cl 
+NH4Cl
 	NH4Cl = NH4+ + Cl-
 	log_k		1.3252
-	-analytic	-3.078 1.550e-2 0 0 0 -3.451e-6  
+	-analytic	-3.078 1.550e-2 0 0 0 -3.451e-6
 #	Range		0-30
 	-Vm		34.96
 #	Extrapol	Marion+12
-#	Ref		Marion+12, WangLi11 match 
+#	Ref		Marion+12, WangLi11 match
 
 NH4-feldspar # Buddingtonite (sometimes with +0.5 H2O, especially at low temp)
 	NH4AlSi3O8 + 4H+ = NH4+ + Al+3 + 3 SiO2 + 2 H2O
@@ -5873,7 +5873,7 @@ Sm
 #	Ref		RHF79
 
 Smectite-high-Fe-Mg
-        Ca.025Na.1K.2Fe.5Fe.2Mg1.15Al1.25Si3.5H2O12 + 8 H+ = 0.025 Ca+2 + 0.1 Na+ + 0.2 Fe+3 + 0.2 K+ + 0.5 Fe+2 + 1.15 Mg+2 + 1.25 Al+3 + 3.5 SiO2 + 5 H2O 
+        Ca.025Na.1K.2Fe.5Fe.2Mg1.15Al1.25Si3.5H2O12 + 8 H+ = 0.025 Ca+2 + 0.1 Na+ + 0.2 Fe+3 + 0.2 K+ + 0.5 Fe+2 + 1.15 Mg+2 + 1.25 Al+3 + 3.5 SiO2 + 5 H2O
 	log_k		17.4200
 	-delta_H	-199.841	kJ/mol
 #	deltafH		-1351.39	kcal/mol
@@ -5884,7 +5884,7 @@ Smectite-high-Fe-Mg
 #	Ref		78wol
 
 Smectite-low-Fe-Mg
-        Ca.02Na.15K.2Fe.29Fe.16Mg.9Al1.25Si3.75H2O12 + 7 H+ = 0.02 Ca+2 + 0.15 Na+ + 0.16 Fe+3 + 0.2 K+ + 0.29 Fe+2 + 0.9 Mg+2 + 1.25 Al+3 + 3.75 SiO2 + 4.5 H2O 
+        Ca.02Na.15K.2Fe.29Fe.16Mg.9Al1.25Si3.75H2O12 + 7 H+ = 0.02 Ca+2 + 0.15 Na+ + 0.16 Fe+3 + 0.2 K+ + 0.29 Fe+2 + 0.9 Mg+2 + 1.25 Al+3 + 3.75 SiO2 + 4.5 H2O
 	log_k		11.0405
 	-delta_H	-144.774	kJ/mol
 #	deltafH		-1352.12	kcal/mol
@@ -6654,7 +6654,7 @@ C2H6(g)
 	-P_c		48.16
 	-Omega		0.100 # http://webserver.dmt.upm.es/~isidoro/dat1/eGAS.pdf
 #	Extrapol	supcrt92
-#	Ref		HOK+98	
+#	Ref		HOK+98
 
 C3H8(g)
 	C3H8 = C3H8
@@ -6668,7 +6668,7 @@ C3H8(g)
 #	Ref		HOK+98
 
 CH4(g)
-	CH4 = CH4 
+	CH4 = CH4
 	log_k		-2.8502
 	-delta_H	-13.0959	kJ/mol
 #	deltafH		-17.88		kcal/mol
@@ -6694,7 +6694,7 @@ CO(g)
 #	Ref		Sho93
 
 CO2(g)
-	CO2 + H2O = H+ + HCO3-   
+	CO2 + H2O = H+ + HCO3-
 	log_k		-7.8136
 	-delta_H	-10.5855	kJ/mol
 #	deltafH		-94.051		kcal/mol
@@ -6720,7 +6720,7 @@ H2(g)
 #	Ref		WEP+82, Kel60
 
 H2O(g)
-	H2O = H2O       
+	H2O = H2O
 	log_k		1.5854
 	-delta_H	-43.4383	kJ/mol
 #	deltafH		-57.935		kcal/mol
@@ -6733,7 +6733,7 @@ H2O(g)
 #	Ref		Joh90
 
 H2S(g)
-	H2S = H+ + HS-     
+	H2S = H+ + HS-
 	log_k		-7.9759
 	-delta_H	4.5229		kJ/mol
 #	deltafH		-4.931		kcal/mol
@@ -6747,7 +6747,7 @@ H2S(g)
 
 N2(g)
 	N2 = N2
-	log_k		-3.1864 
+	log_k		-3.1864
 	-delta_H	-10.4391	kJ/mol
 #	deltafH		0		kcal/mol
 	-analytic	-58.453 1.818e-3 3199 17.909 -27460 # phreeqc.dat
@@ -6759,7 +6759,7 @@ N2(g)
 #	Ref		WEP+82, Kel60
 
 NH3(g)
-	NH3 = NH3       
+	NH3 = NH3
 	log_k		1.7966
 	-delta_H	-35.2251	kJ/mol
 #	deltafH		-11.021		kcal/mol
@@ -6772,7 +6772,7 @@ NH3(g)
 #	Ref		WEP+82, Kel60
 
 NO(g)
-	NO + 0.5 H2O + 0.25 O2 = H+ + NO2- 
+	NO + 0.5 H2O + 0.25 O2 = H+ + NO2-
 	log_k		0.7554
 	-delta_H	-48.8884	kJ/mol
 #	deltafH		90.241		kJ/mol
@@ -6785,7 +6785,7 @@ NO(g)
 #	Ref		AS01, WEP+82 differ by 0.2 log K at 0C, 17 log K at 350C !! flag
 
 NO2(g)
-	NO2 + 0.5 H2O + 0.25 O2 = H+ + NO3- 
+	NO2 + 0.5 H2O + 0.25 O2 = H+ + NO3-
 	log_k		8.3673
 	-delta_H	-94.0124	kJ/mol
 #	deltafH		33.154		kJ/mol
@@ -6798,7 +6798,7 @@ NO2(g)
 #	Ref		WEP+82
 
 O2(g)
-	O2 = O2       
+	O2 = O2
 	log_k		-2.8983
 	-delta_H	-12.1336	kJ/mol
 #	deltafH		0		kcal/mol

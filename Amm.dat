@@ -36,10 +36,10 @@ S           SO4-2   0   SO4             32.064
 S(6)        SO4-2   0   SO4
 S(-2)       HS-     1   S
 N           NO3-    0   N               14.0067
-N(+5)       NO3-    0   NO3
-N(+3)       NO2-    0   NO2
+N(+5)       NO3-    0   N
+N(+3)       NO2-    0   N
 N(0)        N2      0   N
-#N(-3)      NH4+    0   NH4             14.0067
+#N(-3)      NH4+    0   N               14.0067
 Amm         AmmH+   0   AmmH            17.031
 B           H3BO3   0   B               10.81
 P           PO4-3   2   P               30.9738
@@ -76,7 +76,7 @@ H+ = H+
 # If a_v_dif <> 0, Dw(TK) *= (viscos_0_tc / viscos)^a_v_dif in TRANSPORT.
 e- = e-
 H2O = H2O
-	-dw 2.299e-9 -249 # Holz et al., Phys. Chem. Chem. Phys., 2000, 2, 4740. 
+	-dw 2.299e-9 -249 # Holz et al., Phys. Chem. Chem. Phys., 2000, 2, 4740.
 # H2O + 0.01e- = H2O-0.01; -log_k -9 # aids convergence
 Li+ = Li+
 	-gamma 6 0 # The apparent volume parameters are defined in ref. 1 & 2
@@ -84,12 +84,13 @@ Li+ = Li+
 	-viscosity 0.162 -2.45e-2 3.73e-2 9.7e-4 8.1e-4 2.087 # < 10 M LiCl
 	-dw 1.03e-9 -14 4.03 0.8341 1.679
 Na+ = Na+
-	-gamma 4 0.075
+	# -gamma 4 0.075
 	-gamma 4.08 0.082 # halite solubility
 	-Vm 2.28 -4.38 -4.1 -0.586 0.09 4 0.3 52 -3.33e-3 0.566
 	# -Vm   2.28  -4.38  -4.1  -0.586  0.09  4  0.3  52  -3.33e-3  0.45 # for densities (rho) when I > 3.
 	-viscosity 0.1387 -8.66e-2 1.25e-2 1.45e-2 7.5e-3 1.062
-	-dw 1.33e-9 75 3.627 0 0.7037
+	# -dw 1.33e-9 75 3.627 0 0.7037
+	-dw 1.33e-9 -180 3.545 2.2e-2 0.703 # for TC > 100, Quist and Marshall, 1968, JPC 72, 684
 K+ = K+
 	-gamma 3.5 0.015
 	-Vm 3.322 -1.473 6.534 -2.712 9.06e-2 3.5 0 29.7 0 1
@@ -103,12 +104,12 @@ Mg+2 = Mg+2
 Ca+2 = Ca+2
 	-gamma 5 0.165
 	-Vm -0.3456 -7.252 6.149 -2.479 1.239 5 1.6 -57.1 -6.12e-3 1
-	-viscosity 0.359 -0.158 4.2e-2 1.5e-3 8.04e-3 2.3 # ref. 4, CaCl2 < 6 M
+	-viscosity 0.411 -0.204 2.64e-2 1.39e-3 8.92e-3 2.332
 	-dw 0.792e-9 34 5.411 0 1.046
 Sr+2 = Sr+2
 	-gamma 5.26 0.121
 	-Vm -5.6e-2 -10.15 9.90 -2.36 0.807 5.26 2.72 -82.7 -1.37e-2 0.956
-	-viscosity 0.493 -0.255 2.3e-3 4.2e-3 -3.8e-3 1.762
+	-viscosity 0.310 -9.47e-2 1.97e-2 3.95e-3 -1e-3 1.813
 	-dw 0.794e-9 18 0.681 2.069 0.965 0.271
 Ba+2 = Ba+2
 	-gamma 7.1 0.0553 # Barite solubility in NaCl solutions
@@ -138,24 +139,24 @@ Cl- = Cl-
 	-dw 2.033e-9 216 3.16 0.2071 0.7432
 CO3-2 = CO3-2
 	-gamma 5.4 0
-	-Vm 6.685 -7.727 -9 -2.238 3.904 1.395 3.696 14 -0.02 0.701
-	-viscosity 3e-3 0.264 3.05e-2 1.1e-4 -1e-3 2.234 -1.434
-	-dw 0.955e-9 -91 1.992 0.1595 0.4515
+	-Vm 4.53 -3.683 -9.8 -2.42 3.79 0.733 12.95 -186 -6.42e-2 0.2155
+	-viscosity -6.48e-2 0.326 2.83e-2 4.97e-3 -2e-3 1.281 -1.3
+	-dw 0.955e-9 -39.3 1.357 0.2957 0.5071
 SO4-2 = SO4-2
 	-gamma 5.0 -0.04
 	-Vm 5.36 10.69 33.566 -15.03 4.2582 25 0.341 153.8 1.089e-2 0.9224 # with Na2SO4 & sulfates' solubilities in NaCl
-	-viscosity -0.387 0.5 1.772e-3 7.32e-3 1.19e-2 2.5 0.455
-	-dw 1.07e-9 -64.6 15.1 1.12e-3 0.537
+	-viscosity -0.5 0.599 1.56e-3 2.38e-2 1.26e-2 2.035 1.34e-4
+	-dw 1.07e-9 94.6 15 0.225 0.454
 NO3- = NO3-
 	-gamma 3 0
-	-Vm 6.32 6.78 0 -3.06 0.346 0 0.93 0 -0.012 1
-	-viscosity 8.37e-2 -0.458 1.54e-2 0.34 1.79e-2 5.02e-2 0.7381
-	-dw 1.9e-9 104 1.11
+	-Vm 6.951 6.892 5.269 -4.5 1.342 5.53e-2 0.1967 -9.3 -8.9e-4 2.447
+	-viscosity 0.933 -1 9.9e-4 4.32e-2 1.45e-2 0.2554 0.7226
+	-dw 1.9e-9 110 1.154 0.248 0.338
 AmmH+ = AmmH+
 	-gamma 2.5 0
-	-Vm 5.35 2.345 3.72 -2.88 1.55 2.5 -4.54 217 2.344e-2 0.569
-	-viscosity 6.94e-2 -0.141 2.04e-2 9.4e-3 3.73e-2 0.898
-	-dw 1.98e-9 203 1.47 2.644 6.81e-2
+	-Vm 6.769 -2.16 2.951 -2.59 1.106 24.7 -4.586 240.7 2.447e-2 0.448
+	-viscosity 7e-2 -0.143 2.09e-2 1.02e-2 4.09e-2 0.888
+	-dw 1.98e-9 47.2 2.76 0.648 0.13
 H3BO3 = H3BO3
 	-Vm 7.0643 8.8547 3.5844 -3.1451 -0.2 # supcrt
 	-dw 1.1e-9
@@ -166,13 +167,13 @@ PO4-3 = PO4-3
 F- = F-
 	-gamma 3.5 0
 	-Vm 2.235 -3.39 7.6 -2.5 1.71 15 -1 -39.3 5.68e-2 0.913 # Majer et al., 1997, JSC 26, 847, with NaF and KF.
-	-viscosity 0 -0.448 4.67e-2 0.46 4.03e-2 -0.057 -2
-	-dw 1.46e-9 -62 5 0.854 1.66
+	-viscosity -0.228 -5.11e-2 9.79e-2 0.279 2.19e-3 -3.54e-2 -1.64
+	-dw 1.46e-9 57.8 5.04 1.296 1.937
 Br- = Br-
 	-gamma 3 0.045
 	-Vm 6.72 2.85 4.21 -3.14 1.38 0 -9.56e-2 7.08 -1.56e-3 1
-	-viscosity 0.254 -0.684 2.26e-3 0.399 3.54e-3 9.52e-3 0.753
-	-dw 2.09e-9 208 3.5 0 0.5737
+	-viscosity 0.666 -0.75 1.27e-3 3.92e-2 1.64e-2 0.3 0.833
+	-dw 2.09e-9 209 3.5 0 0.553
 Zn+2 = Zn+2
 	-gamma 5 0
 	-Vm -1.96 -10.4 14.3 -2.35 1.46 5 -1.43 24 1.67e-2 1.11
@@ -210,8 +211,8 @@ H2O = OH- + H+
 	-analytic 293.29227 0.1360833 -10576.913 -123.73158 0 -6.996455e-5
 	-gamma 3.5 0
 	-Vm -9.66 28.5 80 -22.9 1.89 0 1.09 0 0 1
-	-viscosity -2.26e-2 0.106 2.184e-2  -3.2e-3 0 0.4082 -1.634 # < 5 M Li,Na,KOH
-	-dw 5.27e-9 478 0.8695
+	-viscosity -3.18e-2 0.115 1.89e-2 -1.86e-2 4.94e-2 0.4133 -1.66 # < 5 M Li,Na,KOH
+	-dw 5.27e-9 487 1.31 0 0.139
 2 H2O = O2 + 4 H+ + 4 e-
 	-log_k -86.06; -delta_h 138.43 kcal
 	-analytic -1e3 -0.322 -5897.7 416.82 0 -1.88e-5
@@ -224,7 +225,7 @@ H2O = OH- + H+
 	-dw 5.13e-9
 H+ + Cl- = HCl
 	-log_k -0.46; -delta_h -4.6
-	-analytical_expression 0.334 -2.684e-3 1.015 # from Pitzer.dat, up to 15 M HCl, 0 - 50°C
+	-analytical_expression 0.334 -2.684e-3 1.015 # from Pitzer.dat, up to 15 M HCl, 0 - 50Â°C
 	-gamma 0 0.4256
 	-Vm 4.4 4 3.6 -3 -0.1
 	-viscosity 0.921 -0.907 9.59e-3 1.87e-2 9.01e-3 2.5
@@ -232,9 +233,9 @@ CO3-2 + H+ = HCO3-
 	log_k 10.329; -delta_h -3.561 kcal
 	-analytic 107.8871 0.03252849 -5151.79 -38.92561 563713.9
 	-gamma 5.4 7.8e-3
-	-Vm 9.308 -1.695 -8.209 -1.014 1.777 6.978 -1.02 150 4.731e-2 0.802
-	-viscosity -1.479 1.44 -1e-3 0.119 3.379e-2 0 0.2658
-	-dw 1.18e-9 -250 6 0.118 0.359
+	-Vm 8.348 -7.103 -6.324 -1 1.073 0.575 23 -450 -6.4e-2 5.76e-2
+	-viscosity -1 0.754 1.03e-3 0.301 -2e-3 -6.19e-2 -0.4655
+	-dw 1.18e-9 -291 25 0 0.958
 CO3-2 + 2 H+ = CO2 + H2O
 	-log_k 16.681; -delta_h -5.738 kcal
 	-analytic 464.1965 0.09344813 -26986.16 -165.75951 2248628.9
@@ -258,7 +259,7 @@ SO4-2 + H+ = HSO4-
 	-log_k 1.988;  -delta_h 3.85 kcal
 	-analytic -56.889 0.006473 2307.9 19.8858
 	-Vm 8.2 9.259 2.1108 -3.1618 1.1748 0 -0.3 15 0 1
-	-viscosity 0.5 -6.97e-2 6.07e-2 1e-5 -0.1333 0.4865 0.7987
+	-viscosity 3.29e-2 -4.86e-2 0.409 1e-5 4.23e-2 1.069 0.7371
 	-dw 1.22e-9 1000 15 2.861
 HS- = S-2 + H+
 	-log_k -12.918
@@ -301,28 +302,20 @@ NO3- + 2 H+ + 2 e- = NO2- + H2O
 	-delta_h -312.13 kcal
 	-Vm 7 # Pray et al., 1952, IEC 44 1146
 	-dw 1.96e-9 -90 # Cadogan et al. 2014, JCED 59, 519
-#NO3- + 10 H+ + 8 e- = AmmH+ + 3 H2O
-#	  -log_k  119.077
-#	  -delta_h -187.055	  kcal
-#	-gamma 2.5 0
-#	-Vm 5.35 2.345 3.72 -2.88 1.55 2.5 -4.54 217 2.344e-2 0.569
-#	-viscosity 6.94e-2 -0.141 2.04e-2 9.4e-3 3.73e-2 0.898
-#	-dw 1.98e-9 203 1.47 2.644 6.81e-2
 AmmH+ = Amm + H+
 #NH4+ = NH3 + H+
-	-log_k -9.252
-	-delta_h 12.48 kcal
+	-log_k -9.252; -delta_h 12.48 kcal
 	-analytic 0.6322 -0.001225 -2835.76
-	-Vm 6.69 2.8 3.58 -2.88 1.43
-	-viscosity 0 -2.24e-2 0.101 8.66e-3 2.86e-2 -0.143 -0.769
+	-Vm 5.84 6.51 3.69 -3 -0.09
+	-viscosity 0 -0.7 4.17e-2 0.659 4.04e-2 -1.53e-2 1.2e-4
 	-dw 2.28e-9
 AmmH+ + SO4-2 = AmmHSO4-
 #NH4+ + SO4-2 = NH4SO4-
-	-log_k 1.353; -delta_h 3.91 kcal
-	-gamma 7 -7.36e-2
-	-Vm 6.27 8.5 8.77 -3.1 2 0 5.53 0 1.98e-2 0.475
-	-viscosity 1.251 -1.065 8.64e-4 6.186e-2 -1e-3 0.933 0.543
-	-dw 1.35e-9 500 12.5 0.5 0.256
+	-log_k 1.297; -delta_h -6.33
+	-gamma 7.5 -5.7e-2
+	-Vm 4.407 8.48 7.6 -3.1 0.31 2.5 24.28 -443 -9.42e-2 0.3538
+	-viscosity -0.801 1 -5.9e-4 6.65e-2 6.99e-3 0.995 0.6
+	-dw 1.55e-9 116 0.327 2.5 1.94e-2
 H3BO3 = H2BO3- + H+
 	-log_k -9.24
 	-delta_h 3.224 kcal
@@ -422,15 +415,15 @@ Mg+2 + SO4-2 = MgSO4
 	-analytical_expression 0 9.64e-3 -136 # epsomite/hexahydrite/kieserite solubilities, 0 - 200 oC
 	-gamma 0 0.20
 	-Vm 11.92 -27.758 29.752 -10.302 -0.1
-	-viscosity -0.737 0.769 -1.16e-3 8.86e-2 -7.3e-3 1.223 -0.679
+ 	-viscosity -0.895 1 -7.5e-4 0.43 1.32e-3 1 0.191
 	-dw 4.45e-10
 SO4-2 + MgSO4 = Mg(SO4)2-2
 	-log_k 0.52; -delta_h -13.6
 	-analytical_expression 0 -1.51e-3 0 0 8.604e4 # epsomite/hexahydrite/kieserite solubilities, 0 - 200 oC
 	-gamma 7 0.047
 	-Vm 4.248 9.83 -7 -2.672 2 3.5 5 100 0.3359 9.518e-2
-	-viscosity 1.265 -0.105 1.78e-2 9.05e-2 6.5e-5 2.28 0.374
-	-dw 1.5e-9 -400 3.039 1.18e-2 0.782
+	-viscosity -0.317 0.932 2.46e-2 0.127 -2.55e-3 2.29 0.61
+	-dw 1.5e-9 -410 1.578 0.1 0.723
 Mg+2 + PO4-3 = MgPO4-
 	-log_k 6.589
 	-delta_h 3.1 kcal
@@ -453,22 +446,22 @@ Na+ + HCO3- = NaHCO3
 	-log_k -0.433; -delta_h 11.4 kJ
 	-analytic -3.589 7.94e-3 273 # with -gamma, from calcite solubilities in NaCl
 	-gamma 0 0.151
-	-Vm 9.09 -9.2 4.2e-2 -2.4 3.8e-2
-	-viscosity -0.5 0.482 -8.8e-4 0.821 5.9e-2 2.5 -0.205
+	-Vm 7.558 -9.2 20 -2.4 -0.5
+	-viscosity 0.5 -0.901 -3.4e-4 0.5 1.19e-3 0 -0.5
 	-dw 6.73e-10
 Na+ + SO4-2 = NaSO4-
 	-log_k 0.94; -delta_h 8.23
 	-analytical_expression -0.304 4.51e-3 -28.9 # mirabilite/thenardite solubilities, 0 - 200 oC
 	-gamma 3.5 0.1072
 	-Vm 8.523 -4.685 -8.61 0.106 2.7 25 3.634 13.4 3.738e-2 0.5476
-	-viscosity -1 0.11 4.55e-2 1.0175 0 1.65e-2 -1.027
-	-dw 5.09e-10 -412 1.19 1.07
+	-viscosity 2.13e-2 -0.1 0.173 8.32e-2 1.44e-2 0.213 -0.413
+	-dw 4e-10 -450 1.17e-2 2.5
 2 Na+ + SO4-2 = Na2SO4 #
 	-log_k -2.37; -delta_h 82
 	-analytical_expression 15.432 -5.75e-3 -4796 # sulfates solubilities in NaCl
 	-gamma 0 8.85e-2
 	-Vm 9.405 -15.5 25 8.4 0.25
-	-viscosity -0.5 0.456 -1e-3 0.117 -1e-3 0.838 -0.2784
+	-viscosity -0.5 0.483 -1e-3 0.759 8.41e-3 0.571 1e-6
 	-dw 0.5e-9
 Na+ + HPO4-2 = NaHPO4-
 	-log_k 0.29
@@ -485,20 +478,21 @@ K+ + F- = KF
 	-log_k -0.82; -delta_h 14.5
 	-analytic -1.568 5.87e-3 -234.6
 	-Vm 1.94 -9.2 20 -2.4 2.6e-2
-	-viscosity 0.9 -0.769 -1e-3 2 6.76e-2 -0.889 -2
+	-viscosity 0.584 -0.5 -1e-7 2 6.31e-2 -0.905
 	-dw 8e-10
 K+ + HCO3- = KHCO3
-	-log_k -0.35; -delta_h 12 kJ
-	-gamma 0 0.1
-	-Vm 3.84 6.5 2.98 -3 2.1e-4
-	-viscosity 0.192 -0.546 0.121 0.251 0 0.314 2
+	-log_k -0.266; -delta_h 3.43 kJ
+	-gamma 0 0.172
+	-Vm 3.085 6.5 20 -3 -9.36e-2
+	-viscosity 0.25 1e-3 1e-3 2.6e-2 1e-3 0.5 0.5
+	-dw 9.73e-10
 K+ + SO4-2 = KSO4-
 	-log_k 1.18; -delta_h 3
 	-analytical_expression -3.0246 9.986e-3 0 0 1.093e5 # arcanite solubility, 0 - 200 oC
 	-gamma 5.4 0.19
 	-Vm 3.443 5.04 13 -3.324 2.447 0 20 0 7.77e-3 0.3497
-	-viscosity -0.599 -9.61e-2 0.158 0.733 1.1e-3 -5.2e-2 9e-5
-	dw 1.54e-9 322 0.129 2.045 2.216
+	-viscosity 0.237 -9.16e-2 0.203 2.3e-3 -1.39e-2 -1 0.723
+	-dw 1.6e-9 -100 1e-9 2.5 0.104
 K+ + HPO4-2 = KHPO4-
 	-log_k 0.29
 	-gamma 5.4 0
@@ -972,7 +966,7 @@ PHASES
 Calcite
 	CaCO3 = CO3-2 + Ca+2
 	-log_k -8.45; -delta_h -3.15 kcal
-	-analytic -67.87 -5.1813e-2 0 30.25746 # 0 - 300°C, Ellis, 1959, Plummer and Busenberg, 1982
+	-analytic -67.87 -5.1813e-2 0 30.25746 # 0 - 300Â°C, Ellis, 1959, Plummer and Busenberg, 1982
 	-Vm 36.9 cm3/mol # MW (100.09 g/mol) / rho (2.71 g/cm3)
 Aragonite
 	CaCO3 = CO3-2 + Ca+2
@@ -984,7 +978,7 @@ Dolomite
 	CaMg(CO3)2 = Ca+2 + Mg+2 + 2 CO3-2
 	-log_k -17.09
 	-delta_h -9.436 kcal
-	-analytic 31.283 -0.0898 -6438 # 25°C: Hemingway and Robie, 1994; 50–175°C: Bénézeth et al., 2018, GCA 224, 262-275
+	-analytic 31.283 -0.0898 -6438 # 25Â°C: Hemingway and Robie, 1994; 50â€“175Â°C: BÃ©nÃ©zeth et al., 2018, GCA 224, 262-275
 	-Vm 64.5
 Siderite
 	FeCO3 = Fe+2 + CO3-2
@@ -1068,7 +1062,7 @@ Hydroxyapatite
 Fluorite
 	CaF2 = Ca+2 + 2 F-
 	-log_k -10.61; -delta_h 10.6
-	-analytic 57.313 0 -3495 -22.714 # Strübel, 1965, NJbM,M 83-95; Henry, 2018, PhD, Colorado School of Mines.
+	-analytic 57.313 0 -3495 -22.714 # StrÃ¼bel, 1965, NJbM,M 83-95; Henry, 2018, PhD, Colorado School of Mines.
 	-Vm 15.7
 SiO2(a)
 	SiO2 + 2 H2O = H4SiO4
@@ -1233,7 +1227,7 @@ O2(g)
 	-T_c 154.6; -P_c 49.8; -Omega 0.021
 H2(g)
 	H2 = H2
-	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ºC
+	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ÂºC
 	-analytic	-8.841 8.6515e-3 942.8 # Zhu, 2022; Chabab 2020; Gordon 1977; Crozier, 1974
 	-T_c 33.2; -P_c 12.8; -Omega -0.225
 N2(g)
@@ -1245,12 +1239,12 @@ H2S(g)
 	H2S = H+ + HS-
 	log_k -7.93
 	-delta_h 9.1
-	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
+	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300Â°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
 	-T_c 373.2; -P_c 88.2; -Omega 0.1
 CH4(g)
 	CH4 = CH4
 	-log_k -2.8
-	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100°C
+	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100Â°C
 	-T_c 190.6; -P_c 45.4; -Omega 0.008
 Amm(g)
 	Amm = Amm
@@ -1266,7 +1260,7 @@ Oxg(g)
 	-T_c 154.6; -P_c 49.8; -Omega 0.021
 Hdg(g)
 	Hdg = Hdg
-	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ºC
+	-log_k -3.1; -delta_h -3.3 # 5.7 at 100ÂºC
 	-analytic	-8.841 8.6515e-3 942.8 # Zhu, 2022; Chabab 2020; Gordon 1977; Crozier, 1974
 	-T_c 33.2; -P_c 12.8; -Omega -0.225
 Ntg(g)
@@ -1276,12 +1270,12 @@ Ntg(g)
 Mtg(g)
 	Mtg = Mtg
 	-log_k -2.8; -delta_h -15.6
-	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100°C
+	-analytic 10.44 -7.65e-3 -6669 0 1.014e6 # CH4 solubilities 25 - 100Â°C
 	-T_c 190.6; -P_c 45.4; -Omega 0.008
 H2Sg(g)
 	H2Sg = H+ + HSg-
 	log_k -7.93; -delta_h 9.1
-	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
+	-analytic -45.07 -0.02418 0 17.9205 # H2S solubilities, 0 - 300Â°C, 1 - 987 atm, Jiang et al., 2020, CG 555, 119816
 	-T_c 373.2; -P_c 88.2; -Omega 0.1
 Melanterite
 	FeSO4:7H2O = 7 H2O + Fe+2 + SO4-2
@@ -1372,7 +1366,7 @@ EXCHANGE_SPECIES
 	-delta_h 1.4 # Merriam & Thomas, 1956
 
 # !!!!!
-#	H+ + X- = HX # better use: active fraction model, see https://hydrochemistry.eu/exmpls/a_f.html 
+#	H+ + X- = HX # better use: active fraction model, see https://hydrochemistry.eu/exmpls/a_f.html
 #	-log_k  1.0
 #	-gamma  9.0	0
 
@@ -1956,8 +1950,8 @@ END
 #   W * QBrn is the energy of solvation, calculated from W and the pressure dependence of the Born equation,
 #	W is fitted on measured solution densities.
 #   z is charge of the solute species.
-#   Av is the Debye-Hückel limiting slope (DH_AV in PHREEQC basic).
-#   a0 is the ion-size parameter in the extended Debye-Hückel equation:
+#   Av is the Debye-HÃ¼ckel limiting slope (DH_AV in PHREEQC basic).
+#   a0 is the ion-size parameter in the extended Debye-HÃ¼ckel equation:
 #	f(I^0.5) = I^0.5 / (1 + a0 * DH_B * I^0.5),
 #	a0 = -gamma	  x for cations, = 0 for anions (or fitted).
 # For details, consult ref. 1 and subroutine calc_vm(tc, pa) in prep.cpp.
@@ -1972,14 +1966,14 @@ END
 #    B_i = b0 + b1 exp(-b2 * tc)
 #    fan = (2 - tan V_i / V_Cl-), corrects for the volume of anions and neutral species
 #    D_i = d1 * exp(-d2 tc)
-#    n_i = (I^d3 * (1 + fI) + ((z_i^2 + z_i) / 2 · m_i)^d3) / (2 + fI), fI is an ionic strength term.
+#    n_i = (I^d3 * (1 + fI) + ((z_i^2 + z_i) / 2 Â· m_i)^d3) / (2 + fI), fI is an ionic strength term.
 # For details, consult ref. 4.
 #
-# ref. 1: Appelo, Parkhurst and Post, 2014. Geochim. Cosmochim. Acta 125, 49–67.
-# ref. 2: Procedures from ref. 1 using data compiled by Laliberté, 2009, J. Chem. Eng. Data 54, 1725.
+# ref. 1: Appelo, Parkhurst and Post, 2014. Geochim. Cosmochim. Acta 125, 49â€“67.
+# ref. 2: Procedures from ref. 1 using data compiled by LalibertÃ©, 2009, J. Chem. Eng. Data 54, 1725.
 # ref. 3: Appelo, 2017, Cem. Concr. Res. 101, 102-113.
 # ref. 4: Appelo and Parkhurst in prep., for details see subroutine viscosity in transport.cpp
 #
 # =============================================================================================
 # It remains the responsibility of the user to check the calculated results, for example with
-#   measured solubilities as a function of (P, T, I) in files in high_P_T.
+#   measured solubilities as a function of (P, T, I).

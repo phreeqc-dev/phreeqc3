@@ -6,7 +6,6 @@ Database file: ../database/pitzer.dat
 Reading data base.
 ------------------
 
-WARNING: Unknown input, no keyword has been specified.
 	SOLUTION_MASTER_SPECIES
 	SOLUTION_SPECIES
 	PHASES
@@ -81,7 +80,7 @@ Initial solution 1.	Black Sea water
 	Elements           Molality       Moles
 
 	Br                4.401e-04   4.401e-04
-	C                 7.539e-04   7.539e-04  Equilibrium with CO2(g)
+	C                 7.370e-04   7.370e-04  Equilibrium with CO2(g)
 	Ca                5.841e-03   5.841e-03
 	Cl                2.930e-01   2.930e-01
 	K                 4.960e-03   4.960e-03
@@ -91,26 +90,26 @@ Initial solution 1.	Black Sea water
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   8.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 29835
-                          Density (g/cm³)  =   1.01092
-                               Volume (L)  =   1.00789
-                        Viscosity (mPa s)  =   0.92683
-                        Activity of water  =   0.990
-                 Ionic strength (mol/kgw)  =   3.751e-01
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   7.766e-04
-                       Total CO2 (mol/kg)  =   7.539e-04
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   2.342e-03
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.36
-                               Iterations  =   8
-                         Gamma iterations  =   3
-                      Osmotic coefficient  =   0.89868
-                         Density of water  =   0.99704
-                                  Total H  = 1.110131e+02
-                                  Total O  = 5.556955e+01
+                                        pH  =  8.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  29626     
+                           Density (g/cm³)  =  1.01091  
+                                Volume (L)  =  1.00789  
+                         Viscosity (mPa s)  =  0.93446  
+                         Activity of water  =  0.990  
+                  Ionic strength (mol/kgw)  =  3.751e-01  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 7.598e-04  
+                        Total CO2 (mol/kg)  =  7.370e-04  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  2.359e-03  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.36  
+                                Iterations  =  8   
+                          Gamma iterations  =  3   
+                       Osmotic coefficient  =  0.89868  
+                          Density of water  =  0.99704  
+                                   Total H  =  1.110131e+02
+                                   Total O  =  5.556950e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -123,9 +122,9 @@ Initial solution 1.	Black Sea water
    H2O             5.551e+01   9.903e-01     1.744    -0.004     0.000     18.07
 Br            4.401e-04
    Br-             4.401e-04   3.007e-04    -3.356    -3.522    -0.165     25.07
-C(4)          7.539e-04
-   HCO3-           7.135e-04   4.887e-04    -3.147    -3.311    -0.164     26.14
-   CO3-2           1.588e-05   2.238e-06    -4.799    -5.650    -0.851     -1.84
+C(4)          7.370e-04
+   HCO3-           6.967e-04   4.771e-04    -3.157    -3.321    -0.164     26.29
+   CO3-2           1.588e-05   2.238e-06    -4.799    -5.650    -0.851     -1.25
    MgCO3           1.422e-05   1.422e-05    -4.847    -4.847     0.000    -17.09
    CO2             1.025e-05   1.083e-05    -4.989    -4.965     0.024     34.79
 Ca            5.841e-03
@@ -151,7 +150,7 @@ S(6)          1.527e-02
   Anhydrite        -1.27     -5.52   -4.25  CaSO4
   Aragonite        -0.27     -8.49   -8.22  CaCO3
   Arcanite         -5.73     -7.61   -1.88  K2SO4
-  Artinite         -3.24     16.42   19.66  Mg2CO3(OH)2:3H2O
+  Artinite         -3.25     16.41   19.66  Mg2CO3(OH)2:3H2O
   Bischofite       -8.16     -3.56    4.59  MgCl2:6H2O
   Bloedite         -6.63     -8.98   -2.35  Na2Mg(SO4)2:4H2O
   Brucite          -3.24    -14.12  -10.88  Mg(OH)2
@@ -169,7 +168,7 @@ S(6)          1.527e-02
   H2O(g)           -1.51     -0.00    1.50  H2O
   Halite           -3.02     -1.44    1.58  NaCl
   Hexahydrite      -3.26     -4.83   -1.57  MgSO4:6H2O
-  Huntite          -0.70      9.54   10.24  CaMg3(CO3)4
+  Huntite          -0.74      9.50   10.24  CaMg3(CO3)4
   Kainite          -7.80     -7.99   -0.19  KMgClSO4:3H2O
   Kalicinite       -6.18    -16.12   -9.94  KHCO3
   Kieserite        -4.54     -4.81   -0.27  MgSO4:H2O
@@ -204,7 +203,7 @@ Initial solution 2.	Composition during halite precipitation
 	Elements           Molality       Moles
 
 	Br                3.785e-02   3.785e-02
-	C                 6.345e-06   6.345e-06  Equilibrium with CO2(g)
+	C                 6.259e-06   6.259e-06  Equilibrium with CO2(g)
 	Cl                6.004e+00   6.004e+00
 	K                 4.578e-01   4.578e-01
 	Mg                2.354e+00   2.354e+00
@@ -213,26 +212,26 @@ Initial solution 2.	Composition during halite precipitation
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   5.000    
-                                       pe  =   4.000    
-      Specific Conductance (µS/cm,  25°C)  = 149272
-                          Density (g/cm³)  =   1.27237
-                               Volume (L)  =   1.13163
-                        Viscosity (mPa s)  =   3.61719
-                        Activity of water  =   0.678
-                 Ionic strength (mol/kgw)  =   1.111e+01
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   6.841e-06
-                       Total CO2 (mol/kg)  =   6.345e-06
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   4.629e-02
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.29
-                               Iterations  =  16 (24 overall)
-                         Gamma iterations  =   7
-                      Osmotic coefficient  =   1.72913
-                         Density of water  =   0.99704
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.910064e+01
+                                        pH  =  5.000      
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm,  25°C)  =  149204    
+                           Density (g/cm³)  =  1.27237  
+                                Volume (L)  =  1.13163  
+                         Viscosity (mPa s)  =  3.62290  
+                         Activity of water  =  0.678  
+                  Ionic strength (mol/kgw)  =  1.111e+01  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = 6.756e-06  
+                        Total CO2 (mol/kg)  =  6.259e-06  
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  4.629e-02  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.29  
+                               Iterations  =   16   (24 overall)
+                          Gamma iterations  =  7   
+                       Osmotic coefficient  =  1.72913  
+                          Density of water  =  0.99704  
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.910064e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -245,11 +244,11 @@ Initial solution 2.	Composition during halite precipitation
    H2O             5.551e+01   6.781e-01     1.744    -0.169     0.000     18.07
 Br            3.785e-02
    Br-             3.785e-02   4.933e-02    -1.422    -1.307     0.115     26.52
-C(4)          6.345e-06
-   HCO3-           3.620e-06   3.346e-07    -5.441    -6.475    -1.034     30.72
+C(4)          6.259e-06
+   HCO3-           3.534e-06   3.267e-07    -5.452    -6.486    -1.034     29.03
    CO2             2.648e-06   1.083e-05    -5.577    -4.965     0.612     34.79
    MgCO3           7.082e-08   7.082e-08    -7.150    -7.150     0.000    -17.09
-   CO3-2           5.792e-09   1.532e-12    -8.237   -11.815    -3.578     13.91
+   CO3-2           5.792e-09   1.532e-12    -8.237   -11.815    -3.578      8.64
 Cl            6.004e+00
    Cl-             6.004e+00   4.547e+00     0.778     0.658    -0.121     20.71
 K             4.578e-01
@@ -269,7 +268,7 @@ S(6)          8.986e-01
   Phase               SI** log IAP   log K(298 K,   1 atm)
 
   Arcanite         -1.35     -3.23   -1.88  K2SO4
-  Artinite         -8.51     11.15   19.66  Mg2CO3(OH)2:3H2O
+  Artinite         -8.52     11.14   19.66  Mg2CO3(OH)2:3H2O
   Bischofite       -2.55      2.04    4.59  MgCl2:6H2O
   Bloedite          0.06     -2.29   -2.35  Na2Mg(SO4)2:4H2O
   Brucite          -5.71    -16.59  -10.88  Mg(OH)2
@@ -313,23 +312,23 @@ Solution 1: Black Sea water
 
                          Input          Delta    Input+Delta
              pH      8.000e+00  +   0.000e+00  =   8.000e+00
-     Alkalinity      7.766e-04  +   0.000e+00  =   7.766e-04
+     Alkalinity      7.598e-04  +   0.000e+00  =   7.598e-04
              Br      4.401e-04  +   0.000e+00  =   4.401e-04
-           C(4)      7.539e-04  +   0.000e+00  =   7.539e-04
+           C(4)      7.370e-04  +   0.000e+00  =   7.370e-04
              Ca      5.841e-03  +   0.000e+00  =   5.841e-03
              Cl      2.930e-01  +   8.006e-04  =   2.938e-01
               K      4.960e-03  +   1.034e-04  =   5.063e-03
              Mg      2.807e-02  +  -7.018e-04  =   2.737e-02
              Na      2.544e-01  +   0.000e+00  =   2.544e-01
-           S(6)      1.527e-02  +   1.207e-04  =   1.539e-02
+           S(6)      1.527e-02  +   1.292e-04  =   1.540e-02
 
 Solution 2: Composition during halite precipitation
 
                          Input          Delta    Input+Delta
              pH      5.000e+00  +   0.000e+00  =   5.000e+00
-     Alkalinity      6.841e-06  +  -1.710e-07  =   6.670e-06
+     Alkalinity      6.756e-06  +  -1.689e-07  =   6.587e-06
              Br      3.785e-02  +   9.440e-04  =   3.880e-02
-           C(4)      6.345e-06  +   1.586e-07  =   6.503e-06
+           C(4)      6.259e-06  +   1.565e-07  =   6.416e-06
              Ca      0.000e+00  +   0.000e+00  =   0.000e+00
              Cl      6.004e+00  +   1.501e-01  =   6.154e+00
               K      4.578e-01  +  -1.144e-02  =   4.464e-01
@@ -343,15 +342,15 @@ Solution fractions:                   Minimum        Maximum
 
 Phase mole transfers:                 Minimum        Maximum   Formula             (Approximate SI in solution 1, 2 at 298 K,   1 atm)
          H2O(g)     -4.837e+03     -4.817e+03     -4.817e+03   H2O                        ( -1.51, -1.67)
-        Calcite     -3.423e-02     -3.508e-02     -3.324e-02   CaCO3                      ( -0.05,      )
-         CO2(g)     -3.222e-02     -3.474e-02     -2.959e-02   CO2                        ( -3.50, -3.50)
-         Gypsum     -4.807e-01     -4.944e-01     -4.651e-01   CaSO4:2H2O                 ( -0.93,      )
+        Calcite     -3.348e-02     -3.432e-02     -3.251e-02   CaCO3                      ( -0.05,      )
+         CO2(g)     -3.148e-02     -3.394e-02     -2.890e-02   CO2                        ( -3.50, -3.50)
+         Gypsum     -4.814e-01     -4.951e-01     -4.658e-01   CaSO4:2H2O                 ( -0.93,      )
          Halite     -1.975e+01     -2.033e+01     -1.902e+01   NaCl                       ( -3.02,  0.02)
 
 Redox mole transfers:    
 
-Sum of residuals (epsilons in documentation):         2.029e+02
-Sum of delta/uncertainty limit:                       9.940e+00
+Sum of residuals (epsilons in documentation):         2.048e+02
+Sum of delta/uncertainty limit:                       9.962e+00
 Maximum fractional error in element concentration:    2.500e-02
 
 Model contains minimum number of phases.

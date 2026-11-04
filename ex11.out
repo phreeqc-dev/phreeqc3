@@ -59,22 +59,22 @@ Initial solution 0.	CaCl2
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.995      Charge balance
-                                       pe  =  13.628      Equilibrium with O2(g)
-      Specific Conductance (µS/cm,  25°C)  = 155
-                          Density (g/cm³)  =   0.99710
-                               Volume (L)  =   1.00298
-                        Viscosity (mPa s)  =   0.89067
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.800e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =   1.017e-19
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =   2.860e-18
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =   0.00
-                               Iterations  =   4
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.550675e+01
+                                        pH  =  6.995        Charge balance
+                                        pe  =  13.628       Equilibrium with O2(g)
+       Specific Conductance (µS/cm,  25°C)  =  155       
+                           Density (g/cm³)  =  0.99710  
+                                Volume (L)  =  1.00298  
+                         Viscosity (mPa s)  =  0.89067  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.800e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = -9.026e-20 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  3.053e-18  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                                Iterations  =  4   
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.550675e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -118,22 +118,22 @@ Initial solution 1.	Initial solution for column
 
 ----------------------------Description of solution----------------------------
 
-                                       pH  =   6.997      Charge balance
-                                       pe  =  13.626      Equilibrium with O2(g)
-      Specific Conductance (µS/cm,  25°C)  = 145
-                          Density (g/cm³)  =   0.99711
-                               Volume (L)  =   1.00301
-                        Viscosity (mPa s)  =   0.89020
-                        Activity of water  =   1.000
-                 Ionic strength (mol/kgw)  =   1.200e-03
-                       Mass of water (kg)  =   1.000e+00
-                 Total alkalinity (eq/kg)  =  -9.275e-19
-                         Temperature (°C)  =  25.00
-                  Electrical balance (eq)  =  -9.115e-17
- Percent error, 100*(Cat-|An|)/(Cat+|An|)  =  -0.00
-                               Iterations  =   3 (7 overall)
-                                  Total H  = 1.110124e+02
-                                  Total O  = 5.551035e+01
+                                        pH  =  6.997        Charge balance
+                                        pe  =  13.626       Equilibrium with O2(g)
+       Specific Conductance (µS/cm,  25°C)  =  145       
+                           Density (g/cm³)  =  0.99711  
+                                Volume (L)  =  1.00301  
+                         Viscosity (mPa s)  =  0.89023  
+                         Activity of water  =  1.000  
+                  Ionic strength (mol/kgw)  =  1.200e-03  
+                        Mass of water (kg)  =  1.000e+00  
+                   Total alkalinity (eq/kg)  = -9.395e-19 
+                          Temperature (°C)  =  25.00 
+                   Electrical balance (eq)  =  -9.102e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   3    (7 overall)
+                                   Total H  =  1.110124e+02
+                                   Total O  =  5.551035e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -148,7 +148,7 @@ H(0)          0.000e+00
 K             2.000e-04
    K+              2.000e-04   1.923e-04    -3.699    -3.716    -0.017      9.01
 N(5)          1.200e-03
-   NO3-            1.200e-03   1.154e-03    -2.921    -2.938    -0.017     29.49
+   NO3-            1.200e-03   1.154e-03    -2.921    -2.938    -0.017     29.64
 Na            1.000e-03
    Na+             1.000e-03   9.621e-04    -3.000    -3.017    -0.017     -1.47
 O(0)          5.351e-04

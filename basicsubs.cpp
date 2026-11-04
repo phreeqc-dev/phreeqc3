@@ -424,6 +424,7 @@ calc_SC(void)
 		// B1 = relaxation, B2 = electrophoresis in ll = (ll0 - B2 * sqrt(mu) / f2(1 + ka)) * (1 - B1 * sqrt(mu) / f1(1 + ka))
 		a = 1.60218e-19 * 1.60218e-19 / (6 * pi);
 		B1 = a / (2 * 8.8542e-12 * eps_r * 1.38066e-23 * tk_x) * q / (1 + sqrt_q) * DH_B * 1e10 * z_plus * z_min;  // DH_B is per Angstrom (*1e10)
+		t1 = tc_x < 100 ? viscos_0 : 0.2186 * pow((100 / tc_x), 0.1);
 		B2 = a * AVOGADRO / viscos_0 * DH_B * 1e17;  // DH_B per Angstrom (*1e10), viscos in mPa.s (*1e3), B2 in cm2 (*1e4)
 		//B1 = a / (2 * 8.8542e-12 * eps_c * 1.38066e-23 * tk_x) * q / (1 + sqrt_q) * DH_B * 1e10 * z_plus * z_min;  // DH_B is per Angstrom (*1e10)
 		//B2 = a * AVOGADRO / viscos * DH_B * 1e17;  // DH_B per Angstrom (*1e10), viscos in mPa.s (*1e3), B2 in cm2 (*1e4)
@@ -435,7 +436,9 @@ calc_SC(void)
 
 		//Dw_SC = 1e4 * F_C_MOL * F_C_MOL / (R_KJ_DEG_MOL * 298.15e3); // for recalculating Dw to ll0
 		t1 = calc_solution_volume();
-		ll_SC = 0.5e3 * (eq_plus + eq_min) / t1 * mass_water_aq_x / t1; // recalculates ll to SC in uS/cm, with mu in mol/kgw
+		ll_SC = 0.5e3 * (eq_plus + eq_min) / t1 * mass_water_aq_x; // recalculates ll to SC in uS/cm, with eq's in mol/kgw
+		if (tc_x < 101)
+			ll_SC /= t1; // improves...
 
 		for (i = 0; i < (int)this->s_x.size(); i++)
 		{
@@ -494,7 +497,7 @@ calc_SC(void)
 					t1 = pow(1 + mu_x, a2);
 				else
 				{
-					v0 = calc_vm0(s_x[i]->name, tc_x, 1, 0);
+					v0 = calc_vm0(s_x[i]->name, tc_x, patm_x, 0);
 					t1 = 1 + (s_x[i]->rxn_x.logk[vm_tc] - v0);
 					if (a2 && t1 > 0)
 						t1 = pow(t1, a2);
@@ -507,6 +510,8 @@ calc_SC(void)
 				else
 					// with a mu^dw_a2 correction of a..
 					ka = DH_B * a * pow((double)mu_x, a2);
+				if (ka < -0.9) 
+					ka = -0.9;
 
 				t1 = (Dw - B2 * l_z * sqrt_mu / (1 + ka)) *
 					(1 - B1 * sqrt_mu / ((1 + ka) * (1 + ka)));// +ka * ka / 6))); // S.cm2/eq / (kgw/L)
@@ -514,8 +519,9 @@ calc_SC(void)
 				//	(1 - B1 * sqrt_mu / ((1 + ka) *(1 + ka * sqrt_q + ka * ka / 6))); // S.cm2/eq / (kgw/L)
 				if (av)
 					t1 *= pow(viscos_0 / viscos, av);
+				a = (tc_x > 100 ? 1 : 2);
 				if (correct_Dw)
-					s_x[i]->dw_corr *= t1 / Dw * pow(mass_water_aq_x / calc_solution_volume(), 2);
+					s_x[i]->dw_corr *= t1 / Dw * pow(mass_water_aq_x / calc_solution_volume(), a);
 
 				// fractional contribution in mu, and correct for charge imbalance
 				a2 = 2 / (eq_plus + eq_min);

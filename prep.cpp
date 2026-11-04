@@ -5415,12 +5415,16 @@ LDBLE Phreeqc::calc_vm0(const char * species_name, LDBLE tc, LDBLE pa, LDBLE mu)
 	 *  Calculate molar volume of an aqueous species at tc, pa and mu
 	 */
 	if (llnl_temp.size() > 0 && !use_phreeqc_dha_dhb) return OK;
+	// find QBrn, DH_Av and DH_B at T, P. restore before end...
+	if (tc != tc_x || pa != patm_x)
+		calc_dielectrics(tc, pa);
+
 	class species *s_ptr;
 	LDBLE g = 0;
 	s_ptr = s_search(species_name);
 	if (s_ptr == s_h2o)
 		return 18.016 / rho_0;
-	if (s_ptr != NULL && s_ptr->in != FALSE && s_ptr->type < EMINUS && s_ptr->logk[vma1])
+	if (s_ptr != NULL /*&& s_ptr->in != FALSE*/ && s_ptr->type < EMINUS && s_ptr->logk[vma1])
 	{
 		LDBLE pb_s = 2600. + pa * 1.01325, TK_s = tc + 45.15, sqrt_mu = sqrt(mu);
 		/* supcrt volume at I = 0... */
@@ -5453,6 +5457,8 @@ LDBLE Phreeqc::calc_vm0(const char * species_name, LDBLE tc, LDBLE pa, LDBLE mu)
 			}
 		}
 	}
+	if (tc != tc_x || pa != patm_x)
+		calc_dielectrics(tc_x, patm_x);
 	return g;
 }
 

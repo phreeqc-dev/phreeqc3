@@ -5597,7 +5597,6 @@ int n_user_new, bool move_old)
 	temp_surface.Sort_comps();
 	return (temp_surface);
 }
-
 /* ---------------------------------------------------------------------- */
 int Phreeqc::
 diff_stag_surf(int mobile_cell)
@@ -5997,19 +5996,19 @@ LDBLE new_Dw, int l_cell)
 
 /* ---------------------------------------------------------------------- */
 LDBLE Phreeqc::
-viscosity(cxxSurface *surf_ptr)
+viscosity_0(LDBLE l_tc_x, LDBLE l_patm_x)
 /* ---------------------------------------------------------------------- */
 {
-	if (surf_ptr && !surf_ptr->Get_calc_viscosity())
-	{
-		for (int i = 0; i < (int)surf_ptr->Get_surface_charges().size(); i++)
-			surf_ptr->Get_surface_charges()[i].Set_DDL_viscosity(surf_ptr->Get_DDL_viscosity());
-		return surf_ptr->Get_DDL_viscosity();
-	}
 
-	/* Huber et al., 2009, J. Phys. Chem. Ref. Data, Vol. 38, 101-125 */
+	/* Huber et al., 2009, J. Phys. Chem. Ref. Data, Vol. 38, 101-125: 
+	The equation for the viscosity of water for  states up to 1173 K and 1000 MPa with
+      uncertainties from less than 1 to 7 percent depending on the state point.*/
+	if (l_tc_x != tc_x)
+	{
+		rho_0 = calc_rho_0(l_tc_x, l_patm_x);
+	}
 	LDBLE H[4] = { 1.67752, 2.20462, 0.6366564, -0.241605 };
-	LDBLE Tb = (tc_x + 273.15) / 647.096, denom = H[0], mu0;
+	LDBLE Tb = (l_tc_x + 273.15) / 647.096, denom = H[0], mu0;
 	int i, j, i1;
 	for (i = 1; i < 4; i++)
 		denom += H[i] / pow(Tb, i);
@@ -6045,24 +6044,61 @@ viscosity(cxxSurface *surf_ptr)
 	mu1 = exp(Rb * S1);
 	viscos_0 = viscos = mu0 * mu1 / 1e3;
 	viscos_0_25 = 0.8900239182946;
+	if (l_tc_x != tc_x)
+		rho_0 = calc_rho_0(tc_x, patm_x);
+	return viscos;
+
 	//#define OLD_VISCOSITY
 #ifdef OLD_VISCOSITY
 	/* from Atkins, 1994. Physical Chemistry, 5th ed. */
 	viscos =
-		pow((LDBLE) 10.,
-		-(1.37023 * (tc_x - 20) +
-		0.000836 * (tc_x - 20) * (tc_x - 20)) / (109 + tc_x));
+		pow((LDBLE)10.,
+			-(1.37023 * (l_tc_x - 20) +
+				0.000836 * (l_tc_x - 20) * (l_tc_x - 20)) / (109 + l_tc_x));
 	viscos_0_25 = 0.88862;
 #endif
-	//return viscos;
+}
+
+/* ---------------------------------------------------------------------- */
+LDBLE Phreeqc::
+viscosity(cxxSurface* surf_ptr)
+/* ---------------------------------------------------------------------- */
+{
+	if (surf_ptr && !surf_ptr->Get_calc_viscosity())
+	{
+		for (int i = 0; i < (int)surf_ptr->Get_surface_charges().size(); i++)
+			surf_ptr->Get_surface_charges()[i].Set_DDL_viscosity(surf_ptr->Get_DDL_viscosity());
+		return surf_ptr->Get_DDL_viscosity();
+	}
+
+	LDBLE l_tc_x = tc_x, l_patm_x = patm_x, tc_lim = 150, tc_fac = 2.25e-4, l_viscos_0;
+	boolean at_tc_lim = false;
+
+	// trial tc_lim & tc_fac in Jones_Dole[7] & [8] for H+
+	class species* s_ptr;
+	s_ptr = s_hplus;
+	if (s_ptr->Jones_Dole[7] && s_ptr->Jones_Dole[8])
+	{
+		// 150ºC: 2.25e-4; 100ºC: 1.31e-4
+		tc_lim = s_ptr->Jones_Dole[7]; tc_fac = s_ptr->Jones_Dole[8];
+	}
+	if (tc_x > tc_lim)
+	{
+		at_tc_lim = true;
+		l_tc_x = tc_lim;
+		LDBLE psat = exp(11.6702 - 3816.44 / (tk_x - 46.13));
+		if (fabs(patm_x - psat) < 1e-2)
+			l_patm_x = exp(11.6702 - 3816.44 / (l_tc_x + 273.15 - 46.13));
+	}
+	l_viscos_0 = viscosity_0(l_tc_x, l_patm_x);
+	if (at_tc_lim)
+		viscosity_0(tc_x, patm_x);
 	if (!print_viscosity)
 		return viscos;
 
 	/* (modified) Jones-Dole eqn for viscosity:
-	viscos / viscos_0 =
-	1 + A * eq_tot^0.5 +
-	f_an * (Sum(B_i * m_i) +
-	Sum(D_i * m_i * ((1 + f_I) * mu_x^d3_i + (m_i * f_z)^d3_i) / (2 + f_I)))
+	viscos / viscos_0 = 1 + A * eq_tot^0.5 + f_an * (Sum(B_i * m_i) +
+		Sum(D_i * m_i * ((1 + f_I) * mu_x^d3_i + (m_i * f_z)^d3_i) / (2 + f_I)))
 	A calculated from Falkenhagen-Dole
 	B_i = b0 + b1*exp(b2 * tc), b0..2 in Jones_Dole[0..2], read in SOLUTION_SPECIES
 	D_i = d1 * exp(d2 * tc), d1, 2 in Jones_Dole[3, 4]
@@ -6070,26 +6106,28 @@ viscosity(cxxSurface *surf_ptr)
 	Jones_Dole[6] contains the anion factor, 1 for Cl-, variable for other anions
 	f_z = (z * z + |z|) / 2, the contribution of the ion to mu_x, if z = 0: f_z = mu_x / m_i
 	f_I = variable, depends on d3_i > 1, or d3_i < 1.
-	tc is limited to 200 C.
 
+	A from Falkenhagen 1971 for a salt with l1, l2 the equivalent conductivities at infinite dilution:
+	A = 1.461e-2 / (viscos_0 * (eps_r * T**0.5) * (z1/(z1+z2))**0.5 / (l1*l2) * psi
+	psi = (l1 * z2**2 + l2 * z1**2) / 4 - (z2 * l1 - z1 * l2)**2 / ((l1 + l2)**0.5 + (z2 * l1 + z1 * l2)**0.5 * (( z1 + z2)/(z1 * z2))**0.5)**2
+	l1, z1 for the cation, l2, |z2| for the anion of the salt.
+	A can be calculated with Dw of the ions: A_Dw = A_l * 1e-4 * RT/F**2.
+	We use the harmonic mean of the Dw's of the solutes, and the arithmetic mean of the z's, both weighted by their equivalent concentration.
 
-	A from Falkenhagen-Dole for a salt:
-	A = 4.3787e-14 * TK**1.5 / (eps_r**0.5)* (z1 + z2)**-0.5 / (D1 * D2) * psi
-	psi = (D1*z2 + D2*z1)/4 - z1*z2 * (D1-D2)**2 / ((D1*z1 + D2*z2)**0.5 + ((D1 + D2) * (z1 + z2))**0.5)**2
-	D1, z1 for the cation, D2, |z2| for the anion of the salt.
-	We use the harmonic mean of the Dw's, and the arithmetic mean of the z's,
-	both weighted by the equivalent concentration.
+	tc is limited to 300 C.
 	*/
-	LDBLE D1, D2, z1, z2, m_plus, m_min, eq_plus, eq_min, eq_dw_plus, eq_dw_min, t1, t2, t3, fan = 1;
-	LDBLE A, psi, Bc = 0, Dc = 0, Dw = 0.0, l_z, f_z, lm, V_an, m_an, V_Cl, tc, l_moles, l_water, l_mu_x, dw_t_visc;
+	int i, i1;
+
+	LDBLE D1, D2, l_D1, l_D2, z1, z2, m_plus, m_min, eq_plus, eq_min, eq_dw_plus, eq_dw_min, l_eq_dw_plus, l_eq_dw_min, t1, t2, t3, fan = 1;
+	LDBLE A, l_A, psi, Bc, Dc, Dw, l_Dw, l_z, f_z, lm, V_an, m_an, V_Cl, l_moles, l_water, l_mu_x, dw_t_visc;
 
 	m_plus = m_min = eq_plus = eq_min = eq_dw_plus = eq_dw_min = V_an = m_an = V_Cl = 0;
 
-	tc = (tc_x > 200) ? 200 : tc_x;
 	l_water = mass_water_aq_x;
+	//l_water = calc_solution_volume(); // not better
 	l_mu_x = mu_x;
-	
-	
+
+
 	int i1_last;
 	if (surf_ptr == NULL)
 		i1_last = 1;
@@ -6104,7 +6142,9 @@ viscosity(cxxSurface *surf_ptr)
 	LDBLE ratio_surf_aq = mass_water_surfaces_x / mass_water_aq_x;
 	for (i1 = 0; i1 < i1_last; i1++)
 	{
-		Bc = Dc = Dw = m_plus = m_min = eq_plus = eq_min = eq_dw_plus = eq_dw_min = V_an = m_an = 0;
+		//if (tc_x > 300)
+		//	goto highT;
+		Bc = Dc = Dw = l_Dw = m_plus = m_min = eq_plus = eq_min = eq_dw_plus = eq_dw_min = l_eq_dw_plus = l_eq_dw_min = V_an = m_an = 0;
 		if (surf_ptr)
 		{
 			z_g_map.clear();
@@ -6172,16 +6212,16 @@ viscosity(cxxSurface *surf_ptr)
 				else
 					f_z = l_mu_x / t1;
 				//if data at tc's other than 25 are scarce, put the values found for 25 C in [7] and [8], optimize [1], [2], and [4]...
-				if (s_x[i]->Jones_Dole[7] || s_x[i]->Jones_Dole[8])
-				{
-					s_x[i]->Jones_Dole[0] = s_x[i]->Jones_Dole[7] -
-						s_x[i]->Jones_Dole[1] * exp(-s_x[i]->Jones_Dole[2] * 25.0);
-					s_x[i]->Jones_Dole[3] =
-						s_x[i]->Jones_Dole[8] / exp(-s_x[i]->Jones_Dole[4] * 25.0);
-				}
+				//if (s_x[i]->Jones_Dole[7] || s_x[i]->Jones_Dole[8])
+				//{
+				//	s_x[i]->Jones_Dole[0] = s_x[i]->Jones_Dole[7] -
+				//		s_x[i]->Jones_Dole[1] * exp(-s_x[i]->Jones_Dole[2] * 25.0);
+				//	s_x[i]->Jones_Dole[3] =
+				//		s_x[i]->Jones_Dole[8] / exp(-s_x[i]->Jones_Dole[4] * 25.0);
+				//}
 				// find B * m and D * m * mu^d3
 				dw_t_visc = (s_x[i]->Jones_Dole[0] +
-					s_x[i]->Jones_Dole[1] * exp(-s_x[i]->Jones_Dole[2] * tc)) * t1;
+					s_x[i]->Jones_Dole[1] * exp(-s_x[i]->Jones_Dole[2] * l_tc_x)) * t1;
 				Bc += dw_t_visc;
 				// define f_I from the exponent of the D * m^d3 term...
 				if (s_x[i]->Jones_Dole[5] >= 1)
@@ -6190,41 +6230,54 @@ viscosity(cxxSurface *surf_ptr)
 					t2 = -0.8 / s_x[i]->Jones_Dole[5];
 				else
 					t2 = -1;
-				t3 = (s_x[i]->Jones_Dole[3] * exp(-s_x[i]->Jones_Dole[4] * tc)) *
-					t1 * (pow(l_mu_x, s_x[i]->Jones_Dole[5])*(1 + t2) + pow(t1 * f_z, s_x[i]->Jones_Dole[5])) / (2 + t2);
+				t3 = (s_x[i]->Jones_Dole[3] * exp(-s_x[i]->Jones_Dole[4] * l_tc_x)) *
+					t1 * (pow(l_mu_x, s_x[i]->Jones_Dole[5]) * (1 + t2) + pow(t1 * f_z, s_x[i]->Jones_Dole[5])) / (2 + t2);
 				if (t3 < -1e-5)
 					t3 = 0;
 				Dc += t3;
 				if (!surf_ptr) s_x[i]->dw_t_visc = dw_t_visc + t3;
 				//output_msg(sformatf("\t%s\t%e\t%e\t%e\n", s_x[i]->name, t1, Bc, Dc ));
 			}
-			// parms for A and V_an. 7/26/24: added V_an calculation for gases z = 0
+			// parms for A and V_an. 7/26/24: added V_an calculation for gases (and neutral species) z = 0
 			if ((l_z = s_x[i]->z) == 0)
+			{
+				if (s_x[i]->Jones_Dole[6])
 				{
-					if (s_x[i]->Jones_Dole[6])
-					{
-						V_an += s_x[i]->logk[vm_tc] * s_x[i]->Jones_Dole[6] * l_moles;
-						m_an += l_moles;
-					}
-					continue;
+					t1 = calc_vm0(s_x[i]->name, l_tc_x, l_patm_x, mu_x);
+					V_an += t1 * s_x[i]->Jones_Dole[6] * l_moles;
+					m_an += l_moles;
 				}
-			if ((Dw = s_x[i]->dw) == 0)
+				continue;
+			}
+			if ((l_Dw = Dw = s_x[i]->dw) == 0)
 				continue;
 			Dw *= viscos_0_25 / viscos_0;
 			if (s_x[i]->dw_t)
 				Dw *= exp(s_x[i]->dw_t / tk_x - s_x[i]->dw_t / 298.15);
+			if (at_tc_lim)
+			{
+				l_Dw *= viscos_0_25 / l_viscos_0;
+				if (s_x[i]->dw_t)
+					l_Dw *= exp(s_x[i]->dw_t / (l_tc_x + 273.15) - s_x[i]->dw_t / 298.15);
+			}
+			else
+				l_Dw = Dw;
 			if (l_z < 0)
 			{
 				if (!strcmp(s_x[i]->name, "Cl-"))
 					// volumina for f_an...
 				{
-					V_Cl = s_x[i]->logk[vm_tc];
+					V_Cl = calc_vm0(s_x[i]->name, l_tc_x, l_patm_x, mu_x);
 					V_an += V_Cl * l_moles;
 					m_an += l_moles;
 				}
 				else if (s_x[i]->Jones_Dole[6])
 				{
-					V_an += s_x[i]->logk[vm_tc] * s_x[i]->Jones_Dole[6] * l_moles;
+					if (at_tc_lim)
+						t1 = calc_vm0(s_x[i]->name, l_tc_x, l_patm_x, mu_x);
+					else
+						t1 = s_x[i]->logk[vm_tc];
+					V_an += t1 * s_x[i]->Jones_Dole[6] * l_moles;
 					m_an += l_moles;
 				}
 				// anions for A...
@@ -6232,6 +6285,7 @@ viscosity(cxxSurface *surf_ptr)
 				t1 = l_moles * l_z;
 				eq_min -= t1;
 				eq_dw_min -= t1 / Dw;
+				l_eq_dw_min -= t1 / l_Dw;
 			}
 			else
 			{
@@ -6240,47 +6294,96 @@ viscosity(cxxSurface *surf_ptr)
 				t1 = l_moles * l_z;
 				eq_plus += t1;
 				eq_dw_plus += t1 / Dw;
+				l_eq_dw_plus += t1 / l_Dw;
 			}
 		}
 		if (m_plus && m_min && eq_dw_plus && eq_dw_min)
 		{
-			z1 = eq_plus / m_plus;     z2 = eq_min / m_min;
-			D1 = eq_plus / eq_dw_plus; D2 = eq_min / eq_dw_min;
+			// 8/28/26: calculation of A follows Falkenhagen, 1971
+			z1 = eq_plus / m_plus;                z2 = eq_min / m_min;
+			t2 = sqrt((eq_plus + eq_min) / 2 / l_water);
 
-			t1 = (D1 - D2) / (sqrt(D1 * z1 + D2 * z2) + sqrt((D1 + D2) * (z1 + z2)));
-			psi = (D1 * z2 + D2 * z1) / 4.0 - z1 * z2 * t1 * t1;
-			// Here A is A * viscos_0, avoids multiplication later on...
-			A = 4.3787e-14 * pow(tk_x, 1.5) / (sqrt(eps_r * (z1 + z2) / ((z1 > z2) ? z1 : z2)) * (D1 * D2)) * psi;
+			if (at_tc_lim)
+			{
+				D1 = eq_plus / eq_dw_plus * z1;       D2 = eq_min / eq_dw_min * z2;
+				t1 = (z2 * D1 - z1 * D2) / (sqrt(D1 + D2) + sqrt((z2 * D1 + z1 * D2) * ((z1 + z2) / (z1 * z2))));
+				psi = (D1 * z2 * z2 + D2 * z1 * z1) / 4.0 - t1 * t1;
+				// Here A is A * viscos_0, avoids multiplication later on...
+				//A = 1.4486e-2 * R / F^2 * tk_x^0.5 / .......... 
+				A = 1.29381e-11 * sqrt(tk_x / eps_r * ((z1 > z2) ? z1 : z2) / (z1 + z2)) / (D1 * D2) * psi;
+				A *= t2;
+			}
+
+			l_D1 = eq_plus / l_eq_dw_plus * z1; l_D2 = eq_min / l_eq_dw_min * z2;
+			t1 = (z2 * l_D1 - z1 * l_D2) / (sqrt(l_D1 + l_D2) + sqrt((z2 * l_D1 + z1 * l_D2) * ((z1 + z2) / (z1 * z2))));
+			psi = (l_D1 * z2 * z2 + l_D2 * z1 * z1) / 4.0 - t1 * t1;
+			if (at_tc_lim)
+				calc_dielectrics(l_tc_x, l_patm_x); // for eps_r at l_tc_x, l_patm_x
+			l_A = 1.29381e-11 * sqrt((l_tc_x + 273.15) / eps_r * ((z1 > z2) ? z1 : z2) / (z1 + z2)) / (l_D1 * l_D2) * psi;
+			if (at_tc_lim)
+				calc_dielectrics(tc_x, patm_x); // return to eps_r etc. at tc_x
+			l_A *= t2;
 		}
 		else
-			A = 0;
-		viscos = viscos_0 + A * sqrt((eq_plus + eq_min) / 2 / l_water);
+			l_A = A = 0;
+		viscos = l_viscos_0 + l_A;
+
 		if (m_an)
 			V_an /= m_an;
 		if (!V_Cl)
-			V_Cl = calc_vm_Cl();
-		if (V_an && V_Cl)
-			fan = 2 - V_an / V_Cl;
-		else
-			fan = 1;
-		if (Dc < 0) 
-			Dc = 0; // provisional...
-		viscos += viscos_0 * fan * (Bc + Dc);
-		if (viscos < 0)
 		{
-			viscos = viscos_0;
-			warning_msg("viscosity < 0, reset to viscosity of pure water");
+			V_Cl = calc_vm0("Cl-", l_tc_x, l_patm_x, mu_x);
+			if (V_Cl < 1)
+			{
+				//error_string = sformatf("V_Cl- = %f, < 1", V_Cl);
+				//warning_msg(error_string);
+				V_Cl = 1;
+			}
 		}
+		if (fabs(V_an - V_Cl) < 1e-2)
+			fan = 1;
+		else
+		{
+			t1 = 0.05;
+			if ((fan = 2 - V_an / V_Cl) > t1)
+				;
+			else if ((fan = 2 - V_an * mu_x) > t1)
+				;
+			else
+				fan = t1;
+		}
+		t1 = fan * (Bc + Dc);
+		viscos += l_viscos_0 * t1;
+
+		if (at_tc_lim)
+		{
+			t2 = (viscos - l_viscos_0 - l_A) / l_viscos_0;
+			viscos = viscos_0 + A + viscos_0 * t2 * exp(-tc_fac * (tc_x - l_tc_x));
+		}
+		if (tc_x > 150)
+		{
+			t2 = viscos_0 * (1 + mu_x / tk_x);
+			if (viscos < t2 && (eq_min + eq_plus) > mu_x / 1e2) // the eq_ term added in case Dw's = 0
+				viscos = t2;
+		}
+
+	//highT:
 		if (!surf_ptr)
 		{
+			// for calculating the fractional contribution of the species to the viscosity...
+			t1 = fabs(Bc + Dc);
 			for (i = 0; i < (int)this->s_x.size(); i++)
 			{
+				//if (viscos == viscos_0) continue; // appt
 				if (s_x[i]->type != AQ && s_x[i]->type > HPLUS)
 					continue;
-				if ((lm = s_x[i]->lm) < -9)
-					continue;
-				if (s_x[i]->Jones_Dole[0] || s_x[i]->Jones_Dole[1] || s_x[i]->Jones_Dole[3])
-					s_x[i]->dw_t_visc /= (Bc + Dc);
+				if (s_x[i]->lm < -9)
+					s_x[i]->dw_t_visc = 0;
+				//	continue;
+				//if (tc_x > 300)
+				//	s_x[i]->dw_t_visc = 0;
+				else if (s_x[i]->Jones_Dole[0] || s_x[i]->Jones_Dole[1] || s_x[i]->Jones_Dole[3])
+					s_x[i]->dw_t_visc /= t1;
 			}
 		}
 		else //if (surf_ptr->Get_calc_viscosity())
@@ -6298,74 +6401,7 @@ viscosity(cxxSurface *surf_ptr)
 	}
 	return viscos;
 }
-/* ---------------------------------------------------------------------- */
-LDBLE Phreeqc::
-calc_vm_Cl(void)
-/* ---------------------------------------------------------------------- */
-{
-	/*
-	*  Calculate molar volume of Cl- with a Redlich type eqn:
-	Vm = Vm0(tc) + (Av / 2) * z^2 * I^0.5 + coef(tc) * I^(b4).
-	*    Vm0(tc) is calc'd using supcrt parms, or from millero[0] + millero[1] * tc + millero[2] * tc^2
-	*    for Av * z^2 * I^0.5, see Redlich and Meyer, Chem. Rev. 64, 221.
-	Av is in (cm3/mol)(mol/kg)^-0.5, = DH_Av.
-	If b_Av != 0, the extended DH formula is used: I^0.5 /(1 + b_Av * DH_B * I^0.5).
-	DH_Av and DH_B are from calc_dielectrics(tc, pa).
-	*	  coef(tc) = logk[vmi1] + logk[vmi2] / (TK - 228) + logk[vmi3] * (TK - 228).
-	*    b4 = logk[vmi4], or
-	*	  coef(tc) = millero[3] + millero[4] * tc + millero[5] * tc^2
-	*/
-	LDBLE V_Cl = 0;
-	LDBLE pb_s = 2600. + patm_x * 1.01325, TK_s = tc_x + 45.15, sqrt_mu = sqrt(mu_x);
-	class species *s_ptr;
 
-	s_ptr = s_search("Cl-");
-	if (!s_ptr)
-		return V_Cl;
-
-	if (s_ptr->logk[vma1])
-	{
-		/* supcrt volume at I = 0... */
-		V_Cl = s_ptr->logk[vma1] + s_ptr->logk[vma2] / pb_s +
-			(s_ptr->logk[vma3] + s_ptr->logk[vma4] / pb_s) / TK_s -
-			s_ptr->logk[wref] * QBrn;
-
-		/* the ionic strength term * I^0.5... */
-		if (s_ptr->logk[b_Av] < 1e-5)
-			V_Cl += s_ptr->z * s_ptr->z * 0.5 * DH_Av * sqrt_mu;
-		else
-		{
-			/* limit the Debye-Hueckel slope by b... */
-			/* pitzer... */
-			//s_ptr->rxn_x.logk[vm_tc] += s_ptr->z * s_ptr->z * 0.5 * DH_Av *
-			//	log(1 + s_ptr->logk[b_Av] * sqrt(mu_x)) / s_ptr->logk[b_Av];
-			/* extended DH... */
-			V_Cl += s_ptr->z * s_ptr->z * 0.5 * DH_Av *
-				sqrt_mu / (1 + s_ptr->logk[b_Av] * DH_B * sqrt_mu);
-		}
-		/* plus the volume terms * I... */
-		if (s_ptr->logk[vmi1] != 0.0 || s_ptr->logk[vmi2] != 0.0 || s_ptr->logk[vmi3] != 0.0)
-		{
-			LDBLE bi = s_ptr->logk[vmi1] + s_ptr->logk[vmi2] / TK_s + s_ptr->logk[vmi3] * TK_s;
-			if (s_ptr->logk[vmi4] == 1.0)
-				V_Cl += bi * mu_x;
-			else
-				V_Cl += bi * pow(mu_x, s_ptr->logk[vmi4]);
-		}
-	}
-	else if (s_ptr->millero[0])
-	{
-		/* Millero volume at I = 0... */
-		V_Cl = s_ptr->millero[0] + tc_x * (s_ptr->millero[1] + tc_x * s_ptr->millero[2]);
-		if (s_ptr->z)
-		{
-			/* the ionic strength terms... */
-			V_Cl += s_ptr->z * s_ptr->z * 0.5 * DH_Av * sqrt_mu +
-				(s_ptr->millero[3] + tc_x * (s_ptr->millero[4] + tc_x * s_ptr->millero[5])) * mu_x;
-		}
-	}
-	return V_Cl;
-}
 /* ---------------------------------------------------------------------- */
 LDBLE Phreeqc::
 flux_mcd(const char* species_name, int option)

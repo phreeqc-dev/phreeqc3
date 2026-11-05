@@ -2589,7 +2589,7 @@ calc_gas_pressures(void)
 	{
 		if (PR /*&& gas_unknown->gas_phase->total_p > 1 */ && iterations > 0)
 		{
-			calc_PR(phase_ptrs, gas_phase_ptr->Get_total_p(), tk_x, 0);
+			calc_PR(phase_ptrs, gas_phase_ptr->Get_total_p(), tk_x, 0, 2);
 		}
 	} else
 	{

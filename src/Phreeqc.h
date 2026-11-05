@@ -555,7 +555,7 @@ public:
 	int build_species_list(int n);
 	int build_min_surface(void);
 	LDBLE calc_lk_phase(phase* p_ptr, LDBLE TK, LDBLE pa);
-	LDBLE calc_PR(std::vector<class phase*> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m);
+	LDBLE calc_PR(std::vector<class phase*> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m, int fixed_pressure_context = 0, LDBLE initial_volume_L = 0);
 	LDBLE calc_PR();
 	int calc_vm(LDBLE tc, LDBLE pa);
 	LDBLE calc_vm0(const char *species_name, LDBLE tc, LDBLE pa, LDBLE mu);

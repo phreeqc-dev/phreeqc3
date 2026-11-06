@@ -1045,7 +1045,7 @@ public:
 	void* free_check_null(void* ptr);
 	int get_token(const char** eqnaddr, std::string& string, LDBLE* z, int* l);
 	int islegit(const char c);
-	void malloc_error(void);
+	[[noreturn]] void malloc_error(void);
 	int print_centered(const char* string);
 	static int replace(const char* str1, const char* str2, char* str);
 	static void replace(std::string &stds, const char* str1, const char* str2);

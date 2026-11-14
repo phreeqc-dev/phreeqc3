@@ -1058,7 +1058,9 @@ tidy_gas_phase(void)
 						phase_ptrs.push_back(phase_ptr);
 					}
 				}
-				V_m = calc_PR(phase_ptrs, P, gas_phase_ptr->Get_temperature(), 0);
+				V_m = calc_PR(phase_ptrs, P, gas_phase_ptr->Get_temperature(), 0,
+                    gas_phase_ptr->Get_type() == cxxGasPhase::GP_PRESSURE ? 1 : 0,
+                    gas_phase_ptr->Get_volume());
 				gas_phase_ptr->Set_v_m(V_m);
 				if (gas_phase_ptr->Get_type() == cxxGasPhase::GP_VOLUME)
 				{

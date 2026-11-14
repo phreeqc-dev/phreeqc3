@@ -1,3 +1,4 @@
+#include "PrRootRuntime.h"
 #include "Utils.h"
 #include "Phreeqc.h"
 #include "phqalloc.h"
@@ -3740,7 +3741,7 @@ setup_master_rxn(const std::vector<class master *> &master_ptr_list, const std::
 }
 /* ---------------------------------------------------------------------- */
 LDBLE Phreeqc::
-calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m)
+calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m, int fixed_pressure_context, LDBLE initial_volume_L)
 /* ---------------------------------------------------------------------- */
 /*  Calculate fugacity and fugacity coefficient for gas pressures if critical T and P
     are defined.
@@ -3880,6 +3881,28 @@ calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m)
 		phase_ptr->pr_aa_sum2 = a_aa_sum2;
 	}
 	b2 = b_sum * b_sum;
+    // Explicit contexts prevent pure-phase reference calls (and fixed-volume
+    // initialization with V_m==0) from inheriting a fixed-pressure gas policy.
+    const bool root_context = V_m == 0 && fixed_pressure_context != 0;
+    phrq_pr::Selection root_selection;
+    std::vector<phrq_pr::Component> root_components;
+    bool use_stable_root = false;
+    if (root_context) {
+        try {
+            phrq_pr::Runtime& policy = phrq_pr::runtime();
+            use_stable_root = policy.stable;
+            if (use_stable_root || policy.log.is_open()) {
+                for (i=0; i<n_g; ++i) {
+                    phase_ptr=phase_ptrs[i];
+                    phrq_pr::Component c={phase_ptr->fraction_x,
+                        phase_ptr->fraction_x>0 ? phase_ptr->pr_b : 0,
+                        phase_ptr->fraction_x>0 ? phase_ptr->pr_aa_sum2 : 0};
+                    root_components.push_back(c);
+                }
+                root_selection=phrq_pr::select(P,R_TK,a_aa_sum,b_sum,root_components);
+            }
+        } catch (const std::exception& e) { error_msg(e.what(), STOP); }
+    }
 
 	if (V_m)
 	{
@@ -3948,6 +3971,9 @@ calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m)
 		if (P <= 0) // iterations = -1
 			P = 1;
 	}
+    else if (use_stable_root) {
+        V_m=root_selection.roots[root_selection.selected].vm;
+    }
 	else
 	{
 		if (P < 1e-10)
@@ -3982,6 +4008,7 @@ calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m)
 			V_m = 2.0 * pow(ri, one_3) * cos(ri1 / 3) - r3[1] / 3;
 		}
 	}
+    std::vector<double> applied_raw(n_g,0), applied_lnphi(n_g,0);
  // calculate the fugacity coefficients...
 	for (i = 0; i < n_g; i++)
 	{
@@ -4002,6 +4029,10 @@ calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m)
 		{
 			phi = B_r * (rz - 1) - log(rz - B) + A / (2.828427 * B) * (B_r - 2.0 * phase_ptr->pr_aa_sum2 / a_aa_sum) *
 				log((rz + 2.41421356 * B) / (rz - 0.41421356 * B));
+            // Same selected-branch raw coefficients used for ranking and
+            // equilibrium. Retain historical clipping, expose it in diagnostics.
+            if (use_stable_root) phi=root_selection.roots[root_selection.selected].lnphi[i];
+			applied_raw[i]=phi;
 			phi = (phi > 4.44 ? 4.44 : (phi < -4.6 ? -4.6 : phi));
 			//if (phi > 4.44)
 			//	phi = 4.44;
@@ -4013,6 +4044,7 @@ calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m)
 		////	 avoid such phi...
 		//	phi = -4.6;
 		//}
+		applied_lnphi[i]=phi;
 		phase_ptr->pr_phi = exp(phi);
 		phase_ptr->pr_si_f = phi / LOG_10;
 		// for initial equilibrations, adapt log_k of the gas phase...
@@ -4024,6 +4056,11 @@ calc_PR(std::vector<class phase *> phase_ptrs, LDBLE P, LDBLE TK, LDBLE V_m)
 		}
 		phase_ptr->pr_in = true;
 	}
+    if (root_context && !root_components.empty()) {
+        try { phrq_pr::diagnose(root_selection,P,TK,a_aa_sum,b_sum,V_m,
+            root_components,fixed_pressure_context,state,iterations,initial_volume_L,applied_raw,applied_lnphi); }
+        catch (const std::exception& e) { error_msg(e.what(), STOP); }
+    }
 	if (gas_phase_ptr && iterations > 2)
 	{
 		if (gas_phase_ptr->Get_type() == cxxGasPhase::GP_VOLUME)

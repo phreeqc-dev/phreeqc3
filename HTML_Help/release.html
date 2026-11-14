@@ -15,10 +15,26 @@
 
 <!-- <p><b><FONT size = +1>Pre-release notes</b></FONT> -->
 
+<p><b><FONT size = +1>Version 3.9.2, compiled November 13, 2026.</b></FONT>
+<p>Bug-fix: For temperatures > 101ºC, the calculated specific conductance was wrong for a solution in which water is unequal to 1 kg.</p>
+<pre><b><font size = -1>SOLUTION 1; temp 111; -water 0.01
+pH 7 charge; Na 1e3; Cl 1e3
+</pre></b></font>
+now prints:
+<pre><b><font size = -1>      Specific Conductance (µS/cm, 111°C)  =  253199
+                           Density (g/cm³) =   0.98816
+                               Volume (L)  =   0.01071</pre></b></font>
+Previous versions from 3.8.0 onwards incorrectly calculated and printed the <i>Specific Conductance</i> as SC * tot("water") at temperatures above 101ºC with the Debye-Hückel-Onsager equations.</p>
+
+<p>The viscosity contribution of a species is set to 0, when its concentration is smaller than 10<sup>-9</sup> M. (In previous versions the positive value from a previous simulation persisted when the concentration fell below that limit.)</p>
+
+<p>Viscosity is now calculated up to the temperature limit of 350ºC imposed by the limits for the dielecric constant and the density calculation.</p>
+
 <p><b><FONT size = +1>Version 3.9.1, compiled September 23, 2026.</b></FONT>
 
-<p>Revised the viscosity calculation above a limiting temperature, which lets the viscosity of the B and D terms in the Jones-Dole equation decrease in uniform manner for all species by exp(-tc_fac * (tc_x - tc_lim)). It improves the results for viscosity and specific conductance notably when anions other than Cl<sup>-</sup> are present, because the volume term for anions and gas- and neutral species is bypassed (the volume term may change sign, and and give erratic results if uncorrected). The defaults are tc_lim = 150ºC and tc_fac = 2.25e-4. Values can be changed in the -viscosity numbers for H+ in SOLUTION_SPECIES (Jones_Dole[7] and [8], these numbers need to be non-negative):
+<p>Revised the viscosity calculation above a limiting temperature, which lets the viscosity of the B and D terms in the Jones-Dole equation decrease in uniform manner for all species by exp(-tc_fac * (tc_x - tc_lim)). It improves the results for viscosity and specific conductance notably when anions other than Cl<sup>-</sup> are present, because the volume term for anions and gas- and neutral species is bypassed (the volume term may change sign, and and give erratic results if uncorrected). The defaults are tc_lim = 150ºC and tc_fac = 2.25e-4. Values can be changed in the -viscosity numbers for H+ in SOLUTION_SPECIES (Jones_Dole[7] and [8], these numbers need to be positive):
 <table><tr><td>
+<FONT size = -1>
 <pre>
 <FONT COLOR="blue">SOLUTION_SPECIES</font>
 H+ = H+
@@ -26,10 +42,17 @@ H+ = H+
 <FONT COLOR="green">	#                                                 Jones_Dole[7]  [8]</font>
 	-viscosity 9.35e-2 -8.31e-2 2.487e-2 4.49e-4 2.01e-2 1.57 0 150 2.25e-4
 	-dw 9.31e-9 838 6.96 -2.285 0.206 24.01 0
-</pre></td></tr></table>
-Viscosity parameters in phreeqc.dat and pitzer.dat have been adapted to the new model structure.
+</pre>
+<p> 
+<FONT size = -1>
+The USER_GRAPH shows OLD and NEW viscosities from file 
+<I>visc_anions_tc.phr</I> in <b>c:\phreeqc\viscosity</b>.</FONT>
+<p>Viscosity parameters in phreeqc.dat and pitzer.dat have been adapted to the new model structure.
+</td>
+<TD>
+     <IMG SRC="visc.png "HEIGHT = 275 WIDTH = 318, border = 0, vspace = "10", hspace = "10">
+</TD></tr></table>
 <p>Updated the solubility of Pb(OH)<sub>2</sub> in wateq4f.dat and minteq.v4.dat.
-
 
 <p><b><FONT size = +1>Version 3.9.0, compiled June 10, 2026.</b></FONT>
 

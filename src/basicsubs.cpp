@@ -424,7 +424,7 @@ calc_SC(void)
 		// B1 = relaxation, B2 = electrophoresis in ll = (ll0 - B2 * sqrt(mu) / f2(1 + ka)) * (1 - B1 * sqrt(mu) / f1(1 + ka))
 		a = 1.60218e-19 * 1.60218e-19 / (6 * pi);
 		B1 = a / (2 * 8.8542e-12 * eps_r * 1.38066e-23 * tk_x) * q / (1 + sqrt_q) * DH_B * 1e10 * z_plus * z_min;  // DH_B is per Angstrom (*1e10)
-		t1 = tc_x < 100 ? viscos_0 : 0.2186 * pow((100 / tc_x), 0.1);
+		//t1 = tc_x < 100 ? viscos_0 : 0.2186 * pow((100 / tc_x), 0.1);
 		B2 = a * AVOGADRO / viscos_0 * DH_B * 1e17;  // DH_B per Angstrom (*1e10), viscos in mPa.s (*1e3), B2 in cm2 (*1e4)
 		//B1 = a / (2 * 8.8542e-12 * eps_c * 1.38066e-23 * tk_x) * q / (1 + sqrt_q) * DH_B * 1e10 * z_plus * z_min;  // DH_B is per Angstrom (*1e10)
 		//B2 = a * AVOGADRO / viscos * DH_B * 1e17;  // DH_B per Angstrom (*1e10), viscos in mPa.s (*1e3), B2 in cm2 (*1e4)
@@ -436,9 +436,11 @@ calc_SC(void)
 
 		//Dw_SC = 1e4 * F_C_MOL * F_C_MOL / (R_KJ_DEG_MOL * 298.15e3); // for recalculating Dw to ll0
 		t1 = calc_solution_volume();
-		ll_SC = 0.5e3 * (eq_plus + eq_min) / t1 * mass_water_aq_x; // recalculates ll to SC in uS/cm, with eq's in mol/kgw
-		if (tc_x < 101)
-			ll_SC /= t1; // improves...
+		ll_SC = 0.5e3 * (eq_plus + eq_min) / t1; // recalculates ll (= S/cm^2/eq) to SC (= uS/cm), with eq's in mol
+		t1 /= mass_water_aq_x;
+		if (tc_x > 101)
+			t1 = pow(t1, (1 - (tc_x - 100) / 175));
+		ll_SC /= t1; // for kgw/L in B1 and B2, but with trial smaller term for tc_x > 100
 
 		for (i = 0; i < (int)this->s_x.size(); i++)
 		{

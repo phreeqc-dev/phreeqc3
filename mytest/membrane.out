@@ -1,3 +1,4 @@
+WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: membrane
   Output file: membrane.out
 Database file: ../database/phreeqc.dat
@@ -300,7 +301,7 @@ Using surface 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Su            
-	 -4.105e-10  Surface + diffuse layer charge, eq
+	 -4.095e-10  Surface + diffuse layer charge, eq
 	 -1.000e-01  Surface charge, eq
 	 -5.403e-02  sigma, C/m²
 	 -1.733e-01  psi, V
@@ -405,8 +406,4 @@ Calculating transport: 20 (mobile) cells, 1 shifts, 109 mixruns...
 WARNING: No porosities were read; used the value 1.00e+00 from -multi_D.
 
 Calculating transport: 20 (mobile) cells, 1 shifts, 218 mixruns...
-
--------------------------------
-End of Run after 9.313 Seconds.
--------------------------------
 

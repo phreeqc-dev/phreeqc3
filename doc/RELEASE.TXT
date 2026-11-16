@@ -1,5 +1,11 @@
 Version @PHREEQC_VER@: @PHREEQC_DATE@
 	-----------------
+	November 13, 2026
+	-----------------
+	Fixed bug in specific conductance calculation when tc > 101 C and mass of 
+	water was not equal to 1.0.
+	
+	-----------------
 	September 23, 2026
 	-----------------
 	Revised the viscosity calculation above a limiting temperature, which lets the 

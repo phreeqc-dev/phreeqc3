@@ -1045,7 +1045,13 @@ public:
 	void* free_check_null(void* ptr);
 	int get_token(const char** eqnaddr, std::string& string, LDBLE* z, int* l);
 	int islegit(const char c);
+#if (defined(_MSVC_LANG) && _MSVC_LANG >= 201103L) || (__cplusplus >= 201103L)
+	// C++11 or later
 	[[noreturn]] void malloc_error(void);
+#else
+	// pre-C++11 (C++98/03)
+	void malloc_error(void);
+#endif
 	int print_centered(const char* string);
 	static int replace(const char* str1, const char* str2, char* str);
 	static void replace(std::string &stds, const char* str1, const char* str2);

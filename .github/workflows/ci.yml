@@ -509,7 +509,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-14, macos-15, ubuntu-22.04, ubuntu-24.04, windows-2022, windows-2025]
+        os: [macos-latest, ubuntu-latest, windows-latest]
         BUILD_TYPE: [Debug, Release]
 
     runs-on: ${{ matrix.os }}

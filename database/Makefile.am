@@ -26,5 +26,6 @@ DATABASE=\
 	pitzer.dat\
 	sit.dat\
 	stimela.dat\
+	THEREDA_2026-01_PHRQ_r17.dat\
 	Tipping_Hurley.dat\
 	wateq4f.dat

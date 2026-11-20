@@ -646,7 +646,6 @@ malloc_error(void)
 {
 	error_msg("NULL pointer returned from malloc or realloc.", CONTINUE);
 	error_msg("Program terminating.", STOP);
-	return;
 }
 
 /* ---------------------------------------------------------------------- */

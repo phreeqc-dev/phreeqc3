@@ -377,6 +377,7 @@ set(TESTS
   Sat_P_rho
   saunders
   saver
+  sc_above_101
   SC_Ohm
   SC_Ohm1
   SC_temp

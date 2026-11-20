@@ -2,8 +2,21 @@ Version @PHREEQC_VER@: @PHREEQC_DATE@
 	-----------------
 	November 13, 2026
 	-----------------
-	Fixed bug in specific conductance calculation when tc > 101 C and mass of 
-	water was not equal to 1.0.
+	PHREEQC: Fixed bug in specific conductance calculation when tc > 101 C 
+	and mass of water was not equal to 1.0.
+
+	Previous versions from 3.8.0 onwards incorrectly calculated and printed 
+	the Specific Conductance as SC * tot("water") at temperatures above 
+	101 C with the Debye-Hückel-Onsager equations.
+
+	The viscosity contribution of a species is set to 0, when its 
+	concentration is smaller than 10-9 M. (In previous versions the 
+	positive value from a 	previous simulation persisted when the 
+	concentration fell below that limit.)
+
+	Viscosity is now calculated up to the temperature limit of 350 C 
+	imposed by the limits for the dielectric constant and the density 
+	calculation.
 	
 	-----------------
 	September 23, 2026

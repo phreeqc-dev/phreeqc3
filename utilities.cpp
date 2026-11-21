@@ -646,7 +646,11 @@ malloc_error(void)
 {
 	error_msg("NULL pointer returned from malloc or realloc.", CONTINUE);
 	error_msg("Program terminating.", STOP);
-	return;
+#if (defined(_MSVC_LANG) && _MSVC_LANG >= 201103L) || (__cplusplus >= 201103L)
+    // error_msg(STOP) throws, but some compilers need an explicit throw
+    // to recognize that this function satisfies the [[noreturn]] attribute.
+	throw PhreeqcStop();
+#endif
 }
 
 /* ---------------------------------------------------------------------- */

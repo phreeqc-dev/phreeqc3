@@ -109,7 +109,7 @@ jobs:
     steps:
 
     - name: '🧰 Checkout'
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: 'fixup_html'
       shell: bash
@@ -121,14 +121,14 @@ jobs:
       working-directory: ${{ github.workspace }}/HTMLversion
       run: tar czf ../HTML.tar.gz HTML/*.htm HTML/*.png HTML/*.css
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: HTML
         path: ${{github.workspace}}/HTML.tar.gz
 
     - name: cache htmlhelp
       id: cache-htmlhelp
-      uses: actions/cache@v4
+      uses: actions/cache@v6
       with:
         path: "C:/Program Files (x86)/HTML Help Workshop"
         key: ${{ runner.os }}-htmlhelp
@@ -171,7 +171,7 @@ jobs:
           exit 1
         fi
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: chm
         path: ${{github.workspace}}/HTMLversion/phreeqc3.chm
@@ -183,14 +183,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v7
 
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v8
       with:
         name: chm
         path: ${{github.workspace}}/HTMLversion
 
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v8
       with:
         name: HTML
 
@@ -231,7 +231,7 @@ jobs:
       working-directory: ${{github.workspace}}/_build
       run: mv *.tar.gz *.zip ../.
 
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: phreeqc-artifacts
         path: |
@@ -241,7 +241,7 @@ jobs:
           Phreeqc_ReleaseNotes.txt
           HTML.tar.gz
 
-    - uses: geekyeggo/delete-artifact@v5
+    - uses: geekyeggo/delete-artifact@v6
       with:
         name: |
           chm
@@ -266,7 +266,7 @@ jobs:
 
     steps:
 
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v8
       with:
         # name: tarball
         name: phreeqc-artifacts
@@ -310,7 +310,7 @@ jobs:
     #   if: runner.os == 'Windows'
     #   run: Remove-Item -Recurse -Force *
 
-    # - uses: actions/checkout@v4
+    # - uses: actions/checkout@v7
 
     # - name: Test install (configure) (Non-Windows)
     #   if: ${{ matrix.phreeqcrm_with_yaml_cpp != 'ON' }}

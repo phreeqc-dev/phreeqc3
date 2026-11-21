@@ -255,4 +255,4 @@ jobs:
       uses: actions/upload-artifact@v7
       with:
         name: ${{ matrix.os }}-results
-        path: ${{ github.workspace }}/_ctest/Testing/
+        path: ${{ github.workspace }}/_*/Testing/

@@ -1,3 +1,4 @@
+WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: andra_kin_ss
   Output file: andra_kin_ss.out
 Database file: ../database/phreeqc.dat
@@ -304,7 +305,7 @@ Kinetics 1.
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  5.934e-13  Surface + diffuse layer charge, eq
+	 -3.513e-12  Surface + diffuse layer charge, eq
 	  3.033e-02  Surface charge, eq
 	  2.872e-01  sigma, C/m²
 	  1.610e-01  psi, V
@@ -343,7 +344,7 @@ Sura
 ----------------------------Description of solution----------------------------
 
                                         pH  =  12.926       Charge balance
-                                        pe  =  6.707        Adjusted to redox equilibrium
+                                        pe  =  -7.362       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,   5°C)  =  2713      
                            Density (g/cm³)  =  1.00144  
                                 Volume (L)  =  0.92838  
@@ -355,7 +356,7 @@ Sura
                           Temperature (°C)  =  5.00  
                    Electrical balance (eq)  =  8.587e-11  
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
-                               Iterations  =   0    (90394 overall)
+                               Iterations  =   0    (91786 overall)
                                    Total H  =  1.031155e+02
                                    Total O  =  5.157448e+01
 
@@ -376,10 +377,10 @@ Al            2.733e-03
 Ca            1.389e-02
    Ca+2            7.299e-03   4.038e-03    -2.137    -2.394    -0.257    -18.31
    CaOH+           6.593e-03   5.648e-03    -2.181    -2.248    -0.067     (0)  
-H(0)          0.000e+00
-   H2              0.000e+00   0.000e+00   -42.325   -42.322     0.003     13.02
-O(0)          2.694e-15
-   O2              1.347e-15   1.356e-15   -14.871   -14.868     0.003     28.29
+H(0)          1.296e-14
+   H2              6.479e-15   6.524e-15   -14.188   -14.185     0.003     13.02
+O(0)          0.000e+00
+   O2              0.000e+00   0.000e+00   -71.145   -71.142     0.003     28.29
 
 ------------------------------Saturation indices-------------------------------
 
@@ -387,12 +388,12 @@ O(0)          2.694e-15
 
   Al(OH)3(a)       -2.84      9.35   12.20  Al(OH)3
   Gibbsite          0.55     -0.83   -1.37  Al(OH)3
-  H2(g)           -39.28    -42.32   -3.05  H2
+  H2(g)           -11.14    -14.19   -3.05  H2
   H2O(g)           -2.06     -0.00    2.06  H2O
   Hydrogarnet       1.18    -19.66  -20.84  Ca3Al2(OH)12
-  O2(g)           -12.15    -14.87   -2.71  O2
+  O2(g)           -68.43    -71.14   -2.71  O2
   OH_AFm           -0.01    -12.83  -12.82  Ca2Al(OH)(OH)6:3H2O
-  OH_AFmsura       -0.00    -12.74  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
+  OH_AFmsura        0.00    -12.74  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
   Portlandite      -0.81     -6.00   -5.19  Ca(OH)2
 
 **For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
@@ -588,7 +589,7 @@ Kinetics 2.
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  1.701e-12  Surface + diffuse layer charge, eq
+	  3.863e-12  Surface + diffuse layer charge, eq
 	  2.368e-02  Surface charge, eq
 	  2.872e-01  sigma, C/m²
 	  1.677e-01  psi, V
@@ -629,7 +630,7 @@ Sura
 ----------------------------Description of solution----------------------------
 
                                         pH  =  11.633       Charge balance
-                                        pe  =  6.341        Adjusted to redox equilibrium
+                                        pe  =  6.886        Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  3176      
                            Density (g/cm³)  =  0.99839  
                                 Volume (L)  =  0.96002  
@@ -639,9 +640,9 @@ Sura
                         Mass of water (kg)  =  9.571e-01  
                    Total alkalinity (eq/kg)  = 1.745e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.655e-13  
-   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
-                               Iterations  =   0    (76177 overall)
+                   Electrical balance (eq)  =  -4.065e-11 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   0    (72105 overall)
                                    Total H  =  1.062697e+02
                                    Total O  =  5.314319e+01
 
@@ -665,10 +666,10 @@ Ca            1.203e-02
 Cl            1.543e-02
    Cl-             1.543e-02   1.290e-02    -1.812    -1.889    -0.078     18.22
    HCl             1.001e-14   1.036e-14   -14.000   -13.985     0.015     20.36
-H(0)          1.583e-39
-   H2              7.915e-40   7.982e-40   -39.102   -39.098     0.004     14.99
-O(0)          1.350e-14
-   O2              6.748e-15   6.802e-15   -14.171   -14.167     0.004     30.40
+H(0)          0.000e+00
+   H2              0.000e+00   0.000e+00   -40.191   -40.187     0.004     14.99
+O(0)          2.036e-12
+   O2              1.018e-12   1.026e-12   -11.992   -11.989     0.004     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -678,10 +679,10 @@ O(0)          1.350e-14
   Cl_AFm            0.12    -13.67  -13.79  Ca2AlCl(OH)6:3H2O
   Cl_AFmsura       -0.02    -13.55  -13.53  Ca2AlCl(OH)5.95:3H2O+0.05
   Gibbsite          0.88     -0.24   -1.12  Al(OH)3
-  H2(g)           -36.00    -39.10   -3.10  H2
+  H2(g)           -37.09    -40.19   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -0.50    -21.34  -20.84  Ca3Al2(OH)12
-  O2(g)           -11.27    -14.17   -2.89  O2
+  O2(g)            -9.10    -11.99   -2.89  O2
   OH_AFm           -1.32    -14.14  -12.82  Ca2Al(OH)(OH)6:3H2O
   OH_AFmsura       -1.29    -14.03  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
   Portlandite      -1.76     -6.95   -5.19  Ca(OH)2
@@ -1072,10 +1073,10 @@ Kinetics 5.
 
 	Rate name       Delta Moles Total Moles   Reactant        Coefficient
 
-	Sum_AFmsura      -5.038e-02   4.849e-02   H2O                       0
-	OH_AFmsura       -5.038e-02   4.849e-02   OH_AFmsura                1
-	SUM_all_AFmsura  -5.038e-02   4.849e-02   H2O                       0
-	Hydrogarnet       2.544e-02   2.544e-02   Hydrogarnet               1
+	Sum_AFmsura      -5.037e-02   4.850e-02   H2O                       0
+	OH_AFmsura       -5.037e-02   4.850e-02   OH_AFmsura                1
+	SUM_all_AFmsura  -5.037e-02   4.850e-02   H2O                       0
+	Hydrogarnet       2.543e-02   2.543e-02   Hydrogarnet               1
 
 -------------------------------Phase assemblage--------------------------------
 
@@ -1083,23 +1084,23 @@ Kinetics 5.
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
 Gibbsite         -1.31    -2.44     -1.12    0.000e+00           0   0.000e+00
-Portlandite      -0.00    -5.19     -5.19    0.000e+00   3.947e-03   3.947e-03
+Portlandite      -0.00    -5.19     -5.19    0.000e+00   3.942e-03   3.942e-03
 
 ------------------------------Surface composition------------------------------
 
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  8.674e-18  Surface + diffuse layer charge, eq
+	 -2.602e-18  Surface + diffuse layer charge, eq
 	  2.425e-03  Surface charge, eq
 	  2.872e-01  sigma, C/m²
 	  1.574e-01  psi, V
 	 -6.128e+00  -F*psi/RT
 	  2.181e-03  exp(-F*psi/RT)
 	  1.680e+04  specific area, m²/mol SUM_all_AFmsura
-	  8.147e+02  m² for   4.849e-02 moles of SUM_all_AFmsura
+	  8.148e+02  m² for   4.850e-02 moles of SUM_all_AFmsura
 
-	Water in diffuse layer: 8.147e-05 kg, 100.0% of total DDL-water.
+	Water in diffuse layer: 8.148e-05 kg, 100.0% of total DDL-water.
 		      viscosity: 0.00000 mPa s for DDL water.
 
 	Total moles in diffuse layer (excluding water), Donnan calculation.
@@ -1107,17 +1108,17 @@ Sura
 	Boltzmann factor, exp(-psi_DL * F / RT) = 1.226e-03 (= c_DL / c_free if z is +1).
 
 	Element       	     Moles
-	Al            	  8.7604e-06
-	Ca            	  4.4170e-10
-	H             	  2.4509e-03
-	O             	  2.4509e-03
+	Al            	  8.7622e-06
+	Ca            	  4.4179e-10
+	H             	  2.4514e-03
+	O             	  2.4514e-03
 
 Sura          
 	  2.425e-03  moles	[0.05 mol/(mol kinetic reactant SUM_all_AFmsura)]
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Sura+             2.425e-03       1.000   2.418e-03      -2.617
+	Sura+             2.425e-03       1.000   2.418e-03      -2.616
 
 -----------------------------Solution composition------------------------------
 
@@ -1129,7 +1130,7 @@ Sura
 ----------------------------Description of solution----------------------------
 
                                         pH  =  12.463       Charge balance
-                                        pe  =  -8.868       Adjusted to redox equilibrium
+                                        pe  =  -8.907       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  7930      
                            Density (g/cm³)  =  0.99898  
                                 Volume (L)  =  1.00527  
@@ -1139,11 +1140,11 @@ Sura
                         Mass of water (kg)  =  1.003e+00  
                    Total alkalinity (eq/kg)  = 4.128e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -6.939e-18 
+                   Electrical balance (eq)  =  -6.245e-17 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   1889 (86916 overall)
-                                   Total H  =  1.113561e+02
-                                   Total O  =  5.569873e+01
+                               Iterations  =   1825 (145386 overall)
+                                   Total H  =  1.113560e+02
+                                   Total O  =  5.569870e+01
 
 ----------------------------Distribution of species----------------------------
 
@@ -1162,10 +1163,10 @@ Al            1.318e-04
 Ca            2.044e-02
    Ca+2            1.604e-02   7.484e-03    -1.795    -2.126    -0.331    -17.61
    CaOH+           4.404e-03   3.604e-03    -2.356    -2.443    -0.087     (0)  
-H(0)          9.026e-11
-   H2              4.513e-11   4.571e-11   -10.346   -10.340     0.006     14.99
+H(0)          1.079e-10
+   H2              5.396e-11   5.465e-11   -10.268   -10.262     0.006     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -71.689   -71.683     0.005     30.40
+   O2              0.000e+00   0.000e+00   -71.844   -71.839     0.005     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1173,10 +1174,10 @@ O(0)          0.000e+00
 
   Al(OH)3(a)       -4.56      6.24   10.80  Al(OH)3
   Gibbsite         -1.31     -2.44   -1.12  Al(OH)3
-  H2(g)            -7.24    -10.34   -3.10  H2
+  H2(g)            -7.16    -10.26   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet       0.40    -20.44  -20.84  Ca3Al2(OH)12
-  O2(g)           -68.79    -71.68   -2.89  O2
+  O2(g)           -68.95    -71.84   -2.89  O2
   OH_AFm            0.00    -12.82  -12.82  Ca2Al(OH)(OH)6:3H2O
   OH_AFmsura       -0.00    -12.74  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
   Portlandite      -0.00     -5.19   -5.19  Ca(OH)2
@@ -1259,19 +1260,19 @@ Kinetics 5.
 
 	Rate name       Delta Moles Total Moles   Reactant        Coefficient
 
-	Sum_AFmsura      -3.390e-02   6.498e-02   H2O                       0
-	OH_AFmsura       -3.335e-02   5.615e-02   OH_AFmsura                1
-	SUM_all_AFmsura  -2.400e-02   6.498e-02   H2O                       0
-	Cl_AFmsura       -5.581e-04   8.829e-03   Cl_AFmsura                1
-	Sum_all_AFmsura   5.508e-02   6.498e-02   H2O                       0
-	Hydrogarnet       1.710e-02   1.710e-02   Hydrogarnet               1
+	Sum_AFmsura      -3.395e-02   6.493e-02   H2O                       0
+	OH_AFmsura       -3.339e-02   5.610e-02   OH_AFmsura                1
+	SUM_all_AFmsura  -2.406e-02   6.493e-02   H2O                       0
+	Cl_AFmsura       -5.596e-04   8.827e-03   Cl_AFmsura                1
+	Sum_all_AFmsura   5.503e-02   6.493e-02   H2O                       0
+	Hydrogarnet       1.713e-02   1.713e-02   Hydrogarnet               1
 
 -------------------------------Phase assemblage--------------------------------
 
                                                       Moles in assemblage
 Phase               SI  log IAP  log K(T, P)   Initial       Final       Delta
 
-Gibbsite         -0.89    -2.02     -1.12    0.000e+00           0   0.000e+00
+Gibbsite         -0.90    -2.02     -1.12    0.000e+00           0   0.000e+00
 Portlandite      -0.24    -5.43     -5.19    0.000e+00           0   0.000e+00
 
 ------------------------------Surface composition------------------------------
@@ -1279,87 +1280,87 @@ Portlandite      -0.24    -5.43     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  1.041e-17  Surface + diffuse layer charge, eq
-	  6.003e-03  Surface charge, eq
+	 -9.541e-18  Surface + diffuse layer charge, eq
+	  5.998e-03  Surface charge, eq
 	  5.306e-01  sigma, C/m²
-	  1.939e-01  psi, V
-	 -7.547e+00  -F*psi/RT
-	  5.279e-04  exp(-F*psi/RT)
+	  1.938e-01  psi, V
+	 -7.545e+00  -F*psi/RT
+	  5.286e-04  exp(-F*psi/RT)
 	  1.680e+04  specific area, m²/mol SUM_all_AFmsura
-	  1.092e+03  m² for   6.498e-02 moles of SUM_all_AFmsura
+	  1.091e+03  m² for   6.493e-02 moles of SUM_all_AFmsura
 
-	Water in diffuse layer: 1.092e-04 kg, 100.0% of total DDL-water.
+	Water in diffuse layer: 1.091e-04 kg, 100.0% of total DDL-water.
 		      viscosity: 0.00000 mPa s for DDL water.
 
 	Total moles in diffuse layer (excluding water), Donnan calculation.
-	Donnan Layer potential, psi_DL =  1.932e-01 V.
-	Boltzmann factor, exp(-psi_DL * F / RT) = 5.429e-04 (= c_DL / c_free if z is +1).
+	Donnan Layer potential, psi_DL =  1.931e-01 V.
+	Boltzmann factor, exp(-psi_DL * F / RT) = 5.436e-04 (= c_DL / c_free if z is +1).
 
 	Element       	     Moles
-	Al            	  5.5226e-05
-	Ca            	  1.8274e-10
-	Cl            	  1.4745e-04
-	H             	  6.0212e-03
-	O             	  6.0209e-03
+	Al            	  5.4813e-05
+	Ca            	  1.8325e-10
+	Cl            	  1.4744e-04
+	H             	  6.0149e-03
+	O             	  6.0146e-03
 
 Sura          
-	  6.003e-03  moles	[0.05 mol/(mol kinetic reactant SUM_all_AFmsura)]
+	  5.998e-03  moles	[0.05 mol/(mol kinetic reactant SUM_all_AFmsura)]
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Sura+             6.003e-03       1.000   5.992e-03      -2.222
+	Sura+             5.998e-03       1.000   5.987e-03      -2.223
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Al                2.747e-04   2.751e-04
-	Ca                1.646e-02   1.649e-02
-	Cl                7.333e-04   7.346e-04
+	Al                2.732e-04   2.737e-04
+	Ca                1.649e-02   1.652e-02
+	Cl                7.348e-04   7.361e-04
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  12.370       Charge balance
                                         pe  =  -12.516      Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  6476      
+       Specific Conductance (µS/cm,  25°C)  =  6484      
                            Density (g/cm³)  =  0.99861  
                                 Volume (L)  =  1.00444  
-                         Viscosity (mPa s)  =  0.89940  
+                         Viscosity (mPa s)  =  0.89941  
                          Activity of water  =  0.999  
-                  Ionic strength (mol/kgw)  =  4.324e-02  
+                  Ionic strength (mol/kgw)  =  4.330e-02  
                         Mass of water (kg)  =  1.002e+00  
-                   Total alkalinity (eq/kg)  = 3.302e-02  
+                   Total alkalinity (eq/kg)  = 3.306e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.041e-17  
-   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
-                               Iterations  =   1795 (159183 overall)
-                                   Total H  =  1.112462e+02
-                                   Total O  =  5.563825e+01
+                   Electrical balance (eq)  =  -6.939e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   1742 (154379 overall)
+                                   Total H  =  1.112465e+02
+                                   Total O  =  5.563845e+01
 
 ----------------------------Distribution of species----------------------------
 
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             2.884e-02   2.369e-02    -1.540    -1.626    -0.086     -3.89
-   H+              4.967e-13   4.270e-13   -12.304   -12.370    -0.066      0.00
+   OH-             2.888e-02   2.371e-02    -1.539    -1.625    -0.086     -3.89
+   H+              4.961e-13   4.265e-13   -12.304   -12.370    -0.066      0.00
    H2O             5.551e+01   9.992e-01     1.744    -0.000     0.000     18.07
-Al            2.747e-04
-   Al(OH)4-        2.747e-04   2.279e-04    -3.561    -3.642    -0.081     (0)  
-   Al(OH)3         5.115e-11   5.166e-11   -10.291   -10.287     0.004     (0)  
-   Al(OH)2+        1.791e-16   1.498e-16   -15.747   -15.824    -0.077     (0)  
-   AlOH+2          1.668e-23   8.170e-24   -22.778   -23.088    -0.310    -27.30
-   Al+3            1.371e-30   3.515e-31   -29.863   -30.454    -0.591    -41.42
-Ca            1.646e-02
-   Ca+2            1.339e-02   6.571e-03    -1.873    -2.182    -0.309    -17.65
-   CaOH+           3.076e-03   2.552e-03    -2.512    -2.593    -0.081     (0)  
-Cl            7.333e-04
-   Cl-             7.333e-04   6.040e-04    -3.135    -3.219    -0.084     18.24
-   HCl             8.516e-17   8.885e-17   -16.070   -16.051     0.018     20.36
-H(0)          2.749e-03
-   H2              1.374e-03   1.389e-03    -2.862    -2.857     0.005     14.99
+Al            2.732e-04
+   Al(OH)4-        2.732e-04   2.266e-04    -3.564    -3.645    -0.081     (0)  
+   Al(OH)3         5.081e-11   5.132e-11   -10.294   -10.290     0.004     (0)  
+   Al(OH)2+        1.777e-16   1.487e-16   -15.750   -15.828    -0.078     (0)  
+   AlOH+2          1.653e-23   8.095e-24   -22.782   -23.092    -0.310    -27.30
+   Al+3            1.357e-30   3.478e-31   -29.867   -30.459    -0.591    -41.42
+Ca            1.649e-02
+   Ca+2            1.340e-02   6.577e-03    -1.873    -2.182    -0.309    -17.65
+   CaOH+           3.083e-03   2.557e-03    -2.511    -2.592    -0.081     (0)  
+Cl            7.348e-04
+   Cl-             7.348e-04   6.052e-04    -3.134    -3.218    -0.084     18.24
+   HCl             8.522e-17   8.891e-17   -16.069   -16.051     0.018     20.36
+H(0)          2.746e-03
+   H2              1.373e-03   1.388e-03    -2.862    -2.858     0.005     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -86.653   -86.649     0.004     30.40
+   O2              0.000e+00   0.000e+00   -86.652   -86.648     0.004     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -1368,10 +1369,10 @@ O(0)          0.000e+00
   Al(OH)3(a)       -4.15      6.65   10.80  Al(OH)3
   Cl_AFm           -0.69    -14.48  -13.79  Ca2AlCl(OH)6:3H2O
   Cl_AFmsura       -0.87    -14.40  -13.53  Ca2AlCl(OH)5.95:3H2O+0.05
-  Gibbsite         -0.89     -2.02   -1.12  Al(OH)3
+  Gibbsite         -0.90     -2.02   -1.12  Al(OH)3
   H2(g)             0.24     -2.86   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
-  Hydrogarnet       0.51    -20.33  -20.84  Ca3Al2(OH)12
+  Hydrogarnet       0.50    -20.34  -20.84  Ca3Al2(OH)12
   O2(g)           -83.76    -86.65   -2.89  O2
   OH_AFm           -0.06    -12.88  -12.82  Ca2Al(OH)(OH)6:3H2O
   OH_AFmsura       -0.06    -12.80  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
@@ -1475,7 +1476,7 @@ Portlandite      -0.37    -5.56     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	 -1.561e-17  Surface + diffuse layer charge, eq
+	  8.674e-18  Surface + diffuse layer charge, eq
 	  5.870e-03  Surface charge, eq
 	  4.915e-01  sigma, C/m²
 	  1.923e-01  psi, V
@@ -1526,9 +1527,9 @@ Sura
                         Mass of water (kg)  =  1.002e+00  
                    Total alkalinity (eq/kg)  = 2.944e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  3.123e-17  
+                   Electrical balance (eq)  =  1.041e-17  
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
-                               Iterations  =   1567 (135370 overall)
+                               Iterations  =   1525 (130771 overall)
                                    Total H  =  1.112212e+02
                                    Total O  =  5.562414e+01
 
@@ -1651,12 +1652,12 @@ Kinetics 5.
 
 	Rate name       Delta Moles Total Moles   Reactant        Coefficient
 
-	Sum_AFmsura      -2.664e-02   7.226e-02   H2O                       0
-	OH_AFmsura       -2.506e-02   4.569e-02   OH_AFmsura                1
-	SUM_all_AFmsura   3.054e-03   7.226e-02   H2O                       0
-	Cl_AFmsura       -1.586e-03   2.657e-02   Cl_AFmsura                1
-	Sum_all_AFmsura   4.256e-02   7.226e-02   H2O                       0
-	Hydrogarnet       1.330e-02   1.330e-02   Hydrogarnet               1
+	Sum_AFmsura      -2.666e-02   7.225e-02   H2O                       0
+	OH_AFmsura       -2.507e-02   4.567e-02   OH_AFmsura                1
+	SUM_all_AFmsura   3.040e-03   7.225e-02   H2O                       0
+	Cl_AFmsura       -1.587e-03   2.657e-02   Cl_AFmsura                1
+	Sum_all_AFmsura   4.255e-02   7.225e-02   H2O                       0
+	Hydrogarnet       1.331e-02   1.331e-02   Hydrogarnet               1
 
 -------------------------------Phase assemblage--------------------------------
 
@@ -1671,85 +1672,85 @@ Portlandite      -0.52    -5.71     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	 -5.204e-18  Surface + diffuse layer charge, eq
-	  5.741e-03  Surface charge, eq
+	 -2.602e-18  Surface + diffuse layer charge, eq
+	  5.740e-03  Surface charge, eq
 	  4.563e-01  sigma, C/m²
 	  1.909e-01  psi, V
-	 -7.431e+00  -F*psi/RT
-	  5.928e-04  exp(-F*psi/RT)
+	 -7.430e+00  -F*psi/RT
+	  5.931e-04  exp(-F*psi/RT)
 	  1.680e+04  specific area, m²/mol SUM_all_AFmsura
-	  1.214e+03  m² for   7.226e-02 moles of SUM_all_AFmsura
+	  1.214e+03  m² for   7.225e-02 moles of SUM_all_AFmsura
 
 	Water in diffuse layer: 1.214e-04 kg, 100.0% of total DDL-water.
 		      viscosity: 0.00000 mPa s for DDL water.
 
 	Total moles in diffuse layer (excluding water), Donnan calculation.
 	Donnan Layer potential, psi_DL =  1.942e-01 V.
-	Boltzmann factor, exp(-psi_DL * F / RT) = 5.210e-04 (= c_DL / c_free if z is +1).
+	Boltzmann factor, exp(-psi_DL * F / RT) = 5.212e-04 (= c_DL / c_free if z is +1).
 
 	Element       	     Moles
-	Al            	  1.2602e-04
-	Ca            	  1.3174e-10
-	Cl            	  4.8290e-04
-	H             	  5.6367e-03
-	O             	  5.6364e-03
+	Al            	  1.2573e-04
+	Ca            	  1.3185e-10
+	Cl            	  4.8291e-04
+	H             	  5.6344e-03
+	O             	  5.6341e-03
 
 Sura          
-	  5.741e-03  moles	[0.05 mol/(mol kinetic reactant SUM_all_AFmsura)]
+	  5.740e-03  moles	[0.05 mol/(mol kinetic reactant SUM_all_AFmsura)]
 	                                   Mole                     Log
 	Species               Moles    Fraction    Molality    Molality
 
-	Sura+             5.741e-03       1.000   5.733e-03      -2.242
+	Sura+             5.740e-03       1.000   5.732e-03      -2.242
 
 -----------------------------Solution composition------------------------------
 
 	Elements           Molality       Moles
 
-	Al                5.408e-04   5.415e-04
+	Al                5.399e-04   5.406e-04
 	Ca                1.336e-02   1.338e-02
-	Cl                2.072e-03   2.075e-03
+	Cl                2.074e-03   2.076e-03
 
 ----------------------------Description of solution----------------------------
 
                                         pH  =  12.259       Charge balance
                                         pe  =  -12.349      Adjusted to redox equilibrium
-       Specific Conductance (µS/cm,  25°C)  =  5204      
+       Specific Conductance (µS/cm,  25°C)  =  5206      
                            Density (g/cm³)  =  0.99834  
                                 Volume (L)  =  1.00414  
                          Viscosity (mPa s)  =  0.89783  
                          Activity of water  =  0.999  
-                  Ionic strength (mol/kgw)  =  3.592e-02  
+                  Ionic strength (mol/kgw)  =  3.593e-02  
                         Mass of water (kg)  =  1.001e+00  
-                   Total alkalinity (eq/kg)  = 2.626e-02  
+                   Total alkalinity (eq/kg)  = 2.627e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -2.429e-17 
-   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   1414 (115270 overall)
-                                   Total H  =  1.111965e+02
-                                   Total O  =  5.561032e+01
+                   Electrical balance (eq)  =  1.735e-17  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   1325 (107881 overall)
+                                   Total H  =  1.111966e+02
+                                   Total O  =  5.561037e+01
 
 ----------------------------Distribution of species----------------------------
 
                                                Log       Log       Log    mole V
    Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
 
-   OH-             2.202e-02   1.835e-02    -1.657    -1.736    -0.079     -3.92
-   H+              6.359e-13   5.513e-13   -12.197   -12.259    -0.062      0.00
+   OH-             2.203e-02   1.835e-02    -1.657    -1.736    -0.079     -3.92
+   H+              6.356e-13   5.511e-13   -12.197   -12.259    -0.062      0.00
    H2O             5.551e+01   9.993e-01     1.744    -0.000     0.000     18.07
-Al            5.408e-04
-   Al(OH)4-        5.408e-04   4.545e-04    -3.267    -3.342    -0.076     (0)  
-   Al(OH)3         1.319e-10   1.330e-10    -9.880    -9.876     0.004     (0)  
-   Al(OH)2+        5.884e-16   4.981e-16   -15.230   -15.303    -0.072     (0)  
-   AlOH+2          6.827e-23   3.506e-23   -22.166   -22.455    -0.289    -27.34
-   Al+3            7.031e-30   1.948e-30   -29.153   -29.711    -0.558    -41.49
+Al            5.399e-04
+   Al(OH)4-        5.399e-04   4.537e-04    -3.268    -3.343    -0.076     (0)  
+   Al(OH)3         1.317e-10   1.328e-10    -9.881    -9.877     0.004     (0)  
+   Al(OH)2+        5.870e-16   4.969e-16   -15.231   -15.304    -0.072     (0)  
+   AlOH+2          6.809e-23   3.497e-23   -22.167   -22.456    -0.289    -27.34
+   Al+3            7.010e-30   1.941e-30   -29.154   -29.712    -0.558    -41.49
 Ca            1.336e-02
-   Ca+2            1.128e-02   5.800e-03    -1.948    -2.237    -0.289    -17.70
-   CaOH+           2.077e-03   1.745e-03    -2.683    -2.758    -0.076     (0)  
-Cl            2.072e-03
-   Cl-             2.072e-03   1.731e-03    -2.684    -2.762    -0.078     18.22
-   HCl             3.173e-16   3.287e-16   -15.498   -15.483     0.015     20.36
-H(0)          2.125e-03
-   H2              1.062e-03   1.072e-03    -2.974    -2.970     0.004     14.99
+   Ca+2            1.128e-02   5.801e-03    -1.948    -2.236    -0.289    -17.70
+   CaOH+           2.078e-03   1.746e-03    -2.682    -2.758    -0.076     (0)  
+Cl            2.074e-03
+   Cl-             2.074e-03   1.732e-03    -2.683    -2.762    -0.078     18.22
+   HCl             3.174e-16   3.288e-16   -15.498   -15.483     0.015     20.36
+H(0)          2.124e-03
+   H2              1.062e-03   1.071e-03    -2.974    -2.970     0.004     14.99
 O(0)          0.000e+00
    O2              0.000e+00   0.000e+00   -86.427   -86.423     0.004     30.40
 
@@ -1867,7 +1868,7 @@ Portlandite      -0.68    -5.87     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  5.204e-18  Surface + diffuse layer charge, eq
+	 -8.674e-19  Surface + diffuse layer charge, eq
 	  5.628e-03  Surface charge, eq
 	  4.249e-01  sigma, C/m²
 	  1.897e-01  psi, V
@@ -1918,9 +1919,9 @@ Sura
                         Mass of water (kg)  =  1.001e+00  
                    Total alkalinity (eq/kg)  = 2.370e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.041e-17 
+                   Electrical balance (eq)  =  -5.898e-17 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   1293 (101937 overall)
+                               Iterations  =   1301 (102191 overall)
                                    Total H  =  1.111714e+02
                                    Total O  =  5.559665e+01
 
@@ -2063,7 +2064,7 @@ Portlandite      -0.85    -6.04     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  8.674e-18  Surface + diffuse layer charge, eq
+	  9.541e-18  Surface + diffuse layer charge, eq
 	  5.542e-03  Surface charge, eq
 	  3.971e-01  sigma, C/m²
 	  1.886e-01  psi, V
@@ -2084,7 +2085,7 @@ Sura
 	Ca            	  8.7552e-11
 	Cl            	  8.7358e-04
 	H             	  5.6819e-03
-	O             	  5.6817e-03
+	O             	  5.6816e-03
 
 Sura          
 	  5.542e-03  moles	[0.05 mol/(mol kinetic reactant SUM_all_AFmsura)]
@@ -2114,9 +2115,9 @@ Sura
                         Mass of water (kg)  =  1.001e+00  
                    Total alkalinity (eq/kg)  = 2.210e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.735e-17  
-   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
-                               Iterations  =   1165 (89736 overall)
+                   Electrical balance (eq)  =  -7.633e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   1167 (89254 overall)
                                    Total H  =  1.111456e+02
                                    Total O  =  5.558309e+01
 
@@ -2259,7 +2260,7 @@ Portlandite      -1.03    -6.22     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  0.000e+00  Surface + diffuse layer charge, eq
+	 -1.648e-17  Surface + diffuse layer charge, eq
 	  5.493e-03  Surface charge, eq
 	  3.728e-01  sigma, C/m²
 	  1.873e-01  psi, V
@@ -2310,9 +2311,9 @@ Sura
                         Mass of water (kg)  =  1.001e+00  
                    Total alkalinity (eq/kg)  = 2.183e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -8.847e-17 
+                   Electrical balance (eq)  =  -1.041e-16 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   1041 (80626 overall)
+                               Iterations  =   1043 (80108 overall)
                                    Total H  =  1.111189e+02
                                    Total O  =  5.556974e+01
 
@@ -2455,7 +2456,7 @@ Portlandite      -1.18    -6.37     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  3.469e-18  Surface + diffuse layer charge, eq
+	  2.255e-17  Surface + diffuse layer charge, eq
 	  5.493e-03  Surface charge, eq
 	  3.522e-01  sigma, C/m²
 	  1.854e-01  psi, V
@@ -2506,9 +2507,9 @@ Sura
                         Mass of water (kg)  =  1.000e+00  
                    Total alkalinity (eq/kg)  = 2.261e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -1.735e-18 
+                   Electrical balance (eq)  =  -2.082e-17 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   843  (63448 overall)
+                               Iterations  =   845  (63611 overall)
                                    Total H  =  1.110903e+02
                                    Total O  =  5.555596e+01
 
@@ -2651,7 +2652,7 @@ Portlandite      -1.23    -6.42     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  3.903e-18  Surface + diffuse layer charge, eq
+	 -1.258e-17  Surface + diffuse layer charge, eq
 	  5.317e-03  Surface charge, eq
 	  3.292e-01  sigma, C/m²
 	  1.814e-01  psi, V
@@ -2702,9 +2703,9 @@ Sura
                         Mass of water (kg)  =  1.000e+00  
                    Total alkalinity (eq/kg)  = 2.114e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -2.429e-17 
+                   Electrical balance (eq)  =  -4.510e-17 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   807  (57841 overall)
+                               Iterations  =   805  (57608 overall)
                                    Total H  =  1.110701e+02
                                    Total O  =  5.554530e+01
 
@@ -2847,7 +2848,7 @@ Portlandite      -1.31    -6.50     -5.19    0.000e+00           0   0.000e+00
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  5.638e-18  Surface + diffuse layer charge, eq
+	  4.770e-18  Surface + diffuse layer charge, eq
 	  4.928e-03  Surface charge, eq
 	  3.017e-01  sigma, C/m²
 	  1.757e-01  psi, V
@@ -2898,9 +2899,9 @@ Sura
                         Mass of water (kg)  =  1.000e+00  
                    Total alkalinity (eq/kg)  = 1.910e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -4.337e-17 
-   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   758  (52374 overall)
+                   Electrical balance (eq)  =  3.469e-18  
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
+                               Iterations  =   760  (52539 overall)
                                    Total H  =  1.110622e+02
                                    Total O  =  5.554056e+01
 
@@ -3041,7 +3042,7 @@ Gibbsite          0.50    -0.62     -1.12    0.000e+00   3.718e-03   3.718e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	 -4.337e-19  Surface + diffuse layer charge, eq
+	  1.843e-17  Surface + diffuse layer charge, eq
 	  4.677e-03  Surface charge, eq
 	  2.872e-01  sigma, C/m²
 	  1.707e-01  psi, V
@@ -3082,7 +3083,7 @@ Sura
 ----------------------------Description of solution----------------------------
 
                                         pH  =  11.829       Charge balance
-                                        pe  =  -7.046       Adjusted to redox equilibrium
+                                        pe  =  -7.209       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  3261      
                            Density (g/cm³)  =  0.99821  
                                 Volume (L)  =  1.00325  
@@ -3092,9 +3093,9 @@ Sura
                         Mass of water (kg)  =  1.000e+00  
                    Total alkalinity (eq/kg)  = 1.648e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -6.245e-17 
+                   Electrical balance (eq)  =  -3.469e-17 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   685  (34197 overall)
+                               Iterations  =   684  (34441 overall)
                                    Total H  =  1.110616e+02
                                    Total O  =  5.553904e+01
 
@@ -3118,10 +3119,10 @@ Ca            1.089e-02
 Cl            1.104e-02
    Cl-             1.104e-02   9.311e-03    -1.957    -2.031    -0.074     18.21
    HCl             4.615e-15   4.758e-15   -14.336   -14.323     0.013     20.36
-H(0)          3.814e-13
-   H2              1.907e-13   1.922e-13   -12.720   -12.716     0.003     14.99
+H(0)          8.083e-13
+   H2              4.042e-13   4.072e-13   -12.393   -12.390     0.003     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.933   -66.930     0.003     30.40
+   O2              0.000e+00   0.000e+00   -67.586   -67.583     0.003     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -3131,10 +3132,10 @@ O(0)          0.000e+00
   Cl_AFm            0.10    -13.69  -13.79  Ca2AlCl(OH)6:3H2O
   Cl_AFmsura       -0.05    -13.58  -13.53  Ca2AlCl(OH)5.95:3H2O+0.05
   Gibbsite          0.50     -0.62   -1.12  Al(OH)3
-  H2(g)            -9.62    -12.72   -3.10  H2
+  H2(g)            -9.29    -12.39   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -0.20    -21.04  -20.84  Ca3Al2(OH)12
-  O2(g)           -64.04    -66.93   -2.89  O2
+  O2(g)           -64.69    -67.58   -2.89  O2
   OH_AFm           -1.00    -13.82  -12.82  Ca2Al(OH)(OH)6:3H2O
   OH_AFmsura       -0.97    -13.71  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
   Portlandite      -1.41     -6.60   -5.19  Ca(OH)2
@@ -3235,7 +3236,7 @@ Gibbsite          0.50    -0.62     -1.12    0.000e+00   2.280e-03   2.280e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  1.388e-17  Surface + diffuse layer charge, eq
+	  1.041e-17  Surface + diffuse layer charge, eq
 	  4.768e-03  Surface charge, eq
 	  2.872e-01  sigma, C/m²
 	  1.675e-01  psi, V
@@ -3276,7 +3277,7 @@ Sura
 ----------------------------Description of solution----------------------------
 
                                         pH  =  11.759       Charge balance
-                                        pe  =  -6.956       Adjusted to redox equilibrium
+                                        pe  =  -7.140       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  3445      
                            Density (g/cm³)  =  0.99831  
                                 Volume (L)  =  1.00321  
@@ -3286,9 +3287,9 @@ Sura
                         Mass of water (kg)  =  1.000e+00  
                    Total alkalinity (eq/kg)  = 1.422e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.383e-17 
+                   Electrical balance (eq)  =  -2.168e-17 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   607  (22376 overall)
+                               Iterations  =   607  (21231 overall)
                                    Total H  =  1.110485e+02
                                    Total O  =  5.553136e+01
 
@@ -3312,10 +3313,10 @@ Ca            1.227e-02
 Cl            1.526e-02
    Cl-             1.526e-02   1.276e-02    -1.816    -1.894    -0.078     18.22
    HCl             7.394e-15   7.656e-15   -14.131   -14.116     0.015     20.36
-H(0)          3.476e-13
-   H2              1.738e-13   1.753e-13   -12.760   -12.756     0.004     14.99
+H(0)          8.119e-13
+   H2              4.059e-13   4.094e-13   -12.392   -12.388     0.004     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.854   -66.851     0.004     30.40
+   O2              0.000e+00   0.000e+00   -67.591   -67.587     0.004     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -3325,10 +3326,10 @@ O(0)          0.000e+00
   Cl_AFm            0.12    -13.67  -13.79  Ca2AlCl(OH)6:3H2O
   Cl_AFmsura       -0.03    -13.56  -13.53  Ca2AlCl(OH)5.95:3H2O+0.05
   Gibbsite          0.50     -0.62   -1.12  Al(OH)3
-  H2(g)            -9.66    -12.76   -3.10  H2
+  H2(g)            -9.29    -12.39   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -0.49    -21.33  -20.84  Ca3Al2(OH)12
-  O2(g)           -63.96    -66.85   -2.89  O2
+  O2(g)           -64.70    -67.59   -2.89  O2
   OH_AFm           -1.19    -14.01  -12.82  Ca2Al(OH)(OH)6:3H2O
   OH_AFmsura       -1.16    -13.90  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
   Portlandite      -1.51     -6.70   -5.19  Ca(OH)2
@@ -3429,7 +3430,7 @@ Gibbsite          0.50    -0.62     -1.12    0.000e+00   1.697e-03   1.697e-03
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	  7.156e-18  Surface + diffuse layer charge, eq
+	 -5.421e-18  Surface + diffuse layer charge, eq
 	  4.806e-03  Surface charge, eq
 	  2.872e-01  sigma, C/m²
 	  1.654e-01  psi, V
@@ -3470,7 +3471,7 @@ Sura
 ----------------------------Description of solution----------------------------
 
                                         pH  =  11.720       Charge balance
-                                        pe  =  -6.909       Adjusted to redox equilibrium
+                                        pe  =  -7.100       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  3597      
                            Density (g/cm³)  =  0.99839  
                                 Volume (L)  =  1.00320  
@@ -3480,9 +3481,9 @@ Sura
                         Mass of water (kg)  =  1.000e+00  
                    Total alkalinity (eq/kg)  = 1.312e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  2.602e-18  
-   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
-                               Iterations  =   559  (20362 overall)
+                   Electrical balance (eq)  =  -2.429e-17 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                               Iterations  =   556  (19486 overall)
                                    Total H  =  1.110428e+02
                                    Total O  =  5.552797e+01
 
@@ -3506,10 +3507,10 @@ Ca            1.325e-02
 Cl            1.791e-02
    Cl-             1.791e-02   1.489e-02    -1.747    -1.827    -0.080     18.23
    HCl             9.408e-15   9.769e-15   -14.026   -14.010     0.016     20.36
-H(0)          3.341e-13
-   H2              1.670e-13   1.686e-13   -12.777   -12.773     0.004     14.99
+H(0)          8.067e-13
+   H2              4.034e-13   4.071e-13   -12.394   -12.390     0.004     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.821   -66.817     0.004     30.40
+   O2              0.000e+00   0.000e+00   -67.586   -67.583     0.004     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -3519,10 +3520,10 @@ O(0)          0.000e+00
   Cl_AFm            0.12    -13.67  -13.79  Ca2AlCl(OH)6:3H2O
   Cl_AFmsura       -0.02    -13.55  -13.53  Ca2AlCl(OH)5.95:3H2O+0.05
   Gibbsite          0.50     -0.62   -1.12  Al(OH)3
-  H2(g)            -9.67    -12.77   -3.10  H2
+  H2(g)            -9.29    -12.39   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -0.64    -21.48  -20.84  Ca3Al2(OH)12
-  O2(g)           -63.92    -66.82   -2.89  O2
+  O2(g)           -64.69    -67.58   -2.89  O2
   OH_AFm           -1.30    -14.12  -12.82  Ca2Al(OH)(OH)6:3H2O
   OH_AFmsura       -1.26    -14.00  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
   Portlandite      -1.56     -6.75   -5.19  Ca(OH)2
@@ -3624,7 +3625,7 @@ Gibbsite          0.50    -0.62     -1.12    0.000e+00   8.022e-04   8.022e-04
 Diffuse Double Layer Surface-Complexation Model
 
 Sura          
-	 -5.421e-18  Surface + diffuse layer charge, eq
+	  8.890e-18  Surface + diffuse layer charge, eq
 	  4.867e-03  Surface charge, eq
 	  2.872e-01  sigma, C/m²
 	  1.607e-01  psi, V
@@ -3665,7 +3666,7 @@ Sura
 ----------------------------Description of solution----------------------------
 
                                         pH  =  11.639       Charge balance
-                                        pe  =  -6.846       Adjusted to redox equilibrium
+                                        pe  =  -7.018       Adjusted to redox equilibrium
        Specific Conductance (µS/cm,  25°C)  =  4037      
                            Density (g/cm³)  =  0.99860  
                                 Volume (L)  =  1.00321  
@@ -3675,9 +3676,9 @@ Sura
                         Mass of water (kg)  =  1.000e+00  
                    Total alkalinity (eq/kg)  = 1.112e-02  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  -3.036e-17 
+                   Electrical balance (eq)  =  -3.383e-17 
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
-                               Iterations  =   471  (16310 overall)
+                               Iterations  =   483  (16131 overall)
                                    Total H  =  1.110335e+02
                                    Total O  =  5.552231e+01
 
@@ -3701,10 +3702,10 @@ Ca            1.581e-02
 Cl            2.432e-02
    Cl-             2.432e-02   1.993e-02    -1.614    -1.700    -0.086     18.25
    HCl             1.507e-14   1.576e-14   -13.822   -13.802     0.020     20.36
-H(0)          3.632e-13
-   H2              1.816e-13   1.836e-13   -12.741   -12.736     0.005     14.99
+H(0)          8.012e-13
+   H2              4.006e-13   4.051e-13   -12.397   -12.392     0.005     14.99
 O(0)          0.000e+00
-   O2              0.000e+00   0.000e+00   -66.896   -66.891     0.005     30.40
+   O2              0.000e+00   0.000e+00   -67.583   -67.578     0.005     30.40
 
 ------------------------------Saturation indices-------------------------------
 
@@ -3714,10 +3715,10 @@ O(0)          0.000e+00
   Cl_AFm            0.13    -13.66  -13.79  Ca2AlCl(OH)6:3H2O
   Cl_AFmsura       -0.02    -13.55  -13.53  Ca2AlCl(OH)5.95:3H2O+0.05
   Gibbsite          0.50     -0.62   -1.12  Al(OH)3
-  H2(g)            -9.64    -12.74   -3.10  H2
+  H2(g)            -9.29    -12.39   -3.10  H2
   H2O(g)           -1.50     -0.00    1.50  H2O
   Hydrogarnet      -0.95    -21.79  -20.84  Ca3Al2(OH)12
-  O2(g)           -64.00    -66.89   -2.89  O2
+  O2(g)           -64.69    -67.58   -2.89  O2
   OH_AFm           -1.50    -14.32  -12.82  Ca2Al(OH)(OH)6:3H2O
   OH_AFmsura       -1.46    -14.20  -12.74  Ca2Al(OH)(OH)5.95:3H2O+0.05
   Portlandite      -1.66     -6.85   -5.19  Ca(OH)2
@@ -3741,8 +3742,4 @@ End of simulation.
 -------------------------------------
 Reading input data for simulation 38.
 -------------------------------------
-
---------------------------------
-End of Run after 23.011 Seconds.
---------------------------------
 

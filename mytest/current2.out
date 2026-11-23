@@ -1,3 +1,4 @@
+WARNING: Database file from DATABASE keyword is used; command line argument ignored.
    Input file: current2
   Output file: current2.out
 Database file: ../database/phreeqc.dat
@@ -622,7 +623,7 @@ H2(g)            -3.41    -6.51     -3.10    0.000e+00               0.000e+00
                         Mass of water (kg)  =  1.000e+05  
                    Total alkalinity (eq/kg)  = 1.080e-01  
                           Temperature (°C)  =  25.00 
-                   Electrical balance (eq)  =  1.498e-08  
+                   Electrical balance (eq)  =  7.791e-09  
    Percent error, 100*(Cat-|An|)/(Cat+|An|)  = 0.00  
                                 Iterations  =  1   
                                    Total H  =  1.111204e+07
@@ -668,8 +669,4 @@ End of simulation.
 ------------------------------------
 Reading input data for simulation 3.
 ------------------------------------
-
----------------------------------
-End of Run after 124.926 Seconds.
----------------------------------
 

@@ -1,0 +1,113 @@
+   Input file: sc_above_101
+  Output file: sc_above_101.out
+Database file: ../database/phreeqc.dat
+
+------------------
+Reading data base.
+------------------
+
+	SOLUTION_MASTER_SPECIES
+	SOLUTION_SPECIES
+	PHASES
+	GAS_BINARY_PARAMETERS
+	EXCHANGE_MASTER_SPECIES
+	EXCHANGE_SPECIES
+	SURFACE_MASTER_SPECIES
+	SURFACE_SPECIES
+	MEAN_GAMMAS
+	RATES
+	END
+------------------------------------
+Reading input data for simulation 1.
+------------------------------------
+
+	DATABASE ../database/phreeqc.dat
+	SELECTED_OUTPUT 101
+	    file                 sc_above_101_101.sel
+	USER_PUNCH 101
+	    headings Mu SC
+	    start
+	10 PUNCH STR_F$(MU, 20, 12)
+	20 PUNCH STR_F$(SC, 20, 10)
+	    end
+	SOLUTION 1
+	 temp 111
+	 water 0.01
+	pH 7 charge
+	 Na 1e3
+	 Cl 1e3
+-------------------------------------------
+Beginning of initial solution calculations.
+-------------------------------------------
+
+Initial solution 1.	
+
+-----------------------------Solution composition------------------------------
+
+	Elements           Molality       Moles
+
+	Cl                1.000e+00   1.000e-02
+	Na                1.000e+00   1.000e-02
+
+----------------------------Description of solution----------------------------
+
+                                        pH  =  5.986        Charge balance
+                                        pe  =  4.000      
+       Specific Conductance (µS/cm, 111°C)  =  253199    
+                           Density (g/cm³)  =  0.98816  
+                                Volume (L)  =  0.01071  
+                         Viscosity (mPa s)  =  0.28544  
+                         Activity of water  =  0.966  
+                  Ionic strength (mol/kgw)  =  1.000e+00  
+                        Mass of water (kg)  =  1.000e-02  
+                   Total alkalinity (eq/kg)  = 5.440e-11  
+                          Temperature (°C)  =  111.00
+                            Pressure (atm)  =  1.46 
+                   Electrical balance (eq)  =  -6.945e-13 
+   Percent error, 100*(Cat-|An|)/(Cat+|An|)  = -0.00 
+                                Iterations  =  4   
+                                   Total H  =  1.110124e+00
+                                   Total O  =  5.550622e-01
+
+----------------------------Distribution of species----------------------------
+
+                                               Log       Log       Log    mole V
+   Species          Molality    Activity  Molality  Activity     Gamma   cm³/mol
+
+   OH-             1.504e-06   7.895e-07    -5.823    -6.103    -0.280     -3.52
+   H+              1.461e-06   1.033e-06    -5.835    -5.986    -0.151      0.00
+   H2O             5.551e+01   9.660e-01     1.744    -0.015     0.000     18.96
+Cl            1.000e+00
+   Cl-             1.000e+00   5.529e-01    -0.000    -0.257    -0.257     17.31
+   HCl             4.331e-08   1.154e-07    -7.363    -6.938     0.426     23.26
+H(0)          6.100e-24
+   H2              3.050e-24   3.884e-24   -23.516   -23.411     0.105     18.71
+Na            1.000e+00
+   Na+             1.000e+00   6.688e-01     0.000    -0.175    -0.175      1.38
+O(0)          3.659e-25
+   O2              1.829e-25   2.303e-25   -24.738   -24.638     0.100     34.30
+
+------------------------------Saturation indices-------------------------------
+
+  Phase               SI** log IAP   log K(384 K,   1 atm)
+
+  H2(g)           -20.35    -23.41   -3.06  H2
+  H2O(g)            0.14     -0.02   -0.16  H2O
+  Halite           -2.06     -0.43    1.62  NaCl
+  O2(g)           -21.53    -24.64   -3.11  O2
+
+**For a gas, SI = log10(fugacity). Fugacity = pressure * phi / 1 atm.
+  For ideal gases, phi = 1.
+
+------------------
+End of simulation.
+------------------
+
+------------------------------------
+Reading input data for simulation 2.
+------------------------------------
+
+-------------------------------
+End of Run after 1.067 Seconds.
+-------------------------------
+
